@@ -1,0 +1,4 @@
+// Noms propis de marques
+// Els que comencen per vocal poden dur "d'"
+
+Barça

@@ -1,0 +1,1291 @@
+// Un fitxer a partir del qual es genera *.aff
+
+// la descripció del fitxer d'afixos
+DESC
+=======================================================================================
+                             Corrector ortogràfic català
+                         Fitxer d'afixos i llista de paraules
+=======================================================================================
+Copyright (C) 2002, 2006 Joan Moratinos <jmo@softcatala.org>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+02111-1307, USA.
+=======================================================================================
+Fonts: Diccionari de l'Institut d'Estudis Catalans
+       Diccionari Català/Castellà - Castellà/Català de Francesc de B. Moll
+       Diccionari d'Ispell d'Ignasi Labastida
+Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas
+=======================================================================================
+/DESC
+
+// el joc de caràcters
+SET ISO8859-1
+
+// Grups a què pertanyen les parts de les regles
+// Afecten la generació del fitxer d'afixos i del diccionari
+GRUPS
+000 Sense condicions
+001 Indicatiu present en -am i -au (cantam, cantau)
+002 Subjuntiu imperfet en -às,-assis, etc. (cantàs, cantassis)
+003 Subjuntiu imperfet en -isses, -íssem, etc. (patisses, patíssem)
+004 Subjuntiu imperfet en -ara, -era, -ira, etc. (cantara, beguera, patira)
+005 Incoatius en -esc (patesc)
+006 Incoatius en -isc, -ix, -isca (patisc, patixes, patisca)
+007 Indicatiu present en -e (cante)
+008 Subjuntiu present i imperatiu en -e (cante)
+009 Subjuntiu present en -a (perda, tema, senta)
+010 Subjuntiu imperfet en -esses (perdesses, temesses)
+011 Subjuntiu imperfet en -esses (cantesses)
+013 IPR1 dels verbs en -ar sense desinència
+101 Accepta "complit", etc.
+102 Accepta "duim", "feim", etc.
+103 Accepta "tenc" i "vénc"
+999 Regles que no s'han d'incloure al fitxer d'afixos
+/GRUPS
+
+// els grups per als quals es generaran regles
+
+// els caràcters que es provaran
+TRY easirtocnlumdpgvfbqjwxyzhàèéíïòóúüç·-'
+
+// Les primeres proves que es faran
+
+// Errades freqüents: accents i l·l
+FIRST a/à e/é/è i/í/ï o/ó/ò u/ú/ü
+FIRST l/l·l
+
+// Minúscules per majúscules
+FIRST e/E a/A s/S i/I r/R t/T o/O c/C n/N l/L u/U m/M d/D p/P g/G v/V f/F b/B
+FIRST q/Q j/J w/W x/X y/Y z/Z h/H à/À è/È é/É í/Í ï/Ï ò/Ò ó/Ó ú/Ú ü/Ü 
+
+// Sufixos
+// Nota: Només hi ha les formes més comunes dels tres grans dialectes
+
+// ==========================================================================
+// Pronoms enclítics
+// ==========================================================================
+
+// (combinable: p.e. "d'anar-hi")
+REGLA C SFX+ Pronoms personals enclítics darrere consonant
+000     0      -me         .                # posar-me
+000     0      -nos        .                # posar-nos
+000     0      -te         .                # posar-te
+000     0      -vos        .                # posar-vos
+000     0      -se         .                # posar-se
+000     0      -lo         .                # posar-lo
+000     0      -la         .                # posar-la
+000     0      -li         .                # posar-li
+000     0      -los        .                # posar-los
+000     0      -les        .                # posar-les
+000     0      -ho         .                # posar-ho
+000     0      -hi         .                # posar-hi
+000     0      -ne         .                # posar-ne
+000     0      -se't       .                # posar-se't
+000     0      -se-us      .                # posar-se-us
+000     0      -se'm       .                # posar-se'm
+000     0      -te'm       .                # posar-te'm
+000     0      -vos-em     .                # posar-vos-em
+000     0      -se'ns      .                # posar-se'ns
+000     0      -te'ns      .                # posar-te'ns
+000     0      -vos-ens    .                # posar-vos-ens
+000     0      -se'l       .                # posar-se'l
+000     0      -te'l       .                # posar-te'l
+000     0      -vos-el     .                # posar-vos-el
+000     0      -me'l       .                # posar-me'l
+000     0      -nos-el     .                # posar-nos-el
+000     0      -los-el     .                # posar-los-el
+000     0      -l'hi       .                # posar-l'hi
+000     0      -se'ls      .                # posar-se'ls
+000     0      -te'ls      .                # posar-te'ls
+000     0      -vos-els    .                # posar-vos-els
+000     0      -me'ls      .                # posar-me'ls
+000     0      -nos-els    .                # posar-nos-els
+000     0      -los-els    .                # posar-los-els
+000     0      -los-hi     .                # posar-los-hi
+000     0      -se-la      .                # posar-se-la
+000     0      -te-la      .                # posar-te-la
+000     0      -vos-la     .                # posar-vos-la
+000     0      -me-la      .                # posar-me-la
+000     0      -nos-la     .                # posar-nos-la
+000     0      -los-la     .                # posar-los-la
+000     0      -la-hi      .                # posar-la-hi
+000     0      -se-les     .                # posar-se-les
+000     0      -te-les     .                # posar-te-les
+000     0      -vos-les    .                # posar-vos-les
+000     0      -me-les     .                # posar-me-les
+000     0      -nos-les    .                # posar-nos-les
+000     0      -los-les    .                # posar-los-les
+000     0      -les-hi     .                # posar-les-hi
+000     0      -se-li      .                # posar-se-li
+000     0      -te-li      .                # posar-te-li
+000     0      -vos-li     .                # posar-vos-li
+000     0      -me-li      .                # posar-me-li
+000     0      -nos-li     .                # posar-nos-li
+000     0      -s'ho       .                # posar-s'ho
+000     0      -t'ho       .                # posar-t'ho
+000     0      -vos-ho     .                # posar-vos-ho
+000     0      -m'ho       .                # posar-m'ho
+000     0      -nos-ho     .                # posar-nos-ho
+000     0      -los-ho     .                # posar-los-ho
+000     0      -li-ho      .                # posar-li-ho
+000     0      -se'n       .                # posar-se'n
+000     0      -te'n       .                # posar-te'n
+000     0      -vos-en     .                # posar-vos-en
+000     0      -me'n       .                # posar-me'n
+000     0      -nos-en     .                # posar-nos-en
+000     0      -l'en       .                # posar-l'en
+000     0      -los-en     .                # posar-los-en
+000     0      -la'n       .                # posar-la'n
+000     0      -les-en     .                # posar-les-en
+000     0      -li'n       .                # posar-li'n
+000     0      -s'hi       .                # posar-s'hi
+000     0      -t'hi       .                # posar-t'hi
+000     0      -vos-hi     .                # posar-vos-hi
+000     0      -m'hi       .                # posar-m'hi
+000     0      -nos-hi     .                # posar-nos-hi
+000     0      -l'hi       .                # posar-l'hi
+000     0      -los-hi     .                # posar-los-hi
+000     0      -la-hi      .                # posar-la-hi
+000     0      -les-hi     .                # posar-les-hi
+000     0      -n'hi       .                # posar-n'hi
+/REGLA
+
+REGLA D SFX+ Pronoms personals enclítics darrere vocal
+000     0      'm          .                # posa'm
+000     0      'ns         .                # posa'ns
+000     0      't          .                # posa't
+000     0      -us         .                # posa-us
+000     0      's          .                # posa's
+000     0      'l          .                # posa'l
+000     0      -la         .                # posa-la
+000     0      -li         .                # posa-li
+000     0      'ls         .                # posa'ls
+000     0      -les        .                # posa-les
+000     0      -ho         .                # posa-ho
+000     0      -hi         .                # posa-hi
+000     0      'n          .                # posa'n
+000     0      -se't       .                # posa-se't
+000     0      -se-us      .                # posa-se-us
+000     0      -se'm       .                # posa-se'm
+000     0      -te'm       .                # posa-te'm
+000     0      -us-em      .                # posa-us-em
+000     0      -se'ns      .                # posa-se'ns
+000     0      -te'ns      .                # posa-te'ns
+000     0      -us-ens     .                # posa-us-ens
+000     0      -se'l       .                # posa-se'l
+000     0      -te'l       .                # posa-te'l
+000     0      -us-el      .                # posa-us-el
+000     0      -me'l       .                # posa-me'l
+000     0      'ns-el      .                # posa'ns-el
+000     0      'ls-el      .                # posa'ls-el
+000     0      -l'hi       .                # posa-l'hi
+000     0      -se'ls      .                # posa-se'ls
+000     0      -te'ls      .                # posa-te'ls
+000     0      -us-els     .                # posa-us-els
+000     0      -me'ls      .                # posa-me'ls
+000     0      'ns-els     .                # posa'ns-els
+000     0      'ls-els     .                # posa'ls-els
+000     0      'ls-hi      .                # posa'ls-hi
+000     0      -se-la      .                # posa-se-la
+000     0      -te-la      .                # posa-te-la
+000     0      -us-la      .                # posa-us-la
+000     0      -me-la      .                # posa-me-la
+000     0      'ns-la      .                # posa'ns-la
+000     0      'ls-la      .                # posa'ls-la
+000     0      -la-hi      .                # posa-la-hi
+000     0      -se-les     .                # posa-se-les
+000     0      -te-les     .                # posa-te-les
+000     0      -us-les     .                # posa-us-les
+000     0      -me-les     .                # posa-me-les
+000     0      'ns-les     .                # posa'ns-les
+000     0      'ls-les     .                # posa'ls-les
+000     0      -les-hi     .                # posa-les-hi
+000     0      -se-li      .                # posa-se-li
+000     0      -te-li      .                # posa-te-li
+000     0      -us-li      .                # posa-us-li
+000     0      -me-li      .                # posa-me-li
+000     0      'ns-li      .                # posa'ns-li
+000     0      -s'ho       .                # posa-s'ho
+000     0      -t'ho       .                # posa-t'ho
+000     0      -us-ho      .                # posa-us-ho
+000     0      -m'ho       .                # posa-m'ho
+000     0      'ns-ho      .                # posa'ns-ho
+000     0      'ls-ho      .                # posa'ls-ho
+000     0      -li-ho      .                # posa-li-ho
+000     0      -se'n       .                # posa-se'n
+000     0      -te'n       .                # posa-te'n
+000     0      -us-en      .                # posa-us-en
+000     0      -me'n       .                # posa-me'n
+000     0      'ns-en      .                # posa'ns-en
+000     0      -l'en       .                # posa-l'en
+000     0      'ls-en      .                # posa'ls-en
+000     0      -la'n       .                # posa-la'n
+000     0      -les-en     .                # posa-les-en
+000     0      -li'n       .                # posa-li'n
+000     0      -s'hi       .                # posa-s'hi
+000     0      -t'hi       .                # posa-t'hi
+000     0      -us-hi      .                # posa-us-hi
+000     0      -m'hi       .                # posa-m'hi
+000     0      'ns-hi      .                # posa'ns-hi
+000     0      -l'hi       .                # posa-l'hi
+000     0      'ls-hi      .                # posa'ls-hi
+000     0      -la-hi      .                # posa-la-hi
+000     0      -les-hi     .                # posa-les-hi
+000     0      -n'hi       .                # posa-n'hi
+/REGLA
+
+// ==========================================================================
+// Formació de plurals
+// ==========================================================================
+
+REGLA E SFX+ Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
+000     0      s           [^as]            # homes
+000     0      os          [sx][ct]         # boscos, rostos, textos
+000     ig     jos         [aeo]ig          # rajos, baladrejos, rojos 
+000     a      es          [^cçgju]a        # dones
+000     a      es          [^gq]ua          # grues
+000     ua     ües         [gq]ua           # aigües, siliqües
+000     ca     ques        ca               # vaques
+000     ça     ces         ça               # terces
+000     ga     gues        ga               # bagues
+000     ja     ges         ja               # pluges
+/REGLA
+// NOTA: els femenins en -st no poden aplicar aquesta regla,
+//       car generaria formes incorrectes (com "postos")
+
+REGLA I SFX+ Plurals afegint o (eventualment amb canvi d'accent)
+000     0      os          [^s]             # guixos
+000     0      os          [^àèéíòóú]s      # gasos, cursos
+000     às     asos        às               # biogasos
+000     ès     esos        ès               # entesos
+000     és     esos        és               # 
+000     ís     isos        [^aeou]ís        # avisos
+000     ís     ïsos        [aeo]ís          #
+000     ís     isos        [gq]uís          #
+000     ís     ïsos        [^gq]uís         #
+000     òs     osos        òs               # 
+000     ós     osos        ós               # 
+000     ús     usos        [^aeoi]ús        #
+000     ús     üsos        [aeoi]ús         #
+/REGLA
+
+REGLA G SFX+ Plurals afegint ns
+000     0      ns          a                # pans
+000     0      ns          e                # blens
+000     0      ns          i                # brins
+000     0      ns          o                # trons
+000     0      ns          u                # bruns
+000     à      ans         à                # germans
+000     è      ens         è                # amens
+000     é      ens         é                # 
+000     í      ins         [^aeou]í         # camins
+000     í      ins         [gq]uí           # 
+000     í      ïns         [^gq]uí          # 
+000     í      ïns         [aeo]í           # 
+000     ò      ons         ò                # ultrasons
+000     ó      ons         ó                # avions
+000     ú      uns         ú                # tribuns
+/REGLA
+
+// ==========================================================================
+// Quatre formes (femení, masculí plural, femení plural)
+// ==========================================================================
+
+REGLA F SFX+ Quatre formes afegint a/s/es (sense o, però també foscos)
+000     0      a           [^eosxç]         # verda  2.
+000     e      a           e                # altra
+000     o      a           o                # fonda
+000     0      s           [^asçx]          # verds  3.
+000     a      es          a                # poetes
+000     0      os          [sx][ct]         # foscos
+000     0      es          [^aeocçgsx]      # verdes 4.
+000     a      es          a                # poetes
+000     0      s           e                # pobres
+000     o      es          o                # fondes
+000     c      ques        c                # poques
+000     ç      ces         ç                # felices
+000     g      gues        g                # antropòfagues
+/REGLA
+
+REGLA B SFX+ Quatre formes amb canvi t > d, u > v, c > g, s > ss
+000     t      da          t                # abalida - canvi t > d   2.
+000     u      va          u                # nova    - canvi u > v
+000     c      ga          c                # antiga  - canvi c > g
+000     0      sa          [^àèéíòóú]s      # grossa  - canvi s > ss
+000     às     assa        às               #
+000     ès     essa        ès               #
+000     és     essa        és               # 
+000     ís     issa        [^aeou]ís        #
+000     ís     ïssa        [aeo]ís          #
+000     ís     issa        [gq]uís          #
+000     ís     ïssa        [^gq]uís         #
+000     òs     ossa        òs               # 
+000     ós     ossa        ós               # 
+000     ús     ussa        [^aeoi]ús        #
+000     ús     üssa        [aeoi]ús         #
+000     0      s           t                # abalits                 3.
+000     0      s           u                # nous
+000     0      s           c                # antics
+000     0      sos         [^àèéíòóú]s      # grossos
+000     às     assos       às               #
+000     ès     essos       ès               #
+000     és     essos       és               #
+000     ís     issos       [^aeou]ís        #
+000     ís     ïssos       [aeo]ís          #
+000     ís     issos       [gq]uís          #
+000     ís     ïssos       [^gq]uís         #
+000     òs     ossos       òs               #
+000     ós     ossos       ós               # 
+000     ús     ussos       [^aeoi]ús        #
+000     ús     üssos       [aeoi]ús         #
+000     t      des         t                # abalides                4.
+000     u      ves         u                # noves
+000     c      gues        c                # antigues
+000     0      ses         [^àèéíòóú]s      # grosses
+000     às     asses       às               #
+000     ès     esses       ès               #
+000     és     esses       és               #
+000     ís     isses       [^aeou]ís        #
+000     ís     ïsses       [aeo]ís          #
+000     ís     isses       [gq]uís          #
+000     ís     ïsses       [^gq]uís         #
+000     òs     osses       òs               #
+000     ós     osses       ós               # 
+000     ús     usses       [^aeoi]ús        #
+000     ús     üsses       [aeoi]ús         #
+/REGLA
+
+REGLA H SFX+ Quatre formes afegint ns
+000     0      na          [aeiou]          # plana, plena, fina, bona, bruna   2.
+000     à      ana         à                # forana
+000     è      ena         è                # amena
+000     é      ena         é                # 
+000     í      ina         [^aeou]í         # albina
+000     í      ina         [gq]uí           # beguina
+000     í      ïna         [^gq]uí          # beduïna
+000     í      ïna         [aeo]í           # veïna
+000     ò      ona         ò                # 
+000     ó      ona         ó                # rodona
+000     ú      una         ú                # dejuna
+000     0      ns          [aeiou]          # plans, plens, fins, bons, bruns   3.
+000     à      ans         à                # forans
+000     è      ens         è                # amens
+000     é      ens         é                # 
+000     í      ins         [^aeou]í         # albins
+000     í      ins         [gq]uí           # beguins
+000     í      ïns         [^gq]uí          # beduïns
+000     í      ïns         [aeo]í           # veïns
+000     ò      ons         ò                # 
+000     ó      ons         ó                # rodons
+000     ú      uns         ú                # dejuns
+000     0      nes         [aeiou]          # planes, plenes, fines, bones, brunes 4.
+000     à      anes        à                # foranes
+000     è      enes        è                # amenes
+000     é      enes        é                # 
+000     í      ines        [^aeou]í         # albines
+000     í      ines        [gq]uí           # beguines
+000     í      ïnes        [^gq]uí          # beduïnes
+000     í      ïnes        [aeo]í           # veïnes
+000     ò      ones        ò                # 
+000     ó      ones        ó                # rodones
+000     ú      unes        ú                # dejunes
+/REGLA
+
+REGLA J SFX+ Quatre formes afegint a/os/es
+000     0      a           [^s]             #          2.
+000     0      a           [^àèéíòóú]s      # agradosa
+000     às     asa         às               # 
+000     ès     esa         ès               # 
+000     és     esa         és               # 
+000     ís     isa         ís               # 
+000     òs     osa         òs               # 
+000     ós     osa         ós               # 
+000     ús     usa         ús               # 
+000     0      os          [^s]             #          3.
+000     0      os          [^àèéíòóú]s      # agradosos
+000     às     asos        às               # 
+000     ès     esos        ès               # 
+000     és     esos        és               # 
+000     ís     isos        ís               # 
+000     òs     osos        òs               # 
+000     ós     osos        ós               # 
+000     ús     usos        ús               # 
+000     0      es          [^sç]            #          4.
+000     ç      ces         ç                # terces
+000     0      es          [^àèéíòóú]s      # agradoses
+000     às     ases        às               # 
+000     ès     eses        ès               # 
+000     és     eses        és               # 
+000     ís     ises        ís               # 
+000     òs     oses        òs               # 
+000     ós     oses        ós               # 
+000     ús     uses        ús               # 
+/REGLA
+
+REGLA K SFX+ Quatre formes amb canvi d'accent (accent greu)
+000     ari    ària        ari              # partidària  2.
+000     aci    àcia        aci              # acantàcia
+000     adi    àdia        adi              # accàdia
+000     ori    òria        ori              # abjuratòria
+000     emi    èmia        emi              # abstèmia
+000     oli    òlia        oli              # caducifòlia
+000     ogen   ògena       ogen             # exògena
+000     ogin   ògina       ogin             # misògina
+000     0      s           [aeiou]          # partidaris  3.
+000     ogen   ògens       ogen             # exògens
+000     ogin   ògins       ogin             # misògins
+000     ari    àries       ari              # partidàries 4.
+000     adi    àdies       adi              # accàdies
+000     aci    àcies       aci              # acantàcies
+000     ori    òries       ori              # abjuratòries
+000     emi    èmies       emi              # abstèmies
+000     oli    òlies       oli              # caducifòlies
+000     ogen   ògenes      ogen             # exògenes
+000     ogin   ògines      ogin             # misògines
+/REGLA
+
+REGLA L SFX+ Quatre formes amb canvi d'accent (accent agut)
+000     ini    ínia        ini              # abissínia 2.
+000     igi    ígia        igi              # frígia
+000     0      s           .                # abissinis 3.
+000     ini    ínies       ini              # abissinis 4.
+000     igi    ígies       igi              # frígies
+/REGLA
+
+// ==========================================================================
+// Conjugacions verbals
+// ==========================================================================
+
+// (combinable amb els pronoms prefixats)
+// La regla A es fa a partir de IMP1 (perquè l'infinitiu funciona a part)
+REGLA A SFX+ Primera conjugació regular
+999     ava    ar          ava              # infinitiu <INF>
+999     ava    ant         ava              # gerundi <GER>
+999     ava    at          ava              # participi m sg <PAR> 1.
+999     ava    ats         ava              # participi m pl       2.
+999     ava    ada         ava              # participi f sg       3.
+999     ava    ades        ava              # participi f pl       4.
+000     ava    o           ava              # 1. canto - indicatiu present <IPR>
+008     ava    e           [^cçgju]ava      #    cante
+008     ava    e           [^gq]uava        #    sue
+008     guava  güe         guava            #    enaigüe
+008     quava  qüe         quava            #    adeqüe
+008     cava   que         cava             #    cerque 
+008     çava   ce          çava             #    cace 
+008     gava   gue         gava             #    porgue 
+008     java   ge          java             #    venge 
+013     l·lava l           l·lava           #    vacil ( < vacil·lar)
+013     nnava  n           nnava            #    nan ( < nannar)
+013     ava    i           eava             #    crei
+013     ava    i           [^aeo]iava       #    guii, esquii, estudii
+013     iava   i           [aeo]iava        #    espai, remei, enjoi
+013     iava   i           [^gq]uiava       #    alui (aluiar)
+013     ava    u           oava             #    incou, encau
+013     ava    u           [^aeioqg]uava    #    suu
+013     uava   u           [aeo]uava        #    encau, encreu, pou
+013     java   ig          [^tnri]java      #    raig, assuauig, fuig, puig
+013     java   g           ijava            #    enfastig
+013     java   j           [tnr]java        #    viatj, venj, forj
+013     bava   b           bava             #    acab
+013     cava   c           cava             #    cerc
+013     çava   ç           çava             #    caç
+013     dava   d           dava             #    pod
+013     fava   f           fava             #    embaf
+013     gava   g           gava             #    porg
+013     lava   l           lava             #    bel
+013     mava   m           mava             #    estim
+013     nava   n           [^ei]nava        #    man
+013     pava   p           pava             #    sop
+013     rava   r           rava             #    par, err
+013     sava   s           [^aeious]sava    #    espols, eclips
+013     tava   t           tava             #    apost
+013     vava   v           vava             #    cav
+013     xava   x           xava             #    relax, exquitx
+013     zava   z           zava             #    agonitz
+000     ava    es          [^cçgju]ava      # 2. cantes
+000     ava    es          [^gq]uava        #    sues
+000     guava  gües        guava            #    enaigües
+000     quava  qües        quava            #    adeqües
+000     cava   ques        cava             #    cerques
+000     çava   ces         çava             #    caces
+000     gava   gues        gava             #    porgues 
+000     java   ges         java             #    venges
+000     ava    a           ava              # 3. canta
+000     ava    em          [^cçgju]ava      # 4. cantem
+000     ava    em          [^gq]uava        #    suem
+000     guava  güem        guava            #    enaigüem
+000     quava  qüem        quava            #    adeqüem
+000     cava   quem        cava             #    cerquem
+000     çava   cem         çava             #    cacem
+000     gava   guem        gava             #    porguem 
+000     java   gem         java             #    vengem
+001     ava    am          ava              #    cantam
+000     ava    eu          [^cçgju]ava      # 5. canteu
+000     ava    eu          [^gq]uava        #    sueu
+000     guava  güeu        guava            #    enaigüeu
+000     quava  qüeu        quava            #    adeqüeu
+000     cava   queu        cava             #    cerqueu
+000     çava   ceu         çava             #    caceu
+000     gava   gueu        gava             #    porgueu 
+000     java   geu         java             #    vengeu
+001     ava    au          ava              #    cantau
+000     ava    en          [^cçgju]ava      # 6. canten
+000     ava    en          [^gq]uava        #    suen
+000     guava  güen        guava            #    enaigüen
+000     quava  qüen        quava            #    adeqüen
+000     cava   quen        cava             #    cerquen
+000     çava   cen         çava             #    cacen
+000     gava   guen        gava             #    porguen 
+000     java   gen         java             #    vengen
+000     ava    ava         ava              # 1. cantava - indicatiu imperfet <IIM>
+000     ava    aves        ava              # 2. cantaves
+000     ava    ava         ava              # 3. cantava
+000     ava    àvem        ava              # 4. cantàvem
+000     ava    àveu        ava              # 5. cantàveu
+000     ava    aven        ava              # 6. cantaven
+000     ava    í           [^cçgj]ava       # 1. cantí - indicatiu perfet <IPE>
+000     cava   quí         cava             #    cerquí
+000     çava   cí          çava             #    cací
+000     gava   guí         gava             #    porguí
+000     java   gí          java             #    vengí
+000     ava    ares        ava              # 2. cantares
+000     ava    à           ava              # 3. cantà
+000     ava    àrem        ava              # 4. cantàrem
+000     ava    àreu        ava              # 5. cantàreu
+000     ava    aren        ava              # 6. cantaren
+000     ava    aré         ava              # 1. cantaré - futur <FUT>
+000     ava    aràs        ava              # 2. cantaràs
+000     ava    arà         ava              # 3. cantarà
+000     ava    arem        ava              # 4. cantarem
+000     ava    areu        ava              # 5. cantareu
+000     ava    aran        ava              # 6. cantaran
+000     ava    aria        ava              # 1. cantaria - condicional <CON>
+000     ava    aries       ava              # 2. cantaries
+000     ava    aria        ava              # 3. cantaria
+000     ava    aríem       ava              # 4. cantaríem
+000     ava    aríeu       ava              # 5. cantaríeu
+000     ava    arien       ava              # 6. cantarien
+000     ava    i           [^cçgjieou]ava   # 1. canti - subjuntiu present <SPR>
+000     ava    ï           [^aeiou][eio]ava #    canviï, suï
+000     iava   ï           [aeiou]iava      #    desmaï
+000     ava    ï           [gq]uiava        #    esquiï
+000     iava   ï           [^gq]uiava       #
+000     guava  güi         guava            #    enaigüi
+000     quava  qüi         quava            #    adeqüi
+000     uava   uï          [^gq]uava        #    evacuï
+000     cava   qui         cava             #    cerqui
+000     çava   ci          çava             #    caci
+000     gava   gui         gava             #    porgui
+000     java   gi          java             #    vengi
+008     ava    e           [^cçgju]ava      #    cante
+008     ava    e           [^gq]uava        #    sue
+008     guava  güe         guava            #    enaigüe
+008     quava  qüe         quava            #    adeqüe
+008     cava   que         cava             #    cerque 
+008     çava   ce          çava             #    cace 
+008     gava   gue         gava             #    porgue 
+008     java   ge          java             #    venge 
+000     ava    is          [^cçgjieou]ava   # 2. cantis
+000     ava    ïs          [^aeiou][eio]ava #    canviïs, suïs
+000     iava   ïs          [aeiou]iava      #    desmaïs
+000     ava    ïs          [gq]uiava        #    esquiïs
+000     iava   ïs          [^gq]uiava       #
+000     guava  güis        guava            #    enaigüis
+000     quava  qüis        quava            #    adeqüis
+000     uava   uïs         [^gq]uava        #    evacuïs
+000     cava   quis        cava             #    cerquis
+000     çava   cis         çava             #    cacis
+000     gava   guis        gava             #    porguis
+000     java   gis         java             #    vengis
+008     ava    es          [^cçgju]ava      #    cantes
+008     ava    es          [^gq]uava        #    sues
+008     guava  gües        guava            #    enaigües
+008     quava  qües        quava            #    adeqües
+008     cava   ques        cava             #    cerques
+008     çava   ces         çava             #    caces
+008     gava   gues        gava             #    porgues 
+008     java   ges         java             #    venges
+000     ava    i           [^cçgjieou]ava   # 3. canti
+000     ava    ï           [^aeiou][eio]ava #    suï
+000     iava   ï           [aeiou]iava      #    desmaï
+000     guava  güi         guava            #    enaigüi
+000     quava  qüi         quava            #    adeqüi
+000     uava   uï          [^gq]uava        #    evacuï
+000     cava   qui         cava             #    cerqui
+000     çava   ci          çava             #    caci
+000     gava   gui         gava             #    porgui
+000     java   gi          java             #    vengi
+008     ava    e           [^cçgju]ava      #    cante
+008     ava    e           [^gq]uava        #    sue
+008     guava  güe         guava            #    enaigüe
+008     quava  qüe         quava            #    adeqüe
+008     cava   que         cava             #    cerque 
+008     çava   ce          çava             #    cace 
+008     gava   gue         gava             #    porgue 
+008     java   ge          java             #    venge 
+000     ava    em          [^cçgju]ava      # 4. cantem
+000     ava    em          [^gq]uava        #    suem
+000     guava  güem        guava            #    enaigüem
+000     quava  qüem        quava            #    adeqüem
+000     cava   quem        cava             #    cerquem
+000     çava   cem         çava             #    cacem
+000     gava   guem        gava             #    porguem
+000     java   gem         java             #    vengem
+000     ava    eu          [^cçgju]ava      # 5. canteu
+000     ava    eu          [^gq]uava        #    sueu
+000     guava  güeu        guava            #    enaigüeu
+000     quava  qüeu        quava            #    adeqüeu
+000     cava   queu        cava             #    cerqueu
+000     çava   ceu         çava             #    caceu
+000     gava   gueu        gava             #    porgueu
+000     java   geu         java             #    vengeu
+000     ava    in          [^cçgjieou]ava   # 6. cantin
+000     ava    ïn          [^aeiou][eio]ava #    canviïn, suïn
+000     iava   ïn          [aeiou]iava      #    desmaïn
+000     ava    ïn          [gq]uiava        #    esquiïn
+000     iava   ïn          [^gq]uiava       #
+000     guava  güin        guava            #    enaigüin
+000     quava  qüin        quava            #    adeqüin
+000     uava   uïn         [^gq]uava        #    evacuïn
+000     cava   quin        cava             #    cerquin
+000     çava   cin         çava             #    cacin
+000     gava   guin        gava             #    porguin
+000     java   gin         java             #    vengin
+008     ava    en          [^cçgju]ava      #    cante
+008     ava    en          [^gq]uava        #    sue
+008     guava  güen        guava            #    enaigüen
+008     quava  qüen        quava            #    adeqüen
+008     cava   quen        cava             #    cerquen
+008     çava   cen         çava             #    cacen
+008     gava   guen        gava             #    porguen 
+008     java   gen         java             #    vengen
+000     ava    és          [^cçgju]ava      # 1. cantés - subjuntiu imperfet <SIM>
+000     ava    és          [^gq]uava        #    sués
+000     guava  güés        guava            #    enaigüés
+000     quava  qüés        quava            #    adeqüés
+000     cava   qués        cava             #    cerqués
+000     çava   cés         çava             #    cacés
+000     gava   gués        gava             #    porgués
+000     java   gés         java             #    vengés
+002     ava    às          ava              #    cantàs
+004     ava    ara         ava              #    cantara
+000     ava    essis       [^cçgju]ava      # 2. cantessis
+011     ava    esses       [^cçgju]ava      #    cantesses
+002     ava    assis       ava              #    cantassis
+004     ava    ares        ava              #    cantares
+000     ava    essis       [^gq]uava        #    suessis
+011     ava    esses       [^gq]uava        #    suesses
+000     guava  güessis     guava            #    enaigüessis
+000     quava  qüessis     quava            #    adeqüessis
+011     guava  güesses     guava            #    enaigüesses
+011     quava  qüesses     quava            #    adeqüesses
+000     cava   quessis     cava             #    cerquessis
+011     cava   quesses     cava             #    cerquesses
+000     çava   cessis      çava             #    cacessis
+011     çava   cesses      çava             #    cacesses
+000     gava   guessis     gava             #    porguessis
+011     gava   guesses     gava             #    porguesses
+000     java   gessis      java             #    vengessis
+011     java   gesses      java             #    vengesses
+000     ava    és          [^cçgju]ava      # 3. cantés - subjuntiu imperfet <SIM>
+000     ava    és          [^gq]uava        #    sués
+000     guava  güés        guava            #    enaigüés
+000     quava  qüés        quava            #    adeqüés
+000     cava   qués        cava             #    cerqués
+000     çava   cés         çava             #    cacés
+000     gava   gués        gava             #    porgués
+000     java   gés         java             #    vengés
+002     ava    às          ava              #    cantàs
+004     ava    ara         ava              #    cantara
+000     ava    éssim       [^cçgju]ava      # 4. cantéssim
+011     ava    éssem       [^cçgju]ava      #    cantéssem
+002     ava    àssim       ava              #    cantàssim
+004     ava    àrem        ava              #    cantàrem
+000     ava    éssim       [^gq]uava        #    suéssim
+011     ava    éssem       [^gq]uava        #    suéssem
+000     guava  güéssim     guava            #    enaigüéssim
+000     quava  qüéssim     quava            #    adeqüéssim
+011     guava  güéssem     guava            #    enaigüéssem
+011     quava  qüéssem     quava            #    adeqüéssem
+000     cava   quéssim     cava             #    cerquéssim
+011     cava   quéssem     cava             #    cerquéssem
+000     çava   céssim      çava             #    cacéssim
+011     çava   céssem      çava             #    cacéssem
+000     gava   guéssim     gava             #    porguéssim
+011     gava   guéssem     gava             #    porguéssem
+000     java   géssim      java             #    vengéssim
+011     java   géssem      java             #    vengéssem
+000     ava    éssiu       [^cçgju]ava      # 5. cantéssiu
+011     ava    ésseu       [^cçgju]ava      #    cantésseu
+002     ava    àssiu       ava              #    cantàssiu
+004     ava    àreu        ava              #    cantàreu
+000     ava    éssiu       [^gq]uava        #    suéssiu
+011     ava    ésseu       [^gq]uava        #    suésseu
+000     guava  güéssiu     guava            #    enaigüéssiu
+000     quava  qüéssiu     quava            #    adeqüéssiu
+011     guava  güésseu     guava            #    enaigüésseu
+011     quava  qüésseu     quava            #    adeqüésseu
+000     cava   quéssiu     cava             #    cerquéssiu
+011     cava   quésseu     cava             #    cerquésseu
+000     çava   céssiu      çava             #    cacéssiu
+011     çava   césseu      çava             #    cacésseu
+000     gava   guéssiu     gava             #    porguéssiu
+011     gava   guésseu     gava             #    porguésseu
+000     java   géssiu      java             #    vengéssiu
+011     java   gésseu      java             #    vengésseu
+000     ava    essin       [^cçgju]ava      # 6. cantessin
+011     ava    essen       [^cçgju]ava      #    cantessen
+002     ava    assin       ava              #    cantassin
+004     ava    aren        ava              #    cantaren
+000     ava    essin       [^gq]uava        #    suessin
+011     ava    essen       [^gq]uava        #    suessen
+000     guava  güessin     guava            #    enaigüessin
+000     quava  qüessin     quava            #    adeqüessin
+011     guava  güessen     guava            #    enaigüessen
+011     quava  qüessen     quava            #    adeqüessen
+000     cava   quessin     cava             #    cerquessin
+011     cava   quessen     cava             #    cerquessen
+000     çava   cessin      çava             #    cacessin
+011     çava   cessen      çava             #    cacessen
+000     gava   guessin     gava             #    porguessin
+011     gava   guessen     gava             #    porguessen
+000     java   gessin      java             #    vengessin
+011     java   gessen      java             #    vengessen
+000     ava    a           ava              # 2. canta - imperatiu <IMP>
+000     ava    i           [^cçgjeiou]ava   # 3. canti
+000     ava    ï           [^aeiou][eio]ava #    canviï, suï
+000     iava   ï           [aeiou]iava      #    desmaï
+000     ava    ï           [gq]uiava        #    esquiï
+000     iava   ï           [^gq]uiava       #
+000     guava  güi         guava            #    enaigüi
+000     quava  qüi         quava            #    adeqüi
+000     uava   uï          [^gq]uava        #    evacuï
+000     cava   qui         cava             #    cerqui
+000     çava   ci          çava             #    caci
+000     gava   gui         gava             #    porgui
+000     java   gi          java             #    vengi
+008     ava    e           [^cçgju]ava      #    cante
+008     ava    e           [^gq]uava        #    sue
+008     guava  güe         guava            #    enaigüe
+008     quava  qüe         quava            #    adeqüe
+008     cava   que         cava             #    cerque 
+008     çava   ce          çava             #    cace 
+008     gava   gue         gava             #    porgue 
+008     java   ge          java             #    venge 
+000     ava    em          [^cçgju]ava      # 4. cantem
+000     ava    em          [^gq]uava        #    suem
+000     guava  güem        guava            #    enaigüem
+000     quava  qüem        quava            #    adeqüem
+000     cava   quem        cava             #    cerquem
+000     çava   cem         çava             #    cacem
+000     gava   guem        gava             #    porguem
+000     java   gem         java             #    vengem
+000     ava    eu          [^cçgju]ava      # 5. canteu
+000     ava    eu          [^gq]uava        #    sueu
+000     guava  güeu        guava            #    enaigüeu
+000     quava  qüeu        quava            #    adeqüeu
+000     cava   queu        cava             #    cerqueu
+000     çava   ceu         çava             #    caceu
+000     gava   gueu        gava             #    porgueu
+000     java   geu         java             #    vengeu
+001     ava    au          ava              #    cantau
+000     ava    in          [^cçgjeiou]ava   # 6. cantin
+000     ava    ïn          [^aeiou][eio]ava #    canviïn, suïn
+000     iava   ïn          [aeiou]iava      #    desmaïn
+000     ava    ïn          [gq]uiava        #    esquiïn
+000     iava   ïn          [^gq]uiava       #
+000     guava  güin        guava            #    enaigüin
+000     quava  qüin        quava            #    adeqüin
+000     uava   uïn         [^gq]uava        #    evacuïn
+000     cava   quin        cava             #    cerquin
+000     çava   cin         çava             #    cacin
+000     gava   guin        gava             #    porguin
+000     java   gin         java             #    vengin
+008     ava    en          [^cçgju]ava      #    canten
+008     ava    en          [^gq]uava        #    suen
+008     guava  güen        guava            #    enaigüen
+008     quava  qüen        quava            #    adeqüen
+008     cava   quen        cava             #    cerquen
+008     çava   cen         çava             #    cacen
+008     gava   guen        gava             #    porguen 
+008     java   gen         java             #    vengen
+/REGLA
+
+REGLA M SFX+ Verbs en -ir, formes comunes als grups III, IV i V
+999     iré    ir          iré              # patir, trair   <INF>
+999     iré    int         iré              # patint, traint <GER>
+999     iré    it          [^aeiou]iré      # patit          <PAR> 1.
+999     iré    it          [gq]uiré         # seguit
+999     iré    ït          [^gq]uiré        # induït
+999     iré    ït          [aeio]iré        # traït
+999     iré    ida         [^aeiou]iré      # patida               2.
+999     iré    ida         [gq]uiré         # seguida
+999     iré    ïda         [^gq]uiré        # induïda
+999     iré    ïda         [aeio]iré        # traïda
+999     iré    its         [^aeiou]iré      # patits               3.
+999     iré    its         [gq]uiré         # seguits
+999     iré    ïts         [^gq]uiré        # induïts
+999     iré    ïts         [aeio]iré        # traïts
+999     iré    ides        [^aeiou]iré      # patides              4.
+999     iré    ides        [gq]uiré         # seguides
+999     iré    ïdes        [^gq]uiré        # induïdes
+999     iré    ïdes        [aeio]iré        # traïdes
+000     iré    im          [^aeiou]iré      # 4. patim       <IPR>
+000     iré    im          [gq]uiré         #    seguim
+000     iré    ïm          [^gq]uiré        #    induïm
+000     iré    ïm          [aeio]iré        #    traïm
+000     iré    iu          [^aeiou]iré      # 5. patiu
+000     iré    iu          [gq]uiré         #    seguiu
+000     iré    ïu          [^gq]uiré        #    induïu
+000     iré    ïu          [aeio]iré        #    traïu
+000     iré    ia          [^aeiou]iré      # 1. patia       <IIM>
+000     iré    ia          [gq]uiré         #    seguia
+000     iré    ïa          [^gq]uiré        #    induïa
+000     iré    ïa          [aeio]iré        #    traïa
+000     iré    ies         [^aeiou]iré      # 2. paties
+000     iré    ies         [gq]uiré         #    seguies
+000     iré    ïes         [^gq]uiré        #    induïes
+000     iré    ïes         [aeio]iré        #    traïes
+000     iré    ia          [^aeiou]iré      # 3. patia
+000     iré    ia          [gq]uiré         #    seguia
+000     iré    ïa          [^gq]uiré        #    induïa
+000     iré    ïa          [aeio]iré        #    traïa
+000     iré    íem         iré              # 4. patíem, traíem
+000     iré    íeu         iré              # 5. patíeu, traíeu
+000     iré    ien         [^aeiou]iré      # 6. patien
+000     iré    ien         [gq]uiré         #    seguien
+000     iré    ïen         [^gq]uiré        #    induïen
+000     iré    ïen         [aeio]iré        #    traïen
+000     iré    í           iré              # 1. patí        <IPE>
+000     iré    ires        [^aeiou]iré      # 2. patires
+000     iré    ires        [gq]uiré         #    seguires
+000     iré    ïres        [^gq]uiré        #    induïres
+000     iré    ïres        [aeio]iré        #    traïres
+000     iré    í           iré              # 3. patí
+000     iré    írem        iré              # 4. patírem, traírem
+000     iré    íreu        iré              # 5. patíreu, traíreu
+000     iré    iren        [^aeiou]iré      # 6. patiren
+000     iré    iren        [gq]uiré         #    seguiren
+000     iré    ïren        [^gq]uiré        #    induïren
+000     iré    ïren        [aeio]iré        #    traïren
+000     iré    iré         iré              # 1. patiré, trairé <FUT>
+000     iré    iràs        iré              # 2. patiràs, trairàs
+000     iré    irà         iré              # 3. patirà, trairà
+000     iré    irem        iré              # 4. patirem, trairem
+000     iré    ireu        iré              # 5. patireu, traireu
+000     iré    iran        iré              # 6. patiran, trairan
+000     iré    iria        iré              # 1. patiria, trairia <CON>
+000     iré    iries       iré              # 2. patiries, trairies
+000     iré    iria        iré              # 3. patiria, trairia
+000     iré    iríem       iré              # 4. patiríem, trairíem
+000     iré    iríeu       iré              # 5. patiríeu, trairíeu
+000     iré    irien       iré              # 6. patirien, trairien
+000     iré    im          [^aeiou]iré      # 4. patim       <SPR>
+000     iré    im          [gq]uiré         #    seguim
+000     iré    ïm          [^gq]uiré        #    induïm
+000     iré    ïm          [aeio]iré        #    traïm
+000     iré    iu          [^aeiou]iré      # 5. patiu
+000     iré    iu          [gq]uiré         #    seguiu
+000     iré    ïu          [^gq]uiré        #    induïu
+000     iré    ïu          [aeio]iré        #    traïu
+000     iré    ís          iré              # 1. patís       <SIM>
+004     iré    ira         [^aeiou]iré      #    patira
+004     iré    ira         [gq]uiré         #    seguira
+004     iré    ïra         [^gq]uiré        #    induïra
+004     iré    ïra         [aeio]iré        #    traïra
+000     iré    issis       [^aeiou]iré      # 2. patissis
+000     iré    issis       [gq]uiré         #    seguissis
+000     iré    ïssis       [^gq]uiré        #    induïssis
+000     iré    ïssis       [aeio]iré        #    traïssis
+003     iré    isses       [^aeiou]iré      #    patisses
+003     iré    isses       [gq]uiré         #    seguisses
+003     iré    ïsses       [^gq]uiré        #    induïsses
+003     iré    ïsses       [aeio]iré        #    traïsses
+004     iré    ires        [^aeiou]iré      #    patires
+004     iré    ires        [gq]uiré         #    seguires
+004     iré    ïres        [^gq]uiré        #    induïres
+004     iré    ïres        [aeio]iré        #    traïres
+000     iré    ís          iré              # 3. patís
+004     iré    ira         [^aeiou]iré      #    patira
+004     iré    ira         [gq]uiré         #    seguira
+004     iré    ïra         [^gq]uiré        #    induïra
+004     iré    ïra         [aeio]iré        #    traïra
+000     iré    íssim       iré              # 4. patíssim
+003     iré    íssem       iré              #    patíssem
+004     iré    írem        iré              #    patírem
+000     iré    íssiu       iré              # 5. patíssiu
+003     iré    ísseu       iré              #    patísseu
+004     iré    íreu        iré              #    patíreu
+000     iré    issin       [^aeiou]iré      # 6. patissin
+000     iré    issin       [gq]uiré         #    seguissin
+000     iré    ïssin       [^gq]uiré        #    induïssin
+000     iré    ïssin       [aeio]iré        #    traïssin
+003     iré    issen       [^aeiou]iré      #    patissen
+003     iré    issen       [gq]uiré         #    seguissen
+003     iré    ïssen       [^gq]uiré        #    induïssen
+003     iré    ïssen       [aeio]iré        #    traïssen
+004     iré    iren        [^aeiou]iré      #    patiren
+004     iré    iren        [gq]uiré         #    seguiren
+004     iré    ïren        [^gq]uiré        #    induïren
+004     iré    ïren        [aeio]iré        #    traïren
+000     iré    im          [^aeiou]iré      # 4. patim       <IMP>
+000     iré    im          [gq]uiré         #    seguim
+000     iré    ïm          [^gq]uiré        #    induïm
+000     iré    ïm          [aeio]iré        #    traïm
+000     iré    iu          [^aeiou]iré      # 5. patiu
+000     iré    iu          [gq]uiré         #    seguiu
+000     iré    ïu          [^gq]uiré        #    induïu
+000     iré    ïu          [aeio]iré        #    traïu
+/REGLA
+
+REGLA N SFX+ Verbs en -ir, formes incoatives
+000     iré    eixo        iré              # 1. pateixo <IPR>
+005     iré    esc         iré              #    patesc
+006     iré    isc         [^aeiou]iré      #    patisc
+006     iré    isc         [gq]uiré         #    seguisc
+006     iré    ïsc         [^gq]uiré        #    induïsc
+006     iré    ïsc         [aeio]iré        #    traïsc
+000     iré    eixes       iré              # 2. pateixes
+006     iré    ixes        [^aeiou]iré      #    patixes
+006     iré    ixes        [gq]uiré         #    seguixes
+006     iré    ïxes        [^gq]uiré        #    induïxes
+006     iré    ïxes        [aeio]iré        #    traïxes
+000     iré    eix         iré              # 3. pateix
+006     iré    ix          [^aeiou]iré      #    patix  
+006     iré    ix          [gq]uiré         #    seguix  
+006     iré    ïx          [^gq]uiré        #    induïx  
+006     iré    ïx          [aeio]iré        #    traïx  
+000     iré    eixen       iré              # 6. pateixen  
+006     iré    ixen        [^aeiou]iré      #    patixen
+006     iré    ixen        [gq]uiré         #    seguixen
+006     iré    ïxen        [^gq]uiré        #    induïxen
+006     iré    ïxen        [aeio]iré        #    traïxen
+000     iré    eixi        iré              # 1. pateixi <SPR>
+005     iré    esqui       iré              #    patesqui
+006     iré    isca        [^aeiou]iré      #    patisca
+006     iré    isca        [gq]uiré         #    seguisca
+006     iré    ïsca        [^gq]uiré        #    induïsca
+006     iré    ïsca        [aeio]iré        #    traïsca
+000     iré    eixis       iré              # 2. pateixis
+005     iré    esquis      iré              #    patesquis
+006     iré    isques      [^aeiou]iré      #    patisques
+006     iré    isques      [gq]uiré         #    seguisques
+006     iré    ïsques      [^gq]uiré        #    induïsques
+006     iré    ïsques      [aeio]iré        #    traïsques
+000     iré    eixi        iré              # 3. pateixi
+005     iré    esqui       iré              #    patesqui
+006     iré    isca        [^aeiou]iré      #    patisca
+006     iré    isca        [gq]uiré         #    seguisca
+006     iré    ïsca        [^gq]uiré        #    induïsca
+006     iré    ïsca        [aeio]iré        #    traïsca
+000     iré    eixin       iré              # 6. pateixin  
+005     iré    esquin      iré              #    patesquin 
+006     iré    isquen      [^aeiou]iré      #    patisquen
+006     iré    isquen      [gq]uiré         #    seguisquen
+006     iré    ïsquen      [^gq]uiré        #    induïsquen
+006     iré    ïsquen      [aeio]iré        #    traïsquen
+000     iré    eix         iré              # 2. pateix  <IMP>
+006     iré    ix          [^aeiou]iré      #    patix  
+006     iré    ix          [gq]uiré         #    seguix  
+006     iré    ïx          [^gq]uiré        #    induïx  
+006     iré    ïx          [aeio]iré        #    traïx  
+000     iré    eixi        iré              # 3. pateixi
+005     iré    esqui       iré              #    patesqui
+006     iré    isca        [^aeiou]iré      #    patisca
+006     iré    isca        [gq]uiré         #    seguisca
+006     iré    ïsca        [^gq]uiré        #    induïsca
+006     iré    ïsca        [aeio]iré        #    traïsca
+000     iré    eixin       iré              # 6. pateixin  
+005     iré    esquin      iré              #    patesquin 
+006     iré    isquen      [^aeiou]iré      #    patisquen
+006     iré    isquen      [gq]uiré         #    seguisquen
+006     iré    ïsquen      [^gq]uiré        #    induïsquen
+006     iré    ïsquen      [aeio]iré        #    traïsquen
+/REGLA
+
+REGLA O SFX+ Imperfet d'indicatiu de la segona conjugació
+000     a      es          a                # 2. perdies, cloïes    <IIM>
+000     a      a           a                # 3. perdia, cloïa
+000     ia     íem         [^eu]ia          # 4. perdíem
+000     ïa     íem         ïa               #    cloíem
+000     eia    èiem        eia              #    dèiem (*** sempre è? ***)
+000     uia    úiem        uia              #    dúiem
+000     ia     íeu         [^eu]ia          # 5. perdíeu
+000     ïa     íeu         ïa               #    cloíeu
+000     eia    èieu        eia              #    dèieu (*** sempre è? ***)
+000     uia    úieu        uia              #    dúieu
+000     a      en          a                # 6. perdien, cloïen
+/REGLA
+
+REGLA P SFX+ Formes de la segona conjugació semblants a SIM1 sense -c/-gu (perdés)
+000     és     o           [^c]és           # 1. perdo, temo        <IPR>
+000     cés    ço          cés              #    torço
+000     és     í           .                # 1. perdí, temí        <IPE>
+000     és     eres        .                # 2. perderes, temeres
+000     és     é           .                # 3. perdé, temé
+000     és     érem        .                # 4. perdérem, temérem
+000     és     éreu        .                # 5. perdéreu, teméreu
+000     és     eren        .                # 6. perderen, temeren
+000     és     i           .                # 1. perdi, temi        <SPR>
+009     és     a           [^cgu]és         #    perda, tema
+009     cés    ça          cés              #    torça
+009     gés    ja          gés              #    veja
+000     és     is          .                # 2. perdis, temis
+009     és     es          .                #    perdes, temes
+000     és     i           .                # 3. perdi, temi
+009     és     a           [^cgu]és         #    perda, tema
+009     cés    ça          cés              #    torça
+009     gés    ja          gés              #    veja
+000     és     em          .                # 4. perdem, temem
+000     és     eu          .                # 5. perdeu, temeu
+000     és     in          .                # 6. perdin, temin
+009     és     en          .                #    perden, temen
+000     és     és          .                # 1. perdés, temés      <SIM>
+004     és     era         .                #    perdera
+000     és     essis       .                # 2. perdessis, temessis
+004     és     eres        .                #    perderes
+010     és     esses       .                #    perdesses, temesses
+000     és     és          .                # 3. perdés, temés
+004     és     era         .                #    perdera
+000     és     éssim       .                # 4. perdéssim, teméssim
+010     és     éssem       .                #    perdéssem, teméssem
+004     és     érem        .                #    perdérem
+000     és     éssiu       .                # 5. perdéssiu, teméssiu
+010     és     ésseu       .                #    perdésseu, temésseu
+004     és     éreu        .                #    perdéreu
+000     és     essin       .                # 6. perdessin, temessin
+010     és     essen       .                #    perdessen, temessen
+004     és     eren        .                #    perderen
+000     és     i           .                # 3. perdi, temi        <IMP>
+009     és     a           [^cgu]és         #    perda, tema
+009     cés    ça          cés              #    torça
+009     gés    ja          gés              #    veja
+000     és     em          .                # 4. perdem, temem
+000     és     eu          .                # 5. perdeu, temeu
+000     és     in          .                # 6. perdin, temin
+009     és     en          .                #    perden, temen
+/REGLA
+
+REGLA Q SFX+ Formes de la segona conjugació semblants a SIM1 amb -c/-gu (conegués)
+000     gués   c           gués             # 1. conec              <IPR>
+000     qués   c           qués             #    visc
+000     és     í           .                # 1. coneguí            <IPE>
+000     és     eres        .                # 2. conegueres
+000     és     é           .                # 3. conegué
+000     és     érem        .                # 4. coneguérem
+000     és     éreu        .                # 5. coneguéreu
+000     és     eren        .                # 6. conegueren
+000     és     i           .                # 1. conegui            <SPR>
+009     gués   ga          gués             #    conega
+009     qués   ca          qués             #    visca
+000     és     is          .                # 2. coneguis
+009     és     es          .                #    conegues
+000     és     i           .                # 3. conegui
+009     gués   ga          gués             #    conega
+009     qués   ca          qués             #    visca
+000     és     em          .                # 4. coneguem
+000     és     eu          .                # 5. conegueu
+000     és     in          .                # 6. coneguin
+009     és     en          .                #    coneguen
+000     és     és          .                # 1. conegués           <SIM> 
+004     és     era         .                #    beguera
+000     és     essis       .                # 2. coneguessis             
+010     és     esses       .                #    coneguesses
+004     és     eres        .                #    begueres
+000     és     és          .                # 3. conegués
+004     és     era         .                #    beguera
+000     és     éssim       .                # 4. coneguéssim
+010     és     éssem       .                #    coneguéssem
+004     és     érem        .                #    beguérem
+000     és     éssiu       .                # 5. coneguéssiu
+010     és     ésseu       .                #    coneguésseu
+004     és     éreu        .                #    beguéreu
+000     és     essin       .                # 6. coneguessin
+010     és     essen       .                #    coneguessen
+004     és     eren        .                #    begueren
+000     és     i           .                # 3. conegui            <IMP>
+009     gués   ga          gués             #    conega
+009     qués   ca          qués             #    visca
+000     és     em          .                # 4. coneguem
+000     és     in          .                # 6. coneguin
+009     és     en          .                #    coneguen
+/REGLA
+
+REGLA R SFX+ Formes de la segona conjugació semblants al gerundi
+000     ent    em          ent              # 4. perdem, temem      <IPR>
+000     int    im          int              #    vivim
+000     ent    eu          ent              # 5. perdeu, temeu
+000     int    iu          int              #    viviu
+000     ent    eu          ent              # 5. perdeu, temeu      <IMP>
+000     int    iu          int              #    viviu
+/REGLA
+
+REGLA S SFX+ Formes de la segona conjugació semblants a "plaus", "absols", etc.
+000     0      s           [^nçx]           # 2. plaus, absols      <IPR>
+000     ç      ces         ç                #    torces
+000     0      es          x                #    torces
+000     0      s           [^èé]n           #    prens
+000     èn     ens         èn               #    aprens
+000     én     ens         én               #    entens
+000     0      en          [^nç]            # 6. plauen, absolen    <IPR>
+000     ç      cen         ç                #    torcen
+000     0      en          [^èé]n           #    prenen
+000     èn     enen        èn               #    aprenen
+000     én     enen        én               #    entenen
+/REGLA
+
+REGLA T SFX+ Futurs i condicionals a partir de FUT1
+999     é      é           .                # 1. perdré, temeré   <FUT>
+000     é      às          .                # 2. perdràs, temeràs <FUT>
+000     é      à           .                # 3. perdrà, temerà
+000     é      em          .                # 4. perdrem, temerem
+000     é      eu          .                # 5. perdreu, temereu
+000     é      an          .                # 6. perdran, temeran
+000     é      ia          .                # 1. perdria, temeria <CON>
+000     é      ies         .                # 2. perdries, temeries
+000     é      ia          .                # 3. perdria, temeria
+000     é      íem         .                # 4. perdríem, temeríem
+000     é      íeu         .                # 5. perdríeu, temeríeu
+000     é      ien         .                # 6. perdrien, temerien
+/REGLA
+
+// PER FER: afegir formes valencianes
+REGLA U SFX+ Formes pures dels verbs en -ir, a partir d'IPR3 (p.e. sent)
+000     0      o           .                # 1. sento <IPR>
+000     0      s           [^sx]            # 2. sents
+000     0      es          [sx]             #    cuses, cruixes
+000     0      en          .                # 6. senten
+000     0      i           .                # 1. senti <SPR>
+009     0      a           .                #    senta
+000     0      is          .                # 2. sentis
+009     0      es          .                #    sentes
+000     0      i           .                # 3. senti
+009     0      a           .                #    senta
+000     0      in          .                # 6. sentin
+009     0      en          .                #    senten
+000     0      i           .                # 3. senti  <IMP>
+009     0      a           .                #    sents
+000     0      in          .                # 6. sentin
+009     0      en          .                #    senten
+/REGLA
+
+// Prefixos
+
+REGLA V PFX Article prefixat no combinable
+// no es pot combinar, per evitar "l'homes"
+000     0      l'          .                # l'home
+000     0      L'          .                # L'Alcúdia
+000     a      l'A         a                # l'Aire
+000     a      L'A         a                # L'Aire
+000     a      s'A         a                # s'Aire
+000     a      S'A         a                # S'Aire
+000     à      l'À         à                # l'Àguila
+000     à      L'À         à                # L'Àguila
+000     à      s'À         à                # s'Àguila
+000     à      S'À         à                # S'Àguila
+000     e      l'E         e                # l'Esperit
+000     e      L'E         e                # L'Esperit
+000     e      s'E         e                # s'Esperit
+000     e      S'E         e                # S'Esperit
+000     è      l'È         è                # l'Època
+000     è      L'È         è                # L'Època
+000     è      s'È         è                # s'Època
+000     è      S'È         è                # S'Època
+000     é      l'É         é                #
+000     é      L'É         é                #
+000     é      s'É         é                #
+000     é      S'É         é                #
+000     i      l'I         i                # l'Illa
+000     i      L'I         i                # L'Illa
+000     i      s'I         i                # s'Illa
+000     i      S'I         i                # S'Illa
+000     í      l'Í         í                #
+000     í      L'Í         í                #
+000     í      s'Í         í                #
+000     í      S'Í         í                #
+000     o      l'O         o                # l'Ordre
+000     o      L'O         o                # L'Ordre
+000     o      s'O         o                # s'Ordre
+000     o      S'O         o                # S'Ordre
+000     ò      l'Ò         ò                # l'Òliba
+000     ò      L'Ò         ò                # L'Òliba
+000     ò      s'Ò         ò                # s'Òliba
+000     ò      S'Ò         ò                # S'Òliba
+000     ó      l'Ó         ó                #
+000     ó      L'Ó         ó                #
+000     ó      s'Ó         ó                #
+000     ó      S'Ó         ó                #
+000     u      l'U         u                # l'Urna
+000     u      L'U         u                # L'Urna
+000     u      s'U         u                # s'Urna
+000     u      S'U         u                # S'Urna
+000     ú      l'Ú         ú                # l'Únic
+000     ú      L'Ú         ú                # L'Únic
+000     ú      s'Ú         ú                # s'Únic
+000     ú      S'Ú         ú                # S'Únic
+000     h      l'H         h                # l'Hora
+000     h      L'H         h                # L'Hora
+000     h      s'H         h                # s'Hora
+000     h      S'H         h                # S'Hora
+/REGLA
+
+REGLA W PFX Article personal
+000     0      l'          [AÀEÈÉIÍOÒÓHUÚ]  # l'Arnau
+000     0      n'          [AÀEÈÉIÍOÒÓHUÚ]  # n'Arnau
+000     0      L'          [AÀEÈÉIÍOÒÓHUÚ]  # L'Arnau
+000     0      N'          [AÀEÈÉIÍOÒÓHUÚ]  # N'Arnau
+/REGLA
+
+REGLA Y PFX+ Preposició "de" apostrofada
+// es pot combinar per permetre "d'homes", "d'anar-se'n", etc.
+000     0      d'          .                # d'algú
+000     0      D'          .                # D'Algaida
+000     a      d'A         a                # d'Aire
+000     a      D'A         a                # D'Aire
+000     à      d'À         à                # d'Àguila
+000     à      D'À         à                # D'Àguila
+000     e      d'E         e                # d'Esperit
+000     e      D'E         e                # D'Esperit
+000     è      d'È         è                # d'Època
+000     è      D'È         è                # D'Època
+000     é      d'É         é                #
+000     é      D'É         é                #
+000     i      d'I         i                # d'Illa
+000     i      D'I         i                # D'Illa
+000     í      d'Í         í                #
+000     í      D'Í         í                #
+000     o      d'O         o                # d'Ordre
+000     o      D'O         o                # D'Ordre
+000     ò      d'Ò         ò                # d'Òliba
+000     ò      D'Ò         ò                # D'Òliba
+000     ó      d'Ó         ó                #
+000     ó      D'Ó         ó                #
+000     u      d'U         u                # d'Urna
+000     u      D'U         u                # D'Urna
+000     ú      d'Ú         ú                # d'Únic
+000     ú      D'Ú         ú                # D'Únic
+000     h      d'H         h                # d'Hora
+000     h      D'H         h                # D'Hora
+/REGLA
+
+REGLA Z PFX+ Pronoms personals prefixats
+// es poden combinar amb els sufixos que generen les formes verbals
+000     0      m'          .                # m'abillo
+000     0      t'          .                # t'abillo
+000     0      s'          .                # s'abilla
+000     0      l'          .                # l'abillo
+000     0      n'          .                # n'abillo
+/REGLA
+

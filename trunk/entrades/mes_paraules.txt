@@ -1,0 +1,39 @@
+// Entrades addicionals per al diccionari
+ent=euro^cat1=m.
+
+// paraules aportades per Marc Belzunces, 29.06.04
+
+ent=andesític -a^cat1=adj.
+ent=andesitoide^cat1=adj.
+ent=andorita^cat1=f.
+ent=andradita^cat1=f.
+ent=autinià -ana^cat1=adj.
+ent=bioclast^cat1=m.
+ent=bioclàstic -a^cat1=adj.
+ent=bioturbat -ada^cat1=adj.
+ent=brugent^cat1=adj.
+ent=destacable^cat1=adj.
+ent=eifelià -ana^cat1=adj.
+ent=emsià -ana^cat1=adj.
+ent=estefanià -ana^cat1=adj.
+ent=famenià -ana^cat1=adj.
+ent=frasnià -ana^cat1=adj.
+ent=givetià -ana^cat1=adj.
+ent=granitoide^cat1=adj.
+ent=grauvaca^cat1=f.
+ent=massificació^cat1=f.
+ent=metaconglomerat^cat1=m.
+ent=metasediment^cat1=m.
+ent=metasilicat^cat1=m.
+ent=metasomàtic -a^cat1=adj.
+ent=migmatític -a^cat1=adj.
+ent=migmatització^cat1=f.
+ent=migmatitzar^cat1=v. tr.
+ent=namurià -ana^cat1=adj.
+ent=porfiroblast^cat1=m.
+ent=porfiroblàstic -a^cat1=adj.
+ent=porfiroclast^cat1=m.
+ent=tournaisià -ana^cat1=adj.
+ent=viseà -ana^cat1=adj.
+ent=aptià -ana^cat1=adj.
+ent=barremià -ana^cat1=adj.
