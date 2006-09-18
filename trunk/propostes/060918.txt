@@ -1,0 +1,42 @@
+-- Enviat per Jordi Mas
+-- Assumpte:
+-- [corrector] Paraules que l'OpenOffice.org 2.0x no reconeix
+-- De:
+-- Jordi Mas <jmas@softcatala.org>
+-- Data:
+-- Sat, 16 Sep 2006 15:49:14 +0200
+-- A:
+-- corrector@softcatala.net, Jesús Corrius <jesus@softcatala.org>
+
+-- Ep gent,
+
+-- Aquests són termes que semblen correctes i que el corrector d'OpenOffice 2.0x no reconeix:
+
+formatatge formatació
+posiciona posicionat posicionaré
+delimitador delimitadora delimitadors delimitadores
+deshabilitat deshabilitava deshabilitaren
+actualitzable actualitzables
+posicionament posicionaments
+Avaluador avaluadora
+reiniciat reiniciades reiniciar
+Desinstal·lació
+Reanomena reanomenar Reanomenava
+digitalment
+confidencialitat confidencialitats
+organitzacional organitzacionals
+adaptatius adaptatives
+Desenvolupadors Desenvolupadores
+
+-- Joan, pots mirar perquè succeïx?
+
+-- Gràcies
+
+-- -- 
+
+-- Jordi Mas i Hernàndez, HomePage http://www.softcatala.org/~jmas/
+-- Bloc personal http://www.softcatala.org/~jmas/bloc/
+-- Planeta Softcatalà: http://www.softcatala.org/planet/
+
+
+

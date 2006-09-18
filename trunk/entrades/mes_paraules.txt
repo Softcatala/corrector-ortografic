@@ -37,3 +37,21 @@ ent=tournaisià -ana^cat1=adj.
 ent=viseà -ana^cat1=adj.
 ent=aptià -ana^cat1=adj.
 ent=barremià -ana^cat1=adj.
+
+// paraules aportades per Jordi Mas, 18.09.06
+
+//ent=formatatge^cat1= ??????????
+ent=posicionar^cat1=v. tr.
+ent=delimitador -ora^cat1=m. i f.
+ent=deshabilitar^cat1=v. tr.
+ent=actualitzable^cat1=adj.
+ent=posicionament^cat1=m.
+ent=avaluador -ora^cat1=m. i f.
+ent=reiniciar^cat1=v. tr.
+ent=desinstal·lació^cat1=f.
+ent=reanomenar^cat1=v. tr.
+ent=digitalment^cat1=adv.
+ent=confidencialitat^cat1=f.
+ent=organitzacional^cat1=adj.
+ent=adaptatiu -iva^cat1=adj.
+ent=desenvolupador -ora^cat1=adj.

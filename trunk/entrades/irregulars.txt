@@ -1,0 +1,2823 @@
+//!perl c:/documents/programes/prepmyspell/genera_dic.pl ! -dic=resultats/catalan -aff=resultats/catalan -depura
+// Amb Maj-F9 genera el diccionari
+
+//======== Casos especials ========
+el2: PRECALC=el els
+al: PRECALC=al als
+
+//======== paraules que s'han d'ignorar   ========
+// (estan integrades a les regles)
+d': IGNORA=1
+l'1: IGNORA=1
+l'2: IGNORA=1
+'l: IGNORA=1
+'ls: IGNORA=1
+m': IGNORA=1
+'m: IGNORA=1
+n'1: IGNORA=1
+n'2: IGNORA=1
+'n: IGNORA=1
+'ns: IGNORA=1
+s'1: IGNORA=1
+s'2: IGNORA=1
+'s: IGNORA=1
+t': IGNORA=1
+'t: IGNORA=1
+
+//======== paraules amb  plural irregular ========
+
+a1: PLU=as
+abacà: PLU=-às
+abecé: PLU=-és
+abonaré: PLU=-és
+abscés: PLU=-essos
+abís: PLU=-issos
+accés: PLU=-essos
+acin: PLU=àcins
+aeroesquí: PLU=-ís
+afàs: PLU=-assos
+agamí: PLU=-ís
+agràs: PLU=-assos
+agutí: PLU=-ís
+agà: PLU=agàs
+aiguavés: PLU=-essos
+ambigú: PLU=-ús
+amfiox: PLU=-s
+amfiox: PLU=amfioxs
+amàs: PLU=-assos
+anticòs: PLU=-ossos
+anís: PLU=-issos
+aprés1: PLU=-essos
+arcabús: PLU=-ussos
+argalí: PLU=-ís
+arruí: PLU=-ís
+autoanticòs: PLU=-ossos
+azobé: PLU=-és
+babuí: PLU=-ïns
+bacarà: PLU=-às
+bagàs: PLU=-assos
+baixà: PLU=-às
+balancé: PLU=-és
+bambú: PLU=-ús
+bandó: PLU=-ós
+banús: PLU=-ussos
+barbís: PLU=-issos
+barnús: PLU=-ussos
+bavadís: PLU=-issos
+be2: PLU=bes
+beabà: PLU=-às
+bebè: PLU=-ès
+bengalí: PLU=-ís
+benjuí: PLU=-ís
+bes2: PLU=bessos
+bisturí: PLU=-ís
+bolig1: PLU=-igs -itjos
+bolig2: PLU=-igs -itjos
+borderís: PLU=-issos
+bordís: PLU=-issos
+botàs: PLU=-assos
+boà: PLU=-às
+borràs: PLU=-assos
+bres: PLU=bressos
+brillanté: PLU=-és
+burriàs: PLU=-assos
+buró1: PLU=-ós
+buró2: PLU=-ós
+bus1: PLU=bussos
+bé1: PLU=béns
+ca2: PLU=cas
+cabriolé: PLU=-és
+cabàs: PLU=-assos
+cafè: PLU=-ès
+cafís: PLU=-issos
+cal: PLU=cals
+calabós: PLU=-ossos
+calicó: PLU=-ós
+callís: PLU=-issos
+calé: PLU=-és
+caló1: PLU=-ós
+canalé: PLU=-és
+canalís: PLU=-issos
+canapè: PLU=-ès
+canemàs: PLU=-assos
+canequí: PLU=-ís
+canesú: PLU=-ús
+canyís: PLU=-issos
+caparràs: PLU=-assos
+caparrós: PLU=-ossos
+caracarà: PLU=-às
+carcabòs: PLU=-ossos
+carcàs: PLU=-assos
+caribú: PLU=-ús
+carnús: PLU=-ussos
+carràs: PLU=-assos
+cartipàs: PLU=-assos
+cartoné: PLU=-és
+cas3: PLU=cassos
+cas4: PLU=cas
+cautxú: PLU=-ús
+ce: PLU=ces
+cent: PLU=cents centes
+claqué: PLU=-és
+clixé: PLU=-és
+coatí: PLU=-ís
+codís: PLU=-issos
+coipú: PLU=-ús
+colibrí: PLU=-ís
+colós: PLU=-ossos
+comitè: PLU=-ès
+compàs: PLU=-assos
+congrés: PLU=-essos
+consomé: PLU=-és
+contrapàs: PLU=-assos
+cos: PLU=cossos
+crepè: PLU=-ès
+crostís: PLU=-issos
+cu: PLU=cus
+culgròs1: PLU=-ossos
+cupè: PLU=-ès
+cus: PLU=cussos
+cuscús: PLU=-ussos
+cós: PLU=cóssos
+damassè: PLU=-ès
+damà: PLU=-às
+damàs: PLU=-assos
+de1: PLU=des
+decés: PLU=-essos
+degotís: PLU=-issos
+del: PLU=dels
+dervís: PLU=-issos
+des2: PLU=des
+desembaràs: PLU=-assos
+desembós: PLU=-ossos
+desembús: PLU=-ussos
+desenuig: PLU=-uigs o -utjos
+desfrès: PLU=-essos
+desguàs: PLU=-assos
+desig: PLU=-igs o -itjos
+desinterès: PLU=-essos
+dibetú: PLU=-ús
+dità: PLU=-às
+do1: PLU=dos
+dominó: PLU=-ós
+domàs: PLU=-assos
+dublé: PLU=-és
+duralinox: PLU=duralinoxs
+dux: PLU=duxs
+e: PLU=es
+elemí: PLU=-ís
+embaràs: PLU=-assos
+embós: PLU=-ossos
+embús: PLU=-ussos
+emú: PLU=-ús
+endós: PLU=-ossos
+engargús: PLU=-ussos
+entrepàs: PLU=-assos
+enuig: PLU=-uigs o -utjos
+ermàs: PLU=-assos
+es2: PLU=es & NOTA=pot revestir la forma s' davant vocal o h; precedit de les preposicions a, de i per dóna lloc a les formes contractes as, des i pes
+esbós: PLU=-ossos
+escadús: PLU=-ussos
+escarràs: PLU=-assos
+esfinx: PLU=-s
+esfinx: PLU=esfinxs
+esgardís: PLU=-issos
+espahí: PLU=-ís
+esquerdís: PLU=-issos
+esquí: PLU=-ís
+estoig: PLU=-oigs o -otjos
+estrès: PLU=-essos
+excés: PLU=-essos
+extradós: PLU=-ossos
+fa: PLU=fas
+fas: PLU=fassos
+fe2: PLU=fes
+fenàs: PLU=-assos
+fracàs: PLU=-assos
+framiré: PLU=-és
+fregadís: PLU=-issos
+frenesí: PLU=-ís
+fricandó: PLU=-ós
+fricassé: PLU=-és
+frivolité: PLU=-és
+fru-fru: PLU=fru-frus
+fulé: PLU=-és
+gamarús: ALT=gamarús -ussa & NOVACAT=adj.
+gaús: PLU=-üssos
+ge: PLU=ges
+ges: PLU=gessos
+gigoló: PLU=-ós
+girocompàs: PLU=-assos
+giroflé: PLU=-és
+glacé: PLU=-és
+gos: PLU=gossos
+granité: PLU=-és
+granís: PLU=-issos
+grisú: PLU=-ús
+gro: PLU=gros
+guaraní: PLU=-ís
+guardanàs: PLU=-assos
+haixix: PLU=-s
+haixix: PLU=haixixs
+hindú: PLU=-ús
+hurí: PLU=-ís
+i1: PLU=is
+iglú: PLU=-ús
+ingrés: PLU=-essos
+insuccés: PLU=-essos
+interès: PLU=-essos
+intradós: PLU=-ossos
+jaqué: PLU=-és
+justacòs: PLU=-ossos
+juí: PLU=juís
+kagú: PLU=-ús
+koiné: PLU=-és
+la1: PLU=las
+la3: PLU=les & NOTA=pot revestir la forma l'
+lamé: PLU=-és
+landó: PLU=-ós
+larinx: PLU=-s
+larinx: PLU=larinxs
+lilà: PLU=-às
+linx: PLU=linxs
+llebeig: PLU=-eigs -etjos
+llos: PLU=llossos
+lo2: PLU=los
+lux: PLU=luxs
+ma: PLU=mes
+macoré: PLU=-és
+macramé: PLU=-és
+maharajà: PLU=-às
+maharaní: PLU=-ís
+mamà: PLU=-às
+manatí: PLU=-ís
+mannà: PLU=-às
+manxú: PLU=-ús
+maquí: PLU=-ís
+marabú: PLU=-ús
+marranís: PLU=-issos
+marràs: PLU=-assos
+matalàs: PLU=-assos
+matiné: PLU=-és
+matràs: PLU=-assos
+matx1: PLU=matxs
+medís: PLU=-issos
+melé: PLU=-és
+menú: PLU=-ús
+mercè: PLU=-ès
+mi1: PLU=mis
+mig1: PLU=migs mitjos
+moaré: PLU=-és
+molós: PLU=-ossos
+monoesquí: PLU=-ís
+moquís: PLU=-issos
+mos: PLU=mossos
+mossardàs: PLU=-assos
+mostassà: PLU=-às
+muftí: PLU=-ís
+muladí: PLU=-ís
+mà: PLU=mans
+món: PLU=mons
+nabí: PLU=-ís
+nadís: PLU=-issos
+nansú: PLU=-ús
+nas: PLU=nassos
+negligé: PLU=-és
+nevàs: PLU=-assos
+nodrís: PLU=-issos
+nu1: PLU=nus
+nyandú: PLU=-ús
+o1: PLU=os
+oboè: PLU=-ès
+ocumé: PLU=-és
+organdí: PLU=-ís
+organzí: PLU=-ís
+padellàs: PLU=-assos
+pagaré: PLU=-és
+paixà: PLU=-às
+pallús: ALT=pallús -ussa & NOVACAT=adj.
+palmàs: PLU=-assos
+palpís: PLU=-issos
+paltó: PLU=-ós
+panadís: PLU=-issos
+panamà: PLU=-às
+pangolí: PLU=-ís
+panís: PLU=-issos
+papà: PLU=-às
+papú: PLU=-ús
+pardessú: PLU=-ús
+parnàs: PLU=-assos
+parrús: PLU=-ussos
+pas1: PLU=passos
+passadís: PLU=-issos
+passapuré: PLU=-és
+passatú: PLU=-ús
+pastís1: PLU=-issos
+paté: PLU=-és
+pe: PLU=pes
+pebràs: PLU=-assos
+pedallàs: PLU=-assos
+pedigrí: PLU=-ís
+pedrís: PLU=-issos
+pel: PLU=pels
+pendís: PLU=-issos
+perjuí: PLU=-ís
+peroné: PLU=-és
+perquè2: PLU=-ès
+pes2: PLU=pes
+picadís: PLU=-issos
+pilú: PLU=-ús
+pinçanàs: PLU=-assos
+piqué: PLU=-és
+plaqué: PLU=-és
+plató2: PLU=-ós
+pollís: PLU=-issos
+polpís: PLU=-issos
+praliné: PLU=-és
+prejuí: PLU=-ís
+procés: PLU=-essos
+progrés: PLU=-essos
+proís: PLU=-ïssos
+puré: PLU=-és
+qualsevol: PLU=qualssevol
+quinqué: PLU=-és
+rajà: PLU=-às
+ramàs: PLU=-assos
+rapè: PLU=-ès
+rascàs: PLU=-assos
+re1: PLU=res
+rebuig: PLU=-uigs -utjos
+recés: PLU=-essos
+redós: PLU=-ossos
+regrés: PLU=-essos
+reingrés: PLU=-essos
+relé: PLU=-és
+remig: PLU=-igs -itjos
+renís: PLU=-issos
+renòs: PLU=-ossos
+repàs: PLU=-assos
+requetè: PLU=-ès
+retrocés: PLU=-essos
+revés1: PLU=-essos
+ribàs: PLU=-assos
+ris: PLU=rissos
+rococó: PLU=-ós
+romàs: PLU=-assos
+rondó: PLU=-ós
+ros2: PLU=rossos
+roís: PLU=-ïssos
+sa1: PLU=ses
+sa2: PLU=ses & NOTA1=pot revestir la forma s'
+safareig: PLU=-eigs o -etjos
+sagú: PLU=-ús
+salpàs: PLU=-assos
+salsifí: PLU=-ís
+sargàs: PLU=-assos
+sargé: PLU=-és
+sassafràs: PLU=-assos
+sedàs: PLU=-assos
+serradís1: PLU=-issos
+ses: PLU=sessos
+si2: PLU=sis
+so2: PLU=sos
+sobrecòs: PLU=-ossos
+sobrepellís: PLU=-issos
+sobreòs: PLU=-ossos
+socors: PLU=-ors -orsos
+sofà: PLU=-às
+succés: PLU=-essos
+suflé: PLU=-és
+sufí: PLU=-ís
+surà: PLU=-às
+símplex: PLU=-s
+símplex: PLU=símplexs
+ta: PLU=tes
+tabú: PLU=-ús
+tacaé: PLU=-és
+taigà: PLU=-às
+talús: PLU=-ussos
+tapís: PLU=-issos
+taral·larà: PLU=-às
+tarannà: PLU=-às
+tararà: PLU=-às
+tararí: PLU=-ís
+tarràs: PLU=-assos
+tatú: PLU=-ús
+te1: PLU=tes
+te2: PLU=tes
+tejú: PLU=-ús
+teleesquí: PLU=-ís
+templàs: PLU=-assos
+terròs: PLU=-ossos
+teulís: PLU=-issos
+tex: PLU=texs
+tinamú: PLU=-ús
+tiràs: PLU=-assos
+tissú: PLU=-ús
+tití: PLU=-ís
+tolú: PLU=-ús
+tonedís -issa: PLU=-issos
+tortó: PLU=-ós
+tos1: PLU=tossos
+tramús: PLU=-ussos
+traspàs: PLU=-assos
+través: PLU=-essos
+trencalòs: PLU=-ossos
+trepig: PLU=-igs -itjos
+tros: PLU=-ossos
+tupè: PLU=-ès
+turnedó: PLU=-ós
+tutú: PLU=-ús
+u1: PLU=us
+uadi: PLU=uadis
+unisex: PLU=-s
+unisex: PLU=unisexs
+urdú: PLU=-ús
+urubú: PLU=-ús
+uís: PLU=uïssos
+valí: PLU=-ís
+ve: PLU=ves
+vellutàs: PLU=-assos
+venguí: PLU=-ís
+vergàs: PLU=-assos
+vernís: PLU=-issos
+vodú: PLU=-ús
+vudú: PLU=-ús
+xa: PLU=xas
+xacolí: PLU=-ís
+xacó: PLU=-ós
+xampú: PLU=-ús
+xantillí: PLU=-ís
+xapó1: PLU=-ós
+xassís: PLU=-issos
+xerès: PLU=-essos
+ximpanzé: PLU=-és
+xiné: PLU=-és
+zebú: PLU=-ús
+ós: PLU=óssos
+ús: PLU=usos
+
+// Més irregulars
+abdomen: PLU=abdòmens
+aborigen: PLU=aborígens
+aglutinogen: PLU=aglutinògens
+albumen: PLU=albúmens
+amfigen: PLU=amfígens
+antigen: PLU=antígens
+ascoliquen: PLU=ascolíquens
+autoantigen: PLU=autoantigens
+basidioliquen: PLU=basidiolíquens
+calcogen: PLU=calcògens
+caliptrogen: PLU=caliptrògens
+carragahen: PLU=carragàhens
+certamen: PLU=certàmens
+cerumen: PLU=cerúmens
+cianogen: PLU=cianògens
+ciclamen: PLU=ciclàmens
+creixen: PLU=créixens
+cromogen: PLU=cromògens
+dermatogen: PLU=dermatògens
+dictamen: PLU=dictàmens
+dolmen: PLU=dólmens
+duramen: PLU=duràmens
+eben: PLU=ébens
+enclinomen: PLU=enclinòmens
+epifenomen: PLU=epifenòmens
+estrogen: PLU=estrògens
+examen: PLU=exàmens
+fel·logen: PLU=fel·lògens
+fenomen: PLU=fenòmens
+flamen: PLU=flàmens
+fosgen: PLU=fósgens
+gasogen: PLU=gasògens
+germen: PLU=gèrmens
+gluten: PLU=glútens
+gravamen: PLU=gravàmens
+halogen: PLU=halògens
+hidrogen: PLU=hidrògens
+himen: PLU=hímens
+impetigen: PLU=impetígens
+interhalogen: PLU=interhalògens
+intertrigen: PLU=intertrígens
+kelvin: PLU=kélvins
+kremlin: PLU=krémlins
+lanugen: PLU=lanúgens
+lentigen: PLU=lentígens
+liquen: PLU=líquens
+lumen: PLU=lúmens
+nitrogen: PLU=nitrògens
+noümen: PLU=noúmens
+numen: PLU=númens
+origen: PLU=orígens
+orogen: PLU=orògens
+ortohidrogen: PLU=ortohidrògens
+oxigen: PLU=oxígens
+parahidrogen: PLU=parahidrògens
+pepsinogen: PLU=pepsinògens
+pol·len: PLU=pól·lens
+prolegomen: PLU=prolegòmens
+prurigen: PLU=prurígens
+pseudohalogen: PLU=pseudohalògens
+querogen: PLU=querògens
+roentgen: PLU=roéntgens
+rumen: PLU=rúmens
+semen: PLU=sémens
+tripsinogen: PLU=tripsinògens
+urobilinogen: PLU=urobilinògens
+vertigen: PLU=vertígens
+vitiligen: PLU=vitilígens
+
+// paraules clau per afegir informació a les entrades
+
+// ALT: s'ha de fer servir una informació alternativa a la del diccionari
+// IGNORA: s'ha d'ignorar l'entrada
+// NOVACAT: s'ha de fer servir una nova categoria
+
+// Si una entrada té dos o més jocs de regles alternatives, la segona i següents es poden posar envoltades amb <<EXT ... EXT>>. El contingut d'aquest camp ha de tenir el mateix format que el d'una línia qualsevol.
+
+// Es poden indicar formes dependents de la presència o absència d'un grup envoltant fragments amb <<xxx xxx>> o <<!xxx !xxx>>. En el primer cas, es manté el contingut si el grup xxx està en vigor; en el segon cas, es manté si el grup xxx no està en vigor. La informació de l'entrada ha de ser correcta tant si es manté el contingut com si s'esborra (això vol dir, per exemple, que s'han de posar els '&' o ' 'que siguin necessaris). Els codis d'obertura i tancament han de ser els mateixos.
+
+// Paraules específiques per als verbs
+
+// GER indica un gerundi irregular
+// IIM indica un imperfet d'indicatiu
+// SIM indica un imperfet de subjuntiu irregular
+// PAR indica un participi irregular
+// FUT indica un futur irregular
+// +   indica formes que s'han d'afegir; poden ser formes simples o bé formes
+//     generades per una regla i filtrades (ex. tregués/Q/(SPR[1236]|IMP[36]))
+// -   indica formes que s'han de suprimir (una expressió regular que s'aplica
+//     a totes les formes generades regularment; se suprimeixen les que
+//     hi coincideixen)
+// IPR3 indica la tercera persona del present d'indicatiu, a partir de la qual se'n generen d'altres (per exemple, en els verbs en -ir)
+
+//======== Verbs irregulars terminats en -ar ========
+
+// aguar: ind. pres. agúo, agúes, etc.
+// anar: ind. pr. vaig, vas, va, anem, aneu, van; ind. fut. aniré o iré, etc.; subj. pr. 1 vagi, 2 vagis, 3 vagi, 6 vagin; imper. 2 vés
+anar: -=(IPR[1236]|FUT|CON|SPR[1236]|IMP[236]) & +=vaig<IPR1> vas<IPR2> va<IPR3> van<IPR6> aniré<FUT1>/T iré<FUT1>/T vagés/P/(SPR[1236]|IMP[36]) vés<IMP2>
+
+// dar: en desús, les persones 1, 2, 3 i 6 dels pres. d'ind., de subj. i d'imper.
+// donar: ind. pr. 2 dónes, 3 dóna
+donar: -=(dones|dona)\b & +=dónava/A/(dóna|dónes)\b
+
+// estar: ind. pr. 1 estic, 2 estàs, 3 està, 6 estan; subj. pr. estigui, etc.; subj. imperf. estigués, etc.; imper. estigues, estigui, estiguem, estigueu, estiguin
+estar: -=(IPR[1236]|IPE|SPR|SIM|IMP) & +=estigués/Q/(IPR|IPE|SPR|SIM|IMP) estàs<IPR2> està<IPR3> estan<IPR6> estigues<IMP2> estigueu<IMP5>
+
+
+//======== Verbs irregulars terminats en -re i -er ========
+
+// absoldre: ger. absolent; p. p. absolt; ind. pr. 1 absolc; subj. pr. absolgui, etc.; subj. imperf. absolgués, etc.
+absoldre: GER=absolent & SIM=absolgués & PAR=absolt
+
+// abstreure: inf. abstreure o abstraure; quant a la flexió, com treure
+abstreure: MODEL=treure/tr/abstr
+
+// acórrer: quant a la flexió, com córrer
+acórrer: MODEL=córrer/c/ac
+
+// acréixer: quant a la flexió, com créixer
+acréixer: MODEL=créixer/cr/acr
+
+// admetre: p. p. admès
+admetre: PAR=admès
+
+// adscriure: quant a la flexió, com escriure
+adscriure: MODEL=escriure/es/ads
+
+// ajeure: inf. ajeure o ajaure; quant a la flexió, com jeure
+ajeure: MODEL=jeure/j/aj
+
+// aparèixer: p. p. aparegut; ind. pr. 1 aparec, 2 apareixes; subj. pr. aparegui, etc.; subj. imperf. aparegués, etc.
+aparèixer: PAR=aparegut & SIM=aparegués
+
+// aparer: usat gairebé exclusivament en ind. pres. 3 apar
+aparer: -=. & +=apar
+
+// apercebre: ind. pr. 2 aperceps, 3 apercep
+// regular!
+
+// aprehendre: quant a la flexió, com aprendre
+aprehendre: MODEL=aprendre/apr/apreh
+
+// aprendre: ger. aprenent; p. p. après; ind. pr. 1 aprenc, 3 aprèn; subj. pr. aprengui, etc.; subj. imperf. aprengués, etc.
+aprendre: GER=aprenent & PAR=après & SIM=aprengués & IPR3=aprèn
+
+// arremetre: p. p. arremès
+arremetre: PAR=arremès
+
+// asseure: quant a la flexió, com seure
+asseure: MODEL=seure/se/asse
+
+// atendre: ger. atenent; p. p. atès; ind. pr. 1 atenc, 3 atén; subj. pr. atengui, etc.; subj. imperf. atengués, etc.
+atendre: GER=atenent & PAR=atès & SIM=atengués & IPR3=atén
+
+// atènyer: p. p. atès
+atènyer: PAR=atès
+
+// atreure: inf. atreure o atraure; quant a la flexió, com treure
+atreure: MODEL=treure/tr/atr
+
+// benveure1: usat generalment en inf.
+benveure1: -=. & +=benveure
+
+// bestreure: inf. bestreure o bestraure; quant a la flexió, com treure
+bestreure: MODEL=treure/tr/bestr
+
+// beure1: ger. bevent; p. p. begut; ind. pr. bec, beus, beu, bevem, beveu, beuen; subj. pr. begui, etc.; subj. imperf. begués, etc.
+beure1: GER=bevent & PAR=begut & SIM=begués
+
+// cabre: inf. cabre o caber; ind. pr. 2 caps, 3 cap; subj. pr. càpiga, etc.
+cabre: -=(SPR|IMP[36]) & +=caber<INF0> càpiga<SPR1> càpiga<IMP3> càpigues<SPR2> càpiga<SPR3> capiguem<SPR4> capigueu<SPR5> càpiguen<SPR6> càpiguen<IMP6>
+
+// caldre: inf. caldre o caler; quant a la flexió, com valer
+caldre: ALT=caler & MODEL=valer/val/cal
+
+// carvendre: quant a la flexió, com revendre
+carvendre: MODEL=revendre/rev/carv
+
+// caure: ger. caient; p. p. caigut; ind. pr. caic, caus, cau, caiem, caieu, cauen; ind. imperf. queia, etc.; subj. pr. caigui, etc.; subj. imperf. caigués, etc.
+caure: GER=caient & PAR=caigut & SIM=caigués & IIM=queia
+
+// cerndre: ger. cernent; p.p. cernut; ind. pr. cerno, etc.; ind. perf. cerní, etc.; ind. fut. cerndré, etc.; subj. pr. cerni, etc.; subj. imperf. cernés, etc.; imper. cern, cerni, etc.
+cerndre: GER=cernent & PAR=cernut & SIM=cernés
+
+// circumscriure: quant a la flexió, com escriure
+circumscriure: MODEL=escriure/esc/circumsc
+
+// cloure: ger. cloent, p. p. clos; ind. pr. 1 cloc; subj. pr. clogui, etc.; subj. imperf. clogués, etc.
+cloure: GER=cloent & IIM=cloïa & PAR=clos & SIM=clogués
+
+// coldre: quant a la flexió, com absoldre
+coldre: MODEL=absoldre/abs/c
+
+// colltòrcer: quant a la flexió, com tòrcer
+colltòrcer: MODEL=tòrcer/t/collt
+
+// cometre: p. p. comès
+cometre: PAR=comès
+
+// commoure: quant a la flexió, com moure; p. p., commogut o commòs
+commoure: MODEL=moure/mo/commo & +=commòs<PAR0>/J
+
+// comparèixer: quant a la flexió, com aparèixer
+comparèixer: MODEL=aparèixer/apar/compar
+
+// complaure: quant a la flexió, com plaure
+complaure: MODEL=plaure/pl/compl
+
+// compondre: quant a la flexió, com respondre
+compondre: MODEL=respondre/resp/comp
+
+// comprendre: quant a la flexió, com aprendre
+comprendre: MODEL=aprendre/apr/compr
+
+// comprometre: p. p. compromès
+comprometre: PAR=compromès
+
+// concebre: ind. pr. 2 conceps, 3 concep
+// No és irregular!!
+
+// concloure: quant a la flexió, com cloure; p. p. conclòs
+concloure: MODEL=cloure/cl/concl & PAR=conclòs
+
+// concórrer: quant a la flexió, com córrer
+concórrer: MODEL=córrer/c/conc
+
+// condoldre's: quant a la flexió, com valer
+condoldre's: MODEL=valer/val/condol
+
+// conèixer: p. p. conegut; ind. pr. 1 conec, 2 coneixes; subj. pr. conegui, etc.; subj. imperf. conegués, etc.
+conèixer: PAR=conegut & SIM=conegués
+
+// confondre: ger. confonent; p. p. confós; ind. pr. 1 confonc; subj. pr. confongui, etc.; subj. imperf. confongués, etc.
+confondre: NOVACAT=v. tr. & GER=confonent & PAR=confós & SIM=confongués
+
+// constrènyer: p. p. constret
+constrènyer: PAR=constret
+
+// contendre: quant a la flexió, com atendre
+contendre: MODEL=atendre/at/cont
+
+// contòrcer-se: quant a la flexió, com tòrcer
+contòrcer-se: MODEL=tòrcer/t/cont
+
+// contrafer: quant a la flexió, com desfer
+contrafer: MODEL=desfer/desf/contraf
+
+// contreure: inf. contreure o contraure; quant a la flexió, com treure
+contreure: MODEL=treure/tr/contr
+
+// convèncer: quant a la flexió, com vèncer
+convèncer: MODEL=vèncer/v/conv
+
+// conviure: quant a la flexió, com viure
+conviure: MODEL=viure1/vi/convi
+
+// corfondre's: quant a la flexió, com confondre
+corfondre's: MODEL=confondre/conf/corf
+
+// corprendre: quant a la flexió, com aprendre
+corprendre: MODEL=aprendre/apr/corpr
+
+// córrer: p. p. corregut; ind. pr. corro, corres, corre, etc.; subj. pr. 4 correguem (o correm), 5 corregueu (o correu); subj. imperf. corregués, etc.
+córrer: PAR=corregut & SIM=corregués & -=(SPR[1236]|IMP[236]|IPR[123]) & +=corrés/P/(SPR|IMP) corro<IPR1> corres<IPR2> corre<IPR3> corre<IMP2>
+
+// correspondre: quant a la flexió, com respondre
+correspondre: MODEL=respondre/resp/corresp
+
+// coure2: p. p. cogut, ger. coent; p. p. cuit; ind. pr. coc, cous, cou, coem, coeu, couen; subj. pr. cogui, etc.; subj. imperf. cogués, etc.
+coure2: PAR=cogut & GER=coent & IIM=coïa & SIM=cogués & +=cuit<PAR0>/F
+
+// créixer: p. p. crescut; ind. pr. 2 creixes; subj. pr. 4 creixem (o cresquem), 5 creixeu (o cresqueu); subj. imperf. creixés (o cresqués), etc.
+créixer: PAR=crescut & +=cresqués<SIM1>/Q
+
+// creure: ger. creient; p. p. cregut; pr. ind. crec, creus, creu, creiem, creieu, creuen; ind. imperf. creia, etc.; subj. pr. cregui, etc.; subj. imperf. cregués, etc.
+creure: GER=creient & PAR=cregut & SIM=cregués <<102 & +=creim<IPR4> creis<IPR5> 102>>
+
+// decaure: quant a la flexió, com caure
+decaure: MODEL=caure/c/dec/q/deq
+
+// decebre: ind. pr. 2 deceps, 3 decep
+// Regular!
+
+// decórrer: quant a la flexió, com córrer
+decórrer: MODEL=córrer/c/dec
+
+// decréixer: quant a la flexió, com créixer
+decréixer: MODEL=créixer/cr/decr
+
+// defendre: quant a la flexió, com ofendre
+defendre: MODEL=ofendre/of/def
+
+// demetre: p. p. demès
+demetre: PAR=demès
+
+// dependre: quant a la flexió, com ofendre
+dependre: MODEL=ofendre/of/dep
+
+// desaparèixer: quant a la flexió, com aparèixer
+desaparèixer: MODEL=aparèixer/apar/desapar
+
+// desaprendre: quant a la flexió, com aprendre
+desaprendre: MODEL=aprendre/apr/desapr
+
+// desatendre: quant a la flexió, com atendre
+desatendre: MODEL=atendre/at/desat
+
+// descloure: quant a la flexió, com cloure; p. p. desclòs
+descloure: MODEL=cloure/cl/descl & PAR=desclòs
+
+// descomplaure: quant a la flexió, com plaure
+descomplaure: MODEL=plaure/pl/despl
+
+// descompondre: quant a la flexió, com respondre
+descompondre: MODEL=respondre/resp/descomp
+
+// descomprometre: p. p. descompromès
+descomprometre: PAR=descompromès
+
+// desconèixer: quant a la flexió, com conèixer
+desconèixer: MODEL=conèixer/con/descon
+
+// descórrer: quant a la flexió, com córrer
+descórrer: MODEL=córrer/c/desc
+
+// descreure: quant a la flexió, com creure
+descreure: MODEL=creure/cr/descr
+
+// descriure: quant a la flexió, com escriure
+descriure: MODEL=escriure/esc/desc
+
+// desentendre's: quant a la flexió, com atendre
+desentendre's: MODEL=atendre/at/desent
+
+// desfer: p. p. desfet; ind. pr. 1 desfaig, 2 desfàs, 3 desfà, 6 desfan; ind. imperf. desfeia, etc.; ind. perf. 1 desfiu, 3 desféu; ind. fut. desfaré, etc.; subj. pr. desfaci, etc. (o 4 desfem, 5 desfeu); subj. imperf. desfés, etc.
+desfer: PAR=desfet & IIM=desfeia & FUT=desfaré & SIM=desfés & -=(SPR[1236]|IPR[1236]|IPE[13]|IMP[2346]) & +=desfacés/P/(SPR|IMP[346]) desfaig<IPR1> desfàs<IPR2> desfà<IPR3> desfan<IPR6> desfiu<IPE1> desféu<IPE3> desfés<IMP2>
+
+// desmerèixer: quant a la flexió, com créixer
+desmerèixer: MODEL=créixer/cr/desmer
+
+// despendre: quant a la flexió, com ofendre
+despendre: MODEL=ofendre/of/desp
+
+// desplaure: quant a la flexió, com plaure
+desplaure: MODEL=plaure/pl/despl
+
+// despondre's: quant a la flexió, com respondre
+despondre's: MODEL=respondre/resp/desp
+
+// desprendre: quant a la flexió, com aprendre
+desprendre: MODEL=aprendre/apr/despr
+
+// destòrcer: quant a la flexió, com tòrcer
+destòrcer: MODEL=tòrcer/t/dest
+
+// destrènyer: p. p. destret
+destrènyer: PAR=destret
+
+// desviure's: quant a la flexió, com viure
+desviure's: MODEL=viure1/vi/desvi
+
+// detreure: inf. detreure o detraure; quant a la flexió, com treure
+detreure: MODEL=treure/tr/detr
+
+// deure1: ger. devent; p. p. degut; ind. pres. 1 dec; subj. pres. degui, etc.; subj. imperf. degués, etc.
+deure1: GER=devent & PAR=degut & SIM=degués
+
+// difondre: quant a la flexió, com confondre
+difondre: MODEL=confondre/conf/dif
+
+// discórrer: quant a la flexió, com córrer
+discórrer: MODEL=córrer/c/disc
+
+// dissoldre: quant a la flexió, com absoldre
+dissoldre: MODEL=absoldre/abs/diss
+
+// distendre: quant a la flexió, com atendre
+distendre: MODEL=atendre/at/dist
+
+// distòrcer: quant a la flexió, com tòrcer
+distòrcer: MODEL=tòrcer/t/dist
+
+// distreure: inf. distreure o distraure; quant a la flexió, com treure
+distreure: MODEL=treure/tr/distr
+
+// doldre: inf. doldre o doler; quant a la flexió, com valer
+doldre: ALT=doler & MODEL=valer/val/dol
+
+// dur2: ger. duent; p. p. dut; ind. pr. duc, duus (o dus), duu (o du), etc.; imperf. duia, etc.; subj. pr. dugui, etc.; imperf. dugués, etc.
+dur2: ALT=dure & SIM=dugués & PAR=dut/F & -=(INF) & +=dur<INF0> duus<IPR2> duu<IPR3> <<102 duim<IPR4> duis<IPR5> duit<PAR0>/F 102>>
+
+// embeure: quant a la flexió, com beure
+embeure: MODEL=beure1/be/embe
+
+// emetre: p. p. emès
+emetre: PAR=emès
+
+// empènyer: p. p. empès
+empènyer: PAR=empès
+
+// emprendre: quant a la flexió, com aprendre
+emprendre: MODEL=aprendre/apr/empr
+
+// encendre: quant a la flexió, com atendre
+encendre: MODEL=atendre/at/enc
+
+// encloure: quant a la flexió, com cloure; p. p. enclòs
+encloure: MODEL=cloure/cl/encl & PAR=enclòs
+
+// encórrer: quant a la flexió, com córrer
+encórrer: MODEL=córrer/c/enc
+
+// endur-se: quant a la flexió, com dur
+endur-se: ALT=endure & SIM=endugués & PAR=endut/F & -=(INF|du<|dus<) & +=endur<INF0> enduus<IPR2> enduu<IPR3> endú<IMP2> endú<IPR3> endús<IPR2> <<102 enduim<IPR4> enduis<IPR5> enduit<PAR0>/F 102>>
+
+// enfondre: p. p. enfús
+enfondre: PAR=enfús
+
+// entendre: quant a la flexió, com atendre
+entendre: MODEL=atendre/at/ent
+
+// entremetre's: p. p. entremès
+entremetre's: PAR=entremès
+
+// entreploure: quant a la flexió, com ploure
+entreploure: MODEL=ploure/pl/entrepl
+
+// entreveure: quant a la flexió, com veure
+entreveure: MODEL=veure/v/entrev
+
+// equivaler: quant a la flexió, com valer
+equivaler: MODEL=valer/val/equival
+
+// escaure: quant a la flexió, com caure
+escaure: MODEL=caure/c/esc/q/esq
+
+// escometre: p. p. escomès
+escometre: PAR=escomès
+
+// escórrer: quant a la flexió, com córrer
+escórrer: MODEL=córrer/c/esc
+
+// escriure: ger. escrivint; p. p. escrit; ind. pr. 1 escric; subj. pr. escrigui, etc.; subj. imperf. escrivís (o escrigués), etc.
+escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués & +=escrivir/M/(SIM|IPR[45]|IMP[5])
+
+// espènyer: p. p. espès
+espènyer: PAR=espès
+
+// ésser1: ger. essent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
+ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B
+
+// estendre: quant a la flexió, com atendre
+estendre: MODEL=atendre/at/est
+
+// estòrcer: quant a la flexió, com tòrcer
+estòrcer: MODEL=tòrcer/t/est
+
+// estrafer: quant a la flexió, com desfer
+estrafer: MODEL=desfer/desf/estraf
+
+// estrènyer: p. p. estret
+estrènyer: PAR=estret
+
+// excloure: quant a la flexió, com cloure; p. p. exclòs
+excloure: MODEL=cloure/cl/excl & PAR=exclòs
+
+// expendre: quant a la flexió, com aprendre
+expendre: MODEL=aprendre/apr/exp
+
+// extreure: inf. extreure o extraure; quant a la flexió, com treure
+extreure: MODEL=treure/tr/extr
+
+// fendre: quant a la flexió, com prendre
+fendre: MODEL=prendre/pr/f
+
+// fer1: p. p. fet; ind. pr. faig, fas, fa, fem, feu, fan; ind. imperf. feia, etc.; ind. perf. fiu, feres, féu, férem, etc.; ind. fut. faré, etc.; subj. pr. faci, facis, faci, fem (o facem), feu (o faceu), facin; subj. imperf. fes, fessis, etc.; imper. fes
+fer1: PAR=fet & IIM=feia & FUT=faré & SIM=fes & -=(SPR[1236]|IPR[1236]|IPE[13]|IMP[2346]|SIM[13]) & +=facés/P/(SPR|IMP[346]) faig<IPR1> fas<IPR2> fa<IPR3> fan<IPR6> fiu<IPE1> féu<IPE3> fes<IMP2> fes<SIM1> fes<SIM3> <<102 feim<IPR4> feis<IPR5> feis<IMP5> 102>>
+
+// fondre: ger. fonent; p. p. fos; ind. pr. 1 fonc; subj. pr. fongui, etc.; subj. imperf. fongués, etc.
+fondre: GER=fonent & PAR=fos & SIM=fongués
+
+// ent=haure^cat1=v. tr.
+haure: PAR=hagut & -=. & +=haure<INF0>
+
+// haver1: ind. pr. he de o haig de, has de, etc., p. p. hagut; ind. pr. he, has, ha, hem o havem, heu o haveu, han; ind. fut. hauré, etc.; condic. hauria o haguera, etc.; subj. pr. hagi, hagis, hagi, hàgim, hàgiu, hagin; subj. imperf. hagués, etc.; imper. hages, etc.
+haver1: SIM=hagués & FUT=hauré & PAR=hagut & -=(IPR[1236]|SPR|IMP) & +=he<IPR1> haig<IPR1> has<IPR2> ha<IPR3> hem<IPR4> heu<IPR5> han<IPR6> hagés/P/(SPR[1236]|IMP) hàgim<SPR4> hàgiu<SPR5> hages<IMP2>
+
+// haver2: inf. haver, heure o haure; p. p. hagut; ind. pr. hec, heus, heu, havem, haveu, heuen; ind. fut. hauré, etc.; subj. pr. hegui, heguis, hegui, haguem, hagueu, heguin; subj. imperf. hagués, etc.; imper. heu, hegui, haguem, haveu, heguin
+haver2: -=. & +=heus
+
+// incloure: quant a la flexió, com cloure; p. p. inclòs
+incloure: MODEL=cloure/cl/incl & PAR=inclòs
+
+// incórrer: quant a la flexió, com córrer
+incórrer: MODEL=córrer/c/inc
+
+// infondre: quant a la flexió, com confondre
+infondre: MODEL=confondre/conf/inf
+
+// inscriure: quant a la flexió, com escriure
+inscriure: MODEL=escriure/esc/insc
+
+// irèixer-se: quant a la flexió, com créixer
+irèixer-se: MODEL=créixer/cr/ir
+
+// jeure: inf. jeure o jaure; ger. jaient; p. p. jagut; ind. pr. jec o jac, jeus o jaus, jeu o jau, jaiem, jaieu, jeuen o jauen; ind. imperf. jeia, etc.; ind. fut. jauré, etc.; subj. pr. jegui, jeguis, jegui, jaguem, jagueu, jeguin (o jagui, etc.); subj. imperf. jagués, etc.
+jeure: PAR=jagut & GER=jaient & IIM=jeia & SIM=jagués & FUT=jauré & +=jaure<INF0> jec<IPR1> jaus<IPR2> jau<IPR3> jau<IMP2> jauen<IPR6> jegués/Q/(SPR[1236]|IMP[36]) <<102 jeim<IPR4> jeis<IPR5> jeis<IMP5> 102>>
+
+// lleure2: quant a la flexió, com creure
+lleure2: MODEL=creure/cre/lle
+
+// malentendre: quant a la flexió, com atendre
+malentendre: MODEL=atendre/at/malent
+
+// malmetre: p. p. malmès
+malmetre: PAR=malmès
+
+// malprendre: quant a la flexió, com aprendre
+malprendre: MODEL=aprendre/apr/malpr
+
+// malvendre: quant a la flexió, com revendre
+malvendre: MODEL=revendre/rev/malv
+
+// malviure1: quant a la flexió, com viure
+malviure1: MODEL=viure1/vi/malvi
+
+// mamprendre: quant a la flexió, com aprendre
+mamprendre: MODEL=aprendre/apr/mampr
+
+// manumetre: p. p. manumès
+manumetre: PAR=manumès
+
+// marfondre's: quant a la flexió, com confondre
+marfondre's: MODEL=confondre/confo/marfo
+
+// menyscreure: quant a la flexió, com creure
+menyscreure: MODEL=creure/cr/menyscr
+
+// merèixer: quant a la flexió, com créixer
+merèixer: MODEL=créixer/cr/mer
+
+// metre2: p. p. mes
+metre2: PAR=mes
+
+// moldre: ger. molent; p. p. mòlt; ind. pr. 1 molc; subj. pr. molgui, etc.; subj. imperf. molgués, etc.
+moldre: GER=molent & PAR=mòlt & SIM=molgués
+
+// moure: ger. movent; p. p. mogut; ind. pr. 1 moc; subj. pr. mogui, etc.; subj. imperf. mogués, etc.
+moure: GER=movent & PAR=mogut & SIM=mogués
+
+// néixer: inf. néixer o nàixer; ger. naixent; p. p. nascut; ind. pr. neixo o naixo, neixes o naixes, neix o naix, naixem, naixeu, neixen o naixen; ind. imperf. naixia, etc.; ind. fut. naixeré, etc.; subj. pr. neixi o naixi, neixis o naixis, neixi o naixi, naixem o nasquem, naixeu o nasqueu, neixin o naixin; subj. imperf. naixés o nasqués, etc.
+néixer: GER=naixent & PAR=nascut & IIM=naixia & FUT=naixeré & SIM=nasqués & -=(IPR1|SPR[1236]) & +=neixo<IPR1> naixo<IPR1> neixes<IPR2> neix<IPR3> neixen<IPR6> nesqués/Q/(SPR[1236]|IMP[346]) nasqués/Q/SPR[1236] neixés/Q/SPR[1236]
+
+// noure: quant a la flexió, com coure; p. p. nogut
+noure: PAR=nogut & GER=noent & IIM=noïa & SIM=nogués
+
+// ocórrer: quant a la flexió, com córrer
+ocórrer: MODEL=córrer/c/oc
+
+// ofendre: ger. ofenent; p. p. ofès; ind. pr. 1 ofenc, 3 ofèn; subj. pr. ofengui, etc.; subj. imperf. ofengués, etc.
+ofendre: GER=ofenent & IPR3=ofèn & PAR=ofès & SIM=ofengués
+
+// oldre: quant a la flexió, com absoldre
+oldre: MODEL=absoldre/absol/ol
+
+// ometre: p. p. omès
+ometre: PAR=omès
+
+// parèixer: quant a la flexió, com aparèixer
+parèixer: MODEL=aparèixer/apar/par
+
+// péixer: ind. pr. 2 peixes
+
+// percebre: ind. pr. 2 perceps, 3 percep
+
+// perfer: quant a la flexió, com desfer
+perfer: MODEL=desfer/desf/perf
+
+// permetre: p. p. permès
+permetre: PAR=permès
+
+// pertànyer: p. p. pertangut
+pertànyer: PAR=pertangut
+
+// perviure: quant a la flexió, com viure
+perviure: MODEL=viure1/vi/pervi
+
+// plaure: ger. plaent; p. p. plagut; ind. pr. 1 plac; subj. pr. plagui, etc.; subj. imperf. plagués, etc.
+plaure: GER=plaent & PAR=plagut & SIM=plagués
+
+// ploure: ger. plovent; p. p. plogut; subj. pr. 3 plogui; subj. imperf. 3 plogués
+ploure: GER=plovent & PAR=plogut & SIM=plogués
+
+// poder1: p. p. pogut; ind. pr. 1 puc, 2 pots, 3 pot; subj. pr. pugui, etc.; subj. imperf. pogués, etc.
+poder1: PAR=pogut & FUT=podré & SIM=pogués & -=(IPR[123]|SPR|IMP[2346]) & +=pugués/Q/(SPR|IMP) puc<IPR1> pots<IPR2> pot<IPR3> pot<IMP2>
+
+// pondre: quant a la flexió, com respondre
+pondre: MODEL=respondre/resp/p
+
+// prendre: ger. prenent; p. p. pres; ind. pr. 1 prenc; subj. pr. prengui, etc.; subj. imperf. prengués, etc.
+prendre: GER=prenent & PAR=pres & SIM=prengués
+
+// prescriure: quant a la flexió, com escriure
+prescriure: MODEL=escriure/esc/presc
+
+// pretendre: quant a la flexió, com atendre
+pretendre: MODEL=atendre/at/pret
+
+// prevaler: quant a la flexió, com valer
+prevaler: MODEL=valer/val/preval
+
+// preveure: quant a la flexió, com veure
+preveure: MODEL=veure/v/prev
+
+// prometre: p. p. promès
+prometre: PAR=promès
+
+// promoure: quant a la flexió, com moure
+promoure: MODEL=moure/mo/promo
+
+// proscriure: quant a la flexió, com escriure
+proscriure: MODEL=escriure/esc/prosc
+
+// rarefer: quant a la flexió, com desfer
+rarefer: MODEL=desfer/desf/raref
+
+// raure: quant a la flexió, com plaure
+raure: MODEL=plaure/pla/ra
+
+// reabsoldre: quant a la flexió, com absoldre
+reabsoldre: MODEL=absoldre/absol/reabsol
+
+// readmetre: p. p. readmès
+readmetre: PAR=readmès
+
+// reaparèixer: quant a la flexió, com aparèixer
+reaparèixer: MODEL=aparèixer/apar/reapar
+
+// rebeure: quant a la flexió, com beure
+rebeure: MODEL=beure1/be/rebe
+
+// rebre: ind. pr. 2 reps, 3 rep
+
+// recaure: quant a la flexió, com caure
+recaure: MODEL=caure/ca/reca
+
+// recloure: quant a la flexió, com cloure; p. p. reclòs
+recloure: MODEL=cloure/cl/recl & PAR=reclòs
+
+// recompondre: quant a la flexió, com respondre
+recompondre: MODEL=respondre/resp/recomp
+
+// reconèixer: quant a la flexió, com conèixer
+reconèixer: MODEL=conèixer/con/recon
+
+// recórrer: quant a la flexió, com córrer
+recórrer: MODEL=córrer/c/rec
+
+// recoure: quant a la flexió, com coure
+recoure: MODEL=coure2/c/rec
+
+// recréixer: quant a la flexió, com créixer
+recréixer: MODEL=créixer/cr/recr
+
+// reescriure: quant a la flexió, com escriure
+reescriure: MODEL=escriure/esc/reesc
+
+// refer: quant a la flexió, com desfer
+refer: MODEL=desfer/desf/ref
+
+// refondre: quant a la flexió, com confondre
+refondre: MODEL=confondre/conf/ref
+
+// remetre: p. p. remès
+remetre: PAR=remès
+
+// remoldre: quant a la flexió, com moldre
+remoldre: MODEL=moldre/mol/remol
+
+// remoure: quant a la flexió, com moure
+remoure: MODEL=moure/mo/remo
+
+// renéixer: inf. renéixer o renàixer; quant a la flexió, com néixer
+renéixer: MODEL=néixer/n/ren
+
+// reprendre: quant a la flexió, com aprendre
+reprendre: MODEL=aprendre/apr/repr
+
+// resoldre: quant a la flexió, com absoldre
+resoldre: MODEL=absoldre/absol/resol
+
+// respondre: ger. responent; p. p. respost; ind. pr. 1 responc; sub. pr. respongui, etc.; subj. imperf. respongués, etc.
+respondre: GER=responent & PAR=respost & SIM=respongués
+
+// restrènyer: p. p. restret
+restrènyer: PAR=restret
+
+// retondre: quant a la flexió, com confondre
+retondre: MODEL=confondre/confo/reto
+
+// retòrcer: quant a la flexió, com tòrcer
+retòrcer: MODEL=tòrcer/t/ret
+
+// retransmetre: p. p. retransmès
+retransmetre: PAR=retransmès
+
+// retreure: inf. retreure o retraure; quant a la flexió, com treure
+retreure: MODEL=treure/tr/retr
+
+// retrotreure: inf. retrotreure o retrotraure; quant a la flexió, com treure
+retrotreure: MODEL=treure/tr/retrotr
+
+// retrovendre: quant a la flexió, com revendre
+retrovendre: MODEL=revendre/rev/retrov
+
+// revèncer: quant a la flexió, com vèncer
+revèncer: MODEL=vèncer/v/rev
+
+// revendre: ger. revenent; p. p. revenut (o revengut); ind. pr. 1 revenc, 3 revèn; subj. pr. revengui, etc.; subj. imperf. revengués, etc.
+revendre: GER=revenent & PAR=revenut & IPR3=revèn & SIM=revengués & +=revengut<PAR0>/B
+
+// reveure: quant a la flexió, com veure
+reveure: MODEL=veure/v/rev
+
+// reviure: quant a la flexió, com viure
+reviure: MODEL=viure1/vi/revi
+
+// riure1: ger. rient; p. p. rigut; ind. pr. ric, rius, riu, riem, rieu, riuen; ind. imperf. reia, etc.; subj. pr. rigui, etc.; subj. imperf. rigués, etc.
+riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués
+
+// romandre: ger. romanent; p. p. romàs; ind. pr. 1 romanc, 2 romans, 3 roman; subj. pr. romangui, etc.; subj. imperf. romangués, etc.
+romandre: GER=romanent & PAR=romàs & SIM=romangués
+
+// saber1: ind. pr. 1 sé, 2 saps, 3 sap; ind. fut. sabré, etc.; subj. pr. sàpiga, etc.; subj. imperf. sabés, etc.; imper. sàpigues, sapiga, sapiguem, sapigueu, sàpiguen
+saber1: FUT=sabré & SIM=sabés & -=(IPR1|SPR|IMP[346]) & +=sé<IPR1> sàpiga<SPR1> sàpigues<SPR2> sàpiga<SPR3> sapiguem<SPR4> sapigueu<SPR5> sàpiguen<SPR6> sàpiga<IMP3> sapiguem<IMP4>  sàpiguen<IMP6>
+
+// salprendre: quant a la flexió, com aprendre
+salprendre: MODEL=aprendre/apr/salpr
+
+// satisfer: quant a la flexió, com desfer
+satisfer: MODEL=desfer/desf/satisf
+
+// ser1: ger. sent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
+ser1: MODEL=ésser1/ess/s
+
+// seure: ger. seient; p. p. segut; ind. pr. sec, seus, seu, seiem, seieu, seuen; ind. imperf. seia, etc.; subj. pr. segui, etc.; subj. imperf. segués, etc.
+seure: GER=seient & PAR=segut & SIM=segués
+
+// sobrecréixer: quant a la flexió, com créixer
+sobrecréixer: MODEL=créixer/cr/sobrecr
+
+// sobreentendre: quant a la flexió, com atendre
+sobreentendre: MODEL=atendre/at/sobreent
+
+// sobreescriure: quant a la flexió, com escriure
+sobreescriure: MODEL=escriure/esc/sobreesc
+
+// sobrenéixer: inf. sobrenéixer o sobrenàixer; quant a la flexió, com néixer
+sobrenéixer: MODEL=néixer/n/sobren
+
+// sobreprendre: quant a la flexió, com aprendre
+sobreprendre: MODEL=aprendre/apr/sobrepr
+
+// sobreseure: quant a la flexió, com seure
+sobreseure: MODEL=seure/se/sobrese
+
+// sobrevaler: quant a la flexió, com valer
+sobrevaler: MODEL=valer/val/sobreval
+
+// sobreviure: quant a la flexió, com viure
+sobreviure: MODEL=viure1/vi/sobrevi
+
+// socórrer: quant a la flexió, com córrer
+socórrer: MODEL=córrer/c/soc
+
+// soler2: quant a la flexió, com valer
+soler2: MODEL=valer/val/sol
+
+// somoure: quant a la flexió, com moure
+somoure: MODEL=moure/mo/somo
+
+// somriure1: quant a la flexió, com riure
+somriure1: MODEL=riure1/r/somr
+
+// sorprendre: quant a la flexió, com aprendre
+sorprendre: MODEL=aprendre/apr/sorpr
+
+// sostreure: inf. sostreure o sostraure; quant a la flexió, com treure
+sostreure: MODEL=treure/tr/sostr
+
+// sotaescriure: quant a la flexió, com escriure
+sotaescriure: MODEL=escriure/esc/sotaesc
+
+// sotmetre: p. p. sotmès
+sotmetre: PAR=sotmès
+
+// subscriure: quant a la flexió, com escriure
+subscriure: MODEL=escriure/esc/subsc
+
+// suspendre: quant a la flexió, com aprendre
+suspendre: MODEL=aprendre/apr/susp
+
+// toldre: quant a la flexió, com absoldre
+toldre: MODEL=absoldre/absol/tol
+
+// tondre: quant a la flexió, com fondre
+tondre: MODEL=fondre/fon/ton
+
+// tòrcer: p. p. torçut; ind. pr. torço, torces, torç, etc.; imper. torç, torci, torcem, etc.
+tòrcer: ALT=tòrcer
+
+// trametre: p. p. tramès
+trametre: PAR=tramès
+
+// transcórrer: quant a la flexió, com córrer
+transcórrer: MODEL=córrer/c/transc
+
+// transcriure: quant a la flexió, com escriure
+transcriure: MODEL=escriure/esc/transc
+
+// transfondre: quant a la flexió, com confondre
+transfondre: MODEL=confondre/conf/transf
+
+// transmetre: p. p. transmès
+transmetre: PAR=transmès
+
+// treure: inf. treure o traure; ger. traient; p. p. tret; ind. pr. trec o trac, treus o traus, treu o trau, traiem, traieu, treuen o trauen; ind. imperf. treia, etc.; ind. fut. trauré, etc.; subj. pr. tregui, treguis, tregui, traguem, tragueu, treguin (o tragui, etc.); subj. imperf. tragués, etc.
+treure: PAR=tret & GER=traient & IIM=treia & SIM=tragués & FUT=trauré & +=traure<INF0> trec<IPR1> traus<IPR2> trau<IPR3> trau<IMP2> trauen<IPR6> tregués/Q/(SPR[1236]|IMP[36]) <<102 treim<IPR4> treis<IPR5> treis<IMP5> 102>>
+
+// ullprendre: quant a la flexió, com aprendre
+ullprendre: MODEL=aprendre/apr/ullpr
+
+// valer: inf. valer o valdre; p. p. valgut; ind. pr. 1 valc; ind. fut. valdré, etc.; subj. pr. valgui, etc.; subj. imperf. valgués, etc.
+valer: PAR=valgut & FUT=valdré & SIM=valgués & +=valdre<INF0>
+
+// vèncer: ind. pr. venço, vences, venç, vencem, etc.
+vèncer: ALT=vèncer
+
+// vendre: ger. venent; p. p. venut o vengut; ind. pr. 1 venc; subj. pr. vengui, etc.; subj. imperf. vengués, etc.
+vendre: GER=venent & PAR=venut & SIM=vengués & +=vengut<PAR0>/B
+
+// veure: p. p. vist; ind. pr. veig, veus, veu, veiem, veieu, veuen; ind. imperf. veia, etc.; ind. perf. viu, veres (o veieres), véu (o veié), vérem (o veiérem), etc.; subj. pr. vegi, etc.; subj. imperf. veiés, etc.; imper. veges (o ves), vegi, vegem, vegeu (o veieu), vegin
+veure: PAR=vist & IIM=veia & GER=veient & SIM=veiés & -=(IPR1|IPE|SPR|IMP) & +=veig<IPR1> viu<IPE1> veres<IPE2> veieres<IPE2> véu<IPE3> veié<IPE3> vérem<IPE4> veiérem<IPE4> véreu<IPE5> veiéreu<IPE5> veren<IPE6> veieren<IPE6> vegés/P/(SPR|IMP) veges<IMP2> ves<IMP2> <<102 veim<IPR4> veis<IPR5> veis<IMP5> 102>>
+
+// viure1: ger. vivint; p. p. viscut; ind. pr. visc, vius, viu, vivim, viviu, viuen; subj. pr. visqui, etc.; subj. imperf. visqués, etc.
+viure1: GER=vivint & PAR=viscut & SIM=visqués
+
+// voler2: p. p. volgut; ind. pr. vull, vols, vol, volem, voleu, volen; ind. fut. voldré, etc.; subj. pr. vulgui, etc.; subj. imperf. volgués, etc.; imper. vulgues, vulgui, vulguem, vulgueu, vulguin
+voler2: FUT=voldré & SIM=volgués & PAR=volgut & -=(SPR|IPR1|IMP) & +=vull<IPR1> vulgués/Q/(SPR|IMP) vulgues<IMP2> vulgueu<IMP5>
+
+//======== verbs irregulars terminats en -ir, peró del grup -re/-er ========
+
+// abstenir-se: p. p. abstingut; ind. pr. 1 abstinc, 3 absté; ind. fut. abstindré, etc.; subj. pr. abstingui, etc.; subj. imperf. abstingués, etc.; imperat. 2 abstén
+abstenir-se: ALT=abstindre's & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(INF|IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
+
+// adir-se: quant a la flexió, com dir
+adir-se: MODEL=dir1/d/ad
+
+// advenir: quant a la flexió, com prevenir
+advenir: MODEL=prevenir/prev/adv
+
+// atenir-se: quant a la flexió, com abstenir-se
+atenir-se: MODEL=abstenir-se/abs/a
+
+// avenir-se: quant a la flexió, com prevenir
+avenir-se: MODEL=prevenir/prev/av
+
+// captenir-se: quant a la flexió, com abstenir-se
+captenir-se: MODEL=abstenir-se/abs/cap
+
+// cartenir: quant a la flexió, com mantenir
+cartenir: MODEL=mantenir/man/car
+
+// contenir: quant a la flexió, com mantenir
+contenir: MODEL=mantenir/mant/cont
+
+// contradir: quant a la flexió, com dir
+contradir: MODEL=dir1/d/contrad
+
+// contravenir: quant a la flexió, com prevenir
+contravenir: MODEL=prevenir/prev/contrav
+
+// convenir: quant a la flexió, com prevenir
+convenir: MODEL=prevenir/prev/conv
+
+// desavenir-se: quant a la flexió, com prevenir
+desavenir-se: MODEL=prevenir/prev/desav
+
+// desconvenir: quant a la flexió, com prevenir
+desconvenir: MODEL=prevenir/prev/desconv
+
+// desdir: quant a la flexió, com dir
+desdir: MODEL=dir1/d/desd
+
+// detenir: quant a la flexió, com mantenir
+detenir: MODEL=mantenir/mant/det
+
+// dir1: ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu
+dir1: ALT=diure & GER=dient & IIM=deia & FUT=diré & SIM=digués & PAR=dit/F & -=(diure|PAR|IMP[25]) & +=dir<INF0> digues<IMP2> digueu<IMP5> <<102 deim<IPR4> deis<IPR5>  102>>
+
+// entredir: quant a la flexió, com dir
+entredir: MODEL=dir1/d/entred
+
+// entretenir: quant a la flexió, com mantenir
+entretenir: MODEL=mantenir/mant/entret
+
+// entrevenir: quant a la flexió, com prevenir
+entrevenir: MODEL=prevenir/prev/entrev
+
+// esdevenir: quant a la flexió, com prevenir
+esdevenir: MODEL=prevenir/prev/esdev
+
+// interdir: quant a la flexió, com dir
+interdir: MODEL=dir1/d/interd
+
+// intervenir: quant a la flexió, com prevenir
+intervenir: MODEL=prevenir/prev/interv
+
+// maldir: quant a la flexió, com dir
+maldir: MODEL=dir1/d/mald
+
+// mantenir: p. p. mantingut; ind. pr. mantinc, mantens, manté, etc.; ind. fut. mantindré, etc.; subj. pr. mantingui, etc.; imper. mantén o mantingues, mantingui, mantinguem, manteniu o mantingueu, mantinguin
+mantenir: ALT=mantindre & GER=mantenint & PAR=mantingut & SIM=mantingués & -=(INF|IPR3|IMP2) & +=mantenir<INF0> manté<IPR3> mantén<IMP2> mantingues<IMP2> mantingueu<IMP5> <<103 mantenc<IPR1> mantengués<IIM1>/Q mantengut<PAR0>/B mantendré<FUT1>/T 103>>
+
+// menystenir: quant a la flexió, com mantenir
+menystenir: MODEL=mantenir/mant/menyst
+
+// obtenir: quant a la flexió, com mantenir
+obtenir: MODEL=mantenir/mant/obt
+
+// obvenir: quant a la flexió, com prevenir
+obvenir: MODEL=prevenir/prev/obv
+
+// pervenir: quant a la flexió, com prevenir
+pervenir: MODEL=prevenir/prev/perv
+
+// predir: quant a la flexió, com dir
+predir: MODEL=dir1/d/pred
+
+// prevenir: p. p. previngut; ind. pr. 1 previnc, 3 prevé, etc.; ind. fut. previndré, etc.; subj. pr. previngui, etc.; subj. imperf. previngués, etc.; imper. prevén, etc.
+prevenir: ALT=previndre & GER=prevenint & IIM=prevenia & SIM=previngués & PAR=previngut & -=(previndre|preven)< & +=prevenir<INF0> prevé<IPR3> prevén<IMP2> <<103 prevenc<IPR1> prevengués<IIM1>/Q prevengut<PAR0>/B prevendré<FUT1>/T 103>>
+
+// provenir: quant a la flexió, com prevenir
+provenir: MODEL=prevenir/prev/prov
+
+// reconvenir: quant a la flexió, com prevenir
+reconvenir: MODEL=prevenir/prev/reconv
+
+// redir: quant a la flexió, com dir
+redir: MODEL=dir1/d/red
+
+// retenir: quant a la flexió, com mantenir
+retenir: MODEL=mantenir/mant/ret
+
+// revenir: quant a la flexió, com prevenir; ind. pr. 2 revéns, 6 revénen
+revenir: ALT=revindre & GER=revenint & IIM=revenia & SIM=revingués & PAR=revingut & -=(revindre<|reven<|IPR[26]) & +=revenir<INF0> revé<IPR3> revé<IMP2> revéns<IPR2> revénen<IPR6>
+
+// sobrevenir: quant a la flexió, com prevenir
+sobrevenir: MODEL=prevenir/prev/sobrev
+
+// sostenir: quant a la flexió, com mantenir
+sostenir: MODEL=mantenir/mant/sost
+
+// subvenir: quant a la flexió, com prevenir
+subvenir: MODEL=prevenir/prev/subv
+
+// tenir: inf. tenir o tindre; p. p. tingut; ind. pr. 1 tinc, 2 tens, 3 té, 6 tenen; ind. fut. tindré, etc.; subj. pr. tingui, etc.; subj. imperf. tingués, etc.; imper. 2 té o ten o tingues, 5 teniu o tingueu
+tenir: ALT=tindre & GER=tenint & PAR=tingut & SIM=tingués & -=(IPR3|IMP2) & +=tenir<INF0> té<IPR3> té<IMP2> ten<IMP2> tingues<IMP2> tingueu<IMP5> <<103 tenc<IPR1> tengués<IIM1>/Q tengut<PAR0>/B tendré<FUT1>/T 103>>
+
+// venir: inf. venir o vindre; p. p. vingut; ind. pr. 1 vinc, 2 véns, 3 ve, 6 vénen; ind. fut. vindré, etc.; subj. pr. vingui, etc.; subj. imperf. vingués, etc.; imper. 2 vine
+venir: ALT=vindre & GER=venint & IIM=venia & SIM=vingués & PAR=vingut & -=(IPR2|IPR3|IPR6|IMP2) & +=venir<INF0> véns<IPR2> ve<IPR3> vénen<IPR6> vine<IMP2> <<103 vénc<IPR1> vengués/Q/(IPE|SPR[45]|SIM|IMP4) véngués/Q/(SPR[1236]|IMP[36]) vengut<PAR0>/B vendré<FUT1>/T 103>>
+
+//======== Verbs irregulars terminats en -ir ========
+
+// acollir: quant a la flexió, com collir
+acollir: MODEL=collir/c/ac
+
+// acomplir: p. p. acomplert (o acomplit)
+acomplir: +=acomplert<PAR0>/F
+
+// acudir: ind. pr. 2 acudeixes (o acuts), 3 acudeix (o acut)
+acudir: +=acuts<IPR2> acut<IPR3> acut<IMP2>
+
+// adormir: ind. pr. 3 adorm
+adormir: IPR3=adorm
+
+// ajupir: ind. pr. 3 ajup
+ajupir: IPR3=ajup
+
+// arrupir-se: ind. pr. 3 arrupeix (o arrup)
+arrupir-se: IPR3=arrup & <<EXT ALT=arrupir-se EXT>>
+
+// barbullir: ind. pr. 3 barbull
+barbullir: IPR3=barbull
+
+// brumir: ind. pr. 3 brumeix (o brum)
+brumir: <<EXT IPR3=brum EXT>>
+
+// brunzir: ind. pr. 3 brunzeix (o brunz)
+brunzir: <<EXT IPR3=brunz EXT>>
+
+// bullir: ind. pr. 3 bull
+bullir: IPR3=bull
+
+// cobrir: p. p. cobert
+cobrir: PAR=cobert
+
+// collir: ind. pr. cullo, culls, cull, collim, colliu, cullen; subj. pr. culli, cullis, culli, collim, colliu, cullin
+collir: IPR3=cull
+
+// complir: p. p. complert (i, en algunes contrades, complit)
+complir: <<!101 -=(PAR) & !101>> +=complert<PAR0>/F 
+
+// condormir-se: ind. pr. 3 condorm
+condormir-se: IPR3=condorm
+
+// confugir: quant a la flexió, com fugir
+confugir: MODEL=fugir/fu/confu
+
+// consentir: ind. pr. 3 consent
+consentir: IPR3=consent
+
+// consumir: ind. pr. 3 consumeix (o consum)
+consumir: <<EXT IPR3=consum EXT>>
+
+// cosir: ind. pr. cuso, cuses, cus, cosim, cosiu, cusen; subj. pr. cusi, cusis, cusi, cosim, cosiu, cusin
+cosir: IPR3=cus
+
+// cruixir: ind. pr. 2 cruixes, 3 cruix
+cruixir: IPR3=cruix
+
+// defugir: quant a la flexió, com fugir
+defugir: MODEL=fugir/fu/defu
+
+// desacollir: quant a la flexió, com collir
+desacollir: MODEL=collir/c/desac
+
+// descobrir: p. p. descobert
+descobrir: PAR=descobert
+
+// descosir: quant a la flexió, com cosir
+descosir: MODEL=cosir/c/desc & -=(cus<) & +=descús<IPR3> descús<IMP2>
+
+// deseixir-se: quant a la flexió, com eixir
+deseixir-se: MODEL=eixir/eix/desei/ix/desix
+
+// desmentir: ind. pr. 3 desmenteix (o desment)
+desmentir: <<EXT IPR3=desment EXT>>
+
+// desoir: quant a la flexió, com oir
+desoir: MODEL=oir/o/deso
+
+// dormir: ind. pr. 3 dorm
+dormir: IPR3=dorm
+
+// eixir: ind. pr. ixo, ixes, ix, eixim, eixiu, ixen; subj. pr. ixi, ixis, ixi, eixim, eixiu, ixin
+eixir: -=(IPR|SPR|IMP[236]) & +=ixo<IPR1> ixes<IPR2> ix<IPR3> ix<IMP2> eixim<IPR4> eixiu<IPR5> ixen<IPR6> ixi<SPR1> ixis<SPR2> ixi<SPR3> ixi<IMP3> eixim<SPR4> eixiu<SPR5> ixin<SPR6> ixin<IMP6>
+
+// encobrir: p. p. encobert
+encobrir: PAR=encobert
+
+// enfugir-se: quant a la flexió, com fugir
+enfugir-se: MODEL=fugir/fu/enfu
+
+// entrelluir: quant a la flexió, com lluir
+entrelluir: MODEL=lluir2/llu/entrellu
+
+// entreobrir: quant a la flexió, com obrir
+entreobrir: MODEL=obrir/ob/entreob
+
+// entresentir-se: ind. pr. 3 entresent
+entresentir-se: IPR3=entresent
+
+// escollir: ind. pr. 3 escull o escolleix
+escollir: <<EXT IPR3=escull EXT>>
+
+// escopir: ind. pr. escupo, escups, escup, escopim, escopiu, escupen; subj. pr. escupi, escupis, escupi, escopim, escopiu, escupin
+escopir: IPR3=escup
+
+// escruixir: quant a la flexió, com cruixir
+escruixir: MODEL=cruixir/cru/escru
+
+// esmunyir: ind. pr. 3 esmuny
+esmunyir: IPR3=esmuny
+
+// establir: p. p. establert i, en algunes contrades, establit
+establir: <<!101 -=(PAR) & !101>> +=establert<PAR0>/F
+
+// fugir: ind. pr. fujo, fuges, fuig, etc.; p. p. fugit, fuit
+fugir: IPR3=fuig & -=(IPR[126]|IMP[36]|SPR[1236]) & +=fujo<IPR1> fuges<IPR2> fugen<IPR6> fugés/P/(SPR[1236]|IMP[36])
+
+// funyir: ind. pr. 3 funy
+funyir: IPR3=funy
+
+// grunyir: ind. pr. 3 gruny
+grunyir: IPR3=gruny
+
+// imprimir: p. p. imprès
+imprimir: PAR=imprès
+
+// junyir: inf. junyir o júnyer
+junyir: +=júnyer<INF0>
+
+// lluir2: ind. pr. 2 lluus, 3 lluu (o llu); subj. pr. lluï, etc. [o ind. pr. 3 llueix]
+lluir2: +=lluus<IPR2> lluu<IPR3> lluu<IMP2> llu<IPR3> lluen<IPR6> lluï<SPR1> lluï<IMP3> lluïs<SPR2> lluï<SPR3> lluïn<SPR6> lluïn<IMP6> <<009 llua<SPR1> llua<IMP3> llues<SPR2> llua<SPR3> lluen<SPR6> lluen<IMP6> 009>>
+
+// mentir: ind. pr. 3 ment (o menteix)
+mentir: <<EXT IPR3=ment EXT>>
+
+// morir: p. p. mort; ind. pr. 3 mor
+morir: IPR3=mor & PAR=mort
+
+// munyir: ind. pres. 3 muny
+munyir: IPR3=muny
+
+// obrir: p. p. obert; ind. pr. 2 obres, 3 obre
+obrir: IPR3=obr & -=(PAR|IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2>
+
+// oferir: p. p. ofert
+oferir: PAR=ofert
+
+// oir: ind. pr. oeixo, oeixes (o ous), oeix (o ou), oïm, oïu, oeixen (o ouen)
+oir: +=ous<IPR2> ou<IPR3> ou<IMP2> ouen<IPR6>
+
+// omplir: p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
+omplir: IPR3=ompl & -=(IPR[23]|IMP[2]<<!101|PAR!101>>) & +=omplert<PAR0>/F omples<IPR2> omple<IPR3> omple<IMP2>
+
+// pellobrir-se: quant a la flexió, com obrir
+pellobrir-se: MODEL=obrir/ob/pellob
+
+// perbullir: ind. pr. 3 perbull
+perbullir: IPR3=perbull
+
+// percudir: ind. pr. 3 percut (o percudeix)
+percudir: <<EXT IPR3=percut EXT>>
+
+// preestablir: p. p. preestablert
+preestablir: -=(PAR) & +=preestablert<PAR0>/F
+
+// premorir: p. p. premort
+premorir: MODEL=morir/mor/premor
+
+// pressentir: ind. pr. 3 pressent
+pressentir: IPR3=pressent
+
+// presumir: ind. pr. presumeix (o presum)
+presumir: <<EXT IPR3=presum EXT>>
+
+// pruir: ind. pr. 2 pruus, 3 pruu
+pruir: IPR3=pru & -=(IPR[23]|IMP2) & +=pruus<IPR2> pruu<IPR3> pruu<IMP2>
+
+// pudir: ind. pr. 2 puts, 3 put
+pudir: IPR3=pud & -=(IPR[23]|IMP2) & +=puts<IPR2> put<IPR3> put<IMP2>
+
+// punyir: ind. pr. 3 puny
+punyir: IPR3=puny
+
+// reblir: p. p. reblert
+reblir: -=(PAR) & +=reblert<PAR0>/F
+
+// rebullir: ind. pr. 3 rebull
+rebullir: IPR3=rebull
+
+// recobrir: p. p. recobert
+recobrir: -=(PAR) & +=recobert<PAR0>/F
+
+// recollir: quant a la flexió, com collir
+recollir: MODEL=collir/c/rec
+
+// recomplir: p. p. recomplert (o recomplit)
+recomplir: +=recomplert<PAR0>/F
+
+// recosir: quant a la flexió, com cosir
+recosir: MODEL=cosir/c/rec
+
+// redescobrir: p. p. redescobert
+redescobrir: -=(PAR) & +=redescobert<PAR0>/F
+
+// reeixir: ind. pr. reïxo, reïxes, reïx, reeixim, reeixiu, reïxen
+reeixir: -=(IPR|IMP2) & +=reïxo<IPR1> reïxes<IPR2> reïx<IPR3> reïx<IMP2> reeixim<IPR4> reeixiu<IPR5> reïxen<IPR6>
+
+// reimprimir: p. p. reimprès
+reimprimir: MODEL=imprimir/imp/reimp
+
+// relluir: quant a la flexió, com lluir
+relluir: MODEL=lluir2/llu/rellu
+
+// reobrir: quant a la flexió, com obrir
+reobrir: MODEL=obrir/ob/reob
+
+// reomplir: quant a la flexió, com omplir
+reomplir: MODEL=omplir/ompl/reompl
+
+// ressentir-se: ind. pr. 3 ressent
+ressentir-se: IPR3=ressent
+
+// ressortir: quant a la flexió, com sortir
+ressortir: MODEL=sortir/s/ress
+
+// restablir: p. p. restablert
+restablir: -=(PAR) & +=restablert<PAR0>/F
+
+// retrunyir: ind. pr. 3 retruny
+retrunyir: IPR3=retruny
+
+// sentir: ind. pr. 3 sent
+sentir: IPR3=sent
+
+// sobreeixir: quant a la flexió, com reeixir
+sobreeixir: MODEL=reeixir/r/sobr
+
+// sobresortir: quant a la flexió, com sortir
+sobresortir: MODEL=sortir/s/sobres
+
+// sofrir: p. p. sofert
+sofrir: -=(PAR) & +=sofert<PAR0>/F
+
+// sortir: ind. pr. surto, surts, surt, sortim, sortiu, surten; subj. pr. surti, surtis, surti, sortim, sortiu, surtin; subj. imperf. sortís, etc.
+sortir: IPR3=surt
+
+// suplir: p. p. suplert
+suplir: -=(PAR) & +=suplert<PAR0>/F
+
+// tossir: ind. pr. tusso, tusses, tus, tossim, tossiu, tussen; subj. pr. tussi, tussis, tussi, tossim, tossiu, tussin
+tossir: IPR3=tuss & -=(IPR3|IMP2) & +=tus<IPR3> tus<IMP2>
+
+//========== pronoms ===========
+
+// altre1: cat1=pron.
+altre1: ALT=altre altra & NOVACAT=adj.
+
+// ell2 ella: cat1=pron.
+ell2 ella: ALT=ell ella ells elles
+
+// mateix1: cat1=pron.
+mateix1: ALT=mateix mateixa & NOVACAT=adj.
+
+// qualcun qualcuna: cat1=pron.
+qualcun qualcuna: NOVACAT=adj.
+
+// us: cat1=pron.^com1=pot revestir la forma vos
+us: IGNORA=1
+
+// vostè: cat1=pron.
+vostè: ALT=vostè vostès
+
+//======== altres casos ========
+
+// abiètic
+abiètic: ALT=abiètic -a
+
+// d'antuvi
+d'antuvi: ALT=antuvi
+
+// amoníac: fem. -a
+// anar-se'n
+anar-se'n: IGNORA=1
+
+// aràbic
+aràbic -iga: ALT=aràbic aràbiga
+
+// baró
+baró baronessa: PRECALC=baró/G baronessa/E
+
+// bròfec
+bròfec -ega: ALT=bròfec bròfega
+
+// daltabaix
+daltabaix: NOVACAT=m.
+
+//enllardador enllardadora
+enllardador enllardadora: NOVACAT=m. i f.
+
+// erer erera
+erer erera: NOVACAT=m. i f.
+
+//èrtic
+èrtic -iga: ALT=èrtic èrtiga
+
+// mol·luscs: cat1=m. pl.^cat2=sing.
+mol·luscs: ALT=mol·lusc & NOVACAT=m.
+
+// mossaràbic
+mossaràbic -iga: ALT=mossaràbic mossaràbiga
+
+// rònec -ega
+rònec -ega: ALT=rònec rònega
+
+// rústec -ega
+rústec -ega: ALT=rústec rústega
+
+// caudatari: fem. caudatària
+caudatari: ALT=caudatari caudatària & NOVACAT=m. i f.
+
+// grossal: fem. grossala
+grossal: ALT=grossal -a & NOVACAT=adj.
+
+// infant: fem. infanta
+infant: NOVACAT=m. i f. & ALT=infant -a
+
+// liró: fem. lirona
+liró: ALT=liró lirona & NOVACAT=m. i f.
+
+// marrà: fem. marrana
+marrà: ALT=marrà -ana & NOVACAT=m. i f.
+
+// mascle: fem. mascla
+mascle: ALT=mascle mascla & NOVACAT=m. i f.
+
+// ruc1: fem. ruca
+ruc1: ALT=ruc -a & NOVACAT=m. i f.
+
+// tragacant: fem. tragacanta
+tragacant: ALT=tragacant -a & NOVACAT=m. i f.
+
+//======== formes invariables ========
+
+aiguafons: PLU=aiguafons
+ananàs: PLU=ananàs
+antiboira: PLU=antiboira
+antidroga: PLU=antidroga
+antifàding: PLU=antifàding
+antigàs: PLU=antigàs
+antigrisú: PLU=antigrisú
+antipànic: PLU=antipànic
+antirobatori: PLU=antirobatori
+antirovell: PLU=antirovell
+antitabac: PLU=antitabac
+antivici: PLU=antivici
+arreu2: PLU=arreu
+beix: PLU=beix
+bicicròs: PLU=bicicròs
+blaugrana: PLU=blaugrana
+blocaus: PLU=blocaus
+blues: PLU=blues
+bordeus: PLU=bordeus
+ciclocròs: PLU=ciclocròs
+contratemps: PLU=contratemps
+cros: PLU=cros
+dijous: PLU=dijous
+dilluns: PLU=dilluns
+dimarts: PLU=dimarts
+dimecres: PLU=dimecres
+divendres: PLU=divendres
+edelweiss: PLU=edelweiss
+ens1: PLU=ens
+entretemps: PLU=entretemps
+espaitemps: PLU=espaitemps
+flint-glass: PLU=flint-glass
+fons: PLU=fons
+força2: PLU=força
+gauss: PLU=gauss
+gneis: PLU=gneis
+leitmotiv: PLU=leitmotiv
+loess: PLU=loess
+manxú-tungús: PLU=manxú-tungús
+marengo: PLU=marengo
+migtemps: PLU=migtemps
+motocròs: PLU=motocròs
+multimèdia: PLU=multimèdia
+norris: PLU=norris
+pastís2: PLU=pastís
+plexiglàs: PLU=plexiglàs
+prou: PLU=prou
+pus1: PLU=pus
+qualque: PLU=qualque
+rais: PLU=rais
+reps: PLU=reps
+rerefons: PLU=rerefons
+stokes: PLU=stokes
+temps: PLU=temps
+tirafons: PLU=tirafons
+trass: PLU=trass
+
+//======== paraules amb dues formes ========
+
+// meu2 <02,02>meva: o meua
+meu2 meva: <<EXT ALT=meu meua EXT>>
+
+// seu2 <02,02>seva: o seua
+seu2 seva: <<EXT ALT=seu seua EXT>>
+
+cubooctaedre: <<EXT ALT=cubooctàedre EXT>>
+decaedre: <<EXT ALT=decàedre EXT>>
+deltoedre: <<EXT ALT=deltòedre EXT>>
+didodecaedre: <<EXT ALT=didodecàedre EXT>>
+diedre: <<EXT ALT=díedre EXT>>
+diploedre: <<EXT ALT=diplòedre EXT>>
+disfenoedre: <<EXT ALT=disfenòedre EXT>>
+dodecaedre: <<EXT ALT=dodecàedre EXT>>
+escalenoedre: <<EXT ALT=escalenòedre EXT>>
+esfenoedre: <<EXT ALT=esfenòedre EXT>>
+fotòlit: <<EXT ALT=fotolit EXT>>
+harmala: <<EXT ALT=harmalà EXT>>
+hemiedre: <<EXT ALT=hemíedre EXT>>
+heptaedre: <<EXT ALT=heptàedre EXT>>
+hexaedre: <<EXT ALT=hexàedre EXT>>
+hexaoctaedre: <<EXT ALT=hexaoctàedre EXT>>
+hexatetraedre: <<EXT ALT=hexatetràedre EXT>>
+holoedre: <<EXT ALT=holòedre EXT>>
+icosaedre: <<EXT ALT=icosàedre EXT>>
+icositetraedre: <<EXT ALT=icositetràedre EXT>>
+imbècil: <<EXT ALT=imbecil EXT>>
+imbècilment: <<EXT ALT=imbecilment EXT>>
+octaedre: <<EXT ALT=octàedre EXT>>
+ortoedre: <<EXT ALT=ortòedre EXT>>
+pentadodecaedre: <<EXT ALT=pentadodecàedre EXT>>
+pentaedre: <<EXT ALT=pentàedre EXT>>
+perit -a: <<EXT ALT=pèrit -a EXT>>
+poliedre: <<EXT ALT=políedre EXT>>
+rombododecaedre: <<EXT ALT=rombododecàedre EXT>>
+romboedre: <<EXT ALT=rombòedre EXT>>
+sènia: <<EXT ALT=sénia EXT>>
+tetartoedre: <<EXT ALT=tetartòedre EXT>>
+tetraedre: <<EXT ALT=tetràedre EXT>>
+tetrahexaedre: <<EXT ALT=tetrahexàedre EXT>>
+teu teva: <<EXT ALT=teua EXT>>
+trapezoedre: <<EXT ALT=trapezòedre EXT>>
+triedre: <<EXT ALT=tríedre EXT>>
+trisoctaedre: <<EXT ALT=trisoctàedre EXT>>
+tristetraedre: <<EXT ALT=tristetràedre EXT>>
+xilòfon: <<EXT ALT=xilofon EXT>>
+xofer xofera: <<EXT ALT=xòfer xòfera EXT>>
+
+//======== casos que s'haurien de revisar ========
+
+// REV: abstraure
+// REV: aga khan
+// REV: ajaure
+// REV: al
+// REV: as3
+// REV: atraure
+// REV: cabussar i derivats.
+// REV: caça
+// REV: carbassa i derivats.
+// REV: cargol i derivats.
+// REV: deceptiu -iva
+// REV: delírium trèmens
+// REV: empuat -ada
+// REV: enganar i derivats.
+// REV: esboldrec i derivats.
+// REV: esbulladís -issa
+// REV: faena i derivats.
+// REV: foie gras
+// REV: huit i derivats.
+// REV: motu proprio
+// REV: noli me tàngere
+// REV: pater familias
+// REV: peso
+// REV: postrar i derivats.
+// REV: quaderna via
+// REV: qui
+// REV: quid pro quo
+// REV: a rampeu
+// REV: rigor mortis
+// REV: rubiginós -osa
+// REV: siular i derivats.
+// REV: statu quo
+// REV: superabundar i derivats.
+
+// Paraules que apareixen en plural al diccionari
+
+acantodàctils: NOVACAT=m. & ALT=acantodàctil
+àcars: NOVACAT=m. & ALT=àcar
+accipítrids: NOVACAT=m. & ALT=accipítrid
+accipitriformes: NOVACAT=m. & ALT=accipitriforme
+aceràcies: NOVACAT=f. & ALT=aceràcia
+acipensèrids: NOVACAT=m. & ALT=acipensèrid
+acipenseriformes: NOVACAT=m. & ALT=acipenseriforme
+acrasials: NOVACAT=f. & ALT=acrasial
+acrídids: NOVACAT=m. & ALT=acrídid
+actiniaris: NOVACAT=m. & ALT=actiniari
+actinomicetals: NOVACAT=m. & ALT=actinomicetal
+actinopterigis: NOVACAT=m. & ALT=actinopterigi
+afídids: NOVACAT=m. & ALT=afídid
+agàmids: NOVACAT=m. & ALT=agàmid
+agaricàcies: NOVACAT=f. & ALT=agaricàcia
+agaricals: NOVACAT=f. & ALT=agarical
+agàrics: NOVACAT=m. & ALT=agàric
+agavàcies: NOVACAT=f. & ALT=agavàcia
+aïzoàcies: NOVACAT=f. & ALT=aïzoàcia
+alàudids: NOVACAT=m. & ALT=alàudid
+alcedínids: NOVACAT=m. & ALT=alcedínid
+àlcids: NOVACAT=m. & ALT=àlcid
+alcionaris: NOVACAT=m. & ALT=alcionari
+alisis: NOVACAT=m. & ALT=alisi
+alismatàcies: NOVACAT=f. & ALT=alismatàcia
+amarantàcies: NOVACAT=f. & ALT=amarantàcia
+amaril·lidàcies: NOVACAT=f. & ALT=amaril·lidàcia
+ambistòmids: NOVACAT=m. & ALT=ambistòmid
+amfíbols: NOVACAT=m. & ALT=amfíbol
+amfineures: NOVACAT=m. & ALT=amfineure
+amfípodes: NOVACAT=m. & ALT=amfípode
+amfisbènids: NOVACAT=m. & ALT=amfisbènid
+ammodítids: NOVACAT=m. & ALT=ammodítid
+ammonítids: NOVACAT=m. & ALT=ammonítid
+anacantins: NOVACAT=m. & ALT=anacantín
+anacardiàcies: NOVACAT=f. & ALT=anacardiàcia
+anàpsids: NOVACAT=m. & ALT=anàpsid
+anàtids: NOVACAT=m. & ALT=anàtid
+andreeals: NOVACAT=f. & ALT=andreeal
+andreeides: NOVACAT=f. & ALT=andreeida
+anèl·lids: NOVACAT=m. & ALT=anèl·lid
+ànguids: NOVACAT=m. & ALT=ànguid
+anòfels: NOVACAT=m. & ALT=anòfel
+anomalúrids: NOVACAT=m. & ALT=anomalúrid
+anonàcies: NOVACAT=f. & ALT=anonàcia
+anoplurs: NOVACAT=m. & ALT=anoplur
+anostracis: NOVACAT=m. & ALT=anostraci
+ansèrids: NOVACAT=m. & ALT=ansèrid
+anseriformes: NOVACAT=m. & ALT=anseriforme
+antilocàprids: NOVACAT=m. & ALT=antilocàprid
+antilopins: NOVACAT=m. & ALT=antilopí
+antipataris: NOVACAT=m. & ALT=antipatari
+antocerotals: NOVACAT=f. & ALT=antocerotal
+antocerotes: NOVACAT=f. & ALT=antocerota
+antozous: NOVACAT=m. & ALT=antozou
+apendiculàries: NOVACAT=f. & ALT=apendiculària
+aplacòfors: NOVACAT=m. & ALT=aplacòfor
+apocinàcies: NOVACAT=f. & ALT=apocinàcia
+apòdids: NOVACAT=m. & ALT=apòdid
+apodiformes: NOVACAT=m. & ALT=apodiforme
+apogònids: NOVACAT=m. & ALT=apogònid
+apterígids: NOVACAT=m. & ALT=apterígid
+apterigots: NOVACAT=m. & ALT=apterigot
+aquifoliàcies: NOVACAT=f. & ALT=aquifoliàcia
+aràcies: NOVACAT=f. & ALT=aràcia
+aràcnids: NOVACAT=m. & ALT=aràcnid
+araliàcies: NOVACAT=f. & ALT=araliàcia
+araneids: NOVACAT=m. & ALT=araneid
+araucariàcies: NOVACAT=f. & ALT=araucariàcia
+ardeids: NOVACAT=m. & ALT=ardeid
+arecàcies: NOVACAT=f. & ALT=arecàcia
+aristoloquiàcies: NOVACAT=f. & ALT=aristoloquiàcia
+arquegoniades: NOVACAT=f. & ALT=arquegoniada
+arqueornítids: NOVACAT=m. & ALT=arqueornítid
+arquimicets: NOVACAT=m. & ALT=arquimicet
+artiodàctils: NOVACAT=m. & ALT=artiodàctil
+artròpodes: NOVACAT=m. & ALT=artròpode
+arvicòlids: NOVACAT=m. & ALT=arvicòlid
+ascidiacis: NOVACAT=m. & ALT=ascidiaci
+asclepiadàcies: NOVACAT=f. & ALT=asclepiadàcia
+ascohelmints: NOVACAT=m. & ALT=ascohelmint
+ascomicets: NOVACAT=m. & ALT=ascomicet
+ascotoràcics: NOVACAT=m. & ALT=ascotoràcic
+asteroïdeus: NOVACAT=m. & ALT=asteroïdeu
+aterínids: NOVACAT=m. & ALT=aterínid
+ateriniformes: NOVACAT=m. & ALT=ateriniforme
+aulòpids: NOVACAT=m. & ALT=aulòpid
+aulopiformes: NOVACAT=m. & ALT=aulopiforme
+bacil·làcies: NOVACAT=f. & ALT=bacil·làcia
+bacil·lariofícies: NOVACAT=f. & ALT=bacil·lariofícia
+balènids: NOVACAT=m. & ALT=balènid
+balenoptèrids: NOVACAT=m. & ALT=balenoptèrid
+balístids: NOVACAT=m. & ALT=balístid
+balsaminàcies: NOVACAT=f. & ALT=balsaminàcia
+bangials: NOVACAT=f. & ALT=bangial
+bangiofícies: NOVACAT=f. & ALT=bangiofícia
+barretets: NOVACAT=m. & ALT=barretet
+basel·làcies: NOVACAT=f. & ALT=basel·làcia
+basidiomicets: NOVACAT=m. & ALT=basidiomicet
+bastos: NOVACAT=m. & ALT=basto
+batoïdeus: NOVACAT=m. & ALT=batoïdeu
+begoniàcies: NOVACAT=f. & ALT=begoniàcia
+beloniformes: NOVACAT=m. & ALT=beloniforme
+berberidàcies: NOVACAT=f. & ALT=berberidàcia
+bericiformes: NOVACAT=m. & ALT=bericiforme
+betulàcies: NOVACAT=f. & ALT=betulàcia
+bignoniàcies: NOVACAT=f. & ALT=bignoniàcia
+bixàcies: NOVACAT=f. & ALT=bixàcia
+blènnids: NOVACAT=m. & ALT=blènnid
+boids: NOVACAT=m. & ALT=boid
+bombacàcies: NOVACAT=f. & ALT=bombacàcia
+bombicíl·lids: NOVACAT=m. & ALT=bombicíl·lid
+boraginàcies: NOVACAT=f. & ALT=boraginàcia
+bòtids: NOVACAT=m. & ALT=bòtid
+bòvids: NOVACAT=m. & ALT=bòvid
+bradipòdids: NOVACAT=m. & ALT=bradipòdid
+bràmids: NOVACAT=m. & ALT=bràmid
+branquiòpodes: NOVACAT=m. & ALT=branquiòpode
+branquiürs: NOVACAT=m. & ALT=branquiür
+braquiòpodes: NOVACAT=m. & ALT=braquiòpode
+braquiürs: NOVACAT=m. & ALT=braquiür
+brials: NOVACAT=f. & ALT=brial
+bríides: NOVACAT=f. & ALT=bríida
+briòfits: NOVACAT=m. & ALT=briòfit
+briòpsids: NOVACAT=m. & ALT=briòpsid
+briozous: NOVACAT=m. & ALT=briozou
+bromeliàcies: NOVACAT=f. & ALT=bromeliàcia
+buceròtids: NOVACAT=m. & ALT=buceròtid
+budleiàcies: NOVACAT=f. & ALT=budleiàcia
+bufònids: NOVACAT=m. & ALT=bufònid
+burínids: NOVACAT=m. & ALT=burínid
+burseràcies: NOVACAT=f. & ALT=burseràcia
+buxàcies: NOVACAT=f. & ALT=buxàcia
+cactàcies: NOVACAT=f. & ALT=cactàcia
+calamitals: NOVACAT=f. & ALT=calamital
+calicantàcies: NOVACAT=f. & ALT=calicantàcia
+cal·lionímids: NOVACAT=m. & ALT=cal·lionímid
+cal·litricàcies: NOVACAT=f. & ALT=cal·litricàcia
+camaleòntids: NOVACAT=m. & ALT=camaleòntid
+camèlids: NOVACAT=m. & ALT=camèlid
+campanulàcies: NOVACAT=f. & ALT=campanulàcia
+canel·làcies: NOVACAT=f. & ALT=canel·làcia
+cànids: NOVACAT=m. & ALT=cànid
+cannabàcies: NOVACAT=f. & ALT=cannabàcia
+cannàcies: NOVACAT=f. & ALT=cannàcia
+caparàcies: NOVACAT=f. & ALT=caparàcia
+caprifoliàcies: NOVACAT=f. & ALT=caprifoliàcia
+caprimúlgids: NOVACAT=m. & ALT=caprimúlgid
+caprimulgiformes: NOVACAT=m. & ALT=caprimulgiforme
+caprins: NOVACAT=m. & ALT=caprí
+capròmids: NOVACAT=m. & ALT=capròmid
+caràdrids: NOVACAT=m. & ALT=caràdrid
+caradriformes: NOVACAT=m. & ALT=caradriforme
+carals: NOVACAT=f. & ALT=caral
+caràngids: NOVACAT=m. & ALT=caràngid
+caràpids: NOVACAT=m. & ALT=caràpid
+carcarínids: NOVACAT=m. & ALT=carcarínid
+cariàmids: NOVACAT=m. & ALT=cariàmid
+cariofil·làcies: NOVACAT=f. & ALT=cariofil·làcia
+carofícies: NOVACAT=f. & ALT=carofícia
+castòrids: NOVACAT=m. & ALT=castòrid
+casuàrids: NOVACAT=m. & ALT=casuàrid
+catarins: NOVACAT=m. & ALT=catarí
+catàrtids: NOVACAT=m. & ALT=catàrtid
+caulerpals: NOVACAT=f. & ALT=caulerpal
+cefalacàntids: NOVACAT=m. & ALT=cefalacàntid
+cefalocordats: NOVACAT=m. & ALT=cefalocordat
+cefalòpodes: NOVACAT=m. & ALT=cefalòpode
+celastràcies: NOVACAT=f. & ALT=celastràcia
+celenterats: NOVACAT=m. & ALT=celenterat
+centracàntids: NOVACAT=m. & ALT=centracàntid
+centrolòfids: NOVACAT=m. & ALT=centrolòfid
+cepòlids: NOVACAT=m. & ALT=cepòlid
+ceramials: NOVACAT=f. & ALT=ceramial
+ceratofil·làcies: NOVACAT=f. & ALT=ceratofil·làcia
+cèrtids: NOVACAT=m. & ALT=cèrtid
+cèrvids: NOVACAT=m. & ALT=cèrvid
+cesalpiniàcies: NOVACAT=f. & ALT=cesalpiniàcia
+cestodes: NOVACAT=m. & ALT=cestode
+cetacis: NOVACAT=m. & ALT=cetaci
+cianofícies: NOVACAT=f. & ALT=cianofícia
+cianòfits: NOVACAT=m. & ALT=cianòfit
+ciateàcies: NOVACAT=f. & ALT=ciateàcia
+cicadàcies: NOVACAT=f. & ALT=cicadàcia
+cicadofitins: NOVACAT=m. & ALT=cicadofití
+cicadòpsids: NOVACAT=m. & ALT=cicadòpsid
+cicònids: NOVACAT=m. & ALT=cicònid
+ciconiformes: NOVACAT=m. & ALT=ciconiforme
+cígnids: NOVACAT=m. & ALT=cígnid
+cimodoceàcies: NOVACAT=f. & ALT=cimodoceàcia
+cínclids: NOVACAT=m. & ALT=cínclid
+cinorincs: NOVACAT=m. & ALT=cinorinc
+ciperàcies: NOVACAT=f. & ALT=ciperàcia
+ciprínids: NOVACAT=m. & ALT=ciprínid
+cipriniformes: NOVACAT=m. & ALT=cipriniforme
+ciprinodòntids: NOVACAT=m. & ALT=ciprinodòntid
+ciprinodontiformes: NOVACAT=m. & ALT=ciprinodontiforme
+cirrípedes: NOVACAT=m. & ALT=cirrípede
+cistàcies: NOVACAT=f. & ALT=cistàcia
+cladòcers: NOVACAT=m. & ALT=cladòcer
+cladoforals: NOVACAT=f. & ALT=cladoforal
+clorofícies: NOVACAT=f. & ALT=clorofícia
+cloròfits: NOVACAT=m. & ALT=cloròfit
+clupeids: NOVACAT=m. & ALT=clupeid
+clupeïformes: NOVACAT=m. & ALT=clupeïforme
+cneoràcies: NOVACAT=f. & ALT=cneoràcia
+cnidaris: NOVACAT=m. & ALT=cnidari
+cobítids: NOVACAT=m. & ALT=cobítid
+coccidis: NOVACAT=m. & ALT=coccidi
+còccids: NOVACAT=m. & ALT=còccid
+coccolitoforals: NOVACAT=f. & ALT=coccolitoforal
+coleòpters: NOVACAT=m. & ALT=coleòpter
+col·lèmbols: NOVACAT=m. & ALT=col·lèmbol
+colúbrids: NOVACAT=m. & ALT=colúbrid
+colúmbids: NOVACAT=m. & ALT=colúmbid
+columbiformes: NOVACAT=m. & ALT=columbiforme
+combretàcies: NOVACAT=f. & ALT=combretàcia
+commelinàcies: NOVACAT=f. & ALT=commelinàcia
+condrictis: NOVACAT=m. & ALT=condricti
+condrostis: NOVACAT=m. & ALT=condrosti
+còngrids: NOVACAT=m. & ALT=còngrid
+coníferes: NOVACAT=f. & ALT=conífera
+convolvulàcies: NOVACAT=f. & ALT=convolvulàcia
+copèpodes: NOVACAT=m. & ALT=copèpode
+coràcids: NOVACAT=m. & ALT=coràcid
+coraciformes: NOVACAT=m. & ALT=coraciforme
+coral·linàcies: NOVACAT=f. & ALT=coral·linàcia
+cordaïtòpsids: NOVACAT=m. & ALT=cordaïtòpsid
+cordats: NOVACAT=m. & ALT=cordat
+coriariàcies: NOVACAT=f. & ALT=coriariàcia
+corifènids: NOVACAT=m. & ALT=corifènid
+cornàcies: NOVACAT=f. & ALT=cornàcia
+cortinariàcies: NOVACAT=f. & ALT=cortinariàcia
+còrvids: NOVACAT=m. & ALT=còrvid
+còtids: NOVACAT=m. & ALT=còtid
+cotilosaures: NOVACAT=m. & ALT=cotilosaure
+crassulàcies: NOVACAT=f. & ALT=crassulàcia
+cricètids: NOVACAT=m. & ALT=cricètid
+crinoïdeus: NOVACAT=m. & ALT=crinoïdeu
+criptòfits: NOVACAT=m. & ALT=criptòfit
+criptonemials: NOVACAT=f. & ALT=criptonemial
+crisobalanàcies: NOVACAT=f. & ALT=crisobalanàcia
+crisofícies: NOVACAT=f. & ALT=crisofícia
+crocodilians: NOVACAT=m. & ALT=crocodilian
+crotàlids: NOVACAT=m. & ALT=crotàlid
+crucíferes: NOVACAT=f. & ALT=crucífera
+ctenòfors: NOVACAT=m. & ALT=ctenòfor
+cucúlids: NOVACAT=m. & ALT=cucúlid
+cuculiformes: NOVACAT=m. & ALT=cuculiforme
+cucurbitàcies: NOVACAT=f. & ALT=cucurbitàcia
+cupressàcies: NOVACAT=f. & ALT=cupressàcia
+curculiònids: NOVACAT=m. & ALT=curculiònid
+cuscutàcies: NOVACAT=f. & ALT=cuscutàcia
+dàfnids: NOVACAT=m. & ALT=dàfnid
+dasiàtids: NOVACAT=m. & ALT=dasiàtid
+dasicladals: NOVACAT=f. & ALT=dasicladal
+dasipòdids: NOVACAT=m. & ALT=dasipòdid
+decàpodes: NOVACAT=m. & ALT=decàpode
+delfinaptèrids: NOVACAT=m. & ALT=delfinaptèrid
+delfínids: NOVACAT=m. & ALT=delfínid
+demosponges: NOVACAT=f. & ALT=demosponga
+dermàpters: NOVACAT=m. & ALT=dermàpter
+dermòpters: NOVACAT=m. & ALT=dermòpter
+dermoquèlids: NOVACAT=m. & ALT=dermoquèlid
+deuteromicets: NOVACAT=m. & ALT=deuteromicet
+diàpsids: NOVACAT=m. & ALT=diàpsid
+dicranals: NOVACAT=f. & ALT=dicranal
+dictiòpters: NOVACAT=m. & ALT=dictiòpter
+dictiotals: NOVACAT=f. & ALT=dictiotal
+didèlfids: NOVACAT=m. & ALT=didèlfid
+dil·leniàcies: NOVACAT=f. & ALT=dil·leniàcia
+dinofícies: NOVACAT=f. & ALT=dinofícia
+dinòfits: NOVACAT=m. & ALT=dinòfit
+dinoflagel·lades: NOVACAT=f. & ALT=dinoflagel·lada
+dinosaures: NOVACAT=m. & ALT=dinosaure
+diomedeids: NOVACAT=m. & ALT=diomedeid
+dioscoreàcies: NOVACAT=f. & ALT=dioscoreàcia
+diplòpodes: NOVACAT=m. & ALT=diplòpode
+dipnous: NOVACAT=m. & ALT=dipnou
+dipsacàcies: NOVACAT=f. & ALT=dipsacàcia
+discoglòssids: NOVACAT=m. & ALT=discoglòssid
+discomicets: NOVACAT=m. & ALT=discomicet
+dromaids: NOVACAT=m. & ALT=dromaid
+droseràcies: NOVACAT=f. & ALT=droseràcia
+ebenàcies: NOVACAT=f. & ALT=ebenàcia
+ectocarpals: NOVACAT=f. & ALT=ectocarpal
+edogonials: NOVACAT=f. & ALT=edogonial
+efedràcies: NOVACAT=f. & ALT=efedràcia
+efemeròpters: NOVACAT=m. & ALT=efemeròpter
+egitàlids: NOVACAT=m. & ALT=egitàlid
+elàpids: NOVACAT=m. & ALT=elàpid
+elasmobranquis: NOVACAT=m. & ALT=elasmobranqui
+eleagnàcies: NOVACAT=f. & ALT=eleagnàcia
+emberízids: NOVACAT=m. & ALT=emberízid
+embriòfits: NOVACAT=m. & ALT=embriòfit
+emídids: NOVACAT=m. & ALT=emídid
+endoproctes: NOVACAT=m. & ALT=endoprocte
+engràulids: NOVACAT=m. & ALT=engràulid
+enterobacteriàcies: NOVACAT=f. & ALT=enterobacteriàcia
+enteropneusts: NOVACAT=m. & ALT=enteropneust
+entomoftorals: NOVACAT=f. & ALT=entomoftoral
+equeneids: NOVACAT=m. & ALT=equeneid
+èquids: NOVACAT=m. & ALT=èquid
+equinoderms: NOVACAT=m. & ALT=equinoderm
+equinoïdeus: NOVACAT=m. & ALT=equinoïdeu
+equins: NOVACAT=m. & ALT=equí
+equisetals: NOVACAT=f. & ALT=equisetal
+equisetòpsids: NOVACAT=m. & ALT=equisetòpsid
+equiuroïdeus: NOVACAT=m. & ALT=equiuroïdeu
+eritroxilàcies: NOVACAT=f. & ALT=eritroxilàcia
+escacs: NOVACAT=m. & ALT=escac
+escafòpodes: NOVACAT=m. & ALT=escafòpode
+escarabeids: NOVACAT=m. & ALT=escarabeid
+escatosos: NOVACAT=m. & ALT=escatoso
+esciènids: NOVACAT=m. & ALT=esciènid
+escifozous: NOVACAT=m. & ALT=escifozou
+esciliorínids: NOVACAT=m. & ALT=esciliorínid
+escíncids: NOVACAT=m. & ALT=escíncid
+esciúrids: NOVACAT=m. & ALT=esciúrid
+escoftàlmids: NOVACAT=m. & ALT=escoftàlmid
+escolítids: NOVACAT=m. & ALT=escolítid
+escolopàcids: NOVACAT=m. & ALT=escolopàcid
+escolopendromorfs: NOVACAT=m. & ALT=escolopendromorf
+escomberesòcids: NOVACAT=m. & ALT=escomberesòcid
+escòmbrids: NOVACAT=m. & ALT=escòmbrid
+escorpènids: NOVACAT=m. & ALT=escorpènid
+escorpeniformes: NOVACAT=m. & ALT=escorpeniforme
+escrofulariàcies: NOVACAT=f. & ALT=escrofulariàcia
+escutigeromorfs: NOVACAT=m. & ALT=escutigeromorf
+esfàgnides: NOVACAT=f. & ALT=esfàgnida
+esfeníscids: NOVACAT=m. & ALT=esfeníscid
+esfenofil·lals: NOVACAT=f. & ALT=esfenofil·lal
+esferopsidals: NOVACAT=f. & ALT=esferopsidal
+esfirènids: NOVACAT=m. & ALT=esfirènid
+esfírnids: NOVACAT=m. & ALT=esfírnid
+esòcids: NOVACAT=m. & ALT=esòcid
+espàrids: NOVACAT=m. & ALT=espàrid
+espermatòfits: NOVACAT=m. & ALT=espermatòfit
+espiril·làcies: NOVACAT=f. & ALT=espiril·làcia
+esporozous: NOVACAT=m. & ALT=esporozou
+esquàlids: NOVACAT=m. & ALT=esquàlid
+esqualiformes: NOVACAT=m. & ALT=esqualiforme
+esquals: NOVACAT=m. & ALT=esqual
+esquatínids: NOVACAT=m. & ALT=esquatínid
+estafileàcies: NOVACAT=f. & ALT=estafileàcia
+estegocèfals: NOVACAT=m. & ALT=estegocèfal
+estercoràrids: NOVACAT=m. & ALT=estercoràrid
+esterculiàcies: NOVACAT=f. & ALT=esterculiàcia
+estèrnids: NOVACAT=m. & ALT=estèrnid
+estigonematals: NOVACAT=f. & ALT=estigonematal
+estomatòpodes: NOVACAT=m. & ALT=estomatòpode
+estomiformes: NOVACAT=m. & ALT=estomiforme
+estomocordats: NOVACAT=m. & ALT=estomocordat
+estrígids: NOVACAT=m. & ALT=estrígid
+estrigiformes: NOVACAT=m. & ALT=estrigiforme
+estríldids: NOVACAT=m. & ALT=estríldid
+estromateids: NOVACAT=m. & ALT=estromateid
+estruciònids: NOVACAT=m. & ALT=estruciònid
+estúrnids: NOVACAT=m. & ALT=estúrnid
+eubacterials: NOVACAT=m. & ALT=eubacterial
+euforbiàcies: NOVACAT=f. & ALT=euforbiàcia
+euglenòfits: NOVACAT=m. & ALT=euglenòfit
+eumicets: NOVACAT=m. & ALT=eumicet
+eusporangiades: NOVACAT=f. & ALT=eusporangiada
+eustigmatofícies: NOVACAT=f. & ALT=eustigmatofícia
+exocètids: NOVACAT=m. & ALT=exocètid
+fabàcies: NOVACAT=f. & ALT=fabàcia
+fagàcies: NOVACAT=f. & ALT=fagàcia
+falacrocoràcids: NOVACAT=m. & ALT=falacrocoràcid
+falcònids: NOVACAT=m. & ALT=falcònid
+falconiformes: NOVACAT=m. & ALT=falconiforme
+fasiànids: NOVACAT=m. & ALT=fasiànid
+fasmòpters: NOVACAT=m. & ALT=fasmòpter
+feldspats: NOVACAT=m. & ALT=feldspat
+fèlids: NOVACAT=m. & ALT=fèlid
+fenicoptèrids: NOVACAT=m. & ALT=fenicoptèrid
+fenicopteriformes: NOVACAT=m. & ALT=fenicopteriforme
+feòfits: NOVACAT=m. & ALT=feòfit
+ficomicets: NOVACAT=m. & ALT=ficomicet
+filicals: NOVACAT=f. & ALT=filical
+filicòpsids: NOVACAT=m. & ALT=filicòpsid
+fil·losilicats: NOVACAT=m. & ALT=fil·losilicat
+fisoclists: NOVACAT=m. & ALT=fisoclist
+fisòstoms: NOVACAT=m. & ALT=fisòstom
+fitolacàcies: NOVACAT=f. & ALT=fitolacàcia
+flacourtiàcies: NOVACAT=f. & ALT=flacourtiàcia
+floridofícies: NOVACAT=f. & ALT=floridofícia
+fòcids: NOVACAT=m. & ALT=fòcid
+folidots: NOVACAT=m. & ALT=folidot
+foraminífers: NOVACAT=m. & ALT=foraminífer
+frankeniàcies: NOVACAT=f. & ALT=frankeniàcia
+fregàtids: NOVACAT=m. & ALT=fregàtid
+fringíl·lids: NOVACAT=m. & ALT=fringíl·lid
+fucals: NOVACAT=f. & ALT=fucal
+gàdids: NOVACAT=m. & ALT=gàdid
+gadiformes: NOVACAT=m. & ALT=gadiforme
+gal·liformes: NOVACAT=m. & ALT=gal·liforme
+ganoïdeus: NOVACAT=m. & ALT=ganoïdeu
+gasteromicets: NOVACAT=m. & ALT=gasteromicet
+gasterosteids: NOVACAT=m. & ALT=gasterosteid
+gasterosteïformes: NOVACAT=m. & ALT=gasterosteïforme
+gastròpodes: NOVACAT=m. & ALT=gastròpode
+gastròtrics: NOVACAT=m. & ALT=gastròtric
+gaviàlids: NOVACAT=m. & ALT=gaviàlid
+gàvids: NOVACAT=m. & ALT=gàvid
+gaviformes: NOVACAT=m. & ALT=gaviforme
+gecònids: NOVACAT=m. & ALT=gecònid
+gempílids: NOVACAT=m. & ALT=gempílid
+gencianàcies: NOVACAT=f. & ALT=gencianàcia
+geraniàcies: NOVACAT=f. & ALT=geraniàcia
+gesneriàcies: NOVACAT=f. & ALT=gesneriàcia
+gigartinals: NOVACAT=f. & ALT=gigartinal
+ginkgoàcies: NOVACAT=f. & ALT=ginkgoàcia
+ginkgòpsids: NOVACAT=m. & ALT=ginkgòpsid
+giràfids: NOVACAT=m. & ALT=giràfid
+glareòlids: NOVACAT=m. & ALT=glareòlid
+glaucòfits: NOVACAT=m. & ALT=glaucòfit
+glírids: NOVACAT=m. & ALT=glírid
+globulariàcies: NOVACAT=f. & ALT=globulariàcia
+gnetàcies: NOVACAT=f. & ALT=gnetàcia
+gnetòpsids: NOVACAT=m. & ALT=gnetòpsid
+gòbids: NOVACAT=m. & ALT=gòbid
+gobiesòcids: NOVACAT=m. & ALT=gobiesòcid
+gobiesociformes: NOVACAT=m. & ALT=gobiesociforme
+gordiacis: NOVACAT=m. & ALT=gordiaci
+gramínies: NOVACAT=f. & ALT=gramínia
+graptòlits: NOVACAT=m. & ALT=graptòlit
+grimmials: NOVACAT=f. & ALT=grimmial
+gruids: NOVACAT=m. & ALT=gruid
+gruïformes: NOVACAT=m. & ALT=gruïforme
+hamamelidàcies: NOVACAT=f. & ALT=hamamelidàcia
+hapàlids: NOVACAT=m. & ALT=hapàlid
+haplosclerines: NOVACAT=f. & ALT=haplosclerina
+helícids: NOVACAT=m. & ALT=helícid
+heliozous: NOVACAT=m. & ALT=heliozou
+helodermàtids: NOVACAT=m. & ALT=helodermàtid
+hematopòdids: NOVACAT=m. & ALT=hematopòdid
+hemosporidis: NOVACAT=m. & ALT=hemosporidi
+hepàtiques: NOVACAT=f. & ALT=hepàtiqua
+heterocontòfits: NOVACAT=m. & ALT=heterocontòfit
+heteròpters: NOVACAT=m. & ALT=heteròpter
+hexactinèl·lides: NOVACAT=f. & ALT=hexactinèl·lida
+hexasteròfors: NOVACAT=m. & ALT=hexasteròfor
+hidrobàtids: NOVACAT=m. & ALT=hidrobàtid
+hidròfids: NOVACAT=m. & ALT=hidròfid
+hidrofil·làcies: NOVACAT=f. & ALT=hidrofil·làcia
+hidroptèrides: NOVACAT=f. & ALT=hidroptèrida
+hidrozous: NOVACAT=m. & ALT=hidrozou
+hiènids: NOVACAT=m. & ALT=hiènid
+hifomicets: NOVACAT=m. & ALT=hifomicet
+higroforàcies: NOVACAT=f. & ALT=higroforàcia
+hílids: NOVACAT=m. & ALT=hílid
+hilobàtids: NOVACAT=m. & ALT=hilobàtid
+himenomicets: NOVACAT=m. & ALT=himenomicet
+hipericàcies: NOVACAT=f. & ALT=hipericàcia
+hipnobrials: NOVACAT=f. & ALT=hipnobrial
+hipocastanàcies: NOVACAT=f. & ALT=hipocastanàcia
+hipopotàmids: NOVACAT=m. & ALT=hipopotàmid
+hiracoïdeus: NOVACAT=m. & ALT=hiracoïdeu
+hirudinis: NOVACAT=m. & ALT=hirudini
+hirundínids: NOVACAT=m. & ALT=hirundínid
+holocèfals: NOVACAT=m. & ALT=holocèfal
+holoturioïdeus: NOVACAT=m. & ALT=holoturioïdeu
+homínids: NOVACAT=m. & ALT=homínid
+homòpters: NOVACAT=m. & ALT=homòpter
+ictèrids: NOVACAT=m. & ALT=ictèrid
+ictiosaures: NOVACAT=m. & ALT=ictiosaure
+iguànids: NOVACAT=m. & ALT=iguànid
+inosilicats: NOVACAT=m. & ALT=inosilicat
+iridàcies: NOVACAT=f. & ALT=iridàcia
+isobrials: NOVACAT=f. & ALT=isobrial
+isoetals: NOVACAT=f. & ALT=isoetal
+isòpters: NOVACAT=m. & ALT=isòpter
+istiofòrids: NOVACAT=m. & ALT=istiofòrid
+isúrids: NOVACAT=m. & ALT=isúrid
+ixòdids: NOVACAT=m. & ALT=ixòdid
+juglandàcies: NOVACAT=f. & ALT=juglandàcia
+juncàcies: NOVACAT=f. & ALT=juncàcia
+jungermannials: NOVACAT=f. & ALT=jungermannial
+labiades: NOVACAT=f. & ALT=labiada
+làbrids: NOVACAT=m. & ALT=làbrid
+lacèrtids: NOVACAT=m. & ALT=lacèrtid
+lagomorfs: NOVACAT=m. & ALT=lagomorf
+lamel·libranquis: NOVACAT=m. & ALT=lamel·libranqui
+lamel·lirostres: NOVACAT=m. & ALT=lamel·lirostre
+laminarials: NOVACAT=f. & ALT=laminarial
+làmnids: NOVACAT=m. & ALT=làmnid
+lampridiformes: NOVACAT=m. & ALT=lampridiforme
+lànids: NOVACAT=m. & ALT=lànid
+làrids: NOVACAT=m. & ALT=làrid
+lecanorals: NOVACAT=f. & ALT=lecanoral
+lemnàcies: NOVACAT=f. & ALT=lemnàcia
+lemúrids: NOVACAT=m. & ALT=lemúrid
+lemuriformes: NOVACAT=m. & ALT=lemuriforme
+lentibulariàcies: NOVACAT=f. & ALT=lentibulariàcia
+lepidodendrals: NOVACAT=f. & ALT=lepidodendral
+lepidòpters: NOVACAT=m. & ALT=lepidòpter
+lepidosaures: NOVACAT=m. & ALT=lepidosaure
+lepòrids: NOVACAT=m. & ALT=lepòrid
+leptosporangiades: NOVACAT=f. & ALT=leptosporangiada
+licopodials: NOVACAT=f. & ALT=licopodial
+licopodiòpsids: NOVACAT=m. & ALT=licopodiòpsid
+liliïflores: NOVACAT=f. & ALT=liliïflora
+liliòpsids: NOVACAT=m. & ALT=liliòpsid
+linàcies: NOVACAT=f. & ALT=linàcia
+litràcies: NOVACAT=f. & ALT=litràcia
+loculomicets: NOVACAT=m. & ALT=loculomicet
+lòfids: NOVACAT=m. & ALT=lòfid
+lofiformes: NOVACAT=m. & ALT=lofiforme
+lofoforats: NOVACAT=m. & ALT=lofoforat
+loganiàcies: NOVACAT=f. & ALT=loganiàcia
+macroramfòsids: NOVACAT=m. & ALT=macroramfòsid
+macrúrids: NOVACAT=m. & ALT=macrúrid
+macrurs: NOVACAT=m. & ALT=macrur
+madreporaris: NOVACAT=m. & ALT=madreporari
+magnoliàcies: NOVACAT=f. & ALT=magnoliàcia
+magnoliofitins: NOVACAT=m. & ALT=magnoliofití
+malacostracis: NOVACAT=m. & ALT=malacostraci
+mal·lòfags: NOVACAT=m. & ALT=mal·lòfag
+malvàcies: NOVACAT=f. & ALT=malvàcia
+marantàcies: NOVACAT=f. & ALT=marantàcia
+marcancials: NOVACAT=f. & ALT=marcancial
+marsileals: NOVACAT=f. & ALT=marsileal
+mecòpters: NOVACAT=m. & ALT=mecòpter
+melanconials: NOVACAT=f. & ALT=melanconial
+meleagrídids: NOVACAT=m. & ALT=meleagrídid
+meliàcies: NOVACAT=f. & ALT=meliàcia
+meniantàcies: NOVACAT=f. & ALT=meniantàcia
+mènids: NOVACAT=m. & ALT=mènid
+menispermàcies: NOVACAT=f. & ALT=menispermàcia
+meròpids: NOVACAT=m. & ALT=meròpid
+mesozous: NOVACAT=m. & ALT=mesozou
+metazous: NOVACAT=m. & ALT=metazou
+metzgerials: NOVACAT=f. & ALT=metzgerial
+microcorifis: NOVACAT=m. & ALT=microcorifi
+microhílids: NOVACAT=m. & ALT=microhílid
+mictofiformes: NOVACAT=m. & ALT=mictofiforme
+mimosàcies: NOVACAT=f. & ALT=mimosàcia
+mioporàcies: NOVACAT=f. & ALT=mioporàcia
+miriàpodes: NOVACAT=m. & ALT=miriàpode
+miricàcies: NOVACAT=f. & ALT=miricàcia
+miristicàcies: NOVACAT=f. & ALT=miristicàcia
+mirmecofàgids: NOVACAT=m. & ALT=mirmecofàgid
+mirtàcies: NOVACAT=f. & ALT=mirtàcia
+mirtals: NOVACAT=f. & ALT=mirtal
+misticets: NOVACAT=m. & ALT=misticet
+mixobacterials: NOVACAT=m. & ALT=mixobacterial
+mixomicets: NOVACAT=m. & ALT=mixomicet
+mobúlids: NOVACAT=m. & ALT=mobúlid
+mòlids: NOVACAT=m. & ALT=mòlid
+mol·luscs: NOVACAT=m. & ALT=mol·lusc
+momòtids: NOVACAT=m. & ALT=momòtid
+monotremes: NOVACAT=m. & ALT=monotreme
+moràcies: NOVACAT=f. & ALT=moràcia
+mòrids: NOVACAT=m. & ALT=mòrid
+motacíl·lids: NOVACAT=m. & ALT=motacíl·lid
+mucoràcies: NOVACAT=f. & ALT=mucoràcia
+mucorals: NOVACAT=f. & ALT=mucoral
+mugílids: NOVACAT=m. & ALT=mugílid
+mugiliformes: NOVACAT=m. & ALT=mugiliforme
+múl·lids: NOVACAT=m. & ALT=múl·lid
+murènids: NOVACAT=m. & ALT=murènid
+múrids: NOVACAT=m. & ALT=múrid
+musàcies: NOVACAT=f. & ALT=musàcia
+muscicàpids: NOVACAT=m. & ALT=muscicàpid
+múscids: NOVACAT=m. & ALT=múscid
+musofàgids: NOVACAT=m. & ALT=musofàgid
+mustèlids: NOVACAT=m. & ALT=mustèlid
+naiadàcies: NOVACAT=f. & ALT=naiadàcia
+nautiloïdeus: NOVACAT=m. & ALT=nautiloïdeu
+nectarínids: NOVACAT=m. & ALT=nectarínid
+nemalionals: NOVACAT=f. & ALT=nemalional
+nematodes: NOVACAT=m. & ALT=nematode
+nematohelmints: NOVACAT=m. & ALT=nematohelmint
+nemertins: NOVACAT=m. & ALT=nemertí
+nepentàcies: NOVACAT=f. & ALT=nepentàcia
+nesosilicats: NOVACAT=m. & ALT=nesosilicat
+netastomàtids: NOVACAT=m. & ALT=netastomàtid
+neuròpters: NOVACAT=m. & ALT=neuròpter
+nictaginàcies: NOVACAT=f. & ALT=nictaginàcia
+nimfàlids: NOVACAT=m. & ALT=nimfàlid
+nimfeàcies: NOVACAT=f. & ALT=nimfeàcia
+nostocals: NOVACAT=f. & ALT=nostocal
+notacàntids: NOVACAT=m. & ALT=notacàntid
+notacantiformes: NOVACAT=m. & ALT=notacantiforme
+nudictenis: NOVACAT=m. & ALT=nudicteni
+numídids: NOVACAT=m. & ALT=numídid
+ocnàcies: NOVACAT=f. & ALT=ocnàcia
+ocromonadals: NOVACAT=f. & ALT=ocromonadal
+octodòntids: NOVACAT=m. & ALT=octodòntid
+odonats: NOVACAT=m. & ALT=odonat
+odontocets: NOVACAT=m. & ALT=odontocet
+ofíctids: NOVACAT=m. & ALT=ofíctid
+ofídids: NOVACAT=m. & ALT=ofídid
+ofidiformes: NOVACAT=m. & ALT=ofidiforme
+ofidis: NOVACAT=m. & ALT=ofidi
+ofioglossals: NOVACAT=f. & ALT=ofioglossal
+ofiuroïdeus: NOVACAT=m. & ALT=ofiuroïdeu
+oleàcies: NOVACAT=f. & ALT=oleàcia
+oligoquets: NOVACAT=m. & ALT=oligoquet
+onicòfors: NOVACAT=m. & ALT=onicòfor
+oomicets: NOVACAT=m. & ALT=oomicet
+opilions: NOVACAT=m. & ALT=opilion
+opistobranquis: NOVACAT=m. & ALT=opistobranqui
+opistocòmids: NOVACAT=m. & ALT=opistocòmid
+oriòlids: NOVACAT=m. & ALT=oriòlid
+ornitisquis: NOVACAT=m. & ALT=ornitisqui
+ornitòpodes: NOVACAT=m. & ALT=ornitòpode
+ornitorínquids: NOVACAT=m. & ALT=ornitorínquid
+orobancàcies: NOVACAT=f. & ALT=orobancàcia
+oros: NOVACAT=m. & ALT=oro
+orquidàcies: NOVACAT=f. & ALT=orquidàcia
+ortoamfíbols: NOVACAT=m. & ALT=ortoamfíbol
+ortoceràtids: NOVACAT=m. & ALT=ortoceràtid
+ortòpters: NOVACAT=m. & ALT=ortòpter
+ortotricals: NOVACAT=f. & ALT=ortotrical
+oscil·latorials: NOVACAT=f. & ALT=oscil·latorial
+osteïctis: NOVACAT=m. & ALT=osteïcti
+ostracodes: NOVACAT=m. & ALT=ostracode
+otàrids: NOVACAT=m. & ALT=otàrid
+otídids: NOVACAT=m. & ALT=otídid
+òvids: NOVACAT=m. & ALT=òvid
+ovins: NOVACAT=m. & ALT=oví
+oxalidàcies: NOVACAT=f. & ALT=oxalidàcia
+paleoteris: NOVACAT=m. & ALT=paleoteri
+palpígrads: NOVACAT=m. & ALT=palpígrad
+pandanàcies: NOVACAT=f. & ALT=pandanàcia
+pandiònids: NOVACAT=m. & ALT=pandiònid
+papaveràcies: NOVACAT=f. & ALT=papaveràcia
+paradiseids: NOVACAT=m. & ALT=paradiseid
+pàrids: NOVACAT=m. & ALT=pàrid
+parmeliàcies: NOVACAT=f. & ALT=parmeliàcia
+passèrids: NOVACAT=m. & ALT=passèrid
+passeriformes: NOVACAT=m. & ALT=passeriforme
+pecílids: NOVACAT=m. & ALT=pecílid
+pelecànids: NOVACAT=m. & ALT=pelecànid
+pelecaniformes: NOVACAT=m. & ALT=pelecaniforme
+pelicosaures: NOVACAT=m. & ALT=pelicosaure
+pelmatozous: NOVACAT=m. & ALT=pelmatozou
+pelobàtids: NOVACAT=m. & ALT=pelobàtid
+pentastòmids: NOVACAT=m. & ALT=pentastòmid
+pèrcids: NOVACAT=m. & ALT=pèrcid
+perciformes: NOVACAT=m. & ALT=perciforme
+peristèdids: NOVACAT=m. & ALT=peristèdid
+peronosporals: NOVACAT=f. & ALT=peronosporal
+petromizòntids: NOVACAT=m. & ALT=petromizòntid
+pezizals: NOVACAT=f. & ALT=pezizal
+pícids: NOVACAT=m. & ALT=pícid
+piciformes: NOVACAT=m. & ALT=piciforme
+picnogònids: NOVACAT=m. & ALT=picnogònid
+pinàcies: NOVACAT=f. & ALT=pinàcia
+pinnípedes: NOVACAT=m. & ALT=pinnípede
+pinòpsids: NOVACAT=f. & ALT=pinòpsid
+piperàcies: NOVACAT=f. & ALT=piperàcia
+pirenomicets: NOVACAT=m. & ALT=pirenomicet
+pirolàcies: NOVACAT=f. & ALT=pirolàcia
+pitosporàcies: NOVACAT=f. & ALT=pitosporàcia
+placoderms: NOVACAT=m. & ALT=placoderm
+plantaginàcies: NOVACAT=f. & ALT=plantaginàcia
+plasmodioforomicots: NOVACAT=m. & ALT=plasmodioforomicot
+platanàcies: NOVACAT=f. & ALT=platanàcia
+platihelmints: NOVACAT=m. & ALT=platihelmint
+platirins: NOVACAT=m. & ALT=platirí
+plecòpters: NOVACAT=m. & ALT=plecòpter
+plectògnats: NOVACAT=m. & ALT=plectògnat
+plectomicets: NOVACAT=m. & ALT=plectomicet
+plesiosaures: NOVACAT=m. & ALT=plesiosaure
+pleuronectiformes: NOVACAT=m. & ALT=pleuronectiforme
+pleurotremats: NOVACAT=m. & ALT=pleurotremat
+plumbaginàcies: NOVACAT=f. & ALT=plumbaginàcia
+podicipèdids: NOVACAT=m. & ALT=podicipèdid
+podicipediformes: NOVACAT=m. & ALT=podicipediforme
+podocarpàcies: NOVACAT=f. & ALT=podocarpàcia
+pogonòfors: NOVACAT=m. & ALT=pogonòfor
+polemoniàcies: NOVACAT=f. & ALT=polemoniàcia
+poligalàcies: NOVACAT=f. & ALT=poligalàcia
+poligonàcies: NOVACAT=f. & ALT=poligonàcia
+poliplacòfors: NOVACAT=m. & ALT=poliplacòfor
+polipodiàcies: NOVACAT=f. & ALT=polipodiàcia
+poliporàcies: NOVACAT=f. & ALT=poliporàcia
+poliquets: NOVACAT=m. & ALT=poliquet
+politricals: NOVACAT=f. & ALT=politrical
+pomadàsids: NOVACAT=m. & ALT=pomadàsid
+pòngids: NOVACAT=m. & ALT=pòngid
+porífers: NOVACAT=m. & ALT=porífer
+portulacàcies: NOVACAT=f. & ALT=portulacàcia
+posidoniàcies: NOVACAT=f. & ALT=posidoniàcia
+potamogetonàcies: NOVACAT=f. & ALT=potamogetonàcia
+potials: NOVACAT=f. & ALT=potial
+prasinofícies: NOVACAT=f. & ALT=prasinofícia
+prefanerògames: NOVACAT=f. & ALT=prefanerògama
+primnesiòfits: NOVACAT=m. & ALT=primnesiòfit
+primofílices: NOVACAT=f. & ALT=primofílica
+primulàcies: NOVACAT=f. & ALT=primulàcia
+proboscidis: NOVACAT=m. & ALT=proboscidi
+procel·làrids: NOVACAT=m. & ALT=procel·làrid
+procel·lariformes: NOVACAT=m. & ALT=procel·lariforme
+prociònids: NOVACAT=m. & ALT=prociònid
+procloròfits: NOVACAT=m. & ALT=procloròfit
+procordats: NOVACAT=m. & ALT=procordat
+progimnospermes: NOVACAT=f. & ALT=progimnosperma
+prosimis: NOVACAT=m. & ALT=prosimi
+proteàcies: NOVACAT=f. & ALT=proteàcia
+protists: NOVACAT=m. & ALT=protist
+protoctists: NOVACAT=m. & ALT=protoctist
+protosaures: NOVACAT=m. & ALT=protosaure
+prototeris: NOVACAT=m. & ALT=prototeri
+protozous: NOVACAT=m. & ALT=protozou
+prunèl·lids: NOVACAT=m. & ALT=prunèl·lid
+pseudoescorpins: NOVACAT=m. & ALT=pseudoescorpí
+pseudofongs: NOVACAT=m. & ALT=pseudofong
+psilofitòpsids: NOVACAT=m. & ALT=psilofitòpsid
+psilotòpsids: NOVACAT=m. & ALT=psilotòpsid
+psitàcids: NOVACAT=m. & ALT=psitàcid
+pteridíides: NOVACAT=f. & ALT=pteridíida
+pteridòfits: NOVACAT=m. & ALT=pteridòfit
+pteridospermòpsids: NOVACAT=m. & ALT=pteridospermòpsid
+pterigots: NOVACAT=m. & ALT=pterigot
+pteroclídids: NOVACAT=m. & ALT=pteroclídid
+pteròpodes: NOVACAT=m. & ALT=pteròpode
+pterosaures: NOVACAT=m. & ALT=pterosaure
+punicàcies: NOVACAT=f. & ALT=punicàcia
+quelicerats: NOVACAT=m. & ALT=quelicerat
+quelonídids: NOVACAT=m. & ALT=quelonídid
+quelonis: NOVACAT=m. & ALT=queloni
+quenopodiàcies: NOVACAT=f. & ALT=quenopodiàcia
+quetoforals: NOVACAT=f. & ALT=quetoforal
+quetògnats: NOVACAT=m. & ALT=quetògnat
+quilòpodes: NOVACAT=m. & ALT=quilòpode
+quimèrids: NOVACAT=m. & ALT=quimèrid
+quimeriformes: NOVACAT=m. & ALT=quimeriforme
+quiròpters: NOVACAT=m. & ALT=quiròpter
+quitridiomicets: NOVACAT=m. & ALT=quitridiomicet
+quitridis: NOVACAT=m. & ALT=quitridi
+radiolaris: NOVACAT=m. & ALT=radiolari
+rafidofícies: NOVACAT=f. & ALT=rafidofícia
+raids: NOVACAT=m. & ALT=raid
+raïformes: NOVACAT=m. & ALT=raïforme
+ràl·lids: NOVACAT=m. & ALT=ràl·lid
+ramfàstids: NOVACAT=m. & ALT=ramfàstid
+ramnàcies: NOVACAT=f. & ALT=ramnàcia
+rànids: NOVACAT=m. & ALT=rànid
+ranunculàcies: NOVACAT=f. & ALT=ranunculàcia
+recurviròstrids: NOVACAT=m. & ALT=recurviròstrid
+reids: NOVACAT=m. & ALT=reid
+remízids: NOVACAT=m. & ALT=remízid
+resedàcies: NOVACAT=f. & ALT=resedàcia
+ricciàcies: NOVACAT=f. & ALT=ricciàcia
+rincocèfals: NOVACAT=m. & ALT=rincocèfal
+rinobàtids: NOVACAT=m. & ALT=rinobàtid
+rinoceròtids: NOVACAT=m. & ALT=rinoceròtid
+rinolòfids: NOVACAT=m. & ALT=rinolòfid
+rinoquètids: NOVACAT=m. & ALT=rinoquètid
+rizoforàcies: NOVACAT=f. & ALT=rizoforàcia
+rizòpodes: NOVACAT=m. & ALT=rizòpode
+rodimenials: NOVACAT=f. & ALT=rodimenial
+rodofícies: NOVACAT=f. & ALT=rodofícia
+rodòfits: NOVACAT=m. & ALT=rodòfit
+rosals: NOVACAT=f. & ALT=rosal
+rubiàcies: NOVACAT=f. & ALT=rubiàcia
+rudistes: NOVACAT=m. & ALT=rudiste
+rugosos: NOVACAT=m. & ALT=rugoso
+rutàcies: NOVACAT=f. & ALT=rutàcia
+sagitàrids: NOVACAT=m. & ALT=sagitàrid
+salamàndrids: NOVACAT=m. & ALT=salamàndrid
+salicàcies: NOVACAT=f. & ALT=salicàcia
+salmònids: NOVACAT=m. & ALT=salmònid
+salmoniformes: NOVACAT=m. & ALT=salmoniforme
+salviniàcies: NOVACAT=f. & ALT=salviniàcia
+santalàcies: NOVACAT=f. & ALT=santalàcia
+sapindàcies: NOVACAT=f. & ALT=sapindàcia
+saprolegnials: NOVACAT=f. & ALT=saprolegnial
+sarcopterigis: NOVACAT=m. & ALT=sarcopterigi
+sarcosporidis: NOVACAT=m. & ALT=sarcosporidi
+sarraceniàcies: NOVACAT=f. & ALT=sarraceniàcia
+saures: NOVACAT=m. & ALT=saure
+saurisquis: NOVACAT=m. & ALT=saurisqui
+sauròpodes: NOVACAT=m. & ALT=sauròpode
+sauropterigis: NOVACAT=m. & ALT=sauropterigi
+saxifragàcies: NOVACAT=f. & ALT=saxifragàcia
+serrànids: NOVACAT=m. & ALT=serrànid
+sifonàpters: NOVACAT=m. & ALT=sifonàpter
+silicoflagel·lats: NOVACAT=m. & ALT=silicoflagel·lat
+silúrids: NOVACAT=m. & ALT=silúrid
+siluriformes: NOVACAT=m. & ALT=siluriforme
+sílvids: NOVACAT=m. & ALT=sílvid
+simarubàcies: NOVACAT=f. & ALT=simarubàcia
+sinàpsids: NOVACAT=m. & ALT=sinàpsid
+singnàtids: NOVACAT=m. & ALT=singnàtid
+singnatiformes: NOVACAT=m. & ALT=singnatiforme
+sinodòntids: NOVACAT=m. & ALT=sinodòntid
+sirènids: NOVACAT=m. & ALT=sirènid
+sirenis: NOVACAT=m. & ALT=sireni
+sítids: NOVACAT=m. & ALT=sítid
+solanàcies: NOVACAT=f. & ALT=solanàcia
+soleids: NOVACAT=m. & ALT=soleid
+solífugs: NOVACAT=m. & ALT=solífug
+sorícids: NOVACAT=m. & ALT=sorícid
+sorosilicats: NOVACAT=m. & ALT=sorosilicat
+suids: NOVACAT=m. & ALT=suid
+suïformes: NOVACAT=m. & ALT=suïforme
+súlids: NOVACAT=m. & ALT=súlid
+taiasuids: NOVACAT=m. & ALT=taiasuid
+taliacis: NOVACAT=m. & ALT=taliaci
+tàlpids: NOVACAT=m. & ALT=tàlpid
+tamaricàcies: NOVACAT=f. & ALT=tamaricàcia
+tanàgrids: NOVACAT=m. & ALT=tanàgrid
+tanaidacis: NOVACAT=m. & ALT=tanaidaci
+tapírids: NOVACAT=m. & ALT=tapírid
+tàrsids: NOVACAT=m. & ALT=tàrsid
+taxàcies: NOVACAT=f. & ALT=taxàcia
+taxodiàcies: NOVACAT=f. & ALT=taxodiàcia
+teàcies: NOVACAT=f. & ALT=teàcia
+tecodonts: NOVACAT=m. & ALT=tecodont
+tectosilicats: NOVACAT=m. & ALT=tectosilicat
+teids: NOVACAT=m. & ALT=teid
+teràpsids: NOVACAT=m. & ALT=teràpsid
+teris: NOVACAT=m. & ALT=teri
+teròpodes: NOVACAT=m. & ALT=teròpode
+testudínids: NOVACAT=m. & ALT=testudínid
+tetraodontiformes: NOVACAT=m. & ALT=tetraodontiforme
+tetraònids: NOVACAT=m. & ALT=tetraònid
+ticodromàtids: NOVACAT=m. & ALT=ticodromàtid
+tifàcies: NOVACAT=f. & ALT=tifàcia
+tiliàcies: NOVACAT=f. & ALT=tiliàcia
+tilòpodes: NOVACAT=m. & ALT=tilòpode
+timàlids: NOVACAT=m. & ALT=timàlid
+timeleàcies: NOVACAT=f. & ALT=timeleàcia
+tinàmids: NOVACAT=m. & ALT=tinàmid
+tisanurs: NOVACAT=m. & ALT=tisanur
+titanoteris: NOVACAT=m. & ALT=titanoteri
+titònids: NOVACAT=m. & ALT=titònid
+torpedínids: NOVACAT=m. & ALT=torpedínid
+torpediniformes: NOVACAT=m. & ALT=torpediniforme
+trapàcies: NOVACAT=f. & ALT=trapàcia
+traquilins: NOVACAT=m. & ALT=traquilí
+traquiptèrids: NOVACAT=m. & ALT=traquiptèrid
+trematodes: NOVACAT=m. & ALT=trematode
+tremel·lals: NOVACAT=f. & ALT=tremel·lal
+trepostomats: NOVACAT=m. & ALT=trepostomat
+tresquiornítids: NOVACAT=m. & ALT=tresquiornítid
+tribonematals: NOVACAT=f. & ALT=tribonematal
+tricolomatàcies: NOVACAT=f. & ALT=tricolomatàcia
+tricomicets: NOVACAT=m. & ALT=tricomicet
+tricòpters: NOVACAT=m. & ALT=tricòpter
+tríglids: NOVACAT=m. & ALT=tríglid
+trilobits: NOVACAT=m. & ALT=trilobit
+triquèquids: NOVACAT=m. & ALT=triquèquid
+tritònids: NOVACAT=m. & ALT=tritònid
+troglodítids: NOVACAT=m. & ALT=troglodítid
+trogònids: NOVACAT=m. & ALT=trogònid
+tropeolàcies: NOVACAT=f. & ALT=tropeolàcia
+troquílids: NOVACAT=m. & ALT=troquílid
+tubulidentats: NOVACAT=m. & ALT=tubulidentat
+túnids: NOVACAT=m. & ALT=túnid
+turbel·laris: NOVACAT=m. & ALT=turbel·lari
+túrdids: NOVACAT=m. & ALT=túrdid
+turnícids: NOVACAT=m. & ALT=turnícid
+ulmàcies: NOVACAT=f. & ALT=ulmàcia
+ulotricals: NOVACAT=f. & ALT=ulotrical
+ulvals: NOVACAT=f. & ALT=ulval
+upúpids: NOVACAT=m. & ALT=upúpid
+uranoscòpids: NOVACAT=m. & ALT=uranoscòpid
+uredinals: NOVACAT=f. & ALT=uredinal
+urocordats: NOVACAT=m. & ALT=urocordat
+urodels: NOVACAT=m. & ALT=urodel
+úrsids: NOVACAT=m. & ALT=úrsid
+urticàcies: NOVACAT=f. & ALT=urticàcia
+ustilaginals: NOVACAT=f. & ALT=ustilaginal
+valerianàcies: NOVACAT=f. & ALT=valerianàcia
+varànids: NOVACAT=m. & ALT=varànid
+vauquerials: NOVACAT=f. & ALT=vauquerial
+verbenàcies: NOVACAT=f. & ALT=verbenàcia
+verrucarials: NOVACAT=f. & ALT=verrucarial
+vespertiliònids: NOVACAT=m. & ALT=vespertiliònid
+vipèrids: NOVACAT=m. & ALT=vipèrid
+vitàcies: NOVACAT=f. & ALT=vitàcia
+vivèrrids: NOVACAT=m. & ALT=vivèrrid
+volvocals: NOVACAT=f. & ALT=volvocal
+vultúrids: NOVACAT=m. & ALT=vultúrid
+xantofícies: NOVACAT=f. & ALT=xantofícia
+xífids: NOVACAT=m. & ALT=xífid
+xifosurs: NOVACAT=m. & ALT=xifosur
+xinxíl·lids: NOVACAT=m. & ALT=xinxíl·lid
+zeids: NOVACAT=m. & ALT=zeid
+zeïformes: NOVACAT=m. & ALT=zeïforme
+zigentomes: NOVACAT=m. & ALT=zigentome
+zignematofícies: NOVACAT=f. & ALT=zignematofícia
+zigofícies: NOVACAT=f. & ALT=zigofícia
+zigofil·làcies: NOVACAT=f. & ALT=zigofil·làcia
+zigomicets: NOVACAT=m. & ALT=zigomicet
+zingiberàcies: NOVACAT=f. & ALT=zingiberàcia
+zoantaris: NOVACAT=m. & ALT=zoantari
+
+//======== Casos diversos   ========
+peso [LL][cast.]: ALT=peso
+empuat -ada: NOVACAT=adj.
+esbulladís -issa: NOVACAT=adj.
+deceptiu -iva: NOVACAT=adj.
+rubiginós -osa: NOVACAT=adj.
+

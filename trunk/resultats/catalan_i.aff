@@ -1,0 +1,1252 @@
+# =======================================================================================
+# Corrector ortogràfic català
+# Fitxer d'afixos i llista de paraules
+# =======================================================================================
+# Copyright (C) 2002, 2006 Joan Moratinos <jmo@softcatala.org>
+# 
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+# 02111-1307, USA.
+# =======================================================================================
+# Fonts: Diccionari de l'Institut d'Estudis Catalans
+# Diccionari Català/Castellà - Castellà/Català de Francesc de B. Moll
+# Diccionari d'Ispell d'Ignasi Labastida
+# Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas
+# =======================================================================================
+
+# Sense afixació automàtica
+
+allaffixes off
+
+# Definició dels caràcters
+
+defstringtype "list" "nroff" ".list"
+
+wordchars	a	A
+stringchar	à	À
+stringchar	á	Á			# González
+stringchar	ã	Ã			# São Paulo
+wordchars	[b-c]	[B-C]
+stringchar	ç	Ç
+wordchars	[d-e]	[D-E]
+stringchar	è	È
+stringchar	é	É
+wordchars	[f-i]	[F-I]
+stringchar	í	Í
+stringchar	ï	Ï
+wordchars	[j-o]	[J-O]
+stringchar	ñ	Ñ			# Muñoz
+stringchar	ó	Ó
+stringchar	ò	Ò
+stringchar	ö	Ö			# röngten
+wordchars	[p-u]	[P-U]
+stringchar	ú	Ú
+stringchar	ü	Ü
+wordchars	[v-z]	[V-Z]
+wordchars   [·]
+wordchars   [-]
+wordchars   [']
+
+#
+# TeX
+#
+altstringtype "tex" "TeX" ".tex" ".bib"
+
+altstringchar	\`a		à
+altstringchar	\'a		á
+altstringchar	\`A		À
+altstringchar	\'A		Á
+altstringchar	"\c c"		ç
+altstringchar	"\c C"		Ç
+altstringchar	\`e		è
+altstringchar	\`E		È
+altstringchar	\'e		é
+altstringchar	\'E		É
+altstringchar	\'\i		í
+altstringchar	\'\I		Í
+altstringchar	\"\i		ï
+altstringchar	\"\I		Ï
+altstringchar	\'o		ó
+altstringchar	\'O		Ó
+altstringchar	\`o		ò
+altstringchar	\`O		Ò
+altstringchar	\"o		ö
+altstringchar	\"O		Ö
+altstringchar	\'u		ú
+altstringchar	\'U		Ú
+altstringchar	\"u		ü
+altstringchar	\"U		Ü
+
+
+# Relació de flags emprats
+
+# Flag      A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+# Prefix                                              * *   * * 
+# Sufix     * * * * * * * * * * * * * * * * * * * * *           
+# Lliure                                                  X     
+
+# Flag      a b c d e f g h i j k l m n o p q r s t u v w x y z
+# Prefix                                                        
+# Sufix                                                         
+# Lliure    a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+
+# ------------------------------------------------------------
+
+
+prefixes
+
+flag  V:    # Article prefixat no combinable
+    .                    > L'                   # l'home
+    .                    > L'                   # L'Alcúdia
+    A                    > L'A                  # l'Aire
+    A                    > L'A                  # L'Aire
+    A                    > S'A                  # s'Aire
+    A                    > S'A                  # S'Aire
+    À                    > L'À                  # l'Àguila
+    À                    > L'À                  # L'Àguila
+    À                    > S'À                  # s'Àguila
+    À                    > S'À                  # S'Àguila
+    E                    > L'E                  # l'Esperit
+    E                    > L'E                  # L'Esperit
+    E                    > S'E                  # s'Esperit
+    E                    > S'E                  # S'Esperit
+    È                    > L'È                  # l'Època
+    È                    > L'È                  # L'Època
+    È                    > S'È                  # s'Època
+    È                    > S'È                  # S'Època
+    É                    > L'É                  # 
+    É                    > L'É                  # 
+    É                    > S'É                  # 
+    É                    > S'É                  # 
+    I                    > L'I                  # l'Illa
+    I                    > L'I                  # L'Illa
+    I                    > S'I                  # s'Illa
+    I                    > S'I                  # S'Illa
+    Í                    > L'Í                  # 
+    Í                    > L'Í                  # 
+    Í                    > S'Í                  # 
+    Í                    > S'Í                  # 
+    O                    > L'O                  # l'Ordre
+    O                    > L'O                  # L'Ordre
+    O                    > S'O                  # s'Ordre
+    O                    > S'O                  # S'Ordre
+    Ò                    > L'Ò                  # l'Òliba
+    Ò                    > L'Ò                  # L'Òliba
+    Ò                    > S'Ò                  # s'Òliba
+    Ò                    > S'Ò                  # S'Òliba
+    Ó                    > L'Ó                  # 
+    Ó                    > L'Ó                  # 
+    Ó                    > S'Ó                  # 
+    Ó                    > S'Ó                  # 
+    U                    > L'U                  # l'Urna
+    U                    > L'U                  # L'Urna
+    U                    > S'U                  # s'Urna
+    U                    > S'U                  # S'Urna
+    Ú                    > L'Ú                  # l'Únic
+    Ú                    > L'Ú                  # L'Únic
+    Ú                    > S'Ú                  # s'Únic
+    Ú                    > S'Ú                  # S'Únic
+    H                    > L'H                  # l'Hora
+    H                    > L'H                  # L'Hora
+    H                    > S'H                  # s'Hora
+    H                    > S'H                  # S'Hora
+
+flag  W:    # Article personal
+    [AÀEÈÉIÍOÒÓHUÚ]      > L'                   # l'Arnau
+    [AÀEÈÉIÍOÒÓHUÚ]      > N'                   # n'Arnau
+    [AÀEÈÉIÍOÒÓHUÚ]      > L'                   # L'Arnau
+    [AÀEÈÉIÍOÒÓHUÚ]      > N'                   # N'Arnau
+
+flag *Y:    # Preposició "de" apostrofada
+    .                    > D'                   # d'algú
+    .                    > D'                   # D'Algaida
+    A                    > D'A                  # d'Aire
+    A                    > D'A                  # D'Aire
+    À                    > D'À                  # d'Àguila
+    À                    > D'À                  # D'Àguila
+    E                    > D'E                  # d'Esperit
+    E                    > D'E                  # D'Esperit
+    È                    > D'È                  # d'Època
+    È                    > D'È                  # D'Època
+    É                    > D'É                  # 
+    É                    > D'É                  # 
+    I                    > D'I                  # d'Illa
+    I                    > D'I                  # D'Illa
+    Í                    > D'Í                  # 
+    Í                    > D'Í                  # 
+    O                    > D'O                  # d'Ordre
+    O                    > D'O                  # D'Ordre
+    Ò                    > D'Ò                  # d'Òliba
+    Ò                    > D'Ò                  # D'Òliba
+    Ó                    > D'Ó                  # 
+    Ó                    > D'Ó                  # 
+    U                    > D'U                  # d'Urna
+    U                    > D'U                  # D'Urna
+    Ú                    > D'Ú                  # d'Únic
+    Ú                    > D'Ú                  # D'Únic
+    H                    > D'H                  # d'Hora
+    H                    > D'H                  # D'Hora
+
+flag *Z:    # Pronoms personals prefixats
+    .                    > M'                   # m'abillo
+    .                    > T'                   # t'abillo
+    .                    > S'                   # s'abilla
+    .                    > L'                   # l'abillo
+    .                    > N'                   # n'abillo
+
+
+suffixes
+
+flag *C:    # Pronoms personals enclítics darrere consonant
+    .                    > \-ME                 # posar-me
+    .                    > \-NOS                # posar-nos
+    .                    > \-TE                 # posar-te
+    .                    > \-VOS                # posar-vos
+    .                    > \-SE                 # posar-se
+    .                    > \-LO                 # posar-lo
+    .                    > \-LA                 # posar-la
+    .                    > \-LI                 # posar-li
+    .                    > \-LOS                # posar-los
+    .                    > \-LES                # posar-les
+    .                    > \-HO                 # posar-ho
+    .                    > \-HI                 # posar-hi
+    .                    > \-NE                 # posar-ne
+    .                    > \-SE'T               # posar-se't
+    .                    > \-SE\-US             # posar-se-us
+    .                    > \-SE'M               # posar-se'm
+    .                    > \-TE'M               # posar-te'm
+    .                    > \-VOS\-EM            # posar-vos-em
+    .                    > \-SE'NS              # posar-se'ns
+    .                    > \-TE'NS              # posar-te'ns
+    .                    > \-VOS\-ENS           # posar-vos-ens
+    .                    > \-SE'L               # posar-se'l
+    .                    > \-TE'L               # posar-te'l
+    .                    > \-VOS\-EL            # posar-vos-el
+    .                    > \-ME'L               # posar-me'l
+    .                    > \-NOS\-EL            # posar-nos-el
+    .                    > \-LOS\-EL            # posar-los-el
+    .                    > \-L'HI               # posar-l'hi
+    .                    > \-SE'LS              # posar-se'ls
+    .                    > \-TE'LS              # posar-te'ls
+    .                    > \-VOS\-ELS           # posar-vos-els
+    .                    > \-ME'LS              # posar-me'ls
+    .                    > \-NOS\-ELS           # posar-nos-els
+    .                    > \-LOS\-ELS           # posar-los-els
+    .                    > \-LOS\-HI            # posar-los-hi
+    .                    > \-SE\-LA             # posar-se-la
+    .                    > \-TE\-LA             # posar-te-la
+    .                    > \-VOS\-LA            # posar-vos-la
+    .                    > \-ME\-LA             # posar-me-la
+    .                    > \-NOS\-LA            # posar-nos-la
+    .                    > \-LOS\-LA            # posar-los-la
+    .                    > \-LA\-HI             # posar-la-hi
+    .                    > \-SE\-LES            # posar-se-les
+    .                    > \-TE\-LES            # posar-te-les
+    .                    > \-VOS\-LES           # posar-vos-les
+    .                    > \-ME\-LES            # posar-me-les
+    .                    > \-NOS\-LES           # posar-nos-les
+    .                    > \-LOS\-LES           # posar-los-les
+    .                    > \-LES\-HI            # posar-les-hi
+    .                    > \-SE\-LI             # posar-se-li
+    .                    > \-TE\-LI             # posar-te-li
+    .                    > \-VOS\-LI            # posar-vos-li
+    .                    > \-ME\-LI             # posar-me-li
+    .                    > \-NOS\-LI            # posar-nos-li
+    .                    > \-S'HO               # posar-s'ho
+    .                    > \-T'HO               # posar-t'ho
+    .                    > \-VOS\-HO            # posar-vos-ho
+    .                    > \-M'HO               # posar-m'ho
+    .                    > \-NOS\-HO            # posar-nos-ho
+    .                    > \-LOS\-HO            # posar-los-ho
+    .                    > \-LI\-HO             # posar-li-ho
+    .                    > \-SE'N               # posar-se'n
+    .                    > \-TE'N               # posar-te'n
+    .                    > \-VOS\-EN            # posar-vos-en
+    .                    > \-ME'N               # posar-me'n
+    .                    > \-NOS\-EN            # posar-nos-en
+    .                    > \-L'EN               # posar-l'en
+    .                    > \-LOS\-EN            # posar-los-en
+    .                    > \-LA'N               # posar-la'n
+    .                    > \-LES\-EN            # posar-les-en
+    .                    > \-LI'N               # posar-li'n
+    .                    > \-S'HI               # posar-s'hi
+    .                    > \-T'HI               # posar-t'hi
+    .                    > \-VOS\-HI            # posar-vos-hi
+    .                    > \-M'HI               # posar-m'hi
+    .                    > \-NOS\-HI            # posar-nos-hi
+    .                    > \-L'HI               # posar-l'hi
+    .                    > \-LOS\-HI            # posar-los-hi
+    .                    > \-LA\-HI             # posar-la-hi
+    .                    > \-LES\-HI            # posar-les-hi
+    .                    > \-N'HI               # posar-n'hi
+
+flag *D:    # Pronoms personals enclítics darrere vocal
+    .                    > 'M                   # posa'm
+    .                    > 'NS                  # posa'ns
+    .                    > 'T                   # posa't
+    .                    > \-US                 # posa-us
+    .                    > 'S                   # posa's
+    .                    > 'L                   # posa'l
+    .                    > \-LA                 # posa-la
+    .                    > \-LI                 # posa-li
+    .                    > 'LS                  # posa'ls
+    .                    > \-LES                # posa-les
+    .                    > \-HO                 # posa-ho
+    .                    > \-HI                 # posa-hi
+    .                    > 'N                   # posa'n
+    .                    > \-SE'T               # posa-se't
+    .                    > \-SE\-US             # posa-se-us
+    .                    > \-SE'M               # posa-se'm
+    .                    > \-TE'M               # posa-te'm
+    .                    > \-US\-EM             # posa-us-em
+    .                    > \-SE'NS              # posa-se'ns
+    .                    > \-TE'NS              # posa-te'ns
+    .                    > \-US\-ENS            # posa-us-ens
+    .                    > \-SE'L               # posa-se'l
+    .                    > \-TE'L               # posa-te'l
+    .                    > \-US\-EL             # posa-us-el
+    .                    > \-ME'L               # posa-me'l
+    .                    > 'NS\-EL              # posa'ns-el
+    .                    > 'LS\-EL              # posa'ls-el
+    .                    > \-L'HI               # posa-l'hi
+    .                    > \-SE'LS              # posa-se'ls
+    .                    > \-TE'LS              # posa-te'ls
+    .                    > \-US\-ELS            # posa-us-els
+    .                    > \-ME'LS              # posa-me'ls
+    .                    > 'NS\-ELS             # posa'ns-els
+    .                    > 'LS\-ELS             # posa'ls-els
+    .                    > 'LS\-HI              # posa'ls-hi
+    .                    > \-SE\-LA             # posa-se-la
+    .                    > \-TE\-LA             # posa-te-la
+    .                    > \-US\-LA             # posa-us-la
+    .                    > \-ME\-LA             # posa-me-la
+    .                    > 'NS\-LA              # posa'ns-la
+    .                    > 'LS\-LA              # posa'ls-la
+    .                    > \-LA\-HI             # posa-la-hi
+    .                    > \-SE\-LES            # posa-se-les
+    .                    > \-TE\-LES            # posa-te-les
+    .                    > \-US\-LES            # posa-us-les
+    .                    > \-ME\-LES            # posa-me-les
+    .                    > 'NS\-LES             # posa'ns-les
+    .                    > 'LS\-LES             # posa'ls-les
+    .                    > \-LES\-HI            # posa-les-hi
+    .                    > \-SE\-LI             # posa-se-li
+    .                    > \-TE\-LI             # posa-te-li
+    .                    > \-US\-LI             # posa-us-li
+    .                    > \-ME\-LI             # posa-me-li
+    .                    > 'NS\-LI              # posa'ns-li
+    .                    > \-S'HO               # posa-s'ho
+    .                    > \-T'HO               # posa-t'ho
+    .                    > \-US\-HO             # posa-us-ho
+    .                    > \-M'HO               # posa-m'ho
+    .                    > 'NS\-HO              # posa'ns-ho
+    .                    > 'LS\-HO              # posa'ls-ho
+    .                    > \-LI\-HO             # posa-li-ho
+    .                    > \-SE'N               # posa-se'n
+    .                    > \-TE'N               # posa-te'n
+    .                    > \-US\-EN             # posa-us-en
+    .                    > \-ME'N               # posa-me'n
+    .                    > 'NS\-EN              # posa'ns-en
+    .                    > \-L'EN               # posa-l'en
+    .                    > 'LS\-EN              # posa'ls-en
+    .                    > \-LA'N               # posa-la'n
+    .                    > \-LES\-EN            # posa-les-en
+    .                    > \-LI'N               # posa-li'n
+    .                    > \-S'HI               # posa-s'hi
+    .                    > \-T'HI               # posa-t'hi
+    .                    > \-US\-HI             # posa-us-hi
+    .                    > \-M'HI               # posa-m'hi
+    .                    > 'NS\-HI              # posa'ns-hi
+    .                    > \-L'HI               # posa-l'hi
+    .                    > 'LS\-HI              # posa'ls-hi
+    .                    > \-LA\-HI             # posa-la-hi
+    .                    > \-LES\-HI            # posa-les-hi
+    .                    > \-N'HI               # posa-n'hi
+
+flag *E:    # Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
+    [^AS]                > S                    # homes
+    [SX] [CT]            > OS                   # boscos, rostos, textos
+    [AEO] I G            > -IG,JOS              # rajos, baladrejos, rojos 
+    [^CÇGJU] A           > -A,ES                # dones
+    [^GQ] U A            > -A,ES                # grues
+    [GQ] U A             > -UA,ÜES              # aigües, siliqües
+    C A                  > -CA,QUES             # vaques
+    Ç A                  > -ÇA,CES              # terces
+    G A                  > -GA,GUES             # bagues
+    J A                  > -JA,GES              # pluges
+
+flag *I:    # Plurals afegint o (eventualment amb canvi d'accent)
+    [^S]                 > OS                   # guixos
+    [^ÀÈÉÍÒÓÚ] S         > OS                   # gasos, cursos
+    À S                  > -ÀS,ASOS             # biogasos
+    È S                  > -ÈS,ESOS             # entesos
+    É S                  > -ÉS,ESOS             # 
+    [^AEOU] Í S          > -ÍS,ISOS             # avisos
+    [AEO] Í S            > -ÍS,ÏSOS             # 
+    [GQ] U Í S           > -ÍS,ISOS             # 
+    [^GQ] U Í S          > -ÍS,ÏSOS             # 
+    Ò S                  > -ÒS,OSOS             # 
+    Ó S                  > -ÓS,OSOS             # 
+    [^AEOI] Ú S          > -ÚS,USOS             # 
+    [AEOI] Ú S           > -ÚS,ÜSOS             # 
+
+flag *G:    # Plurals afegint ns
+    A                    > NS                   # pans
+    E                    > NS                   # blens
+    I                    > NS                   # brins
+    O                    > NS                   # trons
+    U                    > NS                   # bruns
+    À                    > -À,ANS               # germans
+    È                    > -È,ENS               # amens
+    É                    > -É,ENS               # 
+    [^AEOU] Í            > -Í,INS               # camins
+    [GQ] U Í             > -Í,INS               # 
+    [^GQ] U Í            > -Í,ÏNS               # 
+    [AEO] Í              > -Í,ÏNS               # 
+    Ò                    > -Ò,ONS               # ultrasons
+    Ó                    > -Ó,ONS               # avions
+    Ú                    > -Ú,UNS               # tribuns
+
+flag *F:    # Quatre formes afegint a/s/es (sense o, però també foscos)
+    [^EOSXÇ]             > A                    # verda  2.
+    E                    > -E,A                 # altra
+    O                    > -O,A                 # fonda
+    [^ASÇX]              > S                    # verds  3.
+    A                    > -A,ES                # poetes
+    [SX] [CT]            > OS                   # foscos
+    [^AEOCÇGSX]          > ES                   # verdes 4.
+    A                    > -A,ES                # poetes
+    E                    > S                    # pobres
+    O                    > -O,ES                # fondes
+    C                    > -C,QUES              # poques
+    Ç                    > -Ç,CES               # felices
+    G                    > -G,GUES              # antropòfagues
+
+flag *B:    # Quatre formes amb canvi t > d, u > v, c > g, s > ss
+    T                    > -T,DA                # abalida - canvi t > d   2.
+    U                    > -U,VA                # nova    - canvi u > v
+    C                    > -C,GA                # antiga  - canvi c > g
+    [^ÀÈÉÍÒÓÚ] S         > SA                   # grossa  - canvi s > ss
+    À S                  > -ÀS,ASSA             # 
+    È S                  > -ÈS,ESSA             # 
+    É S                  > -ÉS,ESSA             # 
+    [^AEOU] Í S          > -ÍS,ISSA             # 
+    [AEO] Í S            > -ÍS,ÏSSA             # 
+    [GQ] U Í S           > -ÍS,ISSA             # 
+    [^GQ] U Í S          > -ÍS,ÏSSA             # 
+    Ò S                  > -ÒS,OSSA             # 
+    Ó S                  > -ÓS,OSSA             # 
+    [^AEOI] Ú S          > -ÚS,USSA             # 
+    [AEOI] Ú S           > -ÚS,ÜSSA             # 
+    T                    > S                    # abalits                 3.
+    U                    > S                    # nous
+    C                    > S                    # antics
+    [^ÀÈÉÍÒÓÚ] S         > SOS                  # grossos
+    À S                  > -ÀS,ASSOS            # 
+    È S                  > -ÈS,ESSOS            # 
+    É S                  > -ÉS,ESSOS            # 
+    [^AEOU] Í S          > -ÍS,ISSOS            # 
+    [AEO] Í S            > -ÍS,ÏSSOS            # 
+    [GQ] U Í S           > -ÍS,ISSOS            # 
+    [^GQ] U Í S          > -ÍS,ÏSSOS            # 
+    Ò S                  > -ÒS,OSSOS            # 
+    Ó S                  > -ÓS,OSSOS            # 
+    [^AEOI] Ú S          > -ÚS,USSOS            # 
+    [AEOI] Ú S           > -ÚS,ÜSSOS            # 
+    T                    > -T,DES               # abalides                4.
+    U                    > -U,VES               # noves
+    C                    > -C,GUES              # antigues
+    [^ÀÈÉÍÒÓÚ] S         > SES                  # grosses
+    À S                  > -ÀS,ASSES            # 
+    È S                  > -ÈS,ESSES            # 
+    É S                  > -ÉS,ESSES            # 
+    [^AEOU] Í S          > -ÍS,ISSES            # 
+    [AEO] Í S            > -ÍS,ÏSSES            # 
+    [GQ] U Í S           > -ÍS,ISSES            # 
+    [^GQ] U Í S          > -ÍS,ÏSSES            # 
+    Ò S                  > -ÒS,OSSES            # 
+    Ó S                  > -ÓS,OSSES            # 
+    [^AEOI] Ú S          > -ÚS,USSES            # 
+    [AEOI] Ú S           > -ÚS,ÜSSES            # 
+
+flag *H:    # Quatre formes afegint ns
+    [AEIOU]              > NA                   # plana, plena, fina, bona, bruna   2.
+    À                    > -À,ANA               # forana
+    È                    > -È,ENA               # amena
+    É                    > -É,ENA               # 
+    [^AEOU] Í            > -Í,INA               # albina
+    [GQ] U Í             > -Í,INA               # beguina
+    [^GQ] U Í            > -Í,ÏNA               # beduïna
+    [AEO] Í              > -Í,ÏNA               # veïna
+    Ò                    > -Ò,ONA               # 
+    Ó                    > -Ó,ONA               # rodona
+    Ú                    > -Ú,UNA               # dejuna
+    [AEIOU]              > NS                   # plans, plens, fins, bons, bruns   3.
+    À                    > -À,ANS               # forans
+    È                    > -È,ENS               # amens
+    É                    > -É,ENS               # 
+    [^AEOU] Í            > -Í,INS               # albins
+    [GQ] U Í             > -Í,INS               # beguins
+    [^GQ] U Í            > -Í,ÏNS               # beduïns
+    [AEO] Í              > -Í,ÏNS               # veïns
+    Ò                    > -Ò,ONS               # 
+    Ó                    > -Ó,ONS               # rodons
+    Ú                    > -Ú,UNS               # dejuns
+    [AEIOU]              > NES                  # planes, plenes, fines, bones, brunes 4.
+    À                    > -À,ANES              # foranes
+    È                    > -È,ENES              # amenes
+    É                    > -É,ENES              # 
+    [^AEOU] Í            > -Í,INES              # albines
+    [GQ] U Í             > -Í,INES              # beguines
+    [^GQ] U Í            > -Í,ÏNES              # beduïnes
+    [AEO] Í              > -Í,ÏNES              # veïnes
+    Ò                    > -Ò,ONES              # 
+    Ó                    > -Ó,ONES              # rodones
+    Ú                    > -Ú,UNES              # dejunes
+
+flag *J:    # Quatre formes afegint a/os/es
+    [^S]                 > A                    # 2.
+    [^ÀÈÉÍÒÓÚ] S         > A                    # agradosa
+    À S                  > -ÀS,ASA              # 
+    È S                  > -ÈS,ESA              # 
+    É S                  > -ÉS,ESA              # 
+    Í S                  > -ÍS,ISA              # 
+    Ò S                  > -ÒS,OSA              # 
+    Ó S                  > -ÓS,OSA              # 
+    Ú S                  > -ÚS,USA              # 
+    [^S]                 > OS                   # 3.
+    [^ÀÈÉÍÒÓÚ] S         > OS                   # agradosos
+    À S                  > -ÀS,ASOS             # 
+    È S                  > -ÈS,ESOS             # 
+    É S                  > -ÉS,ESOS             # 
+    Í S                  > -ÍS,ISOS             # 
+    Ò S                  > -ÒS,OSOS             # 
+    Ó S                  > -ÓS,OSOS             # 
+    Ú S                  > -ÚS,USOS             # 
+    [^SÇ]                > ES                   # 4.
+    Ç                    > -Ç,CES               # terces
+    [^ÀÈÉÍÒÓÚ] S         > ES                   # agradoses
+    À S                  > -ÀS,ASES             # 
+    È S                  > -ÈS,ESES             # 
+    É S                  > -ÉS,ESES             # 
+    Í S                  > -ÍS,ISES             # 
+    Ò S                  > -ÒS,OSES             # 
+    Ó S                  > -ÓS,OSES             # 
+    Ú S                  > -ÚS,USES             # 
+
+flag *K:    # Quatre formes amb canvi d'accent (accent greu)
+    A R I                > -ARI,ÀRIA            # partidària  2.
+    A C I                > -ACI,ÀCIA            # acantàcia
+    A D I                > -ADI,ÀDIA            # accàdia
+    O R I                > -ORI,ÒRIA            # abjuratòria
+    E M I                > -EMI,ÈMIA            # abstèmia
+    O L I                > -OLI,ÒLIA            # caducifòlia
+    O G E N              > -OGEN,ÒGENA          # exògena
+    O G I N              > -OGIN,ÒGINA          # misògina
+    [AEIOU]              > S                    # partidaris  3.
+    O G E N              > -OGEN,ÒGENS          # exògens
+    O G I N              > -OGIN,ÒGINS          # misògins
+    A R I                > -ARI,ÀRIES           # partidàries 4.
+    A D I                > -ADI,ÀDIES           # accàdies
+    A C I                > -ACI,ÀCIES           # acantàcies
+    O R I                > -ORI,ÒRIES           # abjuratòries
+    E M I                > -EMI,ÈMIES           # abstèmies
+    O L I                > -OLI,ÒLIES           # caducifòlies
+    O G E N              > -OGEN,ÒGENES         # exògenes
+    O G I N              > -OGIN,ÒGINES         # misògines
+
+flag *L:    # Quatre formes amb canvi d'accent (accent agut)
+    I N I                > -INI,ÍNIA            # abissínia 2.
+    I G I                > -IGI,ÍGIA            # frígia
+    .                    > S                    # abissinis 3.
+    I N I                > -INI,ÍNIES           # abissinis 4.
+    I G I                > -IGI,ÍGIES           # frígies
+
+flag *A:    # Primera conjugació regular
+    A V A                > -AVA,O               # 1. canto - indicatiu present <IPR>
+    [^CÇGJU] A V A       > -AVA,E               # cante
+    [^GQ] U A V A        > -AVA,E               # sue
+    G U A V A            > -GUAVA,GÜE           # enaigüe
+    Q U A V A            > -QUAVA,QÜE           # adeqüe
+    C A V A              > -CAVA,QUE            # cerque 
+    Ç A V A              > -ÇAVA,CE             # cace 
+    G A V A              > -GAVA,GUE            # porgue 
+    J A V A              > -JAVA,GE             # venge 
+    L · L A V A          > -L·LAVA,L            # vacil ( < vacil·lar)
+    N N A V A            > -NNAVA,N             # nan ( < nannar)
+    E A V A              > -AVA,I               # crei
+    [^AEO] I A V A       > -AVA,I               # guii, esquii, estudii
+    [AEO] I A V A        > -IAVA,I              # espai, remei, enjoi
+    [^GQ] U I A V A      > -IAVA,I              # alui (aluiar)
+    O A V A              > -AVA,U               # incou, encau
+    [^AEIOQG] U A V A    > -AVA,U               # suu
+    [AEO] U A V A        > -UAVA,U              # encau, encreu, pou
+    [^TNRI] J A V A      > -JAVA,IG             # raig, assuauig, fuig, puig
+    I J A V A            > -JAVA,G              # enfastig
+    [TNR] J A V A        > -JAVA,J              # viatj, venj, forj
+    B A V A              > -BAVA,B              # acab
+    C A V A              > -CAVA,C              # cerc
+    Ç A V A              > -ÇAVA,Ç              # caç
+    D A V A              > -DAVA,D              # pod
+    F A V A              > -FAVA,F              # embaf
+    G A V A              > -GAVA,G              # porg
+    L A V A              > -LAVA,L              # bel
+    M A V A              > -MAVA,M              # estim
+    [^EI] N A V A        > -NAVA,N              # man
+    P A V A              > -PAVA,P              # sop
+    R A V A              > -RAVA,R              # par, err
+    [^AEIOUS] S A V A    > -SAVA,S              # espols, eclips
+    T A V A              > -TAVA,T              # apost
+    V A V A              > -VAVA,V              # cav
+    X A V A              > -XAVA,X              # relax, exquitx
+    Z A V A              > -ZAVA,Z              # agonitz
+    [^CÇGJU] A V A       > -AVA,ES              # 2. cantes
+    [^GQ] U A V A        > -AVA,ES              # sues
+    G U A V A            > -GUAVA,GÜES          # enaigües
+    Q U A V A            > -QUAVA,QÜES          # adeqües
+    C A V A              > -CAVA,QUES           # cerques
+    Ç A V A              > -ÇAVA,CES            # caces
+    G A V A              > -GAVA,GUES           # porgues 
+    J A V A              > -JAVA,GES            # venges
+    A V A                > -AVA,A               # 3. canta
+    [^CÇGJU] A V A       > -AVA,EM              # 4. cantem
+    [^GQ] U A V A        > -AVA,EM              # suem
+    G U A V A            > -GUAVA,GÜEM          # enaigüem
+    Q U A V A            > -QUAVA,QÜEM          # adeqüem
+    C A V A              > -CAVA,QUEM           # cerquem
+    Ç A V A              > -ÇAVA,CEM            # cacem
+    G A V A              > -GAVA,GUEM           # porguem 
+    J A V A              > -JAVA,GEM            # vengem
+    A V A                > -AVA,AM              # cantam
+    [^CÇGJU] A V A       > -AVA,EU              # 5. canteu
+    [^GQ] U A V A        > -AVA,EU              # sueu
+    G U A V A            > -GUAVA,GÜEU          # enaigüeu
+    Q U A V A            > -QUAVA,QÜEU          # adeqüeu
+    C A V A              > -CAVA,QUEU           # cerqueu
+    Ç A V A              > -ÇAVA,CEU            # caceu
+    G A V A              > -GAVA,GUEU           # porgueu 
+    J A V A              > -JAVA,GEU            # vengeu
+    A V A                > -AVA,AU              # cantau
+    [^CÇGJU] A V A       > -AVA,EN              # 6. canten
+    [^GQ] U A V A        > -AVA,EN              # suen
+    G U A V A            > -GUAVA,GÜEN          # enaigüen
+    Q U A V A            > -QUAVA,QÜEN          # adeqüen
+    C A V A              > -CAVA,QUEN           # cerquen
+    Ç A V A              > -ÇAVA,CEN            # cacen
+    G A V A              > -GAVA,GUEN           # porguen 
+    J A V A              > -JAVA,GEN            # vengen
+    A V A                > -AVA,AVA             # 1. cantava - indicatiu imperfet <IIM>
+    A V A                > -AVA,AVES            # 2. cantaves
+    A V A                > -AVA,AVA             # 3. cantava
+    A V A                > -AVA,ÀVEM            # 4. cantàvem
+    A V A                > -AVA,ÀVEU            # 5. cantàveu
+    A V A                > -AVA,AVEN            # 6. cantaven
+    [^CÇGJ] A V A        > -AVA,Í               # 1. cantí - indicatiu perfet <IPE>
+    C A V A              > -CAVA,QUÍ            # cerquí
+    Ç A V A              > -ÇAVA,CÍ             # cací
+    G A V A              > -GAVA,GUÍ            # porguí
+    J A V A              > -JAVA,GÍ             # vengí
+    A V A                > -AVA,ARES            # 2. cantares
+    A V A                > -AVA,À               # 3. cantà
+    A V A                > -AVA,ÀREM            # 4. cantàrem
+    A V A                > -AVA,ÀREU            # 5. cantàreu
+    A V A                > -AVA,AREN            # 6. cantaren
+    A V A                > -AVA,ARÉ             # 1. cantaré - futur <FUT>
+    A V A                > -AVA,ARÀS            # 2. cantaràs
+    A V A                > -AVA,ARÀ             # 3. cantarà
+    A V A                > -AVA,AREM            # 4. cantarem
+    A V A                > -AVA,AREU            # 5. cantareu
+    A V A                > -AVA,ARAN            # 6. cantaran
+    A V A                > -AVA,ARIA            # 1. cantaria - condicional <CON>
+    A V A                > -AVA,ARIES           # 2. cantaries
+    A V A                > -AVA,ARIA            # 3. cantaria
+    A V A                > -AVA,ARÍEM           # 4. cantaríem
+    A V A                > -AVA,ARÍEU           # 5. cantaríeu
+    A V A                > -AVA,ARIEN           # 6. cantarien
+    [^CÇGJIEOU] A V A    > -AVA,I               # 1. canti - subjuntiu present <SPR>
+    [^AEIOU] [EIO] A V A > -AVA,Ï               # canviï, suï
+    [AEIOU] I A V A      > -IAVA,Ï              # desmaï
+    [GQ] U I A V A       > -AVA,Ï               # esquiï
+    [^GQ] U I A V A      > -IAVA,Ï              # 
+    G U A V A            > -GUAVA,GÜI           # enaigüi
+    Q U A V A            > -QUAVA,QÜI           # adeqüi
+    [^GQ] U A V A        > -UAVA,UÏ             # evacuï
+    C A V A              > -CAVA,QUI            # cerqui
+    Ç A V A              > -ÇAVA,CI             # caci
+    G A V A              > -GAVA,GUI            # porgui
+    J A V A              > -JAVA,GI             # vengi
+    [^CÇGJU] A V A       > -AVA,E               # cante
+    [^GQ] U A V A        > -AVA,E               # sue
+    G U A V A            > -GUAVA,GÜE           # enaigüe
+    Q U A V A            > -QUAVA,QÜE           # adeqüe
+    C A V A              > -CAVA,QUE            # cerque 
+    Ç A V A              > -ÇAVA,CE             # cace 
+    G A V A              > -GAVA,GUE            # porgue 
+    J A V A              > -JAVA,GE             # venge 
+    [^CÇGJIEOU] A V A    > -AVA,IS              # 2. cantis
+    [^AEIOU] [EIO] A V A > -AVA,ÏS              # canviïs, suïs
+    [AEIOU] I A V A      > -IAVA,ÏS             # desmaïs
+    [GQ] U I A V A       > -AVA,ÏS              # esquiïs
+    [^GQ] U I A V A      > -IAVA,ÏS             # 
+    G U A V A            > -GUAVA,GÜIS          # enaigüis
+    Q U A V A            > -QUAVA,QÜIS          # adeqüis
+    [^GQ] U A V A        > -UAVA,UÏS            # evacuïs
+    C A V A              > -CAVA,QUIS           # cerquis
+    Ç A V A              > -ÇAVA,CIS            # cacis
+    G A V A              > -GAVA,GUIS           # porguis
+    J A V A              > -JAVA,GIS            # vengis
+    [^CÇGJU] A V A       > -AVA,ES              # cantes
+    [^GQ] U A V A        > -AVA,ES              # sues
+    G U A V A            > -GUAVA,GÜES          # enaigües
+    Q U A V A            > -QUAVA,QÜES          # adeqües
+    C A V A              > -CAVA,QUES           # cerques
+    Ç A V A              > -ÇAVA,CES            # caces
+    G A V A              > -GAVA,GUES           # porgues 
+    J A V A              > -JAVA,GES            # venges
+    [^CÇGJIEOU] A V A    > -AVA,I               # 3. canti
+    [^AEIOU] [EIO] A V A > -AVA,Ï               # suï
+    [AEIOU] I A V A      > -IAVA,Ï              # desmaï
+    G U A V A            > -GUAVA,GÜI           # enaigüi
+    Q U A V A            > -QUAVA,QÜI           # adeqüi
+    [^GQ] U A V A        > -UAVA,UÏ             # evacuï
+    C A V A              > -CAVA,QUI            # cerqui
+    Ç A V A              > -ÇAVA,CI             # caci
+    G A V A              > -GAVA,GUI            # porgui
+    J A V A              > -JAVA,GI             # vengi
+    [^CÇGJU] A V A       > -AVA,E               # cante
+    [^GQ] U A V A        > -AVA,E               # sue
+    G U A V A            > -GUAVA,GÜE           # enaigüe
+    Q U A V A            > -QUAVA,QÜE           # adeqüe
+    C A V A              > -CAVA,QUE            # cerque 
+    Ç A V A              > -ÇAVA,CE             # cace 
+    G A V A              > -GAVA,GUE            # porgue 
+    J A V A              > -JAVA,GE             # venge 
+    [^CÇGJU] A V A       > -AVA,EM              # 4. cantem
+    [^GQ] U A V A        > -AVA,EM              # suem
+    G U A V A            > -GUAVA,GÜEM          # enaigüem
+    Q U A V A            > -QUAVA,QÜEM          # adeqüem
+    C A V A              > -CAVA,QUEM           # cerquem
+    Ç A V A              > -ÇAVA,CEM            # cacem
+    G A V A              > -GAVA,GUEM           # porguem
+    J A V A              > -JAVA,GEM            # vengem
+    [^CÇGJU] A V A       > -AVA,EU              # 5. canteu
+    [^GQ] U A V A        > -AVA,EU              # sueu
+    G U A V A            > -GUAVA,GÜEU          # enaigüeu
+    Q U A V A            > -QUAVA,QÜEU          # adeqüeu
+    C A V A              > -CAVA,QUEU           # cerqueu
+    Ç A V A              > -ÇAVA,CEU            # caceu
+    G A V A              > -GAVA,GUEU           # porgueu
+    J A V A              > -JAVA,GEU            # vengeu
+    [^CÇGJIEOU] A V A    > -AVA,IN              # 6. cantin
+    [^AEIOU] [EIO] A V A > -AVA,ÏN              # canviïn, suïn
+    [AEIOU] I A V A      > -IAVA,ÏN             # desmaïn
+    [GQ] U I A V A       > -AVA,ÏN              # esquiïn
+    [^GQ] U I A V A      > -IAVA,ÏN             # 
+    G U A V A            > -GUAVA,GÜIN          # enaigüin
+    Q U A V A            > -QUAVA,QÜIN          # adeqüin
+    [^GQ] U A V A        > -UAVA,UÏN            # evacuïn
+    C A V A              > -CAVA,QUIN           # cerquin
+    Ç A V A              > -ÇAVA,CIN            # cacin
+    G A V A              > -GAVA,GUIN           # porguin
+    J A V A              > -JAVA,GIN            # vengin
+    [^CÇGJU] A V A       > -AVA,EN              # cante
+    [^GQ] U A V A        > -AVA,EN              # sue
+    G U A V A            > -GUAVA,GÜEN          # enaigüen
+    Q U A V A            > -QUAVA,QÜEN          # adeqüen
+    C A V A              > -CAVA,QUEN           # cerquen
+    Ç A V A              > -ÇAVA,CEN            # cacen
+    G A V A              > -GAVA,GUEN           # porguen 
+    J A V A              > -JAVA,GEN            # vengen
+    [^CÇGJU] A V A       > -AVA,ÉS              # 1. cantés - subjuntiu imperfet <SIM>
+    [^GQ] U A V A        > -AVA,ÉS              # sués
+    G U A V A            > -GUAVA,GÜÉS          # enaigüés
+    Q U A V A            > -QUAVA,QÜÉS          # adeqüés
+    C A V A              > -CAVA,QUÉS           # cerqués
+    Ç A V A              > -ÇAVA,CÉS            # cacés
+    G A V A              > -GAVA,GUÉS           # porgués
+    J A V A              > -JAVA,GÉS            # vengés
+    A V A                > -AVA,ÀS              # cantàs
+    A V A                > -AVA,ARA             # cantara
+    [^CÇGJU] A V A       > -AVA,ESSIS           # 2. cantessis
+    [^CÇGJU] A V A       > -AVA,ESSES           # cantesses
+    A V A                > -AVA,ASSIS           # cantassis
+    A V A                > -AVA,ARES            # cantares
+    [^GQ] U A V A        > -AVA,ESSIS           # suessis
+    [^GQ] U A V A        > -AVA,ESSES           # suesses
+    G U A V A            > -GUAVA,GÜESSIS       # enaigüessis
+    Q U A V A            > -QUAVA,QÜESSIS       # adeqüessis
+    G U A V A            > -GUAVA,GÜESSES       # enaigüesses
+    Q U A V A            > -QUAVA,QÜESSES       # adeqüesses
+    C A V A              > -CAVA,QUESSIS        # cerquessis
+    C A V A              > -CAVA,QUESSES        # cerquesses
+    Ç A V A              > -ÇAVA,CESSIS         # cacessis
+    Ç A V A              > -ÇAVA,CESSES         # cacesses
+    G A V A              > -GAVA,GUESSIS        # porguessis
+    G A V A              > -GAVA,GUESSES        # porguesses
+    J A V A              > -JAVA,GESSIS         # vengessis
+    J A V A              > -JAVA,GESSES         # vengesses
+    [^CÇGJU] A V A       > -AVA,ÉS              # 3. cantés - subjuntiu imperfet <SIM>
+    [^GQ] U A V A        > -AVA,ÉS              # sués
+    G U A V A            > -GUAVA,GÜÉS          # enaigüés
+    Q U A V A            > -QUAVA,QÜÉS          # adeqüés
+    C A V A              > -CAVA,QUÉS           # cerqués
+    Ç A V A              > -ÇAVA,CÉS            # cacés
+    G A V A              > -GAVA,GUÉS           # porgués
+    J A V A              > -JAVA,GÉS            # vengés
+    A V A                > -AVA,ÀS              # cantàs
+    A V A                > -AVA,ARA             # cantara
+    [^CÇGJU] A V A       > -AVA,ÉSSIM           # 4. cantéssim
+    [^CÇGJU] A V A       > -AVA,ÉSSEM           # cantéssem
+    A V A                > -AVA,ÀSSIM           # cantàssim
+    A V A                > -AVA,ÀREM            # cantàrem
+    [^GQ] U A V A        > -AVA,ÉSSIM           # suéssim
+    [^GQ] U A V A        > -AVA,ÉSSEM           # suéssem
+    G U A V A            > -GUAVA,GÜÉSSIM       # enaigüéssim
+    Q U A V A            > -QUAVA,QÜÉSSIM       # adeqüéssim
+    G U A V A            > -GUAVA,GÜÉSSEM       # enaigüéssem
+    Q U A V A            > -QUAVA,QÜÉSSEM       # adeqüéssem
+    C A V A              > -CAVA,QUÉSSIM        # cerquéssim
+    C A V A              > -CAVA,QUÉSSEM        # cerquéssem
+    Ç A V A              > -ÇAVA,CÉSSIM         # cacéssim
+    Ç A V A              > -ÇAVA,CÉSSEM         # cacéssem
+    G A V A              > -GAVA,GUÉSSIM        # porguéssim
+    G A V A              > -GAVA,GUÉSSEM        # porguéssem
+    J A V A              > -JAVA,GÉSSIM         # vengéssim
+    J A V A              > -JAVA,GÉSSEM         # vengéssem
+    [^CÇGJU] A V A       > -AVA,ÉSSIU           # 5. cantéssiu
+    [^CÇGJU] A V A       > -AVA,ÉSSEU           # cantésseu
+    A V A                > -AVA,ÀSSIU           # cantàssiu
+    A V A                > -AVA,ÀREU            # cantàreu
+    [^GQ] U A V A        > -AVA,ÉSSIU           # suéssiu
+    [^GQ] U A V A        > -AVA,ÉSSEU           # suésseu
+    G U A V A            > -GUAVA,GÜÉSSIU       # enaigüéssiu
+    Q U A V A            > -QUAVA,QÜÉSSIU       # adeqüéssiu
+    G U A V A            > -GUAVA,GÜÉSSEU       # enaigüésseu
+    Q U A V A            > -QUAVA,QÜÉSSEU       # adeqüésseu
+    C A V A              > -CAVA,QUÉSSIU        # cerquéssiu
+    C A V A              > -CAVA,QUÉSSEU        # cerquésseu
+    Ç A V A              > -ÇAVA,CÉSSIU         # cacéssiu
+    Ç A V A              > -ÇAVA,CÉSSEU         # cacésseu
+    G A V A              > -GAVA,GUÉSSIU        # porguéssiu
+    G A V A              > -GAVA,GUÉSSEU        # porguésseu
+    J A V A              > -JAVA,GÉSSIU         # vengéssiu
+    J A V A              > -JAVA,GÉSSEU         # vengésseu
+    [^CÇGJU] A V A       > -AVA,ESSIN           # 6. cantessin
+    [^CÇGJU] A V A       > -AVA,ESSEN           # cantessen
+    A V A                > -AVA,ASSIN           # cantassin
+    A V A                > -AVA,AREN            # cantaren
+    [^GQ] U A V A        > -AVA,ESSIN           # suessin
+    [^GQ] U A V A        > -AVA,ESSEN           # suessen
+    G U A V A            > -GUAVA,GÜESSIN       # enaigüessin
+    Q U A V A            > -QUAVA,QÜESSIN       # adeqüessin
+    G U A V A            > -GUAVA,GÜESSEN       # enaigüessen
+    Q U A V A            > -QUAVA,QÜESSEN       # adeqüessen
+    C A V A              > -CAVA,QUESSIN        # cerquessin
+    C A V A              > -CAVA,QUESSEN        # cerquessen
+    Ç A V A              > -ÇAVA,CESSIN         # cacessin
+    Ç A V A              > -ÇAVA,CESSEN         # cacessen
+    G A V A              > -GAVA,GUESSIN        # porguessin
+    G A V A              > -GAVA,GUESSEN        # porguessen
+    J A V A              > -JAVA,GESSIN         # vengessin
+    J A V A              > -JAVA,GESSEN         # vengessen
+    A V A                > -AVA,A               # 2. canta - imperatiu <IMP>
+    [^CÇGJEIOU] A V A    > -AVA,I               # 3. canti
+    [^AEIOU] [EIO] A V A > -AVA,Ï               # canviï, suï
+    [AEIOU] I A V A      > -IAVA,Ï              # desmaï
+    [GQ] U I A V A       > -AVA,Ï               # esquiï
+    [^GQ] U I A V A      > -IAVA,Ï              # 
+    G U A V A            > -GUAVA,GÜI           # enaigüi
+    Q U A V A            > -QUAVA,QÜI           # adeqüi
+    [^GQ] U A V A        > -UAVA,UÏ             # evacuï
+    C A V A              > -CAVA,QUI            # cerqui
+    Ç A V A              > -ÇAVA,CI             # caci
+    G A V A              > -GAVA,GUI            # porgui
+    J A V A              > -JAVA,GI             # vengi
+    [^CÇGJU] A V A       > -AVA,E               # cante
+    [^GQ] U A V A        > -AVA,E               # sue
+    G U A V A            > -GUAVA,GÜE           # enaigüe
+    Q U A V A            > -QUAVA,QÜE           # adeqüe
+    C A V A              > -CAVA,QUE            # cerque 
+    Ç A V A              > -ÇAVA,CE             # cace 
+    G A V A              > -GAVA,GUE            # porgue 
+    J A V A              > -JAVA,GE             # venge 
+    [^CÇGJU] A V A       > -AVA,EM              # 4. cantem
+    [^GQ] U A V A        > -AVA,EM              # suem
+    G U A V A            > -GUAVA,GÜEM          # enaigüem
+    Q U A V A            > -QUAVA,QÜEM          # adeqüem
+    C A V A              > -CAVA,QUEM           # cerquem
+    Ç A V A              > -ÇAVA,CEM            # cacem
+    G A V A              > -GAVA,GUEM           # porguem
+    J A V A              > -JAVA,GEM            # vengem
+    [^CÇGJU] A V A       > -AVA,EU              # 5. canteu
+    [^GQ] U A V A        > -AVA,EU              # sueu
+    G U A V A            > -GUAVA,GÜEU          # enaigüeu
+    Q U A V A            > -QUAVA,QÜEU          # adeqüeu
+    C A V A              > -CAVA,QUEU           # cerqueu
+    Ç A V A              > -ÇAVA,CEU            # caceu
+    G A V A              > -GAVA,GUEU           # porgueu
+    J A V A              > -JAVA,GEU            # vengeu
+    A V A                > -AVA,AU              # cantau
+    [^CÇGJEIOU] A V A    > -AVA,IN              # 6. cantin
+    [^AEIOU] [EIO] A V A > -AVA,ÏN              # canviïn, suïn
+    [AEIOU] I A V A      > -IAVA,ÏN             # desmaïn
+    [GQ] U I A V A       > -AVA,ÏN              # esquiïn
+    [^GQ] U I A V A      > -IAVA,ÏN             # 
+    G U A V A            > -GUAVA,GÜIN          # enaigüin
+    Q U A V A            > -QUAVA,QÜIN          # adeqüin
+    [^GQ] U A V A        > -UAVA,UÏN            # evacuïn
+    C A V A              > -CAVA,QUIN           # cerquin
+    Ç A V A              > -ÇAVA,CIN            # cacin
+    G A V A              > -GAVA,GUIN           # porguin
+    J A V A              > -JAVA,GIN            # vengin
+    [^CÇGJU] A V A       > -AVA,EN              # canten
+    [^GQ] U A V A        > -AVA,EN              # suen
+    G U A V A            > -GUAVA,GÜEN          # enaigüen
+    Q U A V A            > -QUAVA,QÜEN          # adeqüen
+    C A V A              > -CAVA,QUEN           # cerquen
+    Ç A V A              > -ÇAVA,CEN            # cacen
+    G A V A              > -GAVA,GUEN           # porguen 
+    J A V A              > -JAVA,GEN            # vengen
+
+flag *M:    # Verbs en -ir, formes comunes als grups III, IV i V
+    [^AEIOU] I R É       > -IRÉ,IM              # 4. patim       <IPR>
+    [GQ] U I R É         > -IRÉ,IM              # seguim
+    [^GQ] U I R É        > -IRÉ,ÏM              # induïm
+    [AEIO] I R É         > -IRÉ,ÏM              # traïm
+    [^AEIOU] I R É       > -IRÉ,IU              # 5. patiu
+    [GQ] U I R É         > -IRÉ,IU              # seguiu
+    [^GQ] U I R É        > -IRÉ,ÏU              # induïu
+    [AEIO] I R É         > -IRÉ,ÏU              # traïu
+    [^AEIOU] I R É       > -IRÉ,IA              # 1. patia       <IIM>
+    [GQ] U I R É         > -IRÉ,IA              # seguia
+    [^GQ] U I R É        > -IRÉ,ÏA              # induïa
+    [AEIO] I R É         > -IRÉ,ÏA              # traïa
+    [^AEIOU] I R É       > -IRÉ,IES             # 2. paties
+    [GQ] U I R É         > -IRÉ,IES             # seguies
+    [^GQ] U I R É        > -IRÉ,ÏES             # induïes
+    [AEIO] I R É         > -IRÉ,ÏES             # traïes
+    [^AEIOU] I R É       > -IRÉ,IA              # 3. patia
+    [GQ] U I R É         > -IRÉ,IA              # seguia
+    [^GQ] U I R É        > -IRÉ,ÏA              # induïa
+    [AEIO] I R É         > -IRÉ,ÏA              # traïa
+    I R É                > -IRÉ,ÍEM             # 4. patíem, traíem
+    I R É                > -IRÉ,ÍEU             # 5. patíeu, traíeu
+    [^AEIOU] I R É       > -IRÉ,IEN             # 6. patien
+    [GQ] U I R É         > -IRÉ,IEN             # seguien
+    [^GQ] U I R É        > -IRÉ,ÏEN             # induïen
+    [AEIO] I R É         > -IRÉ,ÏEN             # traïen
+    I R É                > -IRÉ,Í               # 1. patí        <IPE>
+    [^AEIOU] I R É       > -IRÉ,IRES            # 2. patires
+    [GQ] U I R É         > -IRÉ,IRES            # seguires
+    [^GQ] U I R É        > -IRÉ,ÏRES            # induïres
+    [AEIO] I R É         > -IRÉ,ÏRES            # traïres
+    I R É                > -IRÉ,Í               # 3. patí
+    I R É                > -IRÉ,ÍREM            # 4. patírem, traírem
+    I R É                > -IRÉ,ÍREU            # 5. patíreu, traíreu
+    [^AEIOU] I R É       > -IRÉ,IREN            # 6. patiren
+    [GQ] U I R É         > -IRÉ,IREN            # seguiren
+    [^GQ] U I R É        > -IRÉ,ÏREN            # induïren
+    [AEIO] I R É         > -IRÉ,ÏREN            # traïren
+    I R É                > -IRÉ,IRÉ             # 1. patiré, trairé <FUT>
+    I R É                > -IRÉ,IRÀS            # 2. patiràs, trairàs
+    I R É                > -IRÉ,IRÀ             # 3. patirà, trairà
+    I R É                > -IRÉ,IREM            # 4. patirem, trairem
+    I R É                > -IRÉ,IREU            # 5. patireu, traireu
+    I R É                > -IRÉ,IRAN            # 6. patiran, trairan
+    I R É                > -IRÉ,IRIA            # 1. patiria, trairia <CON>
+    I R É                > -IRÉ,IRIES           # 2. patiries, trairies
+    I R É                > -IRÉ,IRIA            # 3. patiria, trairia
+    I R É                > -IRÉ,IRÍEM           # 4. patiríem, trairíem
+    I R É                > -IRÉ,IRÍEU           # 5. patiríeu, trairíeu
+    I R É                > -IRÉ,IRIEN           # 6. patirien, trairien
+    [^AEIOU] I R É       > -IRÉ,IM              # 4. patim       <SPR>
+    [GQ] U I R É         > -IRÉ,IM              # seguim
+    [^GQ] U I R É        > -IRÉ,ÏM              # induïm
+    [AEIO] I R É         > -IRÉ,ÏM              # traïm
+    [^AEIOU] I R É       > -IRÉ,IU              # 5. patiu
+    [GQ] U I R É         > -IRÉ,IU              # seguiu
+    [^GQ] U I R É        > -IRÉ,ÏU              # induïu
+    [AEIO] I R É         > -IRÉ,ÏU              # traïu
+    I R É                > -IRÉ,ÍS              # 1. patís       <SIM>
+    [^AEIOU] I R É       > -IRÉ,IRA             # patira
+    [GQ] U I R É         > -IRÉ,IRA             # seguira
+    [^GQ] U I R É        > -IRÉ,ÏRA             # induïra
+    [AEIO] I R É         > -IRÉ,ÏRA             # traïra
+    [^AEIOU] I R É       > -IRÉ,ISSIS           # 2. patissis
+    [GQ] U I R É         > -IRÉ,ISSIS           # seguissis
+    [^GQ] U I R É        > -IRÉ,ÏSSIS           # induïssis
+    [AEIO] I R É         > -IRÉ,ÏSSIS           # traïssis
+    [^AEIOU] I R É       > -IRÉ,ISSES           # patisses
+    [GQ] U I R É         > -IRÉ,ISSES           # seguisses
+    [^GQ] U I R É        > -IRÉ,ÏSSES           # induïsses
+    [AEIO] I R É         > -IRÉ,ÏSSES           # traïsses
+    [^AEIOU] I R É       > -IRÉ,IRES            # patires
+    [GQ] U I R É         > -IRÉ,IRES            # seguires
+    [^GQ] U I R É        > -IRÉ,ÏRES            # induïres
+    [AEIO] I R É         > -IRÉ,ÏRES            # traïres
+    I R É                > -IRÉ,ÍS              # 3. patís
+    [^AEIOU] I R É       > -IRÉ,IRA             # patira
+    [GQ] U I R É         > -IRÉ,IRA             # seguira
+    [^GQ] U I R É        > -IRÉ,ÏRA             # induïra
+    [AEIO] I R É         > -IRÉ,ÏRA             # traïra
+    I R É                > -IRÉ,ÍSSIM           # 4. patíssim
+    I R É                > -IRÉ,ÍSSEM           # patíssem
+    I R É                > -IRÉ,ÍREM            # patírem
+    I R É                > -IRÉ,ÍSSIU           # 5. patíssiu
+    I R É                > -IRÉ,ÍSSEU           # patísseu
+    I R É                > -IRÉ,ÍREU            # patíreu
+    [^AEIOU] I R É       > -IRÉ,ISSIN           # 6. patissin
+    [GQ] U I R É         > -IRÉ,ISSIN           # seguissin
+    [^GQ] U I R É        > -IRÉ,ÏSSIN           # induïssin
+    [AEIO] I R É         > -IRÉ,ÏSSIN           # traïssin
+    [^AEIOU] I R É       > -IRÉ,ISSEN           # patissen
+    [GQ] U I R É         > -IRÉ,ISSEN           # seguissen
+    [^GQ] U I R É        > -IRÉ,ÏSSEN           # induïssen
+    [AEIO] I R É         > -IRÉ,ÏSSEN           # traïssen
+    [^AEIOU] I R É       > -IRÉ,IREN            # patiren
+    [GQ] U I R É         > -IRÉ,IREN            # seguiren
+    [^GQ] U I R É        > -IRÉ,ÏREN            # induïren
+    [AEIO] I R É         > -IRÉ,ÏREN            # traïren
+    [^AEIOU] I R É       > -IRÉ,IM              # 4. patim       <IMP>
+    [GQ] U I R É         > -IRÉ,IM              # seguim
+    [^GQ] U I R É        > -IRÉ,ÏM              # induïm
+    [AEIO] I R É         > -IRÉ,ÏM              # traïm
+    [^AEIOU] I R É       > -IRÉ,IU              # 5. patiu
+    [GQ] U I R É         > -IRÉ,IU              # seguiu
+    [^GQ] U I R É        > -IRÉ,ÏU              # induïu
+    [AEIO] I R É         > -IRÉ,ÏU              # traïu
+
+flag *N:    # Verbs en -ir, formes incoatives
+    I R É                > -IRÉ,EIXO            # 1. pateixo <IPR>
+    I R É                > -IRÉ,ESC             # patesc
+    [^AEIOU] I R É       > -IRÉ,ISC             # patisc
+    [GQ] U I R É         > -IRÉ,ISC             # seguisc
+    [^GQ] U I R É        > -IRÉ,ÏSC             # induïsc
+    [AEIO] I R É         > -IRÉ,ÏSC             # traïsc
+    I R É                > -IRÉ,EIXES           # 2. pateixes
+    [^AEIOU] I R É       > -IRÉ,IXES            # patixes
+    [GQ] U I R É         > -IRÉ,IXES            # seguixes
+    [^GQ] U I R É        > -IRÉ,ÏXES            # induïxes
+    [AEIO] I R É         > -IRÉ,ÏXES            # traïxes
+    I R É                > -IRÉ,EIX             # 3. pateix
+    [^AEIOU] I R É       > -IRÉ,IX              # patix  
+    [GQ] U I R É         > -IRÉ,IX              # seguix  
+    [^GQ] U I R É        > -IRÉ,ÏX              # induïx  
+    [AEIO] I R É         > -IRÉ,ÏX              # traïx  
+    I R É                > -IRÉ,EIXEN           # 6. pateixen  
+    [^AEIOU] I R É       > -IRÉ,IXEN            # patixen
+    [GQ] U I R É         > -IRÉ,IXEN            # seguixen
+    [^GQ] U I R É        > -IRÉ,ÏXEN            # induïxen
+    [AEIO] I R É         > -IRÉ,ÏXEN            # traïxen
+    I R É                > -IRÉ,EIXI            # 1. pateixi <SPR>
+    I R É                > -IRÉ,ESQUI           # patesqui
+    [^AEIOU] I R É       > -IRÉ,ISCA            # patisca
+    [GQ] U I R É         > -IRÉ,ISCA            # seguisca
+    [^GQ] U I R É        > -IRÉ,ÏSCA            # induïsca
+    [AEIO] I R É         > -IRÉ,ÏSCA            # traïsca
+    I R É                > -IRÉ,EIXIS           # 2. pateixis
+    I R É                > -IRÉ,ESQUIS          # patesquis
+    [^AEIOU] I R É       > -IRÉ,ISQUES          # patisques
+    [GQ] U I R É         > -IRÉ,ISQUES          # seguisques
+    [^GQ] U I R É        > -IRÉ,ÏSQUES          # induïsques
+    [AEIO] I R É         > -IRÉ,ÏSQUES          # traïsques
+    I R É                > -IRÉ,EIXI            # 3. pateixi
+    I R É                > -IRÉ,ESQUI           # patesqui
+    [^AEIOU] I R É       > -IRÉ,ISCA            # patisca
+    [GQ] U I R É         > -IRÉ,ISCA            # seguisca
+    [^GQ] U I R É        > -IRÉ,ÏSCA            # induïsca
+    [AEIO] I R É         > -IRÉ,ÏSCA            # traïsca
+    I R É                > -IRÉ,EIXIN           # 6. pateixin  
+    I R É                > -IRÉ,ESQUIN          # patesquin 
+    [^AEIOU] I R É       > -IRÉ,ISQUEN          # patisquen
+    [GQ] U I R É         > -IRÉ,ISQUEN          # seguisquen
+    [^GQ] U I R É        > -IRÉ,ÏSQUEN          # induïsquen
+    [AEIO] I R É         > -IRÉ,ÏSQUEN          # traïsquen
+    I R É                > -IRÉ,EIX             # 2. pateix  <IMP>
+    [^AEIOU] I R É       > -IRÉ,IX              # patix  
+    [GQ] U I R É         > -IRÉ,IX              # seguix  
+    [^GQ] U I R É        > -IRÉ,ÏX              # induïx  
+    [AEIO] I R É         > -IRÉ,ÏX              # traïx  
+    I R É                > -IRÉ,EIXI            # 3. pateixi
+    I R É                > -IRÉ,ESQUI           # patesqui
+    [^AEIOU] I R É       > -IRÉ,ISCA            # patisca
+    [GQ] U I R É         > -IRÉ,ISCA            # seguisca
+    [^GQ] U I R É        > -IRÉ,ÏSCA            # induïsca
+    [AEIO] I R É         > -IRÉ,ÏSCA            # traïsca
+    I R É                > -IRÉ,EIXIN           # 6. pateixin  
+    I R É                > -IRÉ,ESQUIN          # patesquin 
+    [^AEIOU] I R É       > -IRÉ,ISQUEN          # patisquen
+    [GQ] U I R É         > -IRÉ,ISQUEN          # seguisquen
+    [^GQ] U I R É        > -IRÉ,ÏSQUEN          # induïsquen
+    [AEIO] I R É         > -IRÉ,ÏSQUEN          # traïsquen
+
+flag *O:    # Imperfet d'indicatiu de la segona conjugació
+    A                    > -A,ES                # 2. perdies, cloïes    <IIM>
+    A                    > -A,A                 # 3. perdia, cloïa
+    [^EU] I A            > -IA,ÍEM              # 4. perdíem
+    Ï A                  > -ÏA,ÍEM              # cloíem
+    E I A                > -EIA,ÈIEM            # dèiem (*** sempre è? ***)
+    U I A                > -UIA,ÚIEM            # dúiem
+    [^EU] I A            > -IA,ÍEU              # 5. perdíeu
+    Ï A                  > -ÏA,ÍEU              # cloíeu
+    E I A                > -EIA,ÈIEU            # dèieu (*** sempre è? ***)
+    U I A                > -UIA,ÚIEU            # dúieu
+    A                    > -A,EN                # 6. perdien, cloïen
+
+flag *P:    # Formes de la segona conjugació semblants a SIM1 sense -c/-gu (perdés)
+    [^C] É S             > -ÉS,O                # 1. perdo, temo        <IPR>
+    C É S                > -CÉS,ÇO              # torço
+    .                    > -ÉS,Í                # 1. perdí, temí        <IPE>
+    .                    > -ÉS,ERES             # 2. perderes, temeres
+    .                    > -ÉS,É                # 3. perdé, temé
+    .                    > -ÉS,ÉREM             # 4. perdérem, temérem
+    .                    > -ÉS,ÉREU             # 5. perdéreu, teméreu
+    .                    > -ÉS,EREN             # 6. perderen, temeren
+    .                    > -ÉS,I                # 1. perdi, temi        <SPR>
+    [^CGU] É S           > -ÉS,A                # perda, tema
+    C É S                > -CÉS,ÇA              # torça
+    G É S                > -GÉS,JA              # veja
+    .                    > -ÉS,IS               # 2. perdis, temis
+    .                    > -ÉS,ES               # perdes, temes
+    .                    > -ÉS,I                # 3. perdi, temi
+    [^CGU] É S           > -ÉS,A                # perda, tema
+    C É S                > -CÉS,ÇA              # torça
+    G É S                > -GÉS,JA              # veja
+    .                    > -ÉS,EM               # 4. perdem, temem
+    .                    > -ÉS,EU               # 5. perdeu, temeu
+    .                    > -ÉS,IN               # 6. perdin, temin
+    .                    > -ÉS,EN               # perden, temen
+    .                    > -ÉS,ÉS               # 1. perdés, temés      <SIM>
+    .                    > -ÉS,ERA              # perdera
+    .                    > -ÉS,ESSIS            # 2. perdessis, temessis
+    .                    > -ÉS,ERES             # perderes
+    .                    > -ÉS,ESSES            # perdesses, temesses
+    .                    > -ÉS,ÉS               # 3. perdés, temés
+    .                    > -ÉS,ERA              # perdera
+    .                    > -ÉS,ÉSSIM            # 4. perdéssim, teméssim
+    .                    > -ÉS,ÉSSEM            # perdéssem, teméssem
+    .                    > -ÉS,ÉREM             # perdérem
+    .                    > -ÉS,ÉSSIU            # 5. perdéssiu, teméssiu
+    .                    > -ÉS,ÉSSEU            # perdésseu, temésseu
+    .                    > -ÉS,ÉREU             # perdéreu
+    .                    > -ÉS,ESSIN            # 6. perdessin, temessin
+    .                    > -ÉS,ESSEN            # perdessen, temessen
+    .                    > -ÉS,EREN             # perderen
+    .                    > -ÉS,I                # 3. perdi, temi        <IMP>
+    [^CGU] É S           > -ÉS,A                # perda, tema
+    C É S                > -CÉS,ÇA              # torça
+    G É S                > -GÉS,JA              # veja
+    .                    > -ÉS,EM               # 4. perdem, temem
+    .                    > -ÉS,EU               # 5. perdeu, temeu
+    .                    > -ÉS,IN               # 6. perdin, temin
+    .                    > -ÉS,EN               # perden, temen
+
+flag *Q:    # Formes de la segona conjugació semblants a SIM1 amb -c/-gu (conegués)
+    G U É S              > -GUÉS,C              # 1. conec              <IPR>
+    Q U É S              > -QUÉS,C              # visc
+    .                    > -ÉS,Í                # 1. coneguí            <IPE>
+    .                    > -ÉS,ERES             # 2. conegueres
+    .                    > -ÉS,É                # 3. conegué
+    .                    > -ÉS,ÉREM             # 4. coneguérem
+    .                    > -ÉS,ÉREU             # 5. coneguéreu
+    .                    > -ÉS,EREN             # 6. conegueren
+    .                    > -ÉS,I                # 1. conegui            <SPR>
+    G U É S              > -GUÉS,GA             # conega
+    Q U É S              > -QUÉS,CA             # visca
+    .                    > -ÉS,IS               # 2. coneguis
+    .                    > -ÉS,ES               # conegues
+    .                    > -ÉS,I                # 3. conegui
+    G U É S              > -GUÉS,GA             # conega
+    Q U É S              > -QUÉS,CA             # visca
+    .                    > -ÉS,EM               # 4. coneguem
+    .                    > -ÉS,EU               # 5. conegueu
+    .                    > -ÉS,IN               # 6. coneguin
+    .                    > -ÉS,EN               # coneguen
+    .                    > -ÉS,ÉS               # 1. conegués           <SIM> 
+    .                    > -ÉS,ERA              # beguera
+    .                    > -ÉS,ESSIS            # 2. coneguessis             
+    .                    > -ÉS,ESSES            # coneguesses
+    .                    > -ÉS,ERES             # begueres
+    .                    > -ÉS,ÉS               # 3. conegués
+    .                    > -ÉS,ERA              # beguera
+    .                    > -ÉS,ÉSSIM            # 4. coneguéssim
+    .                    > -ÉS,ÉSSEM            # coneguéssem
+    .                    > -ÉS,ÉREM             # beguérem
+    .                    > -ÉS,ÉSSIU            # 5. coneguéssiu
+    .                    > -ÉS,ÉSSEU            # coneguésseu
+    .                    > -ÉS,ÉREU             # beguéreu
+    .                    > -ÉS,ESSIN            # 6. coneguessin
+    .                    > -ÉS,ESSEN            # coneguessen
+    .                    > -ÉS,EREN             # begueren
+    .                    > -ÉS,I                # 3. conegui            <IMP>
+    G U É S              > -GUÉS,GA             # conega
+    Q U É S              > -QUÉS,CA             # visca
+    .                    > -ÉS,EM               # 4. coneguem
+    .                    > -ÉS,IN               # 6. coneguin
+    .                    > -ÉS,EN               # coneguen
+
+flag *R:    # Formes de la segona conjugació semblants al gerundi
+    E N T                > -ENT,EM              # 4. perdem, temem      <IPR>
+    I N T                > -INT,IM              # vivim
+    E N T                > -ENT,EU              # 5. perdeu, temeu
+    I N T                > -INT,IU              # viviu
+    E N T                > -ENT,EU              # 5. perdeu, temeu      <IMP>
+    I N T                > -INT,IU              # viviu
+
+flag *S:    # Formes de la segona conjugació semblants a "plaus", "absols", etc.
+    [^NÇX]               > S                    # 2. plaus, absols      <IPR>
+    Ç                    > -Ç,CES               # torces
+    X                    > ES                   # torces
+    [^ÈÉ] N              > S                    # prens
+    È N                  > -ÈN,ENS              # aprens
+    É N                  > -ÉN,ENS              # entens
+    [^NÇ]                > EN                   # 6. plauen, absolen    <IPR>
+    Ç                    > -Ç,CEN               # torcen
+    [^ÈÉ] N              > EN                   # prenen
+    È N                  > -ÈN,ENEN             # aprenen
+    É N                  > -ÉN,ENEN             # entenen
+
+flag *T:    # Futurs i condicionals a partir de FUT1
+    .                    > -É,ÀS                # 2. perdràs, temeràs <FUT>
+    .                    > -É,À                 # 3. perdrà, temerà
+    .                    > -É,EM                # 4. perdrem, temerem
+    .                    > -É,EU                # 5. perdreu, temereu
+    .                    > -É,AN                # 6. perdran, temeran
+    .                    > -É,IA                # 1. perdria, temeria <CON>
+    .                    > -É,IES               # 2. perdries, temeries
+    .                    > -É,IA                # 3. perdria, temeria
+    .                    > -É,ÍEM               # 4. perdríem, temeríem
+    .                    > -É,ÍEU               # 5. perdríeu, temeríeu
+    .                    > -É,IEN               # 6. perdrien, temerien
+
+flag *U:    # Formes pures dels verbs en -ir, a partir d'IPR3 (p.e. sent)
+    .                    > O                    # 1. sento <IPR>
+    [^SX]                > S                    # 2. sents
+    [SX]                 > ES                   # cuses, cruixes
+    .                    > EN                   # 6. senten
+    .                    > I                    # 1. senti <SPR>
+    .                    > A                    # senta
+    .                    > IS                   # 2. sentis
+    .                    > ES                   # sentes
+    .                    > I                    # 3. senti
+    .                    > A                    # senta
+    .                    > IN                   # 6. sentin
+    .                    > EN                   # senten
+    .                    > I                    # 3. senti  <IMP>
+    .                    > A                    # sents
+    .                    > IN                   # 6. sentin
+    .                    > EN                   # senten
+
+

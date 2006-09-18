@@ -7,8 +7,8 @@ perl scripts\genera_aff.pl
 if ERRORLEVEL 2 goto FINAL
 
 rem Totes les formes
-REM ~ perl scripts\genera_dic.pl -dic=resultats/catalan -aff=resultats/catalan
-REM ~ if ERRORLEVEL 2 goto FINAL
+perl scripts\genera_dic.pl -dic=resultats/catalan -aff=resultats/catalan
+if ERRORLEVEL 2 goto FINAL
 perl scripts\gen_ispell.pl -nom=resultats/catalan
 if ERRORLEVEL 2 goto FINAL
 
