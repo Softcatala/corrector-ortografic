@@ -374,6 +374,21 @@ flag *D:    # Pronoms personals enclítics darrere vocal
     .                    > \-LA\-HI             # posa-la-hi
     .                    > \-LES\-HI            # posa-les-hi
     .                    > \-N'HI               # posa-n'hi
+    .                    > \-LI'L               # posa-li'l
+    .                    > \-LI'LS              # posa-li'ls
+    .                    > \-LI\-LA             # posa-li-la
+    .                    > \-LI\-LES            # posa-li-les
+    .                    > \-SE\-VOS            # posa-se-vos 
+    .                    > \-VOS\-EM            # posa-vos-em 
+    .                    > \-VOS\-ENS           # posa-vos-ens
+    .                    > \-VOS\-EL            # posa-vos-el 
+    .                    > \-VOS\-ELS           # posa-vos-els
+    .                    > \-VOS\-LA            # posa-vos-la 
+    .                    > \-VOS\-LES           # posa-vos-les
+    .                    > \-VOS\-LI            # posa-vos-li 
+    .                    > \-VOS\-HO            # posa-vos-ho 
+    .                    > \-VOS\-EN            # posa-vos-en 
+    .                    > \-VOS\-HI            # posa-vos-hi 
 
 flag *E:    # Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
     [^AS]                > S                    # homes

@@ -71,7 +71,8 @@
 #     101: Accepta "complit", etc.
 #     102: Accepta "duim", "feim", etc.
 #     103: Accepta "tenc" i "vénc"
-# grups: 000 001 002 003 004 005 006 007 008 009 010 011 013 101 102 103 !999
+#     200: Accepta "posa-se-vos", "posa-vos-em", etc.
+# grups: 000 001 002 003 004 005 006 007 008 009 010 011 013 101 102 103 200 !999
 
 SET ISO8859-1
 
@@ -208,7 +209,7 @@ SFX C   0      -les-hi     .                # posar-les-hi
 SFX C   0      -n'hi       .                # posar-n'hi
 
 # Pronoms personals enclítics darrere vocal
-SFX D Y 81
+SFX D Y 96
 SFX D   0      'm          .                # posa'm
 SFX D   0      'ns         .                # posa'ns
 SFX D   0      't          .                # posa't
@@ -290,6 +291,21 @@ SFX D   0      'ls-hi      .                # posa'ls-hi
 SFX D   0      -la-hi      .                # posa-la-hi
 SFX D   0      -les-hi     .                # posa-les-hi
 SFX D   0      -n'hi       .                # posa-n'hi
+SFX D   0      -li'l       .                # posa-li'l
+SFX D   0      -li'ls      .                # posa-li'ls
+SFX D   0      -li-la      .                # posa-li-la
+SFX D   0      -li-les     .                # posa-li-les
+SFX D   0      -se-vos     .                # posa-se-vos 
+SFX D   0      -vos-em     .                # posa-vos-em 
+SFX D   0      -vos-ens    .                # posa-vos-ens
+SFX D   0      -vos-el     .                # posa-vos-el 
+SFX D   0      -vos-els    .                # posa-vos-els
+SFX D   0      -vos-la     .                # posa-vos-la 
+SFX D   0      -vos-les    .                # posa-vos-les
+SFX D   0      -vos-li     .                # posa-vos-li 
+SFX D   0      -vos-ho     .                # posa-vos-ho 
+SFX D   0      -vos-en     .                # posa-vos-en 
+SFX D   0      -vos-hi     .                # posa-vos-hi 
 
 # Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
 SFX E Y 10

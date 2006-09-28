@@ -52,6 +52,7 @@ GRUPS
 101 Accepta "complit", etc.
 102 Accepta "duim", "feim", etc.
 103 Accepta "tenc" i "vénc"
+200 Accepta "posa-se-vos", "posa-vos-em", etc.
 999 Regles que no s'han d'incloure al fitxer d'afixos
 /GRUPS
 
@@ -244,6 +245,21 @@ REGLA D SFX+ Pronoms personals enclítics darrere vocal
 000     0      -la-hi      .                # posa-la-hi
 000     0      -les-hi     .                # posa-les-hi
 000     0      -n'hi       .                # posa-n'hi
+000     0      -li'l       .                # posa-li'l
+000     0      -li'ls      .                # posa-li'ls
+000     0      -li-la      .                # posa-li-la
+000     0      -li-les     .                # posa-li-les
+200     0      -se-vos     .                # posa-se-vos 
+200     0      -vos-em     .                # posa-vos-em 
+200     0      -vos-ens    .                # posa-vos-ens
+200     0      -vos-el     .                # posa-vos-el 
+200     0      -vos-els    .                # posa-vos-els
+200     0      -vos-la     .                # posa-vos-la 
+200     0      -vos-les    .                # posa-vos-les
+200     0      -vos-li     .                # posa-vos-li 
+200     0      -vos-ho     .                # posa-vos-ho 
+200     0      -vos-en     .                # posa-vos-en 
+200     0      -vos-hi     .                # posa-vos-hi 
 /REGLA
 
 // ==========================================================================

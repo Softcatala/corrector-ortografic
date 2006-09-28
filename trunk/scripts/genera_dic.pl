@@ -1020,6 +1020,7 @@ sub generaDic
 		push @items, qw/vagi vagis vagi vàgim vàgiu vagin vaig vas vares va vam vàrem vau vàreu van varen/;
 		# Afegeix els pronoms personals
 		push @items, qw/em en es et hi ho la la'n l'en les l'hi li li'n me me'l me'ls me'n m'hi m'ho ne n'hi nos se se'l se'ls se'm se'n se'ns se't s'hi s'ho te te'l te'ls te'm te'n te'ns t'hi t'ho us vos/;
+		push @items, qw/li'l li'ls/;		# més formes valencianes
 		# afegeix els nombres
 		push @items, &llistaNombres;
 		# afegeix els noms propis de persona i els llinatges

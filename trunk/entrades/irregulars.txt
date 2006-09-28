@@ -2815,7 +2815,6 @@ zingiberàcies: NOVACAT=f. & ALT=zingiberàcia
 zoantaris: NOVACAT=m. & ALT=zoantari
 
 //======== Casos diversos   ========
-peso [LL][cast.]: ALT=peso
 empuat -ada: NOVACAT=adj.
 esbulladís -issa: NOVACAT=adj.
 deceptiu -iva: NOVACAT=adj.
