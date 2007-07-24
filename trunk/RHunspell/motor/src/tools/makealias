@@ -1,0 +1,92 @@
+#!/bin/sh
+# makealias: make alias compressed dic and aff files
+# Usage: alias.sh dic aff (not alias.sh aff dic!)
+
+case $# in
+0|1) 
+echo 'makealias: make alias compressed dic and aff files
+Usage: makealias file.dic file.aff (not makefile file.aff file.dic!)' >/dev/stderr
+exit;;
+esac
+
+DIC=`basename $1 .dic`
+AFF=`basename $2 .aff`
+
+# FLAG type definition must be before alias definitions
+grep '^FLAG' $2 >"${AFF}_alias.aff"
+
+awk 'BEGIN{n=1;m=1}
+function cutslash(st) {
+    if (split($1,t,"/") > 1) return t[1]
+    return st
+}
+
+FILENAME ~ /.dic$/ && /^[^	]*\/[^	]/ {
+    split($1,t,"/")
+    if(!a[t[2]]){
+        a[t[2]]=n
+        b[n]=t[2]
+        n++
+    }
+    if(($0 ~ /\t.*[^\t ]/) && $2 && !a2[$2]){
+        a2[$2]=m
+        c[m]=$2
+        m++
+    }
+    print t[1]"/"a[t[2]] ($2 ? "\t" a2[$2] : "")
+    next
+}
+FILENAME ~ /.dic$/ && $2 {
+    if(($0 ~ /\t.*[^\t ]/) && $2 && !a2[$2]){
+        a2[$2]=m
+        c[m]=$2
+        m++
+    }
+    print cutslash($1) "\t" a2[$2]
+    next
+}
+FILENAME ~ /.dic$/ { print cutslash($1) }
+FILENAME ~ /.aff$/ && /^[PS]FX/ && ($4 ~ /\/[^	 ]/) {
+    split($4,t,"/")
+    if(!a[t[2]]){
+        a[t[2]]=n
+        b[n]=t[2]
+        n++
+    }
+    if($6 && !a2[$6]){
+        a2[$6]=m
+        c[m]=$6
+        m++
+    }
+    print $1,$2,$3,t[1]"/"a[t[2]],$5 ($6 ? " " a2[$6] : "") >>"/dev/stderr"
+    next
+}
+FILENAME ~ /.aff$/ && /^[PS]FX/ && $6 {
+    if($6 && !a2[$6]){
+        a2[$6]=m
+        c[m]=$6
+        m++
+    }
+    # deprecated syntax
+    if($7 && !a[$7]){
+        a[$7]=n
+        b[n]=$7
+        n++
+    }
+    print $1,$2,$3,cutslash($4),$5, ($6 ? " " a2[$6] : "") ($7 ? " " a[$7] : "") >>"/dev/stderr"
+    next
+}
+FILENAME ~ /.aff$/ { print $0 >>"/dev/stderr" }
+END{
+    if (n>1) {
+        print "AF", n-1 >>"'${AFF}_alias.aff'"
+        for(i=1;i<n;i++) print "AF",b[i],"#",i >>"'${AFF}_alias.aff'"
+    }
+    if (m>1) {
+        print "AM", m-1 >>"'${AFF}_alias.aff'"
+        for(i=1;i<m;i++) print "AM",c[i],"#",i >>"'${AFF}_alias.aff'"
+    }
+}' $1 $2 >${DIC}_alias.dic 2>${AFF}_alias.$$
+grep -v '^FLAG' ${AFF}_alias.$$ >>${AFF}_alias.aff
+echo "output: ${DIC}_alias.dic, ${AFF}_alias.aff"
+rm ${AFF}_alias.$$

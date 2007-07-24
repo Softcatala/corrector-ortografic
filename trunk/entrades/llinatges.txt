@@ -1,3 +1,5 @@
+// Llinatges diversos
+
 Abada
 Abadal
 Abadals
@@ -7107,3 +7109,30 @@ Xumet
 Zacaries
 Zamit
 Zamora
+
+Estelrich
+Blanch
+Puigserver
+
+// Llinatges agafats d'en Labastida
+
+Aribau
+Azcona
+Azorín
+Bach
+Beethoven
+Carbonell
+González
+Gómez
+Hernández
+Ibáñez
+Lafuente
+López
+Martínez
+Masdéu
+Menéndez
+Muñoz
+Ramírez
+Rodríguez
+Sánchez
+Álvarez

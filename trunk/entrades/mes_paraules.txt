@@ -55,3 +55,8 @@ ent=confidencialitat^cat1=f.
 ent=organitzacional^cat1=adj.
 ent=adaptatiu -iva^cat1=adj.
 ent=desenvolupador -ora^cat1=adj.
+
+// Paraules agafades del wiki, 19.07.07
+ent=equilibradament^cat1=adv.
+ent=bàsicament^cat1=adv.
+ent=lliurepensador -a^cat1=adj.^cat2=adj. i m. i f.

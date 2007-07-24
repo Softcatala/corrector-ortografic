@@ -1,0 +1,2452 @@
+// Entrades noves del DIEC2
+
+ent=alcaduf^cat1=m.
+ent=badoc1^cat1=m.
+ent=carrota^cat1=f.
+ent=compostatge^cat1=m.
+ent=conreadís -issa^cat1=adj.
+ent=cultivar1^cat1=f.
+ent=erinosi^cat1=f.
+ent=eriòfids^cat1=m. pl.
+ent=espinalb^cat1=m.
+ent=estrelitziàcies^cat1=f. pl.
+ent=frèsia^cat1=f.
+ent=llimer1^cat1=m.
+ent=malherbologia^cat1=f.
+ent=moniatar^cat1=m.
+ent=nectariner^cat1=m.
+ent=nitroinjecció^cat1=f.
+ent=ombú^cat1=m.
+ent=pitavola^cat1=f.
+ent=potos^cat1=m.
+ent=purí^cat1=m.
+ent=raigràs^cat1=m.
+ent=regó^cat1=m.
+ent=rotocultor^cat1=m.
+ent=safranar^cat1=m.
+ent=sorregar^cat1=v. tr.
+ent=taronjar^cat1=m.
+ent=trips^cat1=m.
+ent=tsuga^cat1=f.
+ent=xapo^cat1=m.
+ent=amfisbenis^cat1=m. pl.
+ent=anolis^cat1=m.
+ent=batagúrids^cat1=m. pl.
+ent=criptobrànquids^cat1=m. pl.
+ent=dendrobàtids^cat1=m. pl.
+ent=fardatxet^cat1=m.
+ent=lludrió^cat1=m.
+ent=lluenta^cat1=f.
+ent=mamba^cat1=f.
+ent=ofegabous^cat1=m.
+ent=papapeixos^cat1=m.
+ent=pelodítids^cat1=m. pl.
+ent=pitònids^cat1=m. pl.
+ent=rabatxet^cat1=m.
+ent=sacre1^cat1=m.
+ent=sargantaner^cat1=m.
+ent=serenalla^cat1=f.
+ent=aimara^cat1=m. i f.
+ent=ainu^cat1=m. i f.
+ent=alcorà^cat1=m.
+ent=androcentrisme^cat1=m.
+ent=bàtik^cat1=m.
+ent=bilinealitat^cat1=f.
+ent=bimbatxe^cat1=m. i f.
+ent=boiximà boiximana^cat1=m. i f.
+ent=bubi^cat1=m. i f.
+ent=camita^cat1=m. i f.
+ent=canac canaca^cat1=m. i f.
+ent=cartomàntic -a^cat1=adj.
+ent=casba^cat1=f.
+ent=cerber^cat1=m.
+ent=coesposa^cat1=f.
+ent=comanxe^cat1=m. i f.
+ent=conflictologia^cat1=f.
+ent=cosificació^cat1=f.
+ent=cosificar^cat1=v. tr.
+ent=cosmovisió^cat1=f.
+ent=dakota^cat1=m. i f.
+ent=desposori^cat1=m.
+ent=dogon^cat1=m. i f.
+ent=estigmatització^cat1=f.
+ent=ethos^cat1=m.
+ent=etnicitat^cat1=f.
+ent=etnociència^cat1=f.
+ent=etnohistòria^cat1=f.
+ent=fang2^cat1=m. i f.
+ent=griot^cat1=m.
+ent=guanxe^cat1=m. i f.
+ent=harakiri^cat1=m.
+ent=hipogriu^cat1=m.
+ent=holisme^cat1=m.
+ent=hutu^cat1=m. i f.
+ent=inuit^cat1=adj. i m. i f.
+ent=islamista^cat1=adj.
+ent=katxina^cat1=f.
+ent=khmer^cat1=m. i f.
+ent=khoi^cat1=adj. i m. i f.
+ent=maputxe^cat1=m. i f.
+ent=massai^cat1=m. i f.
+ent=matrifocal^cat1=adj.
+ent=matrilateral^cat1=adj.
+ent=matrilinealitat^cat1=f.
+ent=monoparental^cat1=adj.
+ent=osseta^cat1=m. i f.
+ent=parental^cat1=adj.
+ent=pastoralisme^cat1=m.
+ent=patrilateral^cat1=adj.
+ent=patrilinealitat^cat1=f.
+ent=pidgin^cat1=m.
+ent=reificació^cat1=f.
+ent=reificar^cat1=v. tr.
+ent=sami^cat1=adj. i m. i f.
+ent=san^cat1=adj. i m. i f.
+ent=sikh^cat1=adj.
+ent=sikhisme^cat1=m.
+ent=sioux^cat1=m. i f.
+ent=tasmanià tasmaniana^cat1=m. i f.
+ent=tupí3^cat1=m. i f.
+ent=tutsi^cat1=m. i f.
+ent=txerquès txerquessa^cat1=m. i f.
+ent=txitxa^cat1=f.
+ent=unilinealitat^cat1=f.
+ent=xara^cat1=f.
+ent=xaria^cat1=f.
+ent=xeiene^cat1=m. i f.
+ent=xicano xicana^cat1=m. i f.
+ent=tepidari^cat1=m.
+ent=capialçat^cat1=m.
+ent=castellologia^cat1=f.
+ent=creueria^cat1=f.
+ent=enriostar^cat1=v. tr.
+ent=falleva^cat1=f.
+ent=former1^cat1=adj.
+ent=goteró^cat1=m.
+ent=gunita^cat1=f.
+ent=matxó^cat1=m.
+ent=urbanita^cat1=adj. i m. i f.
+ent=anicònic -a^cat1=adj.
+ent=bizantinista^cat1=m. i f.
+ent=a contrafibra^cat1=loc. adv.
+ent=dobler2^cat1=adj.
+ent=exlibrístic -a^cat1=adj.
+ent=fauve^cat1=adj. i m. i f.
+ent=galerista^cat1=m. i f.
+ent=kitsch^cat1=m.
+ent=mandala^cat1=f.
+ent=neoexpressionisme^cat1=m.
+ent=neoplasticista^cat1=adj.
+ent=plement^cat1=m.
+ent=postmodern -a^cat1=adj.
+ent=postmodernisme^cat1=m.
+ent=postmodernista^cat1=adj.
+ent=postmodernitat^cat1=f.
+ent=serliana^cat1=f.
+ent=sfumato^cat1=m.
+ent=alçadora^cat1=f.
+ent=anepígraf -a^cat1=adj. i m.
+ent=bibliotècnia^cat1=f.
+ent=calotípia^cat1=f.
+ent=cartonatge^cat1=m.
+ent=copisteria^cat1=f.
+ent=cuixé^cat1=adj.
+ent=destintatge^cat1=m.
+ent=diagramació^cat1=f.
+ent=diazocòpia^cat1=f.
+ent=driografia^cat1=f.
+ent=encartadora^cat1=f.
+ent=entintatge^cat1=m.
+ent=escaneig^cat1=m.
+ent=escanejar^cat1=v. tr.
+ent=fotoreproductor fotoreproductora^cat1=m. i f.
+ent=gofratge^cat1=m.
+ent=granejador granejadora^cat1=m. i f.
+ent=infoli^cat1=m.
+ent=interlletra^cat1=f.
+ent=kraft^cat1=adj.
+ent=maixé^cat1=adj.
+ent=ortotipografia^cat1=f.
+ent=ozalid^cat1=m.
+ent=quadríptic^cat1=m.
+ent=rotogravat^cat1=m.
+ent=seminegra^cat1=f.
+ent=talbotípia^cat1=f.
+ent=teletípia^cat1=f.
+ent=altazimutal^cat1=adj.
+ent=antihorari^cat1=adj.
+ent=arqueoastronomia^cat1=f.
+ent=astereosismologia^cat1=f.
+ent=astrobiologia^cat1=f.
+ent=ataxita^cat1=f.
+ent=camacita^cat1=f.
+ent=congelament^cat1=m.
+ent=hexaedrita^cat1=f.
+ent=magnetògraf^cat1=m.
+ent=magnetograma^cat1=m.
+ent=magnetòmetre^cat1=m.
+ent=nucleosíntesi^cat1=f.
+ent=orto^cat1=m.
+ent=píxel^cat1=m.
+ent=protoplaneta^cat1=m.
+ent=púlsar^cat1=m.
+ent=reconnexió^cat1=f.
+ent=supercúmul^cat1=m.
+ent=taenita^cat1=f.
+ent=beneventana^cat1=adj.
+ent=expuntuació^cat1=f.
+ent=expuntuar^cat1=v. tr.
+ent=semicursiva^cat1=adj.
+ent=actina^cat1=f.
+ent=al·lopoliploide^cat1=adj.
+ent=al·lopoliploïdia^cat1=f.
+ent=al·lostèric -a^cat1=adj.
+ent=aneuploide^cat1=adj.
+ent=autopoliploide^cat1=adj.
+ent=autopoliploïdia^cat1=f.
+ent=barbulat -ada^cat1=adj.
+ent=bífidus^cat1=m.
+ent=biodiversitat^cat1=f.
+ent=biofísic -a^cat1=adj.
+ent=bioindicador^cat1=m.
+ent=cenobial^cat1=adj.
+ent=citosquelet^cat1=m.
+ent=cladogènesi^cat1=f.
+ent=clina1^cat1=f.
+ent=dizigòtic -a^cat1=adj.
+ent=endomorfina^cat1=f.
+ent=endorfina^cat1=f.
+ent=endosoma^cat1=m.
+ent=episoma^cat1=m.
+ent=esporal^cat1=adj.
+ent=esporular^cat1=v. intr.
+ent=euploide^cat1=adj.
+ent=fenocòpia^cat1=f.
+ent=gemmant^cat1=adj.
+ent=genetista^cat1=m. i f.
+ent=genòmic -a^cat1=adj.
+ent=glucagó^cat1=m.
+ent=gonadotròpica^cat1=adj.
+ent=hematia^cat1=f.
+ent=heretabilitat^cat1=f.
+ent=heterosi^cat1=f.
+ent=hidrolasa^cat1=f.
+ent=isomerasa^cat1=f.
+ent=liasa^cat1=f.
+ent=lligasa^cat1=f.
+ent=locus^cat1=m.
+ent=macroevolució^cat1=f.
+ent=mastigonema^cat1=m.
+ent=microbiota^cat1=f.
+ent=monozigòtic -a^cat1=adj.
+ent=neurotòxic -a^cat1=adj.
+ent=nucleoplasma^cat1=m.
+ent=odontòcit^cat1=m.
+ent=oncogèn^cat1=m.
+ent=opistògnat -a^cat1=adj.
+ent=ovoalbúmina^cat1=f.
+ent=oxidoreductasa^cat1=f.
+ent=panmíctic -a^cat1=adj.
+ent=panmixi^cat1=f.
+ent=pliotropia^cat1=f.
+ent=prió^cat1=m.
+ent=prolina^cat1=f.
+ent=quimiotropisme^cat1=m.
+ent=quístic -a^cat1=adj.
+ent=sidós -osa^cat1=adj. i m. i f.
+ent=timidina^cat1=f.
+ent=transducció^cat1=f.
+ent=transferasa^cat1=f.
+ent=trisòmic -a^cat1=adj.
+ent=univitel·lí -ina^cat1=adj.
+ent=aciculiforme^cat1=adj.
+ent=aerofític -a^cat1=adj.
+ent=aflatoxina^cat1=f.
+ent=amanitina^cat1=f.
+ent=amatoxina^cat1=f.
+ent=anamorf^cat1=m.
+ent=apogàmia^cat1=f.
+ent=apomixi^cat1=f.
+ent=arbuscle^cat1=m.
+ent=arcuat -ada^cat1=adj.
+ent=arribatge^cat1=m.
+ent=ascoma^cat1=m.
+ent=asèpal -a^cat1=adj.
+ent=atenuat -ada^cat1=adj.
+ent=autoic -a^cat1=adj.
+ent=autopol·linització^cat1=f.
+ent=basidioma^cat1=m.
+ent=boreoalpí -ina^cat1=adj.
+ent=capense^cat1=adj.
+ent=carenat2 -ada^cat1=adj.
+ent=carpologia^cat1=f.
+ent=caulogènic -a^cat1=adj.
+ent=cenocàrpic -a^cat1=adj.
+ent=cistidiat -ada^cat1=adj.
+ent=cistozigot^cat1=m.
+ent=cocleariforme^cat1=adj.
+ent=coleòptil^cat1=m.
+ent=colpat -ada^cat1=adj.
+ent=concolor^cat1=adj.
+ent=conidioma^cat1=m.
+ent=corològic -a^cat1=adj.
+ent=corticat -ada^cat1=adj.
+ent=corticícola^cat1=adj.
+ent=crassifoli -òlia^cat1=adj.
+ent=deflex -a^cat1=adj.
+ent=dicariòtic -a^cat1=adj.
+ent=disàmara^cat1=f.
+ent=discolor^cat1=adj.
+ent=eci^cat1=m.
+ent=eciòspora^cat1=f.
+ent=ejèctil^cat1=adj.
+ent=emarginat -ada^cat1=adj.
+ent=endoperidi^cat1=m.
+ent=enervi -èrvia^cat1=adj.
+ent=escabre -a^cat1=adj.
+ent=esclereida^cat1=f.
+ent=escleroci^cat1=m.
+ent=escrobiculat -ada^cat1=adj.
+ent=esquamiforme^cat1=adj.
+ent=esquàmula^cat1=f.
+ent=esquamulós -osa^cat1=adj.
+ent=esquizocarp^cat1=m.
+ent=estilar^cat1=adj.
+ent=exoperidi^cat1=m.
+ent=fanerogàmia^cat1=f.
+ent=fiàlid^cat1=m.
+ent=fibulífer -a^cat1=adj.
+ent=ficobiont^cat1=m.
+ent=fil·lotaxi^cat1=f.
+ent=fissitunicat -ada^cat1=adj.
+ent=fitocenòleg -òloga^cat1=adj.
+ent=fitocenosi^cat1=f.
+ent=fitotopografia^cat1=f.
+ent=fotoperíode^cat1=m.
+ent=gleba^cat1=f.
+ent=gloquidi^cat1=m.
+ent=heteroclamidi -ídia^cat1=adj.
+ent=hifal^cat1=adj.
+ent=homòmer -a^cat1=adj.
+ent=humícola^cat1=adj.
+ent=inconspicu -ícua^cat1=adj.
+ent=inoperculat -ada^cat1=adj.
+ent=labriforme^cat1=adj.
+ent=lageniforme^cat1=adj.
+ent=levuriforme^cat1=adj.
+ent=liquènic -a^cat1=adj.
+ent=macroblast^cat1=m.
+ent=malacòfil -a^cat1=adj.
+ent=malacofília^cat1=f.
+ent=micelià -ana^cat1=adj.
+ent=micetologia^cat1=f.
+ent=micològic -a^cat1=adj.
+ent=micotoxina^cat1=f.
+ent=multiaxial^cat1=adj.
+ent=muscinal^cat1=adj.
+ent=nàstia^cat1=f.
+ent=neotropical^cat1=adj.
+ent=nitròfil -a^cat1=adj.
+ent=ornitofília^cat1=f.
+ent=paleotropical^cat1=adj.
+ent=paniculiforme^cat1=adj.
+ent=papiraci -àcia^cat1=adj.
+ent=pileal^cat1=adj.
+ent=pileic -a^cat1=adj.
+ent=pistil·lar^cat1=adj.
+ent=pistil·lat -ada^cat1=adj.
+ent=pluricarpel·lar^cat1=adj.
+ent=pol·linari^cat1=m.
+ent=pol·linitzador -a^cat1=adj.
+ent=pol·linitzar^cat1=v. tr.
+ent=poral^cat1=adj.
+ent=porat -ada^cat1=adj.
+ent=prolat -a^cat1=adj.
+ent=prostrat -ada^cat1=adj.
+ent=psicòtrop^cat1=m.
+ent=psicotròpic -a^cat1=adj.
+ent=psilocibina^cat1=f.
+ent=quiropterofília^cat1=f.
+ent=resupinat -ada^cat1=adj.
+ent=rizòfor^cat1=m.
+ent=rosulat -ada^cat1=adj.
+ent=saprotròfic -a^cat1=adj.
+ent=seccionat -ada^cat1=adj.
+ent=serrat2 -ada^cat1=adj.
+ent=sinsèpal -a^cat1=adj.
+ent=sorosi^cat1=f.
+ent=tal·lós2 -osa^cat1=adj.
+ent=teleomorf^cat1=m.
+ent=teleomòrfic -a^cat1=adj.
+ent=tolus^cat1=m.
+ent=umbó^cat1=m.
+ent=umbonat -ada^cat1=adj.
+ent=uredini^cat1=m.
+ent=vesiculoarbuscular^cat1=adj.
+ent=abebai^cat1=m.
+ent=aiús^cat1=m.
+ent=alerç^cat1=m.
+ent=cople^cat1=m.
+ent=dicorínia^cat1=f.
+ent=estisorada^cat1=f.
+ent=hidrant^cat1=m.
+ent=karité^cat1=m.
+ent=lapiaz^cat1=m.
+ent=miquelí -ina^cat1=adj.
+ent=mullant^cat1=adj.
+ent=paduc^cat1=m.
+ent=relascopi^cat1=m.
+ent=revegetació^cat1=f.
+ent=saprolègnia^cat1=f.
+ent=sempervirent^cat1=adj.
+ent=sipo^cat1=m.
+ent=talí^cat1=m.
+ent=balegar^cat1=m.
+ent=salancar^cat1=m.
+ent=sarronar^cat1=m.
+ent=contrapicat^cat1=adj.
+ent=sobreexposició^cat1=f.
+ent=autolesió^cat1=f.
+ent=desvalisador desvalisadora^cat1=m. i f.
+ent=desvalisament^cat1=m.
+ent=dumdum^cat1=adj.
+ent=euromíssil^cat1=m.
+ent=llançaflames^cat1=m.
+ent=policial^cat1=adj.
+ent=relló^cat1=m.
+ent=subfusell^cat1=m.
+ent=abintestat2 -ada^cat1=adj.
+ent=adoptand adoptanda^cat1=m. i f.
+ent=alimentat alimentada^cat1=m. i f.
+ent=atès^cat1=m.
+ent=atressí^cat1=adv.
+ent=aute^cat1=m.
+ent=averia^cat1=f.
+ent=concursal^cat1=adj.
+ent=concursat concursada^cat1=m. i f.
+ent=cot2^cat1=m.
+ent=criminòleg criminòloga^cat1=m. i f.
+ent=jurat2 -ada^cat1=adj.
+ent=parapúblic -a^cat1=adj.
+ent=pedania^cat1=f.
+ent=recurrible^cat1=adj.
+ent=ambientòleg ambientòloga^cat1=m. i f.
+ent=descomponedor -a^cat1=adj.
+ent=folívor -a^cat1=adj.
+ent=gipsòfil -a^cat1=adj.
+ent=mesòtrof -a^cat1=adj.
+ent=mesotròfic -a^cat1=adj.
+ent=mor^cat1=adj.
+ent=superfamília^cat1=f.
+ent=xeromorf -a^cat1=adj.
+ent=emboç^cat1=m.
+ent=lífting^cat1=m.
+ent=encebador^cat1=m.
+ent=kilovolt^cat1=m.
+ent=kilowatt^cat1=m.
+ent=quilovolt^cat1=m.
+ent=quilowatt^cat1=m.
+ent=electroencefalògraf^cat1=m.
+ent=mòdem^cat1=m.
+ent=aerogenerador^cat1=m.
+ent=aeromodelisme^cat1=m.
+ent=bypass^cat1=m.
+ent=calatge^cat1=m.
+ent=cigonyal^cat1=m.
+ent=falcament^cat1=m.
+ent=matricer matricera^cat1=m. i f.
+ent=matriceria^cat1=f.
+ent=planejament^cat1=m.
+ent=posicionar^cat1=v. tr.
+ent=tornagauxes^cat1=m.
+ent=barranquisme^cat1=m.
+ent=bimba^cat1=f.
+ent=canellera^cat1=f.
+ent=caravàning^cat1=m.
+ent=caravanista^cat1=m. i f.
+ent=frontennis^cat1=m.
+ent=nadador1^cat1=m.
+ent=ràfting^cat1=m.
+ent=agropecuari -ària^cat1=adj.
+ent=alevinatge^cat1=m.
+ent=arniar^cat1=v. intr.
+ent=arniet^cat1=m.
+ent=batallar1^cat1=v. tr.
+ent=bocat -ada^cat1=adj.
+ent=borrombí^cat1=m.
+ent=bovicultura^cat1=f.
+ent=brauella^cat1=f.
+ent=canicultura^cat1=f.
+ent=capricultura^cat1=f.
+ent=carbonat2 -ada^cat1=adj.
+ent=clina2^cat1=f.
+ent=collut2 -uda^cat1=adj.
+ent=columbicultura^cat1=f.
+ent=criptorquídia^cat1=f.
+ent=eixamenada^cat1=f.
+ent=eixivern^cat1=m.
+ent=empeçolar^cat1=v. tr.
+ent=emplomament^cat1=m.
+ent=encinglar^cat1=v. tr.
+ent=enfelar-se^cat1=v. intr. pron.
+ent=enfreixurar-se^cat1=v. intr. pron.
+ent=enquadrar2^cat1=v. tr.
+ent=entrepelós -osa^cat1=adj.
+ent=eqüicultura^cat1=f.
+ent=esbelegar^cat1=v. intr.
+ent=esbeletegar^cat1=v. intr.
+ent=espermograma^cat1=m.
+ent=esventrat -ada^cat1=adj.
+ent=fànera^cat1=f.
+ent=fasianiformes^cat1=m. pl.
+ent=femeró^cat1=m.
+ent=fic^cat1=m.
+ent=gardeny^cat1=m.
+ent=gardenyar^cat1=v. intr.
+ent=garrés^cat1=m.
+ent=gavarro^cat1=m.
+ent=godallada^cat1=f.
+ent=greixet^cat1=m.
+ent=helicicultor helicicultora^cat1=m. i f.
+ent=helicicultura^cat1=f.
+ent=llimonera2^cat1=f.
+ent=màmia^cat1=f.
+ent=microbisme^cat1=m.
+ent=mosquejat -ada^cat1=adj.
+ent=mufar^cat1=v. tr.
+ent=munyida^cat1=f.
+ent=ovicultura^cat1=f.
+ent=peixard -a^cat1=adj.
+ent=peixena^cat1=f.
+ent=periople^cat1=m.
+ent=piaf^cat1=m.
+ent=porcicultura^cat1=f.
+ent=pròpoli^cat1=f.
+ent=ramalar^cat1=v. tr.
+ent=romer2 -a^cat1=adj.
+ent=segovi^cat1=m.
+ent=segoviar^cat1=v. tr.
+ent=sericultor sericultora^cat1=m. i f.
+ent=sericultura^cat1=f.
+ent=sexar^cat1=v. tr.
+ent=sexatge^cat1=m.
+ent=suera^cat1=f.
+ent=tacat -ada^cat1=adj.
+ent=tempsut -uda^cat1=adj.
+ent=tord2 -a^cat1=adj.
+ent=travador^cat1=m.
+ent=trotó^cat1=m.
+ent=tustada^cat1=f.
+ent=voleteig^cat1=m.
+ent=xaiada^cat1=f.
+ent=xena^cat1=f.
+ent=xisqueta^cat1=f.
+ent=zoometria^cat1=f.
+ent=absolutiu^cat1=m.
+ent=actant^cat1=m.
+ent=agentiu^cat1=m.
+ent=ain^cat1=f.
+ent=àkan^cat1=adj.
+ent=amhàric -a^cat1=adj.
+ent=ampelonímia^cat1=f.
+ent=aproximant^cat1=adj.
+ent=articulador^cat1=m.
+ent=assonàntic -a^cat1=adj.
+ent=austronèsic -a^cat1=adj.
+ent=azerbaidjanès -esa^cat1=adj. i m. i f.
+ent=balutxi^cat1=adj.
+ent=benefactiu -iva^cat1=adj.
+ent=bet^cat1=f.
+ent=caf^cat1=f.
+ent=catàfora^cat1=f.
+ent=cebuà -ana^cat1=adj.
+ent=cof^cat1=f.
+ent=constatatiu -iva^cat1=adj.
+ent=contraexemple^cat1=m.
+ent=contrafactual^cat1=adj.
+ent=cuixític -a^cat1=adj.
+ent=daic -a^cat1=adj.
+ent=dàlet^cat1=f.
+ent=denominal^cat1=adj.
+ent=deòntic -a^cat1=adj.
+ent=elamita^cat1=adj. i m. i f.
+ent=engadinès -esa^cat1=adj.
+ent=epistèmic -a^cat1=adj.
+ent=especificador^cat1=adj. i m.
+ent=eusquera^cat1=adj. i m.
+ent=evidencial^cat1=m.
+ent=existencial^cat1=adj.
+ent=factiu -iva^cat1=adj.
+ent=factivitat^cat1=f.
+ent=feroès -esa^cat1=adj. i m. i f.
+ent=fitònim^cat1=m.
+ent=fonador -a^cat1=adj.
+ent=friülà -ana^cat1=adj. i m. i f.
+ent=gal·lurès -esa^cat1=adj.
+ent=glotalitzat -ada^cat1=adj.
+ent=grenlandès -esa^cat1=adj. i m. i f.
+ent=guímel^cat1=f.
+ent=gujarati^cat1=adj.
+ent=gur^cat1=adj.
+ent=hagiotoponímia^cat1=f.
+ent=haussa^cat1=adj.
+ent=he^cat1=f.
+ent=het^cat1=f.
+ent=hidronímia^cat1=f.
+ent=ictiònim^cat1=m.
+ent=il·locutiu -iva^cat1=adj.
+ent=inacusatiu -iva^cat1=adj.
+ent=inserit -ida^cat1=adj.
+ent=interordinat -ada^cat1=adj.
+ent=ioruba^cat1=adj.
+ent=jiddisch^cat1=adj.
+ent=kikuiu^cat1=adj.
+ent=kimbundu^cat1=adj.
+ent=ladí -ina^cat1=adj. i m.
+ent=làmed^cat1=f.
+ent=lateralització^cat1=f.
+ent=lateralitzar^cat1=v. tr.
+ent=lingala^cat1=adj.
+ent=locutiu -iva^cat1=adj.
+ent=logudorès -esa^cat1=adj.
+ent=madurès -esa^cat1=adj.
+ent=malaiàlam^cat1=adj.
+ent=malgaix -a^cat1=adj. i m. i f.
+ent=mandinga^cat1=adj.
+ent=manx^cat1=adj.
+ent=mem^cat1=f.
+ent=micronesi -èsia^cat1=adj. i m. i f.
+ent=multiplicatiu -iva^cat1=adj.
+ent=nilosaharià -ana^cat1=adj.
+ent=nun^cat1=f.
+ent=nuorès -esa^cat1=adj.
+ent=oromo^cat1=adj.
+ent=osmanlí^cat1=adj. i m. i f.
+ent=oxímoron^cat1=m.
+ent=paixtu^cat1=adj.
+ent=performatiu -iva^cat1=adj.
+ent=perlocutiu -iva^cat1=adj.
+ent=preaccentuat -ada^cat1=adj.
+ent=preverb^cat1=m.
+ent=preverbi^cat1=m.
+ent=realitzatiu -iva^cat1=adj.
+ent=reix^cat1=f.
+ent=romandalusí -ina^cat1=adj.
+ent=romandalusisme^cat1=m.
+ent=romaní2^cat1=adj.
+ent=ròtic -a^cat1=adj.
+ent=ruandès -esa^cat1=adj. i m. i f.
+ent=sàmec^cat1=f.
+ent=sango^cat1=adj.
+ent=sasserès -esa^cat1=adj. i m. i f.
+ent=sil·labificació^cat1=f.
+ent=sinologia^cat1=f.
+ent=sonicitat^cat1=f.
+ent=supraglòtic -a^cat1=adj.
+ent=suprasegmental^cat1=adj.
+ent=tarbener -a^cat1=adj. i m. i f.
+ent=tarbení -ina^cat1=adj. i m. i f.
+ent=telugu^cat1=adj.
+ent=terminòleg terminòloga^cat1=m. i f.
+ent=tet^cat1=f.
+ent=toponimista^cat1=m. i f.
+ent=tsade^cat1=f.
+ent=turcman -a^cat1=adj. i m. i f.
+ent=vau^cat1=f.
+ent=wòlof^cat1=adj.
+ent=xin^cat1=f.
+ent=zain^cat1=f.
+ent=zoònim^cat1=m.
+ent=absolutesa^cat1=f.
+ent=agustinisme^cat1=m.
+ent=apofàntic -a^cat1=adj.
+ent=apofàtic -a^cat1=adj.
+ent=aporètic -a^cat1=adj.
+ent=aporia^cat1=f.
+ent=averroista^cat1=adj.
+ent=axiològic -a^cat1=adj.
+ent=bergsonià -ana^cat1=adj.
+ent=biologisme^cat1=m.
+ent=cientista^cat1=adj.
+ent=decidibilitat^cat1=f.
+ent=decidible^cat1=adj.
+ent=definibilitat^cat1=f.
+ent=desconstrucció^cat1=f.
+ent=desconstruir^cat1=v. tr.
+ent=eidètic -a^cat1=adj.
+ent=einsteinià -ana^cat1=adj.
+ent=escolarca^cat1=m.
+ent=existencialisme^cat1=m.
+ent=existencialista^cat1=adj.
+ent=finitud^cat1=f.
+ent=galileà -ana^cat1=adj.
+ent=gnoseologia^cat1=f.
+ent=heideggerià -ana^cat1=adj.
+ent=indecidible^cat1=adj.
+ent=innatista^cat1=adj.
+ent=intensió^cat1=f.
+ent=internalisme^cat1=m.
+ent=keplerià -ana^cat1=adj.
+ent=metapsicològic -a^cat1=adj.
+ent=neoescolàstic -a^cat1=adj.
+ent=neokantià -ana^cat1=adj.
+ent=neokantisme^cat1=m.
+ent=neopitagòric -a^cat1=adj.
+ent=neopitagorisme^cat1=m.
+ent=neoplatònic -a^cat1=adj.
+ent=neoplatonisme^cat1=m.
+ent=neopositivisme^cat1=m.
+ent=neopositivista^cat1=adj.
+ent=neotomisme^cat1=m.
+ent=neotomista^cat1=adj.
+ent=newtonià -ana^cat1=adj.
+ent=noema^cat1=m.
+ent=noemàtic -a^cat1=adj.
+ent=noesi^cat1=f.
+ent=occamisme^cat1=m.
+ent=plotinisme^cat1=m.
+ent=polisil·logisme^cat1=m.
+ent=postkantià -ana^cat1=adj.
+ent=presocràtic -a^cat1=adj.
+ent=reduccionisme^cat1=m.
+ent=rousseaunià -ana^cat1=adj.
+ent=sociologista^cat1=adj.
+ent=subsumir^cat1=v. tr.
+ent=ucronia^cat1=f.
+ent=utilitarista^cat1=adj.
+ent=voltairià -ana^cat1=adj.
+ent=volterià -ana^cat1=adj.
+ent=covariant^cat1=adj.
+ent=exergia^cat1=f.
+ent=fractal^cat1=adj.
+ent=hiperbàric -a^cat1=adj.
+ent=isoelèctric -a^cat1=adj.
+ent=microestat^cat1=m.
+ent=nivologia^cat1=f.
+ent=gauge^cat1=m.
+ent=acrasiomicots^cat1=m. pl.
+ent=alzinenc^cat1=m.
+ent=arquiascomicets^cat1=m. pl.
+ent=artonials^cat1=f. pl.
+ent=ascomicots^cat1=m. pl.
+ent=aspergil^cat1=m.
+ent=aulinell^cat1=m.
+ent=basidiomicots^cat1=m. pl.
+ent=bateó^cat1=m.
+ent=boletals^cat1=f. pl.
+ent=cantarel·lals^cat1=f. pl.
+ent=caramellosa^cat1=f.
+ent=celomicets^cat1=m. pl.
+ent=cetrària^cat1=f.
+ent=clavària^cat1=f.
+ent=clavicipitals^cat1=f. pl.
+ent=col·líbia^cat1=f.
+ent=cortinarials^cat1=f. pl.
+ent=deuteroliquen^cat1=m.
+ent=discolíquens^cat1=m. pl.
+ent=erisifals^cat1=f. pl.
+ent=escarlot^cat1=m.
+ent=esclatabutzes^cat1=m.
+ent=esclata-sabates^cat1=m.
+ent=esclerodermatals^cat1=f. pl.
+ent=estepereny^cat1=m.
+ent=estereals^cat1=f. pl.
+ent=eumicots^cat1=m. pl.
+ent=eurocials^cat1=f. pl.
+ent=fal·lals^cat1=f. pl.
+ent=farineta^cat1=f.
+ent=fongo^cat1=m.
+ent=ginesterola^cat1=f.
+ent=glomals^cat1=f. pl.
+ent=gomfals^cat1=f. pl.
+ent=heterobasidiomicets^cat1=m. pl.
+ent=himenoquetals^cat1=f. pl.
+ent=labirintulomicots^cat1=m. pl.
+ent=laboulbenials^cat1=f. pl.
+ent=leocials^cat1=f. pl.
+ent=leprària^cat1=f.
+ent=licoperdals^cat1=f. pl.
+ent=llorell^cat1=m.
+ent=marasmi^cat1=m.
+ent=matadona^cat1=f.
+ent=matsutake^cat1=m.
+ent=micena^cat1=f.
+ent=mixomicots^cat1=m. pl.
+ent=modeguí^cat1=m.
+ent=moixeró^cat1=m.
+ent=moixina3^cat1=f.
+ent=mollic^cat1=m.
+ent=monilials^cat1=f. pl.
+ent=múcor^cat1=m.
+ent=murga2^cat1=f.
+ent=murgolera^cat1=adj.
+ent=negrentí^cat1=m.
+ent=nidularials^cat1=f. pl.
+ent=oomicots^cat1=m. pl.
+ent=orxeller orxellera^cat1=m. i f.
+ent=palomina^cat1=f.
+ent=pamperol^cat1=m.
+ent=pampinella^cat1=f.
+ent=peixigà^cat1=m.
+ent=penicil·li^cat1=m.
+ent=pirenolíquens^cat1=m. pl.
+ent=plasmodioforomicets^cat1=m. pl.
+ent=pluteals^cat1=f. pl.
+ent=polípor^cat1=m.
+ent=poliporals^cat1=f. pl.
+ent=porials^cat1=f. pl.
+ent=quitridiomicots^cat1=m. pl.
+ent=ramària^cat1=f.
+ent=ratapeus^cat1=m.
+ent=regera^cat1=adj.
+ent=rogic^cat1=m.
+ent=rosteta^cat1=f.
+ent=roureny^cat1=m.
+ent=rovellona^cat1=f.
+ent=rovellonaire^cat1=m. i f.
+ent=russulals^cat1=f. pl.
+ent=sacaromicetals^cat1=f. pl.
+ent=sacaromicets^cat1=m. pl.
+ent=tafrinals^cat1=f. pl.
+ent=teleforals^cat1=f. pl.
+ent=tòfola^cat1=f.
+ent=tricolomatals^cat1=f. pl.
+ent=trompellot^cat1=m.
+ent=tuberals^cat1=f. pl.
+ent=tulostomatals^cat1=f. pl.
+ent=vacassa^cat1=f.
+ent=vermellet^cat1=m.
+ent=vermelleta^cat1=f.
+ent=xaberniscle^cat1=m.
+ent=xiitake^cat1=m.
+ent=xilarials^cat1=f. pl.
+ent=zigomicots^cat1=m. pl.
+ent=abaixat -ada^cat1=adj.
+ent=abraç^cat1=m.
+ent=abraçat -ada^cat1=adj.
+ent=abscís -issa^cat1=adj.
+ent=acoblant^cat1=adj.
+ent=acollatant^cat1=adj.
+ent=agafant^cat1=adj.
+ent=aguantador^cat1=m.
+ent=alerió^cat1=m.
+ent=badge^cat1=m.
+ent=beffroi^cat1=m.
+ent=bicrucífer^cat1=m.
+ent=bixa2^cat1=f.
+ent=blasonista^cat1=m. i f.
+ent=braquígraf braquígrafa^cat1=m. i f.
+ent=braquigrafia^cat1=f.
+ent=braquigràfic -a^cat1=adj.
+ent=burela^cat1=f.
+ent=capat -ada^cat1=adj.
+ent=centellat -ada^cat1=adj.
+ent=ciclamor^cat1=m.
+ent=cognatici -ícia^cat1=adj.
+ent=comble^cat1=m.
+ent=contrabandat -ada^cat1=adj.
+ent=crancelí^cat1=m.
+ent=crequier^cat1=m.
+ent=dentelat -ada^cat1=adj.
+ent=descentori^cat1=m.
+ent=devorant^cat1=adj.
+ent=emblematòleg emblematòloga^cat1=m. i f.
+ent=empunyant^cat1=adj.
+ent=encaixat -ada^cat1=adj.
+ent=enfilant^cat1=adj.
+ent=engolant^cat1=adj.
+ent=essorant^cat1=adj.
+ent=flanquís^cat1=m.
+ent=franccantó^cat1=m.
+ent=francquarter^cat1=m.
+ent=freta^cat1=f.
+ent=granducal^cat1=adj.
+ent=hircogall^cat1=m.
+ent=implexió^cat1=f.
+ent=licocèfal -a^cat1=adj.
+ent=lleopardat^cat1=adj.
+ent=mancant^cat1=adj.
+ent=mantícora^cat1=m.
+ent=melusina^cat1=f.
+ent=nebodastra^cat1=f.
+ent=nebodastre^cat1=m.
+ent=onclastre^cat1=m.
+ent=opínic^cat1=m.
+ent=palar^cat1=adj.
+ent=pentalfa^cat1=f.
+ent=quadrilòbul^cat1=m.
+ent=quadrineboda^cat1=f.
+ent=quadrinebot^cat1=m.
+ent=quadrioncle^cat1=m.
+ent=quadritia^cat1=f.
+ent=rebesneboda^cat1=f.
+ent=rebesnebot^cat1=m.
+ent=rebesoncle^cat1=m.
+ent=rebestia^cat1=f.
+ent=ressogra^cat1=f.
+ent=ressogre^cat1=m.
+ent=sextifoli^cat1=m.
+ent=sostenint^cat1=adj.
+ent=tiastra^cat1=f.
+ent=tresneboda^cat1=f.
+ent=tresnebot^cat1=m.
+ent=trinxat2 -ada^cat1=adj.
+ent=trisquela^cat1=f.
+ent=vexil·lològic -a^cat1=adj.
+ent=zigzagat -ada^cat1=adj.
+ent=arrumbament^cat1=m.
+ent=atol^cat1=m.
+ent=badland^cat1=m.
+ent=cai^cat1=m.
+ent=canyó2^cat1=m.
+ent=centrografia^cat1=f.
+ent=cogulló^cat1=m.
+ent=connectivitat^cat1=f.
+ent=cuesta^cat1=f.
+ent=diapir^cat1=m.
+ent=distributari^cat1=m.
+ent=foia^cat1=f.
+ent=graben^cat1=m.
+ent=lagun^cat1=m.
+ent=llogarenc -a^cat1=adj. i m. i f.
+ent=megalòpolis^cat1=f.
+ent=oceanòleg oceanòloga^cat1=m. i f.
+ent=ortofotomapa^cat1=m.
+ent=pediment^cat1=m.
+ent=periurbà -ana^cat1=adj.
+ent=poblacional^cat1=adj.
+ent=sial^cat1=m.
+ent=sima1^cat1=m.
+ent=subsaharià -ana^cat1=adj.
+ent=tepui^cat1=m.
+ent=tómbol^cat1=m.
+ent=xot3^cat1=m.
+ent=al·loctonia^cat1=f.
+ent=anatèctic -a^cat1=adj.
+ent=biostàsia^cat1=f.
+ent=calitx2^cat1=m.
+ent=carstificar^cat1=v. tr.
+ent=codolí^cat1=m.
+ent=detrit^cat1=m.
+ent=diaclasament^cat1=m.
+ent=endopèdon^cat1=m.
+ent=englaciació^cat1=f.
+ent=epipèdon^cat1=m.
+ent=epirogènesi^cat1=f.
+ent=esparita^cat1=f.
+ent=gart^cat1=m.
+ent=granitoide^cat1=adj.
+ent=horst^cat1=m.
+ent=humificació^cat1=f.
+ent=isohalina^cat1=f.
+ent=isosista^cat1=f.
+ent=löss^cat1=m.
+ent=macrosisme^cat1=m.
+ent=mantèl·lic -a^cat1=adj.
+ent=meandriforme^cat1=adj.
+ent=metapelita^cat1=f.
+ent=microsisme^cat1=m.
+ent=mississipià -ana^cat1=adj.
+ent=nivós -osa^cat1=adj.
+ent=ooide^cat1=m.
+ent=paleocanal^cat1=m.
+ent=pedobiologia^cat1=f.
+ent=pedoclima^cat1=m.
+ent=pèdon^cat1=m.
+ent=piritoedre^cat1=m.
+ent=planari -ària^cat1=adj.
+ent=prearqueà -ana^cat1=adj. i m.
+ent=priscoà -ana^cat1=adj.
+ent=retreballar^cat1=v. tr.
+ent=salmàstica^cat1=adj.
+ent=skarn^cat1=m.
+ent=subduir^cat1=v. tr.
+ent=til^cat1=m.
+ent=til·lita^cat1=f.
+ent=tsunami^cat1=m.
+ent=turbiditat^cat1=f.
+ent=abadenc -a^cat1=adj.
+ent=adarb^cat1=m.
+ent=alforria^cat1=f.
+ent=andalusí -ina^cat1=adj.
+ent=arrais^cat1=m.
+ent=asquenazita^cat1=m. i f.
+ent=astur^cat1=m. i f.
+ent=ausetà ausetana^cat1=m. i f.
+ent=bovalar^cat1=m.
+ent=càntabre -a^cat1=adj. i m. i f.
+ent=carlania^cat1=f.
+ent=cristianar^cat1=v. tr.
+ent=cugul2^cat1=m. ant.
+ent=dírham^cat1=m.
+ent=doblenc^cat1=m.
+ent=egarenc -a^cat1=adj. i m. i f.
+ent=eixea^cat1=f.
+ent=encamerar^cat1=v. tr. ant.
+ent=hussita^cat1=m. i f.
+ent=ilercavó ilercavona^cat1=m. i f.
+ent=ilerget ilergeta^cat1=m. i f.
+ent=ilurenc -a^cat1=adj. i m. i f.
+ent=maharani^cat1=f.
+ent=nassí^cat1=m.
+ent=nicolaisme^cat1=m.
+ent=numantí -ina^cat1=adj. i m. i f.
+ent=palestinenc -a^cat1=adj. i m. i f.
+ent=part3 parta^cat1=m. i f.
+ent=peita^cat1=f.
+ent=pogrom^cat1=m.
+ent=presura^cat1=f.
+ent=saduceu saducea^cat1=m. i f.
+ent=sudista^cat1=adj. i m. i f.
+ent=tel2^cat1=m.
+ent=tinglat -ada^cat1=adj.
+ent=turdetà turdetana^cat1=m. i f.
+ent=xéquel^cat1=m.
+ent=zelota^cat1=m. i f.
+ent=au-pair^cat1=m. i f.
+ent=bàrman^cat1=m. i f.
+ent=botifarrada^cat1=f.
+ent=boutique^cat1=f.
+ent=brandi^cat1=m.
+ent=braseria^cat1=f.
+ent=campisme^cat1=m.
+ent=donja^cat1=f.
+ent=gin^cat1=m.
+ent=guaranà^cat1=f.
+ent=karaoke^cat1=m.
+ent=minibar^cat1=m.
+ent=office^cat1=m.
+ent=passavins^cat1=m. i f.
+ent=pizzer pizzera^cat1=m. i f.
+ent=quètxup^cat1=m.
+ent=sake^cat1=m.
+ent=sardinada^cat1=f.
+ent=sommelier^cat1=m. i f.
+ent=aplacada^cat1=f.
+ent=contrabastiment^cat1=m.
+ent=guarnit^cat1=m.
+ent=teca3^cat1=f.
+ent=electrofiltre^cat1=m.
+ent=canut1^cat1=m.
+ent=sisal^cat1=m.
+ent=termofixar^cat1=v. tr.
+ent=aborrallonament^cat1=m.
+ent=acoblador^cat1=m.
+ent=aixeteria^cat1=f.
+ent=billeta^cat1=f.
+ent=biodesfibril·lació^cat1=f.
+ent=bric^cat1=m.
+ent=cavista^cat1=m. i f.
+ent=denim^cat1=m.
+ent=elastà^cat1=m.
+ent=estelòmetre^cat1=m.
+ent=fibrocromatologia^cat1=f.
+ent=fibrocromia^cat1=f.
+ent=fibrologia^cat1=f.
+ent=fibrometria^cat1=f.
+ent=gasoliner gasolinera^cat1=m. i f.
+ent=gruista^cat1=m. i f.
+ent=histometria^cat1=f.
+ent=kenaf^cat1=m.
+ent=metal·lista^cat1=m. i f.
+ent=metal·listeria^cat1=f.
+ent=microfibra^cat1=f.
+ent=nematòleg nematòloga^cat1=m. i f.
+ent=nematologia^cat1=f.
+ent=òxford^cat1=m.
+ent=sobrefiladora^cat1=f.
+ent=supercarburant^cat1=m.
+ent=verduler verdulera^cat1=m. i f.
+ent=xantung^cat1=m.
+ent=ciberespai^cat1=m.
+ent=clicar^cat1=v. intr.
+ent=domòtica^cat1=f.
+ent=emoticona^cat1=f.
+ent=encriptar^cat1=v. tr.
+ent=gigaoctet^cat1=m.
+ent=internauta^cat1=m. i f.
+ent=multiplexar^cat1=v. tr.
+ent=navegador^cat1=m.
+ent=videoconferència^cat1=f.
+ent=vòxel^cat1=m.
+ent=web^cat1=m.
+ent=xat^cat1=m.
+ent=tortugueta^cat1=f.
+ent=abbassí^cat1=adj. i m. i f.
+ent=agarè agarena^cat1=m. i f.
+ent=aiatol·là^cat1=m.
+ent=alauí^cat1=adj. i m. i f.
+ent=aleia^cat1=f.
+ent=alquibla^cat1=f.
+ent=baraca^cat1=f.
+ent=burca^cat1=m.
+ent=drus drusa^cat1=m. i f.
+ent=fatimí^cat1=adj. i m. i f.
+ent=fàtua^cat1=f.
+ent=gihad^cat1=m.
+ent=hadit^cat1=m.
+ent=haima^cat1=f.
+ent=husseiní^cat1=adj. i m. i f.
+ent=islamòleg islamòloga^cat1=m. i f.
+ent=ismaelita^cat1=m. i f.
+ent=madrassa^cat1=f.
+ent=mariní^cat1=adj. i m. i f.
+ent=mihrab^cat1=m.
+ent=mitcal^cat1=m.
+ent=mul·là^cat1=m.
+ent=safaví^cat1=adj. i m. i f.
+ent=talibà -ana^cat1=adj.
+ent=xador^cat1=m.
+ent=attrezzista^cat1=m. i f.
+ent=bingo^cat1=m.
+ent=didascàlia^cat1=f.
+ent=multicine^cat1=m.
+ent=videojoc^cat1=m.
+ent=abduir^cat1=v. tr.
+ent=aboldronar^cat1=v. tr.
+ent=absentista^cat1=adj.
+ent=absolutitzar^cat1=v. tr.
+ent=abuixar^cat1=v. tr.
+ent=acampanar^cat1=v. tr.
+ent=adesar^cat1=v. tr.
+ent=adotzenament^cat1=m.
+ent=afogament2^cat1=m.
+ent=afroamericà -ana^cat1=adj.
+ent=agafatall^cat1=m.
+ent=agroturisme^cat1=m.
+ent=alaquaser -a^cat1=adj. i m. i f.
+ent=aldaier -a^cat1=adj. i m. i f.
+ent=alfafarí -ina^cat1=adj. i m. i f.
+ent=algemesinenc -a^cat1=adj. i m. i f.
+ent=algòleg algòloga^cat1=m. i f.
+ent=algorfa^cat1=f.
+ent=aliacrà2^cat1=m.
+ent=alienígena^cat1=adj. i m. i f.
+ent=ambular^cat1=v. tr.
+ent=amelat -ada^cat1=adj.
+ent=amiguisme^cat1=m.
+ent=ancestre^cat1=m.
+ent=andritxol -a^cat1=adj. i m. i f.
+ent=anglicista^cat1=m. i f.
+ent=angloamericà -ana^cat1=adj.
+ent=anglòfon -a^cat1=adj. i m. i f.
+ent=angoixant^cat1=adj.
+ent=aniquilament^cat1=m.
+ent=antiavalots^cat1=adj.
+ent=antiquíssim -a^cat1=adj.
+ent=aparatositat^cat1=f.
+ent=aparrussar^cat1=v. tr.
+ent=apocalipsi^cat1=f.
+ent=aportador -a^cat1=adj. i m. i f.
+ent=arborador -a^cat1=adj.
+ent=arenyenc -a^cat1=adj. i m. i f.
+ent=argumentari^cat1=m.
+ent=arrauxament^cat1=m.
+ent=arruixar2^cat1=v. tr.
+ent=artanenc -a^cat1=adj. i m. i f.
+ent=artesanal^cat1=adj.
+ent=atesa^cat1=f.
+ent=aucell^cat1=m.
+ent=autodirigit -ida^cat1=adj.
+ent=autogestionar^cat1=v. tr.
+ent=autogir^cat1=m.
+ent=auxiliador -a^cat1=adj. i m. i f.
+ent=avantguerra^cat1=f.
+ent=avantposar^cat1=v. tr.
+ent=avilès -esa^cat1=adj. i m. i f.
+ent=avinyonès -esa^cat1=adj. i m. i f.
+ent=babèlic -a^cat1=adj.
+ent=badaloní -ina^cat1=adj. i m. i f.
+ent=bajocó^cat1=m.
+ent=bambolejar^cat1=v. intr.
+ent=barcelonisme^cat1=m.
+ent=batle batlessa^cat1=m. i f.
+ent=benavarrès -esa^cat1=adj. i m. i f.
+ent=beneitura^cat1=f.
+ent=benicarlando -a^cat1=adj. i m. i f.
+ent=benidormer -a^cat1=adj. i m. i f.
+ent=bernès -esa^cat1=adj. i m. i f.
+ent=betza^cat1=f. pop.
+ent=bevedor1^cat1=m.
+ent=bitllar2^cat1=v. tr.
+ent=blan -a^cat1=adj.
+ent=blanenc1 -a^cat1=adj. i m. i f.
+ent=bocassí -ina^cat1=adj. i m. i f.
+ent=bodi^cat1=m.
+ent=bombí^cat1=m.
+ent=bonyarrut -uda^cat1=adj.
+ent=borar^cat1=v. tr.
+ent=box^cat1=m.
+ent=brie^cat1=m.
+ent=brigadista^cat1=m. i f.
+ent=briós -osa^cat1=adj.
+ent=brussel·lès -esa^cat1=adj. i m. i f.
+ent=brutesc -a^cat1=adj.
+ent=bullici^cat1=m.
+ent=burjassoter -a^cat1=adj. i m. i f.
+ent=burocratisme^cat1=m.
+ent=bútxara^cat1=m.
+ent=cabal2^cat1=adj.
+ent=cabreta^cat1=f.
+ent=caçapapallones^cat1=m.
+ent=cadiral2^cat1=m.
+ent=cagarrines^cat1=f. pl.
+ent=caïnita2^cat1=adj.
+ent=callerès -esa^cat1=adj. i m. i f.
+ent=callosí -ina^cat1=adj. i m. i f.
+ent=camalets^cat1=m. pl.
+ent=campaner1 -a^cat1=adj. i m. i f.
+ent=canareu -a^cat1=adj. i m. i f.
+ent=cangrí^cat1=f. pop.
+ent=capcot -a^cat1=adj.
+ent=capitolí -ina^cat1=adj.
+ent=capjup -a^cat1=adj.
+ent=captard^cat1=m.
+ent=capvespral^cat1=adj.
+ent=carabina^cat1=f.
+ent=carabiner carabinera^cat1=m. i f.
+ent=caragolina^cat1=f.
+ent=carcaixentí -ina^cat1=adj. i m. i f.
+ent=càrdigan^cat1=m.
+ent=caribeny -a^cat1=adj.
+ent=carnavalada^cat1=f.
+ent=carpaccio^cat1=m.
+ent=cascavellic^cat1=m.
+ent=cascavelliquer^cat1=m.
+ent=castelloní -ina^cat1=adj. i m. i f.
+ent=càsting^cat1=m.
+ent=catalanòfon -a^cat1=adj. i m. i f.
+ent=catarrogí -ina^cat1=adj. i m. i f.
+ent=cegar^cat1=v. tr.
+ent=centralitat^cat1=f.
+ent=centreafricà -ana^cat1=adj.
+ent=centreasiàtic -a^cat1=adj.
+ent=chardonnay^cat1=m.
+ent=cicle2^cat1=m.
+ent=circularitat^cat1=f.
+ent=ciutadellenc -a^cat1=adj. i m. i f.
+ent=classificatori -òria^cat1=adj.
+ent=claustrofòbic -a^cat1=adj.
+ent=clec^cat1=m.
+ent=cocota^cat1=f.
+ent=coi2^cat1=interj.
+ent=colcada^cat1=f.
+ent=col·leccionable^cat1=adj.
+ent=compartible^cat1=adj.
+ent=compartimentació^cat1=f.
+ent=complit -ida^cat1=adj.
+ent=compostel·là -ana^cat1=adj. i m. i f.
+ent=comunicador comunicadora^cat1=m. i f.
+ent=condicionant^cat1=adj.
+ent=confirmand confirmanda^cat1=m. i f.
+ent=congoixa^cat1=f.
+ent=constantinopolità -ana^cat1=adj. i m. i f.
+ent=constatable^cat1=adj.
+ent=contaminador -a^cat1=adj.
+ent=contínuum^cat1=m.
+ent=convilatà convilatana^cat1=m. i f.
+ent=conxorxar-se^cat1=v. intr. pron.
+ent=cornal^cat1=m.
+ent=corunyès -esa^cat1=adj. i m. i f.
+ent=cos2^cat1=m.
+ent=crevillentí -ina^cat1=adj. i m. i f.
+ent=cruia^cat1=f.
+ent=cullerà -ana^cat1=adj. i m. i f.
+ent=culturisme^cat1=m.
+ent=curanderisme^cat1=m.
+ent=curro -a^cat1=adj. i m. i f.
+ent=degut -uda^cat1=adj.
+ent=deixalleria^cat1=f.
+ent=delfinari^cat1=m.
+ent=democratitzador -a^cat1=adj.
+ent=dènou^cat1=adj. i m.
+ent=depravat -ada^cat1=adj. i m. i f.
+ent=desconcentrar^cat1=v. tr.
+ent=desconegut -uda^cat1=adj.
+ent=desembotonar^cat1=v. tr.
+ent=desemmalesar^cat1=v. tr.
+ent=desencondolir-se^cat1=v. intr. pron.
+ent=desencusa^cat1=f.
+ent=desenfreït -ïda^cat1=adj.
+ent=desestabilització^cat1=f.
+ent=desestabilitzador -a^cat1=adj.
+ent=desgrenyar^cat1=v. tr. i intr. pron.
+ent=desinfestar^cat1=v. tr.
+ent=desmantellament^cat1=m.
+ent=desproporcionar^cat1=v. tr.
+ent=dèsset^cat1=adj. i m.
+ent=dessuadora^cat1=f.
+ent=destacable^cat1=adj.
+ent=destarifat -ada^cat1=adj.
+ent=a destemps^cat1=loc. adv.
+ent=destensar^cat1=v. tr.
+ent=desvaliment^cat1=f.
+ent=detingut -uda^cat1=adj.
+ent=díhuit^cat1=adj. i m.
+ent=diplomar^cat1=v. tr.
+ent=disbauxar^cat1=v. tr.
+ent=divulgatiu -iva^cat1=adj.
+ent=dominiquès -esa^cat1=adj. i m. i f.
+ent=ecomuseu^cat1=m.
+ent=eixe -a^cat1=adj. i pron.
+ent=elusiu -iva^cat1=adj.
+ent=embambar^cat1=v. tr. i intr. pron.
+ent=embellidor -a^cat1=adj.
+ent=embotonar^cat1=v. tr.
+ent=emparat -ada^cat1=adj.
+ent=emprenyament^cat1=m.
+ent=encelar-se^cat1=v. intr. pron.
+ent=encertant^cat1=m. i f.
+ent=encollar2^cat1=v. tr.
+ent=encorbatat -ada^cat1=adj.
+ent=encular^cat1=v. tr.
+ent=enfarfegós -osa^cat1=adj.
+ent=engavatxar^cat1=v. tr.
+ent=enroentir^cat1=v. tr.
+ent=enrovinar^cat1=v. tr.
+ent=ensobrar^cat1=v. tr.
+ent=envermelliment^cat1=m.
+ent=envolada^cat1=f.
+ent=esbrellar^cat1=v. tr.
+ent=esbroncada^cat1=f.
+ent=escabetxada^cat1=f.
+ent=escampa^cat1=m.
+ent=esgarrifador -a^cat1=adj.
+ent=esgraonar^cat1=v. tr. i intr. pron.
+ent=espalillat^cat1=adj.
+ent=espantavelles^cat1=m.
+ent=esparracat -ada^cat1=adj.
+ent=espelegat -ada^cat1=adj.
+ent=espellifat -ada^cat1=adj.
+ent=espenyar2^cat1=v. tr. i intr. pron.
+ent=espluguí -ina^cat1=adj. i m. i f.
+ent=espoli2^cat1=m.
+ent=esponjament^cat1=m.
+ent=estància^cat1=f.
+ent=estatjar^cat1=v. tr.
+ent=estatunidenc -a^cat1=adj. i m. i f.
+ent=este -a^cat1=adj. i pron.
+ent=estenallar^cat1=v. tr.
+ent=estimat -ada^cat1=adj.
+ent=estocolmès -esa^cat1=adj. i m. i f.
+ent=estolidesa^cat1=f.
+ent=estop^cat1=m.
+ent=estrafet -a^cat1=adj.
+ent=estressar^cat1=v. tr.
+ent=eu^cat1=interj.
+ent=eurodiputat eurodiputada^cat1=m. i f.
+ent=ex aequo^cat1=loc. adv.
+ent=exagerat -ada^cat1=adj. i m. i f.
+ent=exhaustivitat^cat1=f.
+ent=expedientar^cat1=v. tr.
+ent=exquisidesa^cat1=f.
+ent=extraescolar^cat1=adj.
+ent=falsetà -ana^cat1=adj. i m. i f.
+ent=fascinant^cat1=adj.
+ent=fedal^cat1=adj.
+ent=felanitxer -a^cat1=adj. i m. i f.
+ent=fenològic -a^cat1=adj.
+ent=ficòleg ficòloga^cat1=m. i f.
+ent=finisecular^cat1=adj.
+ent=firmant^cat1=adj. i m. i f.
+ent=forcar^cat1=v. tr.
+ent=fragatí -ina^cat1=adj. i m. i f.
+ent=gabonès -esa^cat1=adj. i m. i f.
+ent=galfó^cat1=m.
+ent=gambià -ana^cat1=adj. i m. i f.
+ent=garguirot^cat1=m.
+ent=gestualitat^cat1=f.
+ent=ghanès -esa^cat1=adj. i m. i f.
+ent=gibraltareny -a^cat1=adj. i m. i f.
+ent=glacejar^cat1=v. tr.
+ent=glamur^cat1=m.
+ent=globalitzador -a^cat1=adj.
+ent=grappa^cat1=f.
+ent=grisós -osa^cat1=adj.
+ent=grogós -osa^cat1=adj.
+ent=gronxadora^cat1=f.
+ent=gruixat -ada^cat1=adj.
+ent=guatla^cat1=f.
+ent=guerxària^cat1=f.
+ent=hamburguès -esa^cat1=adj. i m. i f.
+ent=henna^cat1=f.
+ent=hieratisme^cat1=m.
+ent=homoeròtic -a^cat1=adj.
+ent=homoerotisme^cat1=m.
+ent=homòfob -a^cat1=adj. i m. i f.
+ent=homologable^cat1=adj.
+ent=iberut -uda^cat1=adj. i m. i f.
+ent=idò^cat1=conj.
+ent=ilerdenc -a^cat1=adj.
+ent=ilerdense^cat1=adj.
+ent=il·legalitzar^cat1=v. tr.
+ent=imbatibilitat^cat1=f.
+ent=imbricar^cat1=v. tr.
+ent=immigrat -ada^cat1=adj. i m. i f.
+ent=imparable^cat1=adj.
+ent=impresentable^cat1=adj.
+ent=in situ^cat1=loc. adv.
+ent=inadequació^cat1=f.
+ent=inalterat -ada^cat1=adj.
+ent=inassistència^cat1=f.
+ent=incívic -a^cat1=adj.
+ent=inclús^cat1=adv.
+ent=inconclús -usa^cat1=adj.
+ent=ingravidesa^cat1=f.
+ent=inquer -a^cat1=adj. i m. i f.
+ent=insabut -uda^cat1=adj.
+ent=instrumentalització^cat1=f.
+ent=insurgència^cat1=f.
+ent=interdependent^cat1=adj.
+ent=interpersonal^cat1=adj.
+ent=ítem1^cat1=m.
+ent=ivorià -ana^cat1=adj. i m. i f.
+ent=jacobeu -ea^cat1=adj.
+ent=jaenès -esa^cat1=adj. i m. i f.
+ent=jaio^cat1=m.
+ent=jamaicà -ana^cat1=adj. i m. i f.
+ent=jerosolimità -ana^cat1=adj.
+ent=kosovar^cat1=adj. i m. i f.
+ent=languidesa^cat1=f.
+ent=lerrouxista^cat1=adj.
+ent=lilós -osa^cat1=adj.
+ent=llagar^cat1=v. tr. i intr. pron.
+ent=llavadora^cat1=f.
+ent=llenyera^cat1=f.
+ent=lleterada^cat1=f.
+ent=llirià -ana^cat1=adj. i m. i f.
+ent=lliterà -ana^cat1=adj. i m. i f.
+ent=llongada^cat1=f.
+ent=llumeta^cat1=f.
+ent=logronyès -esa^cat1=adj. i m. i f.
+ent=malaisi -àisia^cat1=adj. i m. i f.
+ent=malavinent^cat1=adj.
+ent=malgratenc -a^cat1=adj. i m. i f.
+ent=mallorquinista^cat1=adj.
+ent=maniser -a^cat1=adj. i m. i f.
+ent=manlleuenc -a^cat1=adj. i m. i f.
+ent=marc2^cat1=m.
+ent=marcescible^cat1=adj.
+ent=marraixa^cat1=f.
+ent=marronós -osa^cat1=adj.
+ent=massificació^cat1=f.
+ent=massificar^cat1=v. tr.
+ent=mastodòntic -a^cat1=adj.
+ent=mentalització^cat1=f.
+ent=menyspreatiu -iva^cat1=adj.
+ent=meulo^cat1=m.
+ent=microones^cat1=m.
+ent=migcampista^cat1=m. i f.
+ent=mislater -a^cat1=adj. i m. i f.
+ent=mitjacerilla^cat1=m. pop.
+ent=mitjapunta^cat1=m. i f.
+ent=moianès -esa^cat1=adj. i m. i f.
+ent=mollerussenc -a^cat1=adj. i m. i f.
+ent=monovolum^cat1=m.
+ent=montcadenc -a^cat1=adj. i m. i f.
+ent=montgatí -ina^cat1=adj. i m. i f.
+ent=montpeller^cat1=m.
+ent=per mor de^cat1=loc. prep.
+ent=moralitzant^cat1=adj.
+ent=morenc -a^cat1=adj. i m. i f.
+ent=morvedrí -ina^cat1=adj. i m. i f.
+ent=motorització^cat1=f.
+ent=mudat -ada^cat1=adj.
+ent=multilateral^cat1=adj.
+ent=mundialització^cat1=f.
+ent=municipalisme^cat1=m.
+ent=muniquès -esa^cat1=adj. i m. i f.
+ent=murar^cat1=v. tr.
+ent=museïtzar^cat1=v. tr.
+ent=mutilat -ada^cat1=adj. i m. i f.
+ent=narbonès -esa^cat1=adj. i m. i f.
+ent=neurocirurgià neurocirurgiana^cat1=m. i f.
+ent=nigerí -ina^cat1=adj. i m. i f.
+ent=nocivitat^cat1=f.
+ent=nominar^cat1=v. tr.
+ent=nord-africà -africana^cat1=adj. i m. i f.
+ent=normativitat^cat1=f.
+ent=nubià -ana^cat1=adj. i m. i f.
+ent=en off^cat1=loc. adj.
+ent=oficialista^cat1=adj.
+ent=oliver2 -a^cat1=adj. i m. i f.
+ent=oponent^cat1=m. i f.
+ent=opositar^cat1=v. intr.
+ent=ordenant^cat1=m.
+ent=pairalisme^cat1=m.
+ent=palafrugellenc -a^cat1=adj. i m. i f.
+ent=palamosí -ina^cat1=adj. i m. i f.
+ent=palplantar-se^cat1=v. intr. pron.
+ent=pantaloner pantalonera^cat1=m. i f.
+ent=parca2^cat1=f.
+ent=pàssim^cat1=adv.
+ent=paterner -a^cat1=adj. i m. i f.
+ent=patxaran^cat1=m.
+ent=peiró^cat1=m.
+ent=peitaví -ina^cat1=adj. i m. i f.
+ent=peixar^cat1=v. tr.
+ent=pèlec^cat1=m.
+ent=peloponesi -èsia^cat1=adj. i m. i f.
+ent=pencaire^cat1=adj. i m. i f. pop.
+ent=pendular2^cat1=v. intr.
+ent=penoner penonera^cat1=m. i f.
+ent=peonatge^cat1=m.
+ent=pepa^cat1=adj. i m. i f.
+ent=periodització^cat1=f.
+ent=perioditzar^cat1=v. tr.
+ent=petrerí -ina^cat1=adj. i m. i f.
+ent=pica-pica2^cat1=m.
+ent=picossejar^cat1=v. tr.
+ent=pilanets^cat1=m. pl.
+ent=pintoresquisme^cat1=m.
+ent=pírcing^cat1=m.
+ent=piromusical^cat1=adj.
+ent=plaf^cat1=interj.
+ent=platet^cat1=m.
+ent=platxeri^cat1=m.
+ent=pluriennal^cat1=adj.
+ent=podal^cat1=adj.
+ent=podrimer^cat1=m.
+ent=politraumatisme^cat1=m.
+ent=pontarrí -ina^cat1=adj. i m. i f.
+ent=pontificar^cat1=v. intr.
+ent=pontsicà -ana^cat1=adj. i m. i f.
+ent=portamaletes^cat1=m.
+ent=porto-riqueny -riquenya^cat1=adj. i m. i f.
+ent=porxat -ada^cat1=adj.
+ent=potabilitzador -a^cat1=adj.
+ent=potabilitzar^cat1=v. tr.
+ent=potra^cat1=f.
+ent=pratenc -a^cat1=adj. i m. i f.
+ent=prebiòtic1 -a^cat1=adj.
+ent=prestància^cat1=f.
+ent=previngut -uda^cat1=adj.
+ent=primorós -osa^cat1=adj.
+ent=prioratí -ina^cat1=adj. i m. i f.
+ent=privacitat^cat1=f.
+ent=procuradoria^cat1=f.
+ent=progre^cat1=m. i f.
+ent=progressia^cat1=f.
+ent=proletarització^cat1=f.
+ent=promocional^cat1=adj.
+ent=prurit^cat1=m.
+ent=pse^cat1=interj.
+ent=puntualització^cat1=f.
+ent=quadribarrat -ada^cat1=adj.
+ent=raïl^cat1=f.
+ent=rampinyador -a^cat1=adj.
+ent=rebeca2^cat1=f.
+ent=rebentaire^cat1=adj. i m. i f.
+ent=rebuscament^cat1=m.
+ent=rebutjable^cat1=adj.
+ent=recercat -ada^cat1=adj.
+ent=reciclable^cat1=adj.
+ent=recompra^cat1=f.
+ent=reconsiderar^cat1=v. tr.
+ent=recopilador -a^cat1=adj. i m. i f.
+ent=redaccional^cat1=adj.
+ent=refegir^cat1=v. tr.
+ent=referenciar^cat1=v. tr.
+ent=relectura^cat1=f.
+ent=remallar^cat1=v. tr.
+ent=rematat -ada^cat1=adj.
+ent=rendibilitzar^cat1=v. tr.
+ent=renuent^cat1=adj.
+ent=reposacaps^cat1=m.
+ent=requadro^cat1=m.
+ent=ressentit -ida^cat1=adj. i m. i f.
+ent=ressituar^cat1=v. tr.
+ent=reüllar^cat1=v. tr.
+ent=rhodesià -ana^cat1=adj. i m. i f.
+ent=rialleta^cat1=f.
+ent=ridiculització^cat1=f.
+ent=rinxolar1^cat1=v. tr. i intr. pron.
+ent=rodenc -a^cat1=adj. i m. i f.
+ent=rovinós -osa^cat1=adj.
+ent=rumorejar^cat1=v. intr.
+ent=rupturisme^cat1=m.
+ent=russòfil -a^cat1=adj. i m. i f.
+ent=sahrauí^cat1=adj. i m. i f.
+ent=salami^cat1=m.
+ent=salinós -osa^cat1=adj.
+ent=santboià -ana^cat1=adj. i m. i f.
+ent=santjustenc -a^cat1=adj. i m. i f.
+ent=santvicenter -a^cat1=adj. i m. i f.
+ent=santvicentí -ina^cat1=adj. i m. i f.
+ent=sarrianenc -a^cat1=adj. i m. i f.
+ent=sedent^cat1=adj.
+ent=segarreta^cat1=adj. i m. i f.
+ent=segovià -ana^cat1=adj. i m. i f.
+ent=segrià -ana^cat1=adj.
+ent=senderista^cat1=adj. i m. i f.
+ent=sensibler -a^cat1=adj.
+ent=serendipitat^cat1=f.
+ent=setembrí -ina^cat1=adj.
+ent=sigil^cat1=m.
+ent=sigil·lós -osa^cat1=adj.
+ent=sil·labejar^cat1=v. tr.
+ent=siracusà -ana^cat1=adj. i m. i f.
+ent=sitgetà -ana^cat1=adj. i m. i f.
+ent=sobrellavi^cat1=m.
+ent=sogorbí -ina^cat1=adj. i m. i f.
+ent=solucionari^cat1=m.
+ent=somiqueig^cat1=m.
+ent=sorgiment^cat1=m.
+ent=sorià -ana^cat1=adj. i m. i f.
+ent=sortenc -a^cat1=adj. i m. i f.
+ent=sortilla^cat1=f.
+ent=sospirós -osa^cat1=adj.
+ent=sota1^cat1=m.
+ent=sotsdelegació^cat1=f.
+ent=sotsdelegat sotsdelegada^cat1=m. i f.
+ent=sotsinspecció^cat1=f.
+ent=subcontinent^cat1=m.
+ent=suctor -a^cat1=adj.
+ent=sulfatada^cat1=f.
+ent=surant^cat1=adj.
+ent=tafanari^cat1=m. pop.
+ent=taiwanès -esa^cat1=adj. i m. i f.
+ent=tanatori^cat1=m.
+ent=tangerí -ina^cat1=adj. i m. i f.
+ent=tanzà -ana^cat1=adj. i m. i f.
+ent=tarumba^cat1=adj.
+ent=tavellat^cat1=m.
+ent=tebà -ana^cat1=adj. i m. i f.
+ent=telepeatge^cat1=m.
+ent=tercermundisme^cat1=m.
+ent=teringa^cat1=f.
+ent=termalisme^cat1=m.
+ent=terrè -ena^cat1=adj.
+ent=timolada^cat1=adj.
+ent=tirrè -ena^cat1=adj.
+ent=togolès -esa^cat1=adj. i m. i f.
+ent=toledà -ana^cat1=adj. i m. i f.
+ent=tonyiner -a^cat1=adj.
+ent=top2^cat1=m.
+ent=topoguia^cat1=f.
+ent=torellonenc -a^cat1=adj. i m. i f.
+ent=torrentí -ina^cat1=adj. i m. i f.
+ent=totalitzador -a^cat1=adj.
+ent=traci tràcia^cat1=adj. i m. i f.
+ent=tramuntanenc -a^cat1=adj.
+ent=transitat -ada^cat1=adj.
+ent=transsilvà -ana^cat1=adj. i m. i f.
+ent=tremendisme^cat1=m.
+ent=trigesimal^cat1=adj.
+ent=trigrama^cat1=m.
+ent=trivialització^cat1=f.
+ent=trivialitzar^cat1=v. tr.
+ent=tut^cat1=m.
+ent=twist^cat1=m.
+ent=txa-txa-txa^cat1=m.
+ent=ufologia^cat1=f.
+ent=ulldeconenc -a^cat1=adj. i m. i f.
+ent=urgellès -esa^cat1=adj. i m. i f.
+ent=valentí -ina^cat1=adj.
+ent=valldostà -ana^cat1=adj. i m. i f.
+ent=val·lisoletà -ana^cat1=adj. i m. i f.
+ent=varietal^cat1=adj.
+ent=vedetisme^cat1=m.
+ent=verduleria^cat1=f.
+ent=verdureria^cat1=f.
+ent=vertebració^cat1=f.
+ent=vertebrador -a^cat1=adj.
+ent=via2^cat1=prep.
+ent=videoclub^cat1=m.
+ent=vidrienc -a^cat1=adj.
+ent=vila-realenc -realenca^cat1=adj. i m. i f.
+ent=vinari -ària^cat1=adj.
+ent=vinarossenc -a^cat1=adj. i m. i f.
+ent=vis-a-vis^cat1=m.
+ent=visceralitat^cat1=f.
+ent=visualització^cat1=f.
+ent=viudetat^cat1=f.
+ent=vuitmesó -ona^cat1=adj. i m. i f.
+ent=xabià -ana^cat1=adj. i m. i f.
+ent=xabola^cat1=f.
+ent=xampurrat -ada^cat1=adj.
+ent=xarcuter xarcutera^cat1=m. i f.
+ent=xarolat -ada^cat1=adj.
+ent=xatonada^cat1=f.
+ent=xau-xau1^cat1=m.
+ent=xixonenc -a^cat1=adj. i m. i f.
+ent=xorc -a^cat1=adj.
+ent=zairès -esa^cat1=adj. i m. i f.
+ent=zanzibarès -esa^cat1=adj. i m. i f.
+ent=zàping^cat1=m.
+ent=dramatúrgic -a^cat1=adj.
+ent=esticomítia^cat1=f.
+ent=haikai^cat1=m.
+ent=haiku^cat1=m.
+ent=intertextualitat^cat1=f.
+ent=isolexisme^cat1=m.
+ent=literarietat^cat1=f.
+ent=narratari narratària^cat1=m. i f.
+ent=neohistoricisme^cat1=m.
+ent=paraliteratura^cat1=f.
+ent=paratext^cat1=m.
+ent=paratextual^cat1=adj.
+ent=rondallista^cat1=m. i f.
+ent=convalidació^cat1=f.
+ent=immatriculació^cat1=f.
+ent=immatricular^cat1=v. tr.
+ent=padral^cat1=m.
+ent=registral^cat1=adj.
+ent=àteles^cat1=m.
+ent=axis2^cat1=m.
+ent=cèbids^cat1=m. pl.
+ent=cercopitècids^cat1=m. pl.
+ent=cob^cat1=m.
+ent=còlob^cat1=m.
+ent=colòbids^cat1=m. pl.
+ent=cuaquadrada^cat1=adj.
+ent=cudú^cat1=m.
+ent=damalisc^cat1=m.
+ent=dic-dic^cat1=m.
+ent=dingo^cat1=m.
+ent=erinaceids^cat1=m. pl.
+ent=escandèntids^cat1=m. pl.
+ent=falangèrids^cat1=m. pl.
+ent=galeopitec^cat1=m.
+ent=gelada2^cat1=f.
+ent=herpèstids^cat1=m. pl.
+ent=histrícids^cat1=m. pl.
+ent=ínia^cat1=f.
+ent=lèmming^cat1=m.
+ent=lorísids^cat1=m. pl.
+ent=marmosa^cat1=f.
+ent=molòssids^cat1=m. pl.
+ent=mòsquids^cat1=m. pl.
+ent=odobènids^cat1=m. pl.
+ent=okapi^cat1=m.
+ent=otoció^cat1=m.
+ent=saiga^cat1=f.
+ent=saimiri^cat1=m.
+ent=solenodont^cat1=m.
+ent=solenodòntids^cat1=m. pl.
+ent=sotàlia^cat1=m.
+ent=suslic^cat1=m.
+ent=taquiglòssids^cat1=m. pl.
+ent=tragúlids^cat1=m. pl.
+ent=ualabi^cat1=m.
+ent=uombat^cat1=m.
+ent=uroció^cat1=m.
+ent=xenartres^cat1=m. pl.
+ent=biplanari -ària^cat1=adj.
+ent=coplanar^cat1=adj.
+ent=curtosi^cat1=f.
+ent=holomorf -a^cat1=adj.
+ent=holomòrfic -a^cat1=adj.
+ent=infinitèsim^cat1=m.
+ent=jacobià -ana^cat1=adj.
+ent=meromorf -a^cat1=adj.
+ent=meromòrfic -a^cat1=adj.
+ent=monoide^cat1=m.
+ent=multivariable^cat1=adj.
+ent=podària^cat1=f.
+ent=podàric -a^cat1=adj.
+ent=quartil^cat1=m.
+ent=quaterna^cat1=f.
+ent=sesquilineal^cat1=adj.
+ent=trigèsim -a^cat1=adj.
+ent=uniplanari -ària^cat1=adj.
+ent=agalàctia^cat1=f.
+ent=al·lergòleg al·lergòloga^cat1=m. i f.
+ent=al·lergologia^cat1=f.
+ent=amèlia^cat1=f.
+ent=anestesiòleg anestesiòloga^cat1=m. i f.
+ent=angiogènesi^cat1=f.
+ent=automedicar-se^cat1=v. intr. pron.
+ent=cànnabis^cat1=m.
+ent=cistoscòpia^cat1=f.
+ent=cosmetologia^cat1=f.
+ent=daltònic -a^cat1=adj. i m. i f.
+ent=darwinià -ana^cat1=adj.
+ent=dipsòman -a^cat1=adj. i m. i f.
+ent=dipsomania^cat1=f.
+ent=discapacitat1^cat1=f.
+ent=discapacitat2 -ada^cat1=adj. i m. i f.
+ent=exopàtic -a^cat1=adj.
+ent=grifa2^cat1=f.
+ent=hemograma^cat1=m.
+ent=hemotoxina^cat1=f.
+ent=hepatòleg hepatòloga^cat1=m. i f.
+ent=hepatologia^cat1=f.
+ent=homofòbia^cat1=f.
+ent=internista^cat1=m. i f.
+ent=lentilla^cat1=f.
+ent=light^cat1=adj.
+ent=litotriptor^cat1=m.
+ent=malnodrit -ida^cat1=adj. i m. i f.
+ent=malnutrició^cat1=f.
+ent=marihuana^cat1=f.
+ent=mastòleg mastòloga^cat1=m. i f.
+ent=maternitzada^cat1=adj.
+ent=nefròleg nefròloga^cat1=m. i f.
+ent=nefrologia^cat1=f.
+ent=obstetre obstetra^cat1=m. i f.
+ent=pneumòleg pneumòloga^cat1=m. i f.
+ent=prebiòtic2 -a^cat1=adj.
+ent=probiòtic -a^cat1=adj.
+ent=pseudohermafroditisme^cat1=m.
+ent=quiropràctic -a^cat1=adj.
+ent=roentgengrafia^cat1=f.
+ent=roentgenlogia^cat1=f.
+ent=roentgenteràpia^cat1=f.
+ent=tabètic -a^cat1=adj. i m. i f.
+ent=tendovaginitis^cat1=f.
+ent=tenosinovitis^cat1=f.
+ent=torciment^cat1=m.
+ent=cadmiar^cat1=v. tr.
+ent=courar^cat1=v. tr.
+ent=descarburar^cat1=v. tr.
+ent=ferrotitani^cat1=m.
+ent=metal·lotèrmia^cat1=f.
+ent=microfotografia^cat1=f.
+ent=zincar^cat1=v. tr.
+ent=altostrat^cat1=m.
+ent=cirrostrat^cat1=m.
+ent=climatòleg climatòloga^cat1=m. i f.
+ent=depressionari -ària^cat1=adj.
+ent=electrometeor^cat1=m.
+ent=foehn^cat1=m.
+ent=föhn^cat1=m.
+ent=fotometeor^cat1=m.
+ent=litometeor^cat1=m.
+ent=nimbostrat^cat1=m.
+ent=piranòmetre^cat1=m.
+ent=xalocada^cat1=f.
+ent=al·loquímic -a^cat1=adj.
+ent=antiperthita^cat1=f.
+ent=bipiràmide^cat1=f.
+ent=botrioide^cat1=m.
+ent=calcosilicat^cat1=m.
+ent=carbonatita^cat1=f.
+ent=cromitita^cat1=f.
+ent=dipiramidal^cat1=adj.
+ent=esferulita^cat1=f.
+ent=exhalatiu -iva^cat1=adj.
+ent=exhalita^cat1=f.
+ent=exsoldre^cat1=v. tr.
+ent=exsolució^cat1=f.
+ent=fanerocristal·lí -ina^cat1=adj.
+ent=greisen^cat1=m.
+ent=hipidiomorf -a^cat1=adj.
+ent=indicatriu^cat1=f.
+ent=inhalita^cat1=f.
+ent=itabirita^cat1=f.
+ent=kimberlita^cat1=f.
+ent=lamproïta^cat1=f.
+ent=microclínic -a^cat1=adj.
+ent=microcristal·lí -ina^cat1=adj.
+ent=monomineral^cat1=adj.
+ent=ofiolita^cat1=f.
+ent=peloide^cat1=m.
+ent=perthita^cat1=f.
+ent=pseudomòrfic -a^cat1=adj.
+ent=sèctil^cat1=adj.
+ent=simplectita^cat1=f.
+ent=sintàxia^cat1=f.
+ent=subèdric -a^cat1=adj.
+ent=vulcanogènic -a^cat1=adj.
+ent=acantita^cat1=f.
+ent=adulària^cat1=f.
+ent=aerinita^cat1=f.
+ent=almandina^cat1=f.
+ent=almangra^cat1=f.
+ent=alunita^cat1=f.
+ent=amazonita^cat1=f.
+ent=analcima^cat1=f.
+ent=anapaïta^cat1=f.
+ent=andesina^cat1=f.
+ent=andradita^cat1=f.
+ent=anglesita^cat1=f.
+ent=ankerita^cat1=f.
+ent=antigorita^cat1=f.
+ent=autunita^cat1=f.
+ent=baddeleyita^cat1=f.
+ent=berlinita^cat1=f.
+ent=böhmita^cat1=f.
+ent=boulangerita^cat1=f.
+ent=bournonita^cat1=f.
+ent=brochantita^cat1=f.
+ent=bytownita^cat1=f.
+ent=calamida^cat1=f.
+ent=calcantita^cat1=f.
+ent=carbonatofluorapatita^cat1=f.
+ent=carbonatohidroxilapatita^cat1=f.
+ent=celsiana^cat1=f.
+ent=chamosita^cat1=f.
+ent=clinoclor^cat1=m.
+ent=clinoptilolita^cat1=f.
+ent=clinozoisita^cat1=f.
+ent=clorapatita^cat1=f.
+ent=coesita^cat1=f.
+ent=columbites^cat1=f. pl.
+ent=criolita^cat1=f.
+ent=criptomelana^cat1=f.
+ent=crisotil^cat1=m.
+ent=dravita^cat1=f.
+ent=elbaïta^cat1=f.
+ent=escapolites^cat1=f. pl.
+ent=escorodita^cat1=f.
+ent=espodumena^cat1=f.
+ent=estibina^cat1=f.
+ent=fluorapatita^cat1=f.
+ent=haüyna^cat1=f.
+ent=hedenbergita^cat1=f.
+ent=hidromiques^cat1=f. pl.
+ent=hübnerita^cat1=f.
+ent=huebnerita^cat1=f.
+ent=jarosita^cat1=f.
+ent=kernita^cat1=f.
+ent=labradorita^cat1=f.
+ent=laumontita^cat1=f.
+ent=lawsonita^cat1=f.
+ent=lizardita^cat1=f.
+ent=loel·lingita^cat1=f.
+ent=löl·lingita^cat1=f.
+ent=melanterita^cat1=f.
+ent=microlita^cat1=f.
+ent=noseana^cat1=f.
+ent=omfacita^cat1=f.
+ent=paragonita^cat1=f.
+ent=períclasi^cat1=f.
+ent=perovskita^cat1=f.
+ent=pigeonita^cat1=f.
+ent=pirofil·lita^cat1=f.
+ent=piroxmangita^cat1=f.
+ent=pirrotina^cat1=f. obs.
+ent=pirrotita^cat1=f.
+ent=podiforme^cat1=adj.
+ent=portlandita^cat1=f.
+ent=prehnita^cat1=f.
+ent=proustita^cat1=f.
+ent=quiastolita^cat1=f.
+ent=rodocrosita^cat1=f.
+ent=rodonita^cat1=f.
+ent=schorl^cat1=m.
+ent=smithsonita^cat1=f.
+ent=spessartina^cat1=f.
+ent=strengita^cat1=f.
+ent=sulfosals^cat1=f. pl.
+ent=tennantita^cat1=f.
+ent=todorokita^cat1=f.
+ent=torbernita^cat1=f.
+ent=ulexita^cat1=f.
+ent=ulvöspinel·la^cat1=f.
+ent=uvarovita^cat1=f.
+ent=xenotima^cat1=f.
+ent=contrapou^cat1=m.
+ent=diastemàtic -a^cat1=adj.
+ent=longa^cat1=f.
+ent=lutier^cat1=m. i f.
+ent=ple1^cat1=m.
+ent=regalia2^cat1=f.
+ent=samfoina^cat1=f.
+ent=swing^cat1=m.
+ent=varetatge^cat1=m.
+ent=medallística^cat1=f.
+ent=melgorès^cat1=m.
+ent=nacte -a^cat1=adj.
+ent=capalçada^cat1=f.
+ent=clotoide^cat1=f.
+ent=aigüerola^cat1=f.
+ent=apterigiformes^cat1=m. pl.
+ent=aüllat^cat1=m.
+ent=bitol^cat1=m.
+ent=casuariformes^cat1=m. pl.
+ent=coliformes^cat1=m. pl.
+ent=dodo^cat1=m.
+ent=egagròpila^cat1=f.
+ent=esfenisciformes^cat1=m. pl.
+ent=estrucioniformes^cat1=m. pl.
+ent=falaropòdids^cat1=m. pl.
+ent=moa^cat1=m.
+ent=pàixera^cat1=f.
+ent=passaforadí^cat1=m.
+ent=picacarrasques^cat1=m.
+ent=picaplatges^cat1=m.
+ent=picaport^cat1=m.
+ent=ploceids^cat1=m. pl.
+ent=psitaciformes^cat1=m. pl.
+ent=reïformes^cat1=m. pl.
+ent=tinamiformes^cat1=m. pl.
+ent=trogoniformes^cat1=m. pl.
+ent=acantodis^cat1=m. pl.
+ent=ammonoïdeus^cat1=m. pl.
+ent=anquilosaures^cat1=m. pl.
+ent=blastoïdeus^cat1=m. pl.
+ent=braquiosaure^cat1=m.
+ent=brontoteris^cat1=m. pl.
+ent=calpionel·la^cat1=f.
+ent=calpionèl·lids^cat1=m. pl.
+ent=ceratit^cat1=m.
+ent=ceratosaures^cat1=m. pl.
+ent=cistoïdeus^cat1=m. pl.
+ent=clipeasteroides^cat1=m. pl.
+ent=conulàrids^cat1=m. pl.
+ent=cromanyó^cat1=m.
+ent=edrioasteroïdeus^cat1=m. pl.
+ent=equisetofitins^cat1=m. pl.
+ent=esfenòfits^cat1=m. pl.
+ent=espatangoides^cat1=m. pl.
+ent=espirifèrids^cat1=m. pl.
+ent=estegosaures^cat1=m. pl.
+ent=estrofomènids^cat1=m. pl.
+ent=estromatoporis^cat1=m. pl.
+ent=euriptèrids^cat1=m. pl.
+ent=facòpids^cat1=m. pl.
+ent=ginkgòfits^cat1=m. pl.
+ent=globigerina^cat1=f.
+ent=goniatit^cat1=m.
+ent=heterostegina^cat1=f.
+ent=hiòlits^cat1=m. pl.
+ent=hipurit^cat1=m.
+ent=homalozous^cat1=m. pl.
+ent=inoceràmids^cat1=m. pl.
+ent=labirintodonts^cat1=m. pl.
+ent=lingúlids^cat1=m. pl.
+ent=macroforaminífers^cat1=m. pl.
+ent=microforaminífers^cat1=m. pl.
+ent=miliòlids^cat1=m. pl.
+ent=monoplacòfors^cat1=m. pl.
+ent=neandertal^cat1=m.
+ent=notosaures^cat1=m. pl.
+ent=operculina^cat1=f.
+ent=orbitolina^cat1=f.
+ent=ostracoderms^cat1=m. pl.
+ent=pitecantrop^cat1=m.
+ent=placoderms^cat1=m. pl.
+ent=pteridospermes^cat1=f. pl.
+ent=quetètids^cat1=m. pl.
+ent=radiolit^cat1=m.
+ent=rinconel·la^cat1=f.
+ent=rinconèl·lids^cat1=m. pl.
+ent=rostroconquis^cat1=m. pl.
+ent=terebràtula^cat1=f.
+ent=terebratúlids^cat1=m. pl.
+ent=tintínids^cat1=m. pl.
+ent=trigònia^cat1=f.
+ent=voltzials^cat1=f. pl.
+ent=autoaprenentatge^cat1=m.
+ent=curricular^cat1=adj.
+ent=disàrtria^cat1=f.
+ent=disàrtric -a^cat1=adj.
+ent=dislàlia^cat1=f.
+ent=doctorand doctoranda^cat1=m. i f.
+ent=episcopi^cat1=m.
+ent=filmina^cat1=f.
+ent=franel·lògraf^cat1=m.
+ent=franel·lograma^cat1=m.
+ent=grafoteràpia^cat1=f.
+ent=interdisciplinarietat^cat1=f.
+ent=laïcista^cat1=adj. i m. i f.
+ent=llicenciand llicencianda^cat1=m. i f.
+ent=ludotecari ludotecària^cat1=m. i f.
+ent=metacognició^cat1=f.
+ent=metacognitiu -iva^cat1=adj.
+ent=neolector neolectora^cat1=m. i f.
+ent=paidocentrisme^cat1=m.
+ent=paidòleg paidòloga^cat1=m. i f.
+ent=paidologia^cat1=f.
+ent=paidològic -a^cat1=adj.
+ent=paidometria^cat1=f.
+ent=paidomètric -a^cat1=adj.
+ent=pedocentrisme^cat1=m.
+ent=pedòleg1 pedòloga^cat1=m. i f.
+ent=pedològic1 -a^cat1=adj.
+ent=pedometria^cat1=f.
+ent=pedomètric -a^cat1=adj.
+ent=postgraduat postgraduada^cat1=m. i f.
+ent=postgrau^cat1=m.
+ent=pràcticum^cat1=m.
+ent=psicodrama^cat1=m.
+ent=ràtio^cat1=f.
+ent=retroprojector^cat1=m.
+ent=rinolàlia^cat1=f.
+ent=sociodrama^cat1=m.
+ent=videodisc^cat1=m.
+ent=alòpids^cat1=m. pl.
+ent=anguíl·lids^cat1=m. pl.
+ent=argentínids^cat1=m. pl.
+ent=barbelló^cat1=m.
+ent=belònids^cat1=m. pl.
+ent=biret^cat1=m.
+ent=capçuda^cat1=adj.
+ent=caproids^cat1=m. pl.
+ent=caua^cat1=f.
+ent=celacàntids^cat1=m. pl.
+ent=cetorínids^cat1=m. pl.
+ent=citàrids^cat1=m. pl.
+ent=clínids^cat1=m. pl.
+ent=ctenoide^cat1=adj.
+ent=dactiloptèrids^cat1=m. pl.
+ent=espasenca^cat1=adj.
+ent=gèl·lera^cat1=f.
+ent=gerla^cat1=f.
+ent=golfàs^cat1=m.
+ent=hemúlids^cat1=m. pl.
+ent=hexànquids^cat1=m. pl.
+ent=hipotremats^cat1=m. pl.
+ent=jonqueti^cat1=m.
+ent=lamprídids^cat1=m. pl.
+ent=llanguet^cat1=m.
+ent=llisol^cat1=m.
+ent=merlúccids^cat1=m. pl.
+ent=miliobàtids^cat1=m. pl.
+ent=morenot^cat1=m.
+ent=plagiòstoms^cat1=m. pl.
+ent=pleuronèctids^cat1=m. pl.
+ent=pomacèntrids^cat1=m. pl.
+ent=pomatòmids^cat1=m. pl.
+ent=roseti^cat1=m.
+ent=traquínids^cat1=m. pl.
+ent=tremoloia^cat1=f.
+ent=triàquids^cat1=m. pl.
+ent=tripterígids^cat1=m. pl.
+ent=triquiúrids^cat1=m. pl.
+ent=agullera^cat1=f.
+ent=amolar-se^cat1=v. intr. pron.
+ent=baguejar^cat1=v. tr.
+ent=bonitolera^cat1=f.
+ent=garotera^cat1=f.
+ent=llampuguera^cat1=f.
+ent=rallador1 ralladora^cat1=m. i f.
+ent=rallar1^cat1=v. intr.
+ent=reganar^cat1=v. intr.
+ent=sentiner sentinera^cat1=m. i f.
+ent=tresmall^cat1=m.
+ent=agar^cat1=m.
+ent=antocerotòpsids^cat1=m. pl.
+ent=asplenials^cat1=f. pl.
+ent=blauverda^cat1=adj.
+ent=buxbaumials^cat1=f. pl.
+ent=calobrials^cat1=f. pl.
+ent=centrals^cat1=f. pl.
+ent=cianoprocariotes^cat1=m. pl.
+ent=cloromonadals^cat1=f. pl.
+ent=crisòfits^cat1=m. pl.
+ent=cromistes^cat1=f. pl.
+ent=cutlerials^cat1=f. pl.
+ent=dictiocals^cat1=f. pl.
+ent=dinoflagel·lats^cat1=m. pl.
+ent=edogoni^cat1=m.
+ent=esfacelarials^cat1=f. pl.
+ent=esfagnals^cat1=f. pl.
+ent=esferopleals^cat1=f. pl.
+ent=eustigmatòfits^cat1=m. pl.
+ent=ficocol·loide^cat1=m.
+ent=filicates^cat1=f. pl.
+ent=filicofitins^cat1=m. pl.
+ent=fucofícies^cat1=f. pl.
+ent=funarials^cat1=f. pl.
+ent=gelidials^cat1=f. pl.
+ent=hepatòpsids^cat1=m. pl.
+ent=isoetòpsids^cat1=m. pl.
+ent=jungermanníides^cat1=f. pl.
+ent=klebshormidials^cat1=f. pl.
+ent=licofitins^cat1=m. pl.
+ent=marattiòpsids^cat1=m. pl.
+ent=marcancíides^cat1=f. pl.
+ent=ofioglossòpsids^cat1=m. pl.
+ent=osmundals^cat1=f. pl.
+ent=pennals^cat1=f. pl.
+ent=porfiridials^cat1=f. pl.
+ent=psilofitins^cat1=m. pl.
+ent=psilotates^cat1=f. pl.
+ent=pteridals^cat1=f. pl.
+ent=rafidòfits^cat1=m. pl.
+ent=ríccia^cat1=f.
+ent=riniofitins^cat1=m. pl.
+ent=salvinials^cat1=f. pl.
+ent=silicoflagel·lades^cat1=f. pl.
+ent=sinurofícies^cat1=f. pl.
+ent=ulvofícies^cat1=f. pl.
+ent=xantòfits^cat1=m. pl.
+ent=zignematals^cat1=f. pl.
+ent=agba^cat1=f.
+ent=agrifoli^cat1=m.
+ent=albena^cat1=f.
+ent=altea^cat1=f.
+ent=amentiflores^cat1=f. pl.
+ent=aspidistra^cat1=f.
+ent=baguer^cat1=m.
+ent=basraloc^cat1=m.
+ent=basralocus^cat1=m.
+ent=beatamaria^cat1=adj.
+ent=bojac^cat1=m.
+ent=bolondo^cat1=m.
+ent=boneter1^cat1=m.
+ent=bonets^cat1=m. pl.
+ent=burral^cat1=adj.
+ent=caparidàcies^cat1=f. pl.
+ent=casuarinàcies^cat1=f. pl.
+ent=cembra^cat1=adj.
+ent=cerrioide^cat1=adj.
+ent=ciclantàcies^cat1=f. pl.
+ent=cínara^cat1=adj.
+ent=cinomoriàcies^cat1=f. pl.
+ent=clusiàcies^cat1=f. pl.
+ent=còcul^cat1=m.
+ent=corneller^cat1=m.
+ent=dipterocarpàcies^cat1=f. pl.
+ent=dries^cat1=f.
+ent=enoteràcies^cat1=f. pl.
+ent=escoba^cat1=f.
+ent=esmilacàcies^cat1=f. pl.
+ent=esparganiàcies^cat1=f. pl.
+ent=estiracàcies^cat1=f. pl.
+ent=farònia^cat1=f.
+ent=flatera^cat1=adj.
+ent=galleran^cat1=m.
+ent=glopdeneu^cat1=m.
+ent=granadilla^cat1=f.
+ent=hidrocaritàcies^cat1=f. pl.
+ent=ilang-ilang^cat1=m.
+ent=karri^cat1=m.
+ent=kauri^cat1=m.
+ent=kèntia^cat1=f.
+ent=ladanífera^cat1=adj.
+ent=laguerstrèmia^cat1=f.
+ent=llambrusquer^cat1=m.
+ent=lorantàcies^cat1=f. pl.
+ent=maclura^cat1=f.
+ent=magraneta^cat1=f.
+ent=maracujà^cat1=m.
+ent=matagallina^cat1=f.
+ent=matrimonis^cat1=m. pl.
+ent=mesquite^cat1=f.
+ent=moixereta^cat1=f.
+ent=monstera^cat1=f.
+ent=murcarol^cat1=m.
+ent=murcarola^cat1=f.
+ent=onagràcies^cat1=f. pl.
+ent=passifloràcies^cat1=f. pl.
+ent=pedaliàcies^cat1=f. pl.
+ent=pelitre^cat1=m.
+ent=peoniàcies^cat1=f. pl.
+ent=piperita^cat1=adj.
+ent=pipiu^cat1=m.
+ent=poinciana^cat1=f.
+ent=poniol^cat1=m.
+ent=portulaca^cat1=f.
+ent=rafflesiàcies^cat1=f. pl.
+ent=rambutan^cat1=m.
+ent=regalíssia^cat1=f.
+ent=rotaboc^cat1=m.
+ent=salenca^cat1=f.
+ent=sapan^cat1=m.
+ent=sapinde^cat1=m.
+ent=sapote^cat1=m.
+ent=sempredura^cat1=f.
+ent=senís^cat1=m.
+ent=serradella^cat1=f.
+ent=taxodi^cat1=m.
+ent=teligonàcies^cat1=f. pl.
+ent=trèfola^cat1=f.
+ent=turífera^cat1=adj.
+ent=velutina^cat1=adj.
+ent=xicoia^cat1=f.
+ent=xilosti^cat1=adj.
+ent=apertura^cat1=f.
+ent=cartisme^cat1=m.
+ent=clientelisme^cat1=m.
+ent=liberalitzador -a^cat1=adj.
+ent=avaluador -a^cat1=adj.
+ent=cercatalents^cat1=m. i f.
+ent=discjòquei^cat1=m. i f.
+ent=emmoquetador emmoquetadora^cat1=m. i f.
+ent=emmoquetar^cat1=v. tr.
+ent=freelance^cat1=m. i f.
+ent=frigorista^cat1=m. i f.
+ent=joneguer joneguera^cat1=m. i f.
+ent=netejavidres^cat1=m. i f.
+ent=portalliteres^cat1=m. i f.
+ent=tatuador tatuadora^cat1=m. i f.
+ent=autoestima^cat1=f.
+ent=glossolàlia^cat1=f.
+ent=pícnic2 -a^cat1=adj. i m. i f.
+ent=psicolingüística^cat1=f.
+ent=sadomasoquisme^cat1=m.
+ent=sadomasoquista^cat1=adj.
+ent=superego^cat1=m.
+ent=superjò^cat1=m.
+ent=aluminotèrmic -a^cat1=adj.
+ent=amperometria^cat1=f.
+ent=biamperometria^cat1=f.
+ent=bohri^cat1=m.
+ent=clorofluorocarboni^cat1=m.
+ent=clorofluorocarbur^cat1=m.
+ent=conductòmetre^cat1=m.
+ent=conductometria^cat1=f.
+ent=conductomètric -a^cat1=adj.
+ent=darmstadti^cat1=m.
+ent=dioxina^cat1=f.
+ent=disgregador -a^cat1=adj.
+ent=dubni^cat1=m.
+ent=epoxídica^cat1=adj.
+ent=faradaic -a^cat1=adj.
+ent=flint^cat1=adj.
+ent=fotosensibilitzador^cat1=m.
+ent=haló^cat1=m.
+ent=hassi^cat1=m.
+ent=liposoluble^cat1=adj.
+ent=meitneri^cat1=m.
+ent=metal·loproteïna^cat1=f.
+ent=nitro^cat1=m.
+ent=propilè^cat1=m.
+ent=roentgeni^cat1=m.
+ent=röntgeni^cat1=m.
+ent=seaborgi^cat1=m.
+ent=titulomètric -a^cat1=adj.
+ent=transfèrmic -a^cat1=adj.
+ent=adar^cat1=m.
+ent=adventisme^cat1=m.
+ent=adventista^cat1=adj.
+ent=amalecita^cat1=m. i f.
+ent=amalequita^cat1=adj. i m. i f.
+ent=ammonita^cat1=m. i f.
+ent=angelologia^cat1=f.
+ent=av^cat1=m.
+ent=bahaisme^cat1=m.
+ent=bahaista^cat1=adj.
+ent=caixer2^cat1=adj.
+ent=caraisme^cat1=m.
+ent=caraïta^cat1=m. i f.
+ent=catecumenat^cat1=m.
+ent=confucià -ana^cat1=adj.
+ent=confucianista^cat1=adj.
+ent=cristologia^cat1=f.
+ent=cristològic -a^cat1=adj.
+ent=dàric^cat1=m.
+ent=descregut -uda^cat1=adj. i m. i f.
+ent=deuterocanònic -a^cat1=adj.
+ent=edomita^cat1=m. i f.
+ent=elul^cat1=m.
+ent=exorcistat^cat1=m.
+ent=filactèria^cat1=f.
+ent=gehenna^cat1=f.
+ent=guematria^cat1=f.
+ent=guenizà^cat1=f.
+ent=hagadà^cat1=f.
+ent=halacà^cat1=f.
+ent=hassid^cat1=m. i f.
+ent=hassidisme^cat1=m.
+ent=heixvan^cat1=m.
+ent=henoteista^cat1=adj.
+ent=hurrita^cat1=m. i f.
+ent=iar^cat1=m.
+ent=idumeu -ea^cat1=m. i f.
+ent=intertestamentari -ària^cat1=adj.
+ent=judeocristià -ana^cat1=adj.
+ent=kerigma^cat1=m.
+ent=latitudinarisme^cat1=m.
+ent=marheixvan^cat1=m.
+ent=mariològic -a^cat1=adj.
+ent=masora^cat1=f.
+ent=masoreta^cat1=m.
+ent=masorètic -a^cat1=adj.
+ent=menorà^cat1=f.
+ent=midraix^cat1=m.
+ent=monolatria^cat1=f.
+ent=nazireu -ea^cat1=adj. i m. i f.
+ent=neotestamentari -ària^cat1=adj.
+ent=nissan^cat1=m.
+ent=ostiariat^cat1=m.
+ent=òstracon^cat1=m.
+ent=perícope^cat1=f.
+ent=pseudoepígraf^cat1=m.
+ent=pseudonímia^cat1=f.
+ent=quibuts^cat1=m.
+ent=quipà^cat1=f.
+ent=quisleu^cat1=m.
+ent=santíssim^cat1=m.
+ent=sintoisme^cat1=m.
+ent=sintoista^cat1=adj. i m. i f.
+ent=sivan^cat1=m.
+ent=tal·lit^cat1=m.
+ent=tammuz^cat1=m.
+ent=targum^cat1=m.
+ent=tevet^cat1=m.
+ent=tixrí^cat1=m.
+ent=ugarític -a^cat1=adj.
+ent=veterotestamentari -ària^cat1=adj.
+ent=xeol^cat1=m.
+ent=xevat^cat1=m.
+ent=xintoisme^cat1=m.
+ent=xintoista^cat1=adj.
+ent=interiorització^cat1=f.
+ent=interioritzar^cat1=v. tr.
+ent=lumpen^cat1=m.
+ent=macrosociologia^cat1=f.
+ent=microsociologia^cat1=f.
+ent=pluriculturalisme^cat1=m.
+ent=càrtel^cat1=m.
+ent=cent1^cat1=m.
+ent=comptabilitzar^cat1=v. tr.
+ent=deflactar^cat1=v. tr.
+ent=desindustrialització^cat1=f.
+ent=dúmping^cat1=m.
+ent=euro^cat1=m.
+ent=eurodòlar^cat1=m.
+ent=facturatge^cat1=m.
+ent=fiscalitat^cat1=f.
+ent=hòlding^cat1=m.
+ent=immobilitzat -ada^cat1=adj.
+ent=monetarisme^cat1=m.
+ent=real1^cat1=m.
+ent=redescompte^cat1=m.
+ent=rellançament^cat1=m.
+ent=royalty^cat1=m.
+ent=abalisament^cat1=m.
+ent=neumàtic1^cat1=m.
+ent=paretó^cat1=m.
+ent=validadora^cat1=f.
+ent=abossar^cat1=v. tr.
+ent=caixeta^cat1=f.
+ent=cambrot^cat1=m.
+ent=derroter^cat1=m.
+ent=escantilló^cat1=m.
+ent=eslinga^cat1=f.
+ent=goneta^cat1=f.
+ent=grímpola^cat1=f.
+ent=halar1^cat1=v. tr.
+ent=imada^cat1=f.
+ent=lascar^cat1=v. tr.
+ent=masteleret^cat1=m.
+ent=muixera^cat1=f.
+ent=nyinyolera^cat1=f.
+ent=orinc^cat1=m.
+ent=orincar^cat1=v. tr.
+ent=pantalà^cat1=m.
+ent=perroquet^cat1=m.
+ent=rampugoll^cat1=m.
+ent=rampugollar^cat1=v. tr.
+ent=rissada^cat1=f.
+ent=saltell^cat1=m.
+ent=tangó^cat1=m.
+ent=tastavent^cat1=m.
+ent=xurria^cat1=f.
+ent=cucurbití^cat1=m.
+ent=escòlex^cat1=m.
+ent=proglotis^cat1=m.
+ent=vibrissa^cat1=f.
+ent=cervellet^cat1=m.
+ent=hemèlitre^cat1=m.
+ent=hepatopàncrees^cat1=m.
+ent=homeotèrmia^cat1=f.
+ent=homodont -a^cat1=adj.
+ent=maxil·la^cat1=f.
+ent=monoespecífic -a^cat1=adj.
+ent=otòlit^cat1=m.
+ent=oviparisme^cat1=m.
+ent=ovoviviparisme^cat1=m.
+ent=patagi^cat1=m.
+ent=siringe^cat1=f.
+ent=uropigi^cat1=m.
+ent=benhaja^cat1=???
+ent=malhaja^cat1=???
+ent=heus ací^cat1=???
+ent=vet ací^cat1=???
+ent=vet aquí^cat1=???

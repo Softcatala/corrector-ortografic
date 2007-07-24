@@ -1,0 +1,73 @@
+[DIEC]  ent=abadia^cat1=f.
+[DIEC]  ent=àbac^cat1=m.
+[DIEC]  ent=abat1^cat1=m.
+[DIEC]  ent=abietàcies^cat1=f. pl.
+[DIEC]  ent=absoldre^cat1=v. tr.^com1=ger. absolent; p. p. absolt; ind. pr. 1 absolc; subj. pr. absolgui, etc.; subj. imperf. absolgués, etc.
+[DIEC]  ent=abstenir-se^cat1=v. pron.^com1=p. p. abstingut; ind. pr. 1 abstinc, 3 absté; ind. fut. abstindré, etc.; subj. pr. abstingui, etc.; subj. imperf. abstingués, etc.; imperat. 2 abstén
+[DIEC]  ent=acollir^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com collir
+[DIEC]  ent=acréixer^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com créixer
+[DIEC]  ent=adduir^cat1=v. tr.
+[DIEC]  ent=adscriure^cat1=v. tr.^com1=quant a la flexió, com escriure
+[DIEC]  ent=aga khan^cat1=m.
+[DIEC]  ent=alçar^cat1=v. tr.^cat2=pron.^cat3=intr.
+[DIEC]  ent=alenar^cat1=v. intr.
+[DIEC]  ent=altre1^cat1=pron.
+[DIEC]  ent=altre2 -a^cat1=adj.^cat2=pron.^com1=o l'altre mes, o l'altre any
+[DIEC]  ent=ambigu -a^cat1=adj.
+[DIEC]  ent=anar^cat1=v. intr.^com1=ind. pr. vaig, vas, va, anem, aneu, van; ind. fut. aniré o iré, etc.; subj. pr. 1 vagi, 2 vagis, 3 vagi, 6 vagin; imper. 2 vés
+[DIEC]  ent=antiboira^cat1=adj.^com1=inv.
+[DIEC]  ent=aparer^cat1=v. intr.^com1=usat gairebé exclusivament en ind. pres. 3 apar
+[DIEC]  ent=aprehendre^cat1=v. tr.^com1=quant a la flexió, com aprendre
+[DIEC]  ent=aprendre^cat1=v. tr.^cat2=tr. pron.^com1=ger. aprenent; p. p. après; ind. pr. 1 aprenc, 3 aprèn; subj. pr. aprengui, etc.; subj. imperf. aprengués, etc.
+[DIEC]  ent=aquest -a^cat1=adj.^cat2=pron.
+[DIEC]  ent=arròs^cat1=m.^com1=pl. -ossos^com2=o arròs de pardal^com3=o arròs de pardal o arròs de paret
+[DIEC]  ent=arrupir-se^cat1=v. pron.^com1=ind. pr. 3 arrupeix (o arrup)
+[DIEC]  ent=atènyer^cat1=v. tr.^cat2=intr.^com1=p. p. atès
+[DIEC]  ent=bambo -a^cat1=adj.
+[DIEC]  ent=barba-reveixí -reveixina^cat1=adj.
+[DIEC]  ent=baró baronessa^cat1=m. i f.^cat2=f.^cat3=m.
+[DIEC]  ent=beure1^cat1=v. tr.^cat2=tr. pron.^cat3=pron.^com1=ger. bevent; p. p. begut; ind. pr. bec, beus, beu, bevem, beveu, beuen; subj. pr. begui, etc.; subj. imperf. begués, etc.^com2=o beure a morro, o beure a broc d'ampolla^com3=o beure a raig^com4=o beure's l'enteniment^com5=o beure's amb la mirada
+[DIEC]  ent=bolig1^cat1=m.^com1=pl. -igs o -itjos
+[DIEC]  ent=brumir^cat1=v. intr.^com1=ind. pr. 3 brumeix (o brum)
+[DIEC]  ent=caldre^cat1=v. intr.^com1=inf. caldre o caler; quant a la flexió, com valer^com2=o només caldria
+[DIEC]  ent=cantar^cat1=v. tr.^cat2=intr.
+[DIEC]  ent=caure^cat1=v. intr.^com1=ger. caient; p. p. caigut; ind. pr. caic, caus, cau, caiem, caieu, cauen; ind. imperf. queia, etc.; subj. pr. caigui, etc.; subj. imperf. caigués, etc.^com2=o estar si cau no cau^com3=o caure una cosa del cel^com4=o caure del candeler^com5=o caure sota la seva mà
+[DIEC]  ent=collir^cat1=v. tr.^com1=ind. pr. cullo, culls, cull, collim, colliu, cullen; subj. pr. culli, cullis, culli, collim, colliu, cullin
+[DIEC]  ent=commoure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com moure; p. p., commogut o commòs
+[DIEC]  ent=complir^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=p. p. complert (i, en algunes contrades, complit)
+[DIEC]  ent=concórrer^cat1=v. intr.^com1=quant a la flexió, com córrer
+[DIEC]  ent=condoldre's^cat1=v. pron.^com1=quant a la flexió, com valer
+[DIEC]  ent=confondre^cat1=pron.^cat2=v. tr.^com1=ger. confonent; p. p. confós; ind. pr. 1 confonc; subj. pr. confongui, etc.; subj. imperf. confongués, etc.
+[DIEC]  ent=coure2^cat1=v. tr.^cat2=intr.^com1=ger. coent; p. p. cuit; ind. pr. coc, cous, cou, coem, coeu, couen; subj. pr. cogui, etc.; subj. imperf. cogués, etc.^com2=p. p. cogut
+[DIEC]  ent=cuinar^cat1=v. intr.^cat2=tr.
+[DIEC]  ent=dir1^cat1=v. tr.^com1=ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu^com2=o no trobar res a dir^com3=o tan aviat dit com fet^com4=o vol dir?, o voleu dir?^com5=o per dir-ho així, o com si diguéssim, o que diguéssim^com6=o dir-ne de tot color, o dir-ne de coents, o dir-ne de verdes i madures, o dir-ne per a salar, o dir de tot^com7=o dir de vós, o dir de vostè
+[DIEC]  ent=donar^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=ind. pr. 2 dónes, 3 dóna
+[DIEC]  ent=dur2^cat1=v. tr.^com1=ger. duent; p. p. dut; ind. pr. duc, duus (o dus), duu (o du), etc.; imperf. duia, etc.; subj. pr. dugui, etc.; imperf. dugués, etc.
+[DIEC2] ent=eixe -a^cat1=adj. i pron.
+[DIEC]  ent=ell2 ella^cat1=pron.
+[DIEC]  ent=embeure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com beure
+[DIEC]  ent=enaltir^cat1=v. tr.
+[DIEC]  ent=endur-se^cat1=v. pron.^com1=quant a la flexió, com dur
+[DIEC]  ent=entreobrir^cat1=v. tr.^com1=quant a la flexió, com obrir
+[DIEC]  ent=escriure^cat1=pron.
+[DIEC]  ent=ésser1^cat1=v. intr.
+[DIEC]  ent=estar^cat1=v. intr.^cat2=pron.^cat3=tr.^com1=ind. pr. 1 estic, 2 estàs, 3 està, 6 estan; subj. pr. estigui, etc.; subj. imperf. estigués, etc.; imper. estigues, estigui, estiguem, estigueu, estiguin^com2=o estar per alguna cosa
+[DIEC]  ent=estoig^cat1=m.^com1=pl.-igs o -tjos
+[DIEC]  ent=excloure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com cloure; p. p. exclòs
+[DIEC]  ent=falç^cat1=f.
+[DIEC]  ent=hissar^cat1=v. tr.^cat2=pron.
+[DIEC]  ent=humitat^cat1=f.
+[DIEC]  ent=imprimir^cat1=v. tr.^com1=p. p. imprès
+[DIEC]  ent=induir^cat1=v. tr.
+[DIEC]  ent=obtenir^cat1=v. tr.^com1=quant a la flexió, com mantenir
+[DIEC]  ent=omplir^cat1=v. tr.^cat2=pron.^com1=p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
+[DIEC]  ent=partir^cat1=v. tr.^cat2=pron.^cat3=intr.
+[DIEC]  ent=patir^cat1=v. tr.^cat2=intr.
+[DIEC]  ent=pobre -a^cat1=adj.^cat2=m. i f.
+[DIEC]  ent=reomplir^cat1=v. tr.^com1=quant a la flexió, com omplir
+[DIEC]  ent=seure^cat1=v. intr.^com1=ger. seient; p. p. segut; ind. pr. sec, seus, seu, seiem, seieu, seuen; ind. imperf. seia, etc.; subj. pr. segui, etc.; subj. imperf. segués, etc.
+[DIEC]  ent=sobresortir^cat1=v. intr.^com1=quant a la flexió, com sortir
+[DIEC]  ent=sud-eslau -eslava^cat1=adj. i m. i f.
+[DIEC]  ent=suís -ïssa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
+[DIEC]  ent=valer^cat1=v. intr.^cat2=tr.^cat3=pron.^com1=inf. valer o valdre; p. p. valgut; ind. pr. 1 valc; ind. fut. valdré, etc.; subj. pr. valgui, etc.; subj. imperf. valgués, etc.^com2=o valgui l'expressió, o valgui la comparació
+[DIEC]  ent=virrei virreina^cat1=m. i f.^cat2=f.

@@ -1,9 +1,47 @@
-//!perl c:/documents/programes/prepmyspell/genera_dic.pl ! -dic=resultats/catalan -aff=resultats/catalan -depura
-// Amb Maj-F9 genera el diccionari
+// Dades sobre "irregularitats" a la la llista de paraules del DIEC.
+// Entenem com "entrada irregular", aquella que no es pot deduir de "ent" i "cat".
+// Són "irregulars" per al programa que genera els diccionaris.
+
+// paraules clau per afegir informació a les entrades
+
+// ALT: s'ha de fer servir una informació alternativa a la del diccionari
+// IGNORA: s'ha d'ignorar l'entrada
+// NOVACAT: s'ha de fer servir una nova categoria
+// NOART: no admet l'article
+
+// Si una entrada té dos o més jocs de regles alternatives, la segona i següents es poden posar envoltades amb <<EXT ... EXT>>. El contingut d'aquest camp ha de tenir el mateix format que el d'una línia qualsevol.
+
+// Es poden indicar formes dependents de la presència o absència d'un grup envoltant fragments amb <<xxx xxx>> o <<!xxx !xxx>>. En el primer cas, es manté el contingut si el grup xxx està en vigor; en el segon cas, es manté si el grup xxx no està en vigor. La informació de l'entrada ha de ser correcta tant si es manté el contingut com si s'esborra (això vol dir, per exemple, que s'han de posar els '&' o ' 'que siguin necessaris). Els codis d'obertura i tancament han de ser els mateixos.
+
+// Paraules específiques per als verbs
+
+// GER indica un gerundi irregular
+// IIM indica un imperfet d'indicatiu
+// SIM indica un imperfet de subjuntiu irregular
+// PAR indica un participi irregular
+// FUT indica un futur irregular
+// +   indica formes que s'han d'afegir; poden ser formes simples o bé formes
+//     generades per una regla i filtrades (ex. tregués/Q/(SPR[1236]|IMP[36]))
+// -   indica formes que s'han de suprimir (una expressió regular que s'aplica
+//     a totes les formes generades regularment; se suprimeixen les que
+//     hi coincideixen)
+// IPR3 indica la tercera persona del present d'indicatiu, a partir de la qual se'n generen d'altres (per exemple, en els verbs en -ir)
 
 //======== Casos especials ========
-el2: PRECALC=el els
-al: PRECALC=al als
+el2: ALT=el els
+al: ALT=al als & NOVACAT=???
+va1: PRECALC=vagi vagis vagi vàgim vàgiu vagin vaig vas vares va vam vàrem vau vàreu van varen
+// Penjam tots els pronoms febles damunt "me"
+me: PRECALC=em en es et hi ho la la'n l'en les l'hi li li'n me me'l me'ls me'n m'hi m'ho ne n'hi nos se se'l se'ls se'm se'n se'ns se't s'hi s'ho te te'l te'ls te'm te'n te'ns t'hi t'ho us vos li'l li'ls
+vint: PRECALC=vint vint-i-u vint-i-un vint-i-una vint-i-dos vint-i-dues vint-i-tres vint-i-quatre vint-i-cinc vint-i-sis vint-i-set vint-i-vuit vint-i-huit vint-i-nou
+trenta: PRECALC=trenta trenta-u trenta-un trenta-una trenta-dos trenta-dues trenta-tres trenta-quatre trenta-cinc trenta-sis trenta-set trenta-vuit trenta-huit trenta-nou
+quaranta: PRECALC=quaranta quaranta-u quaranta-un quaranta-una quaranta-dos quaranta-dues quaranta-tres quaranta-quatre quaranta-cinc quaranta-sis quaranta-set quaranta-vuit quaranta-huit quaranta-nou
+cinquanta: PRECALC=cinquanta cinquanta-u cinquanta-un cinquanta-una cinquanta-dos cinquanta-dues cinquanta-tres cinquanta-quatre cinquanta-cinc cinquanta-sis cinquanta-set cinquanta-vuit cinquanta-huit cinquanta-nou
+seixanta: PRECALC=seixanta seixanta-u seixanta-un seixanta-una seixanta-dos seixanta-dues seixanta-tres seixanta-quatre seixanta-cinc seixanta-sis seixanta-set seixanta-vuit seixanta-huit seixanta-nou
+setanta: PRECALC=setanta setanta-u setanta-un setanta-una setanta-dos setanta-dues setanta-tres setanta-quatre setanta-cinc setanta-sis setanta-set setanta-vuit setanta-huit setanta-nou
+vuitanta: PRECALC=vuitanta vuitanta-u vuitanta-un vuitanta-una vuitanta-dos vuitanta-dues vuitanta-tres vuitanta-quatre vuitanta-cinc vuitanta-sis vuitanta-set vuitanta-vuit vuitanta-nou
+huitanta: PRECALC=huitanta huitanta-u huitanta-un huitanta-una huitanta-dos huitanta-dues huitanta-tres huitanta-quatre huitanta-cinc huitanta-sis huitanta-set huitanta-huit huitanta-nou
+noranta: PRECALC=noranta noranta-u noranta-un noranta-una noranta-dos noranta-dues noranta-tres noranta-quatre noranta-cinc noranta-sis noranta-set noranta-vuit noranta-huit noranta-nou
 
 //======== paraules que s'han d'ignorar   ========
 // (estan integrades a les regles)
@@ -42,7 +80,6 @@ agutí: PLU=-ís
 agà: PLU=agàs
 aiguavés: PLU=-essos
 ambigú: PLU=-ús
-amfiox: PLU=-s
 amfiox: PLU=amfioxs
 amàs: PLU=-assos
 anticòs: PLU=-ossos
@@ -50,6 +87,7 @@ anís: PLU=-issos
 aprés1: PLU=-essos
 arcabús: PLU=-ussos
 argalí: PLU=-ís
+arròs: PLU=-ossos
 arruí: PLU=-ís
 autoanticòs: PLU=-ossos
 azobé: PLU=-és
@@ -90,7 +128,7 @@ cabriolé: PLU=-és
 cabàs: PLU=-assos
 cafè: PLU=-ès
 cafís: PLU=-issos
-cal: PLU=cals
+cal: PLU=cals & NOVACAT=???
 calabós: PLU=-ossos
 calicó: PLU=-ós
 callís: PLU=-issos
@@ -114,7 +152,7 @@ carràs: PLU=-assos
 cartipàs: PLU=-assos
 cartoné: PLU=-és
 cas3: PLU=cassos
-cas4: PLU=cas
+cas4: PLU=cas & NOVACAT=???
 cautxú: PLU=-ús
 ce: PLU=ces
 cent: PLU=cents centes
@@ -145,16 +183,16 @@ damàs: PLU=-assos
 de1: PLU=des
 decés: PLU=-essos
 degotís: PLU=-issos
-del: PLU=dels
+del: PRECALC=del dels & NOVACAT=???
 dervís: PLU=-issos
-des2: PLU=des
+des2: PLU=des & NOVACAT=???
 desembaràs: PLU=-assos
 desembós: PLU=-ossos
 desembús: PLU=-ussos
-desenuig: PLU=-uigs o -utjos
+desenuig: PLU=-uigs -utjos
 desfrès: PLU=-essos
 desguàs: PLU=-assos
-desig: PLU=-igs o -itjos
+desig: PLU=-igs -itjos
 desinterès: PLU=-essos
 dibetú: PLU=-ús
 dità: PLU=-às
@@ -173,19 +211,18 @@ emú: PLU=-ús
 endós: PLU=-ossos
 engargús: PLU=-ussos
 entrepàs: PLU=-assos
-enuig: PLU=-uigs o -utjos
+enuig: PLU=-uigs -utjos
 ermàs: PLU=-assos
 es2: PLU=es & NOTA=pot revestir la forma s' davant vocal o h; precedit de les preposicions a, de i per dóna lloc a les formes contractes as, des i pes
 esbós: PLU=-ossos
 escadús: PLU=-ussos
 escarràs: PLU=-assos
-esfinx: PLU=-s
 esfinx: PLU=esfinxs
 esgardís: PLU=-issos
 espahí: PLU=-ís
 esquerdís: PLU=-issos
 esquí: PLU=-ís
-estoig: PLU=-oigs o -otjos
+estoig: PLU=-oigs -otjos
 estrès: PLU=-essos
 excés: PLU=-essos
 extradós: PLU=-ossos
@@ -217,7 +254,6 @@ grisú: PLU=-ús
 gro: PLU=gros
 guaraní: PLU=-ís
 guardanàs: PLU=-assos
-haixix: PLU=-s
 haixix: PLU=haixixs
 hindú: PLU=-ús
 hurí: PLU=-ís
@@ -236,7 +272,6 @@ la1: PLU=las
 la3: PLU=les & NOTA=pot revestir la forma l'
 lamé: PLU=-és
 landó: PLU=-ós
-larinx: PLU=-s
 larinx: PLU=larinxs
 lilà: PLU=-às
 linx: PLU=linxs
@@ -292,6 +327,7 @@ oboè: PLU=-ès
 ocumé: PLU=-és
 organdí: PLU=-ís
 organzí: PLU=-ís
+os: PLU=ossos
 padellàs: PLU=-assos
 pagaré: PLU=-és
 paixà: PLU=-às
@@ -319,12 +355,12 @@ pebràs: PLU=-assos
 pedallàs: PLU=-assos
 pedigrí: PLU=-ís
 pedrís: PLU=-issos
-pel: PLU=pels
+pel: ALT=pel pels & NOVACAT=???
 pendís: PLU=-issos
 perjuí: PLU=-ís
 peroné: PLU=-és
 perquè2: PLU=-ès
-pes2: PLU=pes
+pes2: PLU=pes & NOVACAT=???
 picadís: PLU=-issos
 pilú: PLU=-ús
 pinçanàs: PLU=-assos
@@ -362,13 +398,14 @@ revés1: PLU=-essos
 ribàs: PLU=-assos
 ris: PLU=rissos
 rococó: PLU=-ós
+rodamón: PLU=rodamons
 romàs: PLU=-assos
 rondó: PLU=-ós
 ros2: PLU=rossos
 roís: PLU=-ïssos
 sa1: PLU=ses
 sa2: PLU=ses & NOTA1=pot revestir la forma s'
-safareig: PLU=-eigs o -etjos
+safareig: PLU=-eigs -etjos
 sagú: PLU=-ús
 salpàs: PLU=-assos
 salsifí: PLU=-ís
@@ -388,8 +425,8 @@ sofà: PLU=-às
 succés: PLU=-essos
 suflé: PLU=-és
 sufí: PLU=-ís
+suís -ïssa: PLU=-ïssos
 surà: PLU=-às
-símplex: PLU=-s
 símplex: PLU=símplexs
 ta: PLU=tes
 tabú: PLU=-ús
@@ -430,7 +467,6 @@ turnedó: PLU=-ós
 tutú: PLU=-ús
 u1: PLU=us
 uadi: PLU=uadis
-unisex: PLU=-s
 unisex: PLU=unisexs
 urdú: PLU=-ús
 urubú: PLU=-ús
@@ -527,30 +563,6 @@ urobilinogen: PLU=urobilinògens
 vertigen: PLU=vertígens
 vitiligen: PLU=vitilígens
 
-// paraules clau per afegir informació a les entrades
-
-// ALT: s'ha de fer servir una informació alternativa a la del diccionari
-// IGNORA: s'ha d'ignorar l'entrada
-// NOVACAT: s'ha de fer servir una nova categoria
-
-// Si una entrada té dos o més jocs de regles alternatives, la segona i següents es poden posar envoltades amb <<EXT ... EXT>>. El contingut d'aquest camp ha de tenir el mateix format que el d'una línia qualsevol.
-
-// Es poden indicar formes dependents de la presència o absència d'un grup envoltant fragments amb <<xxx xxx>> o <<!xxx !xxx>>. En el primer cas, es manté el contingut si el grup xxx està en vigor; en el segon cas, es manté si el grup xxx no està en vigor. La informació de l'entrada ha de ser correcta tant si es manté el contingut com si s'esborra (això vol dir, per exemple, que s'han de posar els '&' o ' 'que siguin necessaris). Els codis d'obertura i tancament han de ser els mateixos.
-
-// Paraules específiques per als verbs
-
-// GER indica un gerundi irregular
-// IIM indica un imperfet d'indicatiu
-// SIM indica un imperfet de subjuntiu irregular
-// PAR indica un participi irregular
-// FUT indica un futur irregular
-// +   indica formes que s'han d'afegir; poden ser formes simples o bé formes
-//     generades per una regla i filtrades (ex. tregués/Q/(SPR[1236]|IMP[36]))
-// -   indica formes que s'han de suprimir (una expressió regular que s'aplica
-//     a totes les formes generades regularment; se suprimeixen les que
-//     hi coincideixen)
-// IPR3 indica la tercera persona del present d'indicatiu, a partir de la qual se'n generen d'altres (per exemple, en els verbs en -ir)
-
 //======== Verbs irregulars terminats en -ar ========
 
 // aguar: ind. pres. agúo, agúes, etc.
@@ -570,6 +582,8 @@ estar: -=(IPR[1236]|IPE|SPR|SIM|IMP) & +=estigués/Q/(IPR|IPE|SPR|SIM|IMP) estàs<
 // absoldre: ger. absolent; p. p. absolt; ind. pr. 1 absolc; subj. pr. absolgui, etc.; subj. imperf. absolgués, etc.
 absoldre: GER=absolent & SIM=absolgués & PAR=absolt
 
+abstraure: IGNORA=1
+
 // abstreure: inf. abstreure o abstraure; quant a la flexió, com treure
 abstreure: MODEL=treure/tr/abstr
 
@@ -585,6 +599,9 @@ admetre: PAR=admès
 // adscriure: quant a la flexió, com escriure
 adscriure: MODEL=escriure/es/ads
 
+// (inclòs dins ajeure)
+ajaure: IGNORA=1
+
 // ajeure: inf. ajeure o ajaure; quant a la flexió, com jeure
 ajeure: MODEL=jeure/j/aj
 
@@ -592,13 +609,14 @@ ajeure: MODEL=jeure/j/aj
 aparèixer: PAR=aparegut & SIM=aparegués
 
 // aparer: usat gairebé exclusivament en ind. pres. 3 apar
-aparer: -=. & +=apar
+aparer: -=. & +=apar<IPR3>
 
 // apercebre: ind. pr. 2 aperceps, 3 apercep
 // regular!
 
 // aprehendre: quant a la flexió, com aprendre
-aprehendre: MODEL=aprendre/apr/apreh
+//aprehendre: MODEL=aprendre/apre/apreh/après/aprehès
+aprehendre: GER=aprehenent & PAR=aprehès & SIM=aprehengués & IPR3=aprehèn
 
 // aprendre: ger. aprenent; p. p. après; ind. pr. 1 aprenc, 3 aprèn; subj. pr. aprengui, etc.; subj. imperf. aprengués, etc.
 aprendre: GER=aprenent & PAR=après & SIM=aprengués & IPR3=aprèn
@@ -615,11 +633,15 @@ atendre: GER=atenent & PAR=atès & SIM=atengués & IPR3=atén
 // atènyer: p. p. atès
 atènyer: PAR=atès
 
+atraure: IGNORA=1
+
 // atreure: inf. atreure o atraure; quant a la flexió, com treure
 atreure: MODEL=treure/tr/atr
 
 // benveure1: usat generalment en inf.
 benveure1: -=. & +=benveure
+
+bestraure: IGNORA=1
 
 // bestreure: inf. bestreure o bestraure; quant a la flexió, com treure
 bestreure: MODEL=treure/tr/bestr
@@ -629,6 +651,8 @@ beure1: GER=bevent & PAR=begut & SIM=begués
 
 // cabre: inf. cabre o caber; ind. pr. 2 caps, 3 cap; subj. pr. càpiga, etc.
 cabre: -=(SPR|IMP[36]) & +=caber<INF0> càpiga<SPR1> càpiga<IMP3> càpigues<SPR2> càpiga<SPR3> capiguem<SPR4> capigueu<SPR5> càpiguen<SPR6> càpiguen<IMP6>
+
+caler: IGNORA=1
 
 // caldre: inf. caldre o caler; quant a la flexió, com valer
 caldre: ALT=caler & MODEL=valer/val/cal
@@ -682,7 +706,7 @@ comprometre: PAR=compromès
 concloure: MODEL=cloure/cl/concl & PAR=conclòs
 
 // concórrer: quant a la flexió, com córrer
-concórrer: MODEL=córrer/c/conc
+concórrer: MODEL=córrer/corr/concorr/córr/concórr
 
 // condoldre's: quant a la flexió, com valer
 condoldre's: MODEL=valer/val/condol
@@ -704,6 +728,8 @@ contòrcer-se: MODEL=tòrcer/t/cont
 
 // contrafer: quant a la flexió, com desfer
 contrafer: MODEL=desfer/desf/contraf
+
+contraure: IGNORA=1
 
 // contreure: inf. contreure o contraure; quant a la flexió, com treure
 contreure: MODEL=treure/tr/contr
@@ -840,8 +866,12 @@ distendre: MODEL=atendre/at/dist
 // distòrcer: quant a la flexió, com tòrcer
 distòrcer: MODEL=tòrcer/t/dist
 
+distraure: IGNORA=1
+
 // distreure: inf. distreure o distraure; quant a la flexió, com treure
 distreure: MODEL=treure/tr/distr
+
+doler: IGNORA=1
 
 // doldre: inf. doldre o doler; quant a la flexió, com valer
 doldre: ALT=doler & MODEL=valer/val/dol
@@ -901,13 +931,13 @@ escometre: PAR=escomès
 escórrer: MODEL=córrer/c/esc
 
 // escriure: ger. escrivint; p. p. escrit; ind. pr. 1 escric; subj. pr. escrigui, etc.; subj. imperf. escrivís (o escrigués), etc.
-escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués & +=escrivir/M/(SIM|IPR[45]|IMP[5])
+escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués & +=escriviré/M/SIM
 
 // espènyer: p. p. espès
 espènyer: PAR=espès
 
 // ésser1: ger. essent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
-ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B
+ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> som<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> <<009 siguen<IMP6> 009>> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B fóra<CON1> fóres<CON2> fóra<CON3> fórem<CON4> fóreu<CON5> fóren<CON6>
 
 // estendre: quant a la flexió, com atendre
 estendre: MODEL=atendre/at/est
@@ -926,6 +956,8 @@ excloure: MODEL=cloure/cl/excl & PAR=exclòs
 
 // expendre: quant a la flexió, com aprendre
 expendre: MODEL=aprendre/apr/exp
+
+extraure: IGNORA=1
 
 // extreure: inf. extreure o extraure; quant a la flexió, com treure
 extreure: MODEL=treure/tr/extr
@@ -962,6 +994,8 @@ inscriure: MODEL=escriure/esc/insc
 
 // irèixer-se: quant a la flexió, com créixer
 irèixer-se: MODEL=créixer/cr/ir
+
+jaure: IGNORA=1
 
 // jeure: inf. jeure o jaure; ger. jaient; p. p. jagut; ind. pr. jec o jac, jeus o jaus, jeu o jau, jaiem, jaieu, jeuen o jauen; ind. imperf. jeia, etc.; ind. fut. jauré, etc.; subj. pr. jegui, jeguis, jegui, jaguem, jagueu, jeguin (o jagui, etc.); subj. imperf. jagués, etc.
 jeure: PAR=jagut & GER=jaient & IIM=jeia & SIM=jagués & FUT=jauré & +=jaure<INF0> jec<IPR1> jaus<IPR2> jau<IPR3> jau<IMP2> jauen<IPR6> jegués/Q/(SPR[1236]|IMP[36]) <<102 jeim<IPR4> jeis<IPR5> jeis<IMP5> 102>>
@@ -1008,8 +1042,10 @@ moldre: GER=molent & PAR=mòlt & SIM=molgués
 // moure: ger. movent; p. p. mogut; ind. pr. 1 moc; subj. pr. mogui, etc.; subj. imperf. mogués, etc.
 moure: GER=movent & PAR=mogut & SIM=mogués
 
+nàixer: IGNORA=1
+
 // néixer: inf. néixer o nàixer; ger. naixent; p. p. nascut; ind. pr. neixo o naixo, neixes o naixes, neix o naix, naixem, naixeu, neixen o naixen; ind. imperf. naixia, etc.; ind. fut. naixeré, etc.; subj. pr. neixi o naixi, neixis o naixis, neixi o naixi, naixem o nasquem, naixeu o nasqueu, neixin o naixin; subj. imperf. naixés o nasqués, etc.
-néixer: GER=naixent & PAR=nascut & IIM=naixia & FUT=naixeré & SIM=nasqués & -=(IPR1|SPR[1236]) & +=neixo<IPR1> naixo<IPR1> neixes<IPR2> neix<IPR3> neixen<IPR6> nesqués/Q/(SPR[1236]|IMP[346]) nasqués/Q/SPR[1236] neixés/Q/SPR[1236]
+néixer: GER=naixent & PAR=nascut & IIM=naixia & FUT=naixeré & SIM=nasqués & -=(IPR1|SPR[1236]) & +=neixo<IPR1> naixo<IPR1> neixes<IPR2> neix<IPR3> neixen<IPR6> nesqués/Q/(SPR[1236]|IMP[346]) nasqués/Q/SPR[1236] neixés/Q/SPR[1236] nàixer<INF0>
 
 // noure: quant a la flexió, com coure; p. p. nogut
 noure: PAR=nogut & GER=noent & IIM=noïa & SIM=nogués
@@ -1140,6 +1176,8 @@ remoldre: MODEL=moldre/mol/remol
 // remoure: quant a la flexió, com moure
 remoure: MODEL=moure/mo/remo
 
+renàixer: IGNORA=1
+
 // renéixer: inf. renéixer o renàixer; quant a la flexió, com néixer
 renéixer: MODEL=néixer/n/ren
 
@@ -1166,6 +1204,8 @@ retransmetre: PAR=retransmès
 
 // retreure: inf. retreure o retraure; quant a la flexió, com treure
 retreure: MODEL=treure/tr/retr
+
+retrotraure: IGNORA=1
 
 // retrotreure: inf. retrotreure o retrotraure; quant a la flexió, com treure
 retrotreure: MODEL=treure/tr/retrotr
@@ -1201,7 +1241,7 @@ salprendre: MODEL=aprendre/apr/salpr
 satisfer: MODEL=desfer/desf/satisf
 
 // ser1: ger. sent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
-ser1: MODEL=ésser1/ess/s
+ser1: IGNORA=1
 
 // seure: ger. seient; p. p. segut; ind. pr. sec, seus, seu, seiem, seieu, seuen; ind. imperf. seia, etc.; subj. pr. segui, etc.; subj. imperf. segués, etc.
 seure: GER=seient & PAR=segut & SIM=segués
@@ -1214,6 +1254,8 @@ sobreentendre: MODEL=atendre/at/sobreent
 
 // sobreescriure: quant a la flexió, com escriure
 sobreescriure: MODEL=escriure/esc/sobreesc
+
+sobrenàixer: IGNORA=1
 
 // sobrenéixer: inf. sobrenéixer o sobrenàixer; quant a la flexió, com néixer
 sobrenéixer: MODEL=néixer/n/sobren
@@ -1244,6 +1286,8 @@ somriure1: MODEL=riure1/r/somr
 
 // sorprendre: quant a la flexió, com aprendre
 sorprendre: MODEL=aprendre/apr/sorpr
+
+sostraure: IGNORA=1
 
 // sostreure: inf. sostreure o sostraure; quant a la flexió, com treure
 sostreure: MODEL=treure/tr/sostr
@@ -1284,14 +1328,18 @@ transfondre: MODEL=confondre/conf/transf
 // transmetre: p. p. transmès
 transmetre: PAR=transmès
 
+traure: IGNORA=1
+
 // treure: inf. treure o traure; ger. traient; p. p. tret; ind. pr. trec o trac, treus o traus, treu o trau, traiem, traieu, treuen o trauen; ind. imperf. treia, etc.; ind. fut. trauré, etc.; subj. pr. tregui, treguis, tregui, traguem, tragueu, treguin (o tragui, etc.); subj. imperf. tragués, etc.
 treure: PAR=tret & GER=traient & IIM=treia & SIM=tragués & FUT=trauré & +=traure<INF0> trec<IPR1> traus<IPR2> trau<IPR3> trau<IMP2> trauen<IPR6> tregués/Q/(SPR[1236]|IMP[36]) <<102 treim<IPR4> treis<IPR5> treis<IMP5> 102>>
 
 // ullprendre: quant a la flexió, com aprendre
 ullprendre: MODEL=aprendre/apr/ullpr
 
+valdre: IGNORA=1
+
 // valer: inf. valer o valdre; p. p. valgut; ind. pr. 1 valc; ind. fut. valdré, etc.; subj. pr. valgui, etc.; subj. imperf. valgués, etc.
-valer: PAR=valgut & FUT=valdré & SIM=valgués & +=valdre<INF0>
+valer: GER=valent & PAR=valgut & IPR3=val & IIM=valia & FUT=valdré & SIM=valgués & +=valdre<INF0>
 
 // vèncer: ind. pr. venço, vences, venç, vencem, etc.
 vèncer: ALT=vèncer
@@ -1311,7 +1359,9 @@ voler2: FUT=voldré & SIM=volgués & PAR=volgut & -=(SPR|IPR1|IMP) & +=vull<IPR1> 
 //======== verbs irregulars terminats en -ir, peró del grup -re/-er ========
 
 // abstenir-se: p. p. abstingut; ind. pr. 1 abstinc, 3 absté; ind. fut. abstindré, etc.; subj. pr. abstingui, etc.; subj. imperf. abstingués, etc.; imperat. 2 abstén
-abstenir-se: ALT=abstindre's & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(INF|IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
+abstenir-se: ALT=abstindre & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(INF|IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
+
+adir: IGNORA=1
 
 // adir-se: quant a la flexió, com dir
 adir-se: MODEL=dir1/d/ad
@@ -1356,7 +1406,7 @@ desdir: MODEL=dir1/d/desd
 detenir: MODEL=mantenir/mant/det
 
 // dir1: ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu
-dir1: ALT=diure & GER=dient & IIM=deia & FUT=diré & SIM=digués & PAR=dit/F & -=(diure|PAR|IMP[25]) & +=dir<INF0> digues<IMP2> digueu<IMP5> <<102 deim<IPR4> deis<IPR5>  102>>
+dir1: ALT=diure & GER=dient & IIM=deia & FUT=diré & SIM=digués & PAR=dit/F & -=(diure|IMP[25]) & +=dir<INF0> digues<IMP2> digueu<IMP5> <<102 deim<IPR4> deis<IPR5>  102>>
 
 // entredir: quant a la flexió, com dir
 entredir: MODEL=dir1/d/entred
@@ -1424,8 +1474,12 @@ sostenir: MODEL=mantenir/mant/sost
 // subvenir: quant a la flexió, com prevenir
 subvenir: MODEL=prevenir/prev/subv
 
+tindre: IGNORA=1
+
 // tenir: inf. tenir o tindre; p. p. tingut; ind. pr. 1 tinc, 2 tens, 3 té, 6 tenen; ind. fut. tindré, etc.; subj. pr. tingui, etc.; subj. imperf. tingués, etc.; imper. 2 té o ten o tingues, 5 teniu o tingueu
 tenir: ALT=tindre & GER=tenint & PAR=tingut & SIM=tingués & -=(IPR3|IMP2) & +=tenir<INF0> té<IPR3> té<IMP2> ten<IMP2> tingues<IMP2> tingueu<IMP5> <<103 tenc<IPR1> tengués<IIM1>/Q tengut<PAR0>/B tendré<FUT1>/T 103>>
+
+vindre: IGNORA=1
 
 // venir: inf. venir o vindre; p. p. vingut; ind. pr. 1 vinc, 2 véns, 3 ve, 6 vénen; ind. fut. vindré, etc.; subj. pr. vingui, etc.; subj. imperf. vingués, etc.; imper. 2 vine
 venir: ALT=vindre & GER=venint & IIM=venia & SIM=vingués & PAR=vingut & -=(IPR2|IPR3|IPR6|IMP2) & +=venir<INF0> véns<IPR2> ve<IPR3> vénen<IPR6> vine<IMP2> <<103 vénc<IPR1> vengués/Q/(IPE|SPR[45]|SIM|IMP4) véngués/Q/(SPR[1236]|IMP[36]) vengut<PAR0>/B vendré<FUT1>/T 103>>
@@ -1448,7 +1502,7 @@ adormir: IPR3=adorm
 ajupir: IPR3=ajup
 
 // arrupir-se: ind. pr. 3 arrupeix (o arrup)
-arrupir-se: IPR3=arrup & <<EXT ALT=arrupir-se EXT>>
+arrupir-se: IPR3=arrup & <<EXT ALT=arrupir EXT>>
 
 // barbullir: ind. pr. 3 barbull
 barbullir: IPR3=barbull
@@ -1469,7 +1523,7 @@ cobrir: PAR=cobert
 collir: IPR3=cull
 
 // complir: p. p. complert (i, en algunes contrades, complit)
-complir: <<!101 -=(PAR) & !101>> +=complert<PAR0>/F 
+complir: <<!101 -=(PAR) & !101>> +=complert<PAR0>/F
 
 // condormir-se: ind. pr. 3 condorm
 condormir-se: IPR3=condorm
@@ -1558,6 +1612,8 @@ grunyir: IPR3=gruny
 // imprimir: p. p. imprès
 imprimir: PAR=imprès
 
+júnyer: IGNORA=1
+
 // junyir: inf. junyir o júnyer
 junyir: +=júnyer<INF0>
 
@@ -1574,7 +1630,7 @@ morir: IPR3=mor & PAR=mort
 munyir: IPR3=muny
 
 // obrir: p. p. obert; ind. pr. 2 obres, 3 obre
-obrir: IPR3=obr & -=(PAR|IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2>
+obrir: IPR3=obr & -=(IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2>
 
 // oferir: p. p. ofert
 oferir: PAR=ofert
@@ -1670,7 +1726,7 @@ sentir: IPR3=sent
 sobreeixir: MODEL=reeixir/r/sobr
 
 // sobresortir: quant a la flexió, com sortir
-sobresortir: MODEL=sortir/s/sobres
+sobresortir: MODEL=sortir/sor/sobresor/sur/sobresur
 
 // sofrir: p. p. sofert
 sofrir: -=(PAR) & +=sofert<PAR0>/F
@@ -1686,8 +1742,8 @@ tossir: IPR3=tuss & -=(IPR3|IMP2) & +=tus<IPR3> tus<IMP2>
 
 //========== pronoms ===========
 
-// altre1: cat1=pron.
-altre1: ALT=altre altra & NOVACAT=adj.
+// altre2 -a, cat1=adj., cat2=pron.
+altre2 -a: ALT=altre altra
 
 // ell2 ella: cat1=pron.
 ell2 ella: ALT=ell ella ells elles
@@ -1709,18 +1765,12 @@ vostè: ALT=vostè vostès
 // abiètic
 abiètic: ALT=abiètic -a
 
-// d'antuvi
-d'antuvi: ALT=antuvi
-
 // amoníac: fem. -a
 // anar-se'n
 anar-se'n: IGNORA=1
 
 // aràbic
 aràbic -iga: ALT=aràbic aràbiga
-
-// baró
-baró baronessa: PRECALC=baró/G baronessa/E
 
 // bròfec
 bròfec -ega: ALT=bròfec bròfega
@@ -1736,9 +1786,6 @@ erer erera: NOVACAT=m. i f.
 
 //èrtic
 èrtic -iga: ALT=èrtic èrtiga
-
-// mol·luscs: cat1=m. pl.^cat2=sing.
-mol·luscs: ALT=mol·lusc & NOVACAT=m.
 
 // mossaràbic
 mossaràbic -iga: ALT=mossaràbic mossaràbiga
@@ -1884,25 +1931,17 @@ xofer xofera: <<EXT ALT=xòfer xòfera EXT>>
 
 //======== casos que s'haurien de revisar ========
 
-// REV: abstraure
 // REV: aga khan
-// REV: ajaure
 // REV: al
 // REV: as3
-// REV: atraure
-// REV: cabussar i derivats.
 // REV: caça
-// REV: carbassa i derivats.
 // REV: cargol i derivats.
 // REV: deceptiu -iva
 // REV: delírium trèmens
 // REV: empuat -ada
-// REV: enganar i derivats.
-// REV: esboldrec i derivats.
 // REV: esbulladís -issa
 // REV: faena i derivats.
 // REV: foie gras
-// REV: huit i derivats.
 // REV: motu proprio
 // REV: noli me tàngere
 // REV: pater familias
@@ -1914,12 +1953,11 @@ xofer xofera: <<EXT ALT=xòfer xòfera EXT>>
 // REV: a rampeu
 // REV: rigor mortis
 // REV: rubiginós -osa
-// REV: siular i derivats.
 // REV: statu quo
-// REV: superabundar i derivats.
 
 // Paraules que apareixen en plural al diccionari
 
+abietàcies: NOVACAT=f. & ALT=abietàcia
 acantodàctils: NOVACAT=m. & ALT=acantodàctil
 àcars: NOVACAT=m. & ALT=àcar
 accipítrids: NOVACAT=m. & ALT=accipítrid
@@ -2815,8 +2853,165 @@ zingiberàcies: NOVACAT=f. & ALT=zingiberàcia
 zoantaris: NOVACAT=m. & ALT=zoantari
 
 //======== Casos diversos   ========
+aquest -a: NOART=1
+as3: NOVACAT=???
+cabussar: NOVACAT=v. tr.
+can: NOVACAT=???
+daixò: NOVACAT=???
+daixonses: NOVACAT=???
+dallò: NOVACAT=???
+dallonses: NOVACAT=???
+deceptiu -iva: NOVACAT=adj.
 empuat -ada: NOVACAT=adj.
 esbulladís -issa: NOVACAT=adj.
-deceptiu -iva: NOVACAT=adj.
+etcètera: NOVACAT=???
+heus aquí: NOVACAT=???
+rai2: NOVACAT=???
 rubiginós -osa: NOVACAT=adj.
+verbigràcia: NOVACAT=???
+vet2: NOVACAT=???
 
+// Primera persona del present d'indicatiu sense desinència dels verbs en -ar
+adotzenar: <<013 +=adotzèn<IPR1> 013>>
+alenar: <<013 +=alèn<IPR1> 013>>
+alienar: <<013 +=alién<IPR1> 013>>
+alquenar: <<013 +=alquén<IPR1> 013>>
+alumenar: <<013 +=alumén<IPR1> 013>>
+amargenar: <<013 +=amargén<IPR1> 013>>
+anomenar: <<013 +=anomèn<IPR1> 013>>
+arenar: <<013 +=arèn<IPR1> 013>>
+asserenar: <<013 +=asserèn<IPR1> 013>>
+atermenar: <<013 +=atermén<IPR1> 013>>
+cadenar: <<013 +=cadèn<IPR1> 013>>
+carenar: <<013 +=carèn<IPR1> 013>>
+carmenar: <<013 +=carmén<IPR1> 013>>
+cognomenar: <<013 +=cognomèn<IPR1> 013>>
+concatenar: <<013 +=concatèn<IPR1> 013>>
+contraordenar: <<013 +=contraordén<IPR1> 013>>
+desalienar: <<013 +=desalién<IPR1> 013>>
+desarenar: <<013 +=desarèn<IPR1> 013>>
+desembenar: <<013 +=desembèn<IPR1> 013>>
+desencadenar: <<013 +=desencadèn<IPR1> 013>>
+desencovenar: <<013 +=desencovèn<IPR1> 013>>
+desenfrenar: <<013 +=desenfrèn<IPR1> 013>>
+desentrenar: <<013 +=desentrén<IPR1> 013>>
+desfrenar: <<013 +=desfrèn<IPR1> 013>>
+deshidrogenar: <<013 +=deshidrogén<IPR1> 013>>
+desordenar: <<013 +=desordén<IPR1> 013>>
+desoxigenar: <<013 +=desoxigén<IPR1> 013>>
+destermenar: <<013 +=destermén<IPR1> 013>>
+destrenar: <<013 +=destrén<IPR1> 013>>
+eixamenar: <<013 +=eixamén<IPR1> 013>>
+embenar: <<013 +=embèn<IPR1> 013>>
+emmenar: <<013 +=emmèn<IPR1> 013>>
+emplenar: <<013 +=emplèn<IPR1> 013>>
+encadenar: <<013 +=encadèn<IPR1> 013>>
+encovenar: <<013 +=encovèn<IPR1> 013>>
+enfrenar: <<013 +=enfrèn<IPR1> 013>>
+enllumenar: <<013 +=enllumèn<IPR1> 013>>
+enravenar: <<013 +=enravèn<IPR1> 013>>
+entrenar: <<013 +=entrén<IPR1> 013>>
+esblenar: <<013 +=esblèn<IPR1> 013>>
+escarmenar: <<013 +=escarmén<IPR1> 013>>
+esgramenar: <<013 +=esgramén<IPR1> 013>>
+esllemenar: <<013 +=esllemén<IPR1> 013>>
+esmargenar: <<013 +=esmargén<IPR1> 013>>
+esmenar: <<013 +=esmèn<IPR1> 013>>
+esquenar: <<013 +=esquèn<IPR1> 013>>
+estrenar: <<013 +=estrén<IPR1> 013>>
+gangrenar: <<013 +=gangrén<IPR1> 013>>
+hidrogenar: <<013 +=hidrogén<IPR1> 013>>
+malmenar: <<013 +=malmèn<IPR1> 013>>
+margenar: <<013 +=margén<IPR1> 013>>
+nitrogenar: <<013 +=nitrogén<IPR1> 013>>
+nomenar: <<013 +=nomèn<IPR1> 013>>
+ofrenar: <<013 +=ofrèn<IPR1> 013>>
+ordenar: <<013 +=ordén<IPR1> 013>>
+oxigenar: <<013 +=oxigén<IPR1> 013>>
+reestrenar: <<013 +=reestrén<IPR1> 013>>
+refrenar: <<013 +=refrèn<IPR1> 013>>
+remenar: <<013 +=remèn<IPR1> 013>>
+reordenar: <<013 +=reordén<IPR1> 013>>
+sobrenomenar: <<013 +=sobrenomèn<IPR1> 013>>
+sofrenar: <<013 +=sofrén<IPR1> 013>>
+termenar: <<013 +=termén<IPR1> 013>>
+terraplenar: <<013 +=terraplèn<IPR1> 013>>
+aburgesar: <<013 +=aburgès<IPR1> 013>>
+adossar: <<013 +=adós<IPR1> 013>>
+afrancesar: <<013 +=afrancès<IPR1> 013>>
+anquilosar: <<013 +=anquilós<IPR1> 013>>
+apressar: <<013 +=aprés<IPR1> 013>>
+arrebossar: <<013 +=arrebós<IPR1> 013>>
+arrosar: <<013 +=arrós<IPR1> 013>>
+aterrossar: <<013 +=aterròs<IPR1> 013>>
+atrossar: <<013 +=atròs<IPR1> 013>>
+avesar: <<013 +=avès<IPR1> 013>>
+confessar: <<013 +=confés<IPR1> 013>>
+contrapesar: <<013 +=contrapés<IPR1> 013>>
+desarnesar: <<013 +=desarnès<IPR1> 013>>
+desarrebossar: <<013 +=desarrebós<IPR1> 013>>
+desatrossar: <<013 +=desatròs<IPR1> 013>>
+desavesar: <<013 +=desavès<IPR1> 013>>
+desbrossar: <<013 +=desbròs<IPR1> 013>>
+descossar: <<013 +=descòs<IPR1> 013>>
+desempavesar: <<013 +=desempavès<IPR1> 013>>
+desempesar: <<013 +=desempés<IPR1> 013>>
+desenllosar: <<013 +=desenllòs<IPR1> 013>>
+desentravessar: <<013 +=desentravés<IPR1> 013>>
+desglossar: <<013 +=desglòs<IPR1> 013>>
+desinteressar: <<013 +=desinterès<IPR1> 013>>
+desossar: <<013 +=desòs<IPR1> 013>>
+desrosar: <<013 +=desrós<IPR1> 013>>
+desterrossar: <<013 +=desterròs<IPR1> 013>>
+destesar: <<013 +=destés<IPR1> 013>>
+desvesar: <<013 +=desvès<IPR1> 013>>
+disfressar: <<013 +=disfrès<IPR1> 013>>
+embrossar: <<013 +=embròs<IPR1> 013>>
+emmaressar: <<013 +=emmarès<IPR1> 013>>
+empavesar: <<013 +=empavès<IPR1> 013>>
+empesar: <<013 +=empés<IPR1> 013>>
+encendrosar: <<013 +=encendrós<IPR1> 013>>
+encerrosar: <<013 +=encerrós<IPR1> 013>>
+endossar: <<013 +=endós<IPR1> 013>>
+enfilosar: <<013 +=enfilós<IPR1> 013>>
+enllosar: <<013 +=enllòs<IPR1> 013>>
+enrosar: <<013 +=enrós<IPR1> 013>>
+enterrossar: <<013 +=enterròs<IPR1> 013>>
+entravessar: <<013 +=entravés<IPR1> 013>>
+entropessar: <<013 +=entropés<IPR1> 013>>
+enverinosar: <<013 +=enverinós<IPR1> 013>>
+esbessar: <<013 +=esbés<IPR1> 013>>
+esbossar: <<013 +=esbós<IPR1> 013>>
+esbrossar: <<013 +=esbròs<IPR1> 013>>
+escossar: <<013 +=escòs<IPR1> 013>>
+espicossar: <<013 +=espicós<IPR1> 013>>
+esterrossar: <<013 +=esterròs<IPR1> 013>>
+estesar: <<013 +=estès<IPR1> 013>>
+estossar: <<013 +=estós<IPR1> 013>>
+expressar: <<013 +=exprés<IPR1> 013>>
+ingressar: <<013 +=ingrés<IPR1> 013>>
+interessar: <<013 +=interès<IPR1> 013>>
+malavesar: <<013 +=malavès<IPR1> 013>>
+metamorfosar: <<013 +=metamorfós<IPR1> 013>>
+necrosar: <<013 +=necrós<IPR1> 013>>
+palesar: <<013 +=palès<IPR1> 013>>
+posttesar: <<013 +=posttés<IPR1> 013>>
+pretesar: <<013 +=pretés<IPR1> 013>>
+processar: <<013 +=procés<IPR1> 013>>
+professar: <<013 +=profés<IPR1> 013>>
+progressar: <<013 +=progrés<IPR1> 013>>
+redossar: <<013 +=redós<IPR1> 013>>
+reembossar: <<013 +=reembós<IPR1> 013>>
+regressar: <<013 +=regrés<IPR1> 013>>
+reingressar: <<013 +=reingrés<IPR1> 013>>
+repesar: <<013 +=repés<IPR1> 013>>
+retrossar: <<013 +=retròs<IPR1> 013>>
+revessar: <<013 +=revés<IPR1> 013>>
+sospesar: <<013 +=sospés<IPR1> 013>>
+tondosar: <<013 +=tondós<IPR1> 013>>
+
+capbuit -buida: ALT=capbuit capbuida
+entre: ALT=entre d'entre
+enmig de: ALT=enmig d'enmig
+escrú -ua: PLU=escrús escrues
+infraroig -roja: ALT=infraroig -oja

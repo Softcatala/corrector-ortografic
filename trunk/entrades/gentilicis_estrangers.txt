@@ -14,8 +14,8 @@ albanès albanesa
 alemany alemanya
 alentejà alentejana
 algarvès algarvesa
-algerià algeriana
 algerí algerina
+algerià algeriana
 alsacià alsaciana
 altaic altaica
 alvernès alvernesa
@@ -32,6 +32,7 @@ antillà antillana
 antioquè antioquena
 aqueu aquea
 aquità aquitana
+àrab
 arcàdic arcàdica
 aretí aretina
 argentí argentina
@@ -45,8 +46,10 @@ assiri assíria
 assirià assiriana
 atenenc atenenca
 atenès atenesa
+àtic àtica
 atlant
 ausetà ausetana
+àuson àusona
 australià australiana
 austríac austríaca
 azerbaidjanès azerbaidjanesa
@@ -54,9 +57,9 @@ babiloni babilònia
 badès badesa
 baixkir baixkira
 balcànic balcànica
+balès balesa
 balinès balinesa
 balkar
-balès balesa
 bastetà bastetana
 bastità bastitana
 batau batava
@@ -73,6 +76,7 @@ berlinès berlinesa
 bernès bernesa
 berrienc berrienca
 berrixó berrixona
+bètic bètica
 betlemita
 bhutanès bhutanesa
 biafrès biafresa
@@ -93,16 +97,15 @@ brasiler brasilera
 bretó bretona
 britànic britànica
 bruci brúcia
-burgundi burgúndia
-burundià burundiana
-burundès burundesa
-bètic bètica
 búlgar búlgara
+burgundi burgúndia
+burundès burundesa
+burundià burundiana
 cabilenc cabilenca
 cairenc cairenca
 cairota
-caixmirià caixmiriana
 caixmirà caixmirana
+caixmirià caixmiriana
 calabrès calabresa
 caldeu caldea
 caledonià caledoniana
@@ -140,6 +143,7 @@ congolès congolesa
 constantinopolità constantinopolitana
 coreà coreana
 corinti coríntia
+còrnic còrnica
 cors corsa
 cossetà cossetana
 costa-riqueny costa-riquenya
@@ -149,11 +153,11 @@ cubà cubana
 cumà cumana
 curd curda
 curlandès curlandesa
-còrnic còrnica
 daci dàcia
 daguestànic daguestànica
 dahomeià dahomeiana
 dakota
+dàlmata
 damascè damascena
 damasquí damasquina
 danès danesa
@@ -164,7 +168,6 @@ dominicà dominicana
 dominiquès dominiquesa
 dori dòria
 dublinès dublinesa
-dàlmata
 eblaïta
 edetà edetana
 efesi efèsia
@@ -190,10 +193,10 @@ eslovac eslovaca
 eslovè eslovena
 espartà espartana
 estonià estoniana
+etíop
 etiòpic etiòpica
 etoli etòlia
 etrusc etrusca
-etíop
 europeu europea
 fenici fenícia
 feroès feroesa
@@ -204,8 +207,8 @@ finlandès finlandesa
 flamenc flamenca
 florentí florentina
 foceu focea
-franconià franconiana
 francès francesa
+franconià franconiana
 francònic francònica
 frigi frígia
 frisó frisona
@@ -213,10 +216,12 @@ friülès friülesa
 furlà furlana
 gabaonita
 gabonès gabonesa
-gal gal·la
+gal gal•la
+gal•lès gal•lesa
+gàl•lic gàl•lica
+gal•loromà gal•loromana
+gàlata
 galileu galilea
-gal·loromà gal·loromana
-gal·lès gal·lesa
 gambià gambiana
 gascó gascona
 genovès genovesa
@@ -237,8 +242,6 @@ groenlandès groenlandesa
 guatemalenc guatemalenca
 guineà guineana
 guti
-gàlata
-gàl·lic gàl·lica
 hagiorita
 haitià haitiana
 hamburguès hamburguesa
@@ -246,9 +249,9 @@ havà havana
 hawaià hawaiana
 helveci helvècia
 hindustànic hindustànica
+hispà hispana
 hispanoamericà hispanoamericana
 hispanoromà hispanoromana
-hispà hispana
 holandès holandesa
 hondurenc hondurenca
 hondureny hondurenya
@@ -259,10 +262,10 @@ iberoamericà iberoamericana
 idumeu idumea
 iemenita
 iguví iguvina
+il•liri il•líria
 ilerdense
-ilurenc ilurenca
-il·liri il·líria
 ilíac ilíaca
+ilurenc ilurenca
 indi índia
 indonesi indonèsia
 indostànic indostànica
@@ -272,11 +275,11 @@ iraquià iraquiana
 irlandès irlandesa
 isauri isàuria
 islandès islandesa
-israelita
 israelià israeliana
+israelita
 italià italiana
-itaquès itaquesa
 itàlic itàlica
+itaquès itaquesa
 iugoslau iugoslava
 ivorià ivoriana
 jacetà jacetana
@@ -317,14 +320,15 @@ libi líbia
 lici lícia
 lidi lídia
 liegès liegesa
+lígur
 limburguès limburguesa
 lionès lionesa
 lisboeta
 lisbonès lisbonesa
 lituà lituana
 livonià livoniana
-llatinoamericà llatinoamericana
 llatí llatina
+llatinoamericà llatinoamericana
 llemosí llemosina
 llenguadocià llenguadociana
 llombard llombarda
@@ -334,7 +338,6 @@ lucà lucana
 lusità lusitana
 luvi
 luxemburguès luxemburguesa
-lígur
 macedoni macedònia
 macedònic macedònica
 madurès maduresa
@@ -360,8 +363,8 @@ massaliota
 mauricià mauriciana
 maurità mauritana
 mede meda
-medinès medinesa
 medià mediana
+medinès medinesa
 megari megària
 melanesi melanèsia
 melgorès melgoresa
@@ -370,12 +373,13 @@ mesopotami mesopotàmia
 messapi messàpia
 messènic messènica
 mexicà mexicana
-micronesi micronèsia
 micènic micènica
+micronesi micronèsia
 milanès milanesa
 milesi milèsia
 mingrelià mingreliana
 moabita
+moçambiquès moçambiquesa
 mogrebí mogrebina
 mogribí mogribina
 moldau moldava
@@ -386,7 +390,6 @@ montenegrí montenegrina
 moravià moraviana
 moscovita
 mozabita
-moçambiquès moçambiquesa
 muniquès muniquesa
 mzabita
 napolità napolitana
@@ -401,8 +404,8 @@ nepalès nepalesa
 nicaragüenc nicaragüenca
 nicaragüeny nicaragüenya
 nicè nicena
-nigerià nigeriana
 nigerí nigerina
+nigerià nigeriana
 nilòtic nilòtica
 nipó nipona
 nivernès nivernesa
@@ -415,8 +418,8 @@ novaiorquès novaiorquesa
 nubi núbia
 nubià nubiana
 numantí numantina
-nuristanès nuristanesa
 númida
+nuristanès nuristanesa
 occità occitana
 oceànic oceànica
 omanita
@@ -425,8 +428,8 @@ osset
 otomà otomana
 paixtu
 pakistanès pakistanesa
-palestinenc palestinenca
 palestí palestina
+palestinenc palestinenca
 palmirè palmirena
 panamenc panamenca
 panameny panamenya
@@ -465,9 +468,9 @@ ravennès ravennesa
 renà renana
 rhodesià rhodesiana
 rodi ròdia
-romanyès romanyesa
-romanès romanesa
 romà romana
+romanès romanesa
+romanyès romanyesa
 ruandès ruandesa
 rumeliota
 rus russa
@@ -482,13 +485,13 @@ salvadorenc salvadorenca
 salvadoreny salvadorenya
 samarità samaritana
 samnita
-samotraci samotràcia
 samoà samoana
+samotraci samotràcia
 sard sarda
 sasserès sasseresa
 saudita
-savoienc savoienca
 savoià savoiana
+savoienc savoienca
 saxó saxona
 senegalès senegalesa
 senès senesa
@@ -511,12 +514,12 @@ soviètic soviètica
 suabi suàbia
 sud-africà sud-africana
 sud-americà sud-americana
-sud-coreà sud-coreana
 sudanès sudanesa
+sud-coreà sud-coreana
 suec sueca
+suís suïssa
 sumeri sumèria
 surinamès surinamesa
-suís suïssa
 tadjik
 tahitià tahitiana
 tailandès tailandesa
@@ -572,12 +575,12 @@ való valona
 varsovià varsoviana
 venecià veneciana
 veneçolà veneçolana
+vènet vèneta
 veronès veronesa
 vienès vienesa
 vietnamita
 virginià virginiana
 volinià voliniana
-vènet vèneta
 westfalià westfaliana
 xilè xilena
 xinès xinesa
@@ -588,7 +591,4 @@ zanzibarès zanzibaresa
 zelandès zelandesa
 zimbabwès zimbabwesa
 zulu
-àrab
-àtic àtica
-àuson àusona
 

@@ -1,0 +1,9 @@
+* shared dictionaries for multi-user environment
+* new data structure for morphological analysis
+* implement morphological generation
+* improve compound handling
+* implement complete stemming
+* check Unicode user interface (for Hunspell program)
+* handle different encodings (for Hunspell program)
+* Unicode unmunch (munch)
+* forbiddenword and pseudoword support in unmunch 

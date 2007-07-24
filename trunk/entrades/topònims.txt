@@ -605,6 +605,7 @@ l'Ènova
 Enveig
 Er
 l'Escala
+Escaldes
 Escaldes-Engordany
 Escaró
 Escorca
@@ -803,23 +804,23 @@ Jújols
 Juncosa
 Juneda
 Llaguarres
-La Menera
+la Menera
 Lançac
-La Roca d'Albera
+la Roca d'Albera
 Lasquarri
-La Torre del Bisbe
-La Tor de Querol
-La Torre de França
+la Torre del Bisbe
+la Tor de Querol
+la Torre de França
 Les
-L'Esquerda
+l'Esquerda
 Linyola
-La Llacuna
+la Llacuna
 Lledó d'Empordà
 Lledó
 Lladorre
 Lladurs
-La Llaguna
-La Llagosta
+la Llaguna
+la Llagosta
 Llagostera
 Llambilles
 Llanars
@@ -857,7 +858,7 @@ Llucmajor
 Llupià
 Llutxent
 Loriguilla
-La Llosa del Bisbe
+la Llosa del Bisbe
 Llucena
 Lludient
 Llocnou d'en Fenollet
@@ -905,7 +906,7 @@ el Masroig
 Massalcoreig
 Massalfassar
 Massamagrell
-La Massana
+la Massana
 Massanassa
 Maçanes
 Massoteres
@@ -1703,6 +1704,7 @@ la Vall d'Almonesir
 la Vall de Bianya
 Ribera de Cardó
 Ebo
+Vall d'Aran
 Vall de Gallinera
 Vall de Laguart
 Vallada
@@ -2253,3 +2255,360 @@ Zàmbia
 Àvila
 Écija
 
+// Topònims dels Països Catalans que faltaven, aportats per Marc Belzunces
+
+Ademuz
+Santes Creus
+Aiguaviva
+Alàs
+Alborache
+Alcalalí
+Alcoletja
+Alcosser de Planes
+Alcublas
+Algimia de Almonacid
+Alins
+Almedíjar
+Alpuente
+València d'Àneu
+Ansinhan
+Ansinyà
+Arañuel
+Aranyel
+Aras de los Olmos
+Ares dels Oms
+Argelita
+Ariany
+Arres de Jos
+Aspe
+les Cabòries
+Ayódar
+Ayora
+Azuébar
+Assuévar
+Badia del Vallès
+Bages de Rosselló
+Baix Pallars
+els Hostalets de Balenyà
+Baó
+Barracas
+Bejís
+Bellestar
+Benagéber
+Benejúzar
+Benicull de Xúquer
+Benijófar
+Benissoda
+Benissuera
+Bicorb
+Bigastro
+Bigues
+Bolbaite
+Buñol
+Cabacés
+Canaletes
+Calce
+Calonge
+Cambrils
+Camp de Mirra
+Campossin
+Cànoves
+Çantarnac
+Capmany
+Carmanh
+Castell de Mur
+Guàrdia de Tremp
+Castell-Platja d'Aro
+Platja d'Aro
+Llinars
+el Borràs
+la Gornal
+Castellnou dels Aspres
+Castellnovo
+Castellnou de Sogorb
+la Múnia
+Castielfabib
+Castillo de Villamalefa
+Catarroja
+Catllà de Conflent
+Caudièrs de Fenolhet
+Ansovell
+Cervera de la Marenda
+Chella
+Chelva
+Chera
+Cheste
+Chiva
+Chóvar
+Chulilla
+Cofrentes
+Cogul
+Conca de Dalt
+Cortes de Arenoso
+Cortes de Pallás
+Cox
+Cruïlles, Monells i Sant Sadurní de l'Heura
+Daya Nueva
+Daya Vieja
+Dolors
+Domeño
+Dos Aguas
+el Castell de Guadalest
+la Juncosa del Montmell
+el Palomar
+el Pertús
+El Pilar de la Horadada
+el Pilar de la Foradada
+el Pinós
+el Pont de Vilomara
+el Puig de Santa Maria
+el Ràfol d'Almúnia
+el Ràfol de Salem
+el Torricó
+els Banys d'Arles
+els Hostalets de Pierola
+els Plans de Sió
+els Prats de Rei
+Emperador
+Enguera
+es Castell
+es Mercadal
+es Migjorn Gran
+Espadilla
+Burg
+Felhunhs
+Fenolhet
+Figaró-Montmany
+Figaró
+Fígols
+Fígols
+Fogars de la Selva
+Mosqueroles
+Fondespatla
+Fondó de les Neus
+Fondó dels Frares
+Guardiola de Font-rubí
+Fontanals de Cerdanya
+el Vilar d'Urtx
+Forallac
+Fórnols de Matarranya
+Fòssa
+Fuente de la Reina
+Fuentes de Ayódar
+Gátova
+Geldo
+Gelida
+Genovés
+Gestalgar
+Gimenells
+la Curullada
+Guardamar de la Safor
+Higueras
+Higueruelas
+Isona i Conca Dellà
+All
+Jacarilla
+Jalance
+Jarafuel
+Jérica
+Tuixén
+l'Alguer
+l'Esquèrda
+Gualter
+la Canyada
+la Canyada de la Llenya
+la Canyada del Trigo
+la Coma
+la Font d'en Carròs
+la Llosa de Ranes
+la Palma de Cervelló
+la Todolella
+la Tor de França
+la Torre d'Elna
+la Torre del Comte
+Bas
+l'Hostalnou de Bianya
+la Vall de Boí
+la Vall de Laguar
+la Vall de Tormo
+la Vansa i Fórnols
+Sorribes
+la Vilavella
+la Yesa
+Lansac
+les Alqueries
+les Avellanes i Santa Linya
+les Avellanes
+les Cluses
+Corró d'Avall
+les Llosses
+Can Bondia
+les Piles
+les Preses
+les Valls d'Aguilar
+les Valls de Valira
+Lladó
+Lledó d'Algars
+Lliçà d'Amunt
+Llinars del Vallès
+Santa Eulàlia de Puig-oriol
+lo Vivièr
+los Montesinos
+els Montesinos
+Losa del Obispo
+Ludiente
+Massanes
+Maurin
+Sant Joan de Mediona
+Millares
+Millena
+Monforte del Cid
+Montfort del Cid
+Montán
+Montan
+Montcada
+Montcada
+Martinet
+Montesquiu
+Montitxelvo
+Morellàs
+Salardú
+Navajas
+Navàs
+Cambrils
+Sant Miquel d'Olèrdola
+el Pi de Sant Just
+Olocau de Carraixet
+Olocau del Rey
+Òpol i Perellós
+Orihuela
+Can Branques
+Can Bou
+Santa Eulàlia
+Palma de Gandia
+Pavías
+Marzà
+Penàguila
+Peralta de la Sal
+Pesilhan de Conflent
+Piles de Mar
+Pina de Montalgrao
+Sant Climenç
+Pinós
+Planesas
+Poblenou de la Corona
+Polinyà
+Pontils
+Mata
+Portè
+Prats de Sornhan
+Prats
+Prunhanas
+Puebla de Arenoso
+Puebla de San Miguel
+Quart
+Rabolhet
+Rabós
+Rasiguèras
+Raspai
+el Carxe
+Real de Gandia
+Redován
+Rialp
+Ribera d'Ondara
+Ribera d'Urgellet
+Can Salvà
+Riu de Cerdanya
+Roda de Barà
+Rodès
+Rojales
+Rotglà i Corberà
+Rupit
+sa Pobla
+Sacañet
+Salinas
+Salines
+Sallent
+San Antonio de Benagéber
+Sant Antoni de Benaixeve
+San Fulgencio
+Sant Fulgenci
+San Isidro
+San Miguel de Salinas
+Sant Miquel de Salines
+Sant Esteve de Llémena
+Sant Cebrià de Rosselló
+Sant Esteve del Monestir
+Sant Hipòlit de la Salanca
+Sant Joan de l'Ènova
+Sant Jordi
+Sant Josep de sa Talaia
+Sant Julià del Llor i Bonmatí
+Bonmatí
+Sant Llorenç des Cardassar
+l'Abella
+Sant Martí de Maldà
+Sant Martin de Fenolhet
+Sant Paul de Fenolhet
+Sant Rafel del Maestrat
+Sant Ramon
+Santa Coloma de Tuïr
+la Sagrera
+Santa Eulària des Riu
+Sant Maure
+els Monjos
+Santa Maria la Mar
+Sanui i Alins
+Sarratella
+Saus
+Sax
+Segorbe
+Serra de Portaceli
+ses Salines
+Siete Aguas
+Sinarcas
+Siurana
+Son Servera
+Soneja
+Sornhan
+Sot de Chera
+Sant Pau d'Ordal
+Sant Martí Sacalm
+Teresa de Begís
+Teresa de Cofrentes
+Titaguas
+Titaigües
+Solers
+Torás
+Torrebaja
+Torrechiva
+Torrefeta
+Torrelavit
+Lavit
+Torrevieja
+Trilhan
+Tuéjar
+Vajol
+Vall d'Ebo
+Vall de Almonacid
+Vall de Cardós
+Ribera de Cardós
+Vall de Lierp
+Vandellòs i l'Hospitalet de l'Infant
+Vensilló
+Vespella de Gaià
+Vielha
+Vila-sana
+Vilafranca
+Vilallonga
+Villahermosa del Río
+Vilamalur
+Villanueva de Viver
+Villar del Arzobispo
+Villargordo del Cabriel
+Villargordo del Cabriol
+Vinyols
+Viran
+Serrateix
+Yátova
+Zucaina

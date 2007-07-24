@@ -1,4 +1,14 @@
-// Noms propis de marques
+// Noms propis excepte topònims, llinatges i antropònims.
 // Els que comencen per vocal poden dur "d'"
 
 Barça
+l'Internet
+
+d'ERC
+GOB
+PP
+PSC
+CiU
+PSM
+PSOE
+d'UM

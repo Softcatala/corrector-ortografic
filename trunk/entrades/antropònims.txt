@@ -1,4 +1,5 @@
 // Noms agafats del diccionari català/castellà d'en Moll
+// Els noms començats en 'i' o 'u' àtones duen una marca "f", si són femenins.
 
 Aaron
 Abdalong
@@ -758,8 +759,8 @@ Hildebert
 Hildebrand
 Hildegarda f
 
-Hildegunda
-Hiltruda
+Hildegunda f
+Hiltruda f
 Himeri
 Hipaci
 Hipòlit
@@ -775,9 +776,9 @@ Hubert
 Hug
 Hugó
 Humbert
-Humiliana
+Humiliana f
 
-Ida f
+Ida
 Idoberga f
 Ifigènia f
 Ignasi
@@ -1184,6 +1185,7 @@ Raimon
 Ramir
 Ramon
 Raquel
+Raül
 Rebeca
 
 Regina
@@ -1367,7 +1369,7 @@ Ursí
 Ursici
 Ursicí
 Ursicina f
-Úrsula f
+Úrsula
 
 Valent
 Valentí
@@ -1421,18 +1423,17 @@ Zòtic
 // Noms agafats d'en Labastida (els que no són a la llista anterior)
 
 Absalò
-Afrodita f
-Agnès f
+Afrodita
+Agnès
 Aguirre
-Albertina f
+Albertina
 Albéniz
 Ambrós
 Amengual
 Angstrom
 Anguita
-Anscarina f
+Anscarina
 Arafat
-Aribau
 Ariel
 Arimany
 Arinyó
@@ -1440,78 +1441,67 @@ Aristòtil
 Arquimedes
 Artola
 Asensi
-Asmonea f
+Asmonea
 Ataülf
 Atenàgores
-Aymerich
-Azcona
-Azorín
-Bach
 Bacon
 Bacus
 Balcells
 Baldoví
 Barnils
 Beda
-Beethoven
-Bernadeta f
+Bernadeta
 Boeci
 Bosch
-Camil·la f
+Camil·la
 Crisòstom
 Darwin
 Demòstenes
 Deodat
 Capistrano
-Carbonell
-Caribdis f
+Caribdis
 Carlemany
-Cassiopea f
+Cassiopea
 Ciceró
-Cioran f
-Cira f
-Circe f
+Cioran
+Cira
+Circe
 Ciril
 Claravall
 Corella
-Covadonga f
+Covadonga
 Donald
-Edelmira f
+Edelmira
 Edgar
 Efraïm
 Efrén
-Egipcíaca f
-Emma f
+Egipcíaca
+Emma
 Empèdocles
 Enees
 Euclides
-Eudòcia f
+Eudòcia
 Eulampi
-Eurídice f
+Eurídice
 Eurípides
 Fèlix
 Fídies
 Galderic
-Geòrgia f
+Geòrgia
 Gisbert
 Godofred
-González
-Goretti f
-Gómez
+Goretti
 Heraclià
 Hermes
-Hernández
 Herodes
 Huguet
-Ibáñez
-Ingmar f
+Ingmar
 Ingrid f
-Iolanda f
-Jacinta f
+Iolanda
+Jacinta
 Josafat
 Jubany
-Lafuente
-Laia f
+Laia
 Llorente
 Llucifer
 Llucià
@@ -1520,24 +1510,19 @@ Llúria
 Lucil
 Luter
 Lícies
-López
 Mahoma
 Maimònides
 Maiol
 Manfred
 Maragall
 March
-Martínez
-Masdéu
-Medea f
+Medea
 Mefistòfil
 Menthon
-Menéndez
 Mohammed
 Mollà
 Muhammad
 Mulet
-Muñoz
 Mònica
 Neptú
 Ninyoles
@@ -1548,33 +1533,21 @@ Orfeu
 Ortega
 Pelai
 Pitàgores
-Placídia f
+Placídia
 Plini
 Polifem
 Priscil
-Pràxedes f
+Pràxedes
 Príap
 Pérez
 Rainer
 Rainier
-Ramírez
-Rodríguez
 Saddam
-Safo f
+Safo
 Severí
 Sofonies
-Sánchez
 Sírius
 Umbert
 Wenceslau
-Álvarez
 Èdip
-Francisca f
-Estelrich
-Blanch
-Puigserver
-PSM
-UM
-PP
-GOB
-
+Francisca
