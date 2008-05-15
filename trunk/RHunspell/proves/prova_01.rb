@@ -6,6 +6,9 @@ hs = Hunspell.new("#{BASE}/catalan.aff", "#{BASE}/catalan.dic")
 p hs
 
 mots = []
+mots += %w(abstenir atenir captenir cartenir contenir detenir entretenir mantenir menystenir obtenir retenir sostenir viltenir)
+mots += %w(abstindre atindre captindre cartindre contindre detindre entretindre mantindre menystindre obtindre retindre sostindre viltindre)
+mots += %w(abstindré atindré captindré cartindré contindré detindré entretindré mantindré menystindré obtindré retindré sostindré viltindré)
 mots += %w(acceptat acceptada acceptats acceptades l'acceptat l'acceptada *l'acceptats *l'acceptades d'acceptat d'acceptada d'acceptats d'acceptades)
 mots += %w(formatatge formatació)
 mots += %w(posiciona posicionat posicionaré)
@@ -38,6 +41,8 @@ mots += %w(abietàcia abietàcies d'abietàcies)
 mots += %w(d'ara d'aquí d'allà *d'atentament)
 mots += %w(entre d'entre enmig d'enmig elles d'elles)
 mots += %w(escampavies *escampaviesos)
+mots += %w(feréstec feréstega feréstecs feréstegues)
+mots += %w(ambigu ambigua ambigus ambigües)
 bons, dolents = 0, 0
 resultat = []
 mots.each do |mot|

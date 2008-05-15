@@ -59,6 +59,7 @@ GRUPS
 101 Accepta "complit", etc.
 102 Accepta "duim", "feim", etc.
 103 Accepta "tenc" i "vénc"
+104 Accepta "obtindre", etc.
 /GRUPS
 
 // els grups per als quals es generaran regles

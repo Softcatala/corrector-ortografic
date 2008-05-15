@@ -1359,7 +1359,7 @@ voler2: FUT=voldré & SIM=volgués & PAR=volgut & -=(SPR|IPR1|IMP) & +=vull<IPR1> 
 //======== verbs irregulars terminats en -ir, peró del grup -re/-er ========
 
 // abstenir-se: p. p. abstingut; ind. pr. 1 abstinc, 3 absté; ind. fut. abstindré, etc.; subj. pr. abstingui, etc.; subj. imperf. abstingués, etc.; imperat. 2 abstén
-abstenir-se: ALT=abstindre & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(INF|IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
+abstenir-se: ALT=abstindre & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(<<!104INF|!104>>IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
 
 adir: IGNORA=1
 
@@ -1430,7 +1430,7 @@ intervenir: MODEL=prevenir/prev/interv
 maldir: MODEL=dir1/d/mald
 
 // mantenir: p. p. mantingut; ind. pr. mantinc, mantens, manté, etc.; ind. fut. mantindré, etc.; subj. pr. mantingui, etc.; imper. mantén o mantingues, mantingui, mantinguem, manteniu o mantingueu, mantinguin
-mantenir: ALT=mantindre & GER=mantenint & PAR=mantingut & SIM=mantingués & -=(INF|IPR3|IMP2) & +=mantenir<INF0> manté<IPR3> mantén<IMP2> mantingues<IMP2> mantingueu<IMP5> <<103 mantenc<IPR1> mantengués<IIM1>/Q mantengut<PAR0>/B mantendré<FUT1>/T 103>>
+mantenir: ALT=mantindre & GER=mantenint & PAR=mantingut & SIM=mantingués & -=(<<!104INF|!104>>IPR3|IMP2) & +=mantenir<INF0> manté<IPR3> mantén<IMP2> mantingues<IMP2> mantingueu<IMP5> <<103 mantenc<IPR1> mantengués<IIM1>/Q mantengut<PAR0>/B mantendré<FUT1>/T 103>>
 
 // menystenir: quant a la flexió, com mantenir
 menystenir: MODEL=mantenir/mant/menyst
@@ -1483,6 +1483,9 @@ vindre: IGNORA=1
 
 // venir: inf. venir o vindre; p. p. vingut; ind. pr. 1 vinc, 2 véns, 3 ve, 6 vénen; ind. fut. vindré, etc.; subj. pr. vingui, etc.; subj. imperf. vingués, etc.; imper. 2 vine
 venir: ALT=vindre & GER=venint & IIM=venia & SIM=vingués & PAR=vingut & -=(IPR2|IPR3|IPR6|IMP2) & +=venir<INF0> véns<IPR2> ve<IPR3> vénen<IPR6> vine<IMP2> <<103 vénc<IPR1> vengués/Q/(IPE|SPR[45]|SIM|IMP4) véngués/Q/(SPR[1236]|IMP[36]) vengut<PAR0>/B vendré<FUT1>/T 103>>
+
+// viltenir: quant a la flexió, com mantenir
+viltenir: MODEL=mantenir/man/vil
 
 //======== Verbs irregulars terminats en -ir ========
 

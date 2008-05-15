@@ -2143,12 +2143,12 @@ ent=ajustador -a^cat1=adj. i m. i f.^cat2=m. i f.^cat3=m.
 ent=ajustament1^cat1=m.
 ent=ajustament2^cat1=m.
 ent=ajustar1^cat1=v. tr.^cat2=pron.^cat3=intr.
-ent=ajustar2^cat1=v. tr.^com1=o ajustar la finestra, o ajustar els finestrons
+ent=ajustar2^cat1=v. tr.
 ent=ajusticiament^cat1=m.
 ent=ajusticiar^cat1=v. tr.
 ent=ajut^cat1=m.
 ent=al^com1=pl. als
-ent=ala^cat1=f.^cat2=m. i f.^com1=o tenir un perdigó a l'ala
+ent=ala^cat1=f.^cat2=m. i f.
 ent=alà1^cat1=m.
 ent=alà2 -ana^cat1=adj.^cat2=m. i f.
 ent=alabaix -a^cat1=adj.
@@ -3410,7 +3410,7 @@ ent=ampelita^cat1=f.
 ent=ampelo-^com1=o ampel-
 ent=ampelografia^cat1=f.
 ent=amperatge^cat1=m.
-ent=ampere^cat1=m.^com1=o ampere minut, o ampere segon
+ent=ampere^cat1=m.
 ent=amperímetre^cat1=m.
 ent=amperimetria^cat1=f.
 ent=ampèrmetre^cat1=m.
@@ -3420,7 +3420,7 @@ ent=ampit^cat1=m.
 ent=amplada^cat1=f.
 ent=amplament^cat1=adv.
 ent=amplària^cat1=f.
-ent=ample -a^cat1=adj.^cat2=m.^com1=o tenir la màniga ampla
+ent=ample -a^cat1=adj.^cat2=m.
 ent=amplejar^cat1=v. intr.
 ent=amplexicaule^cat1=adj.
 ent=ampli àmplia^cat1=adj.
@@ -11143,7 +11143,7 @@ ent=calvície^cat1=f.
 ent=calvinisme^cat1=m.
 ent=calvinista^cat1=adj.^cat2=adj. i m. i f.
 ent=calze^cat1=m.
-ent=cama^cat1=f.^cat2=pl.^com1=o tenir cama^com2=o cames llargues
+ent=cama^cat1=f.
 ent=camabruna^cat1=f.
 ent=camacoix^cat1=adj.
 ent=camacurt -a^cat1=adj.
@@ -11580,7 +11580,7 @@ ent=caolinització^cat1=f.
 ent=caos^cat1=m.
 ent=caòtic -a^cat1=adj.
 ent=caòticament^cat1=adv.
-ent=cap1^cat1=m.^cat2=m. i f.^com1=o llevar el cap a algú^com2=o anar a algú el cap entorn^com3=o amb el cap ben alt^com4=o tenir el cap com un timbal^com5=o obrar del seu cap^com6=o posar a algú un cap com tres quartans^com7=o ficar-se al cap alguna cosa^com8=o ple de fum, o ple de pardals, o ple de grills^com9=o un cap calent, o un cap de trons, o un cap desgavellat, o un cap fluix, o un cap lleuger, o un cap verd, o un cap de pardals^com10=o un cap d'ase, o un cap de carabassa^com11=o cap mort d'un camp^com12=o no saber per quin cap posar-s'hi^com13=o al cap i a la fi, o al cap i a l'últim
+ent=cap1^cat1=m.^cat2=m. i f.
 ent=cap2^cat1=adj.^cat2=pron.
 ent=cap3^cat1=prep.
 ent=capa^cat1=f.
@@ -14446,7 +14446,7 @@ ent=colistre^cat1=m.
 ent=còlit^cat1=m.
 ent=colitis^cat1=f.
 ent=colitx^cat1=m.
-ent=coll1^cat1=m.^com1=o posar el dogal al coll a un poble^com2=o tenir una cosa a mig coll
+ent=coll1^cat1=m.
 ent=coll2^cat1=m.
 ent=coll3^cat1=m.
 ent=colla^cat1=f.
@@ -18630,7 +18630,7 @@ ent=densificar^cat1=v. tr.
 ent=densímetre^cat1=m.
 ent=densitat^cat1=f.
 ent=densitòmetre^cat1=m.
-ent=dent^cat1=f.^com1=o venir amb les dents esmolades^com2=o tenir bona dent^com3=o dent de gos
+ent=dent^cat1=f.
 ent=dentada^cat1=f.
 ent=dentadora^cat1=f.
 ent=dentadura^cat1=f.
@@ -25286,7 +25286,7 @@ ent=entretela^cat1=f.
 ent=entretelar^cat1=v. tr.
 ent=entretemps^cat1=m.^com1=inv.
 ent=entreteniment^cat1=m.
-ent=entretenir^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com mantenir^com2=o entretenir la fam
+ent=entretenir^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com mantenir
 ent=entretesta^cat1=f.
 ent=entretingut -uda^cat1=adj.
 ent=entretoc^cat1=m.
@@ -27852,7 +27852,7 @@ ent=esquifiment^cat1=m.
 ent=esquifir-se^cat1=v. pron.
 ent=esquifista^cat1=m. i f.
 ent=esquifit -ida^cat1=adj.
-ent=esquila^cat1=f.^com1=o tenir algú de cap d'esquila
+ent=esquila^cat1=f.
 ent=esquilada^cat1=f.
 ent=esquilador esquiladora^cat1=m. i f.
 ent=esquilar^cat1=v. tr.
@@ -30249,7 +30249,7 @@ ent=ferejar^cat1=v. intr.
 ent=feresa^cat1=f.
 ent=ferest -a^cat1=adj.
 ent=ferestament^cat1=adv.
-ent=feréstec -ega^cat1=adj.
+ent=feréstec -éstega^cat1=adj.
 ent=feréstegament^cat1=adv.
 ent=fèretre^cat1=m.
 ent=ferí -ina^cat1=adj.
@@ -30425,7 +30425,7 @@ ent=fet^cat1=m.
 ent=feta^cat1=f.
 ent=fetal^cat1=adj.
 ent=fet-fet^cat1=f.
-ent=fetge^cat1=m.^com1=o tenir un fetge de rajada, o no tirar-se pedres al fetge
+ent=fetge^cat1=m.
 ent=fetgera^cat1=adj.^cat2=f.
 ent=fètid -a^cat1=adj.
 ent=fètidament^cat1=adv.
@@ -40695,7 +40695,7 @@ ent=lligamosques^cat1=m. i f.
 ent=lligança^cat1=f.
 ent=lligand^cat1=m.
 ent=lligant^cat1=m.
-ent=lligar^cat1=v. tr.^cat2=intr.^com1=o tenir la llengua lligada
+ent=lligar^cat1=v. tr.^cat2=intr.
 ent=lligassa^cat1=f.
 ent=lligat^cat1=m.
 ent=lligó^cat1=m.
@@ -46269,7 +46269,7 @@ ent=nupcial^cat1=adj.
 ent=nupcialitat^cat1=f.
 ent=núpcies^cat1=f. pl.^com1=o segones núpcies
 ent=nurag^cat1=m.
-ent=nus^cat1=m.^com1=o tenir algú un nus a la gola
+ent=nus^cat1=m.
 ent=nusosa^cat1=adj.
 ent=nutació^cat1=f.
 ent=nutreòleg nutreòloga^cat1=m. i f.
@@ -47481,7 +47481,7 @@ ent=orxateria^cat1=f.
 ent=orxegada^cat1=f.
 ent=orxegar^cat1=v. tr.
 ent=orxella^cat1=f.
-ent=os^cat1=m.^com1=pl. ossos^com2=o no tenir més que la pell i l'os^com3=o tenir un os al ventre
+ent=os^cat1=m.^com1=pl. ossos
 ent=ós^cat1=m.^com1=pl. óssos
 ent=osa^cat1=f.
 ent=osc osca^cat1=m. i f.^cat2=adj.^cat3=m.
@@ -53577,7 +53577,7 @@ ent=punidor -a^cat1=adj. i m. i f.
 ent=puniment^cat1=m.
 ent=punir^cat1=v. tr.
 ent=punitiu -iva^cat1=adj.
-ent=punt^cat1=m.^com1=o punt de marciment^com2=o tenir un punt de salat, etc.^com3=o un bon punt
+ent=punt^cat1=m.
 ent=punta^cat1=f.
 ent=puntacorrent^cat1=m.
 ent=puntada^cat1=f.
@@ -55852,7 +55852,7 @@ ent=rematadament^cat1=adv.
 ent=rematador rematadora^cat1=m. i f.
 ent=rematant^cat1=m. i f.
 ent=rematar^cat1=v. tr.^cat2=pron.
-ent=remei^cat1=m.^com1=o no tenir altre remei
+ent=remei^cat1=m.
 ent=remeiable^cat1=adj.
 ent=remeiar^cat1=v. tr.
 ent=remeier -a^cat1=adj.^cat2=m. i f.
@@ -57708,7 +57708,7 @@ ent=saballonera^cat1=adj.
 ent=sabana^cat1=f.
 ent=sabaner -a^cat1=adj.
 ent=sàbat^cat1=m.
-ent=sabata^cat1=f.^cat2=adj. i m. i f.^com1=o tenir gana una sabata
+ent=sabata^cat1=f.^cat2=adj. i m. i f.
 ent=sabatada^cat1=f.
 ent=sabatasses^cat1=m. i f.
 ent=sabatejar^cat1=v. tr.
@@ -58218,7 +58218,7 @@ ent=sanejable^cat1=adj.
 ent=sanejador -a^cat1=adj.
 ent=sanejament^cat1=m.
 ent=sanejar^cat1=v. tr.
-ent=sang^cat1=f.^com1=o tenir sang d'orxata
+ent=sang^cat1=f.
 ent=sangada^cat1=f.
 ent=sangartilla^cat1=f.
 ent=sangassa^cat1=f.
@@ -58984,7 +58984,7 @@ ent=sentimentalment^cat1=adv.
 ent=sentina^cat1=f.
 ent=sentinella^cat1=m. i f.^cat2=f.^cat3=m.
 ent=sentir^cat1=v. tr.^cat2=pron.^com1=ind. pr. 3 sent
-ent=sentit1^cat1=m.^com1=o tenir el sentit del bell
+ent=sentit1^cat1=m.
 ent=sentit2 -ida^cat1=adj.
 ent=sentor^cat1=f.
 ent=seny^cat1=m.
@@ -59251,7 +59251,7 @@ ent=sesterci^cat1=m.
 ent=sesterçó^cat1=m.
 ent=sèston^cat1=m.
 ent=set1^cat1=m.
-ent=set2^cat1=f.^com1=o tenir set la terra
+ent=set2^cat1=f.
 ent=set3^cat1=adj.^cat2=m.^cat3=f. pl.
 ent=seta^cat1=f.
 ent=setaci -àcia^cat1=adj.
