@@ -62,7 +62,7 @@ namespace Genera
             if (fetsExemples)
                 return;
             this.Cursor = Cursors.WaitCursor;
-            CarregaExemples(DirBase + @"\modern\proves\exemples.txt");
+            CarregaExemples(DirBase + @"\genera\proves\exemples.txt");
             this.Cursor = Cursors.Default;
             fetsExemples = true;
         }

@@ -38,6 +38,7 @@
 [DIEC]  ent=concórrer^cat1=v. intr.^com1=quant a la flexió, com córrer
 [DIEC]  ent=condoldre's^cat1=v. pron.^com1=quant a la flexió, com valer
 [DIEC]  ent=confondre^cat1=pron.^cat2=v. tr.^com1=ger. confonent; p. p. confós; ind. pr. 1 confonc; subj. pr. confongui, etc.; subj. imperf. confongués, etc.
+[DIEC]  ent=contigu -a^cat1=adj.
 [DIEC]  ent=coure2^cat1=v. tr.^cat2=intr.^com1=ger. coent; p. p. cuit; ind. pr. coc, cous, cou, coem, coeu, couen; subj. pr. cogui, etc.; subj. imperf. cogués, etc.^com2=p. p. cogut
 [DIEC]  ent=cuinar^cat1=v. intr.^cat2=tr.
 [DIEC]  ent=dir1^cat1=v. tr.^com1=ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu^com2=o no trobar res a dir^com3=o tan aviat dit com fet^com4=o vol dir?, o voleu dir?^com5=o per dir-ho així, o com si diguéssim, o que diguéssim^com6=o dir-ne de tot color, o dir-ne de coents, o dir-ne de verdes i madures, o dir-ne per a salar, o dir de tot^com7=o dir de vós, o dir de vostè

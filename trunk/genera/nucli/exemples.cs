@@ -141,13 +141,13 @@ namespace Genera
             StringBuilder sb = new StringBuilder();
             Regex tag = new Regex(@"\(\(([A-Z1-6\.]+)\)\)");
             Regex css = new Regex(@"(type=""text/css"" href="")(.*\.css"")");
-            StreamReader sr = new StreamReader(String.Format(DirBase + @"modern\prova_modern\html\{0}.html", plantilla), Encoding.Default);
+            StreamReader sr = new StreamReader(String.Format(DirBase + @"genera\proves\html\{0}.html", plantilla), Encoding.Default);
             while (!sr.EndOfStream)
             {
                 string linia = sr.ReadLine();
                 linia = css.Replace(linia, delegate(Match match)
                 {
-                    return match.Groups[1].Value + DirBase + @"modern\prova_modern\html\" + match.Groups[2].Value;
+                    return match.Groups[1].Value + DirBase + @"genera\proves\html\" + match.Groups[2].Value;
                 });
                 if (linia.Contains("((ERRORS))"))
                 {
