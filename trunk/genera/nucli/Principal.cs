@@ -135,6 +135,13 @@ namespace Genera
             this.Cursor = Cursors.Default;
         }
 
+        private void botoGeneraMostra_Click(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.WaitCursor;
+            Genera(GeneraMostra);
+            this.Cursor = Cursors.Default;
+        }
+
     }
 
 }

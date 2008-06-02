@@ -1,0 +1,21 @@
+// Dades sobre "irregularitats" a la la llista de paraules de l'AVL 
+// Entenem com "entrada irregular", aquella que no es pot deduir de "ent" i "cat".
+// Són "irregulars" per al programa que genera els diccionaris.
+
+// Vegeu irregulars_diec.txt per a més aclariments
+
+germen: PLU=gérmens
+bebé: PLU=-és
+café: PLU=-és
+canapé: PLU=-és
+comité: PLU=-és
+crepé: PLU=-és
+cupé: PLU=-és
+damassé: PLU=-és
+mercé: PLU=-és
+oboé: PLU=-és
+rapé: PLU=-és
+requeté: PLU=-és
+tupé: PLU=-és
+vosté: ALT=vosté vostés
+pesabebés: PLU=pesabebés

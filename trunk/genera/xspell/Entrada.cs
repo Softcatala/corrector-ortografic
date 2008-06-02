@@ -10,12 +10,15 @@ namespace xspell
     /// Una unitat lèxica, com una entrada del diccionari.
     /// Té mètodes per generar informació per als diversos correctors.
     /// Una entrada té una arrel, un paradigma i, eventualment, informació sobre excepcions.
+    /// Una entrada pot tenir una o més marques, que es fan servir a l'hora de generar 
+    /// diccionaris (s'exclouen les entrades que tenen marques no incloses al filtre).
     /// </summary>
     public class Entrada
     {
         /// <summary>
         /// Crea una entrada, amb una arrel, un paradigma i informació extra.
         /// La informació extra es pot referir a excepcions, origen de la paraula, etc.
+        /// Per defecte, les entrades tenen la marca '000'.
         /// </summary>
         /// <param name="identPar">L'objecte que identifica el paradigma al qual pertany l'entrada.</param>
         /// <param name="dades">Informació sobre l'entrada</param>
@@ -24,6 +27,7 @@ namespace xspell
             this.dades = dades;
             this.excepcions = null;
             this.identificador = identificador;
+            marques = null;
         }
 
         /// <summary>
@@ -57,6 +61,7 @@ namespace xspell
         /// <summary>
         /// Genera les línies d'un fitxer .dic a partir de la llista d'entrades.
         /// No conté cap línia amb el nombre de línies.
+        /// Només s'inclouen les entrades que tenen totes les marques incloses dins filtre.
         /// </summary>
         /// <param name="entrades">Les entrades que ha de contenir el fitxer .dic.</param>
         /// <param name="speller">El client per al qual generarem les línies .dic.</param>
@@ -66,7 +71,7 @@ namespace xspell
             Speller speller, Comparison<string> comparador)
         {
             List<ItemDic> llista = Entrada.GeneraItemsDic(entrades, filtre, speller, comparador);
-            Regles regles = null;
+            //Regles regles = null;
             Entrada entrada0 = null;
             foreach (Entrada ent in entrades)
             {
@@ -110,6 +115,8 @@ namespace xspell
             Dictionary<string, string> dades;
             foreach (Entrada ent in entrades)
             {
+                if (!filtre.Conte(ent.Marques))
+                    continue;
                 List<ItemDic> ids;
                 Paradigma par = null;
                 if (ent.Excepcions == null)
@@ -236,6 +243,25 @@ namespace xspell
 
         public Identificador Identificador { get { return identificador; } }
 
+        public Marques Marques { get {
+            if ((Object)marques == null)
+            {
+                if (dades.ContainsKey("mrc1"))
+                {
+                    marques = new Marques(false);
+                    int idx = 1;
+                    while (dades.ContainsKey("mrc" + idx.ToString()))
+                    {
+                        marques.Mes(Marca.Una(dades["mrc" + idx.ToString()]));
+                        ++idx;
+                    }
+                }
+                else
+                    marques = marquesDefecte;
+            }
+            return marques; 
+        } }
+
         public override string ToString()
         {
             return String.Format("Entrada: \"{0}\"", Arrel);
@@ -244,5 +270,8 @@ namespace xspell
         private Dictionary<string, string> dades;
         private LiniaMarques excepcions;
         private Identificador identificador;
+        private Marques marques;
+
+        static private Marques marquesDefecte = new Marques(false, "000");
     }
 }

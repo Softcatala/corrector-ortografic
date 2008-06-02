@@ -40,6 +40,7 @@
             this.dadesDic = new System.Windows.Forms.RichTextBox();
             this.entrades = new System.Windows.Forms.ListBox();
             this.tpGenera = new System.Windows.Forms.TabPage();
+            this.botoGeneraMostra = new System.Windows.Forms.Button();
             this.botoGenera = new System.Windows.Forms.Button();
             this.barraProgres = new System.Windows.Forms.ProgressBar();
             this.logGenera = new System.Windows.Forms.RichTextBox();
@@ -168,6 +169,7 @@
             // 
             // tpGenera
             // 
+            this.tpGenera.Controls.Add(this.botoGeneraMostra);
             this.tpGenera.Controls.Add(this.botoGenera);
             this.tpGenera.Controls.Add(this.barraProgres);
             this.tpGenera.Controls.Add(this.logGenera);
@@ -178,6 +180,16 @@
             this.tpGenera.TabIndex = 2;
             this.tpGenera.Text = "Genera";
             this.tpGenera.UseVisualStyleBackColor = true;
+            // 
+            // botoGeneraMostra
+            // 
+            this.botoGeneraMostra.Location = new System.Drawing.Point(15, 48);
+            this.botoGeneraMostra.Name = "botoGeneraMostra";
+            this.botoGeneraMostra.Size = new System.Drawing.Size(237, 27);
+            this.botoGeneraMostra.TabIndex = 3;
+            this.botoGeneraMostra.Text = "5% de la llista";
+            this.botoGeneraMostra.UseVisualStyleBackColor = true;
+            this.botoGeneraMostra.Click += new System.EventHandler(this.botoGeneraMostra_Click);
             // 
             // botoGenera
             // 
@@ -288,6 +300,7 @@
         private System.Windows.Forms.Button botoComparaAntic;
         private System.Windows.Forms.RichTextBox logQualitat;
         private System.Windows.Forms.Button botoCmpHunspellMyspell;
+        private System.Windows.Forms.Button botoGeneraMostra;
     }
 }
 

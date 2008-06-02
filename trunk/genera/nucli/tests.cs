@@ -535,7 +535,7 @@ namespace Genera
                     "ent=donar^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=ind. pr. 2 dónes, 3 dóna > VERB.INF=donar|donar-ne VERB.GER=donant|donant-ne VERB.PAR.M.SG=donat VERB.PAR.M.PL=donats VERB.PAR.F.SG=donada VERB.PAR.F.PL=donades VERB.IPR.P1=don|done|dono VERB.IPR.P2=dónes VERB.IPR.P3=dóna VERB.IPR.P4=donam|donem VERB.IPR.P5=donau|doneu VERB.IPR.P6=donen VERB.IIM.P1=donava VERB.IIM.P2=donaves VERB.IIM.P3=donava VERB.IIM.P4=donàvem VERB.IIM.P5=donàveu VERB.IIM.P6=donaven VERB.IPE.P1=doní VERB.IPE.P2=donares VERB.IPE.P3=donà VERB.IPE.P4=donàrem VERB.IPE.P5=donàreu VERB.IPE.P6=donaren VERB.FUT.P1=donaré VERB.FUT.P2=donaràs VERB.FUT.P3=donarà VERB.FUT.P4=donarem VERB.FUT.P5=donareu VERB.FUT.P6=donaran VERB.CON.P1=donaria VERB.CON.P2=donaries VERB.CON.P3=donaria VERB.CON.P4=donaríem VERB.CON.P5=donaríeu VERB.CON.P6=donarien VERB.SPR.P1=done|doni VERB.SPR.P2=dónes|donis VERB.SPR.P3=done|doni VERB.SPR.P4=donem VERB.SPR.P5=doneu VERB.SPR.P6=donen|donin VERB.SIM.P1=donara|donàs|donés VERB.SIM.P2=donares|donassis|donesses|donessis VERB.SIM.P3=donara|donàs|donés VERB.SIM.P4=donàrem|donàssim|donéssem|donéssim VERB.SIM.P5=donàreu|donàssiu|donésseu|donéssiu VERB.SIM.P6=donaren|donassin|donessen|donessin VERB.IMP.P2=dóna|dóna'n VERB.IMP.P3=done|done'n|doni|doni'n VERB.IMP.P4=donem|donem-ne VERB.IMP.P5=donau|donau-ne|doneu|doneu-ne VERB.IMP.P6=donen|donen-ne|donin|donin-ne",
                     "ent=estar^cat1=v. intr.^cat2=pron.^cat3=tr.^com1=ind. pr. 1 estic, 2 estàs, 3 està, 6 estan; subj. pr. estigui, etc.; subj. imperf. estigués, etc.; imper. estigues, estigui, estiguem, estigueu, estiguin^com2=o estar per alguna cosa > VERB.INF=d'estar|d'estar-ne|estar|estar-ne VERB.GER=estant|estant-ne VERB.PAR.M.SG=d'estat|estat|l'estat VERB.PAR.M.PL=d'estats|estats VERB.PAR.F.SG=d'estada|estada|l'estada VERB.PAR.F.PL=d'estades|estades VERB.IPR.P1=estic|n'estic VERB.IPR.P2=estàs|n'estàs VERB.IPR.P3=està|n'està VERB.IPR.P4=estam|estem|n'estam|n'estem VERB.IPR.P5=estau|esteu|n'estau|n'esteu VERB.IPR.P6=estan|n'estan VERB.IIM.P1=estava|n'estava VERB.IIM.P2=estaves|n'estaves VERB.IIM.P3=estava|n'estava VERB.IIM.P4=estàvem|n'estàvem VERB.IIM.P5=estàveu|n'estàveu VERB.IIM.P6=estaven|n'estaven VERB.IPE.P1=estiguí|n'estiguí VERB.IPE.P2=estigueres|n'estigueres VERB.IPE.P3=estigué|n'estigué VERB.IPE.P4=estiguérem|n'estiguérem VERB.IPE.P5=estiguéreu|n'estiguéreu VERB.IPE.P6=estigueren|n'estigueren VERB.FUT.P1=estaré|n'estaré VERB.FUT.P2=estaràs|n'estaràs VERB.FUT.P3=estarà|n'estarà VERB.FUT.P4=estarem|n'estarem VERB.FUT.P5=estareu|n'estareu VERB.FUT.P6=estaran|n'estaran VERB.CON.P1=estaria|n'estaria VERB.CON.P2=estaries|n'estaries VERB.CON.P3=estaria|n'estaria VERB.CON.P4=estaríem|n'estaríem VERB.CON.P5=estaríeu|n'estaríeu VERB.CON.P6=estarien|n'estarien VERB.SPR.P1=estiga|estigui|n'estiga|n'estigui VERB.SPR.P2=estigues|estiguis|n'estigues|n'estiguis VERB.SPR.P3=estiga|estigui|n'estiga|n'estigui VERB.SPR.P4=estiguem|n'estiguem VERB.SPR.P5=estigueu|n'estigueu VERB.SPR.P6=estiguen|estiguin|n'estiguen|n'estiguin VERB.SIM.P1=estiguera|estigués|n'estiguera|n'estigués VERB.SIM.P2=estigueres|estiguesses|estiguessis|n'estigueres|n'estiguesses|n'estiguessis VERB.SIM.P3=estiguera|estigués|n'estiguera|n'estigués VERB.SIM.P4=estiguérem|estiguéssem|estiguéssim|n'estiguérem|n'estiguéssem|n'estiguéssim VERB.SIM.P5=estiguéreu|estiguésseu|estiguéssiu|n'estiguéreu|n'estiguésseu|n'estiguéssiu VERB.SIM.P6=estigueren|estiguessen|estiguessin|n'estigueren|n'estiguessen|n'estiguessin VERB.IMP.P2=estigues|estigues-ne VERB.IMP.P3=estiga|estiga'n|estigui|estigui'n VERB.IMP.P4=estiguem|estiguem-ne VERB.IMP.P5=estigueu|estigueu-ne VERB.IMP.P6=estiguen|estiguen-ne|estiguin|estiguin-ne",
                     "ent=dir1^cat1=v. tr.^com1=ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu^com2=o no trobar res a dir^com3=o tan aviat dit com fet^com4=o vol dir?, o voleu dir?^com5=o per dir-ho així, o com si diguéssim, o que diguéssim^com6=o dir-ne de tot color, o dir-ne de coents, o dir-ne de verdes i madures, o dir-ne per a salar, o dir de tot^com7=o dir de vós, o dir de vostè > VERB.INF=dir|dir-ne VERB.GER=dient|dient-ne VERB.PAR.M.SG=dit VERB.PAR.M.PL=dits VERB.PAR.F.SG=dita VERB.PAR.F.PL=dites VERB.IPR.P1=dic VERB.IPR.P2=dius VERB.IPR.P3=diu VERB.IPR.P4=deim|diem VERB.IPR.P5=deis|dieu VERB.IPR.P6=diuen VERB.IIM.P1=deia VERB.IIM.P2=deies VERB.IIM.P3=deia VERB.IIM.P4=dèiem VERB.IIM.P5=dèieu VERB.IIM.P6=deien VERB.IPE.P1=diguí VERB.IPE.P2=digueres VERB.IPE.P3=digué VERB.IPE.P4=diguérem VERB.IPE.P5=diguéreu VERB.IPE.P6=digueren VERB.FUT.P1=diré VERB.FUT.P2=diràs VERB.FUT.P3=dirà VERB.FUT.P4=direm VERB.FUT.P5=direu VERB.FUT.P6=diran VERB.CON.P1=diria VERB.CON.P2=diries VERB.CON.P3=diria VERB.CON.P4=diríem VERB.CON.P5=diríeu VERB.CON.P6=dirien VERB.SPR.P1=diga|digui VERB.SPR.P2=digues|diguis VERB.SPR.P3=diga|digui VERB.SPR.P4=diguem VERB.SPR.P5=digueu VERB.SPR.P6=diguen|diguin VERB.SIM.P1=diguera|digués VERB.SIM.P2=digueres|diguesses|diguessis VERB.SIM.P3=diguera|digués VERB.SIM.P4=diguérem|diguéssem|diguéssim VERB.SIM.P5=diguéreu|diguésseu|diguéssiu VERB.SIM.P6=digueren|diguessen|diguessin VERB.IMP.P2=digues|digues-ne VERB.IMP.P3=diga|diga'n|digui|digui'n VERB.IMP.P4=diguem|diguem-ne VERB.IMP.P5=digueu|digueu-ne VERB.IMP.P6=diguen|diguen-ne|diguin|diguin-ne",
-                    "ent=obtenir^cat1=v. tr.^com1=quant a la flexió, com mantenir > VERB.INF=d'obtenir|d'obtenir-ne|obtenir|obtenir-ne VERB.GER=obtenint|obtenint-ne VERB.PAR.M.SG=d'obtengut|d'obtingut|l'obtengut|l'obtingut|obtengut|obtingut VERB.PAR.M.PL=d'obtenguts|d'obtinguts|obtenguts|obtinguts VERB.PAR.F.SG=d'obtenguda|d'obtinguda|l'obtenguda|l'obtinguda|obtenguda|obtinguda VERB.PAR.F.PL=d'obtengudes|d'obtingudes|obtengudes|obtingudes VERB.IPR.P1=n'obtenc|n'obtinc|obtenc|obtinc VERB.IPR.P2=n'obtens|obtens VERB.IPR.P3=n'obté|obté VERB.IPR.P4=n'obtenim|obtenim VERB.IPR.P5=n'obteniu|obteniu VERB.IPR.P6=n'obtenen|obtenen VERB.IIM.P1=n'obtenia|obtengués|obtenia VERB.IIM.P2=n'obtenies|obtenies VERB.IIM.P3=n'obtenia|obtenia VERB.IIM.P4=n'obteníem|obteníem VERB.IIM.P5=n'obteníeu|obteníeu VERB.IIM.P6=n'obtenien|obtenien VERB.IPE.P1=n'obtenguí|n'obtinguí|obtenguí|obtinguí VERB.IPE.P2=n'obtengueres|n'obtingueres|obtengueres|obtingueres VERB.IPE.P3=n'obtengué|n'obtingué|obtengué|obtingué VERB.IPE.P4=n'obtenguérem|n'obtinguérem|obtenguérem|obtinguérem VERB.IPE.P5=n'obtenguéreu|n'obtinguéreu|obtenguéreu|obtinguéreu VERB.IPE.P6=n'obtengueren|n'obtingueren|obtengueren|obtingueren VERB.FUT.P1=n'obtendré|n'obtindré|obtendré|obtindré VERB.FUT.P2=n'obtendràs|n'obtindràs|obtendràs|obtindràs VERB.FUT.P3=n'obtendrà|n'obtindrà|obtendrà|obtindrà VERB.FUT.P4=n'obtendrem|n'obtindrem|obtendrem|obtindrem VERB.FUT.P5=n'obtendreu|n'obtindreu|obtendreu|obtindreu VERB.FUT.P6=n'obtendran|n'obtindran|obtendran|obtindran VERB.CON.P1=n'obtendria|n'obtindria|obtendria|obtindria VERB.CON.P2=n'obtendries|n'obtindries|obtendries|obtindries VERB.CON.P3=n'obtendria|n'obtindria|obtendria|obtindria VERB.CON.P4=n'obtendríem|n'obtindríem|obtendríem|obtindríem VERB.CON.P5=n'obtendríeu|n'obtindríeu|obtendríeu|obtindríeu VERB.CON.P6=n'obtendrien|n'obtindrien|obtendrien|obtindrien VERB.SPR.P1=n'obtenga|n'obtengui|n'obtinga|n'obtingui|obtenga|obtengui|obtinga|obtingui VERB.SPR.P2=n'obtengues|n'obtenguis|n'obtingues|n'obtinguis|obtengues|obtenguis|obtingues|obtinguis VERB.SPR.P3=n'obtenga|n'obtengui|n'obtinga|n'obtingui|obtenga|obtengui|obtinga|obtingui VERB.SPR.P4=n'obtenguem|n'obtinguem|obtenguem|obtinguem VERB.SPR.P5=n'obtengueu|n'obtingueu|obtengueu|obtingueu VERB.SPR.P6=n'obtenguen|n'obtenguin|n'obtinguen|n'obtinguin|obtenguen|obtenguin|obtinguen|obtinguin VERB.SIM.P1=n'obtenguera|n'obtengués|n'obtinguera|n'obtingués|obtenguera|obtengués|obtinguera|obtingués VERB.SIM.P2=n'obtengueres|n'obtenguesses|n'obtenguessis|n'obtingueres|n'obtinguesses|n'obtinguessis|obtengueres|obtenguesses|obtenguessis|obtingueres|obtinguesses|obtinguessis VERB.SIM.P3=n'obtenguera|n'obtengués|n'obtinguera|n'obtingués|obtenguera|obtengués|obtinguera|obtingués VERB.SIM.P4=n'obtenguérem|n'obtenguéssem|n'obtenguéssim|n'obtinguérem|n'obtinguéssem|n'obtinguéssim|obtenguérem|obtenguéssem|obtenguéssim|obtinguérem|obtinguéssem|obtinguéssim VERB.SIM.P5=n'obtenguéreu|n'obtenguésseu|n'obtenguéssiu|n'obtinguéreu|n'obtinguésseu|n'obtinguéssiu|obtenguéreu|obtenguésseu|obtenguéssiu|obtinguéreu|obtinguésseu|obtinguéssiu VERB.SIM.P6=n'obtengueren|n'obtenguessen|n'obtenguessin|n'obtingueren|n'obtinguessen|n'obtinguessin|obtengueren|obtenguessen|obtenguessin|obtingueren|obtinguessen|obtinguessin VERB.IMP.P2=obtén|obtén-ne|obtingues|obtingues-ne VERB.IMP.P3=obtenga|obtenga'n|obtengui|obtengui'n|obtinga|obtinga'n|obtingui|obtingui'n VERB.IMP.P4=obtenguem|obtenguem-ne|obtinguem|obtinguem-ne VERB.IMP.P5=obteniu|obteniu-ne|obtingueu|obtingueu-ne VERB.IMP.P6=obtenguen|obtenguen-ne|obtenguin|obtenguin-ne|obtinguen|obtinguen-ne|obtinguin|obtinguin-ne"
+                    "ent=obtenir^cat1=v. tr.^com1=quant a la flexió, com mantenir > VERB.INF=d'obtenir|d'obtenir-ne|d'obtindre|d'obtindre'n|obtenir|obtenir-ne|obtindre|obtindre'n VERB.GER=obtenint|obtenint-ne VERB.PAR.M.SG=d'obtengut|d'obtingut|l'obtengut|l'obtingut|obtengut|obtingut VERB.PAR.M.PL=d'obtenguts|d'obtinguts|obtenguts|obtinguts VERB.PAR.F.SG=d'obtenguda|d'obtinguda|l'obtenguda|l'obtinguda|obtenguda|obtinguda VERB.PAR.F.PL=d'obtengudes|d'obtingudes|obtengudes|obtingudes VERB.IPR.P1=n'obtenc|n'obtinc|obtenc|obtinc VERB.IPR.P2=n'obtens|obtens VERB.IPR.P3=n'obté|obté VERB.IPR.P4=n'obtenim|obtenim VERB.IPR.P5=n'obteniu|obteniu VERB.IPR.P6=n'obtenen|obtenen VERB.IIM.P1=n'obtenia|obtengués|obtenia VERB.IIM.P2=n'obtenies|obtenies VERB.IIM.P3=n'obtenia|obtenia VERB.IIM.P4=n'obteníem|obteníem VERB.IIM.P5=n'obteníeu|obteníeu VERB.IIM.P6=n'obtenien|obtenien VERB.IPE.P1=n'obtenguí|n'obtinguí|obtenguí|obtinguí VERB.IPE.P2=n'obtengueres|n'obtingueres|obtengueres|obtingueres VERB.IPE.P3=n'obtengué|n'obtingué|obtengué|obtingué VERB.IPE.P4=n'obtenguérem|n'obtinguérem|obtenguérem|obtinguérem VERB.IPE.P5=n'obtenguéreu|n'obtinguéreu|obtenguéreu|obtinguéreu VERB.IPE.P6=n'obtengueren|n'obtingueren|obtengueren|obtingueren VERB.FUT.P1=n'obtendré|n'obtindré|obtendré|obtindré VERB.FUT.P2=n'obtendràs|n'obtindràs|obtendràs|obtindràs VERB.FUT.P3=n'obtendrà|n'obtindrà|obtendrà|obtindrà VERB.FUT.P4=n'obtendrem|n'obtindrem|obtendrem|obtindrem VERB.FUT.P5=n'obtendreu|n'obtindreu|obtendreu|obtindreu VERB.FUT.P6=n'obtendran|n'obtindran|obtendran|obtindran VERB.CON.P1=n'obtendria|n'obtindria|obtendria|obtindria VERB.CON.P2=n'obtendries|n'obtindries|obtendries|obtindries VERB.CON.P3=n'obtendria|n'obtindria|obtendria|obtindria VERB.CON.P4=n'obtendríem|n'obtindríem|obtendríem|obtindríem VERB.CON.P5=n'obtendríeu|n'obtindríeu|obtendríeu|obtindríeu VERB.CON.P6=n'obtendrien|n'obtindrien|obtendrien|obtindrien VERB.SPR.P1=n'obtenga|n'obtengui|n'obtinga|n'obtingui|obtenga|obtengui|obtinga|obtingui VERB.SPR.P2=n'obtengues|n'obtenguis|n'obtingues|n'obtinguis|obtengues|obtenguis|obtingues|obtinguis VERB.SPR.P3=n'obtenga|n'obtengui|n'obtinga|n'obtingui|obtenga|obtengui|obtinga|obtingui VERB.SPR.P4=n'obtenguem|n'obtinguem|obtenguem|obtinguem VERB.SPR.P5=n'obtengueu|n'obtingueu|obtengueu|obtingueu VERB.SPR.P6=n'obtenguen|n'obtenguin|n'obtinguen|n'obtinguin|obtenguen|obtenguin|obtinguen|obtinguin VERB.SIM.P1=n'obtenguera|n'obtengués|n'obtinguera|n'obtingués|obtenguera|obtengués|obtinguera|obtingués VERB.SIM.P2=n'obtengueres|n'obtenguesses|n'obtenguessis|n'obtingueres|n'obtinguesses|n'obtinguessis|obtengueres|obtenguesses|obtenguessis|obtingueres|obtinguesses|obtinguessis VERB.SIM.P3=n'obtenguera|n'obtengués|n'obtinguera|n'obtingués|obtenguera|obtengués|obtinguera|obtingués VERB.SIM.P4=n'obtenguérem|n'obtenguéssem|n'obtenguéssim|n'obtinguérem|n'obtinguéssem|n'obtinguéssim|obtenguérem|obtenguéssem|obtenguéssim|obtinguérem|obtinguéssem|obtinguéssim VERB.SIM.P5=n'obtenguéreu|n'obtenguésseu|n'obtenguéssiu|n'obtinguéreu|n'obtinguésseu|n'obtinguéssiu|obtenguéreu|obtenguésseu|obtenguéssiu|obtinguéreu|obtinguésseu|obtinguéssiu VERB.SIM.P6=n'obtengueren|n'obtenguessen|n'obtenguessin|n'obtingueren|n'obtinguessen|n'obtinguessin|obtengueren|obtenguessen|obtenguessin|obtingueren|obtinguessen|obtinguessin VERB.IMP.P2=obtén|obtén-ne|obtingues|obtingues-ne VERB.IMP.P3=obtenga|obtenga'n|obtengui|obtengui'n|obtinga|obtinga'n|obtingui|obtingui'n VERB.IMP.P4=obtenguem|obtenguem-ne|obtinguem|obtinguem-ne VERB.IMP.P5=obteniu|obteniu-ne|obtingueu|obtingueu-ne VERB.IMP.P6=obtenguen|obtenguen-ne|obtenguin|obtenguin-ne|obtinguen|obtinguen-ne|obtinguin|obtinguin-ne"
                     );
             });
             grup.NouTest(@"Verbs filtrats", delegate(RTest resultat)
@@ -626,7 +626,7 @@ namespace Genera
                     foreach (string exc in excSenseEmprar)
                         resultat.Error("No emprada: {0}", exc);
             });
-            grup.NouTest(@"Genera .aff i .dic (Myspell, I)", delegate(RTest resultat)
+            grup.NouTest(@"Genera .aff i .dic (Hunspell i Myspell)", delegate(RTest resultat)
             {
                 Identificador id = new IdentificadorDIEC("DIEC", regles, null);
                 List<Entrada> ee = new List<Entrada>();
@@ -635,9 +635,29 @@ namespace Genera
                 ee.Add(id.IdentificaEntrada("ent=abellir^cat1=v. intr.^cat2=pron."));
                 ee.Add(id.IdentificaEntrada("ent=adduir^cat1=v. tr."));
                 ee.Add(id.IdentificaEntrada("ent=abatre^cat1=v. tr.^cat2=pron."));
-                regles.GeneraAffDicHunspell(DirResultats("prova"), ee, Marques.totes, Cat.Cmp); 
-                regles.GeneraAffDicMyspell(DirResultats("prova_myspell"), ee, Marques.totes, Cat.Cmp, 
+                ee.Add(id.IdentificaEntrada("ent=anglés -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.^mrc1=201"));
+                regles.GeneraAffDicHunspell(DirResultats("prova"), ee, Marques.totes, Cat.Cmp);
+                regles.GeneraAffDicMyspell(DirResultats("prova_myspell"), ee, Marques.totes, Cat.Cmp,
                     IdentificadorCat.GetAfinaMyspell);
+            });
+            grup.NouTest(@"Versions de diccionaris", delegate(RTest resultat)
+            {
+                Marca marca201 = Marca.Una("201");
+                Identificador id = new IdentificadorDIEC("DIEC", regles, null);
+                List<Entrada> ee = new List<Entrada>();
+                ee.Add(id.IdentificaEntrada("ent=alçar^cat1=v. tr.^cat2=pron.^cat3=intr."));
+                ee.Add(id.IdentificaEntrada("ent=cantar^cat1=v. tr.^cat2=intr."));
+                ee.Add(id.IdentificaEntrada("ent=abellir^cat1=v. intr.^cat2=pron."));
+                ee.Add(id.IdentificaEntrada("ent=adduir^cat1=v. tr."));
+                ee.Add(id.IdentificaEntrada("ent=abatre^cat1=v. tr.^cat2=pron."));
+                ee.Add(id.IdentificaEntrada("ent=anglès -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m."));
+                ee.Add(id.IdentificaEntrada("ent=anglés -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.^mrc1=201"));
+                regles.GeneraAffDicHunspell(DirResultats("prova"), ee, new Marques(true, marca201), Cat.Cmp);
+                List<String> llistaSense201 = regles.GeneraFormes(DirResultats("prova.dic"), Marques.totes, false);
+                regles.GeneraAffDicHunspell(DirResultats("prova"), ee, Marques.totes, Cat.Cmp);
+                List<String> llistaAmb201 = regles.GeneraFormes(DirResultats("prova.dic"), Marques.totes, false);
+                string dif = Compara(llistaSense201, llistaAmb201, 100);
+                resultat.Assert(dif == "+anglés +d'anglés +l'anglés", "Diferència inesperada entre llistaSense201 i llistaAmb201 ({0})", dif);
             });
             //grup.NouTest(@"Genera .aff i .dic (Myspell, II)", delegate(RTest resultat)
             //{
@@ -648,6 +668,57 @@ namespace Genera
             //    List<string> formes = regles.GeneraFormes(DirResultats("prova.dic"), Marques.totes, false);
             //    resultat.Nota("S'han generat {0} formes", formes.Count);
             //});
+        }
+
+        /// <summary>
+        /// Crea un diccionari a partir d'una llista de cadenes.
+        /// Per cada entrada de la llista en crea una al diccionari, amb la mateixa entrada com a valor.
+        /// </summary>
+        private Dictionary<String, int> LlistaADic(List<String> llista)
+        {
+            Dictionary<String, int> dic = new Dictionary<string, int>(llista.Count);
+            foreach (String item in llista)
+                if (dic.ContainsKey(item))
+                    ++dic[item];
+                else
+                    dic.Add(item, 1);
+            return dic;
+        }
+
+        /// <summary>
+        /// Compara dues llistes de paraules. Per a les que són a la primera llista però no
+        /// a la segona, genera "-paraula". Per a les que són a la segona llista però no a la
+        /// primera, genera "+paraula". Si hi ha més de maxDiff diferències, es torna una cadena
+        /// que diu "*** massa diferències ***". Si no hi ha diferències es 
+        /// torna "*** sense diferències ***".
+        /// </summary>
+        /// <returns>Una llista amb totes les diferències ordenades i separades per un espai.</returns>
+        private string Compara(List<String> llista1, List<String> llista2, int maxDif)
+        {
+            Dictionary<String, int> dic1 = LlistaADic(llista1);
+            Dictionary<String, int> dic2 = LlistaADic(llista2);
+            List<String> dif = new List<string>();
+            foreach (String item in llista1)
+                if (!dic2.ContainsKey(item))
+                {
+                    dif.Add("-" + item);
+                    dic2.Add(item, 0);
+                }
+            foreach (String item in llista2)
+                if (!dic1.ContainsKey(item))
+                {
+                    dif.Add("+" + item);
+                    dic1.Add(item, 0);
+                }
+            if (dif.Count == 0)
+                return "*** sense diferències ***";
+            else if (dif.Count > maxDif)
+                return "*** massa diferències ***";
+            dif.Sort(delegate(String d1, String d2)
+            {
+                return Cat.Cmp(d1.Substring(1), d2.Substring(1));
+            });
+            return String.Join(" ", dif.ToArray());
         }
 
     }

@@ -301,7 +301,7 @@ namespace catala
         private string prototip;
         private string[] sillabes;
         private int tonica;
-        private static Dictionary<string, string> PrototipsPrecalculats;
+        //private static Dictionary<string, string> PrototipsPrecalculats;
 
         #region Expressions regulars
         static private Regex vocalSegura = new Regex("[aeoабийнптуъ]");

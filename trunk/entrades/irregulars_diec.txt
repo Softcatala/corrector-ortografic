@@ -1870,6 +1870,7 @@ motocròs: PLU=motocròs
 multimèdia: PLU=multimèdia
 norris: PLU=norris
 pastís2: PLU=pastís
+pesabebès: PLU=pesabebès
 plexiglàs: PLU=plexiglàs
 prou: PLU=prou
 pus1: PLU=pus

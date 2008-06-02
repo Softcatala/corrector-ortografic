@@ -10,7 +10,7 @@ DESC
                              Corrector ortogràfic català
                          Fitxer d'afixos i llista de paraules
 =======================================================================================
-Copyright (C) 2002, 2006, 2007 Joan Moratinos <jmo@softcatala.org>
+Copyright (C) 2002-2008 Joan Moratinos <jmo@softcatala.org>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -56,10 +56,12 @@ GRUPS
 011 Subjuntiu imperfet en -esses (cantesses)
 013 IPR1 dels verbs en -ar sense desinència (cant)
 014 IPR1 dels verbs en -ir sense desinència (sent)
-101 Accepta "complit", etc.
-102 Accepta "duim", "feim", etc.
-103 Accepta "tenc" i "vénc"
-104 Accepta "obtindre", etc.
+101 "complit", etc.
+102 "duim", "feim", etc.
+103 "tenc" i "vénc"
+104 "obtindre", etc.
+201 Propostes de l'AVL (I)
+202 Propostes de l'AVL (II)
 /GRUPS
 
 // els grups per als quals es generaran regles

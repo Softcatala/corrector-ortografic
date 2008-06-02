@@ -12,6 +12,9 @@ namespace xspell
     /// Cada marca té una màscara (un nombre amb un sol bit activat).
     /// Hi ha una llista estàtica de marques, per assegurar que cada marca té una
     /// màscara diferent de les altres.
+    /// Es defineixen les marques estàtiques grup1 i grup2. Amb grup1 es marquen els valors
+    /// primaris per a les excepcions. Amb grup2, es marquen els valors secundaris (identificats
+    /// amb EXT...EXT al fitxer d'excepcions).
     /// </summary>
     public class Marca
     {

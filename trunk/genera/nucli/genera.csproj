@@ -79,6 +79,7 @@
     <Compile Include="tests.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VersioDiccionari.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\catala\catala.csproj">

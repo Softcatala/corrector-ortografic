@@ -100,36 +100,40 @@ namespace xspell
             return (altre.Llista & ~comuns) == 0;
         }
 
-        public void Mes(Marca marca)
+        public Marques Mes(Marca marca)
         {
             if (defecte)
                 excepcions &= ~marca.Mascara;
             else
                 excepcions |= marca.Mascara;
+            return this;
         }
 
-        public void Mes(Marques marques)
+        public Marques Mes(Marques marques)
         {
             if (defecte)
                 excepcions &= ~marques.Llista;
             else
                 excepcions |= marques.Llista;
+            return this;
         }
 
-        public void Menys(Marca marca)
+        public Marques Menys(Marca marca)
         {
             if (defecte)
                 excepcions |= marca.Mascara;
             else
                 excepcions &= ~marca.Mascara;
+            return this;
         }
 
-        public void Menys(Marques marques)
+        public Marques Menys(Marques marques)
         {
             if (defecte)
                 excepcions |= marques.Llista;
             else
                 excepcions &= ~marques.Llista;
+            return this;
         }
 
         public bool Defecte { get { return defecte; } }
@@ -174,6 +178,9 @@ namespace xspell
         private bool defecte;
         private uint excepcions;
 
+        /// <summary>
+        /// El conjunt de totes les marques.
+        /// </summary>
         static public Marques totes = new Marques(true);
 
     }
