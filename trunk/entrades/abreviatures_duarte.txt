@@ -460,3 +460,6 @@ vol.
 x.
 àt.
 íd.
+
+// Més abreviatures
+p.e.

@@ -43,6 +43,7 @@ mots += %w(entre d'entre enmig d'enmig elles d'elles)
 mots += %w(escampavies *escampaviesos)
 mots += %w(feréstec feréstega feréstecs feréstegues)
 mots += %w(ambigu ambigua ambigus ambigües)
+mots += %w(obtindre Viquipèdia desenvolupadors interactuar semiformal p.e. detectable interactuï aquestes)
 bons, dolents = 0, 0
 resultat = []
 mots.each do |mot|
