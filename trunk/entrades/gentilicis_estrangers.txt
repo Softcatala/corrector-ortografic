@@ -216,10 +216,10 @@ friülès friülesa
 furlà furlana
 gabaonita
 gabonès gabonesa
-gal gal•la
-gal•lès gal•lesa
-gàl•lic gàl•lica
-gal•loromà gal•loromana
+gal gal·la
+gal·lès gal·lesa
+gàl·lic gàl·lica
+gal·loromà gal·loromana
 gàlata
 galileu galilea
 gambià gambiana
@@ -262,7 +262,7 @@ iberoamericà iberoamericana
 idumeu idumea
 iemenita
 iguví iguvina
-il•liri il•líria
+il·liri il·líria
 ilerdense
 ilíac ilíaca
 ilurenc ilurenca

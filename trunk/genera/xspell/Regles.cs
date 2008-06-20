@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.IO;
+using java.util.zip;
 
 namespace xspell
 {
@@ -192,6 +193,49 @@ namespace xspell
         {
             CreaFitxerAff(nomFitxer, filtre);
             CreaFitxerDic(nomFitxer, entrades, filtre, comparador);
+        }
+
+        /// <summary>
+        /// Afegeix el contingut d'una cadena a un paquet .OXT.
+        /// </summary>
+        /// <param name="nomFitxer">El nom del fitxer on desarem la cadena.</param>
+        /// <param name="zos">L'stream de sortida.</param>
+        /// <param name="que">El que volem afegir</param>
+        private static void AfegeixStrOXT(string nomFitxer, ZipOutputStream zos, string que)
+        {
+            zos.putNextEntry(new ZipEntry(nomFitxer));
+            zos.write(Array.ConvertAll<byte, sbyte>(Encoding.Default.GetBytes(que),
+                new Converter<byte, sbyte>(delegate(byte b) { return (sbyte)b; })));
+        }
+
+        /// <summary>
+        /// Afegeix el contingut d'un fitxer a un paquet .OXT.
+        /// </summary>
+        /// <param name="nomFitxer"></param>
+        /// <param name="dirEnt"></param>
+        /// <param name="dirSort"></param>
+        /// <param name="zos"></param>
+        private static void AfegeixFileOXT(string nomFitxer, string dirEnt, string dirSort, ZipOutputStream zos)
+        {
+            StreamReader sr = new StreamReader(dirEnt + nomFitxer, Encoding.Default);
+            string cont = sr.ReadToEnd();
+            AfegeixStrOXT(dirSort + nomFitxer, zos, cont);
+        }
+
+        public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer)
+        {
+            java.io.FileOutputStream fos = new java.io.FileOutputStream(dirFitxer + nomFitxer + ".oxt");
+            ZipOutputStream zos = new ZipOutputStream(fos);
+            AfegeixFileOXT(nomFitxer + ".dic", dirFitxer, "dictionaries/", zos);
+            AfegeixFileOXT(nomFitxer + ".aff", dirFitxer, "dictionaries/", zos);
+            AfegeixStrOXT("META-INF/manifest.xml", zos, 
+                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+                "<!DOCTYPE manifest:manifest PUBLIC \"-//OpenOffice.org//DTD Manifest 1.0//EN\" \"Manifest.dtd\">\n" +
+                "<manifest:manifest xmlns:manifest=\"http://openoffice.org/2001/manifest\">\n" +
+                "    <manifest:file-entry manifest:media-type=\"application/vnd.sun.star.configuration-data\" \n" +
+                "        manifest:full-path=\"dictionaries.xcu\"/>\n" +
+                "</manifest:manifest>\n");
+            zos.close();
         }
 
         private static void CreaFitxerDic(string nomFitxer, List<Entrada> entrades, Marques filtre, Comparison<string> comparador)

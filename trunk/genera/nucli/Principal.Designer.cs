@@ -40,6 +40,7 @@
             this.dadesDic = new System.Windows.Forms.RichTextBox();
             this.entrades = new System.Windows.Forms.ListBox();
             this.tpGenera = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.botoGeneraMostra = new System.Windows.Forms.Button();
             this.botoGenera = new System.Windows.Forms.Button();
             this.barraProgres = new System.Windows.Forms.ProgressBar();
@@ -169,6 +170,7 @@
             // 
             // tpGenera
             // 
+            this.tpGenera.Controls.Add(this.button1);
             this.tpGenera.Controls.Add(this.botoGeneraMostra);
             this.tpGenera.Controls.Add(this.botoGenera);
             this.tpGenera.Controls.Add(this.barraProgres);
@@ -180,6 +182,16 @@
             this.tpGenera.TabIndex = 2;
             this.tpGenera.Text = "Genera";
             this.tpGenera.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(15, 81);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(237, 27);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Prova OXT";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // botoGeneraMostra
             // 
@@ -301,6 +313,7 @@
         private System.Windows.Forms.RichTextBox logQualitat;
         private System.Windows.Forms.Button botoCmpHunspellMyspell;
         private System.Windows.Forms.Button botoGeneraMostra;
+        private System.Windows.Forms.Button button1;
     }
 }
 

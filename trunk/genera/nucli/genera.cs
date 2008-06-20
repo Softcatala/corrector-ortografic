@@ -76,9 +76,9 @@ namespace Genera
             {
                 string nomFitxer = prefix + versio.Nom;
                 AfegeixLiniaLog(String.Format("Genera: {0} (Hunspell)", versio.Descripcio), horaInici, log);
-                regles.GeneraAffDicHunspell(DirResultats(nomFitxer), entrades, versio.Filtre, Cat.Cmp);
+                regles.GeneraAffDicHunspell(DirResultats(@"hunspell\" + nomFitxer), entrades, versio.Filtre, Cat.Cmp);
                 AfegeixLiniaLog(String.Format("Genera: {0} (Myspell)", versio.Descripcio), horaInici, log);
-                regles.GeneraAffDicMyspell(DirResultats(nomFitxer + ".myspell"), entrades, versio.Filtre, Cat.Cmp, IdentificadorCat.GetAfinaMyspell);
+                regles.GeneraAffDicMyspell(DirResultats(@"myspell\" + nomFitxer + ".myspell"), entrades, versio.Filtre, Cat.Cmp, IdentificadorCat.GetAfinaMyspell);
             }
             List<string> excSenseEmprar = identificador.ExcepcionsSenseEmprar();
             if (excSenseEmprar.Count != 0)

@@ -1052,95 +1052,95 @@ REGLA O SFX+ Imperfet d'indicatiu de la segona conjugació
 REGLA P SFX+ Formes de la segona conjugació semblants a SIM1 sense -c/-gu (perdés)
 000     és     o/Z         [^c]és           # 1. perdo, temo        <IPR>
 000     cés    ço/Z        cés              #    torço
-000     és     í/Z         .                # 1. perdí, temí        <IPE>
-000     és     eres/Z      .                # 2. perderes, temeres
-000     és     é/Z         .                # 3. perdé, temé
-000     és     érem/Z      .                # 4. perdérem, temérem
-000     és     éreu/Z      .                # 5. perdéreu, teméreu
-000     és     eren/Z      .                # 6. perderen, temeren
-000     és     i/Z         .                # 1. perdi, temi        <SPR>
+000     és     í/Z         és               # 1. perdí, temí        <IPE>
+000     és     eres/Z      és               # 2. perderes, temeres
+000     és     é/Z         és               # 3. perdé, temé
+000     és     érem/Z      és               # 4. perdérem, temérem
+000     és     éreu/Z      és               # 5. perdéreu, teméreu
+000     és     eren/Z      és               # 6. perderen, temeren
+000     és     i/Z         és               # 1. perdi, temi        <SPR>
 009     és     a/Z         [^cgu]és         #    perda, tema
 009     cés    ça/Z        cés              #    torça
 009     gés    ja/Z        gés              #    veja
-000     és     is/Z        .                # 2. perdis, temis
-009     és     es/Z        .                #    perdes, temes
-000     és     i/Z         .                # 3. perdi, temi
+000     és     is/Z        és               # 2. perdis, temis
+009     és     es/Z        és               #    perdes, temes
+000     és     i/Z         és               # 3. perdi, temi
 009     és     a/Z         [^cgu]és         #    perda, tema
 009     cés    ça/Z        cés              #    torça
 009     gés    ja/Z        gés              #    veja
-000     és     em/Z        .                # 4. perdem, temem
-000     és     eu/Z        .                # 5. perdeu, temeu
-000     és     in/Z        .                # 6. perdin, temin
-009     és     en/Z        .                #    perden, temen
-000     és     és/Z        .                # 1. perdés, temés      <SIM>
-004     és     era/Z       .                #    perdera
-000     és     essis/Z     .                # 2. perdessis, temessis
-004     és     eres/Z      .                #    perderes
-010     és     esses/Z     .                #    perdesses, temesses
-000     és     és/Z        .                # 3. perdés, temés
-004     és     era/Z       .                #    perdera
-000     és     éssim/Z     .                # 4. perdéssim, teméssim
-010     és     éssem/Z     .                #    perdéssem, teméssem
-004     és     érem/Z      .                #    perdérem
-000     és     éssiu/Z     .                # 5. perdéssiu, teméssiu
-010     és     ésseu/Z     .                #    perdésseu, temésseu
-004     és     éreu/Z      .                #    perdéreu
-000     és     essin/Z     .                # 6. perdessin, temessin
-010     és     essen/Z     .                #    perdessen, temessen
-004     és     eren/Z      .                #    perderen
-000     és     i/D         .                # 3. perdi, temi        <IMP>
+000     és     em/Z        és               # 4. perdem, temem
+000     és     eu/Z        és               # 5. perdeu, temeu
+000     és     in/Z        és               # 6. perdin, temin
+009     és     en/Z        és               #    perden, temen
+000     és     és/Z        és               # 1. perdés, temés      <SIM>
+004     és     era/Z       és               #    perdera
+000     és     essis/Z     és               # 2. perdessis, temessis
+004     és     eres/Z      és               #    perderes
+010     és     esses/Z     és               #    perdesses, temesses
+000     és     és/Z        és               # 3. perdés, temés
+004     és     era/Z       és               #    perdera
+000     és     éssim/Z     és               # 4. perdéssim, teméssim
+010     és     éssem/Z     és               #    perdéssem, teméssem
+004     és     érem/Z      és               #    perdérem
+000     és     éssiu/Z     és               # 5. perdéssiu, teméssiu
+010     és     ésseu/Z     és               #    perdésseu, temésseu
+004     és     éreu/Z      és               #    perdéreu
+000     és     essin/Z     és               # 6. perdessin, temessin
+010     és     essen/Z     és               #    perdessen, temessen
+004     és     eren/Z      és               #    perderen
+000     és     i/D         és               # 3. perdi, temi        <IMP>
 009     és     a/D         [^cgu]és         #    perda, tema
 009     cés    ça/D        cés              #    torça
 009     gés    ja/D        gés              #    veja
-000     és     em/C        .                # 4. perdem, temem
-000     és     eu/C        .                # 5. perdeu, temeu
-000     és     in/C        .                # 6. perdin, temin
-009     és     en/C        .                #    perden, temen
+000     és     em/C        és               # 4. perdem, temem
+000     és     eu/C        és               # 5. perdeu, temeu
+000     és     in/C        és               # 6. perdin, temin
+009     és     en/C        és               #    perden, temen
 /REGLA
 
 REGLA Q SFX+ Formes de la segona conjugació semblants a SIM1 amb -c/-gu (conegués)
 000     gués   c/Z         gués             # 1. conec              <IPR>
 000     qués   c/Z         qués             #    visc
-000     és     í/Z         .                # 1. coneguí            <IPE>
-000     és     eres/Z      .                # 2. conegueres
-000     és     é/Z         .                # 3. conegué
-000     és     érem/Z      .                # 4. coneguérem
-000     és     éreu/Z      .                # 5. coneguéreu
-000     és     eren/Z      .                # 6. conegueren
-000     és     i/Z         .                # 1. conegui            <SPR>
+000     és     í/Z         és               # 1. coneguí            <IPE>
+000     és     eres/Z      és               # 2. conegueres
+000     és     é/Z         és               # 3. conegué
+000     és     érem/Z      és               # 4. coneguérem
+000     és     éreu/Z      és               # 5. coneguéreu
+000     és     eren/Z      és               # 6. conegueren
+000     és     i/Z         és               # 1. conegui            <SPR>
 009     gués   ga/Z        gués             #    conega
 009     qués   ca/Z        qués             #    visca
-000     és     is/Z        .                # 2. coneguis
-009     és     es/Z        .                #    conegues
-000     és     i/Z         .                # 3. conegui
+000     és     is/Z        és               # 2. coneguis
+009     és     es/Z        és               #    conegues
+000     és     i/Z         és               # 3. conegui
 009     gués   ga/Z        gués             #    conega
 009     qués   ca/Z        qués             #    visca
-000     és     em/Z        .                # 4. coneguem
-000     és     eu/Z        .                # 5. conegueu
-000     és     in/Z        .                # 6. coneguin
-009     és     en/Z        .                #    coneguen
-000     és     és/Z        .                # 1. conegués           <SIM> 
-004     és     era/Z       .                #    beguera
-000     és     essis/Z     .                # 2. coneguessis             
-010     és     esses/Z     .                #    coneguesses
-004     és     eres/Z      .                #    begueres
-000     és     és/Z        .                # 3. conegués
-004     és     era/Z       .                #    beguera
-000     és     éssim/Z     .                # 4. coneguéssim
-010     és     éssem/Z     .                #    coneguéssem
-004     és     érem/Z      .                #    beguérem
-000     és     éssiu/Z     .                # 5. coneguéssiu
-010     és     ésseu/Z     .                #    coneguésseu
-004     és     éreu/Z      .                #    beguéreu
-000     és     essin/Z     .                # 6. coneguessin
-010     és     essen/Z     .                #    coneguessen
-004     és     eren/Z      .                #    begueren
-000     és     i/D         .                # 3. conegui            <IMP>
+000     és     em/Z        és               # 4. coneguem
+000     és     eu/Z        és               # 5. conegueu
+000     és     in/Z        és               # 6. coneguin
+009     és     en/Z        és               #    coneguen
+000     és     és/Z        és               # 1. conegués           <SIM> 
+004     és     era/Z       és               #    beguera
+000     és     essis/Z     és               # 2. coneguessis             
+010     és     esses/Z     és               #    coneguesses
+004     és     eres/Z      és               #    begueres
+000     és     és/Z        és               # 3. conegués
+004     és     era/Z       és               #    beguera
+000     és     éssim/Z     és               # 4. coneguéssim
+010     és     éssem/Z     és               #    coneguéssem
+004     és     érem/Z      és               #    beguérem
+000     és     éssiu/Z     és               # 5. coneguéssiu
+010     és     ésseu/Z     és               #    coneguésseu
+004     és     éreu/Z      és               #    beguéreu
+000     és     essin/Z     és               # 6. coneguessin
+010     és     essen/Z     és               #    coneguessen
+004     és     eren/Z      és               #    begueren
+000     és     i/D         és               # 3. conegui            <IMP>
 009     gués   ga/D        gués             #    conega
 009     qués   ca/D        qués             #    visca
-000     és     em/C        .                # 4. coneguem
-000     és     in/C        .                # 6. coneguin
-009     és     en/C        .                #    coneguen
+000     és     em/C        és               # 4. coneguem
+000     és     in/C        és               # 6. coneguin
+009     és     en/C        és               #    coneguen
 /REGLA
 
 REGLA R SFX+ Formes de la segona conjugació semblants al gerundi
@@ -1168,18 +1168,18 @@ REGLA S SFX+ Formes de la segona conjugació semblants a "plaus", "absols", etc.
 /REGLA
 
 REGLA T SFX+ Futurs i condicionals a partir de FUT1
-000     é      é/Z         .                # 1. perdré, temeré   <FUT>
-000     é      às/Z        .                # 2. perdràs, temeràs <FUT>
-000     é      à/Z         .                # 3. perdrà, temerà
-000     é      em/Z        .                # 4. perdrem, temerem
-000     é      eu/Z        .                # 5. perdreu, temereu
-000     é      an/Z        .                # 6. perdran, temeran
-000     é      ia/Z        .                # 1. perdria, temeria <CON>
-000     é      ies/Z       .                # 2. perdries, temeries
-000     é      ia/Z        .                # 3. perdria, temeria
-000     é      íem/Z       .                # 4. perdríem, temeríem
-000     é      íeu/Z       .                # 5. perdríeu, temeríeu
-000     é      ien/Z       .                # 6. perdrien, temerien
+000     é      é/Z         é                # 1. perdré, temeré   <FUT>
+000     é      às/Z        é                # 2. perdràs, temeràs <FUT>
+000     é      à/Z         é                # 3. perdrà, temerà
+000     é      em/Z        é                # 4. perdrem, temerem
+000     é      eu/Z        é                # 5. perdreu, temereu
+000     é      an/Z        é                # 6. perdran, temeran
+000     é      ia/Z        é                # 1. perdria, temeria <CON>
+000     é      ies/Z       é                # 2. perdries, temeries
+000     é      ia/Z        é                # 3. perdria, temeria
+000     é      íem/Z       é                # 4. perdríem, temeríem
+000     é      íeu/Z       é                # 5. perdríeu, temeríeu
+000     é      ien/Z       é                # 6. perdrien, temerien
 /REGLA
 
 // PER FER: afegir formes valencianes
