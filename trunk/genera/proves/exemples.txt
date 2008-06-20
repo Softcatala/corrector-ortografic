@@ -56,6 +56,7 @@
 [DIEC]  ent=estoig^cat1=m.^com1=pl.-igs o -tjos
 [DIEC]  ent=excloure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com cloure; p. p. exclòs
 [DIEC]  ent=falç^cat1=f.
+[DIEC]  ent=fer1^cat1=v. tr.^cat2=pron.^cat3=tr.^cat4=tr. pron.^cat5=intr.^com1=p. p. fet; ind. pr. faig, fas, fa, fem, feu, fan; ind. imperf. feia, etc.; ind. perf. fiu, feres, féu, férem, etc.; ind. fut. faré, etc.; subj. pr. faci, facis, faci, fem (o facem), feu (o faceu), facin; subj. imperf. fes, fessis, etc.; imper. fes^com2=o fer per a algú (o per a alguna cosa)
 [DIEC]  ent=hissar^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=humitat^cat1=f.
 [DIEC]  ent=imprimir^cat1=v. tr.^com1=p. p. imprès

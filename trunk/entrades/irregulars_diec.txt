@@ -966,7 +966,7 @@ extreure: MODEL=treure/tr/extr
 fendre: MODEL=prendre/pr/f
 
 // fer1: p. p. fet; ind. pr. faig, fas, fa, fem, feu, fan; ind. imperf. feia, etc.; ind. perf. fiu, feres, féu, férem, etc.; ind. fut. faré, etc.; subj. pr. faci, facis, faci, fem (o facem), feu (o faceu), facin; subj. imperf. fes, fessis, etc.; imper. fes
-fer1: PAR=fet & IIM=feia & FUT=faré & SIM=fes & -=(SPR[1236]|IPR[1236]|IPE[13]|IMP[2346]|SIM[13]) & +=facés/P/(SPR|IMP[346]) faig<IPR1> fas<IPR2> fa<IPR3> fan<IPR6> fiu<IPE1> féu<IPE3> fes<IMP2> fes<SIM1> fes<SIM3> <<102 feim<IPR4> feis<IPR5> feis<IMP5> 102>>
+fer1: PAR=fet & IIM=feia & FUT=faré & SIM=fés & -=(SPR[1236]|IPR[1236]|IPE[13]|IMP[2346]|SIM[13]) & +=facés/P/(SPR|IMP[346]) faig<IPR1> fas<IPR2> fa<IPR3> fan<IPR6> fiu<IPE1> féu<IPE3> fes<IMP2> fes<SIM1> fes<SIM3> <<102 feim<IPR4> feis<IPR5> feis<IMP5> 102>>
 
 // fondre: ger. fonent; p. p. fos; ind. pr. 1 fonc; subj. pr. fongui, etc.; subj. imperf. fongués, etc.
 fondre: GER=fonent & PAR=fos & SIM=fongués
