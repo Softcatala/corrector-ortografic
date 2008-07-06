@@ -142,13 +142,6 @@ namespace Genera
             this.Cursor = Cursors.Default;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Regles regles = CarregaRegles(false);
-            Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), "catalan");
-        }
-
-
     }
 
 }

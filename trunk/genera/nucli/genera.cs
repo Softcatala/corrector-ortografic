@@ -80,6 +80,8 @@ namespace Genera
                 AfegeixLiniaLog(String.Format("Genera: {0} (Myspell)", versio.Descripcio), horaInici, log);
                 regles.GeneraAffDicMyspell(DirResultats(@"myspell\" + nomFitxer + ".myspell"), entrades, versio.Filtre, Cat.Cmp, IdentificadorCat.GetAfinaMyspell);
             }
+            AfegeixLiniaLog("Genera el fitxer .OXT", horaInici, log);
+            Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), "catalan");
             List<string> excSenseEmprar = identificador.ExcepcionsSenseEmprar();
             if (excSenseEmprar.Count != 0)
                 foreach (string exc in excSenseEmprar)

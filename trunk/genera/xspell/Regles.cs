@@ -228,13 +228,11 @@ namespace xspell
             ZipOutputStream zos = new ZipOutputStream(fos);
             AfegeixFileOXT(nomFitxer + ".dic", dirFitxer, "dictionaries/", zos);
             AfegeixFileOXT(nomFitxer + ".aff", dirFitxer, "dictionaries/", zos);
-            AfegeixStrOXT("META-INF/manifest.xml", zos, 
-                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-                "<!DOCTYPE manifest:manifest PUBLIC \"-//OpenOffice.org//DTD Manifest 1.0//EN\" \"Manifest.dtd\">\n" +
-                "<manifest:manifest xmlns:manifest=\"http://openoffice.org/2001/manifest\">\n" +
-                "    <manifest:file-entry manifest:media-type=\"application/vnd.sun.star.configuration-data\" \n" +
-                "        manifest:full-path=\"dictionaries.xcu\"/>\n" +
-                "</manifest:manifest>\n");
+            AfegeixFileOXT("LICENSES-en.txt", dirFitxer + @"..\..\OXT\", "", zos);
+            AfegeixFileOXT("LLICENCIES-ca.txt", dirFitxer + @"..\..\OXT\", "", zos);
+            AfegeixFileOXT("dictionaries.xcu", dirFitxer + @"..\..\OXT\", "", zos);
+            AfegeixFileOXT("description.xml", dirFitxer + @"..\..\OXT\", "", zos);
+            AfegeixFileOXT("manifest.xml", dirFitxer + @"..\..\OXT\META-INF\", "META-INF/", zos);
             zos.close();
         }
 
