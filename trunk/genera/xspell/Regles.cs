@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.IO;
-using java.util.zip;
+using Ionic.Utils.Zip;
 
 namespace xspell
 {
@@ -195,45 +195,19 @@ namespace xspell
             CreaFitxerDic(nomFitxer, entrades, filtre, comparador);
         }
 
-        /// <summary>
-        /// Afegeix el contingut d'una cadena a un paquet .OXT.
-        /// </summary>
-        /// <param name="nomFitxer">El nom del fitxer on desarem la cadena.</param>
-        /// <param name="zos">L'stream de sortida.</param>
-        /// <param name="que">El que volem afegir</param>
-        private static void AfegeixStrOXT(string nomFitxer, ZipOutputStream zos, string que)
-        {
-            zos.putNextEntry(new ZipEntry(nomFitxer));
-            zos.write(Array.ConvertAll<byte, sbyte>(Encoding.Default.GetBytes(que),
-                new Converter<byte, sbyte>(delegate(byte b) { return (sbyte)b; })));
-        }
-
-        /// <summary>
-        /// Afegeix el contingut d'un fitxer a un paquet .OXT.
-        /// </summary>
-        /// <param name="nomFitxer"></param>
-        /// <param name="dirEnt"></param>
-        /// <param name="dirSort"></param>
-        /// <param name="zos"></param>
-        private static void AfegeixFileOXT(string nomFitxer, string dirEnt, string dirSort, ZipOutputStream zos)
-        {
-            StreamReader sr = new StreamReader(dirEnt + nomFitxer, Encoding.Default);
-            string cont = sr.ReadToEnd();
-            AfegeixStrOXT(dirSort + nomFitxer, zos, cont);
-        }
-
         public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer)
         {
-            java.io.FileOutputStream fos = new java.io.FileOutputStream(dirFitxer + nomFitxer + ".oxt");
-            ZipOutputStream zos = new ZipOutputStream(fos);
-            AfegeixFileOXT(nomFitxer + ".dic", dirFitxer, "dictionaries/", zos);
-            AfegeixFileOXT(nomFitxer + ".aff", dirFitxer, "dictionaries/", zos);
-            AfegeixFileOXT("LICENSES-en.txt", dirFitxer + @"..\..\OXT\", "", zos);
-            AfegeixFileOXT("LLICENCIES-ca.txt", dirFitxer + @"..\..\OXT\", "", zos);
-            AfegeixFileOXT("dictionaries.xcu", dirFitxer + @"..\..\OXT\", "", zos);
-            AfegeixFileOXT("description.xml", dirFitxer + @"..\..\OXT\", "", zos);
-            AfegeixFileOXT("manifest.xml", dirFitxer + @"..\..\OXT\META-INF\", "META-INF/", zos);
-            zos.close();
+            using (ZipFile zip = new ZipFile(dirFitxer + nomFitxer + ".oxt"))
+            {
+                zip.UpdateFile(dirFitxer + nomFitxer + ".dic", "dictionaries");
+                zip.UpdateFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
+                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
+                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
+                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", "");
+                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "description.xml", "");
+                zip.UpdateFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
+                zip.Save();
+            }
         }
 
         private static void CreaFitxerDic(string nomFitxer, List<Entrada> entrades, Marques filtre, Comparison<string> comparador)

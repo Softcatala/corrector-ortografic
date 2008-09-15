@@ -34,7 +34,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="vjslib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="exemples.cs">
