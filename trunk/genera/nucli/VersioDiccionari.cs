@@ -13,18 +13,29 @@ namespace Genera
     /// </summary>
     class VersioDiccionari
     {
-        private VersioDiccionari(string nom, string desc, Marques filtre)
+        private VersioDiccionari(string nom, string desc, string variant, Marques filtre)
         {
             this.nom = nom;
             this.desc = desc;
+            this.variant = variant;
             this.filtre = filtre;
         }
+
+        /// <summary>
+        /// Torna el número de versió dels diccionaris.
+        /// </summary>
+        public String NumeroVersio { get { return "2.1.0"; } }
 
         /// <summary>
         /// El nom del fitxer.
         /// No inclou els eventuals prefixos i sufixos ni les extensions.
         /// </summary>
         public string Nom { get { return nom; } }
+
+        /// <summary>
+        /// Torna la variant d'aquest diccionari.
+        /// </summary>
+        public String Variant { get { return variant; } }
 
         /// <summary>
         /// Descripció de la versió.
@@ -45,12 +56,12 @@ namespace Genera
         {
             List<VersioDiccionari> llista = new List<VersioDiccionari>();
             Marques avl = new Marques(false, "201");    // particularitats de l'AVL sense acceptació general
-            llista.Add(new VersioDiccionari("catalan", "Versió general", new Marques(true).Menys(avl)));
-            llista.Add(new VersioDiccionari("avl", "Versió AVL", Marques.totes));
+            llista.Add(new VersioDiccionari("catalan", "Versió general", "general", new Marques(true).Menys(avl)));
+            llista.Add(new VersioDiccionari("avl", "Versió AVL", "avl", Marques.totes));
             return llista;
         }
 
-        private string nom, desc;
+        private string nom, desc, variant;
         private Marques filtre;
     }
 }

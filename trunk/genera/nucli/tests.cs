@@ -396,7 +396,7 @@ namespace Genera
         private void test_06(GrupTest arrel)
         {
             GrupTest grup = arrel.NouGrup("Generació de diccionaris");
-            Regles regles = CarregaRegles(true);
+            Regles regles = CarregaRegles(true, new Marques(true, "201"));
             Identificador idDIEC = new IdentificadorDIEC("DIEC", regles, DirEntrades("irregulars_diec.txt"));
             grup.NouTest(@"Noms", delegate(RTest resultat)
             {
@@ -540,7 +540,7 @@ namespace Genera
             });
             grup.NouTest(@"Verbs filtrats", delegate(RTest resultat)
             {
-                testParaules(resultat, idDIEC, new Marques(true, "102"),
+                testParaules(resultat, idDIEC, new Marques(true, "102", "201"),
                     "ent=dir1^cat1=v. tr. > VERB.INF=dir|dir-ne VERB.GER=dient|dient-ne VERB.PAR.M.SG=dit VERB.PAR.M.PL=dits VERB.PAR.F.SG=dita VERB.PAR.F.PL=dites VERB.IPR.P1=dic VERB.IPR.P2=dius VERB.IPR.P3=diu VERB.IPR.P4=diem VERB.IPR.P5=dieu VERB.IPR.P6=diuen VERB.IIM.P1=deia VERB.IIM.P2=deies VERB.IIM.P3=deia VERB.IIM.P4=dèiem VERB.IIM.P5=dèieu VERB.IIM.P6=deien VERB.IPE.P1=diguí VERB.IPE.P2=digueres VERB.IPE.P3=digué VERB.IPE.P4=diguérem VERB.IPE.P5=diguéreu VERB.IPE.P6=digueren VERB.FUT.P1=diré VERB.FUT.P2=diràs VERB.FUT.P3=dirà VERB.FUT.P4=direm VERB.FUT.P5=direu VERB.FUT.P6=diran VERB.CON.P1=diria VERB.CON.P2=diries VERB.CON.P3=diria VERB.CON.P4=diríem VERB.CON.P5=diríeu VERB.CON.P6=dirien VERB.SPR.P1=diga|digui VERB.SPR.P2=digues|diguis VERB.SPR.P3=diga|digui VERB.SPR.P4=diguem VERB.SPR.P5=digueu VERB.SPR.P6=diguen|diguin VERB.SIM.P1=diguera|digués VERB.SIM.P2=digueres|diguesses|diguessis VERB.SIM.P3=diguera|digués VERB.SIM.P4=diguérem|diguéssem|diguéssim VERB.SIM.P5=diguéreu|diguésseu|diguéssiu VERB.SIM.P6=digueren|diguessen|diguessin VERB.IMP.P2=digues|digues-ne VERB.IMP.P3=diga|diga'n|digui|digui'n VERB.IMP.P4=diguem|diguem-ne VERB.IMP.P5=digueu|digueu-ne VERB.IMP.P6=diguen|diguen-ne|diguin|diguin-ne"
                     );
                 testParaules(resultat, idDIEC, new Marques(true, "001"),

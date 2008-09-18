@@ -2,9 +2,9 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
  <node oor:name="ServiceManager">
     <node oor:name="Dictionaries">
-        <node oor:name="HunSpellDic_catalan" oor:op="fuse">
+        <node oor:name="HunSpellDic_catalan_%VARIANT%" oor:op="fuse">
             <prop oor:name="Locations" oor:type="oor:string-list">
-                <value>%origin%/dictionaries/catalan.aff %origin%/dictionaries/catalan.dic</value>
+                <value>%origin%/dictionaries/%FILENAME%.aff %origin%/dictionaries/%FILENAME%.dic</value>
             </prop>
             <prop oor:name="Format" oor:type="xs:string">
                 <value>DICT_SPELL</value>

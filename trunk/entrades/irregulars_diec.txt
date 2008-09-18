@@ -937,7 +937,7 @@ escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués 
 espènyer: PAR=espès
 
 // ésser1: ger. essent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
-ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> som<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> <<009 siguen<IMP6> 009>> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B fóra<CON1> fóres<CON2> fóra<CON3> fórem<CON4> fóreu<CON5> fóren<CON6>
+ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> som<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> <<009 siga<SPR1> siga<SPR3> siga<IMP3> siguen<IMP6> 009>> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B fóra<CON1> fóres<CON2> fóra<CON3> fórem<CON4> fóreu<CON5> fóren<CON6>
 
 // estendre: quant a la flexió, com atendre
 estendre: MODEL=atendre/at/est

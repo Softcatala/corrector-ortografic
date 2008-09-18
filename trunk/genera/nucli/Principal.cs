@@ -67,9 +67,9 @@ namespace Genera
             fetsExemples = true;
         }
 
-        private Regles CarregaRegles(bool generaCurt)
+        private Regles CarregaRegles(bool generaCurt, Marques filtre)
         {
-            Regles regles = new Regles(DirEntrades("regles.txt"));
+            Regles regles = new Regles(DirEntrades("regles.txt"), filtre);
             if (generaCurt)
             {
                 String[] generaUn = { "V", "W", "Y", "Z", "C", "D" };
@@ -79,6 +79,11 @@ namespace Genera
             regles.Llista["C"].EsAfix = false;
             regles.Llista["D"].EsAfix = false;
             return regles;
+        }
+
+        private Regles CarregaRegles(bool generaCurt)
+        {
+            return CarregaRegles(generaCurt, new Marques(true));
         }
 
         private string DirBase 

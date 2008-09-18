@@ -22395,7 +22395,7 @@ ent=edat^cat1=f.^com1=o edat provecta
 ent=edelweiss^cat1=m.^com1=al.^com2=inv.
 ent=edema^cat1=m.
 ent=edematós -osa^cat1=adj.
-ent=edèn^cat1=m.
+ent=edèn^cat1=m.^com1=pl. edens
 ent=edènic -a^cat1=adj.
 ent=edentats^cat1=m. pl.
 ent=edetà -ana^cat1=adj.^cat2=m. i f.

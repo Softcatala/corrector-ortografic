@@ -79,9 +79,18 @@ namespace Genera
                 regles.GeneraAffDicHunspell(DirResultats(@"hunspell\" + nomFitxer), entrades, versio.Filtre, Cat.Cmp);
                 AfegeixLiniaLog(String.Format("Genera: {0} (Myspell)", versio.Descripcio), horaInici, log);
                 regles.GeneraAffDicMyspell(DirResultats(@"myspell\" + nomFitxer + ".myspell"), entrades, versio.Filtre, Cat.Cmp, IdentificadorCat.GetAfinaMyspell);
+                AfegeixLiniaLog(String.Format("Genera: {0} (OXT)", versio.Descripcio), horaInici, log);
+                Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), versio.Nom, delegate(String que)
+                {
+                    switch (que)
+                    {
+                        case "%VERSION%": return versio.NumeroVersio;
+                        case "%VARIANT%": return versio.Variant;
+                        case "%FILENAME%": return versio.Nom;
+                        default: return que;
+                    }
+                });
             }
-            AfegeixLiniaLog("Genera el fitxer .OXT", horaInici, log);
-            Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), "catalan");
             List<string> excSenseEmprar = identificador.ExcepcionsSenseEmprar();
             if (excSenseEmprar.Count != 0)
                 foreach (string exc in excSenseEmprar)

@@ -731,7 +731,8 @@ SFX I ós osos ós
 SFX I ús usos [^aeoi]ús
 SFX I ús üsos [aeoi]ús
 
-SFX J Y 28
+SFX J Y 29
+SFX J ès és és
 SFX J 0 a [^s]
 SFX J 0 a [^àèéíòóú]s
 SFX J às asa às
@@ -936,17 +937,19 @@ SFX N iré isquen [gq]uiré
 SFX N iré ïsquen [^gq]uiré
 SFX N iré ïsquen [aeio]iré
 
-SFX O Y 12
+SFX O Y 14
 SFX O a a a
 SFX O a es a
 SFX O a a a
 SFX O ia íem [^eu]ia
 SFX O ïa íem ïa
 SFX O eia èiem eia
+SFX O eia éiem eia
 SFX O uia úiem uia
 SFX O ia íeu [^eu]ia
 SFX O ïa íeu ïa
 SFX O eia èieu eia
+SFX O eia éieu eia
 SFX O uia úieu uia
 SFX O a en a
 

@@ -19,3 +19,14 @@ requeté: PLU=-és
 tupé: PLU=-és
 vosté: ALT=vosté vostés
 pesabebés: PLU=pesabebés
+
+aprehendre: GER=aprehenent & PAR=aprehés & SIM=aprehengués & IPR3=aprehén
+aprendre: GER=aprenent & PAR=aprés & SIM=aprengués & IPR3=aprén
+atendre: GER=atenent & PAR=atés & SIM=atengués & IPR3=atén
+carvendre: MODEL=revendre/rev/carv
+comprendre: MODEL=aprendre/apr/compr
+dependre: MODEL=ofendre/of/dep
+malvendre: MODEL=revendre/rev/malv
+ofendre: GER=ofenent & IPR3=ofén & PAR=ofés & SIM=ofengués
+retrovendre: MODEL=revendre/rev/retrov
+revendre: GER=revenent & PAR=revenut & IPR3=revén & SIM=revengués & +=revengut<PAR0>/B

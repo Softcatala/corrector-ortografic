@@ -416,6 +416,7 @@ REGLA H SFX+ Quatre formes afegint ns
 /REGLA
 
 REGLA J SFX+ Quatre formes afegint a/os/es
+201     ès     és          és               # ofés (AVL)
 000     0      a           [^s]             # dolça, laxa    <FEM>
 000     0      a           [^àèéíòóú]s      # agradosa
 000     às     asa         às               # 
@@ -1040,11 +1041,13 @@ REGLA O SFX+ Imperfet d'indicatiu de la segona conjugació
 000     a      a/Z         a                # 3. perdia, cloïa
 000     ia     íem/Z       [^eu]ia          # 4. perdíem
 000     ïa     íem/Z       ïa               #    cloíem
-000     eia    èiem/Z      eia              #    dèiem (*** sempre è? ***)
+000     eia    èiem/Z      eia              #    dèiem
+201     eia    éiem/Z      eia              #    féiem (AVL)
 000     uia    úiem/Z      uia              #    dúiem
 000     ia     íeu/Z       [^eu]ia          # 5. perdíeu
 000     ïa     íeu/Z       ïa               #    cloíeu
-000     eia    èieu/Z      eia              #    dèieu (*** sempre è? ***)
+000     eia    èieu/Z      eia              #    dèieu
+201     eia    éieu/Z      eia              #    féieu (AVL)
 000     uia    úieu/Z      uia              #    dúieu
 000     a      en/Z        a                # 6. perdien, cloïen
 /REGLA

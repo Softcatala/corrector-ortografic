@@ -1,7 +1,6 @@
 require 'hunspell'
 
-BASE = '../../resultats'
-#~ hs = Hunspell.new("#{BASE}/catalan_myspell.aff", "#{BASE}/catalan_myspell.dic")
+BASE = '../../resultats/hunspell'
 hs = Hunspell.new("#{BASE}/catalan.aff", "#{BASE}/catalan.dic")
 p hs
 
@@ -13,6 +12,7 @@ mots += %w{
 	contínuum
 	policial
 	rodamons *rodamóns
+	admès *admés
 	angoixants
 	equilibradament bàsicament
 	desestabilitzador desestabilitzadors

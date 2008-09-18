@@ -20,7 +20,20 @@ namespace xspell
         public Regles(string nomFitxer)
         {
             StreamReader fitxer = new StreamReader(nomFitxer, Encoding.Default);
-            Llegeix(fitxer, nomFitxer);
+            Marques filtre = new Marques(true);
+            Llegeix(fitxer, nomFitxer, filtre);
+            fitxer.Close();
+        }
+
+        /// <summary>
+        /// Llegeix un fitxer de regles.
+        /// </summary>
+        /// <param name="nomFitxer">El fitxer des d'on llegirem les regles.</param>
+        /// <param name="filtre">El filtre per a les marques admeses.</param>
+        public Regles(string nomFitxer, Marques filtre)
+        {
+            StreamReader fitxer = new StreamReader(nomFitxer, Encoding.Default);
+            Llegeix(fitxer, nomFitxer, filtre);
             fitxer.Close();
         }
 
@@ -91,7 +104,7 @@ namespace xspell
             mem.Seek(0, SeekOrigin.Begin);
             StreamReader fitxer = new StreamReader(mem, Encoding.Default);
             Regles regles = new Regles();
-            regles.Llegeix(fitxer, nomFitxer);
+            regles.Llegeix(fitxer, nomFitxer, new Marques(true));
             fitxer.Close();
             return regles;
         }
@@ -102,7 +115,10 @@ namespace xspell
         /// Llegeix d'un stream obert.
         /// </summary>
         /// <param name="lector">L'stream d'on llegirem les regles.</param>
-        private void Llegeix(StreamReader lector, string nomFitxer)
+        /// <param name="nomFitxer">El nom del fitxer de regles.</param>
+        /// <param name="filtre">Les marques que admetem. Els casos de les regles que no passin
+        /// el filtre es rebutgen.</param>
+        private void Llegeix(StreamReader lector, string nomFitxer, Marques filtre)
         {
             regles = new Dictionary<string, Regla>();
             marques = new Dictionary<string, Marca>();
@@ -168,7 +184,8 @@ namespace xspell
                         else
                         {
                             CasRegla cas = CasRegla.Crea(linia, regla, marques);
-                            regla.NouCas(cas);
+                            if (filtre.Conte(cas.Marca))
+                                regla.NouCas(cas);
                         }
                         break;
                     default:
@@ -195,17 +212,43 @@ namespace xspell
             CreaFitxerDic(nomFitxer, entrades, filtre, comparador);
         }
 
-        public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer)
+        public delegate String CanviaString(String que);
+
+        private static Regex CercaMacro = new Regex("(.*?)(%[A-Z0-9_]+%)(.*)");
+
+        private static String AdaptaFitxer(String fitxer, CanviaString canvis)
         {
-            using (ZipFile zip = new ZipFile(dirFitxer + nomFitxer + ".oxt"))
+            String[] linies = File.ReadAllLines(fitxer, Encoding.UTF8);
+            for (int i = 0; i < linies.Length; i++)
             {
-                zip.UpdateFile(dirFitxer + nomFitxer + ".dic", "dictionaries");
-                zip.UpdateFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
-                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
-                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
-                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", "");
-                zip.UpdateFile(dirFitxer + @"..\..\OXT\" + "description.xml", "");
-                zip.UpdateFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
+                String inici = "";
+                String resta = linies[i];
+                while (true)
+                {
+                    Match match = CercaMacro.Match(resta);
+                    if (!match.Success)
+                        break;
+                    inici = inici + match.Groups[1].Value + canvis(match.Groups[2].Value);
+                    resta = match.Groups[3].Value;
+                }
+                linies[i] = inici + resta;
+            }
+            return String.Join("\r\n", linies);
+        }
+
+        public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer, CanviaString canvia)
+        {
+            String path = dirFitxer + nomFitxer + ".oxt";
+            File.Delete(path);
+            using (ZipFile zip = new ZipFile(path))
+            {
+                zip.AddFile(dirFitxer + nomFitxer + ".dic", "dictionaries");
+                zip.AddFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
+                zip.AddFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
+                zip.AddFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvia), "dictionaries.xcu", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvia), "description.xml", "");
+                zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
                 zip.Save();
             }
         }

@@ -30,11 +30,14 @@ ent=angolés angolesa^cat1=adj. i m. i f.^mrc1=201
 ent=antioqué antioquena^cat1=adj. i m. i f.^mrc1=201
 ent=antracé^cat1=m.^mrc1=201
 ent=aparéixer^cat1=v. intr.^cat2=pron.^mrc1=201
+ent=aprehendre^cat1=v. tr.^mrc1=201
+ent=aprendre^cat1=v. tr.^mrc1=201
 ent=aragonés aragonesa^cat1=adj. i m. i f.^mrc1=201
 ent=aranés aranesa^cat1=adj. i m. i f.^mrc1=201
 ent=armanyagués armanyaguesa^cat1=adj. i m. i f.^mrc1=201
 ent=asfalté^cat1=m.^mrc1=201
 ent=assamés assamesa^cat1=adj. i m. i f.^mrc1=201
+ent=atendre^cat1=v. intr.^mrc1=201
 ent=atenés atenesa^cat1=adj. i m. i f.^mrc1=201
 ent=atényer^cat1=v. tr. i intr.^mrc1=201
 ent=azobenzé^cat1=m.^mrc1=201
@@ -72,6 +75,7 @@ ent=capcinés capcinesa^cat1=adj. i m. i f.^mrc1=201
 ent=caraplé^cat1=adj.^mrc1=201
 ent=caroté^cat1=m.^mrc1=201
 ent=cartaginés cartaginesa^cat1=adj. i m. i f.^mrc1=201
+ent=carvendre^cat1=v. tr.^mrc1=201
 ent=catorzé catorzena^cat1=adj. i m.^mrc1=201
 ent=centé centena^cat1=adj. i m.^mrc1=201
 ent=cércol^cat1=m.^mrc1=201^com1=cércols
@@ -80,6 +84,7 @@ ent=cinquanté cinquantena^cat1=adj. i m.^mrc1=201
 ent=cinqué cinquena^cat1=adj. i m.^mrc1=201
 ent=comité^cat1=m.^mrc1=201^com1=comités
 ent=comparéixer^cat1=v. intr.^mrc1=201
+ent=comprendre^cat1=v. tr.^mrc1=201
 ent=compromés compromesa^cat1=adj.^mrc1=201
 ent=conéixer^cat1=v. tr.^cat2=intr.^cat3=pron.^mrc1=201
 ent=congolés congolesa^cat1=adj. i m. i f.^mrc1=201
@@ -95,6 +100,7 @@ ent=dacoromanés dacoromanesa^cat1=adj. i m.^mrc1=201
 ent=damassé^cat1=m.^mrc1=201^com1=damassés
 ent=danés danesa^cat1=adj. i m. i f.^mrc1=201
 ent=defés defesa^cat1=m. i f.^mrc1=201
+ent=dependre^cat1=v. intr.^mrc1=201
 ent=desaparéixer^cat1=v. intr.^mrc1=201
 ent=desconéixer^cat1=v. tr.^mrc1=201
 ent=descortés descortesa^cat1=adj.^mrc1=201
@@ -109,6 +115,7 @@ ent=dos-centé dos-centena^cat1=adj. i m.^mrc1=201
 ent=dotzé dotzena^cat1=adj. i m.^mrc1=201
 ent=dublinés dublinesa^cat1=adj. i m. i f.^mrc1=201
 ent=duodé^cat1=m.^mrc1=201
+ent=edén^cat1=m.^com1=pl. edens^mrc1=201
 ent=émbol^cat1=m.^mrc1=201
 ent=empényer^cat1=v. tr.^mrc1=201
 ent=empordanés empordanesa^cat1=adj. i m. i f.^mrc1=201
@@ -186,6 +193,7 @@ ent=manumés manumesa^cat1=adj.^mrc1=201
 ent=maonés maonesa^cat1=adj. i m. i f.^mrc1=201
 ent=marés maresa^cat1=adj. i m.^mrc1=201
 ent=marsellés marsellesa^cat1=adj. i m. i f.^mrc1=201
+ent=malvendre^cat1=v. tr.^mrc1=201
 ent=medinés medinesa^cat1=adj. i m. i f.^mrc1=201
 ent=mercé^cat1=f.^mrc1=201^com1=mercés
 ent=meréixer^cat1=v. tr. i pron.^mrc1=201
@@ -222,6 +230,7 @@ ent=nové novena^cat1=adj. i m.^mrc1=201
 ent=obés obesa^cat1=adj. i m. i f.^mrc1=201
 ent=oboé^cat1=m.^mrc1=201^com1=oboés
 ent=obscé obscena^cat1=adj.^mrc1=201
+ent=ofendre^cat1=v. tr.^cat2=pron.^mrc1=201
 ent=oligocé oligocena^cat1=adj. i m.^mrc1=201
 ent=onzé onzena^cat1=adj. i m.^mrc1=201
 ent=pagés pagesa^cat1=adj. i m. i f.^mrc1=201
@@ -269,6 +278,8 @@ ent=rémol^cat1=m.^mrc1=201
 ent=replé replena^cat1=adj.^mrc1=201
 ent=requeté^cat1=m.^mrc1=201^com1=requetés
 ent=restrényer^cat1=v. tr.^mrc1=201
+ent=retrovendre^cat1=v. tr.^mrc1=201
+ent=revendre^cat1=v. tr.^mrc1=201
 ent=romanés romanesa^cat1=adj. i m. i f.^mrc1=201
 ent=romanyés romanyesa^cat1=adj. i m. i f.^mrc1=201
 ent=rossellonés rossellonesa^cat1=adj. i m. i f.^mrc1=201
