@@ -6,6 +6,8 @@ p hs
 
 mots = []
 mots += %w{
+	negre negra *negrea
+	quadrifont quadrifonts *quadrifonta *quadrifontes
 	fóra
 	existencial
 	Raül

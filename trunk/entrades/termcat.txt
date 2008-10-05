@@ -1,0 +1,2499 @@
+// Paraules extretes del Termcat
+
+ent=abadanament^cat1=m.
+ent=abalisador -a^cat1=adj.^com1=vaixell abalisador
+ent=ablèpsia^cat1=f.
+ent=abrillantable^cat1=adj.^com1=acabament abrillantable
+ent=absorbidor-reflector -a^cat1=adj.^com1=tàndem absorbidor-reflector
+ent=absortància^cat1=f.
+ent=acamussador -a^cat1=m. i f.^com1=acamussador -a
+ent=accidentogen -ògena^cat1=adj.^com1=accidentogen -ògena
+ent=acetificador -a^cat1=adj.
+ent=aconsellament^cat1=m.
+ent=acral^cat1=adj.
+ent=acraturesi^cat1=f.
+ent=acro^cat1=m.
+ent=acroesquí^cat1=m.
+ent=acròmat^cat1=m.
+ent=acropàquia^cat1=f.
+ent=actuador^cat1=m.
+ent=acusticoòptic -a^cat1=adj.^com1=efecte acusticoòptic
+ent=additivomultiplicatiu -iva^cat1=adj.^com1=unitats additivomultiplicatives
+ent=adeniforme^cat1=adj.
+ent=adenosinadifosfat^cat1=m.
+ent=adenosinatrifosfat^cat1=m.
+ent=adenosinatrifosfatasa^cat1=f.
+ent=àditon^cat1=m.
+ent=administrativista^cat1=m. i f.
+ent=adpromissió^cat1=f.
+ent=adrenèrgic -a^cat1=adj.^com1=receptor adrenèrgic
+ent=adrenoreceptor^cat1=m.
+ent=adsignatus^cat1=???^com1=locus adsignatus
+ent=adularescència^cat1=f.
+ent=aerobomba^cat1=f.
+ent=aerocòlia^cat1=f.
+ent=aerocondensador^cat1=m.
+ent=aeroportuari -ària^cat1=adj.^com1=dret d'operació aeroportuària
+ent=aftosi^cat1=f.
+ent=agíria^cat1=f.
+ent=agíric -a^cat1=adj.^com1=agíric -a
+ent=agrupatge^cat1=m.
+ent=aiguagim^cat1=m.
+ent=ajoarriero^cat1=m.^com1=Bacallà a l'ajoarriero
+ent=ajoblanco^cat1=m.^com1=Ajoblanco amb raïm i gelatina de most
+ent=ajustable^cat1=adj.^com1=resistència ajustable
+ent=akmon^cat1=m.
+ent=ako^cat1=m.
+ent=alaesquí^cat1=m.
+ent=àlan^cat1=m.
+ent=alcuba^cat1=f.
+ent=aleatorització^cat1=f.
+ent=aleatoritzador^cat1=m.
+ent=aleatoritzar^cat1=v. tr.
+ent=aliàsing^cat1=m.
+ent=allagostat -ada^cat1=adj.^com1=Amanida de rap allagostat amb escamarlans
+ent=al·lanita^cat1=f.
+ent=all'arrabbiata^cat1=???^com1=Espaguetis all'arrabbiata
+ent=allavós -osa^cat1=adj.^com1=allavós -osa
+ent=al·lòfana^cat1=f.
+ent=al·lofís -isa^cat1=adj.^com1=al·lofís -isa
+ent=al·lorítmia^cat1=f.
+ent=amatriciana^cat1=???^com1=Macarrons a l'amatriciana
+ent=amàtrix^cat1=m.
+ent=amazic^cat1=m.
+ent=ambientalista^cat1=m. i f.
+ent=ametistacitrina^cat1=f.
+ent=ametrina^cat1=f.
+ent=amforisc^cat1=m.
+ent=amfotonia^cat1=f.
+ent=amillarament^cat1=m.
+ent=amiostàsia^cat1=f.
+ent=amiotonia^cat1=f.
+ent=amperimètric -a^cat1=adj.^com1=pinça amperimètrica
+ent=amplicó^cat1=m.
+ent=amplidina^cat1=f.
+ent=analògica-digital^cat1=???^com1=conversió analògica-digital
+ent=analògic-digital^cat1=???^com1=convertidor analògic-digital
+ent=anapat -ada^cat1=adj.^com1=pell anapada
+ent=anastomosar-se^cat1=v. pron.
+ent=andiroba^cat1=f.
+ent=androstenediol^cat1=m.
+ent=androstenediona^cat1=f.
+ent=anellador -a^cat1=m. i f.^com1=anellador -a
+ent=anergia^cat1=f.
+ent=aneusomia^cat1=f.
+ent=angioedema^cat1=m.
+ent=angiomatosi^cat1=f.
+ent=angioneuròtic -a^cat1=adj.^com1=edema angioneuròtic
+ent=angulació^cat1=f.
+ent=anhedonia^cat1=f.
+ent=aningre^cat1=m.
+ent=anisocòria^cat1=f.
+ent=anisoiconia^cat1=f.
+ent=anòlit^cat1=m.
+ent=anquirina^cat1=f.
+ent=antiaborrallonament^cat1=m.
+ent=antiaglomerant^cat1=m.
+ent=antiaglutinant^cat1=m.
+ent=antialiàsing^cat1=???^com1=filtre antialiàsing
+ent=antiantigen^cat1=???^com1=anticòs antiantigen Jo-1
+ent=antiarnament^cat1=???^com1=aprest antiarnament
+ent=antiarrugament^cat1=???^com1=aprest antiarrugament
+ent=antibrutícia^cat1=???^com1=tractament antibrutícia
+ent=anticardiolipina^cat1=???^com1=anticòs anticardiolipina
+ent=anticerne^cat1=m.
+ent=antiencongiment^cat1=???^com1=aprest antiencongiment
+ent=antienfeltrament^cat1=???^com1=aprest antienfeltrament
+ent=antiengarrotament^cat1=???^com1=arnès antiengarrotament
+ent=antifloridura^cat1=???^com1=aprest antifloridura
+ent=antifusible^cat1=m.
+ent=antigenèmia^cat1=f.
+ent=antigir^cat1=???^com1=arnès antigir
+ent=antipà^cat1=m.
+ent=antipersones^cat1=???^com1=mina antipersones
+ent=antiradiació^cat1=???^com1=laberint antiradiació
+ent=antireflector -a^cat1=adj.^com1=recobriment antireflector
+ent=antiressonant^cat1=adj.^com1=circuit antiressonant
+ent=antiretroviral^cat1=adj.
+ent=antiretrovíric -a^cat1=adj.^com1=antiretrovíric -a
+ent=antitaques^cat1=???^com1=aprest antitaques
+ent=antitopspin^cat1=???^com1=goma antitopspin
+ent=antiviral^cat1=adj.
+ent=antivirus^cat1=m.
+ent=antropòmetre^cat1=m.
+ent=apantallament^cat1=m.
+ent=aparcador -a^cat1=m. i f.^com1=aparcador -a de cotxes
+ent=apatrídia^cat1=f.
+ent=api-rave^cat1=m.^com1=Pastís de pastanaga i formatge blau amb api-rave cruixent
+ent=apirènia^cat1=f.
+ent=aplàstic -a^cat1=adj.^com1=anèmia aplàstica
+ent=aponibilitat^cat1=f.
+ent=apoptosi^cat1=f.
+ent=appertització^cat1=f.
+ent=appertitzar^cat1=v. tr.
+ent=aqüiclude^cat1=m.
+ent=aqüitard^cat1=m.
+ent=àrac^cat1=m.
+ent=arcus^cat1=m.
+ent=areflèxia^cat1=f.
+ent=aregeneratiu -iva^cat1=adj.^com1=anèmia aregenerativa
+ent=aresta-connectivitat^cat1=f.
+ent=argueig^cat1=m.
+ent=aristoencèfal -a^cat1=adj.^com1=aristoencèfal -a
+ent=aritmeticològic -a^cat1=adj.^com1=unitat aritmeticològica
+ent=aromateràpia^cat1=f.
+ent=arpillerar^cat1=v. tr.
+ent=arrissament^cat1=m.
+ent=arsenicar^cat1=v. tr.
+ent=arseniur^cat1=m.^com1=arseniur de gal·li
+ent=artteràpia^cat1=f.
+ent=arxicistre^cat1=m.
+ent=arxipelàgic -a^cat1=adj.^com1=estat arxipelàgic
+ent=asiago^cat1=m.
+ent=assa^cat1=f.^com1=assa de primavera
+ent=assemblatge^cat1=m.
+ent=assertivitat^cat1=f.
+ent=assolellament^cat1=m.
+ent=atòpic -a^cat1=adj.^com1=dermatitis atòpica
+ent=aturafletxes^cat1=m.
+ent=atzurmalaquita^cat1=f.
+ent=aualé^cat1=m.
+ent=audioconferència^cat1=f.
+ent=audiotext^cat1=m.
+ent=austenític -a^cat1=adj.^com1=tremp austenític
+ent=australita^cat1=f.
+ent=autoacoblament^cat1=m.^com1=pèptid d'autoacoblament
+ent=autoarrissat -ada^cat1=adj.^com1=fil autoarrissat
+ent=autoblocatge^cat1=m.^com1=oscil·lador d'autoblocatge
+ent=autobraç^cat1=m.^com1=autobraç articulat
+ent=autocalibratge^cat1=m.
+ent=autocaravana^cat1=f.
+ent=autocaravàning^cat1=m.
+ent=autocaravanisme^cat1=m.
+ent=autocaravanista^cat1=m. i f.
+ent=autocompleció^cat1=f.^com1=qüestionari d'autocompleció
+ent=autoconfiguració^cat1=f.
+ent=autocròs^cat1=m.
+ent=autoescala^cat1=f.
+ent=autoestereoscòpic -a^cat1=adj.^com1=sistema autoestereoscòpic
+ent=autoexcitat -ada^cat1=adj.^com1=dinamo autoexcitada
+ent=autofasatge^cat1=m.
+ent=autogol^cat1=m.
+ent=automodulació^cat1=f.^com1=automodulació de fase
+ent=autonomació^cat1=f.
+ent=autopassada^cat1=f.
+ent=autorefredat -ada^cat1=adj.^com1=màquina autorefredada
+ent=autoregulador -a^cat1=adj.^com1=estiratge autoregulador
+ent=autoretorçat -ada^cat1=adj.^com1=fil autoretorçat
+ent=autoretort -a^cat1=adj.^com1=fil autoretort
+ent=autosimilitud^cat1=f.^com1=autosimilitud escalar
+ent=autotorsió^cat1=f.^com1=contínua de filar d'autotorsió
+ent=autounió^cat1=f.^com1=fibra d'autounió
+ent=autozero^cat1=m.
+ent=avancé^cat1=m.
+ent=avantgreen^cat1=m.
+ent=avanttítol^cat1=m.
+ent=àxel^cat1=m.
+ent=azuki^cat1=???^com1=mongeta azuki
+
+ent=alquerc^cat1=m.
+ent=aspic^cat1=m.^com1=Aspic de fruita natural
+ent=babaganuix^cat1=m.
+ent=baclaua^cat1=m.
+ent=bainític -a^cat1=adj.^com1=tremp bainític
+ent=balau^cat1=m.^com1=balau groc
+ent=balestra^cat1=f.
+ent=bambolinó^cat1=m.
+ent=bamp^cat1=m.
+ent=bancassegurador -a^cat1=adj.^com1=bancassegurador -a
+ent=bancassegurança^cat1=f.
+ent=bandoneó^cat1=m.
+ent=bandura^cat1=f.
+ent=bàner^cat1=m.
+ent=bansuri^cat1=m.
+ent=banyerola^cat1=f.
+ent=barcana^cat1=f.
+ent=barcòmetre^cat1=m.
+ent=barcomètric -a^cat1=adj.^com1=grau barcomètric
+ent=barguenyo^cat1=m.
+ent=baritat -ada^cat1=adj.^com1=cartolina baritada
+ent=basculador^cat1=m.
+ent=basmati^cat1=???^com1=Llamàntol i arròs basmati amb coco, pinya tropical i fruita seca
+ent=bastela^cat1=f.
+ent=batada^cat1=f.
+ent=batonador -a^cat1=adj.^com1=màquina batonadora
+ent=bayesià -ana^cat1=adj.^com1=estimador bayesià
+ent=beetlemelamina^cat1=f.
+ent=belinògraf^cat1=m.
+ent=bèndix^cat1=m.
+ent=berenyada^cat1=f.
+ent=betulina^cat1=f.
+ent=bicapa^cat1=???^com1=circuit imprès bicapa
+ent=bicara^cat1=f.
+ent=bicitrial^cat1=m.
+ent=bicitrineu^cat1=f.
+ent=bicompost -a^cat1=adj.^com1=filament bicompost
+ent=bidireccional^cat1=adj.^com1=antena bidireccional
+ent=biestàtic -a^cat1=adj.^com1=radar biestàtic
+ent=bifònic -a^cat1=adj.^com1=so bifònic
+ent=biinjecció^cat1=f.
+ent=bil·litonita^cat1=f.
+ent=bimetall^cat1=m.
+ent=bimodal^cat1=adj.^com1=comunicació bimodal
+ent=bioalcohol^cat1=m.
+ent=biocarburant^cat1=m.
+ent=biofilm^cat1=m.
+ent=bioinformàtic -a^cat1=m. i f.^com1=bioinformàtic -a
+ent=bioremediació^cat1=f.
+ent=bioremediador^cat1=m.
+ent=biotelemetria^cat1=f.
+ent=biscota^cat1=f.
+ent=bit-distorsió^cat1=f.^com1=relació taxa de bit-distorsió
+ent=biteràpia^cat1=f.
+ent=biwa^cat1=m.
+ent=blanquilla^cat1=???^com1=Pastís Tatin de pera blanquilla amb gelat de mel d'acàcia
+ent=blastòpor^cat1=m.
+ent=blastòporus^cat1=m.
+ent=blefaroptosi^cat1=f.
+ent=blinis^cat1=m.^com1=Blinis amb caviar
+ent=blíster^cat1=m.
+ent=blitz^cat1=m.
+ent=blocable^cat1=adj.^com1=tiristor blocable
+ent=blocaire^cat1=m. i f.
+ent=blútxer^cat1=m.
+ent=bob^cat1=m.
+ent=bogi^cat1=m.
+ent=bolsal^cat1=m.
+ent=bonamita^cat1=f.
+ent=bonderització^cat1=f.
+ent=bonderitzar^cat1=v. tr.
+ent=bong-bong^cat1=m.
+ent=bongos^cat1=m. pl.
+ent=bongós^cat1=m. pl.
+ent=bonus^cat1=???^com1=dolus bonus
+ent=bonus-malus^cat1=???^com1=sistema bonus-malus
+ent=borbollador^cat1=m.
+ent=borderó^cat1=m.
+ent=boszi^cat1=m.^com1=llançament de boszi
+ent=botifarreta^cat1=f.^com1=Carxofes guisades amb botifarretes de tòfona
+ent=botiller -a^cat1=m. i f.^com1=botiller -a
+ent=bowenita^cat1=f.
+ent=bradisfígmia^cat1=f.
+ent=bràquet^cat1=m.
+ent=brasilianita^cat1=f.
+ent=brasilina^cat1=f.
+ent=bratwurst^cat1=m.^com1=Entrepà de bratwurst
+ent=brenyada^cat1=f.
+ent=breque^cat1=m.^com1=samba de breque
+ent=bresa^cat1=f.
+ent=bresar^cat1=v. tr.
+ent=bresera^cat1=f.
+ent=bressadora^cat1=f.
+ent=brètzel^cat1=m.
+ent=brevipalp^cat1=m.
+ent=brífing^cat1=m.
+ent=brioixeria^cat1=f.
+ent=briolet^cat1=???^com1=talla briolet
+ent=briuat^cat1=m.
+ent=bromocresol^cat1=m.^com1=verd de bromocresol
+ent=bromofenol^cat1=m.^com1=blau de bromofenol
+ent=brunesa^cat1=f.^com1=tallar a la brunesa
+ent=bucket^cat1=m.^com1=Bambi bucket
+ent=búfala^cat1=f.^com1=Amanida de figues i mozzarella de búfala amb oli de vainilla i menta
+ent=bugui-bugui^cat1=m.
+ent=bullidora^cat1=f.^com1=bullidora elèctrica
+ent=búrgul^cat1=m.^com1=Kebe (mandonguilla de búrgul i xai amb espècies, ceba i pinyons)
+ent=burmita^cat1=f.
+ent=búrning^cat1=???^com1=taxa búrning
+ent=burofax^cat1=m.
+ent=burrata^cat1=f.^com1=Amanida de burrata
+ent=buscapersones^cat1=m.
+ent=bustiada^cat1=f.
+ent=butadiè^cat1=m.^com1=fibra de butadiè
+ent=butíric -a^cat1=adj.^com1=fermentació butírica
+
+ent=back^cat1=m.
+ent=bafle^cat1=m.
+ent=caatinga^cat1=f.
+ent=cabinet^cat1=m.
+ent=cabraboc^cat1=m.
+ent=cachelos^cat1=???^com1=Lacón amb cachelos (plat típic de la cuina gallega a base de carn de porc i patates)
+ent=caiacpolo^cat1=m.
+ent=caiot^cat1=m.
+ent=caixet^cat1=m.
+ent=caixo^cat1=m.
+ent=calandratge^cat1=m.
+ent=calarmarsó^cat1=m.^com1=Favetes saltades amb calarmarsons
+ent=californita^cat1=f.
+ent=cal·laïta^cat1=f.
+ent=càlpida^cat1=f.
+ent=calpis^cat1=f.
+ent=calvus^cat1=adj.
+ent=calzone^cat1=???^com1=Pizza calzone
+ent=cam^cat1=???^com1=politja cam
+ent=càmper^cat1=m.
+ent=càmpila^cat1=f.^com1=càmpila d'Eudoxos
+ent=cancel·lador -a^cat1=adj.^com1=cancel·lador d'ecos
+ent=cancrinita^cat1=f.
+ent=candita^cat1=f.
+ent=canxa^cat1=f.
+ent=canxer -a^cat1=m. i f.^com1=canxer -a
+ent=capacitatiu -iva^cat1=adj.^com1=altaveu capacitatiu
+ent=capelina^cat1=f.
+ent=capgrís -isa^cat1=adj.^com1=gavina capgrisa
+ent=càping^cat1=m.
+ent=capoeira^cat1=f.
+ent=caprese^cat1=???^com1=Amanida caprese
+ent=capsuladora^cat1=f.
+ent=capsulament^cat1=m.
+ent=capturador -a^cat1=adj.^com1=capturador de llocs web
+ent=caputxeta^cat1=f.
+ent=caputxino^cat1=m.
+ent=caquèxia-anorèxia^cat1=f.^com1=síndrome de caquèxia-anorèxia associada al VIH
+ent=caravanisme^cat1=m.
+ent=carcinogenicitat^cat1=f.
+ent=cardiocirculatori -òria^cat1=adj.^com1=col·lapse cardiocirculatori
+ent=cardiolipina^cat1=f.^com1=anticòs contra la cardiolipina
+ent=carnota^cat1=f.
+ent=carpat -ada^cat1=adj.^com1=carpat -ada
+ent=carpet^cat1=m.
+ent=carpó-blanc^cat1=???^com1=passerell carpó-blanc
+ent=carró^cat1=m.^com1=fer carró
+ent=carrura^cat1=f.
+ent=cartonet^cat1=m.
+ent=càrving^cat1=m.
+ent=càscode^cat1=adj.^com1=amplificador càscode
+ent=caseller^cat1=m.^com1=caseller de claus
+ent=cassís^cat1=m.^com1=Torrada amb foie gras i cassís
+ent=castral^cat1=adj.
+ent=casxolong^cat1=m.
+ent=catalarc^cat1=m.
+ent=catalina^cat1=f.
+ent=catània^cat1=f.^com1=Catànies, carquinyolis, xocolatines i mistela
+ent=cativo^cat1=m.
+ent=catòlit^cat1=m.
+ent=cebeta^cat1=f.^com1=Carré de xai amb estragó i cebetes glacejades amb mel i romaní
+ent=cebiche^cat1=m.^com1=Cebiche de bacallà
+ent=cecina^cat1=f.^com1=Carpaccio de cecina
+ent=cecograma^cat1=m.
+ent=celleta^cat1=f.
+ent=cel·lon^cat1=m.
+ent=centrifugació-extrusió^cat1=f.^com1=filatura per centrifugació-extrusió
+ent=cepstral^cat1=adj.^com1=coeficient cepstral
+ent=cepstre^cat1=m.
+ent=cercapromeses^cat1=m. i f.
+ent=cercausuaris^cat1=m. i f.
+ent=cernos^cat1=m.
+ent=cesta^cat1=f.
+ent=cester -a^cat1=m. i f.^com1=cester -a
+ent=cetoacidosi^cat1=f.
+ent=cetosi^cat1=f.
+ent=charoïta^cat1=f.
+ent=chilindrón^cat1=???^com1=Pollastre al chilindrón
+ent=chimichurri^cat1=???^com1=Churrasco amb chimichurri
+ent=chop^cat1=???^com1=Chop suey de verdures amb rap i cloïsses gallegues
+ent=churrasco^cat1=???
+ent=chutney^cat1=m.^com1=Confit d'ànec amb chutney de pera
+ent=cíat^cat1=m.
+ent=ciberalumne -a^cat1=m. i f.^com1=ciberalumne -a
+ent=ciberamic -iga^cat1=m. i f.^com1=ciberamic -iga
+ent=ciberaprenent -a^cat1=m. i f.^com1=ciberaprenent -a
+ent=cibercafè^cat1=m.
+ent=cibercriminologia^cat1=f.
+ent=cibercultura^cat1=f.
+ent=ciberdelicte^cat1=m.
+ent=ciberdelinqüent^cat1=m. i f.
+ent=ciberdependència^cat1=f.
+ent=ciberfòbia^cat1=f.
+ent=ciberlegislació^cat1=f.
+ent=ciberllenguatge^cat1=m.
+ent=cibernauta^cat1=m. i f.
+ent=ciberpolicia^cat1=m. i f.
+ent=ciberserial^cat1=m.
+ent=cibertira^cat1=f.
+ent=cíbrid^cat1=m.
+ent=cibulet^cat1=m.^com1=Broqueta de rap amb verdures i oli de cibulet
+ent=ciclina^cat1=f.
+ent=ciclostacionari -ària^cat1=adj.^com1=procés ciclostacionari
+ent=ciclotona^cat1=f.^com1=ciclotona de Brauer
+ent=cílica^cat1=f.
+ent=cilindret^cat1=m.^com1=carda de cilindrets
+ent=cílix^cat1=f.
+ent=cimòfana^cat1=f.
+ent=cinasa^cat1=f.
+ent=cinemòmetre^cat1=m.
+ent=cineprosema^cat1=m.
+ent=cinescopi^cat1=m.
+ent=cinturilla^cat1=f.
+ent=circuital^cat1=adj.^com1=model circuital
+ent=circularització^cat1=f.
+ent=circularitzar^cat1=v. tr.
+ent=ciré^cat1=adj.
+ent=cistellets^cat1=m.^com1=Cistellets de pasta fresca farcits de formatge i pera
+ent=cistòfor^cat1=m.
+ent=citocida^cat1=adj.^com1=cèl·lula citocida natural
+ent=citocina^cat1=f.
+ent=citomegalovirus^cat1=m. pl.
+ent=citoqueratina^cat1=f.
+ent=citostoma^cat1=m.
+ent=citotoxicitat^cat1=f.
+ent=citronel·la^cat1=f.^com1=Esponjós d'ametlles amb gelatina de cafè, gelat de citronel·la i crema de cardamom
+ent=clade^cat1=m.
+ent=cladisme^cat1=m.
+ent=cladística^cat1=f.
+ent=cladograma^cat1=m.
+ent=clavicembalista^cat1=m. i f.
+ent=client-servidor^cat1=???^com1=arquitectura client-servidor
+ent=clínquer^cat1=m.
+ent=clipeata^cat1=???^com1=imago clipeata
+ent=clíping^cat1=m.
+ent=clistró^cat1=m.
+ent=cloqué^cat1=m.
+ent=clorocautxú^cat1=m.
+ent=cloroespinel·la^cat1=f.
+ent=clorofibra^cat1=f.
+ent=clorosant^cat1=adj.^com1=poder clorosant
+ent=clusterització^cat1=f.
+ent=clusteritzar^cat1=v. tr.
+ent=cneorinosi^cat1=f.
+ent=cocanal^cat1=???^com1=interferència cocanal
+ent=cocàping^cat1=m.
+ent=coccidioidomicosi^cat1=f.
+ent=còdec^cat1=m.
+ent=codeterminant^cat1=m.
+ent=coferdam^cat1=m.
+ent=coinfecció^cat1=f.
+ent=coinjecció^cat1=f.
+ent=coió^cat1=m.
+ent=colby^cat1=m.
+ent=colèstasi^cat1=f.
+ent=col·laboratori^cat1=m.
+ent=col·lagrafia^cat1=f.
+ent=col·lectina^cat1=f.
+ent=col·lisionador^cat1=m.
+ent=col·locador -a^cat1=m. i f.^com1=col·locador -a
+ent=colosa^cat1=m.
+ent=combinacional^cat1=adj.
+ent=combinador^cat1=m.
+ent=comissionable^cat1=adj.
+ent=comorbiditat^cat1=f.
+ent=compansor^cat1=m.
+ent=compliància^cat1=f.
+ent=comptedonant^cat1=m. i f.
+ent=comté^cat1=???^com1=Sopa de comté i nous amb cebetes glacejades amb romaní, farigola, llorer i fino
+ent=concatèmer^cat1=m.
+ent=confeccionabilitat^cat1=f.
+ent=conflictual^cat1=adj.^com1=autonomia conflictual
+ent=congestus^cat1=???
+ent=conquilleta^cat1=f.
+ent=conquiolina^cat1=f.
+ent=consumidorisme^cat1=m.
+ent=consumidorista^cat1=adj.
+ent=contaminòmetre^cat1=m.
+ent=contornejament^cat1=m.
+ent=contornita^cat1=f.
+ent=contrabrífing^cat1=m.
+ent=contracantelleig^cat1=m.
+ent=contracanxa^cat1=f.
+ent=contracatalina^cat1=f.
+ent=contragalop^cat1=m.
+ent=contraió^cat1=m.
+ent=contravol^cat1=m.
+ent=conversacional^cat1=adj.^com1=servei conversacional
+ent=convolucional^cat1=adj.^com1=canal convolucional
+ent=conxatge^cat1=m.
+ent=copòleg^cat1=m.
+ent=coprocessador^cat1=m.
+ent=cordilleria^cat1=f.
+ent=coreceptor^cat1=m.
+ent=corfbol^cat1=m.
+ent=coronavirus^cat1=m.^com1=pneumònia per coronavirus
+ent=corre-corre^cat1=m.
+ent=correlador -a^cat1=adj.^com1=desmodulador correlador
+ent=corrent-tensió^cat1=???^com1=característica corrent-tensió
+ent=cosmidi^cat1=m.
+ent=costelleta^cat1=f.^com1=Costelletes de conill amb patates emmascarades
+ent=cotícula^cat1=f.
+ent=còton^cat1=m.
+ent=cotramesa^cat1=f.
+ent=cotta^cat1=???^com1=Panna cotta
+ent=coulant^cat1=m.^com1=Coulant d'alls tendres i gambes amb pebrots del piquillo saltats
+ent=coulis^cat1=m.^com1=Brie arrebossat amb coulis de gerds
+ent=craqueig^cat1=m.
+ent=craquejar^cat1=v. tr.
+ent=craterisc^cat1=m.
+ent=craurosi^cat1=f.
+ent=creatinini^cat1=m.
+ent=crepera^cat1=f.^com1=crepera elèctrica
+ent=crepidoma^cat1=m.
+ent=creuament^cat1=m.
+ent=cribrar^cat1=v. tr.
+ent=cribratge^cat1=m.
+ent=crioextracció^cat1=f.
+ent=criofractura^cat1=f.
+ent=criosublimació^cat1=f.
+ent=criptoanàlisi^cat1=f.
+ent=criptococcosi^cat1=f.
+ent=criptofonia^cat1=f.
+ent=criptologia^cat1=f.
+ent=criptosporidiosi^cat1=f.
+ent=crisòtil^cat1=m.
+ent=crist^cat1=m.
+ent=cromorn^cat1=m.
+ent=cronificació^cat1=f.
+ent=cronoanalista^cat1=m. i f.
+ent=cronoescalada^cat1=f.
+ent=croquetó^cat1=m.
+ent=crostonet^cat1=m.^com1=Amanida d'enciams variats, cruixent de porc i crostonets de pa torrat
+ent=crudité^cat1=f.
+ent=crusta^cat1=f.
+ent=cudornella^cat1=f.
+ent=cuidador -a^cat1=m. i f.^com1=cuidador -a d'animals
+ent=cuixeta^cat1=f.^com1=Arròs melós de cuixeta d'ànec amb sajolida
+ent=cúmbia^cat1=f.
+ent=cumquat^cat1=m.
+ent=cumulant^cat1=m.
+ent=cunya^cat1=f.
+ent=cuproamoniacal^cat1=adj.^com1=raió cuproamoniacal
+ent=cúrling^cat1=m.
+ent=curos^cat1=m.
+ent=curvifoliar^cat1=adj.^com1=erinosi curvifoliar
+
+ent=dabema^cat1=f.
+ent=dactilocomponedora^cat1=f.
+ent=dàgoba^cat1=m.
+ent=dalecàrlia^cat1=f.
+ent=danbo^cat1=m.
+ent=dao^cat1=m.
+ent=datàfon^cat1=m.
+ent=datagrama^cat1=m.
+ent=dawai^cat1=interj.^com1=dawai!
+ent=debanatge^cat1=m.
+ent=debrífing^cat1=m.
+ent=decàpter^cat1=m.
+ent=decatró^cat1=m.
+ent=decisor -a^cat1=m. i f.^com1=decisor -a
+ent=decumanus^cat1=m.
+ent=definitud^cat1=f.^com1=efecte de definitud
+ent=deflactació^cat1=f.
+ent=deflactor^cat1=m.
+ent=degollatge^cat1=m.
+ent=delestatge^cat1=m.
+ent=delfinoteràpia^cat1=f.
+ent=depassament^cat1=m.
+ent=depictus^cat1=m.
+ent=depiladora^cat1=f.
+ent=depot^cat1=???
+ent=derivador^cat1=m.
+ent=dermatografia^cat1=f.
+ent=derni^cat1=???^com1=moto derni
+ent=desacceleròmetre^cat1=m.
+ent=desadaptació^cat1=f.^com1=desadaptació d'impedàncies
+ent=desagrupatge^cat1=m.
+ent=desalcoholització^cat1=f.
+ent=desaleatoritzador^cat1=m.
+ent=desarenador^cat1=m.
+ent=desbarbatge^cat1=m.
+ent=desborratge^cat1=m.
+ent=descaminament^cat1=m.
+ent=descarnadora^cat1=f.
+ent=desceleròmetre^cat1=m.
+ent=descensor^cat1=m.^com1=descensor de vuit
+ent=descompilació^cat1=f.
+ent=descompilador^cat1=m.
+ent=descompilar^cat1=v. tr.
+ent=desconvolució^cat1=f.
+ent=desèmfasi^cat1=f.
+ent=desempaquetador^cat1=m.
+ent=desempaquetatge^cat1=m.
+ent=desencriptar^cat1=v. tr.
+ent=desfaldar^cat1=v. tr.
+ent=desfangament^cat1=m.
+ent=desfasador^cat1=m.
+ent=desfragmentació^cat1=f.
+ent=desfragmentar^cat1=v. tr.
+ent=desgasador^cat1=m.
+ent=desgasolinatge^cat1=m.
+ent=desllanador -a^cat1=m. i f.^com1=desllanador -a
+ent=desmultiplexatge^cat1=m.
+ent=desmultiplexor^cat1=m.
+ent=desnatació^cat1=f.^com1=estratègia de desnatació
+ent=desnervador -a^cat1=m. i f.^com1=desnervador -a de tabac
+ent=desnervar^cat1=v. tr.
+ent=despectinització^cat1=f.
+ent=despiquelar^cat1=v. tr.
+ent=despiquelatge^cat1=m.
+ent=desplegador -a^cat1=adj.^com1=carro desplegador
+ent=despolpadora^cat1=f.
+ent=despolpar^cat1=v. tr.
+ent=desquadrament^cat1=m.
+ent=desquadrar^cat1=v. intr.
+ent=desrapadora^cat1=f.
+ent=desrapament^cat1=m.
+ent=desrapar^cat1=v. tr.
+ent=dessulfitació^cat1=f.
+ent=destartranització^cat1=f.
+ent=diacònicon^cat1=m.
+ent=diafonòmetre^cat1=m.
+ent=diakon^cat1=m.
+ent=diaporama^cat1=m.
+ent=diàstil -a^cat1=adj.^com1=diàstil -a
+ent=dibuixable^cat1=m.
+ent=dicrotisme^cat1=m.
+ent=didjeridú^cat1=m.
+ent=difusòmetre^cat1=m.
+ent=digital-analògic -a^cat1=adj.^com1=convertidor digital-analògic
+ent=digitalitzador^cat1=m.
+ent=digraf^cat1=m.
+ent=dilàctida^cat1=f.
+ent=dilruba^cat1=m.
+ent=dinatró^cat1=m.
+ent=dinos^cat1=m.
+ent=diplexor^cat1=m.
+ent=discràtic -a^cat1=adj.^com1=diàtesi discràtica
+ent=disfenoèdric -a^cat1=adj.^com1=disfenoèdric -a
+ent=disfenoïdal^cat1=adj.
+ent=disproteïnèmia^cat1=f.
+ent=dístil -a^cat1=adj.^com1=dístil -a
+ent=distractibilitat^cat1=f.
+ent=distrèn^cat1=m.
+ent=doblemàgnum^cat1=m.
+ent=documentari -ària^cat1=adj.^com1=documentari -ària
+ent=dodecàstil -a^cat1=adj.^com1=dodecàstil -a
+ent=dofilina^cat1=f.
+ent=dolus^cat1=m.^com1=dolus bonus
+ent=domòtic -a^cat1=m. i f.^com1=domòtic -a
+ent=dóner^cat1=m.^com1=dóner kebab
+ent=dorsblanc^cat1=???^com1=picot garser dorsblanc
+ent=dosímetre^cat1=m.
+ent=dosset^cat1=m.
+ent=drapet^cat1=m.
+ent=dresina^cat1=f.
+ent=driblador -a^cat1=m. i f.^com1=driblador -a
+ent=drift^cat1=m.
+ent=dromos^cat1=m.
+ent=dropar^cat1=v. tr.
+ent=dropatge^cat1=m.
+ent=drumlin^cat1=m.
+ent=duanar^cat1=v. tr.
+ent=duobinari -ària^cat1=adj.^com1=impuls duobinari
+ent=dupleta^cat1=f.
+ent=duplicador^cat1=m.^com1=duplicador de tensió
+ent=duplicatus^cat1=adj.
+ent=duranguita^cat1=f.
+ent=duxelles^cat1=???^com1=Crema duxelles
+
+ent=egiptoamericà -ana^cat1=adj.^com1=cotó egiptoamericà
+ent=ekanita^cat1=f.
+ent=elastodiè^cat1=m.^com1=fibra d'elastodiè
+ent=electret^cat1=m.
+ent=electrocinètic -a^cat1=adj.^com1=transductor electrocinètic
+ent=electró-forat^cat1=???^com1=parell electró-forat
+ent=electrogenerador^cat1=m.
+ent=electroluminescent^cat1=adj.^com1=díode electroluminescent
+ent=electromètric -a^cat1=adj.^com1=amplificador electromètric
+ent=electromigració^cat1=f.
+ent=electroosmòtic -a^cat1=adj.^com1=adob electroosmòtic
+ent=electrosoldat -ada^cat1=adj.^com1=malla electrosoldada
+ent=electrovolt^cat1=m.
+ent=eleoplast^cat1=m.
+ent=eluat^cat1=m.
+ent=eluotròpic -a^cat1=adj.^com1=eluotròpic -a
+ent=eluotròpic -a^cat1=adj.^com1=força eluotròpica
+ent=elzevirià^cat1=m.
+ent=embarriada^cat1=f.
+ent=embarriar^cat1=v. tr.
+ent=emblistadora^cat1=f.
+ent=embonatge^cat1=m.
+ent=èmic -a^cat1=adj.^com1=perspectiva èmica
+ent=emitró^cat1=m.
+ent=emmascarament^cat1=m.
+ent=empeltre^cat1=???^com1=Espàrrecs de marge amb essència d'oliva empeltre (varietat d'oliva negra)
+ent=empenteta^cat1=f.
+ent=empiesi^cat1=f.
+ent=emplecton^cat1=???^com1=aparell emplecton
+ent=emprenedoria^cat1=f.
+ent=enacions^cat1=f. pl.
+ent=enactament^cat1=m.
+ent=encapsidació^cat1=f.
+ent=encapsulació^cat1=f.
+ent=encapsuladora^cat1=f.
+ent=encapsulament^cat1=m.
+ent=encapsulant^cat1=m.
+ent=encapsular^cat1=v. tr.
+ent=encapsulatge^cat1=m.
+ent=enceradora^cat1=f.
+ent=encestada^cat1=f.
+ent=encestar^cat1=v. tr.
+ent=encriptació^cat1=f.
+ent=enfinestrament^cat1=m.
+ent=enigmista^cat1=m. i f.
+ent=enòcoa^cat1=f.
+ent=enoteca^cat1=f.
+ent=enregistrable^cat1=adj.^com1=disc compacte enregistrable
+ent=enriuatge^cat1=m.^com1=enriuatge químic
+ent=ensamble^cat1=???^com1=progressió ensamble
+ent=ensostrador -a^cat1=m. i f.^com1=ensostrador -a
+ent=envolupament^cat1=m.
+ent=enzimoimmunoassaig^cat1=m.^com1=enzimoimmunoassaig sobre fase sòlida
+ent=ependimari -ària^cat1=adj.^com1=cèl·lula ependimària
+ent=ependimàtic -a^cat1=adj.^com1=cèl·lula ependimàtica
+ent=epifisat -ada^cat1=adj.^com1=epifisat -ada
+ent=epílit^cat1=m.
+ent=epíliton^cat1=m.
+ent=epinètron^cat1=m.
+ent=epíquisis^cat1=f.
+ent=epitèrmic -a^cat1=adj.^com1=reactor epitèrmic
+ent=epitròpic -a^cat1=adj.^com1=fibra epitròpica
+ent=epoxi^cat1=???^com1=resina epoxi
+ent=equalització^cat1=f.^com1=equalització semicega
+ent=equalitzar^cat1=v. tr.
+ent=equitativitat^cat1=f.^com1=criteri d'equitativitat
+ent=erinoide^cat1=m.
+ent=erlang^cat1=m.
+ent=esborrable^cat1=adj.^com1=memòria ROM esborrable
+ent=escabí -ina^cat1=m. i f.^com1=escabí -ina
+ent=escalabilitat^cat1=f.
+ent=escalable^cat1=adj.
+ent=escalatge^cat1=m.
+ent=escalenoèdric -a^cat1=adj.^com1=escalenoèdric -a
+ent=escalopar^cat1=v. tr.^com1=Filet de vedella escalopat amb salsa de mostassa dolça
+ent=escàner^cat1=m.
+ent=escanista^cat1=m. i f.
+ent=escarnador -a^cat1=m. i f.^com1=escarnador -a
+ent=esciascòpia^cat1=f.
+ent=escif^cat1=m.
+ent=esclerodèrmia^cat1=f.
+ent=escopòfil -a^cat1=m. i f.^com1=escopòfil -a
+ent=escuterista^cat1=m. i f.
+ent=esferulític -a^cat1=adj.^com1=fibril·la esferulítica
+ent=esgarró^cat1=m.
+ent=esgranadora^cat1=f.
+ent=esgranament^cat1=m.
+ent=eslam^cat1=m.^com1=gran eslam
+ent=esmorzar-dinar^cat1=m.
+ent=esnap^cat1=m.
+ent=espadatge^cat1=m.
+ent=espagat^cat1=m.^com1=espagat rus
+ent=espàndex^cat1=m.
+ent=espàrring^cat1=m.
+ent=espasina^cat1=f.
+ent=espeleobusseig^cat1=m.
+ent=espeleobussejador -a^cat1=m. i f.^com1=espeleobussejador -a
+ent=espeleosocorrista^cat1=m. i f.
+ent=espeleosocors^cat1=m.
+ent=espinàquer^cat1=m.
+ent=espondilolistesi^cat1=f.
+ent=espring^cat1=m.
+ent=esquat^cat1=m.
+ent=esquí-arc^cat1=m.
+ent=esquí-bob^cat1=m.
+ent=esquí-pneumàtic^cat1=m.
+ent=esquí-surf^cat1=m.
+ent=esquí-surfista^cat1=m. i f.
+ent=esrom^cat1=m.
+ent=estacionarietat^cat1=f.
+ent=estamne^cat1=m.
+ent=estamnos^cat1=m.
+ent=esteatorrea^cat1=f.
+ent=estereocili^cat1=m.
+ent=estilòbata^cat1=m.
+ent=estirafletxes^cat1=m. i f.
+ent=estira-i-empeny^cat1=m.
+ent=estoa^cat1=f.
+ent=estran^cat1=m.
+ent=estrangulament^cat1=m.^com1=estrangulament de canal
+ent=estràs^cat1=m.
+ent=estratosfèric -a^cat1=adj.^com1=satèl·lit estratosfèric
+ent=estroboscòpic -a^cat1=adj.^com1=efecte estroboscòpic
+ent=estrumogen -ògena^cat1=adj.^com1=estrumogen -ògena
+ent=estrumogènesi^cat1=f.
+ent=estufatge^cat1=m.
+ent=etalonatge^cat1=m.
+ent=eucari^cat1=m.
+ent=euclidi -ídia^cat1=adj.^com1=distància euclídia
+ent=euencèfal -a^cat1=adj.^com1=euencèfal -a
+ent=euripus^cat1=m.
+ent=èustil -a^cat1=adj.^com1=èustil -a
+ent=evitament^cat1=m.^com1=accés múltiple amb escolta de portadora i evitament de col·lisió
+ent=exalíptron^cat1=m.
+ent=excloïbilitat^cat1=f.
+ent=excloïble^cat1=adj.
+ent=èxitus^cat1=m.
+ent=expromissió^cat1=f.
+ent=extensomètric -a^cat1=adj.^com1=galga extensomètrica
+ent=externalitat^cat1=f.
+ent=extorsionador -a^cat1=m. i f.^com1=extorsionador -a
+ent=extrabrut^cat1=???^com1=cava extrabrut
+ent=extrahoteler -a^cat1=adj.^com1=establiment extrahoteler
+ent=extrallarg -a^cat1=adj.^com1=cotó de fibra extrallarga
+ent=extranet^cat1=f.
+ent=extrarígid -a^cat1=adj.^com1=vara extrarígida
+ent=extrasalarial^cat1=adj.^com1=retribució extrasalarial
+ent=extrasec -a^cat1=adj.^com1=cava extrasec
+
+ent=carré^cat1=m.^com1=Carré de cabrit al forn amb herbes provençals
+ent=fabada^cat1=f.^com1=Fabada asturiana
+ent=fabulita^cat1=f.
+ent=facetar^cat1=v. tr.
+ent=fagocític -a^cat1=adj.^com1=sistema mononuclear fagocític
+ent=fagosoma^cat1=m.
+ent=falàfel^cat1=m.
+ent=familiarització^cat1=f.^com1=viatge de familiarització
+ent=fangoteràpia^cat1=f.
+ent=farcellet^cat1=m.
+ent=fasor^cat1=m.
+ent=fatuix^cat1=m.
+ent=faveta^cat1=f.^com1=Amanida amb pernil d'ànec, favetes i vinagreta mediterrània
+ent=fazzoletti^cat1=???^com1=Fazzoletti de mató i espinacs amb verdures
+ent=feldspatoïdífer -a^cat1=adj.^com1=feldspatoïdífer -a
+ent=feliuenc -a^cat1=adj.^com1=Sipionet a la feliuenca amb cervesa
+ent=ferrallista^cat1=m. i f.
+ent=ferreguins^cat1=m. pl.
+ent=ferropènic -a^cat1=adj.^com1=anèmia ferropènica
+ent=fíala^cat1=f.
+ent=fidelització^cat1=f.
+ent=fidelitzar^cat1=v. tr.
+ent=filable^cat1=adj.^com1=fibra no filable
+ent=fíl·ler^cat1=m.
+ent=fil·lo^cat1=m.^com1=Farcellet de pasta fil·lo amb formatge i cansalada
+ent=filoguiat -ada^cat1=adj.^com1=filoguiat -ada
+ent=fistmele^cat1=m.
+ent=fistonadora^cat1=f.
+ent=flag^cat1=???^com1=futbol flag
+ent=flageolet^cat1=m.
+ent=flavescència^cat1=f.^com1=flavescència daurada
+ent=flexo^cat1=m.
+ent=flexogràfic -a^cat1=adj.^com1=impressió flexogràfica
+ent=flexòmetre^cat1=m.
+ent=flic^cat1=m.
+ent=flip^cat1=m.
+ent=flip-flop^cat1=m.
+ent=floccus^cat1=adj.
+ent=flu-flu^cat1=???^com1=ploma flu-flu
+ent=fluixet -a^cat1=adj.^com1=vent fluixet
+ent=fluorocarboni^cat1=m.
+ent=fluorocarbur^cat1=m.
+ent=foide^cat1=m.
+ent=foídic -a^cat1=adj.^com1=foídic -a
+ent=foïdífer -a^cat1=adj.^com1=foïdífer -a
+ent=fonocaptor -a^cat1=adj.^com1=càpsula fonocaptora
+ent=fonomímia^cat1=f.
+ent=fora-d'hores^cat1=m.
+ent=forapista^cat1=m. i f.
+ent=forcalla^cat1=f.
+ent=forfetatge^cat1=m.
+ent=forfeter^cat1=m.
+ent=forfetista^cat1=m. i f.
+ent=formisc^cat1=m.
+ent=fotoànode^cat1=m.
+ent=fotocrom^cat1=m.
+ent=fotodetector^cat1=m.
+ent=fotoemissor -a^cat1=adj.^com1=fotoemissor -a
+ent=fotoexcitació^cat1=f.
+ent=fotogenerat -ada^cat1=adj.^com1=corrent fotogenerat
+ent=fotomultiplicador -a^cat1=adj.^com1=cèl·lula fotomultiplicadora
+ent=fotònic -a^cat1=adj.^com1=cristall fotònic
+ent=fotoresistiu -iva^cat1=adj.^com1=cèl·lula fotoresistiva
+ent=fotoresistor^cat1=m.
+ent=fototònic -a^cat1=adj.^com1=fibra de cristall fototònic
+ent=fototraçador^cat1=m.
+ent=fototriac^cat1=m.
+ent=fototub^cat1=m.^com1=fototub multiplicador
+ent=fotovaristor^cat1=m.
+ent=fox^cat1=m.^com1=fox lent
+ent=foxé^cat1=adj.
+ent=fraccional^cat1=adj.^com1=equalitzador fraccional
+ent=fractil^cat1=m.
+ent=fracturació^cat1=f.^com1=fracturació hidràulica
+ent=fractus^cat1=adj.
+ent=franquejadora^cat1=f.
+ent=franquiciador -a^cat1=m. i f.^com1=franquiciador -a
+ent=franquiciat -ada^cat1=m. i f.^com1=franquiciat -ada
+ent=freijó^cat1=m.
+ent=frenòmetre^cat1=m.
+ent=fresquet -a^cat1=adj.^com1=vent fresquet
+ent=fricòfil -a^cat1=m. i f.^com1=fricòfil -a
+ent=fricofília^cat1=f.
+ent=friedelita^cat1=f.
+ent=frinodèrmia^cat1=f.
+ent=frita^cat1=f.
+ent=fuchsita^cat1=f.
+ent=fumet^cat1=m.^com1=Lluç amb romesco i fumet de peix
+ent=fusaiola^cat1=f.
+ent=fusió-solidificació^cat1=f.^com1=cicle de fusió-solidificació
+ent=futbet^cat1=m.
+ent=futvòlei^cat1=m.
+ent=fynbo^cat1=m.
+ent=gahnoespinel·la^cat1=f.
+ent=gal·lícola^cat1=adj.^com1=erinosi gal·lícola
+ent=gambeta^cat1=f.^com1=Amanida de gambetes i tomàquet ratllat
+ent=gamelan^cat1=m.
+ent=gamma-globulina^cat1=f.^com1=globulina (gamma-globulina)
+ent=gap^cat1=m.
+ent=gardnerel·la^cat1=f.
+ent=garrapatea^cat1=f.
+ent=garrejar^cat1=v. intr.
+ent=gasista^cat1=adj.^com1=empresa gasista
+ent=gas-líquid^cat1=???^com1=cromatografia gas-líquid
+ent=gasodomèstic^cat1=m.
+ent=gas-sòlid^cat1=???^com1=cromatografia gas-sòlid
+ent=gaussià -ana^cat1=adj.^com1=canal gaussià
+ent=gedanita^cat1=f.
+ent=gelament^cat1=m.
+ent=gemèter^cat1=m.
+ent=gemmoteràpia^cat1=f.
+ent=genoanul·lat -ada^cat1=adj.^com1=ratolí genoanul·lat
+ent=genominvat -ada^cat1=adj.^com1=ratolí genominvat
+ent=genomodificat -ada^cat1=adj.^com1=ratolí genomodificat
+ent=geoamagatall^cat1=m.
+ent=geocerca^cat1=f.
+ent=geocercador -a^cat1=m. i f.^com1=geocercador -a
+ent=geomàtic -a^cat1=m. i f.^com1=geomàtic -a
+ent=geomàtica^cat1=f.
+ent=geomatització^cat1=f.
+ent=geomatitzar^cat1=v. tr.
+ent=georeferenciació^cat1=f.
+ent=geosincrònic -a^cat1=adj.^com1=geosincrònic -a
+ent=geronggang^cat1=m.
+ent=gestacional^cat1=adj.^com1=masculinització gestacional
+ent=giam^cat1=m.
+ent=gigabit^cat1=m.^com1=gigabit per segon
+ent=gigabyte^cat1=m.^com1=gigabyte per segon
+ent=gigahertz^cat1=m.
+ent=gigunu^cat1=m.
+ent=gil^cat1=m.^com1=gil d'intersecció
+ent=gínger^cat1=m.
+ent=giroedre^cat1=m.
+ent=glaux^cat1=f.
+ent=glicocàlix^cat1=m.
+ent=glicosaminoglicà^cat1=m.
+ent=gliptal^cat1=m.
+ent=globalitat^cat1=f.^com1=globalitat de símptomes
+ent=gloucester^cat1=m.^com1=Doble gloucester
+ent=gnotobiòtic -a^cat1=adj.^com1=gnotobiòtic -a
+ent=godilla^cat1=f.
+ent=golbol^cat1=m.
+ent=goliat^cat1=m.
+ent=gotet^cat1=m.^com1=Gotet de gelat
+ent=graminar^cat1=v. tr.
+ent=granejament^cat1=m.
+ent=granímetre^cat1=m.
+ent=granissadora^cat1=f.
+ent=granoter -a^cat1=adj.^com1=tòtil granoter
+ent=gransa^cat1=f.
+ent=gransadora^cat1=f.
+ent=granvàs^cat1=???^com1=mètode granvàs
+ent=grataesquena^cat1=m.
+ent=grata-sòl^cat1=m.
+ent=graviera^cat1=m.
+ent=grenadí^cat1=m.
+ent=grinyó^cat1=m.^com1=Terrina de foie gras d'ànec amb puré de grinyons, pa d'espècies i crocant de blat de moro torrat
+ent=grit^cat1=m.
+ent=grumol^cat1=m.^com1=Rap al forn amb patates panadera i grumols
+ent=grupista^cat1=m. i f.
+ent=guacamole^cat1=m.^com1=Amanida de llagostins a la graella amb timbal de tomàquet, alvocat, espàrrecs, salsa de guacamole i herbes aromàtiques
+ent=guardamalucs^cat1=m.
+ent=guatambú^cat1=m.
+ent=gufi^cat1=m. i f.
+ent=guiaones^cat1=???^com1=acoblador de guiaones
+ent=guillotinista^cat1=m. i f.
+ent=gulasch^cat1=m.^com1=Crep de gulasch
+ent=guttus^cat1=m.
+ent=haik^cat1=m.
+ent=halibut^cat1=m.^com1=halibut del Pacífic
+ent=harira^cat1=f.
+ent=harissa^cat1=f.
+ent=havarti^cat1=???^com1=Llonza de porc amb pernil ibèric i formatge havarti
+ent=hedera^cat1=f.
+ent=helidipòsit^cat1=m.
+ent=heliesquí^cat1=m.
+ent=heliexcursió^cat1=f.
+ent=heliosíncron -a^cat1=adj.^com1=òrbita heliosíncrona
+ent=heliotècnia^cat1=f.
+ent=heliotèrmic -a^cat1=adj.^com1=central heliotèrmica
+ent=heliotermodinàmic -a^cat1=adj.^com1=central heliotermodinàmica
+ent=hèliox^cat1=m.
+ent=helisurf^cat1=m.
+ent=hèlix-gir-hèlix^cat1=m.
+ent=hèlix-llaç-hèlix^cat1=m.
+ent=hemapoesi^cat1=f.
+ent=hematoencefàlic -a^cat1=adj.^com1=barrera hematoencefàlica
+ent=hemianopia^cat1=f.
+ent=hemianòpsia^cat1=f.
+ent=hemiclònia^cat1=f.
+ent=hemiparèsia^cat1=f.
+ent=hemoconcentració^cat1=f.
+ent=hemopoesi^cat1=f.
+ent=hermes^cat1=m.
+ent=heròon^cat1=m.
+ent=herpesviridae^cat1=???^com1=herpesviridae Herpesviridae
+ent=heterodúplex^cat1=m.
+ent=heterofibra^cat1=f.
+ent=heterojunció^cat1=f.
+ent=heteroparental^cat1=adj.
+ent=heteroparentalitat^cat1=f.
+ent=hexaquisoctaedre^cat1=m.
+ent=hexaquistetraedre^cat1=m.
+ent=hexòmino^cat1=m.
+ent=hidrèliox^cat1=m.
+ent=hidrobob^cat1=m.
+ent=hidrocució^cat1=f.
+ent=hidròfon^cat1=m.
+ent=hidrotèrmic -a^cat1=adj.^com1=contracció hidrotèrmica
+ent=hídrox^cat1=m.
+ent=hi-fi^cat1=f.
+ent=higroexpansió^cat1=f.
+ent=hijab^cat1=m.
+ent=hiperadrenalisme^cat1=m.
+ent=hiperadrenocorticisme^cat1=m.
+ent=hiperbanda^cat1=f.
+ent=hipercàpnia^cat1=f.
+ent=hipercinèsia^cat1=f.
+ent=hiperclorhídria^cat1=f.
+ent=hiperepinefrisme^cat1=m.
+ent=hiperimmune^cat1=adj.
+ent=hiperinsulinisme^cat1=m.
+ent=hiperparatiroïdisme^cat1=m.
+ent=hiperpirèxia^cat1=f.
+ent=hiperreflèxia^cat1=f.
+ent=hipersialosi^cat1=f.
+ent=hipertèrmia^cat1=f.
+ent=hipertextual^cat1=adj.
+ent=hipertimisme^cat1=m.
+ent=hipertiroïdisme^cat1=m.
+ent=hipertò^cat1=m.
+ent=hipertonia^cat1=f.
+ent=hiperventilació^cat1=f.
+ent=hipoadrenalisme^cat1=m.
+ent=hipoadrenocorticisme^cat1=m.
+ent=hipoepinefrisme^cat1=m.
+ent=hipoinsulinisme^cat1=m.
+ent=hipoplàstic -a^cat1=adj.^com1=anèmia hipoplàstica
+ent=hipoteràpia^cat1=f.
+ent=hipotèrmia^cat1=f.
+ent=hipotimisme^cat1=m.
+ent=hipotonia^cat1=f.^com1=hipotonia vagal
+ent=hipoventilació^cat1=f.
+ent=histoplasmosi^cat1=f.^com1=histoplasmosi disseminada
+ent=hoc^cat1=???^com1=xarxa ad hoc
+ent=hodgkinià -ana^cat1=adj.^com1=limfoma no hodgkinià
+ent=hodoteca^cat1=f.
+ent=holografiar^cat1=v. tr.
+ent=homodí -ina^cat1=adj.^com1=homodí -ina
+ent=homofibra^cat1=f.
+ent=homomòrfic -a^cat1=adj.^com1=processament homomòrfic
+ent=homoparental^cat1=adj.
+ent=homoparentalitat^cat1=f.
+ent=hop^cat1=interj.^com1=hop!
+ent=hortus^cat1=m.
+ent=howlita^cat1=f.
+ent=humidex^cat1=???^com1=índex humidex
+ent=humidificador^cat1=m.
+ent=humidímetre^cat1=m.
+ent=hummus^cat1=m.
+ent=iatrogènia^cat1=f.
+ent=iatrogènic -a^cat1=adj.^com1=iatrogènic -a
+ent=iconal^cat1=adj.^com1=equació iconal
+ent=idiazabal^cat1=???^com1=Bacallà gratinat amb formatge idiazabal fumat
+ent=il·lacrimació^cat1=f.
+ent=il·lipé^cat1=m.^com1=il·lipé de l'Índia
+ent=imbuia^cat1=f.
+ent=immitància^cat1=f.
+ent=immunoassaig^cat1=m.
+ent=immunoblàstic^cat1=???^com1=limfoma immunoblàstic
+ent=immunocompetència^cat1=f.
+ent=immunoelectroforesi^cat1=f.^com1=immunoelectroforesi de Laurell
+ent=immunomodulació^cat1=f.
+ent=immunopotenciació^cat1=f.
+ent=immunoprecipitació^cat1=f.
+ent=immunoreceptor^cat1=m.^com1=motiu d'activació de l'immunoreceptor per tirosina
+ent=immunotransferència^cat1=f.
+ent=imode^cat1=m.
+ent=impulsional^cat1=adj.^com1=resposta impulsional
+ent=incendiarisme^cat1=m.
+ent=incineradora^cat1=f.
+ent=incurs -a^cat1=adj.^com1=incurs -a
+ent=incus^cat1=m.
+ent=indesitjat -ada^cat1=adj.^com1=paràmetre indesitjat
+ent=indetectable^cat1=adj.
+ent=indexador^cat1=m.
+ent=indexatge^cat1=m.
+ent=infecciositat^cat1=f.
+ent=infectivitat^cat1=f.
+ent=influenciador -a^cat1=m. i f.^com1=influenciador -a
+ent=infoaddicte -a^cat1=adj.^com1=infoaddicte -a
+ent=infògraf -a^cat1=m. i f.^com1=infògraf -a
+ent=infografia^cat1=f.
+ent=infonomia^cat1=f.
+ent=infonomista^cat1=m. i f.
+ent=infopista^cat1=f.
+ent=infoxicació^cat1=f.
+ent=inquartata^cat1=f.
+ent=insolador -a^cat1=m. i f.^com1=insolador -a
+ent=insoladora^cat1=f.
+ent=instanciar^cat1=v. tr.
+ent=instantització^cat1=f.
+ent=integrasa^cat1=f.
+ent=intensitat-temps^cat1=???^com1=corba intensitat-temps
+ent=interbase^cat1=m. i f.
+ent=interbloqueig^cat1=m.
+ent=intercanviador^cat1=m.^com1=intercanviador de calor
+ent=interciutats^cat1=m.
+ent=interconnectar^cat1=v. tr.
+ent=interdigital^cat1=adj.^com1=filtre interdigital
+ent=intereix^cat1=m.^com1=intereix de vehicle
+ent=interestacional^cat1=adj.^com1=emmagatzematge tèrmic interestacional
+ent=interestadial^cat1=m.
+ent=interfuncionament^cat1=m.
+ent=interlaboratorial^cat1=adj.
+ent=interleucina^cat1=f.^com1=interleucina-2
+ent=interlletratge^cat1=m.^com1=interlletratge sistemàtic
+ent=interlock^cat1=m.
+ent=internalitzar^cat1=v. tr.
+ent=internitzar^cat1=v. tr.
+ent=interpluvial^cat1=m.
+ent=interprovincial^cat1=adj.^com1=trucada interprovincial
+ent=interquadre^cat1=???^com1=codificació interquadre
+ent=interruptible^cat1=adj.^com1=contracte interruptible
+ent=intersimbòlic -a^cat1=adj.^com1=interferència intersimbòlica
+ent=intortus^cat1=adj.
+ent=intralaboratorial^cat1=adj.
+ent=intranet^cat1=f.
+ent=intraprenedor -a^cat1=m. i f.^com1=intraprenedor -a
+ent=intraprenedoria^cat1=f.
+ent=intraquadre^cat1=???^com1=codificació intraquadre
+ent=ió-molècula^cat1=???^com1=reacció ió-molècula
+ent=ionosfèric -a^cat1=adj.^com1=propagació ionosfèrica
+ent=iridocapsulitis^cat1=f.
+ent=iridoperifacitis^cat1=f.
+ent=isòdom -a^cat1=adj.^com1=aparell isòdom
+ent=isodomus^cat1=???^com1=opus isodomus
+ent=isofota^cat1=f.
+ent=isolux^cat1=f.
+ent=isosporosi^cat1=f.
+ent=isostenúria^cat1=f.
+ent=isotròpic -a^cat1=adj.^com1=reflexió isotròpica
+ent=itinerància^cat1=f.
+ent=jab^cat1=m.
+ent=jaboti^cat1=m.
+ent=japó^cat1=m.
+ent=jargonafàsia^cat1=f.
+ent=jarlsberg^cat1=m.
+ent=jatoba^cat1=f.
+ent=jelutong^cat1=m.
+ent=jequitibà^cat1=m.
+ent=jidoka^cat1=m.
+ent=jongkong^cat1=m.
+ent=jordanià -ana^cat1=adj.^com1=espècie jordaniana
+ent=jòring^cat1=???^com1=esquí jòring
+ent=justificacionisme^cat1=m.
+ent=juvenització^cat1=f.
+ent=kaixkaval^cat1=m.
+ent=kapur^cat1=m.
+ent=k-arc-connex -a^cat1=adj.^com1=k-arc-connex -a
+ent=kàrting^cat1=m.
+ent=kasseri^cat1=m.
+ent=kb^cat1=m.
+ent=kB^cat1=m.
+ent=kBps^cat1=m.
+ent=kbps^cat1=m.
+ent=k-connex -a^cat1=adj.^com1=k-connex -a
+ent=kebab^cat1=m.
+ent=kebe^cat1=f.
+ent=kefalograviera^cat1=m.
+ent=kefalotiri^cat1=m.
+ent=kefta^cat1=f.
+ent=kempas^cat1=m.
+ent=keruing^cat1=m.
+ent=k-forma^cat1=f.
+ent=kilobit^cat1=m.^com1=kilobit per segon
+ent=kilobyte^cat1=m.^com1=kilobyte per segon
+ent=klippe^cat1=f.
+ent=kombu^cat1=m.
+ent=korn^cat1=m.
+ent=kosipo^cat1=m.
+ent=kotibé^cat1=m.
+ent=koto^cat1=m.
+ent=kufia^cat1=f.
+ent=làban^cat1=m.
+ent=laboratorial^cat1=adj.
+ent=labradorescència^cat1=f.
+ent=lacunosus^cat1=adj.
+ent=lacus^cat1=m.
+ent=lagí^cat1=m.
+ent=lambada^cat1=f.
+ent=lanx^cat1=f.
+ent=lapis^cat1=m.^com1=lapis suís
+ent=larvikita^cat1=f.
+ent=laserar^cat1=v. intr.
+ent=laseratge^cat1=m.
+ent=lastra^cat1=f.
+ent=lavalier^cat1=???^com1=micròfon lavalier
+ent=lebes^cat1=m.
+ent=lècana^cat1=f.
+ent=lècit^cat1=f.
+ent=lècitos^cat1=f.
+ent=legòmenon^cat1=???^com1=hàpax legòmenon
+ent=lenticularis^cat1=adj.
+ent=lentivirus^cat1=m. pl.
+ent=lèntul^cat1=m.
+ent=let^cat1=interj.^com1=let!
+ent=letàlide^cat1=f.
+ent=letalitat^cat1=f.
+ent=leucocitari -ària^cat1=adj.^com1=leucocitari -ària
+ent=leucocític -a^cat1=adj.^com1=leucocític -a
+ent=leucoencefalopatia^cat1=f.^com1=leucoencefalopatia multifocal progressiva
+ent=liddicoatita^cat1=f.
+ent=lidiar^cat1=v. tr. i intr.
+ent=liftar^cat1=v. tr.
+ent=liftratge^cat1=m.
+ent=limanda^cat1=f.^com1=limanda de Nova Zelanda
+ent=limes^cat1=m.
+ent=limfoadenopatia^cat1=f.
+ent=limfocina^cat1=f.
+ent=limfocitari -ària^cat1=adj.^com1=limfocitari -ària
+ent=limfocític -a^cat1=adj.^com1=limfocític -a
+ent=limfogranuloma^cat1=m.
+ent=linealitzar^cat1=v. tr.
+ent=links^cat1=m.
+ent=linobat^cat1=m.
+ent=línters^cat1=m. pl.
+ent=lipodistròfia^cat1=f.
+ent=líquid-gel^cat1=???^com1=cromatografia líquid-gel
+ent=líquid-líquid^cat1=???^com1=cromatografia líquid-líquid
+ent=líquid-sòlid^cat1=???^com1=cromatografia líquid-sòlid
+ent=lisar^cat1=v. tr.
+ent=lissencèfal -a^cat1=adj.^com1=lissencèfal -a
+ent=lissencefàlia^cat1=f.
+ent=lissencefàlic -a^cat1=adj.^com1=lissencefàlic -a
+ent=liti-polímer^cat1=m.^com1=bateria d'ió liti-polímer
+ent=litispendència^cat1=f.
+ent=llacet^cat1=m.
+ent=llagosteta^cat1=m.^com1=Suquet de cocotxes de rap amb llagostetes
+ent=llagostinera^cat1=adj.^com1=Gambes llagostineres a la planxa amb reducció de fino
+ent=llamburda^cat1=f.
+ent=llei-A^cat1=f.^com1=quantificació de llei-A
+ent=llesqueta^cat1=f.^com1=Llesquetes de pa amb tomàquet variades
+ent=llevadoria^cat1=f.
+ent=lligació^cat1=f.
+ent=lliscòmetre^cat1=m.
+ent=llissosa^cat1=f.
+ent=llister -a^cat1=m. i f.^com1=llister -a
+ent=llobregant^cat1=m.^com1=Amanida de llobregant, tomàquet i lletons
+ent=lobbisme^cat1=m.
+ent=lobbista^cat1=m. i f.
+ent=lobby^cat1=m.
+ent=localitzador^cat1=m.
+ent=logigrama^cat1=m.
+ent=lògit^cat1=m.
+ent=logo^cat1=m.
+ent=logoperiòdic -a^cat1=adj.^com1=antena logoperiòdica
+ent=log-rang^cat1=???^com1=prova log-rang
+ent=lo-lo^cat1=m.
+ent=lopas^cat1=f.
+ent=louro^cat1=m.^com1=louro vermell
+ent=luddita^cat1=adj.
+ent=lumpus^cat1=m.
+ent=lutèrion^cat1=m.
+ent=lutieria^cat1=f.
+ent=lutròfor^cat1=f.
+ent=lutròforos^cat1=f.
+ent=lutz^cat1=m.
+ent=luvar^cat1=m.
+
+ent=mabe^cat1=???^com1=perla mabe
+ent=maçaranduba^cat1=f.
+ent=macaroni^cat1=m.
+ent=macroesclereida^cat1=f.
+ent=macrosò^cat1=m.
+ent=magnetogràfic -a^cat1=adj.^com1=impressora magnetogràfica
+ent=màgnum^cat1=m.
+ent=magret^cat1=m.^com1=Amanida d'enciams variats amb magret d'ànec i camembert tebi
+ent=mahjong^cat1=m.
+ent=maixard^cat1=???^com1=nus maixard
+ent=majoret^cat1=f.
+ent=makimono^cat1=m.
+ent=malabsorció^cat1=f.
+ent=malamut^cat1=m.^com1=malamut d'Alaska
+ent=malaparellament^cat1=m.
+ent=maldigestió^cat1=f.
+ent=malolàctic -a^cat1=adj.^com1=fermentació malolàctica
+ent=mamma^cat1=f.
+ent=mancala^cat1=m.
+ent=mapó^cat1=m.
+ent=màqbara^cat1=f.
+ent=maqsura^cat1=f.
+ent=maràging^cat1=???^com1=acer maràging
+ent=mareograma^cat1=m.
+ent=mareomotor mareomotriu^cat1=adj.^com1=central mareomotriu
+ent=maribo^cat1=m.
+ent=mark^cat1=interj.^com1=mark!
+ent=markovià -ana^cat1=adj.^com1=funció de distribució markoviana
+ent=marquilla^cat1=???^com1=paper de marquilla
+ent=marron^cat1=m.^com1=marron glacé
+ent=martelé^cat1=???^com1=cartolina martelé
+ent=martellat^cat1=???^com1=gravat martellat
+ent=martensític -a^cat1=adj.^com1=tremp martensític
+ent=mascaret^cat1=m.
+ent=mascarpone^cat1=m.
+ent=mascotí^cat1=m.
+ent=massoteràpia^cat1=f.
+ent=mast^cat1=m.
+ent=masterització^cat1=f.
+ent=masteritzar^cat1=v. tr.
+ent=matejant^cat1=m.
+ent=maternalització^cat1=f.
+ent=maximax^cat1=???^com1=criteri maximax
+ent=maxímetre^cat1=m.
+ent=maximín^cat1=???^com1=criteri maximín
+ent=maximització^cat1=f.
+ent=Mbps^cat1=m.
+ent=MBps^cat1=m.
+ent=medicalitzar^cat1=v. tr.
+ent=mediocris^cat1=adj.
+ent=medul·lat -ada^cat1=adj.^com1=fibra medul·lada
+ent=megabit^cat1=m.^com1=megabit per segon
+ent=megahertz^cat1=m.
+ent=mègaron^cat1=m.
+ent=megatèrmic -a^cat1=adj.^com1=clima megatèrmic
+ent=mellitus^cat1=???^com1=diabetis mellitus
+ent=mendacitat^cat1=f.
+ent=mengkulang^cat1=m.
+ent=meningiomatosi^cat1=f.
+ent=meningisme^cat1=m.
+ent=mentolat -ada^cat1=adj.^com1=Peres amb xocolata mentolada i coulis de crema catalana caramel·litzada
+ent=mentoria^cat1=f.
+ent=meranti^cat1=m.^com1=meranti vermell fosc
+ent=merawan^cat1=m.
+ent=mercenetes^cat1=f. pl.
+ent=merengue^cat1=m.
+ent=meroedre^cat1=m.
+ent=meroèdria^cat1=f.
+ent=meroèdric -a^cat1=adj.^com1=meroèdric -a
+ent=merpauh^cat1=m.
+ent=mersawa^cat1=f.
+ent=mesclum^cat1=m.^com1=Encenalls de foie gras d'ànec amb mesclum, pernil d'ànec, favetes, pinyons i vinagreta d'alfàbrega
+ent=mesotèrmic -a^cat1=adj.^com1=clima mesotèrmic
+ent=mestre-sala mestra-sala^cat1=m. i f.^com1=mestre-sala, mestra-sala
+ent=metacerca^cat1=f.
+ent=metacercador^cat1=m.
+ent=metadada^cat1=f.
+ent=metadina^cat1=f.
+ent=metadinamo^cat1=f.
+ent=metaetiqueta^cat1=f.
+ent=metall-aïllant-semiconductor^cat1=m.
+ent=metal·litzable^cat1=adj.^com1=tintura de colorants metal·litzables
+ent=metall-òxid-semiconductor^cat1=m.
+ent=metall-semiconductor^cat1=m.^com1=contacte metall-semiconductor
+ent=metamíctic -a^cat1=adj.^com1=metamíctic -a
+ent=metanàlisi^cat1=f.
+ent=metanat -ada^cat1=adj.^com1=aire metanat
+ent=metanització^cat1=f.
+ent=metastabilitat^cat1=f.
+ent=metz^cat1=m.
+ent=meunière^cat1=???^com1=Llenguado a la meunière
+ent=miatonia^cat1=f.
+ent=micanita^cat1=f.
+ent=miceliat -ada^cat1=adj.^com1=miceliat -ada
+ent=micobacteriosi^cat1=f.
+ent=micotoxicosi^cat1=f.
+ent=microauricular^cat1=m.
+ent=microcadena^cat1=f.
+ent=microcasset^cat1=m.
+ent=microcentral^cat1=f.^com1=microcentral hidràulica
+ent=microcontrolador^cat1=m.
+ent=microelectromecànic -a^cat1=adj.^com1=microelectromecànic -a
+ent=microesclereida^cat1=f.
+ent=microinjecció^cat1=f.
+ent=microlínia^cat1=f.
+ent=microlloc^cat1=m.^com1=microlloc web
+ent=micromecanització^cat1=f.
+ent=microminiaturització^cat1=f.
+ent=micropagament^cat1=m.
+ent=micropista^cat1=???^com1=creu micropista
+ent=microprogramari^cat1=m.
+ent=microsfígmia^cat1=f.
+ent=microsistema^cat1=m.
+ent=microtèrmic -a^cat1=adj.^com1=clima microtèrmic
+ent=microturbina^cat1=f.
+ent=microvellositat^cat1=f.^com1=microvellositat intestinal
+ent=micvé^cat1=m.
+ent=midriasi^cat1=f.
+ent=mielopàtica^cat1=???^com1=anèmia mielopàtica
+ent=mieloptísica^cat1=???^com1=anèmia mieloptísica
+ent=mielosupressió^cat1=f.
+ent=migas^cat1=???^com1=Migas (guisat fet a base de pa, all i oli)
+ent=mignon^cat1=???^com1=Filet mignon
+ent=migtub^cat1=m.
+ent=mil·livoltímetre^cat1=m.
+ent=mínbar^cat1=m.
+ent=minestrone^cat1=???^com1=Sopa minestrone
+ent=miniaplicació^cat1=f.^com1=miniaplicació de servidor
+ent=miniaturitzar^cat1=v. tr.
+ent=miniauriculars^cat1=m. pl.
+ent=minicentral^cat1=f.^com1=minicentral hidràulica
+ent=minihidràulic -a^cat1=adj.^com1=energia minihidràulica
+ent=minimax^cat1=???^com1=criteri minimax
+ent=minimín^cat1=???^com1=criteri minimín
+ent=minimització^cat1=f.
+ent=miniranura^cat1=f.^com1=miniranura de temps
+ent=Minirosquilla^cat1=f.
+ent=minisuite^cat1=f.
+ent=minitrampolí^cat1=m.
+ent=miniulleres^cat1=f. pl.
+ent=miocàrdia^cat1=f.
+ent=miso^cat1=m.
+ent=mitjanar^cat1=v. tr.
+ent=mitjanat -ada^cat1=adj.^com1=mitjanat -ada
+ent=mitogen^cat1=m.
+ent=modacrílic -a^cat1=adj.^com1=fil modacrílic
+ent=móder^cat1=???^com1=humus móder
+ent=modularitat^cat1=f.
+ent=moelló^cat1=m.
+ent=moienc^cat1=m.
+ent=moldavita^cat1=f.
+ent=molineta^cat1=f.
+ent=molva^cat1=f.
+ent=momme^cat1=m.
+ent=monadnock^cat1=m.
+ent=monitorar^cat1=v. tr.
+ent=monitoratge^cat1=m.
+ent=monitorització^cat1=f.^com1=monitorització d'errors
+ent=monocapa^cat1=???^com1=circuit imprès monocapa
+ent=monocolor^cat1=adj.^com1=màquina monocolor
+ent=monocomandament^cat1=m.^com1=aixeta de monocomandament
+ent=monocromador^cat1=m.
+ent=monocromatisme^cat1=m.^com1=monocromatisme dels bastons
+ent=monoestàtic -a^cat1=adj.^com1=radar monoestàtic
+ent=monofilament^cat1=m.^com1=fil de monofilament
+ent=monohíbrid -a^cat1=adj.^com1=circuit monohíbrid
+ent=monomode^cat1=???^com1=fibra òptica monomode
+ent=monopol^cat1=m.
+ent=monoport^cat1=m.
+ent=monostable^cat1=adj.^com1=basculador monostable
+ent=monoteràpia^cat1=f.
+ent=monousuari -ària^cat1=adj.^com1=monousuari -ària
+ent=monoxip^cat1=???^com1=sistema monoxip
+ent=montàsio^cat1=m.
+ent=morbimortalitat^cat1=f.
+ent=morina^cat1=f.
+ent=mosquetonejar^cat1=v. tr.
+ent=motoesquí^cat1=m.
+ent=mozzarella^cat1=???^com1=Amanida amb mozzarella
+ent=mtorolita^cat1=f.
+ent=mu^cat1=???^com1=quantificació de llei mu
+ent=múixer^cat1=m. i f.
+ent=múixing^cat1=m.
+ent=múl·ligan^cat1=m.
+ent=multibala^cat1=???^com1=obridora multibala
+ent=multicamí^cat1=???^com1=propagació multicamí
+ent=multicapa^cat1=f.^com1=multicapa dielèctrica
+ent=multicompost -a^cat1=adj.^com1=filament multicompost
+ent=multiconferència^cat1=f.
+ent=multicript^cat1=m.
+ent=multidestinació^cat1=f.^com1=adreça de multidestinació
+ent=multiemissor -a^cat1=adj.^com1=multiemissor -a
+ent=multiestable^cat1=adj.^com1=circuit multiestable
+ent=multiestàndard^cat1=adj.
+ent=multietapa^cat1=???^com1=amplificador multietapa
+ent=multietapes^cat1=???^com1=turbina multietapes
+ent=multifilament^cat1=???^com1=fil de multifilament
+ent=multifocal^cat1=adj.^com1=leucoencefalopatia multifocal progressiva
+ent=multifreqüència^cat1=???^com1=xarxa de multifreqüència
+ent=multifuncional^cat1=adj.^com1=commutador multifuncional
+ent=multiimpuls^cat1=???^com1=codificador de veu LPC multiimpuls
+ent=multímetre^cat1=m.^com1=multímetre digital
+ent=multimode^cat1=???^com1=fibra òptica multimode
+ent=multinivell^cat1=???^com1=lògica multinivell
+ent=multinuclear^cat1=adj.^com1=cable multinuclear
+ent=multipala^cat1=???^com1=molí multipala
+ent=multipart^cat1=???^com1=arbitratge multipart
+ent=multipista^cat1=???^com1=magnetòfon multipista
+ent=multiplexació^cat1=f.
+ent=multiport^cat1=m.
+ent=multiportadora^cat1=???^com1=modulació multiportadora
+ent=multiprocés^cat1=m.
+ent=multiprocessament^cat1=m.
+ent=multipunt^cat1=???^com1=circuit multipunt
+ent=multirisc^cat1=???^com1=assegurança multirisc
+ent=multisectorial^cat1=adj.^com1=fira multisectorial
+ent=multiservei^cat1=???^com1=terminal multiservei
+ent=multitasca^cat1=f.
+ent=multiusuari -ària^cat1=adj.^com1=multiusuari -ària
+ent=multixip^cat1=???^com1=circuit multixip
+ent=museïtzació^cat1=f.
+ent=musli^cat1=m.
+ent=múster^cat1=m.
+ent=mutàbal^cat1=m.
+
+ent=naiscos^cat1=m.
+ent=naos^cat1=m.
+ent=nebulosus^cat1=???
+ent=negatori -òria^cat1=adj.^com1=acció negatòria
+ent=neoadjuvant^cat1=adj.^com1=quimioteràpia neoadjuvant
+ent=neoartrosi^cat1=f.
+ent=nep^cat1=m.
+ent=neper^cat1=m.
+ent=nepòmetre^cat1=m.
+ent=nerval^cat1=adj.^com1=necrosi nerval
+ent=nestòrida^cat1=f.
+ent=nèstoris^cat1=f.
+ent=netbol^cat1=m.
+ent=neuromuscular^cat1=adj.^com1=sinapsi neuromuscular
+ent=nic^cat1=m.
+ent=nicab^cat1=m.
+ent=niçard -a^cat1=???^com1=Ensalada niçarda
+ent=níquel-cadmi^cat1=???^com1=bateria de níquel-cadmi
+ent=níquel-hidrur^cat1=???^com1=bateria de níquel-hidrur metàl·lic
+ent=nocebo^cat1=???^com1=efecte nocebo
+ent=no-excloïbilitat^cat1=f.
+ent=noier -a^cat1=m. i f.^com1=noier -a
+ent=noio^cat1=m.
+ent=no-presentació^cat1=f.
+ent=noquejar^cat1=v. tr.
+ent=no-repudi^cat1=m.
+ent=no-rivalitat^cat1=f.
+ent=normació^cat1=f.
+ent=normar^cat1=v. intr.
+ent=nosode^cat1=m.
+ent=noveller -a^cat1=m. i f.^com1=noveller -a
+ent=NP-complet -a^cat1=adj.^com1=NP-complet -a
+ent=nubuc^cat1=m.
+ent=nucleocàpsida^cat1=f.
+ent=nucleocitoplasmàtic -a^cat1=adj.^com1=relació nucleocitoplasmàtica
+ent=nunatak^cat1=m.
+ent=nutricèutic -a^cat1=adj.^com1=nutricèutic -a
+ent=nyatoh^cat1=m.
+ent=nyoqui^cat1=m.
+ent=obligacional^cat1=adj.^com1=contracte obligacional
+ent=obrellengüetes^cat1=m.
+ent=obstatiu -iva^cat1=adj.^com1=acte obstatiu
+ent=oceanitat^cat1=f.
+ent=octal^cat1=adj.
+ent=octàstil -a^cat1=adj.^com1=octàstil -a
+ent=ocupabilitat^cat1=f.
+ent=odorímetre^cat1=m.
+ent=ofimàtic -a^cat1=m. i f.^com1=ofimàtic -a
+ent=oftalmia^cat1=f.
+ent=òhmic -a^cat1=adj.^com1=contacte òhmic
+ent=oligoastenozoospèrmia^cat1=f.
+ent=oligoencèfal -a^cat1=adj.^com1=oligoencèfal -a
+ent=oligopotent^cat1=adj.^com1=cèl·lula oligopotent
+ent=ol·li^cat1=m.
+ent=olpa^cat1=f.
+ent=òmfal^cat1=m.
+ent=ondeta^cat1=f.
+ent=onglet^cat1=m.^com1=Onglet de bou
+ent=onzabili^cat1=m.
+ent=opacus^cat1=???
+ent=opistòdom^cat1=m.
+ent=optoguiat -ada^cat1=adj.^com1=optoguiat -ada
+ent=oralisme^cat1=m.
+ent=orei^cat1=m.
+ent=organza^cat1=f.
+ent=ortita^cat1=f.
+ent=ortocorpus^cat1=m.
+ent=ortus^cat1=m.
+ent=orujo^cat1=m.
+ent=osmotitzar^cat1=v. tr.
+ent=ossicular^cat1=adj.
+ent=òstium^cat1=m.^com1=òstium maxil·lar
+ent=out^cat1=interj.^com1=out!
+ent=outrigger^cat1=m.
+ent=ovengkol^cat1=m.
+ent=overloc^cat1=???^com1=màquina d'overloc
+ent=overlocaire^cat1=m. i f.
+ent=overloquista^cat1=m. i f.
+ent=pàdel^cat1=m.
+ent=p-àdic -a^cat1=adj.^com1=nombre p-àdic
+ent=pàdoc^cat1=m.
+ent=paidopsiquiatria^cat1=f.
+ent=painita^cat1=f.
+ent=palanquejament^cat1=m.
+ent=paldao^cat1=m.
+ent=paleoceanografia^cat1=f.
+ent=paletització^cat1=f.
+ent=paletitzadora^cat1=f.
+ent=paletitzar^cat1=v. tr.
+ent=palomino^cat1=adj.
+ent=panel^cat1=m.^com1=panel de degustadors
+ent=panga^cat1=???^com1=Filet de panga gratinat
+ent=pàning^cat1=m.
+ent=panmieloptisi^cat1=f.
+ent=pannus^cat1=m.
+ent=papil·lomatosi^cat1=f.
+ent=paracorpus^cat1=m.
+ent=paradiafonia^cat1=f.
+ent=paraesquí^cat1=m.
+ent=paral·lex^cat1=m.
+ent=paramotor^cat1=m.
+ent=parapent^cat1=m.^com1=parapent de muntanya
+ent=paraxial^cat1=adj.
+ent=pareidolia^cat1=f.
+ent=pargasita^cat1=f.
+ent=parisó^cat1=m.
+ent=parkerització^cat1=f.
+ent=parkeritzar^cat1=v. tr.
+ent=parmentier^cat1=m.^com1=Ou de corral escumat amb parmentier de botifarra negra i creïlla
+ent=pàrode^cat1=m.
+ent=paroníquia^cat1=f.
+ent=parqueter -a^cat1=m. i f.^com1=parqueter -a
+ent=partenariat^cat1=m.
+ent=partenogenot^cat1=m.
+ent=passaalt^cat1=???^com1=filtre passaalt
+ent=passabaix^cat1=???^com1=filtre passabaix
+ent=passabanda^cat1=???^com1=filtre passabanda
+ent=passatot^cat1=???^com1=filtre passatot
+ent=pasticultura^cat1=f.
+ent=patergia^cat1=f.
+ent=patinable^cat1=???^com1=acer patinable
+ent=patognomònic^cat1=???^com1=signe patognomònic
+ent=pax^cat1=m.
+ent=pecorino^cat1=m.
+ent=pedalabilitat^cat1=f.
+ent=pedalable^cat1=adj.
+ent=pedopsiquiatria^cat1=f.
+ent=peixmarí^cat1=m.
+ent=pèlica^cat1=f.
+ent=pelleta^cat1=m.^com1=Arròs amb pelletes de bacallà
+ent=pel·listor^cat1=m.
+ent=pendant^cat1=m.
+ent=penetrància^cat1=f.
+ent=pentaquisdodecaedre^cat1=m.
+ent=pentinatge^cat1=m.
+ent=pentòmino^cat1=m.
+ent=perceptró^cat1=m.^com1=perceptró multicapa
+ent=perfondre^cat1=v. tr.
+ent=pergelisòl^cat1=m.
+ent=perigordí -ina^cat1=adj.^com1=Turnedó amb foie gras d'oca i salsa perigordina
+ent=perinatal^cat1=adj.^com1=transmissió perinatal
+ent=periodificació^cat1=f.
+ent=periodificar^cat1=v. tr.
+ent=periodograma^cat1=m.
+ent=perioníquia^cat1=f.
+ent=perionixis^cat1=f.
+ent=peritonisme^cat1=m.
+ent=perlé^cat1=???^com1=fil perlé
+ent=permagel^cat1=m.
+ent=pernoctació^cat1=f.
+ent=pèrspex^cat1=m.
+ent=pervaporació^cat1=f.
+ent=pesaarcs^cat1=m.
+ent=pesanapes^cat1=???^com1=balança pesanapes
+ent=pesatanins^cat1=m.
+ent=pesto^cat1=???^com1=Amanida de tomàquet i formatge feta amb pesto
+ent=piamontès -esa^cat1=???^com1=Espaguetis a la piamontesa
+ent=piassaba^cat1=f.^com1=piassaba de Pará
+ent=piccolo^cat1=m.
+ent=picnòstil -a^cat1=adj.^com1=picnòstil -a
+ent=picotita^cat1=f.
+ent=pido^cat1=interj.^com1=pido!
+ent=pièmia^cat1=f.
+ent=piemontita^cat1=f.
+ent=pietatge^cat1=m.
+ent=pigmentadora^cat1=f.
+ent=pilaf^cat1=???^com1=Arròs pilaf
+ent=píling^cat1=m.
+ent=pilotari^cat1=m. i f.
+ent=pil-pil^cat1=???^com1=Bacallà al pil-pil amb samfaina
+ent=pin^cat1=m.
+ent=pínax^cat1=m.
+ent=pingo^cat1=m.
+ent=pinosoma^cat1=m.
+ent=piohèmia^cat1=f.
+ent=pipetejar^cat1=v. tr.
+ent=píquel^cat1=m.^com1=píquel de conservació
+ent=piquelat -ada^cat1=???^com1=pell piquelada
+ent=piquelar^cat1=v. tr.
+ent=piquelatge^cat1=m.
+ent=piqueta^cat1=f.
+ent=piquillo^cat1=???^com1=Amanida amb pebrots del piquillo i anxoves
+ent=piralmandita^cat1=f.
+ent=pirandina^cat1=f.
+ent=pirogeòmetre^cat1=m.
+ent=pirolític -a^cat1=adj.^com1=resistència pirolítica
+ent=piroradiòmetre^cat1=m.
+ent=pitos^cat1=m.
+ent=pitxitxi^cat1=m. i f.
+ent=plagiadre^cat1=m.
+ent=plagièdric -a^cat1=adj.^com1=plagièdric -a
+ent=plasmòcit^cat1=m.
+ent=plastòmetre^cat1=m.
+ent=platillo^cat1=m.^com1=Bacallà confitat amb platillo de cigrons i picada medieval
+ent=playa^cat1=f.
+ent=plegall^cat1=m.
+ent=plemòcoa^cat1=f.
+ent=plènum^cat1=m.
+ent=pleonast^cat1=m.
+ent=plesiòcron -a^cat1=adj.^com1=plesiòcron -a
+ent=plesiòcron -a^cat1=adj.^com1=jerarquia digital plesiòcrona
+ent=plotejar^cat1=v. tr.
+ent=plòter^cat1=m.
+ent=pluripotent^cat1=adj.^com1=cèl·lula pluripotent
+ent=plúteus^cat1=m.
+ent=podcast^cat1=m.
+ent=podcàsting^cat1=m.
+ent=podenc^cat1=m.^com1=podenc ibèric
+ent=pof^cat1=m.
+ent=polarimètric -a^cat1=adj.^com1=radiòmetre polarimètric
+ent=poliacetat^cat1=m.^com1=fibra de poliacetat
+ent=poliamidaimida^cat1=f.^com1=fibra de poliamidaimida
+ent=polibenzamida^cat1=f.^com1=fibra de polibenzamida
+ent=polibenzimidazole^cat1=m.^com1=fibra de polibenzimidazole
+ent=policristal·lí -na^cat1=adj.^com1=policristal·lí -na
+ent=polifase^cat1=???^com1=filtre polifase
+ent=poliformaldehid^cat1=m.^com1=fibra de poliformaldehid
+ent=poliimida^cat1=f.^com1=fibra de poliimida
+ent=polilligador^cat1=m.
+ent=polimedicació^cat1=f.
+ent=polimerasa^cat1=f.^com1=reacció en cadena per la polimerasa
+ent=polímetre^cat1=m.
+ent=polinitril^cat1=m.^com1=fibra de polinitril
+ent=polinòmia^cat1=f.^com1=tarifa polinòmia
+ent=polinòsic -a^cat1=adj.^com1=fil polinòsic
+ent=polinòsic -a^cat1=adj.^com1=fibra polinòsica
+ent=poliòpsia^cat1=f.
+ent=polipropilè^cat1=m.
+ent=polisilici^cat1=m.
+ent=polista^cat1=m. i f.
+ent=polistil -a^cat1=adj.^com1=polistil -a
+ent=polítop^cat1=m.
+ent=politrifluorocloroetilè^cat1=m.^com1=fibra de politrifluorocloroetilè
+ent=polivinílic -a^cat1=adj.^com1=fibra d'alcohol polivinílic
+ent=pollastró^cat1=m.
+ent=pol·lopes^cat1=m.
+ent=polpeta^cat1=f.
+ent=polpetó^cat1=m.
+ent=polvoró^cat1=m.
+ent=polybern^cat1=m.
+ent=pondus^cat1=m.
+ent=ponor^cat1=m.
+ent=popet^cat1=m.^com1=Calamarsons i popets amb ceba dolça de Figueres
+ent=porcellànic^cat1=adj.^com1=gres porcellànic
+ent=porronet^cat1=m.^com1=Rebosteria de la casa i porronet de mistela
+ent=porrusalda^cat1=f.^com1=Llobarro al forn amb porrusalda (sopa de porros típica de la cuina basca)
+ent=portaanuncis^cat1=???^com1=test de portaanuncis
+ent=portadops^cat1=m.
+ent=portafolis^cat1=m.^com1=portafolis europeu de llengües
+ent=portamànegues^cat1=???^com1=carro portamànegues
+ent=portapalets^cat1=m.
+ent=porta-retalls^cat1=m.
+ent=postesquí^cat1=m.
+ent=postexposició^cat1=f.^com1=profilaxi postexposició al VIH
+ent=postimatge^cat1=f.^com1=postimatge de tancament
+ent=postterme^cat1=???^com1=nadó postterme
+ent=posttest^cat1=???^com1=aconsellament posttest
+ent=postvacances^cat1=???^com1=trastorn postvacances
+ent=powel·lita^cat1=f.
+ent=pradolina^cat1=f.
+ent=preadobar^cat1=v. tr.
+ent=precaracteritzat -ada^cat1=adj.^com1=circuit integrat precaracteritzat
+ent=precardatge^cat1=m.
+ent=preclusió^cat1=f.
+ent=predesbast^cat1=m.
+ent=predetracció^cat1=f.^com1=dret de predetracció
+ent=predifós -osa^cat1=adj.^com1=circuit integrat predifós
+ent=preèmfasi^cat1=f.
+ent=preemptiu -iva^cat1=adj.^com1=prioritat preemptiva
+ent=preenregistrat -ada^cat1=adj.^com1=so preenregistrat
+ent=preescalfador^cat1=m.^com1=preescalfador d'aire
+ent=preescalfament^cat1=m.^com1=preescalfament solar
+ent=preestudi^cat1=m.^com1=preestudi d'abast
+ent=prefons^cat1=m.
+ent=preimpressió^cat1=f.
+ent=preinscripció^cat1=f.
+ent=premaqueta^cat1=f.
+ent=prèmium^cat1=???^com1=deixalla prèmium
+ent=prendiment^cat1=m.
+ent=prepagament^cat1=m.^com1=targeta telefònica de prepagament
+ent=preremull^cat1=m.
+ent=prereserva^cat1=f.
+ent=presalt^cat1=m.
+ent=prescriptor -a^cat1=m. i f.^com1=prescriptor -a
+ent=presintonia^cat1=f.
+ent=presonització^cat1=f.
+ent=presonitzar^cat1=v. tr.
+ent=presonitzar-se^cat1=v. pron.
+ent=pressoteràpia^cat1=f.
+ent=presspan^cat1=???^com1=cartó presspan
+ent=pressurització^cat1=f.
+ent=preterme^cat1=???^com1=nadó preterme
+ent=pretest^cat1=???^com1=aconsellament pretest
+ent=pretintura^cat1=f.
+ent=pretractat -ada^cat1=???^com1=pacient pretractat -ada
+ent=primarietat^cat1=f.
+ent=primeritat^cat1=f.
+ent=pritanèon^cat1=m.
+ent=pro-am^cat1=adj.
+ent=proband -a^cat1=m. i f.^com1=proband -a
+ent=procari^cat1=m.
+ent=pro-drop^cat1=adj.
+ent=professiograma^cat1=m.
+ent=progressor -a^cat1=adj.^com1=no progressor -a de llarg termini
+ent=prometafase^cat1=f.
+ent=promitent^cat1=m. i f.
+ent=pronaos^cat1=m.
+ent=pronòstic -a^cat1=adj.^com1=avaluació pronòstica
+ent=proovulatori -òria^cat1=adj.^com1=alimentació proovulatòria
+ent=propanat -ada^cat1=adj.^com1=aire propanat
+ent=proplasma^cat1=m.
+ent=prop-lluny^cat1=???^com1=efecte prop-lluny
+ent=propòsitus^cat1=m. i f.
+ent=prosoponema^cat1=m.
+ent=proteínic -a^cat1=adj.^com1=fibra proteínica
+ent=proteoglicà^cat1=m.
+ent=protiquisma^cat1=m.
+ent=pròtoma^cat1=f.
+ent=prototipar^cat1=v. tr.
+ent=prototipatge^cat1=m.
+ent=pròvola^cat1=f.
+ent=provolone^cat1=m.
+ent=prúsic -a^cat1=adj.^com1=nus prúsic
+ent=pseudoaleatori -òria^cat1=adj.^com1=generador pseudoaleatori
+ent=pseudoartrosi^cat1=f.
+ent=pseudo-oòlit^cat1=m.
+ent=pseudoperitonitis^cat1=f.
+ent=psicoacústica^cat1=f.
+ent=psicografia^cat1=f.
+ent=psicogràfic -a^cat1=adj.^com1=psicogràfic -a
+ent=psicter^cat1=m.
+ent=psofòmetre^cat1=m.
+ent=ptèron^cat1=m.
+ent=publificació^cat1=f.
+ent=publificar^cat1=v. tr.
+ent=publiinformació^cat1=f.
+ent=publitramesa^cat1=f.^com1=publitramesa única
+ent=puja-i-baixa^cat1=m.
+ent=pulai^cat1=m.
+ent=pulca^cat1=f.
+ent=pul·lòver^cat1=m.
+ent=pulquista^cat1=m. i f.
+ent=pultrusió^cat1=f.
+ent=pumpel·lyita^cat1=f.
+ent=punah^cat1=m.
+ent=puntcom^cat1=adj.
+ent=pupinització^cat1=f.
+ent=purinera^cat1=f.
+ent=puttanesca^cat1=???^com1=Espaguetis a la puttanesca
+ent=putzolànic^cat1=???^com1=ciment putzolànic
+ent=quad^cat1=m.
+ent=quadradet^cat1=m.
+ent=quadrantectomia^cat1=f.
+ent=quadreta^cat1=f.
+ent=quadricicle^cat1=m.
+ent=quadrifont^cat1=adj.^com1=arc quadrifont
+ent=quàdruplex^cat1=adj.
+ent=qualitativitat^cat1=f.
+ent=qualitologia^cat1=f.
+ent=qualitometria^cat1=f.
+ent=quantil^cat1=m.
+ent=quarterback^cat1=m. i f.
+ent=qubba^cat1=f.
+ent=qüefrència^cat1=f.
+ent=queloïdosi^cat1=f.
+ent=quenelle^cat1=f.^com1=Carpaccio de salmó amb gambes i quenelle de mousse d'alvocat
+ent=quilobit^cat1=m.^com1=quilobit per segon
+ent=quilobyte^cat1=m.^com1=quilobyte per segon
+ent=quimiocina^cat1=f.
+ent=quinasa^cat1=f.^com1=quinasa dependent de ciclina
+ent=quiniela^cat1=f.
+ent=quirema^cat1=m.
+ent=rabdomiòlisi^cat1=f.
+ent=ràbita^cat1=f.
+ent=rabona^cat1=f.
+ent=raclet^cat1=f.
+ent=radarastronomia^cat1=f.
+ent=radiatus^cat1=???
+ent=radiodetector^cat1=m.
+ent=radioesterilització^cat1=f.
+ent=radioesterilitzar^cat1=v. tr.
+ent=radioimmunoprecipitació^cat1=f.
+ent=radiomètric -a^cat1=adj.^com1=xarxa radiomètrica
+ent=radiomissatgeria^cat1=f.
+ent=radioona^cat1=f.
+ent=radiopaquet^cat1=m.
+ent=radiopasteurització^cat1=f.
+ent=radiopasteuritzar^cat1=v. tr.
+ent=radioprotecció^cat1=f.
+ent=radiotransmissió^cat1=f.
+ent=radurització^cat1=f.
+ent=raduritzar^cat1=v. tr.
+ent=ragusà^cat1=m.
+ent=ral·licròs^cat1=m.
+ent=ranilla^cat1=f.
+ent=ranya^cat1=f.
+ent=rapelador^cat1=m.
+ent=rapelar^cat1=v. intr.
+ent=raspalleria^cat1=f.
+ent=rastellatge^cat1=m.
+ent=ràting^cat1=m.
+ent=rayl^cat1=m.
+ent=readobant^cat1=m.
+ent=readobat -ada^cat1=adj.^com1=cuir readobat
+ent=realimentació^cat1=f.
+ent=realimentat -ada^cat1=adj.^com1=equalització realimentada per decisions
+ent=reassemblatge^cat1=m.
+ent=receptici -ícia^cat1=adj.^com1=declaració receptícia
+ent=recol·locació^cat1=f.
+ent=reconfigurable^cat1=adj.
+ent=redescarnar^cat1=v. tr.
+ent=redestil·lació^cat1=f.
+ent=redirecció^cat1=f.^com1=pàgina de redirecció
+ent=redirigir^cat1=v. tr.
+ent=reductor-elevador^cat1=adj.^com1=convertidor reductor-elevador
+ent=reenginyeria^cat1=f.
+ent=reenregistrable^cat1=adj.^com1=disc compacte reenregistrable
+ent=reenviament^cat1=m.^com1=reenviament de trucada
+ent=reesmerilar^cat1=v. tr.
+ent=referencialista^cat1=adj.^com1=bibliotecari -ària referencialista
+ent=refermentació^cat1=f.
+ent=reflectometria^cat1=f.^com1=reflectometria en el domini del temps
+ent=rèflex^cat1=???^com1=càmera rèflex
+ent=reformatació^cat1=f.
+ent=reformatar^cat1=v. tr.
+ent=refractor^cat1=m.
+ent=refredador^cat1=m.
+ent=regasificació^cat1=f.
+ent=regnatge^cat1=m.
+ent=reguló^cat1=m.
+ent=reinfecció^cat1=f.
+ent=relloneig^cat1=m.
+ent=rellonejador -a^cat1=m. i f.^com1=rellonejador -a
+ent=rellonejar^cat1=v. tr. i intr.
+ent=remallosa^cat1=f.
+ent=rendent^cat1=m.
+ent=renderització^cat1=f.
+ent=renderitzar^cat1=v. tr.
+ent=rentavaixella^cat1=m.
+ent=rènting^cat1=m.
+ent=repentinatge^cat1=m.
+ent=repertorització^cat1=f.
+ent=repetibilitat^cat1=f.
+ent=replicó^cat1=m.
+ent=reposacanells^cat1=m.
+ent=reprecipitació^cat1=f.
+ent=reprogramable^cat1=adj.
+ent=reradiació^cat1=f.
+ent=rerequart -a^cat1=m. i f.^com1=rerequart -a
+ent=resistor^cat1=m.
+ent=ressalatge^cat1=m.
+ent=retallador^cat1=m.^com1=retallador d'amalgama
+ent=retalladora^cat1=f.^com1=retalladora de motlles
+ent=retalló^cat1=m.^com1=Mongetes del ganxet amb retallons de cansalada fregida
+ent=reticuloendotelial^cat1=adj.^com1=sistema reticuloendotelial
+ent=retintura^cat1=f.
+ent=retractament^cat1=m.
+ent=retroanotació^cat1=f.
+ent=retropropagació^cat1=f.^com1=algorisme de retropropagació d'error
+ent=reús^cat1=m.^com1=reús freqüencial
+ent=reutilització^cat1=f.
+ent=revegetat -ada^cat1=adj.^com1=mota revegetada
+ent=reverberador^cat1=m.
+ent=rezelador^cat1=m.
+ent=rezelar^cat1=v. tr.
+ent=rhodoide^cat1=m.
+ent=riellat^cat1=m.
+ent=rift^cat1=m.
+ent=riojà -ana^cat1=adj.^com1=Cigrons a la riojana
+ent=ripadora^cat1=f.
+ent=risoteràpia^cat1=f.
+ent=ríton^cat1=m.
+ent=rittberger^cat1=m.
+ent=robapàgines^cat1=m.
+ent=rocòdrom^cat1=m.
+ent=rodolita^cat1=f.
+ent=rolada^cat1=f.
+ent=rolar^cat1=v. intr.
+ent=romanita^cat1=f.
+ent=rondella^cat1=f.^com1=talla rondella
+ent=ro-ro^cat1=m.
+ent=rostisseria^cat1=f.
+ent=ròving^cat1=m.
+ent=rudi^cat1=m.
+ent=rudus^cat1=m.
+ent=rul·lo^cat1=m.
+ent=ruló^cat1=m.
+ent=rururbà -ana^cat1=adj.^com1=rururbà -ana
+ent=rururbanització^cat1=f.
+ent=sabratge^cat1=m.
+ent=sabrosa^cat1=f.
+ent=sacàdic -a^cat1=adj.^com1=moviment sacàdic
+ent=safranat -ada^cat1=adj.^com1=lliri safranat
+ent=sajo^cat1=m.
+ent=salatge^cat1=m.^com1=salatge humit
+ent=salchow^cat1=m.
+ent=salcuit^cat1=m.
+ent=salsar^cat1=v. tr.
+ent=salseta^cat1=f.^com1=Llamàntol a la planxa amb tres salsetes
+ent=saltatori -òria^cat1=adj.^com1=moviment saltatori
+ent=salvitxada^cat1=f.^com1=Calçots amb salvitxada
+ent=samso^cat1=m.
+ent=sandvitxera^cat1=f.^com1=sandvitxera elèctrica
+ent=santnectari^cat1=m.
+ent=santpere^cat1=m.
+ent=saqui-saqui^cat1=m.
+ent=sarangui^cat1=m.
+ent=sarcode^cat1=m.
+ent=sari^cat1=m.
+ent=sarma^cat1=f.
+ent=sarrusòfon^cat1=m.
+ent=satel·litzar^cat1=v. tr.
+ent=sauternes^cat1=???^com1=Foie gras semicuit amb sauternes
+ent=sauvignon^cat1=???^com1=Amanida de figues i orellanes amb ruca, canonges i vinagreta de cabernet sauvignon
+ent=saxofon^cat1=m. i f.
+ent=schorlomita^cat1=f.
+ent=script^cat1=m.
+ent=sebastes^cat1=m.
+ent=seconder^cat1=m.
+ent=seitan^cat1=m.^com1=Hamburguesa de seitan
+ent=selectància^cat1=f.
+ent=selleria^cat1=f.
+ent=semianilina^cat1=f.^com1=acabament amb semianilina
+ent=semicec -ega^cat1=adj.^com1=equalització semicega
+ent=semicrom -a^cat1=adj.^com1=adob semicrom
+ent=semicuit -a^cat1=adj.^com1=Amanida d'enciams variats amb pernil d'ànec i encenalls de foie gras semicuit
+ent=semidesintegració^cat1=f.^com1=període de semidesintegració
+ent=semidirecte -ecta^cat1=adj.^com1=cicle semidirecte d'expansió de vapor
+ent=semidolç -a^cat1=adj.^com1=vi semidolç
+ent=semidúplex^cat1=m.
+ent=semielaborat -ada^cat1=adj.^com1=pell semielaborada
+ent=semiestructurat -ada^cat1=adj.^com1=entrevista semiestructurada
+ent=semifred -a^cat1=adj.^com1=Semifred de crema amb gelat de torró i xocolata calenta
+ent=semigarrapatea^cat1=f.
+ent=semigrès^cat1=m.
+ent=seminaveta^cat1=f.^com1=talla seminaveta
+ent=seminograma^cat1=m.
+ent=semipassiu -iva^cat1=adj.^com1=sistema solar semipassiu
+ent=semipentinat -ada^cat1=adj.^com1=filatura semipentinada
+ent=semipersonalitzat -ada^cat1=adj.^com1=circuit integrat semipersonalitzat
+ent=semisec -a^cat1=adj.^com1=cava semisec
+ent=semivida^cat1=f.
+ent=senyalística^cat1=f.
+ent=senyalitzador^cat1=f.
+ent=senyal-soroll^cat1=???^com1=combinació de màxima relació senyal-soroll
+ent=senyoret^cat1=m.^com1=Arròs del senyoret
+ent=sepetir^cat1=m.
+ent=seqüenciació^cat1=f.
+ent=seraia^cat1=f.^com1=seraia blanca
+ent=serdab^cat1=m.
+ent=serif^cat1=m.
+ent=serigràfic -a^cat1=adj.^com1=impressió serigràfica
+ent=seroconcordant^cat1=adj.
+ent=seroconversió^cat1=f.
+ent=serodiscordant^cat1=adj.
+ent=serològic -a^cat1=adj.^com1=estat serològic
+ent=serològic -a^cat1=adj.^com1=prova serològica
+ent=seronegatiu -iva^cat1=adj.^com1=seronegatiu -iva
+ent=seroprevalença^cat1=f.
+ent=serrellet^cat1=m.
+ent=servucció^cat1=f.
+ent=sesquipedal^cat1=m.
+ent=shimeji^cat1=m.^com1=Amanida de macarrons amb shimeji i formatge parmesà (bolets japonesos)
+ent=sicle^cat1=m.
+ent=sicòtic -a^cat1=adj.^com1=miasma sicòtic
+ent=sidú^cat1=m.
+ent=sigma-àlgebra^cat1=f.
+ent=sigma-delta^cat1=???^com1=convertidor analògic-digital sigma-delta
+ent=sigma-pi^cat1=???^com1=unitats sigma-pi
+ent=simetita^cat1=f.
+ent=simetritzador^cat1=m.
+ent=simíl·limum^cat1=m.
+ent=simpaticotonia^cat1=f.
+ent=simulcript^cat1=m.
+ent=sinc^cat1=???^com1=funció sinc
+ent=sincici^cat1=m.
+ent=sínclon^cat1=m.
+ent=sínclonus^cat1=m.
+ent=sinhalita^cat1=f.
+ent=sinòleg -òloga^cat1=m. i f.^com1=sinòleg -òloga
+ent=sipionet^cat1=m.^com1=Sipionet a la feliuenca amb cervesa
+ent=sistil -a^cat1=adj.^com1=sistil -a
+ent=skin^cat1=m.
+ent=sobrebot^cat1=m.^com1=xut de sobrebot
+ent=sobrecongelador^cat1=m.
+ent=sobreescalfador^cat1=m.^com1=sobreescalfador secundari
+ent=sobremostratge^cat1=m.
+ent=sobrepromesa^cat1=f.
+ent=sofit^cat1=m.
+ent=softbol^cat1=m.
+ent=solarímetre^cat1=m.
+ent=sol-gel^cat1=m.
+ent=somatge^cat1=m.
+ent=somatomorf -a^cat1=adj.^com1=trastorn somatomorf
+ent=sonia^cat1=f.
+ent=sonicació^cat1=f.
+ent=sopeta^cat1=f.^com1=Cruixents de xocolata amb sopeta de plàtan
+ent=sordcec -ega^cat1=m. i f.^com1=sordcec -ega
+ent=sordceguesa^cat1=f.
+ent=sotacarda^cat1=f.
+ent=sotsgovernant -a^cat1=m. i f.^com1=sotsgovernant -a
+ent=spin^cat1=m.
+ent=spissatus^cat1=???
+ent=stavkirke^cat1=f.
+ent=stichtita^cat1=f.
+ent=stickman^cat1=m. i f.
+ent=stockli^cat1=m.^com1=stockli invertit
+ent=stop^cat1=interj.^com1=stop!
+ent=stracciatella^cat1=f.^com1=Gelat de stracciatella
+ent=stratiformis^cat1=adj.
+ent=stupa^cat1=m.
+ent=subalina^cat1=f.
+ent=subangular^cat1=adj.^com1=estructura de blocs subangulars
+ent=subbanda^cat1=f.^com1=codificació en subbandes
+ent=subcanal^cat1=m.
+ent=subcarpeta^cat1=m.
+ent=subcentral^cat1=f.
+ent=subconductor^cat1=m.
+ent=subcrític -a^cat1=adj.^com1=conjunt subcrític
+ent=subdirectori^cat1=m.
+ent=subdomini^cat1=m.
+ent=subgovernant -a^cat1=m. i f.^com1=subgovernant -a
+ent=subgreus^cat1=???^com1=altaveu de subgreus
+ent=subilarc^cat1=m.
+ent=submenú^cat1=m.
+ent=subminiaturització^cat1=f.
+ent=submostratge^cat1=m.
+ent=subpoblació^cat1=f.
+ent=subprograma^cat1=m.
+ent=subsistema^cat1=m.^com1=subsistema de missió
+ent=subtensió^cat1=f.
+ent=subxarxa^cat1=f.
+ent=sucussió^cat1=f.
+ent=sucussionar^cat1=v. tr.
+ent=sudoku^cat1=m.
+ent=sudoresi^cat1=f.
+ent=sufossió^cat1=f.
+ent=suïcidalitat^cat1=f.
+ent=sukiyaki^cat1=m.
+ent=superantigen^cat1=m.
+ent=superciment^cat1=m.
+ent=superclúster^cat1=m.
+ent=supercomputació^cat1=f.
+ent=supercomputador^cat1=m.
+ent=superenrotllat -ada^cat1=adj.^com1=hèlix superenrotllada
+ent=superenrotllament^cat1=m.
+ent=superhèlix^cat1=f.
+ent=supernegre -a^cat1=f.
+ent=supervídeo^cat1=m.^com1=supervídeo CD
+ent=suple^cat1=???^com1=suro suple
+ent=surfí^cat1=m.
+ent=sushi^cat1=m.^com1=Carpaccio de sushi de rap i salmó
+ent=suspensura^cat1=f.
+ent=taaffeïta^cat1=f.
+ent=tabla^cat1=m.
+ent=tableta^cat1=f.
+ent=tablini^cat1=m.
+ent=tachista^cat1=adj.
+ent=tac-tac^cat1=???^com1=resposta de tac-tac
+ent=tafone^cat1=m.
+ent=tagín^cat1=m.
+ent=tahina^cat1=f.
+ent=taiko^cat1=m.
+ent=tai-txi^cat1=m.
+ent=tai-txi-txuan^cat1=m.
+ent=talloil^cat1=m.
+ent=talonada^cat1=f.
+ent=talonador -a^cat1=m. i f.^com1=talonador -a
+ent=talonar^cat1=v. intr.
+ent=talonatge^cat1=m.
+ent=taloner -a^cat1=m. i f.^com1=taloner -a
+ent=tambura^cat1=m.
+ent=tanatoestètica^cat1=f.
+ent=tanatoplàstia^cat1=f.
+ent=tanatopràctic -a^cat1=m. i f.^com1=tanatopràctic -a
+ent=tanatopràxia^cat1=f.
+ent=tant-com-puc^cat1=???^com1=servei tant-com-puc
+ent=tanzanita^cat1=f.
+ent=taqueig^cat1=m.
+ent=taquejar^cat1=v. tr.
+ent=taquiarítmia^cat1=f.
+ent=tarifador^cat1=m.
+ent=tarser^cat1=m.
+ent=tartuf^cat1=m.
+ent=tataki^cat1=m.^com1=Tataki de tonyina amb enciams variats
+ent=teleaddicte -a^cat1=m. i f.^com1=teleaddicte -a
+ent=telealarma^cat1=f.
+ent=teleaprenentatge^cat1=m.
+ent=teleassistència^cat1=f.^com1=teleassistència mèdica
+ent=telebotiga^cat1=f.
+ent=telecàmera^cat1=f.
+ent=telecentre^cat1=m.^com1=telecentre rural
+ent=teleclub^cat1=m.
+ent=telecompra^cat1=f.
+ent=teleconsulta^cat1=f.
+ent=telediafonia^cat1=f.
+ent=telediagnòstic^cat1=m.
+ent=teledistribució^cat1=f.
+ent=teleeducació^cat1=f.
+ent=teleensenyament^cat1=m.
+ent=telemanipulador^cat1=m.
+ent=telemanteniment^cat1=m.
+ent=telemarc^cat1=m.
+ent=telemàrqueting^cat1=m.
+ent=telemarquista^cat1=m. i f.
+ent=telemedicina^cat1=f.
+ent=teleoïdor -a^cat1=m. i f.^com1=teleoïdor -a
+ent=teleoperació^cat1=f.
+ent=teleordinador^cat1=m.
+ent=telepagament^cat1=m.
+ent=telepresència^cat1=f.
+ent=teleseguretat^cat1=f.
+ent=teleservei^cat1=m.
+ent=teletreball^cat1=m.
+ent=teletreballador -a^cat1=m. i f.^com1=teletreballador -a
+ent=teletreballar^cat1=v. intr.
+ent=televenda^cat1=f.
+ent=televideoteca^cat1=f.
+ent=televigilància^cat1=f.
+ent=tèmenos^cat1=m.
+ent=temperador^cat1=m.
+ent=temps-freqüència^cat1=???^com1=anàlisi temps-freqüència
+ent=tensió-freqüència^cat1=???^com1=convertidor de tensió-freqüència
+ent=teratoastenozoospèrmia^cat1=f.
+ent=teriyaki^cat1=m.
+ent=termofixació^cat1=f.
+ent=termofixadora^cat1=f.
+ent=termòfor -a^cat1=adj.^com1=fluid termòfor
+ent=termoresistència^cat1=f.
+ent=termosolar^cat1=adj.^com1=bomba termosolar
+ent=termoturisme^cat1=m.
+ent=termoventilador^cat1=m.
+ent=terratzo^cat1=m.
+ent=téssera^cat1=f.
+ent=testejar^cat1=v. tr.
+ent=tetartoïdal^cat1=adj.
+ent=tetolet^cat1=m.^com1=tetolet becllarg
+ent=tetracromia^cat1=f.
+ent=tetraparental^cat1=adj.^com1=ratolí tetraparental
+ent=tetràpilon^cat1=m.
+ent=tetràpode^cat1=m.
+ent=tetraquishexaedre^cat1=m.
+ent=tetràstil -a^cat1=adj.^com1=tetràstil -a
+ent=tetròmino^cat1=m.
+ent=texturització^cat1=f.
+ent=thomsonita^cat1=f.
+ent=thulita^cat1=f.
+ent=tiflotècnia^cat1=f.
+ent=tiflotècnic -a^cat1=adj.^com1=tiflotècnic -a
+ent=tiflotecnòleg -òloga^cat1=m. i f.^com1=tiflotecnòleg -òloga
+ent=tigroide^cat1=adj.^com1=substància tigroide
+ent=tíl·ler^cat1=m.
+ent=timiatèrion^cat1=m.
+ent=timpanoossicular^cat1=adj.^com1=sistema timpanoossicular
+ent=tiramisú^cat1=m.
+ent=tiroïdisme^cat1=m.
+ent=toffee^cat1=m.^com1=Bescuit de nous amb salsa de toffee
+ent=tofu^cat1=m.^com1=Amanida de tofu i userda germinada
+ent=tolerització^cat1=f.
+ent=toleritzar^cat1=v. tr.
+ent=tolerogen -ògena^cat1=adj.^com1=tolerogen -ògena
+ent=tolos^cat1=m.
+ent=tombak^cat1=m.
+ent=tombet^cat1=m.^com1=Costella de vedella a la graella amb tombet
+ent=tondo^cat1=m.
+ent=topa-i-corre^cat1=m.
+ent=topcròs^cat1=m.
+ent=topeta^cat1=m.
+ent=topiari -ària^cat1=adj.^com1=art topiària
+ent=toponema^cat1=m.
+ent=topspin^cat1=m.^com1=topspin picat
+ent=torgos^cat1=???^com1=voltor torgos
+ent=toril^cat1=m.
+ent=toriler -a^cat1=m. i f.^com1=toriler -a
+ent=tornafletxes^cat1=m. i f.
+ent=torradeta^cat1=f.^com1=Sopa de rossinyols, camagrocs i carreretes amb torradeta i ou de guatlla
+ent=tortel·loni^cat1=m.
+ent=toxicodermatosi^cat1=f.
+ent=toxicodèrmia^cat1=f.
+ent=toxidèrmia^cat1=f.
+ent=traçabilitat^cat1=f.
+ent=tradir^cat1=v. tr.
+ent=transadmitància^cat1=f.
+ent=transcriptasa^cat1=f.^com1=transcriptasa inversa
+ent=transfecció^cat1=f.
+ent=transfectar^cat1=v. tr.
+ent=transiliència^cat1=f.
+ent=transimpedància^cat1=f.
+ent=transistoritzat -ada^cat1=adj.^com1=amplificador transistoritzat
+ent=transitari -ària^cat1=adj.^com1=transitari -ària
+ent=transmitent^cat1=m. i f.
+ent=transpalet^cat1=m.
+ent=transponedor^cat1=m.^com1=transponedor regeneratiu
+ent=transposó^cat1=m.
+ent=transsecte^cat1=m.
+ent=transvasador -a^cat1=adj.^com1=feix transvasador
+ent=trapezòfor^cat1=m.
+ent=trencaonades^cat1=m.
+ent=trencapàgines^cat1=m.
+ent=trepatge^cat1=m.
+ent=trepitjaneu^cat1=???^com1=màquina trepitjaneu
+ent=tresquarts^cat1=m. i f.^com1=tresquarts ala esquerre -a
+ent=triacetat^cat1=m.^com1=fibra de triacetat
+ent=trialera^cat1=f.
+ent=triaquisicosaedre^cat1=m.
+ent=triaquisoctaedre^cat1=m.
+ent=tribanda^cat1=adj.
+ent=tribar^cat1=m.
+ent=tricomònada^cat1=f.
+ent=tricomones^cat1=f.
+ent=tricotina^cat1=f.
+ent=triestat^cat1=adj.
+ent=trifilar^cat1=adj.
+ent=trifonema^cat1=m.
+ent=trifosfat^cat1=m.^com1=trifosfat d'adenosina
+ent=trigeneració^cat1=f.
+ent=trinomial^cat1=adj.
+ent=triòmino^cat1=m.
+ent=triplaca^cat1=???^com1=circuit de microones triplaca
+ent=tripleta^cat1=f.
+ent=tríplex^cat1=???^com1=cartolina tríplex
+ent=trisoctaèdric -a^cat1=adj.^com1=trisoctaèdric -a
+ent=trisquèlion^cat1=m.
+ent=trístil -a^cat1=adj.^com1=trístil -a
+ent=triteràpia^cat1=f.
+ent=trombonista^cat1=m. i f.
+ent=trossejador^cat1=m.
+ent=trucadora^cat1=f.
+ent=tructicultura^cat1=f.
+ent=trudgen^cat1=m.
+ent=tsavolita^cat1=f.
+ent=tsavorita^cat1=f.
+ent=tuber -a^cat1=m. i f.^com1=tuber -a industrial
+ent=túfting^cat1=m.
+ent=tugtupita^cat1=f.
+ent=tuijò^cat1=m.
+ent=túmbling^cat1=m.
+ent=tunelització^cat1=f.
+ent=turbocodi^cat1=m.
+ent=turbocompressor^cat1=m.
+ent=turen^cat1=m.
+ent=turunda^cat1=f.
+ent=txakra^cat1=m.
+ent=txi-kung^cat1=m.
+ent=txistera^cat1=f.
+ent=txoko^cat1=m.
+ent=tyndal·lització^cat1=f.
+ent=tzatziki^cat1=m.^com1=Amanida de textures amb tzatziki (salsa típica de la cuina grega)
+ent=uke^cat1=m. i f.
+ent=ukiyoe^cat1=???
+ent=ultraample -a^cat1=adj.^com1=comunicació de banda ultraampla
+ent=ultracongelador^cat1=m.
+ent=ultrafí -ina^cat1=adj.^com1=filament ultrafí
+ent=unakita^cat1=f.
+ent=uncinus^cat1=???
+ent=undulatus^cat1=???
+ent=unicam^cat1=???^com1=arc unicam
+ent=unidestinació^cat1=f.^com1=adreça d'unidestinació
+ent=unidireccional^cat1=adj.^com1=micròfon unidireccional
+ent=uninomi^cat1=m.
+ent=uninomial^cat1=adj.
+ent=unipotent^cat1=adj.^com1=cèl·lula unipotent
+ent=unitúnel^cat1=???^com1=díode unitúnel
+ent=ureaformaldehid^cat1=m.^com1=fibra d'ureaformaldehid
+ent=urofici^cat1=m.
+ent=urolitiasi^cat1=f.
+ent=usabilitat^cat1=f.
+ent=ushabti^cat1=m.
+ent=ussinguita^cat1=f.
+ent=uvala^cat1=f.
+ent=uvita^cat1=f.
+ent=vadosa^cat1=f.^com1=aigua vadosa
+ent=vagotonia^cat1=f.
+ent=valoritzable^cat1=adj.
+ent=valorització^cat1=f.^com1=valorització en origen
+ent=valoritzar^cat1=v. tr.
+ent=varicap^cat1=m.
+ent=varimax^cat1=???^com1=criteri varimax
+ent=vaset^cat1=m.^com1=Vaset de fruites amb mousse de mascarpone i ametlles caramel·litzades
+ent=vectoscopi^cat1=m.
+ent=veduta^cat1=f.
+ent=vedutisme^cat1=m.
+ent=vedutista^cat1=adj.
+ent=veguerial^cat1=adj.
+ent=veliforme^cat1=???^com1=cèl·lula veliforme
+ent=velouté^cat1=???^com1=Milfulls d'ànec en tres textures amb velouté de taronja i puré de patates
+ent=venablanc^cat1=m.
+ent=venaincomplet^cat1=m.
+ent=vena-sec^cat1=m.
+ent=verd-i-groga^cat1=???^com1=serp verd-i-groga
+ent=verdureta^cat1=f.^com1=Amanida de llamàntol, verduretes i olivada amb cruixent de pernil
+ent=vertebratus^cat1=???
+ent=vèrtex-simètric -a^cat1=adj.^com1=vèrtex-simètric -a
+ent=vèrtex-transitiu -iva^cat1=adj.^com1=vèrtex-transitiu -iva
+ent=vespista^cat1=m. i f.
+ent=vestigial^cat1=adj.^com1=banda lateral vestigial
+ent=veu-dades^cat1=???^com1=integració veu-dades
+ent=vibradora^cat1=f.
+ent=vichy^cat1=m.
+ent=vichyssoise^cat1=f.
+ent=victron^cat1=m.
+ent=videoart^cat1=m.
+ent=videocàmera^cat1=f.
+ent=videodigitalitzador^cat1=m.
+ent=videofreqüència^cat1=f.
+ent=videografia^cat1=f.
+ent=videolector^cat1=m.
+ent=videorevista^cat1=f.
+ent=videotelèfon^cat1=m.
+ent=videotelefonia^cat1=f.
+ent=vina^cat1=f.
+ent=vinicolorímetre^cat1=m.
+ent=vinilidè^cat1=m.^com1=fibra de policlorur de vinilidè
+ent=vinoteca^cat1=f.
+ent=vip^cat1=m. i f.
+ent=viral^cat1=adj.
+ent=viravent^cat1=m.^com1=viravent en creu
+ent=virèmia^cat1=f.
+ent=virga^cat1=f.
+ent=virològic -a^cat1=adj.^com1=fracàs virològic
+ent=vitel·li^cat1=m.
+ent=vivencial^cat1=adj.^com1=formació vivencial
+ent=vocat -ada^cat1=m. i f.^com1=vocat -ada
+ent=vocòder^cat1=m.
+ent=vocodificador^cat1=m.^com1=vocodificador RELP
+ent=vol-au-vent^cat1=m.^com1=Vol-au-vent a la mallorquina
+ent=vòlei^cat1=m.^com1=vòlei platja
+ent=wakame^cat1=m.
+ent=wal·lerià -ana^cat1=adj.^com1=degeneració wal·leriana
+ent=wardita^cat1=f.
+ent=wil·lemita^cat1=f.
+ent=wil·liamsita^cat1=f.
+ent=wok^cat1=m.^com1=Fideus d'arròs amb verduretes i gambes al wok
+ent=xabàkia^cat1=f.
+ent=xabeba^cat1=f.
+ent=xagrinar^cat1=v. tr.
+ent=xamota^cat1=f.
+ent=xanos^cat1=m.
+ent=xapata^cat1=f.
+ent=xaptalització^cat1=f.
+ent=xarmés^cat1=m.
+ent=xart^cat1=m.^com1=xart de concepte
+ent=xartisme^cat1=m.
+ent=xartista^cat1=m. i f.
+ent=xatejar^cat1=v. intr.
+ent=xatonar^cat1=v. tr.
+ent=xaturanga^cat1=m.
+ent=xauarma^cat1=m.
+ent=xel^cat1=m.
+ent=xenai^cat1=m.
+ent=xic-xac^cat1=m.
+ent=xifinema^cat1=m.
+ent=xifona^cat1=f.
+ent=xili^cat1=m.
+ent=xintz^cat1=m.
+ent=xistorra^cat1=f.^com1=Ou ferrat, patates fregides, xistorra i pebrot
+ent=xix^cat1=m.^com1=xix kebab
+ent=xòanon^cat1=m.
+ent=xopet^cat1=m.
+ent=xoricet^cat1=m.^com1=Mongetes vermelles amb xoricet
+ent=xorinyo^cat1=m.
+ent=xoro^cat1=m.
+ent=xus^cat1=m.
+ent=yakisoba^cat1=???^com1=Verdures i gambes al wok amb yakisoba (tallarines japoneses fregides)
+ent=yakitori^cat1=m.
+ent=zarb^cat1=m.
+ent=zastrugui^cat1=m.
+ent=zoarces^cat1=m.^com1=zoarces vivípar
+ent=zooteràpia^cat1=f.
+ent=zúdnic^cat1=m.

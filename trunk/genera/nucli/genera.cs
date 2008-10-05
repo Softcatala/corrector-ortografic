@@ -53,6 +53,9 @@ namespace Genera
             identificador = new IdentificadorDIEC("més paraules", regles, null);
             AfegeixLiniaLog("Llegeix més entrades tipus DIEC", horaInici, log);
             identificador.LlegeixEntrades(DirEntrades("mes_paraules.txt"), entrades, mod);
+            identificador = new IdentificadorDIEC("Termcat", regles, DirEntrades("irregulars_termcat.txt"));
+            AfegeixLiniaLog("Llegeix entrades del Termcat", horaInici, log);
+            identificador.LlegeixEntrades(DirEntrades("termcat.txt"), entrades, mod);
             identificador = new IdentificadorToponims("topònims", regles);
             AfegeixLiniaLog("Llegeix els topònims", horaInici, log);
             identificador.LlegeixEntrades(DirEntrades("topònims.txt"), entrades, mod);

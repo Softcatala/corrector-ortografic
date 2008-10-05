@@ -1,0 +1,3 @@
+// Irregulars de termcat.txt
+
+crudité: PLU=crudités
