@@ -1,5 +1,6 @@
 // Topònims estrangers agafats del llibre de na C. Rigo i na M.M. Ramon
 // També topònims aportats per Marc Belunzes
+// També topònims de la GEC
 
 Abissínia
 Abkhàzia
@@ -621,4 +622,25 @@ Zàmbia
 Ítaca
 Óros
 Úmbria
+
+Baden-Württemberg
+Brandenburg
+Bremen
+Dortmund
+Dresden
+Duisburg
+Düsseldorf
+Essen
+Hesse
+Leipzig
+Lusàcia
+Main
+Mecklenburg
+Mecklenburg-Pomerània
+Nord-Westfàlia
+RDA
+RFA
+Saarland
+Slesvig-Holstein
+Stuttgart
 

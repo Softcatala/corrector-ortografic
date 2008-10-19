@@ -650,7 +650,7 @@ bestreure: MODEL=treure/tr/bestr
 beure1: GER=bevent & PAR=begut & SIM=begués
 
 // cabre: inf. cabre o caber; ind. pr. 2 caps, 3 cap; subj. pr. càpiga, etc.
-cabre: -=(SPR|IMP[36]) & +=caber<INF0> càpiga<SPR1> càpiga<IMP3> càpigues<SPR2> càpiga<SPR3> capiguem<SPR4> capigueu<SPR5> càpiguen<SPR6> càpiguen<IMP6>
+cabre: -=(SPR|IMP[36]) & +=caber<INF0> càpiga<SPR1> càpiga<IMP3> càpigues<SPR2> càpiga<SPR3> capiguem<SPR4> capigueu<SPR5> càpiguen<SPR6> càpiguen<IMP6> <<201 càpia<SPR1> càpies<SPR2> càpia<SPR3> capiem<SPR4> capieu<SPR5> càpien<SPR6> càpia<IMP3> capiem<IMP4> càpien<IMP6> 201>>
 
 caler: IGNORA=1
 
@@ -975,10 +975,10 @@ fondre: GER=fonent & PAR=fos & SIM=fongués
 haure: PAR=hagut & -=. & +=haure<INF0>
 
 // haver1: ind. pr. he de o haig de, has de, etc., p. p. hagut; ind. pr. he, has, ha, hem o havem, heu o haveu, han; ind. fut. hauré, etc.; condic. hauria o haguera, etc.; subj. pr. hagi, hagis, hagi, hàgim, hàgiu, hagin; subj. imperf. hagués, etc.; imper. hages, etc.
-haver1: SIM=hagués & FUT=hauré & PAR=hagut & -=(IPR[1236]|SPR|IMP) & +=he<IPR1> haig<IPR1> has<IPR2> ha<IPR3> hem<IPR4> heu<IPR5> han<IPR6> hagés/P/(SPR[1236]|IMP) hàgim<SPR4> hàgiu<SPR5> hages<IMP2>
+haver1: SIM=hagués & FUT=hauré & PAR=hagut & -=(IPR[1236]|SPR|IMP) & +=heure<INF0> he<IPR1> haig<IPR1> has<IPR2> ha<IPR3> hem<IPR4> heu<IPR5> han<IPR6> hagés/P/(SPR[1236]|IMP) hàgim<SPR4> hàgiu<SPR5> hàgem<SPR4> hàgeu<SPR5> hages<IMP2>
 
 // haver2: inf. haver, heure o haure; p. p. hagut; ind. pr. hec, heus, heu, havem, haveu, heuen; ind. fut. hauré, etc.; subj. pr. hegui, heguis, hegui, haguem, hagueu, heguin; subj. imperf. hagués, etc.; imper. heu, hegui, haguem, haveu, heguin
-haver2: -=. & +=heus
+haver2: -=. & +=hec heus heuen hegui heguis haguem hagueu heguin
 
 // incloure: quant a la flexió, com cloure; p. p. inclòs
 incloure: MODEL=cloure/cl/incl & PAR=inclòs
@@ -1080,6 +1080,9 @@ pertànyer: PAR=pertangut
 
 // perviure: quant a la flexió, com viure
 perviure: MODEL=viure1/vi/pervi
+
+//plànyer
+plànyer: <<201 <<EXT +=plangut<PAR0>/B EXT>> 201>>
 
 // plaure: ger. plaent; p. p. plagut; ind. pr. 1 plac; subj. pr. plagui, etc.; subj. imperf. plagués, etc.
 plaure: GER=plaent & PAR=plagut & SIM=plagués
@@ -1226,13 +1229,13 @@ reveure: MODEL=veure/v/rev
 reviure: MODEL=viure1/vi/revi
 
 // riure1: ger. rient; p. p. rigut; ind. pr. ric, rius, riu, riem, rieu, riuen; ind. imperf. reia, etc.; subj. pr. rigui, etc.; subj. imperf. rigués, etc.
-riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués
+riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués <<201 & += rist<PAR1> ristos<PAR2> rista<PAR3> ristes<PAR4> 201>>
 
 // romandre: ger. romanent; p. p. romàs; ind. pr. 1 romanc, 2 romans, 3 roman; subj. pr. romangui, etc.; subj. imperf. romangués, etc.
 romandre: GER=romanent & PAR=romàs & SIM=romangués
 
 // saber1: ind. pr. 1 sé, 2 saps, 3 sap; ind. fut. sabré, etc.; subj. pr. sàpiga, etc.; subj. imperf. sabés, etc.; imper. sàpigues, sapiga, sapiguem, sapigueu, sàpiguen
-saber1: FUT=sabré & SIM=sabés & -=(IPR1|SPR|IMP[346]) & +=sé<IPR1> sàpiga<SPR1> sàpigues<SPR2> sàpiga<SPR3> sapiguem<SPR4> sapigueu<SPR5> sàpiguen<SPR6> sàpiga<IMP3> sapiguem<IMP4>  sàpiguen<IMP6>
+saber1: FUT=sabré & SIM=sabés & -=(IPR1|SPR|IMP[346]) & +=sé<IPR1> sàpiga<SPR1> sàpigues<SPR2> sàpiga<SPR3> sapiguem<SPR4> sapigueu<SPR5> sàpiguen<SPR6> sàpiga<IMP3> sapiguem<IMP4>  sàpiguen<IMP6> <<201 sàpia<SPR1> sàpies<SPR2> sàpia<SPR3> sapiem<SPR4> sapieu<SPR5> sàpien<SPR6> sàpia<IMP3> sapiem<IMP4> sàpien<IMP6> 201>>
 
 // salprendre: quant a la flexió, com aprendre
 salprendre: MODEL=aprendre/apr/salpr
@@ -1348,7 +1351,7 @@ vèncer: ALT=vèncer
 vendre: GER=venent & PAR=venut & SIM=vengués & +=vengut<PAR0>/B
 
 // veure: p. p. vist; ind. pr. veig, veus, veu, veiem, veieu, veuen; ind. imperf. veia, etc.; ind. perf. viu, veres (o veieres), véu (o veié), vérem (o veiérem), etc.; subj. pr. vegi, etc.; subj. imperf. veiés, etc.; imper. veges (o ves), vegi, vegem, vegeu (o veieu), vegin
-veure: PAR=vist & IIM=veia & GER=veient & SIM=veiés & -=(IPR1|IPE|SPR|IMP) & +=veig<IPR1> viu<IPE1> veres<IPE2> veieres<IPE2> véu<IPE3> veié<IPE3> vérem<IPE4> veiérem<IPE4> véreu<IPE5> veiéreu<IPE5> veren<IPE6> veieren<IPE6> vegés/P/(SPR|IMP) veges<IMP2> ves<IMP2> <<102 veim<IPR4> veis<IPR5> veis<IMP5> 102>>
+veure: PAR=vist & IIM=veia & GER=veient & SIM=veiés & -=(IPR1|IPE|SPR|IMP) & +=veig<IPR1> viu<IPE1> veres<IPE2> veieres<IPE2> véu<IPE3> veié<IPE3> vérem<IPE4> veiérem<IPE4> véreu<IPE5> veiéreu<IPE5> veren<IPE6> veieren<IPE6> vegés/P/(SPR|IMP) veges<IMP2> ves<IMP2> <<102 veim<IPR4> veis<IPR5> veis<IMP5> 102>> <<201 vore<INF0> voré<FUT1>/T 201>>
 
 // viure1: ger. vivint; p. p. viscut; ind. pr. visc, vius, viu, vivim, viviu, viuen; subj. pr. visqui, etc.; subj. imperf. visqués, etc.
 viure1: GER=vivint & PAR=viscut & SIM=visqués
@@ -1501,6 +1504,8 @@ acudir: +=acuts<IPR2> acut<IPR3> acut<IMP2>
 // adormir: ind. pr. 3 adorm
 adormir: IPR3=adorm
 
+afegir: <<EXT IPR3=afig EXT>>
+
 // ajupir: ind. pr. 3 ajup
 ajupir: IPR3=ajup
 
@@ -1579,6 +1584,8 @@ encobrir: PAR=encobert
 // enfugir-se: quant a la flexió, com fugir
 enfugir-se: MODEL=fugir/fu/enfu
 
+engolir: <<EXT IPR3=engul EXT>>
+
 // entrelluir: quant a la flexió, com lluir
 entrelluir: MODEL=lluir2/llu/entrellu
 
@@ -1603,6 +1610,8 @@ esmunyir: IPR3=esmuny
 // establir: p. p. establert i, en algunes contrades, establit
 establir: <<!101 -=(PAR) & !101>> +=establert<PAR0>/F
 
+fregir: <<EXT IPR3=frig EXT>>
+
 // fugir: ind. pr. fujo, fuges, fuig, etc.; p. p. fugit, fuit
 fugir: IPR3=fuig & -=(IPR[126]|IMP[36]|SPR[1236]) & +=fujo<IPR1> fuges<IPR2> fugen<IPR6> fugés/P/(SPR[1236]|IMP[36])
 
@@ -1620,6 +1629,9 @@ júnyer: IGNORA=1
 // junyir: inf. junyir o júnyer
 junyir: +=júnyer<INF0>
 
+//ent=llegir^cat1=v. tr.^cat2=tr. pron.
+llegir: <<EXT IPR3=llig EXT>>
+
 // lluir2: ind. pr. 2 lluus, 3 lluu (o llu); subj. pr. lluï, etc. [o ind. pr. 3 llueix]
 lluir2: +=lluus<IPR2> lluu<IPR3> lluu<IMP2> llu<IPR3> lluen<IPR6> lluï<SPR1> lluï<IMP3> lluïs<SPR2> lluï<SPR3> lluïn<SPR6> lluïn<IMP6> <<009 llua<SPR1> llua<IMP3> llues<SPR2> llua<SPR3> lluen<SPR6> lluen<IMP6> 009>>
 
@@ -1633,10 +1645,10 @@ morir: IPR3=mor & PAR=mort
 munyir: IPR3=muny
 
 // obrir: p. p. obert; ind. pr. 2 obres, 3 obre
-obrir: IPR3=obr & -=(IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2>
+obrir: IPR3=obr & -=(IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2> <<201 òbriga<SPR1> òbrigues<SPR2> òbriga<SPR3> òbriguen<SPR6> òbriga<IMP3> òbriguen<IMP6> 201>>
 
 // oferir: p. p. ofert
-oferir: PAR=ofert
+oferir: <<!101 -=(PAR) & !101>> +=ofert<PAR0>/F
 
 // oir: ind. pr. oeixo, oeixes (o ous), oeix (o ou), oïm, oïu, oeixen (o ouen)
 oir: +=ous<IPR2> ou<IPR3> ou<IMP2> ouen<IPR6>
@@ -1675,7 +1687,7 @@ pudir: IPR3=pud & -=(IPR[23]|IMP2) & +=puts<IPR2> put<IPR3> put<IMP2>
 punyir: IPR3=puny
 
 // reblir: p. p. reblert
-reblir: -=(PAR) & +=reblert<PAR0>/F
+reblir: <<!101 -=(PAR) & !101>> +=reblert<PAR0>/F
 
 // rebullir: ind. pr. 3 rebull
 rebullir: IPR3=rebull
@@ -1703,6 +1715,8 @@ reimprimir: MODEL=imprimir/imp/reimp
 
 // relluir: quant a la flexió, com lluir
 relluir: MODEL=lluir2/llu/rellu
+
+renyir: <<EXT IPR3=riny EXT>>
 
 // reobrir: quant a la flexió, com obrir
 reobrir: MODEL=obrir/ob/reob
@@ -1732,13 +1746,17 @@ sobreeixir: MODEL=reeixir/r/sobr
 sobresortir: MODEL=sortir/sor/sobresor/sur/sobresur
 
 // sofrir: p. p. sofert
-sofrir: -=(PAR) & +=sofert<PAR0>/F
+sofrir: <<!101 -=(PAR) & !101>> +=sofert<PAR0>/F
 
 // sortir: ind. pr. surto, surts, surt, sortim, sortiu, surten; subj. pr. surti, surtis, surti, sortim, sortiu, surtin; subj. imperf. sortís, etc.
 sortir: IPR3=surt
 
 // suplir: p. p. suplert
-suplir: -=(PAR) & +=suplert<PAR0>/F
+suplir: <<!101 -=(PAR) & !101>> +=suplert<PAR0>/F
+
+teixir: <<EXT IPR3=tix EXT>>
+
+tenyir: <<EXT IPR3=tiny EXT>>
 
 // tossir: ind. pr. tusso, tusses, tus, tossim, tossiu, tussen; subj. pr. tussi, tussis, tussi, tossim, tossiu, tussin
 tossir: IPR3=tuss & -=(IPR3|IMP2) & +=tus<IPR3> tus<IMP2>

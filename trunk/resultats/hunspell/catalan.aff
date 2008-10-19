@@ -1157,24 +1157,28 @@ SFX T é íem/Z é
 SFX T é íeu/Z é
 SFX T é ien/Z é
 
-SFX U Y 19
-SFX U 0 o/Z .
-SFX U t t/Z t
+SFX U Y 23
+SFX U 0 o/Z [^gl]
+SFX U g g/Z g
 SFX U s s/Z s
+SFX U t t/Z t
 SFX U y y/Z y
-SFX U 0 s/Z [^sx]
-SFX U 0 es/Z [sx]
+SFX U 0 s/Z [^gsx]
+SFX U 0 es/Z [gsx]
 SFX U 0 en/Z .
 SFX U 0 i/Z .
-SFX U 0 a/Z .
+SFX U 0 a/Z [^g]
+SFX U g ja/Z g
 SFX U 0 is/Z .
 SFX U 0 es/Z .
 SFX U 0 i/Z .
-SFX U 0 a/Z .
+SFX U 0 a/Z [^g]
+SFX U g ja/Z g
 SFX U 0 in/Z .
 SFX U 0 en/Z .
 SFX U 0 i/D .
-SFX U 0 a/D .
+SFX U 0 a/D [^g]
+SFX U g ja/D g
 SFX U 0 in/C .
 SFX U 0 en/C .
 

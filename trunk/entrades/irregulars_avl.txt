@@ -26,7 +26,9 @@ atendre: GER=atenent & PAR=atés & SIM=atengués & IPR3=atén
 carvendre: MODEL=revendre/rev/carv
 comprendre: MODEL=aprendre/apr/compr
 dependre: MODEL=ofendre/of/dep
+fényer: +=fengut<PAR0>/B
 malvendre: MODEL=revendre/rev/malv
 ofendre: GER=ofenent & IPR3=ofén & PAR=ofés & SIM=ofengués
 retrovendre: MODEL=revendre/rev/retrov
 revendre: GER=revenent & PAR=revenut & IPR3=revén & SIM=revengués & +=revengut<PAR0>/B
+

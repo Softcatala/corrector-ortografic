@@ -1061,20 +1061,23 @@ SFX T é íem é
 SFX T é íeu é
 SFX T é ien é
 
-SFX U Y 15
-SFX U 0 o .
-SFX U t t t
+SFX U Y 18
+SFX U 0 o [^gl]
+SFX U g g g
 SFX U s s s
+SFX U t t t
 SFX U y y y
-SFX U 0 s [^sx]
-SFX U 0 es [sx]
+SFX U 0 s [^gsx]
+SFX U 0 es [gsx]
 SFX U 0 en .
 SFX U 0 i .
-SFX U 0 a .
+SFX U 0 a [^g]
+SFX U g ja g
 SFX U 0 is .
 SFX U 0 es .
 SFX U 0 i .
-SFX U 0 a .
+SFX U 0 a [^g]
+SFX U g ja g
 SFX U 0 in .
 SFX U 0 en .
 

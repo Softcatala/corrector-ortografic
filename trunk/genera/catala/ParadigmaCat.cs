@@ -486,7 +486,7 @@ namespace catala
         /// </summary>
         protected void ParticipiIrregular(string par, Marques filtre, List<ItemDic> items)
         {
-            if (par.Contains(" ")) throw new Exception("No sé què fer amb " + par);
+            if (par.Contains(" ")) throw new Exception("No sé què fer amb \"" + par + "\"");
             Match match = parRegla.Match(par);
             if (match.Success)
             {

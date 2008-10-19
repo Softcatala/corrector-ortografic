@@ -48,6 +48,7 @@
 [DIEC]  ent=ell2 ella^cat1=pron.
 [DIEC]  ent=embeure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com beure
 [DIEC]  ent=enaltir^cat1=v. tr.
+[DIEC]  ent=engolir^cat1=v. tr.
 [DIEC]  ent=endur-se^cat1=v. pron.^com1=quant a la flexió, com dur
 [DIEC]  ent=entreobrir^cat1=v. tr.^com1=quant a la flexió, com obrir
 [DIEC]  ent=escriure^cat1=pron.
@@ -57,14 +58,18 @@
 [DIEC]  ent=excloure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com cloure; p. p. exclòs
 [DIEC]  ent=falç^cat1=f.
 [DIEC]  ent=fer1^cat1=v. tr.^cat2=pron.^cat3=tr.^cat4=tr. pron.^cat5=intr.^com1=p. p. fet; ind. pr. faig, fas, fa, fem, feu, fan; ind. imperf. feia, etc.; ind. perf. fiu, feres, féu, férem, etc.; ind. fut. faré, etc.; subj. pr. faci, facis, faci, fem (o facem), feu (o faceu), facin; subj. imperf. fes, fessis, etc.; imper. fes^com2=o fer per a algú (o per a alguna cosa)
+[DIEC]  ent=haver1^cat1=v. tr.
+[DIEC]  ent=haver2^cat1=v. tr.
 [DIEC]  ent=hissar^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=humitat^cat1=f.
 [DIEC]  ent=imprimir^cat1=v. tr.^com1=p. p. imprès
 [DIEC]  ent=induir^cat1=v. tr.
+[DIEC]  ent=llegir^cat1=v. tr.^cat2=tr. pron.
 [DIEC]  ent=obtenir^cat1=v. tr.^com1=quant a la flexió, com mantenir
 [DIEC]  ent=omplir^cat1=v. tr.^cat2=pron.^com1=p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
 [DIEC]  ent=partir^cat1=v. tr.^cat2=pron.^cat3=intr.
 [DIEC]  ent=patir^cat1=v. tr.^cat2=intr.
+[DIEC]  ent=plànyer^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=pobre -a^cat1=adj.^cat2=m. i f.
 [DIEC]  ent=reomplir^cat1=v. tr.^com1=quant a la flexió, com omplir
 [DIEC]  ent=seure^cat1=v. intr.^com1=ger. seient; p. p. segut; ind. pr. sec, seus, seu, seiem, seieu, seuen; ind. imperf. seia, etc.; subj. pr. segui, etc.; subj. imperf. segués, etc.
@@ -72,4 +77,5 @@
 [DIEC]  ent=sud-eslau -eslava^cat1=adj. i m. i f.
 [DIEC]  ent=suís -ïssa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
 [DIEC]  ent=valer^cat1=v. intr.^cat2=tr.^cat3=pron.^com1=inf. valer o valdre; p. p. valgut; ind. pr. 1 valc; ind. fut. valdré, etc.; subj. pr. valgui, etc.; subj. imperf. valgués, etc.^com2=o valgui l'expressió, o valgui la comparació
+[DIEC]  ent=veure^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=virrei virreina^cat1=m. i f.^cat2=f.

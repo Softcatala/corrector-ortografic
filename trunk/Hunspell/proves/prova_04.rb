@@ -7,10 +7,20 @@ p hs
 
 mots = []
 mots += %w{
+	saber sàpia sàpies sàpia sapiem sapieu sàpien
+	caber càpia càpies càpia capiem capieu càpien
+	obrir òbriga òbrigues òbriga obrim obriu òbriguen
+	oferit oferida oferits oferides  oferir 
+	sofrit sofrida sofrits sofrides  sofrir 
+	suplit suplida suplits suplides  suplir 
+	reblit reblida reblits reblides  reblir 
+	plangut planguda planguts plangudes  plànyer 
+	fengut fenguda fenguts fengudes  fényer 
+	rist rista ristos ristes  riure  
 	admés aparéixer aprehés aprehén arremés atényer comés comparéixer compromés constrényer convéncer
 	demés desaparéixer descompromés desconéixer desmeréixer destrényer emés empényer empés entremés
-	espényer espés estrényer iréixer-se malmés manumés meréixer omés paréixer permés promés readmés reaparéixer
-	reconéixer remés restrényer retransmés revéncer revén sotmés tramés transmés véncer imprés reimprés
+	espényer espés estrényer *iréixer-se malmés manumés meréixer omés paréixer permés promés readmés reaparéixer
+	reconéixer remés restrényer retransmés *revéncer revén sotmés tramés transmés véncer imprés reimprés
 
 	*ele *eme *ene *esse
 
@@ -33,15 +43,15 @@ mots += %w{
 
 	aparéixer conéixer paréixer convéncer véncer atényer estrényer meréixer
 
-	*desvanit *sofrit *reblit *oferit
+	*desvanit sofrit reblit oferit
 
 	*escriví *asseem *asseeu *asseent *jaem *jaeu *jaent
-	aprén comprén depén ofén *tingam *afigen siga féiem féieu créiem créieu véiem véieu
+	aprén comprén depén ofén *tingam afigen siga féiem féieu créiem créieu véiem véieu
 
 	*perc *perga *pergues *perga *perguem *pergueu *perguen *perguera *pergueres
 	*perguera *perguérem *perguéreu *pergueren *perguí *pergueres *pergué *perguérem
 	*perguéreu *pergueren
-	*òbric *òbriga *òbrigues *òbriga *òbriguen
+	*òbric òbriga òbrigues òbriga òbriguen
 	*òmplic *òmpliga *òmpligues *òmpliga *òmpliguen
 	*dorc *dorga *cullc *cullga *córrec *córrega *engulc *fuigc *lligc *vullc
 	*cusga *crusca *cullga *engulga *fuigga *morga

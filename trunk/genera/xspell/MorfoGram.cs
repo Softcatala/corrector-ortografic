@@ -260,6 +260,10 @@ namespace xspell
             taula.Add("INF0", new MorfoGram(eCat.VERB, eTemps.INF));
             taula.Add("GER0", new MorfoGram(eCat.VERB, eTemps.GER));
             taula.Add("PAR0", new MorfoGram(eCat.VERB, eTemps.PAR, ePers.NOPERS, eGen.M, eNbre.SG));
+            taula.Add("PAR1", new MorfoGram(eCat.VERB, eTemps.PAR, ePers.NOPERS, eGen.M, eNbre.SG));
+            taula.Add("PAR2", new MorfoGram(eCat.VERB, eTemps.PAR, ePers.NOPERS, eGen.M, eNbre.PL));
+            taula.Add("PAR3", new MorfoGram(eCat.VERB, eTemps.PAR, ePers.NOPERS, eGen.F, eNbre.SG));
+            taula.Add("PAR4", new MorfoGram(eCat.VERB, eTemps.PAR, ePers.NOPERS, eGen.F, eNbre.PL));
             for (eTemps temps = eTemps.IPR; temps <= eTemps.IMP; ++temps)
             {
                 int primera = ((temps == eTemps.IMP) ? 2 : 1);

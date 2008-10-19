@@ -1,5 +1,6 @@
 // Un fitxer a partir del qual es genera *.aff
 // Historial:
+// 2008 Correccions i addicions per al valencià
 // 2007 Adaptació a Hunspell (twofold affixes)
 // 2006 Noves regles per resoldre problemes de majúscules i minúscules
 // 2002 Creació
@@ -416,7 +417,7 @@ REGLA H SFX+ Quatre formes afegint ns
 /REGLA
 
 REGLA J SFX+ Quatre formes afegint a/os/es
-201     ès     és          és               # ofés (AVL)
+201     ès     és          ès               # ofés (AVL)
 000     0      a           [^s]             # dolça, laxa    <FEM>
 000     0      a           [^àèéíòóú]s      # agradosa
 000     às     asa         às               # 
@@ -1188,23 +1189,27 @@ REGLA T SFX+ Futurs i condicionals a partir de FUT1
 // PER FER: afegir formes valencianes
 // Per deixar la forma sense tocar, s'ha de llevar una lletra i tornar-la a posar
 REGLA U SFX+ Formes pures dels verbs en -ir, a partir d'IPR3 (p.e. sent)
-000     0      o/Z         .                # 1. sento <IPR>
-014     t      t/Z         t                #    sent
+000     0      o/Z         [^gl]            # 1. sento, *lligo, *engulo <IPR>
+014     g      g/Z         g                #    llig
 014     s      s/Z         s                #    cus
+014     t      t/Z         t                #    sent
 014     y      y/Z         y                #    muny
-000     0      s/Z         [^sx]            # 2. sents
-000     0      es/Z        [sx]             #    cuses, cruixes
+000     0      s/Z         [^gsx]           # 2. sents
+000     0      es/Z        [gsx]            #    lliges, cuses, cruixes
 000     0      en/Z        .                # 6. senten
 000     0      i/Z         .                # 1. senti <SPR>
-009     0      a/Z         .                #    senta
+009     0      a/Z         [^g]             #    senta
+009     g      ja/Z        g                #    llija
 000     0      is/Z        .                # 2. sentis
 009     0      es/Z        .                #    sentes
 000     0      i/Z         .                # 3. senti
-009     0      a/Z         .                #    senta
+009     0      a/Z         [^g]             #    senta
+009     g      ja/Z        g                #    llija
 000     0      in/Z        .                # 6. sentin
 009     0      en/Z        .                #    senten
 000     0      i/D         .                # 3. senti  <IMP>
-009     0      a/D         .                #    senta
+009     0      a/D         [^g]             #    senta
+009     g      ja/D        g                #    llija
 000     0      in/C        .                # 6. sentin
 009     0      en/C        .                #    senten
 /REGLA

@@ -35174,7 +35174,7 @@ ent=heterozigosi^cat1=f.
 ent=heterozigot^cat1=adj.^cat2=m.
 ent=heterozigòtic -a^cat1=adj.
 ent=heura^cat1=f.
-ent=heure^cat1=v. tr.
+//ent=heure^cat1=v. tr.
 ent=heurera^cat1=f.
 ent=heurístic -a^cat1=adj.^cat2=f.
 ent=heus aquí
