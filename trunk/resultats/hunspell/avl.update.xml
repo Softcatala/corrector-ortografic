@@ -4,10 +4,10 @@
   <identifier value="softcatala.catalan.avl.dictionary.by.joan.moratinos"/>
   <version value="2.1.2" /> 
   <update-download>
-    <src xlink:href="http://softcatala.org/actualitzacions/OOo/avl.oxt" />
+    <src xlink:href="http://softcatala.org/diccionaris/actualitzacions/OOo/avl.oxt" />
   </update-download>
   <release-notes>
-	<src xlink:href="http://softcatala.org/actualitzacions/OOo/release-notes_en.html" lang="en" />
-	<src xlink:href="http://softcatala.org/actualitzacions/OOo/release-notes_ca.html" lang="ca" />
+	<src xlink:href="http://softcatala.org/diccionaris/actualitzacions/OOo/release-notes_en.html" lang="en" />
+	<src xlink:href="http://softcatala.org/diccionaris/actualitzacions/OOo/release-notes_ca.html" lang="ca" />
   </release-notes>
 </description>

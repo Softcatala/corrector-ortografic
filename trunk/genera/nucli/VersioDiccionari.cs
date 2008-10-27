@@ -35,7 +35,7 @@ namespace Genera
                 #if DEBUG
                     return @"http://localhost/actualitzacions/OOo";
                 #else
-                    return @"http://softcatala.org/actualitzacions/OOo";
+                    return @"http://softcatala.org/diccionaris/actualitzacions/OOo";
                 #endif
             } 
         }
