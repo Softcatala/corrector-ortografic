@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/update/2006"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identifier value="softcatala.catalan.general.dictionary.by.joan.moratinos"/>
+  <version value="2.1.2" /> 
+  <update-download>
+    <src xlink:href="http://softcatala.org/actualitzacions/OOo/catalan.oxt" />
+  </update-download>
+  <release-notes>
+	<src xlink:href="http://softcatala.org/actualitzacions/OOo/release-notes_en.html" lang="en" />
+	<src xlink:href="http://softcatala.org/actualitzacions/OOo/release-notes_ca.html" lang="ca" />
+  </release-notes>
+</description>

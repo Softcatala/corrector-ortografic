@@ -238,6 +238,7 @@ namespace xspell
 
         public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer, CanviaString canvia)
         {
+            // genera .oxt
             String path = dirFitxer + nomFitxer + ".oxt";
             File.Delete(path);
             using (ZipFile zip = new ZipFile(path))
@@ -248,8 +249,24 @@ namespace xspell
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
                 zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvia), "dictionaries.xcu", "");
                 zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvia), "description.xml", "");
+                //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_en.txt", canvia), "release-notes_en.txt", "");
+                //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_ca.txt", canvia), "release-notes_ca.txt", "");
                 zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
                 zip.Save();
+            }
+            // genera update.xml, release-notes_en.txt i release-notes_ca.txt
+            path = dirFitxer + nomFitxer + ".update.xml";
+            using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8)) {
+                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvia));
+            }
+            string[] llengues = { "ca", "en" };
+            foreach (string llengua in llengues)
+            {
+                path = dirFitxer + "release-notes_" + llengua + ".html";
+                using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8))
+                {
+                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvia));
+                }
             }
         }
 

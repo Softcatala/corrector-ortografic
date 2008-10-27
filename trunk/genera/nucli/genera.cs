@@ -74,7 +74,7 @@ namespace Genera
             identificador.LlegeixEntrades(DirEntrades("marques.txt"), entrades, mod);
             identificador = new IdentificadorDIEC("AVL", regles, DirEntrades("irregulars_avl.txt"));
             AfegeixLiniaLog("Llegeix les entrades de l'AVL", horaInici, log);
-            identificador.LlegeixEntrades(DirEntrades("avl.txt"), entrades, 1);
+            identificador.LlegeixEntrades(DirEntrades("avl.txt"), entrades, mod);
             foreach (VersioDiccionari versio in VersioDiccionari.Versions())
             {
                 string nomFitxer = prefix + versio.Nom;
@@ -90,6 +90,11 @@ namespace Genera
                         case "%VERSION%": return versio.NumeroVersio;
                         case "%VARIANT%": return versio.Variant;
                         case "%FILENAME%": return versio.Nom;
+                        case "%UPDATES%": return versio.LlocActualitzacions;
+                        //case "%NOTES_EN%": return versio.NotesVersioActual(false);
+                        //case "%NOTES_CA%": return versio.NotesVersioActual(true);
+                        case "%NOTES_EN%": return versio.NotesVersions(false);
+                        case "%NOTES_CA%": return versio.NotesVersions(true);
                         default: return que;
                     }
                 });
