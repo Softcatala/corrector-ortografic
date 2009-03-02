@@ -1,6 +1,5 @@
-188994
+188993
 a/GVY
--a
 a.
 1a
 2a
@@ -3706,7 +3705,6 @@ acutangle/EVY
 acutorsió/GVY
 acuts/Z
 ad/EVY
--ada
 Ada/WY
 Adabald/WY
 adàctil/FVY
@@ -34944,9 +34942,11 @@ catazona/E
 catecisme/E
 catecol/E
 catecolamina/E
-catecumen/E
-catecúmena/E
+catecumen
+catecúmena
 catecumenat/E
+catecúmenes
+catecúmens
 catedr.
 càtedra/E
 catedral/E
@@ -85717,7 +85717,6 @@ eruptiva/VY
 erviana/EVY
 es/Y
 és/Z
--esa
 esbacona/D
 esbaconada/VY
 esbaconant/C
@@ -144086,7 +144085,7 @@ piafi/D
 piafin/C
 piamàter/E
 piamatral/E
-piamontès
+piamontès/J
 pian/E
 pianissimo/E
 pianista/E
@@ -144769,7 +144768,7 @@ píquel/E
 piquela/D
 piquelant/C
 piquelar/C
-piquelat/1
+piquelat/1B
 piquelatge/E
 piquelau/C
 piquelava/A
@@ -149373,7 +149372,7 @@ pretori/E
 pretorià/H
 pretorial/E
 pretorianisme/E
-pretractat
+pretractat/B
 pretura/E
 preu/E
 preua/D
@@ -174176,7 +174175,7 @@ superlatiu/B
 superlativament
 supermercat/E
 supernal/E
-supernegre
+supernegre/F
 supernova/E
 supernumerari/K
 superordre/E

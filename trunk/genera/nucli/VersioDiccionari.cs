@@ -19,6 +19,7 @@ namespace Genera
             this.desc = desc;
             this.variant = variant;
             this.filtre = filtre;
+            extra = new Dictionary<string, string>();
         }
 
         /// <summary>
@@ -82,19 +83,53 @@ namespace Genera
         public Marques Filtre { get { return filtre; } }
 
         /// <summary>
+        /// Torna una opció extra. Si no es troba la clau, es torna la clau sense modificació.
+        /// </summary>
+        /// <param name="clau">La clau que cercam.</param>
+        /// <returns>El valor de la clau.</returns>
+        public string Extra(string clau)
+        {
+            if (extra.ContainsKey(clau))
+                return extra[clau];
+            else
+                return clau;
+        }
+
+        private void Extra(string clau, string valor)
+        {
+            extra.Add(clau, valor);
+            extra.Add(clau.ToLower(), valor.ToLower());
+        }
+
+        /// <summary>
         /// Torna la llista de versions que volem crear.
         /// </summary>
         static public List<VersioDiccionari> Versions()
         {
             List<VersioDiccionari> llista = new List<VersioDiccionari>();
             Marques avl = new Marques(false, "201");    // particularitats de l'AVL sense acceptació general
-            llista.Add(new VersioDiccionari("catalan", "Versió general", "general", new Marques(true).Menys(avl)));
-            llista.Add(new VersioDiccionari("avl", "Versió AVL", "avl", Marques.totes));
+
+            // Cream la versió general
+            VersioDiccionari versio = new VersioDiccionari("catalan", "Versió general", "general", new Marques(true).Menys(avl));
+            versio.Extra("%AS_LANG%", "ca");
+            versio.Extra("%AS_LANGUAGE%", "Catalan");
+            versio.Extra("%AS_LANGUAGE_CA%", "Català");
+            llista.Add(versio);
+
+            // Cream la versió AVL
+            versio = new VersioDiccionari("avl", "Versió AVL", "avl", Marques.totes);
+            versio.Extra("%AS_LANG%", "ca_valencia");
+            versio.Extra("%AS_LANGUAGE%", "Catalan_valencia");
+            versio.Extra("%AS_LANGUAGE_CA%", "Català_valencià");
+            llista.Add(versio);
+
+
             return llista;
         }
 
         private string nom, desc, variant;
         private Marques filtre;
+        private Dictionary<string, string> extra;
 
         private class InfoNumeroVersio
         {
@@ -172,6 +207,10 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 1, 3,
+                    new DateTime(2009, 03, 02),
+                    new NotaVersio("Generació de fitxers per a aspell", "Generate files for aspell")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 1, 2,
                     new DateTime(2008, 10, 27),
                     new NotaVersio("Informació per a actualització remota", "Information for remote update")
@@ -242,7 +281,6 @@ namespace Genera
         }
 
     }
-
 
 }
 

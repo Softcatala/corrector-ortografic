@@ -20,7 +20,7 @@ namespace xspell
         /// La informació extra es pot referir a excepcions, origen de la paraula, etc.
         /// Per defecte, les entrades tenen la marca '000'.
         /// </summary>
-        /// <param name="identPar">L'objecte que identifica el paradigma al qual pertany l'entrada.</param>
+        /// <param name="identificador">L'objecte que identifica el paradigma al qual pertany l'entrada.</param>
         /// <param name="dades">Informació sobre l'entrada</param>
         public Entrada(Identificador identificador, Dictionary<string, string> dades)
         {
@@ -117,7 +117,7 @@ namespace xspell
             {
                 if (!filtre.Conte(ent.Marques))
                     continue;
-                List<ItemDic> ids;
+                List<ItemDic> ids = null;
                 Paradigma par = null;
                 if (ent.Excepcions == null)
                 {
@@ -161,6 +161,9 @@ namespace xspell
                         llista.AddRange(ids);
                     }
                 }
+                if (ids != null)
+                    foreach (ItemDic id in ids)
+                        id.Entrada = ent;
             }
             llista.Sort(delegate(ItemDic id1, ItemDic id2)
             {

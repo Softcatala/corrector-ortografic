@@ -131,6 +131,9 @@ namespace xspell
         }
 
         public string Arrel { get { return arrel; } }
+
+        public Entrada Entrada { get { return entrada; } set { entrada = value; } }
+
         public List<string> LlistaFlags
         {
             get 
@@ -419,5 +422,6 @@ namespace xspell
         private uint[] flags = new uint[256 / (8 * sizeof(uint))];
         private MorfoGram mgCom, mgArr;
         string flagsComLletres;
+        private Entrada entrada;
     }
 }

@@ -82,8 +82,7 @@ namespace Genera
                 regles.GeneraAffDicHunspell(DirResultats(@"hunspell\" + nomFitxer), entrades, versio.Filtre, Cat.Cmp);
                 AfegeixLiniaLog(String.Format("Genera: {0} (Myspell)", versio.Descripcio), horaInici, log);
                 regles.GeneraAffDicMyspell(DirResultats(@"myspell\" + nomFitxer + ".myspell"), entrades, versio.Filtre, Cat.Cmp, IdentificadorCat.GetAfinaMyspell);
-                AfegeixLiniaLog(String.Format("Genera: {0} (OXT)", versio.Descripcio), horaInici, log);
-                Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), versio.Nom, delegate(String que)
+                Regles.CanviaString canvis = delegate(String que)
                 {
                     switch (que)
                     {
@@ -95,9 +94,19 @@ namespace Genera
                         //case "%NOTES_CA%": return versio.NotesVersioActual(true);
                         case "%NOTES_EN%": return versio.NotesVersions(false);
                         case "%NOTES_CA%": return versio.NotesVersions(true);
-                        default: return que;
+                        case "%COPYRIGHT%":
+                            foreach (string lin in regles.Descripcio)
+                                if (lin.StartsWith("copyright", StringComparison.OrdinalIgnoreCase))
+                                    return lin;
+                            return que;
+                        case "%DATE%": return DateTime.Today.ToString();
+                        default: return versio.Extra(que);
                     }
-                });
+                };
+                AfegeixLiniaLog(String.Format("Genera: {0} (OXT)", versio.Descripcio), horaInici, log);
+                Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), versio.Nom, canvis);
+                AfegeixLiniaLog(String.Format("Genera: {0} (aspell)", versio.Descripcio), horaInici, log);
+                Regles.GeneraAspell(DirResultats(""), versio.Nom, versio.Nom, canvis);
             }
             List<string> excSenseEmprar = identificador.ExcepcionsSenseEmprar();
             if (excSenseEmprar.Count != 0)

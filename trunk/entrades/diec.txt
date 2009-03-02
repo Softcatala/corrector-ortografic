@@ -10808,7 +10808,7 @@ ent=caixa^cat1=f.
 ent=caixabanc^cat1=m.
 ent=caixada^cat1=f.
 ent=caixer1^cat1=m.
-ent=caixer2 caixera^cat1=m. i f.^cat2=m.
+ent=caixer caixera2^cat1=m. i f.^cat2=m.
 ent=caixetí^cat1=m.
 ent=caixista^cat1=m. i f.
 ent=caixmir^cat1=m.

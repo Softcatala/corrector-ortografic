@@ -1,0 +1,16 @@
+name_english %AS_LANGUAGE%
+name_native %as_language_ca%
+data-file %as_lang%_affix.dat
+lang %as_lang%
+version %VERSION%
+author:
+  name Joan Moratinos
+  email jmo at softcatala org
+url http://http://www.softcatala.org/wiki/Projectes/Corrector_ortogràfic
+copyright GPL
+complete unknown
+accurate unknown
+alias %as_lang% %as_language%
+dict:
+  name %as_lang%
+  add %as_lang%

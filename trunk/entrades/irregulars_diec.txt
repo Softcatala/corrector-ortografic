@@ -506,6 +506,7 @@ basidioliquen: PLU=basidiolíquens
 calcogen: PLU=calcògens
 caliptrogen: PLU=caliptrògens
 carragahen: PLU=carragàhens
+catecumen catecúmena: PRECALC=catecumen catecúmens catecúmena catecúmenes
 certamen: PLU=certàmens
 cerumen: PLU=cerúmens
 cianogen: PLU=cianògens

@@ -109,6 +109,11 @@ namespace xspell
             return regles;
         }
 
+        /// <summary>
+        /// Torna la descripció.
+        /// </summary>
+        public List<string> Descripcio { get { return descripcio; } }
+
         static private Regex reIniciRegla = new Regex(@"^([PS]FX)\s+(\S)\s+([YN])\s+(\d+)");
 
         /// <summary>
@@ -214,26 +219,45 @@ namespace xspell
 
         public delegate String CanviaString(String que);
 
-        private static Regex CercaMacro = new Regex("(.*?)(%[A-Z0-9_]+%)(.*)");
+        private static Regex CercaMacro = new Regex("(.*?)(%[A-Za-z0-9_]+%)(.*)");
 
-        private static String AdaptaFitxer(String fitxer, CanviaString canvis)
+        private static string AplicaMacros(string linia, CanviaString canvis)
+        {
+            String inici = "";
+            String resta = linia;
+            while (true)
+            {
+                Match match = CercaMacro.Match(resta);
+                if (!match.Success)
+                    break;
+                inici = inici + match.Groups[1].Value + canvis(match.Groups[2].Value);
+                resta = match.Groups[3].Value;
+            }
+            return inici + resta;
+        }
+
+        private static string[] AdaptaFitxer(String fitxer, CanviaString canvis)
         {
             String[] linies = File.ReadAllLines(fitxer, Encoding.UTF8);
             for (int i = 0; i < linies.Length; i++)
+                linies[i] = AplicaMacros(linies[i], canvis);
+            return linies;
+        }
+
+        private static String AdaptaFitxer(String fitxer, CanviaString canvis, string finalLinia)
+        {
+            return String.Join(finalLinia, AdaptaFitxer(fitxer, canvis));
+        }
+
+        private static void EscriuLinies(string fitxer, string[] linies, Encoding encoding, string finalLinia)
+        {
+            using (StreamWriter sw = new StreamWriter(fitxer, false, encoding))
             {
-                String inici = "";
-                String resta = linies[i];
-                while (true)
-                {
-                    Match match = CercaMacro.Match(resta);
-                    if (!match.Success)
-                        break;
-                    inici = inici + match.Groups[1].Value + canvis(match.Groups[2].Value);
-                    resta = match.Groups[3].Value;
-                }
-                linies[i] = inici + resta;
+                sw.NewLine = finalLinia;
+                foreach (string linia in linies)
+                    sw.WriteLine(linia);
             }
-            return String.Join("\r\n", linies);
+            
         }
 
         public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer, CanviaString canvia)
@@ -247,8 +271,8 @@ namespace xspell
                 zip.AddFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvia), "dictionaries.xcu", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvia), "description.xml", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvia, "\r\n"), "dictionaries.xcu", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvia, "\r\n"), "description.xml", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_en.txt", canvia), "release-notes_en.txt", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_ca.txt", canvia), "release-notes_ca.txt", "");
                 zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
@@ -257,7 +281,7 @@ namespace xspell
             // genera update.xml, release-notes_en.txt i release-notes_ca.txt
             path = dirFitxer + nomFitxer + ".update.xml";
             using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8)) {
-                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvia));
+                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvia, "\r\n"));
             }
             string[] llengues = { "ca", "en" };
             foreach (string llengua in llengues)
@@ -265,16 +289,130 @@ namespace xspell
                 path = dirFitxer + "release-notes_" + llengua + ".html";
                 using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8))
                 {
-                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvia));
+                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvia, "\r\n"));
                 }
+            }
+        }
+
+        /// <summary>
+        /// Genera un fitxer amb dades per a aspell.
+        /// </summary>
+        public static void GeneraAspell(string dirResultats, string nomMyspell, string nomAspell, CanviaString canvis)
+        {
+            string path = Path.GetFullPath(string.Format(@"{0}\aspell\{1}.aspell.zip", dirResultats, nomAspell));
+            File.Delete(path);
+            using (ZipFile zip = new ZipFile(path))
+            {
+                Queue<string> perEsborrar = new Queue<string>();
+                foreach (string fitxer in Directory.GetFiles(dirResultats + @"..\aspell", "*.*", SearchOption.TopDirectoryOnly))
+                {
+                    if (fitxer.EndsWith("_affix.dat"))
+                    {
+                        string[] linies = File.ReadAllLines(dirResultats + @"myspell\" + nomMyspell + ".myspell.aff", Encoding.Default);
+                        string nomAff = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+                        EscriuLinies(nomAff, linies, Encoding.Default, "\n");
+                        zip.AddFile(nomAff, "aspell");
+                        perEsborrar.Enqueue(nomAff);
+                    }
+                    else if (fitxer.EndsWith(".cwl"))
+                    {
+                        string nomCwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+                        CreaFitxerCwl(Path.GetFullPath(dirResultats + @"myspell\" + nomMyspell + ".myspell.dic"), nomCwl);
+                        zip.AddFile(nomCwl, "aspell");
+                        perEsborrar.Enqueue(nomCwl);
+                    }
+                    else
+                    {
+                        string[] linies = AdaptaFitxer(fitxer, canvis);
+                        string nom = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+                        EscriuLinies(nom, linies, Encoding.Default, "\n");
+                        zip.AddFile(nom, "aspell");
+                        perEsborrar.Enqueue(nom);
+                    }
+                }
+                zip.Save();
+                while (perEsborrar.Count > 0)
+                    File.Delete(perEsborrar.Dequeue());
+            }
+        }
+
+        private static char[] illegalsAspell = "0123456789.".ToCharArray();
+
+        private static void CreaFitxerCwl(string dic, string cwl)
+        {
+            string exp = cwl + ".exp";
+            using (StreamReader ent = new StreamReader(dic, Encoding.Default))
+            {
+                using (StreamWriter sort = new StreamWriter(exp, false, Encoding.Default))
+                {
+                    sort.NewLine = "\n";
+                    ent.ReadLine();
+                    while (!ent.EndOfStream)
+                    {
+                        string linia = ent.ReadLine();
+                        if (linia.EndsWith("."))
+                            linia = linia.TrimEnd('.');
+                        int barra = linia.IndexOf('/');
+                        if ((barra >= 0 && linia.IndexOfAny(illegalsAspell, 0, barra) != -1) || (barra < 0 && linia.IndexOfAny(illegalsAspell) != -1))
+                            continue;
+                        sort.WriteLine(linia);
+                    }
+                }
+            }
+            string bin = @"\cygwin\bin\";
+            StringBuilder cmd = new StringBuilder();
+            cmd.Append(bin + "cat.exe " + exp);
+            cmd.Append(" | " + bin + "sort.exe");
+            cmd.Append(" | " + bin + "prezip-bin.exe -z");
+            cmd.Append(" > " + cwl);
+            ExecuteCommandSync(cmd.ToString());
+            File.Delete(exp);
+        }
+
+        /// <summary>
+        /// Executes a shell command synchronously.
+        /// </summary>
+        /// <param name="command">string command</param>
+        /// <returns>string, as output of the command.</returns>
+        private static string ExecuteCommandSync(string command)
+        {
+            try
+            {
+                // create the ProcessStartInfo using "cmd" as the program to be run,
+                // and "/c " as the parameters.
+                // Incidentally, /c tells cmd that we want it to execute the command that follows,
+                // and then exit.
+                System.Diagnostics.ProcessStartInfo procStartInfo =
+                    new System.Diagnostics.ProcessStartInfo(@"cmd", "/c " + command);
+
+                // The following commands are needed to redirect the standard output.
+                // This means that it will be redirected to the Process.StandardOutput StreamReader.
+                procStartInfo.RedirectStandardOutput = true;
+                procStartInfo.UseShellExecute = false;
+                // Do not create the black window.
+                procStartInfo.CreateNoWindow = true;
+                // Now we create a process, assign its ProcessStartInfo and start it
+                System.Diagnostics.Process proc = new System.Diagnostics.Process();
+                proc.StartInfo = procStartInfo;
+                proc.Start();
+                // Get the output into a string
+                string result = proc.StandardOutput.ReadToEnd();
+                return result;
+            }
+            catch (Exception objException)
+            {
+                // Log the exception
+                return "ERROR";
             }
         }
 
         private static void CreaFitxerDic(string nomFitxer, List<Entrada> entrades, Marques filtre, Comparison<string> comparador)
         {
+            bool posaNum = true;
             string[] liniesDic = Entrada.GeneraLiniesDic(entrades, filtre, Entrada.Speller.HUNSPELL, comparador);
             StreamWriter sw = new StreamWriter(nomFitxer + ".dic", false, Encoding.Default);
-            sw.WriteLine(liniesDic.Length);
+            if (posaNum)
+                sw.WriteLine(liniesDic.Length);
             foreach (string linia in liniesDic)
                 sw.WriteLine(linia);
             sw.Close();

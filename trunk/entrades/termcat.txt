@@ -1683,7 +1683,7 @@ ent=pesaarcs^cat1=m.
 ent=pesanapes^cat1=???^com1=balança pesanapes
 ent=pesatanins^cat1=m.
 ent=pesto^cat1=???^com1=Amanida de tomàquet i formatge feta amb pesto
-ent=piamontès -esa^cat1=???^com1=Espaguetis a la piamontesa
+ent=piamontès -esa^cat1=adj.^com1=Espaguetis a la piamontesa
 ent=piassaba^cat1=f.^com1=piassaba de Pará
 ent=piccolo^cat1=m.
 ent=picnòstil -a^cat1=adj.^com1=picnòstil -a
@@ -1704,7 +1704,7 @@ ent=pinosoma^cat1=m.
 ent=piohèmia^cat1=f.
 ent=pipetejar^cat1=v. tr.
 ent=píquel^cat1=m.^com1=píquel de conservació
-ent=piquelat -ada^cat1=???^com1=pell piquelada
+ent=piquelat -ada^cat1=adj.^com1=pell piquelada
 ent=piquelar^cat1=v. tr.
 ent=piquelatge^cat1=m.
 ent=piqueta^cat1=f.
@@ -1821,7 +1821,7 @@ ent=pressurització^cat1=f.
 ent=preterme^cat1=???^com1=nadó preterme
 ent=pretest^cat1=???^com1=aconsellament pretest
 ent=pretintura^cat1=f.
-ent=pretractat -ada^cat1=???^com1=pacient pretractat -ada
+ent=pretractat -ada^cat1=adj.^com1=pacient pretractat -ada
 ent=primarietat^cat1=f.
 ent=primeritat^cat1=f.
 ent=pritanèon^cat1=m.
@@ -2174,7 +2174,7 @@ ent=supercomputador^cat1=m.
 ent=superenrotllat -ada^cat1=adj.^com1=hèlix superenrotllada
 ent=superenrotllament^cat1=m.
 ent=superhèlix^cat1=f.
-ent=supernegre -a^cat1=f.
+ent=supernegre -a^cat1=adj.
 ent=supervídeo^cat1=m.^com1=supervídeo CD
 ent=suple^cat1=???^com1=suro suple
 ent=surfí^cat1=m.
