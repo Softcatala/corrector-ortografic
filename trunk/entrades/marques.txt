@@ -17,3 +17,15 @@ Viquipèdia
 Viccionari
 Viquillibres
 Softcatalà
+
+Scrabble
+Linux
+DIEC
+DIEC2
+DGEC
+l'ispell
+l'aspell
+myspell
+l'hunspell
+Debian
+l'Ubuntu

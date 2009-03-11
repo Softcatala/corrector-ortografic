@@ -185,3 +185,6 @@ ent=voluntariosament^cat1=adv.
 ent=interactuar^cat1=v. tr.^cat2=intr.
 ent=semiformal^cat1=adj.
 ent=detectable^cat1=adj.
+
+// Paraules que falten
+ent=som-hi^cat1=interj.

@@ -207,6 +207,11 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 1, 4,
+                    new DateTime(2009, 03, 11),
+                    new NotaVersio("Algunes correccions i addicions", "Some corrections and additions"),
+                    new NotaVersio("Correccions: bytes, malveure", "Corrections: bytes, malveure")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 1, 3,
                     new DateTime(2009, 03, 02),
                     new NotaVersio("Generació de fitxers per a aspell", "Generate files for aspell")

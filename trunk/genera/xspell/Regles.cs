@@ -299,6 +299,7 @@ namespace xspell
         /// </summary>
         public static void GeneraAspell(string dirResultats, string nomMyspell, string nomAspell, CanviaString canvis)
         {
+            Encoding encoding = Encoding.Default;
             string path = Path.GetFullPath(string.Format(@"{0}\aspell\{1}.aspell.zip", dirResultats, nomAspell));
             File.Delete(path);
             using (ZipFile zip = new ZipFile(path))
@@ -310,14 +311,14 @@ namespace xspell
                     {
                         string[] linies = File.ReadAllLines(dirResultats + @"myspell\" + nomMyspell + ".myspell.aff", Encoding.Default);
                         string nomAff = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        EscriuLinies(nomAff, linies, Encoding.Default, "\n");
+                        EscriuLinies(nomAff, linies, encoding, "\n");
                         zip.AddFile(nomAff, "aspell");
                         perEsborrar.Enqueue(nomAff);
                     }
                     else if (fitxer.EndsWith(".cwl"))
                     {
                         string nomCwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        CreaFitxerCwl(Path.GetFullPath(dirResultats + @"myspell\" + nomMyspell + ".myspell.dic"), nomCwl);
+                        CreaFitxerCwl(Path.GetFullPath(dirResultats + @"myspell\" + nomMyspell + ".myspell.dic"), nomCwl, encoding);
                         zip.AddFile(nomCwl, "aspell");
                         perEsborrar.Enqueue(nomCwl);
                     }
@@ -325,7 +326,7 @@ namespace xspell
                     {
                         string[] linies = AdaptaFitxer(fitxer, canvis);
                         string nom = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        EscriuLinies(nom, linies, Encoding.Default, "\n");
+                        EscriuLinies(nom, linies, encoding, "\n");
                         zip.AddFile(nom, "aspell");
                         perEsborrar.Enqueue(nom);
                     }
@@ -338,12 +339,12 @@ namespace xspell
 
         private static char[] illegalsAspell = "0123456789.".ToCharArray();
 
-        private static void CreaFitxerCwl(string dic, string cwl)
+        private static void CreaFitxerCwl(string dic, string cwl, Encoding encoding)
         {
             string exp = cwl + ".exp";
             using (StreamReader ent = new StreamReader(dic, Encoding.Default))
             {
-                using (StreamWriter sort = new StreamWriter(exp, false, Encoding.Default))
+                using (StreamWriter sort = new StreamWriter(exp, false, encoding))
                 {
                     sort.NewLine = "\n";
                     ent.ReadLine();

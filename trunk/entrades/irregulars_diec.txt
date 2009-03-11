@@ -102,6 +102,7 @@ banús: PLU=-ussos
 barbís: PLU=-issos
 barnús: PLU=-ussos
 bavadís: PLU=-issos
+bé1: PLU=béns
 be2: PLU=bes
 beabà: PLU=-às
 bebè: PLU=-ès
@@ -122,7 +123,7 @@ burriàs: PLU=-assos
 buró1: PLU=-ós
 buró2: PLU=-ós
 bus1: PLU=bussos
-bé1: PLU=béns
+byte: PLU=bytes
 ca2: PLU=cas
 cabriolé: PLU=-és
 cabàs: PLU=-assos
@@ -321,6 +322,7 @@ negligé: PLU=-és
 nevàs: PLU=-assos
 nodrís: PLU=-issos
 nu1: PLU=nus
+nyu: PLU=nyus
 nyandú: PLU=-ús
 o1: PLU=os
 oboè: PLU=-ès
@@ -1015,6 +1017,9 @@ malprendre: MODEL=aprendre/apr/malpr
 
 // malvendre: quant a la flexió, com revendre
 malvendre: MODEL=revendre/rev/malv
+
+// malveure: quant a la flexió, com veure
+malveure1: MODEL=veure/v/malv
 
 // malviure1: quant a la flexió, com viure
 malviure1: MODEL=viure1/vi/malvi
