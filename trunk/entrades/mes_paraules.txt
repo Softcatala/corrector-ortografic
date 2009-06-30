@@ -188,3 +188,4 @@ ent=detectable^cat1=adj.
 
 // Paraules que falten
 ent=som-hi^cat1=interj.
+ent=torcaboca^cat1=m.

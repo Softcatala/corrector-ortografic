@@ -6,7 +6,7 @@ namespace xspell
 {
     /// <summary>
     /// Un conjunt de marques.
-    /// La funció principal diu si una marca pertany al conjuny.
+    /// La funció principal diu si una marca pertany al conjunt.
     /// Es pot crear un conjunt restant marques del conjunt univers, o bé sumant-ne
     /// al conjunt buit.
     /// </summary>
@@ -16,8 +16,8 @@ namespace xspell
         /// <summary>
         /// Crea un conjunt sense excepcions.
         /// </summary>
-        /// <param name="defecte">Valor de pertinença per defecte. Si és true, el conjuny conté totes les marques.
-        /// Si és false, el conjuny és buit.</param>
+        /// <param name="defecte">Valor de pertinença per defecte. Si és true, el conjunt conté totes les marques.
+        /// Si és false, el conjunt és buit.</param>
         public Marques(bool defecte)
         {
             this.defecte = defecte;

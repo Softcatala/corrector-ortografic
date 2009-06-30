@@ -20,15 +20,32 @@ tupé: PLU=-és
 vosté: ALT=vosté vostés
 pesabebés: PLU=pesabebés
 
+aparéixer: PAR=aparegut & SIM=aparegués
 aprehendre: GER=aprehenent & PAR=aprehés & SIM=aprehengués & IPR3=aprehén
 aprendre: GER=aprenent & PAR=aprés & SIM=aprengués & IPR3=aprén
 atendre: GER=atenent & PAR=atés & SIM=atengués & IPR3=atén
+atényer: PAR=atés
 carvendre: MODEL=revendre/rev/carv
+comparéixer: PAR=comparegut & SIM=comparegués
 comprendre: MODEL=aprendre/apr/compr
+conéixer: PAR=conegut & SIM=conegués
+constrényer: PAR=constret
 dependre: MODEL=ofendre/of/dep
+desaparéixer: PAR=desaparegut & SIM=desaparegués
+desconéixer: PAR=desconegut & SIM=desconegués
+desmeréixer: PAR=desmerescut & +=desmeresqués<SIM1>/Q
+destrényer: PAR=destret
+empényer: PAR=empés
+espényer: PAR=espés
+estrényer: PAR=estret
 fényer: +=fengut<PAR0>/B
 malvendre: MODEL=revendre/rev/malv
+meréixer: PAR=merescut & +=meresqués<SIM1>/Q
 ofendre: GER=ofenent & IPR3=ofén & PAR=ofés & SIM=ofengués
+paréixer: PAR=paregut & SIM=paregués
+reaparéixer: PAR=reaparegut & SIM=reaparegués
+reconéixer: PAR=reconegut & SIM=reconegués
 retrovendre: MODEL=revendre/rev/retrov
 revendre: GER=revenent & PAR=revenut & IPR3=revén & SIM=revengués & +=revengut<PAR0>/B
+restrényer: PAR=restret
 

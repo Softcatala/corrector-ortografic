@@ -28,7 +28,7 @@ namespace catala
             string ent = dades["ent"];
             string arrel = dades["arrel"];
             bool nocat = false;
-            bool nom = false, pron = false, adj = false, masc = false, fem = false, plural = false;
+            bool nom = false, pron = false, adj = false, masc = false, fem = false, sing = false, plural = false;
             bool verb = false;
             bool art = false, conj = false, adv = false, prep = false, interj = false, loc = false;
             #region Explora les categories
@@ -46,12 +46,14 @@ namespace catala
                         case "m. pop.":
                             nom = true;
                             masc = true;
+                            sing = true;
                             break;
                         case "f.":
                         case "f. pop.":
                         case "f. obs.":
                             nom = true;
                             fem = true;
+                            sing = true;
                             break;
                         case "m. pl.":
                             nom = true;
@@ -71,23 +73,28 @@ namespace catala
                             masc = true;
                             fem = true;
                             nom = true;
+                            sing = true;
                             break;
                         case "adj. i m.":
                             adj = true;
                             masc = true;
                             nom = true;
+                            sing = true;
                             break;
                         case "adj. i f.":
                             adj = true;
                             fem = true;
                             nom = true;
+                            sing = true;
                             break;
                         case "adj. i pron.":
                             adj = true;
                             pron = true;
+                            sing = true;
                             break;
                         case "adj.":
                             adj = true;
+                            sing = true;
                             break;
                         case "adj. i m. i f.":
                         case "adj. i m. i f. pop.":
@@ -95,6 +102,7 @@ namespace catala
                             nom = true;
                             masc = true;
                             fem = true;
+                            sing = true;
                             break;
                         case "prep.":
                             prep = true;
@@ -152,6 +160,7 @@ namespace catala
                             break;
                         case "sing.":
                             nom = true;
+                            sing = true;
                             break;
                         default:
                             throw new Exception(String.Format("No sé què fer amb {0} (\"{1}\")", dades[nomCat], dades["arrel"]));
@@ -182,13 +191,16 @@ namespace catala
                 // Si hi ha adjectius, tenim ha totes les formes generades
                 if (adj)
                     pars.Add(Id4(arrel, ADJ, dades, excepcions));
-                else if ((masc && fem) || plural)
+                //else if ((masc && fem) || plural)
+                else if (masc && fem)
                     pars.Add(Id4(arrel, N, dades, excepcions));
                 else {
                     // PER_FER: generar les altres categories encara que hi hagi adjectius o m. i f.
                     if (nom)
                     {
-                        if (masc)
+                        if (plural && !sing)
+                            pars.Add(paradigmes[fem ? "NPF" : "NPM"]);
+                        else if (masc)
                             pars.Add(Id2(arrel, NM, dades, excepcions));
                         else if (fem)
                             pars.Add(Id2(arrel, NF, dades, excepcions));

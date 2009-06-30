@@ -359,7 +359,8 @@ namespace catala
             if (masc)
             {
                 if (Paraula.TeVocalInicial(arrel))
-                    AfegeixItem(items, arrel, mgMascPl, mgMascPl, "V", "Y");
+                    //AfegeixItem(items, arrel, mgMascPl, mgMascPl, "V", "Y");  // No admet article!
+                    AfegeixItem(items, arrel, mgMascPl, mgMascPl, "Y");
                 else
                     AfegeixItem(items, arrel, mgMascPl, mgMascPl);
             }
@@ -368,10 +369,11 @@ namespace catala
                 Paraula pArrel = new Paraula(arrel);
                 if (pArrel.VocalInicial)
                 {
-                    if (pArrel.PotApostrofar(true))
-                        AfegeixItem(items, arrel, mgFemPl, mgFemPl, "V", "Y");
-                    else
-                        AfegeixItem(items, arrel, mgFemPl, mgFemPl, "Y");
+                    //if (pArrel.PotApostrofar(true))   // No admet article!
+                    //    AfegeixItem(items, arrel, mgFemPl, mgFemPl, "V", "Y");
+                    //else
+                    //    AfegeixItem(items, arrel, mgFemPl, mgFemPl, "Y");
+                    AfegeixItem(items, arrel, mgFemPl, mgFemPl, "Y");
                 }
                 else
                     AfegeixItem(items, arrel, mgFemPl, mgFemPl);

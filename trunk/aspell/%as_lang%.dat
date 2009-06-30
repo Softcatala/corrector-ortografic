@@ -1,5 +1,0 @@
-name %as_lang%
-charset iso8859-1
-affix %as_lang%
-affix-compress true
-special ' -*- - -*- · -*-

@@ -2,10 +2,13 @@ require 'hunspell'
 
 BASE = '../../resultats'
 #~ hs = Hunspell.new("#{BASE}/catalan_myspell.aff", "#{BASE}/catalan_myspell.dic")
-hs = Hunspell.new("#{BASE}/catalan.aff", "#{BASE}/catalan.dic")
+hs = Hunspell.new("#{BASE}/hunspell/catalan.aff", "#{BASE}/hunspell/catalan.dic")
 p hs
 
 mots = []
+mots += %w(espaí *espaií remeí enjoí cruí esquií guií *guí comercií *comercí)
+mots += %w(vacil *vacil·l *nann)
+mots += %w(abalís *abalis abràs *abras abrús *abrus aburgès *aburges)
 mots += %w(abstenir atenir captenir cartenir contenir detenir entretenir mantenir menystenir obtenir retenir sostenir viltenir)
 mots += %w(abstindre atindre captindre cartindre contindre detindre entretindre mantindre menystindre obtindre retindre sostindre viltindre)
 mots += %w(abstindré atindré captindré cartindré contindré detindré entretindré mantindré menystindré obtindré retindré sostindré viltindré)

@@ -326,7 +326,7 @@ namespace xspell
 
         public override string ToString()
         {
-            return string.Format("+{0}, -{1}, si {2}", afegir, suprimir, sCondicio);
+            return string.Format("+{0}, -{1}, si {2} (regla {3})", afegir, suprimir, sCondicio, regla.Id);
         }
 
         private static Dictionary<string, MorfoGram> creaEtisInfo()

@@ -8,8 +8,8 @@ author:
   email jmo at softcatala org
 url http://http://www.softcatala.org/wiki/Projectes/Corrector_ortogràfic
 copyright GPL
-complete unknown
-accurate unknown
+complete true
+accurate true
 alias %as_lang% %as_language%
 dict:
   name %as_lang%

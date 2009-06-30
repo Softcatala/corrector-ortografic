@@ -255,5 +255,6 @@ menorà: PLU=-às
 quibuts: PLU=quibuts
 tammuz: PLU=tammuz
 tixrí: PLU=-ís
+txa-txa-txa: PLU=txa-txa-txas
 benhaja: PRECALC=benhaja benhages benhagen
 malhaja: PRECALC=malhaja malhages malhagen

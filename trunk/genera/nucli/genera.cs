@@ -75,7 +75,9 @@ namespace Genera
             identificador = new IdentificadorDIEC("AVL", regles, DirEntrades("irregulars_avl.txt"));
             AfegeixLiniaLog("Llegeix les entrades de l'AVL", horaInici, log);
             identificador.LlegeixEntrades(DirEntrades("avl.txt"), entrades, mod);
-            foreach (VersioDiccionari versio in VersioDiccionari.Versions())
+            List<VersioDiccionari> versions = VersioDiccionari.Versions();
+            VersioDiccionari versio0 = versions[0];
+            foreach (VersioDiccionari versio in versions)
             {
                 string nomFitxer = prefix + versio.Nom;
                 AfegeixLiniaLog(String.Format("Genera: {0} (Hunspell)", versio.Descripcio), horaInici, log);
@@ -90,10 +92,10 @@ namespace Genera
                         case "%VARIANT%": return versio.Variant;
                         case "%FILENAME%": return versio.Nom;
                         case "%UPDATES%": return versio.LlocActualitzacions;
-                        //case "%NOTES_EN%": return versio.NotesVersioActual(false);
-                        //case "%NOTES_CA%": return versio.NotesVersioActual(true);
                         case "%NOTES_EN%": return versio.NotesVersions(false);
                         case "%NOTES_CA%": return versio.NotesVersions(true);
+                        case "%NOTES_EN_RAW%": return versio.NotesVersionsRaw(false);
+                        case "%NOTES_CA_RAW%": return versio.NotesVersionsRaw(true);
                         case "%COPYRIGHT%":
                             foreach (string lin in regles.Descripcio)
                                 if (lin.StartsWith("copyright", StringComparison.OrdinalIgnoreCase))
@@ -106,8 +108,12 @@ namespace Genera
                 AfegeixLiniaLog(String.Format("Genera: {0} (OXT)", versio.Descripcio), horaInici, log);
                 Regles.GeneraOXT(regles, DirResultats(@"hunspell\"), versio.Nom, canvis);
                 AfegeixLiniaLog(String.Format("Genera: {0} (aspell)", versio.Descripcio), horaInici, log);
-                Regles.GeneraAspell(DirResultats(""), versio.Nom, versio.Nom, canvis);
+                if (versio == versio0)
+                    Regles.BaseAspell(DirResultats(""), versio.Nom, canvis, regles.Descripcio);
+                else
+                    Regles.VariantAspell(DirResultats(""), versio.Nom, canvis, versio0.Nom, versio.Filtre.Menys(versio0.Filtre));
             }
+            Regles.FinalAspell(DirResultats(""), versio0.Extra("%as_lng%"), versio0.NumeroVersio);
             List<string> excSenseEmprar = identificador.ExcepcionsSenseEmprar();
             if (excSenseEmprar.Count != 0)
                 foreach (string exc in excSenseEmprar)

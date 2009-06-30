@@ -1,3 +1,7 @@
+// Aquest fitxer és obsolet. Se n'han suprimit moltes entrades com "anglés anglesa", ja que estan
+// cobertes per la regla J a partir de "anglès anglesa".
+// El fitxer vàlid és avl.txt.
+
 // Entrades agafades de les propostes de l'AVL
 // Aquí hi hauria d'haver les entrades que no hagin d'anar a totes les variants del corrector
 // Les paraules que admetem sense cap problema per a totes les variants del diccionari poden anar a mes_paraules.txt
@@ -9,72 +13,72 @@
 //ent=anglés -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.^mrc1=201
 // Paraules que l'AVL escriu amb "é" i l'IEC amb è
 
-// abrucés = abrucès/J
+ent=abrucés abrucesa^cat1=adj. i m. i f.^mrc1=201
 ent=acetilé^cat1=m.^mrc1=201
-// afganés = afganès/J
+ent=afganés afganesa^cat1=adj. i m. i f.^mrc1=201
 ent=agaré agarena^cat1=adj. i m. i f.^mrc1=201
-// alaestés = alaestès/J
-// albanés = albanès/J
-// albigés = albigès/J
+ent=alaestés alaestesa^cat1=adj.^mrc1=201
+ent=albanés albanesa^cat1=adj. i m. i f.^mrc1=201
+ent=albigés albigesa^cat1=adj. i m. i f.^mrc1=201
 ent=alcadié^cat1=m.^mrc1=201
 ent=alé^cat1=m.^mrc1=201
-// algarvés = algarvès/J
-// alguerés = alguerès/J
+ent=algarvés algarvesa^cat1=adj. i m. i f.^mrc1=201
+ent=alguerés algueresa^cat1=adj. i m. i f.^mrc1=201
 ent=alié aliena^cat1=adj.^mrc1=201
 ent=al·lé^cat1=m.^mrc1=201
 ent=allén^cat1=adv.^mrc1=201
 ent=alqué^cat1=m.^mrc1=201
 ent=amé amena^cat1=adj.^mrc1=201
-// anglés = anglès/J
-// angolés = angolès/J
+ent=anglés anglesa^cat1=adj. i m. i f.^mrc1=201
+ent=angolés angolesa^cat1=adj. i m. i f.^mrc1=201
 ent=antioqué antioquena^cat1=adj. i m. i f.^mrc1=201
 ent=antracé^cat1=m.^mrc1=201
 ent=aparéixer^cat1=v. intr.^cat2=pron.^mrc1=201
 ent=aprehendre^cat1=v. tr.^mrc1=201
 ent=aprendre^cat1=v. tr.^mrc1=201
-// aragonés = aragonès/J
-// aranés = aranès/J
-// armanyagués = armanyaguès/J
+ent=aragonés aragonesa^cat1=adj. i m. i f.^mrc1=201
+ent=aranés aranesa^cat1=adj. i m. i f.^mrc1=201
+ent=armanyagués armanyaguesa^cat1=adj. i m. i f.^mrc1=201
 ent=asfalté^cat1=m.^mrc1=201
-// assamés = assamès/J
+ent=assamés assamesa^cat1=adj. i m. i f.^mrc1=201
 ent=atendre^cat1=v. intr.^mrc1=201
-// atenés = atenès/J
+ent=atenés atenesa^cat1=adj. i m. i f.^mrc1=201
 ent=atényer^cat1=v. tr. i intr.^mrc1=201
 ent=azobenzé^cat1=m.^mrc1=201
 ent=azulé^cat1=m.^mrc1=201
-// balinés = balinès/J
-// baltofinés = baltofinès/J
+ent=balinés balinesa^cat1=adj. i m. i f.^mrc1=201
+ent=baltofinés baltofinesa^cat1=adj. i m.^mrc1=201
 ent=barbaespés^cat1=adj.^mrc1=201
 ent=barcarés^cat1=m.^mrc1=201
-// barcelonés = barcelonès/J
+ent=barcelonés barcelonesa^cat1=adj. i m. i f.^mrc1=201
 ent=bauprés^cat1=m.^mrc1=201
-// bavarés = bavarès/J
-// bearnés = bearnès/J
+ent=bavarés bavaresa^cat1=adj. i m. i f.^mrc1=201
+ent=bearnés bearnesa^cat1=adj. i m. i f.^mrc1=201
 ent=bebé^cat1=m.^mrc1=201^com1=bebés
-// bederrés = bederrès/J
-// benasqués = benasquès/J
-// beninés = beninès/J
+ent=bederrés bederresa^cat1=adj. i m. i f.^mrc1=201
+ent=benasqués benasquesa^cat1=adj. i m. i f.^mrc1=201
+ent=beninés beninesa^cat1=adj. i m. i f.^mrc1=201
 ent=benzé^cat1=m.^mrc1=201
 ent=benzopiré^cat1=m.^mrc1=201
-// berlinés = berlinès/J
-// bernés = bernès/J
-// bhutanés = bhutanès/J
-// biafrés = biafrès/J
-// bolonyés = bolonyès/J
-// bordelés = bordelès/J
+ent=berlinés berlinesa^cat1=adj. i m. i f.^mrc1=201
+ent=bernés bernesa^cat1=adj. i m. i f.^mrc1=201
+ent=bhutanés bhutanesa^cat1=adj. i m. i f.^mrc1=201
+ent=biafrés biafresa^cat1=adj. i m. i f.^mrc1=201
+ent=bolonyés bolonyesa^cat1=adj. i m. i f.^mrc1=201
+ent=bordelés bordelesa^cat1=adj. i m. i f.^mrc1=201
 ent=brévol brévola^cat1=adj.^mrc1=201
 ent=buté^cat1=m.^mrc1=201
 ent=butilé^cat1=m.^mrc1=201
 ent=café^cat1=m.^mrc1=201^com1=cafés
-// calabrés = calabrès/J
-// camerunés = camerunès/J
-// campidanés = campidanès/J
+ent=calabrés calabresa^cat1=adj. i m. i f.^mrc1=201
+ent=camerunés camerunesa^cat1=adj. i m. i f.^mrc1=201
+ent=campidanés campidanesa^cat1=adj. i m. i f.^mrc1=201
 ent=canapé^cat1=m.^mrc1=201^com1=canapés
-// cantonés = cantonès/J
-// capcinés = capcinès/J
+ent=cantonés cantonesa^cat1=adj. i m. i f.^mrc1=201
+ent=capcinés capcinesa^cat1=adj. i m. i f.^mrc1=201
 ent=caraplé^cat1=adj.^mrc1=201
 ent=caroté^cat1=m.^mrc1=201
-// cartaginés = cartaginès/J
+ent=cartaginés cartaginesa^cat1=adj. i m. i f.^mrc1=201
 ent=carvendre^cat1=v. tr.^mrc1=201
 ent=catorzé catorzena^cat1=adj. i m.^mrc1=201
 ent=centé centena^cat1=adj. i m.^mrc1=201
@@ -85,173 +89,173 @@ ent=cinqué cinquena^cat1=adj. i m.^mrc1=201
 ent=comité^cat1=m.^mrc1=201^com1=comités
 ent=comparéixer^cat1=v. intr.^mrc1=201
 ent=comprendre^cat1=v. tr.^mrc1=201
-// compromés = compromès/J
+ent=compromés compromesa^cat1=adj.^mrc1=201
 ent=conéixer^cat1=v. tr.^cat2=intr.^cat3=pron.^mrc1=201
-// congolés = congolès/J
+ent=congolés congolesa^cat1=adj. i m. i f.^mrc1=201
 ent=constrényer^cat1=v. tr.^mrc1=201
 ent=convéncer^cat1=v. tr. i pron.^mrc1=201
-// cordovés = cordovès/J
-// cortés = cortès/J
+ent=cordovés cordovesa^cat1=adj. i m. i f.^mrc1=201
+ent=cortés cortesa^cat1=adj.^mrc1=201
 ent=crepé^cat1=m.^mrc1=201^com1=crepés
 ent=crisé^cat1=m.^mrc1=201
 ent=cumé^cat1=m.^mrc1=201
 ent=cupé^cat1=m.^mrc1=201^com1=cupés
-// dacoromanés = dacoromanès/J
+ent=dacoromanés dacoromanesa^cat1=adj. i m.^mrc1=201
 ent=damassé^cat1=m.^mrc1=201^com1=damassés
-// danés = danès/J
-// defés = defès/J
+ent=danés danesa^cat1=adj. i m. i f.^mrc1=201
+ent=defés defesa^cat1=m. i f.^mrc1=201
 ent=dependre^cat1=v. intr.^mrc1=201
 ent=desaparéixer^cat1=v. intr.^mrc1=201
 ent=desconéixer^cat1=v. tr.^mrc1=201
-// descortés = descortès/J
+ent=descortés descortesa^cat1=adj.^mrc1=201
 ent=desé desena^cat1=adj. i m.^mrc1=201
 ent=desfrés^cat1=m.^mrc1=201
 ent=desinterés^cat1=m.^mrc1=201
 ent=desmeréixer^cat1=v. intr.^mrc1=201
 ent=destrényer^cat1=v. tr.^mrc1=201
 ent=divuité divuitena^cat1=adj. i m.^mrc1=201
-// dominiqués = dominiquès/J
+ent=dominiqués dominiquesa^cat1=adj. i m. i f.^mrc1=201
 ent=dos-centé dos-centena^cat1=adj. i m.^mrc1=201
 ent=dotzé dotzena^cat1=adj. i m.^mrc1=201
-// dublinés = dublinès/J
+ent=dublinés dublinesa^cat1=adj. i m. i f.^mrc1=201
 ent=duodé^cat1=m.^mrc1=201
 ent=edén^cat1=m.^com1=pl. edens^mrc1=201
 ent=émbol^cat1=m.^mrc1=201
 ent=empényer^cat1=v. tr.^mrc1=201
-// empordanés = empordanès/J
-// encés = encès/J
-// entés = entès/J
+ent=empordanés empordanesa^cat1=adj. i m. i f.^mrc1=201
+ent=encés encesa^cat1=adj.^mrc1=201
+ent=entés entesa^cat1=adj. i m.^mrc1=201
 ent=entremés^cat1=m.^mrc1=201
 ent=eocé eocena^cat1=adj. i m.^mrc1=201
 ent=epicé epicena^cat1=adj.^mrc1=201
 ent=escalé escalena^cat1=adj. i m.^mrc1=201
-// escocés = escocès/J
+ent=escocés escocesa^cat1=adj. i m. i f.^mrc1=201
 ent=eslové eslovena^cat1=adj. i m. i f.^mrc1=201
 ent=espényer^cat1=v. tr.^mrc1=201
 ent=espés espessa^cat1=adj. i m.^mrc1=201
 ent=estéreo^cat1=adj.^mrc1=201
-// estés = estès/J
+ent=estés estesa^cat1=adj. i m.^mrc1=201
 ent=estrényer^cat1=v. tr. i pron.^mrc1=201
 ent=estrés^cat1=m.^mrc1=201
 ent=eté^cat1=m.^mrc1=201
 ent=etilé^cat1=m.^mrc1=201
-// feligrés = feligrès/J
+ent=feligrés feligresa^cat1=m. i f.^mrc1=201
 ent=fenilé^cat1=m.^mrc1=201
 ent=fényer^cat1=v. tr.^mrc1=201
-// feroés = feroès/J
-// fideïcomés = fideïcomès/J
-// finlandés = finlandès/J
+ent=feroés feroesa^cat1=adj. i m. i f.^mrc1=201
+ent=fideïcomés fideïcomesa^cat1=adj.^mrc1=201
+ent=finlandés finlandesa^cat1=adj. i m. i f.^mrc1=201
 ent=fosfé^cat1=m.^mrc1=201
-// francés = francès/J
+ent=francés francesa^cat1=adj. i m. i f.^mrc1=201
 ent=fréjol fréjola^cat1=adj.^mrc1=201
 ent=fréndol^cat1=m.^mrc1=201
 ent=frévol frévola^cat1=adj.^mrc1=201
-// friülés = friülès/J
-// gabonés = gabonès/J
-// galaicoportugués = galaicoportuguès/J
+ent=friülés friülesa^cat1=adj. i m. i f.^mrc1=201
+ent=gabonés gabonesa^cat1=adj. i m. i f.^mrc1=201
+ent=galaicoportugués galaicoportuguesa^cat1=adj. i m.^mrc1=201
 ent=galtaplé galtaplena^cat1=adj.^mrc1=201
-// genovés = genovès/J
+ent=genovés genovesa^cat1=adj. i m. i f.^mrc1=201
 ent=germen^cat1=m.^mrc1=201^com1=gérmens
-// ghanés = ghanès/J
-// goés = goès/J
+ent=ghanés ghanesa^cat1=adj. i m. i f.^mrc1=201
+ent=goés goesa^cat1=adj. i m. i f.^mrc1=201
 ent=grévol grévola^cat1=adj. i m.^mrc1=201
-// groenlandés = groenlandès/J
-// hamburgués = hamburguès/J
+ent=groenlandés groenlandesa^cat1=adj. i m. i f.^mrc1=201
+ent=hamburgués hamburguesa^cat1=adj. i m. i f.^mrc1=201
 ent=hel·lé hel·lena^cat1=adj. i m. i f.^mrc1=201
 ent=heptilé^cat1=m.^mrc1=201
 ent=hexilé^cat1=m.^mrc1=201
 ent=hidroxibenzé^cat1=m.^mrc1=201
-// holandés = holandès/J
+ent=holandés holandesa^cat1=adj. i m. i f.^mrc1=201
 ent=holocé^cat1=m.^mrc1=201
-// hongarés = hongarès/J
+ent=hongarés hongaresa^cat1=adj. i m. i f.^mrc1=201
 ent=huitanté huitantena^cat1=adj. i m.^mrc1=201
 ent=huit-centé huit-centena^cat1=adj. i m.^mrc1=201
 ent=huité huitena^cat1=adj. i m.^mrc1=201
-// il·lés = il·lès/J
-// imprés = imprès/J
-// inaprés = inaprès/J
-// incomprés = incomprès/J
-// indoxinés = indoxinès/J
+ent=il·lés il·lesa^cat1=adj.^mrc1=201
+ent=imprés impresa^cat1=adj. i m.^mrc1=201
+ent=inaprés inapresa^cat1=adj.^mrc1=201
+ent=incomprés incompresa^cat1=adj. i m. i f.^mrc1=201
+ent=indoxinés indoxinesa^cat1=adj. i m. i f.^mrc1=201
 ent=interés^cat1=m.^mrc1=201
-// irlandés = irlandès/J
-// iroqués = iroquès/J
-// islandés = islandès/J
+ent=irlandés irlandesa^cat1=adj. i m. i f.^mrc1=201
+ent=iroqués iroquesa^cat1=adj. i m. i f.^mrc1=201
+ent=islandés islandesa^cat1=adj. i m. i f.^mrc1=201
 ent=isopré^cat1=m.^mrc1=201
-// japonés = japonès/J
-// javanés = javanès/J
-// libanés = libanès/J
-// liegés = liegès/J
-// limburgués = limburguès/J
-// lionés = lionès/J
-// lleonés = lleonès/J
-// lorenés = lorenès/J
-// luxemburgués = luxemburguès/J
+ent=japonés japonesa^cat1=adj. i m. i f.^mrc1=201
+ent=javanés javanesa^cat1=adj. i m. i f.^mrc1=201
+ent=libanés libanesa^cat1=adj. i m. i f.^mrc1=201
+ent=liegés liegesa^cat1=adj. i m. i f.^mrc1=201
+ent=limburgués limburguesa^cat1=adj. i m. i f.^mrc1=201
+ent=lionés lionesa^cat1=adj. i m. i f.^mrc1=201
+ent=lleonés lleonesa^cat1=adj. i m. i f.^mrc1=201
+ent=lorenés lorenesa^cat1=adj. i m. i f.^mrc1=201
+ent=luxemburgués luxemburguesa^cat1=adj. i m. i f.^mrc1=201
 ent=malentés^cat1=m.^mrc1=201
-// maltés = maltès/J
+ent=maltés maltesa^cat1=adj. i m. i f.^mrc1=201
 ent=manganés^cat1=adj. i m.^mrc1=201
-// manumés = manumès/J
-// maonés = maonès/J
-// marés = marès/J
-// marsellés = marsellès/J
+ent=manumés manumesa^cat1=adj.^mrc1=201
+ent=maonés maonesa^cat1=adj. i m. i f.^mrc1=201
+ent=marés maresa^cat1=adj. i m.^mrc1=201
+ent=marsellés marsellesa^cat1=adj. i m. i f.^mrc1=201
 ent=malvendre^cat1=v. tr.^mrc1=201
-// medinés = medinès/J
+ent=medinés medinesa^cat1=adj. i m. i f.^mrc1=201
 ent=mercé^cat1=f.^mrc1=201^com1=mercés
 ent=meréixer^cat1=v. tr. i pron.^mrc1=201
 ent=mesitilé^cat1=m.^mrc1=201
 ent=metilé^cat1=m.^mrc1=201
-// milanés = milanès/J
+ent=milanés milanesa^cat1=adj. i m. i f.^mrc1=201
 ent=milé milena^cat1=adj. i m.^mrc1=201
 ent=miocé miocena^cat1=adj. i m.^mrc1=201
-// moçambiqués = moçambiquès/J
+ent=moçambiqués moçambiquesa^cat1=adj. i m. i f.^mrc1=201
 ent=molibdé^cat1=m.^mrc1=201
 ent=monopiré monopirena^cat1=adj.^mrc1=201
 ent=moré morena^cat1=adj.^mrc1=201
-// morrofés = morrofès/J
+ent=morrofés morrofesa^cat1=adj.^mrc1=201
 ent=mossényer^cat1=m.^mrc1=201
-// muntanyés = muntanyès/J
+ent=muntanyés muntanyesa^cat1=adj. i m. i f.^mrc1=201
 ent=naftacé^cat1=m.^mrc1=201
 ent=naftalé^cat1=m.^mrc1=201
 ent=nafté^cat1=m.^mrc1=201
-// narbonés = narbonès/J
+ent=narbonés narbonesa^cat1=adj. i m. i f.^mrc1=201
 ent=natzaré natzarena^cat1=adj. i m. i f.^mrc1=201
-// navarrés = navarrès/J
+ent=navarrés navarresa^cat1=adj. i m. i f.^mrc1=201
 ent=nédol^cat1=m.^mrc1=201
-// neerlandés = neerlandès/J
+ent=neerlandés neerlandesa^cat1=adj. i m. i f.^mrc1=201
 ent=neopré^cat1=m.^mrc1=201
-// neozelandés = neozelandès/J
-// nepalés = nepalès/J
+ent=neozelandés neozelandesa^cat1=adj. i m. i f.^mrc1=201
+ent=nepalés nepalesa^cat1=adj. i m. i f.^mrc1=201
 ent=nicé nicena^cat1=adj. i m. i f.^mrc1=201
-// nigerocongolés = nigerocongolès/J
+ent=nigerocongolés nigerocongolesa^cat1=adj.^mrc1=201
 ent=nitrobenzé^cat1=m.^mrc1=201
-// nivernés = nivernès/J
+ent=nivernés nivernesa^cat1=adj. i m. i f.^mrc1=201
 ent=noranté norantena^cat1=adj. i m.^mrc1=201
-// novaiorqués = novaiorquès/J
+ent=novaiorqués novaiorquesa^cat1=adj. i m. i f.^mrc1=201
 ent=nové novena^cat1=adj. i m.^mrc1=201
-// obés = obès/J
+ent=obés obesa^cat1=adj. i m. i f.^mrc1=201
 ent=oboé^cat1=m.^mrc1=201^com1=oboés
 ent=obscé obscena^cat1=adj.^mrc1=201
 ent=ofendre^cat1=v. tr.^cat2=pron.^mrc1=201
 ent=oligocé oligocena^cat1=adj. i m.^mrc1=201
 ent=onzé onzena^cat1=adj. i m.^mrc1=201
-// pagés = pagès/J
-// pakistanés = pakistanès/J
+ent=pagés pagesa^cat1=adj. i m. i f.^mrc1=201
+ent=pakistanés pakistanesa^cat1=adj. i m. i f.^mrc1=201
 ent=palafré^cat1=m.^mrc1=201
 ent=paleocé paleocena^cat1=adj. i m.^mrc1=201
-// palés = palès/J
+ent=palés palesa^cat1=adj.^mrc1=201
 ent=palmarés^cat1=m.^mrc1=201
 ent=palmiré palmirena^cat1=adj. i m. i f.^mrc1=201
-// pamplonés = pamplonès/J
+ent=pamplonés pamplonesa^cat1=adj. i m. i f.^mrc1=201
 ent=paréixer^cat1=v. intr.^mrc1=201
 ent=patués^cat1=m.^mrc1=201
 ent=pavés^cat1=m.^mrc1=201
 ent=pedraplé^cat1=m.^mrc1=201
 ent=penté^cat1=m.^mrc1=201
-// pequinés = pequinès/J
+ent=pequinés pequinesa^cat1=adj. i m. i f.^mrc1=201
 ent=perilé^cat1=m.^mrc1=201
-// perpinyanés = perpinyanès/J
+ent=perpinyanés perpinyanesa^cat1=adj. i m. i f.^mrc1=201
 ent=pesabebés^cat1=m.^com1=inv.^mrc1=201
 ent=pésol^cat1=m.^mrc1=201
-// piemontés = piemontès/J
+ent=piemontés piemontesa^cat1=adj. i m. i f.^mrc1=201
 ent=piré^cat1=m.^mrc1=201
 ent=piroxé^cat1=m.^mrc1=201
 ent=pliocé pliocena^cat1=adj. i m.^mrc1=201
@@ -260,17 +264,17 @@ ent=polié^cat1=m.^mrc1=201
 ent=poliestiré^cat1=m.^mrc1=201
 ent=polietilé^cat1=m.^mrc1=201
 ent=polité^cat1=m.^mrc1=201
-// polonés = polonès/J
-// portugués = portuguès/J
-// pragués = praguès/J
-// promés = promès/J
+ent=polonés polonesa^cat1=adj. i m. i f.^mrc1=201
+ent=portugués portuguesa^cat1=adj. i m. i f.^mrc1=201
+ent=pragués praguesa^cat1=adj. i m. i f.^mrc1=201
+ent=promés promesa^cat1=m. i f.^mrc1=201
 ent=quaranté quarantena^cat1=adj. i m.^mrc1=201
 ent=quatre-centé quatre-centena^cat1=adj. i m.^mrc1=201
-// quebequés = quebequès/J
+ent=quebequés quebequesa^cat1=adj. i m. i f.^mrc1=201
 ent=querosé^cat1=m.^mrc1=201
 ent=quinzé quinzena^cat1=adj. i m.^mrc1=201
 ent=rapé^cat1=m.^mrc1=201^com1=rapés
-// ravennés = ravennès/J
+ent=ravennés ravennesa^cat1=adj. i m. i f.^mrc1=201
 ent=reaparéixer^cat1=v. intr.^mrc1=201
 ent=rébol^cat1=m.^mrc1=201
 ent=reconéixer^cat1=v. tr.^mrc1=201
@@ -280,18 +284,18 @@ ent=requeté^cat1=m.^mrc1=201^com1=requetés
 ent=restrényer^cat1=v. tr.^mrc1=201
 ent=retrovendre^cat1=v. tr.^mrc1=201
 ent=revendre^cat1=v. tr.^mrc1=201
-// romanés = romanès/J
-// romanyés = romanyès/J
-// rossellonés = rossellonès/J
+ent=romanés romanesa^cat1=adj. i m. i f.^mrc1=201
+ent=romanyés romanyesa^cat1=adj. i m. i f.^mrc1=201
+ent=rossellonés rossellonesa^cat1=adj. i m. i f.^mrc1=201
 ent=ruté rutena^cat1=adj. i m. i f.^mrc1=201
-// rwandés = rwandès/J
+ent=rwandés rwandesa^cat1=adj. i m. i f.^mrc1=201
 ent=safé safena^cat1=adj.^mrc1=201
 ent=sangprés^cat1=m.^mrc1=201
 ent=ségol^cat1=m.^mrc1=201
 ent=seixanté seixantena^cat1=adj. i m.^mrc1=201
 ent=sémola^cat1=f.^mrc1=201
-// senegalés = senegalès/J
-// senés = senès/J
+ent=senegalés senegalesa^cat1=adj. i m. i f.^mrc1=201
+ent=senés senesa^cat1=adj. i m. i f.^mrc1=201
 ent=sénior^cat1=adj. i m. i f.^mrc1=201
 ent=sépia^cat1=f.^mrc1=201
 ent=séquia^cat1=f.^mrc1=201
@@ -299,19 +303,19 @@ ent=servofré^cat1=m.^mrc1=201
 ent=setanté setantena^cat1=adj. i m.^mrc1=201
 ent=seté setena^cat1=adj. i m.^mrc1=201
 ent=setzé setzena^cat1=adj. i m.^mrc1=201
-// siamés = siamès/J
-// sienés = sienès/J
+ent=siamés siamesa^cat1=adj. i m. i f.^mrc1=201
+ent=sienés sienesa^cat1=adj. i m. i f.^mrc1=201
 ent=silé^cat1=m.^mrc1=201
-// singalés = singalès/J
+ent=singalés singalesa^cat1=adj. i m. i f.^mrc1=201
 ent=sirventés^cat1=m.^mrc1=201
 ent=sisé sisena^cat1=adj. i m.^mrc1=201
 ent=sobrealé^cat1=m.^mrc1=201
 ent=sobreentés^cat1=m.^mrc1=201
 ent=sobreplé sobreplena^cat1=adj.^mrc1=201
-// sudanés = sudanès/J
-// suspés = suspès/J
-// tailandés = tailandès/J
-// taiwanés = taiwanès/J
+ent=sudanés sudanesa^cat1=adj. i m. i f.^mrc1=201
+ent=suspés suspesa^cat1=adj. i m. i f.^mrc1=201
+ent=tailandés tailandesa^cat1=adj. i m. i f.^mrc1=201
+ent=taiwanés taiwanesa^cat1=adj. i m. i f.^mrc1=201
 ent=térbol térbola^cat1=adj.^mrc1=201
 ent=térbolament^cat1=adv.^mrc1=201
 ent=terebé^cat1=m.^mrc1=201
@@ -321,14 +325,14 @@ ent=terraplé^cat1=m.^mrc1=201
 ent=terratrémol^cat1=m.^mrc1=201
 ent=terré terrena^cat1=adj.^mrc1=201
 ent=tétol^cat1=m.^mrc1=201
-// timorés = timorès/J
+ent=timorés timoresa^cat1=adj. i m. i f.^mrc1=201
 ent=tiofé^cat1=m.^mrc1=201
-// tirolés = tirolès/J
+ent=tirolés tirolesa^cat1=adj. i m. i f.^mrc1=201
 ent=tirré tirrena^cat1=adj. i m. i f.^mrc1=201
-// togolés = togolès/J
+ent=togolés togolesa^cat1=adj. i m. i f.^mrc1=201
 ent=tolué^cat1=m.^mrc1=201
-// tongalés = tongalès/J
-// torinés = torinès/J
+ent=tongalés tongalesa^cat1=adj. i m. i f.^mrc1=201
+ent=torinés torinesa^cat1=adj. i m. i f.^mrc1=201
 ent=trémol^cat1=adj. i m.^mrc1=201
 ent=trenté trentena^cat1=adj. i m.^mrc1=201
 ent=tretzé tretzena^cat1=adj. i m.^mrc1=201
@@ -336,13 +340,13 @@ ent=trévol^cat1=m.^mrc1=201
 ent=tungsté^cat1=m.^mrc1=201
 ent=tupé^cat1=m.^mrc1=201^com1=tupés
 ent=txetxé txetxena^cat1=adj. i m. i f.^mrc1=201
-// ucraïnés = ucraïnès/J
-// ugandés = ugandès/J
-// ullprés = ullprès/J
-// valentinés = valentinès/J
+ent=ucraïnés ucraïnesa^cat1=adj. i m. i f.^mrc1=201
+ent=ugandés ugandesa^cat1=adj. i m. i f.^mrc1=201
+ent=ullprés ullpresa^cat1=adj.^mrc1=201
+ent=valentinés valentinesa^cat1=adj. i m. i f.^mrc1=201
 ent=véncer^cat1=v. tr. i intr.^mrc1=201
-// veronés = veronès/J
-// vienés = vienès/J
+ent=veronés veronesa^cat1=adj. i m. i f.^mrc1=201
+ent=vienés vienesa^cat1=adj. i m. i f.^mrc1=201
 ent=vinté vintena^cat1=adj. i m.^mrc1=201
 ent=vosté^cat1=pron.^mrc1=201^com1=vostés
 ent=vuitanté vuitantena^cat1=adj. i m.^mrc1=201
@@ -351,10 +355,10 @@ ent=vuité vuitena^cat1=adj. i m.^mrc1=201
 ent=xanté^cat1=m.^mrc1=201
 ent=xerés^cat1=m.^mrc1=201
 ent=xilé xilena^cat1=adj. i m. i f.^mrc1=201
-// zairés = zairès/J
-// zanzibarés = zanzibarès/J
-// zelandés = zelandès/J
-// zimbabwés = zimbabwès/J
+ent=zairés zairesa^cat1=adj. i m. i f.^mrc1=201
+ent=zanzibarés zanzibaresa^cat1=adj. i m. i f.^mrc1=201
+ent=zelandés zelandesa^cat1=adj. i m. i f.^mrc1=201
+ent=zimbabwés zimbabwesa^cat1=adj. i m. i f.^mrc1=201
 
 // Noms de lletres
 ent=ef^cat1=f.^mrc1=201

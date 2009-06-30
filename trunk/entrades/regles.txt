@@ -34,7 +34,7 @@ Fonts: Diccionari de l'Institut d'Estudis Catalans, primera edició (1996)
        Diccionari d'Ispell, d'Ignasi Labastida
        Recull de gentilicis, de M.M. Ramon i C. Rigo
 Amb aportacions de: Miquel Font, Francesc Xavier Moratinos, Jordi Mas, Jordi Mallach,
-                    Joan Montaner
+                    Joan Montané
 =======================================================================================
 /DESC
 
@@ -262,7 +262,9 @@ REGLA D SFX+ Pronoms personals enclítics darrere vocal
 // ==========================================================================
 
 REGLA E SFX+ Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
-000     0      s           [^as]            # homes  <PLU>
+000     0      s           [^ans]           # homes  <PLU>
+000     0      s           [^í]n			# cànon
+000     ín     ins         ín			    # isospín
 000     0      os          [sx][ct]         # boscos, rostos, textos
 000     ig     jos         [aeo]ig          # rajos, baladrejos, rojos 
 000     a      es          [^cçgju]a        # dones
@@ -303,8 +305,8 @@ REGLA G SFX+ Plurals afegint ns
 000     è      ens         è                # amens
 000     é      ens         é                # vaivens
 000     í      ins         [^aeou]í         # camins
-000     í      ins         [gq]uí           # arlequí
-000     í      ïns         [^gq]uí          # babuïns
+000     í      ins         [gqaeoi]uí       # arlequí, olocauí
+000     í      ïns         [^gqaeoi]uí      # babuïns
 000     í      ïns         [aeo]í           # palaí
 000     ò      ons         ò                # ultrasons
 000     ó      ons         ó                # avions
@@ -325,7 +327,8 @@ REGLA F SFX+ Quatre formes afegint a/s/es (sense o, però també foscos)
 000     0      es          [^aeocçgsux]     # verdes <FPL>
 000     a      es          a                # poetes
 000     0      s           e                # pobres
-000     o      es          o                # fondes
+000     o      es          [^j]o            # fondes
+000     jo     ges         jo 		        # flonges
 000     c      ques        c                # poques
 000     ç      ces         ç                # felices
 000     g      gues        g                # antropòfagues
@@ -418,7 +421,7 @@ REGLA H SFX+ Quatre formes afegint ns
 /REGLA
 
 REGLA J SFX+ Quatre formes afegint a/os/es
-201     ès     és          ès               # ofés (AVL)
+201     ès     és/VY       ès               # ofés (AVL), admet article i de apostrofats
 000     0      a           [^s]             # dolça, laxa    <FEM>
 000     0      a           [^àèéíòóú]s      # agradosa
 000     às     asa         às               # 
@@ -474,9 +477,21 @@ REGLA K SFX+ Quatre formes amb canvi d'accent (accent greu)
 REGLA L SFX+ Quatre formes amb canvi d'accent (accent agut)
 000     ini    ínia        ini              # abissínia     <FEM>
 000     igi    ígia        igi              # frígia
-000     0      s           .                # abissinis     <MPL>
+000     igin   ígina       igin             # perígina
+000     igen   ígena       igen             # fumígena
+000     agen   àgena       agen             # mutàgena
+000     umen   úmena       umen             # energúmena
+000     0      s           i                # abissinis     <MPL>
+000     igin   ígins       igin             # perígins
+000     igen   ígens       igen             # fumígens
+000     agen   àgens       agen             # mutàgens
+000     umen   úmens       umen             # energúmena
 000     ini    ínies       ini              # abissínies    <FPL>
 000     igi    ígies       igi              # frígies
+000     igin   ígines      igin             # perígines
+000     igen   ígenes      igen             # fumígenes
+000     agen   àgenes      agen             # mutàgenes
+000     umen   úmenes      umen             # energúmenes
 /REGLA
 
 // ==========================================================================
@@ -525,9 +540,9 @@ REGLA A SFX+ Primera conjugació regular
 013     dava   d/Z         dava             #    pod
 013     fava   f/Z         fava             #    embaf
 013     gava   g/Z         gava             #    porg
-013     lava   l/Z         lava             #    bel
+013     lava   l/Z         [^·]lava         #    bel
 013     mava   m/Z         mava             #    estim
-013     nava   n/Z         [^ei]nava        #    man
+013     nava   n/Z         [^ein]nava       #    man
 013     pava   p/Z         pava             #    sop
 013     rava   r/Z         rava             #    par, err
 013     sava   s/Z         [^aeious]sava    #    espols, eclips
@@ -577,11 +592,15 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    àvem/Z      ava              # 4. cantàvem
 000     ava    àveu/Z      ava              # 5. cantàveu
 000     ava    aven/Z      ava              # 6. cantaven
-000     ava    í/Z         [^cçgj]ava       # 1. cantí - indicatiu perfet <IPE>
+000     ava    í/Z         [^cçgij]ava      # 1. cantí - indicatiu perfet <IPE>
 000     cava   quí/Z       cava             #    cerquí
 000     çava   cí/Z        çava             #    cací
 000     gava   guí/Z       gava             #    porguí
 000     java   gí/Z        java             #    vengí
+000     iava   í/Z         [aeo]iava        #    espaí, remeí, enjoí
+000     iava   í/Z         [^gq]uiava       #    cruí
+000     ava    í/Z         [gq]uiava        #    esquií, guií
+000     ava    í/Z         [^aeou]iava      #    comercií
 000     ava    ares/Z      ava              # 2. cantares
 000     ava    à/Z         ava              # 3. cantà
 000     ava    àrem/Z      ava              # 4. cantàrem
@@ -1192,6 +1211,8 @@ REGLA T SFX+ Futurs i condicionals a partir de FUT1
 REGLA U SFX+ Formes pures dels verbs en -ir, a partir d'IPR3 (p.e. sent)
 000     0      o/Z         [^gl]            # 1. sento, *lligo, *engulo <IPR>
 014     g      g/Z         g                #    llig
+000     l      lo/Z        ll               #    cull
+014     l      l/Z         ll               #    cull
 014     s      s/Z         s                #    cus
 014     t      t/Z         t                #    sent
 014     y      y/Z         y                #    muny

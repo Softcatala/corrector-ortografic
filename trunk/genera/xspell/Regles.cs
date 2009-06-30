@@ -39,6 +39,7 @@ namespace xspell
 
         public Regles()
         {
+            regles = new Dictionary<string, Regla>();
         }
 
         /// <summary>
@@ -106,6 +107,37 @@ namespace xspell
             Regles regles = new Regles();
             regles.Llegeix(fitxer, nomFitxer, new Marques(true));
             fitxer.Close();
+            return regles;
+        }
+
+        /// <summary>
+        /// Torna una llista de regles que només conté els casos que surten a gros però no a petit.
+        /// </summary>
+        /// <param name="gros">La llista de regles més grossa.</param>
+        /// <param name="petit">La llista de regles més petita.</param>
+        /// <returns>La llista de regles diferència.</returns>
+        public static Regles Diferencia(Regles gros, Regles petit)
+        {
+            //PER_FER: donar un error si un cas surt a petit però no a gros?
+            Regles regles = new Regles();
+            Dictionary<string, bool> dinsPetit = new Dictionary<string, bool>();
+            foreach (Regla regla in petit.regles.Values)
+                foreach (CasRegla cas in regla.Casos)
+                    dinsPetit[cas.ToString()] = true;
+            foreach (Regla regla in gros.regles.Values)
+            {
+                Regla reglaNova = null;
+                foreach (CasRegla cas in regla.Casos)
+                    if (!dinsPetit.ContainsKey(cas.ToString()))
+                    {
+                        if (reglaNova == null)
+                        {
+                            reglaNova = new Regla(regla.Id, regla.Descripcio, regla.EsSufix, regla.EsCombinable);
+                            regles.regles.Add(reglaNova.Id, reglaNova);
+                        }
+                        reglaNova.NouCas(cas);
+                    }
+            }
             return regles;
         }
 
@@ -238,7 +270,7 @@ namespace xspell
 
         private static string[] AdaptaFitxer(String fitxer, CanviaString canvis)
         {
-            String[] linies = File.ReadAllLines(fitxer, Encoding.UTF8);
+            String[] linies = File.ReadAllLines(fitxer, Encoding.Default);
             for (int i = 0; i < linies.Length; i++)
                 linies[i] = AplicaMacros(linies[i], canvis);
             return linies;
@@ -260,7 +292,7 @@ namespace xspell
             
         }
 
-        public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer, CanviaString canvia)
+        public static void GeneraOXT(Regles regles, string dirFitxer, string nomFitxer, CanviaString canvis)
         {
             // genera .oxt
             String path = dirFitxer + nomFitxer + ".oxt";
@@ -271,8 +303,8 @@ namespace xspell
                 zip.AddFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvia, "\r\n"), "dictionaries.xcu", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvia, "\r\n"), "description.xml", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvis, "\r\n"), "dictionaries.xcu", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvis, "\r\n"), "description.xml", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_en.txt", canvia), "release-notes_en.txt", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_ca.txt", canvia), "release-notes_ca.txt", "");
                 zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
@@ -281,7 +313,7 @@ namespace xspell
             // genera update.xml, release-notes_en.txt i release-notes_ca.txt
             path = dirFitxer + nomFitxer + ".update.xml";
             using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8)) {
-                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvia, "\r\n"));
+                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvis, "\r\n"));
             }
             string[] llengues = { "ca", "en" };
             foreach (string llengua in llengues)
@@ -289,57 +321,224 @@ namespace xspell
                 path = dirFitxer + "release-notes_" + llengua + ".html";
                 using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8))
                 {
-                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvia, "\r\n"));
+                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvis, "\r\n"));
                 }
+            }
+        }
+
+        private static List<string> infoAspell;
+        private static string baseAspell;
+
+        /// <summary>
+        /// Prepara per generar el fitxer d'aspell
+        /// </summary>
+        public static void BaseAspell(string dirResultats, string nom, CanviaString canvis, List<string> copyright)
+        {
+            NetejaDirAspell(dirResultats, true);
+            // Posa les dades del fitxer info
+            infoAspell = new List<string>();
+            baseAspell = AplicaMacros("%as_lng%-common", canvis);
+            infoAspell.Add("name_english Catalan");
+            infoAspell.Add("lang ca");
+            string nomAffix = "ca_affix.dat";
+            infoAspell.Add("data-file " + nomAffix);
+            string[] linies = File.ReadAllLines(dirResultats + @"myspell\" + nom + ".myspell.aff", Encoding.Default);
+            EscriuLinies(dirResultats + @"aspell\" + nomAffix, linies, Encoding.Default, "\n");
+            infoAspell.Add("copyright GPLv2");
+            infoAspell.Add(AplicaMacros("version %VERSION%", canvis));
+            infoAspell.Add("complete true");
+            infoAspell.Add("accurate true");
+            infoAspell.Add("author:");
+            infoAspell.Add("  name Joan Moratinos");
+            infoAspell.Add("  email jmo at softcatala org");
+            infoAspell.Add("url http://www.softcatala.org/wiki/Projectes/Corrector_ortografic");
+            CreaFitxerCwl(dirResultats + @"myspell\" + nom + ".myspell.dic", 
+                AplicaMacros(dirResultats + @"aspell\%as_lng%-common.wl", canvis), Encoding.Default, false, 1);
+            infoAspell.Add("");
+            infoAspell.Add("alias ca catalan");
+            infoAspell.Add("dict:");
+            infoAspell.Add(AplicaMacros("  name %as_lang%", canvis));
+            infoAspell.Add(AplicaMacros("  alias %as_lng%", canvis));
+            infoAspell.Add(AplicaMacros("  add %as_lng%-common", canvis));
+            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis);
+            //string nomDat = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lang%.dat"), canvis);
+            string nomDat = Path.GetFullPath(AplicaMacros(dirResultats + @"aspell\%as_lng%.dat", canvis));
+            EscriuLinies(nomDat, dat, Encoding.Default, "\n");
+            //string[] readme = AdaptaFitxer(dirResultats + @"..\aspell\README", canvis);
+            //EscriuLinies(dirResultats + @"aspell\README", readme, Encoding.Default, "\n");
+            EscriuLinies(dirResultats + @"aspell\Copyright", copyright.ToArray(), Encoding.Default, "\n");
+            string[] changes = AdaptaFitxer(dirResultats + @"..\aspell\CHANGES", canvis);
+            string dirDoc = Path.GetFullPath(dirResultats + @"aspell\doc");
+            if (!Directory.Exists(dirDoc))
+                Directory.CreateDirectory(dirDoc);
+            EscriuLinies(dirDoc + @"\ChangeLog", changes, Encoding.Default, "\n");
+        }
+
+        // Neteja el directori aspell
+        private static void NetejaDirAspell(string dirResultats, bool esbBZ2)
+        {
+            // Els fitxers del directori base, excepte, eventualment "*.bz2"
+            string dirBase = Path.GetFullPath(dirResultats + "\\aspell");
+            foreach(string fitxer in Directory.GetFiles(dirBase))
+                if (!fitxer.EndsWith(".bz2") || esbBZ2)
+                    File.Delete(fitxer);
+            // Els directoris, excepte els que comencen per "."
+            string[] dirs = Directory.GetDirectories(dirBase);
+            foreach (string dir in dirs)
+            {
+                if (Path.GetFileName(dir).StartsWith("."))
+                    continue;
+                foreach (string fitxer in Directory.GetFiles(dir, "*.*", SearchOption.AllDirectories))
+                    File.Delete(fitxer);
+                Directory.Delete(dir, true);
             }
         }
 
         /// <summary>
-        /// Genera un fitxer amb dades per a aspell.
+        /// Afegeix una variant d'aspell.
+        /// Genera un fitxer de paraules amb les entrades que no apareixen al fitxer de base.
+        /// Els casos de les regles específiques per a aquesta variant no estan inclosos dins
+        /// el fitxer d'afixos. Per tant (ja que només hi pot haver un fitxer d'afixos) s'han
+        /// de posar totes les entrades desplegades emprant aquests casos.
         /// </summary>
-        public static void GeneraAspell(string dirResultats, string nomMyspell, string nomAspell, CanviaString canvis)
+        /// <param name="dirResultats">El directori base dels resultats.</param>
+        /// <param name="nom">El nom base dels fitxers.</param>
+        /// <param name="canvis">Els canvis que s'han aplicar als macros que apareixen als noms
+        /// i als continguts dels fitxers</param>
+        /// <param name="nomComuns">El nom dels fitxer amb les entrades comunes</param>
+        /// <param name="filtre">Les marques que han de tenir les entrades i els casos de les regles per 
+        /// ser incloses dins el fitxer de paraules.</param>
+        public static void VariantAspell(string dirResultats, string nom, CanviaString canvis, string nomComuns, Marques filtre)
         {
-            Encoding encoding = Encoding.Default;
-            string path = Path.GetFullPath(string.Format(@"{0}\aspell\{1}.aspell.zip", dirResultats, nomAspell));
-            File.Delete(path);
-            using (ZipFile zip = new ZipFile(path))
+            StreamReader sr;
+            sr = new StreamReader(dirResultats + @"myspell\" + nomComuns + @".myspell.dic", Encoding.Default);
+            Dictionary<string, int> comuns = new Dictionary<string, int>(int.Parse(sr.ReadLine()));
+            while (!sr.EndOfStream)
+                comuns.Add(sr.ReadLine(), 1);
+            sr.Close();
+            string affVar = Path.GetFullPath(dirResultats + @"myspell\" + nom + @".myspell.aff");
+            string affCom = Path.GetFullPath(dirResultats + @"myspell\" + nomComuns + @".myspell.aff");
+            Regles reglesDiff = Regles.Diferencia(Regles.LlegeixAff(affVar), Regles.LlegeixAff(affCom));
+            string[] ids = new string[reglesDiff.regles.Count];
+            reglesDiff.regles.Keys.CopyTo(ids, 0);
+            Regex cercaReglesDiff = new Regex("/.*((" + String.Join(")|(", ids) + "))");
+            Regex arrelIFlags = new Regex("^(.*)/(.*)$");
+            Marques totesMarques = new Marques(true);
+            List<string> nous = new List<string>();
+            sr = new StreamReader(dirResultats + @"myspell\" + nom + @".myspell.dic", Encoding.Default);
+            sr.ReadLine();
+            while (!sr.EndOfStream)
             {
-                Queue<string> perEsborrar = new Queue<string>();
-                foreach (string fitxer in Directory.GetFiles(dirResultats + @"..\aspell", "*.*", SearchOption.TopDirectoryOnly))
+                string lin = sr.ReadLine();
+                if (cercaReglesDiff.IsMatch(lin))
                 {
-                    if (fitxer.EndsWith("_affix.dat"))
-                    {
-                        string[] linies = File.ReadAllLines(dirResultats + @"myspell\" + nomMyspell + ".myspell.aff", Encoding.Default);
-                        string nomAff = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        EscriuLinies(nomAff, linies, encoding, "\n");
-                        zip.AddFile(nomAff, "aspell");
-                        perEsborrar.Enqueue(nomAff);
-                    }
-                    else if (fitxer.EndsWith(".cwl"))
-                    {
-                        string nomCwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        CreaFitxerCwl(Path.GetFullPath(dirResultats + @"myspell\" + nomMyspell + ".myspell.dic"), nomCwl, encoding);
-                        zip.AddFile(nomCwl, "aspell");
-                        perEsborrar.Enqueue(nomCwl);
-                    }
-                    else
-                    {
-                        string[] linies = AdaptaFitxer(fitxer, canvis);
-                        string nom = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
-                        EscriuLinies(nom, linies, encoding, "\n");
-                        zip.AddFile(nom, "aspell");
-                        perEsborrar.Enqueue(nom);
-                    }
+                    Match match = arrelIFlags.Match(lin);
+                    string arrel = match.Groups[1].Value, flags = match.Groups[2].Value;
+                    foreach (string id in reglesDiff.regles.Keys)
+                        if (flags.Contains(id))
+                            foreach(CasRegla cas in reglesDiff.regles[id].Casos)
+                                if (cas.EsAplicable(arrel))
+                                {
+                                    List<Mot> arrels = new List<Mot>();
+                                    cas.Genera(arrel, ref arrels, null, reglesDiff, totesMarques, false);
+                                    string nousFlags = (flags == id) ? "" : "/" + flags.Replace(id, "");
+                                    foreach (Mot novaArrel in arrels)
+                                        nous.Add(novaArrel.Forma + nousFlags);
+                                }
                 }
-                zip.Save();
-                while (perEsborrar.Count > 0)
-                    File.Delete(perEsborrar.Dequeue());
+                if (!comuns.ContainsKey(lin))
+                    nous.Add(lin);
             }
+            sr.Close();
+            string nomDiff = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lang%.diff.txt"), canvis);
+            string nomAwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lang%-mes.wl"), canvis);
+            StreamWriter sw = new StreamWriter(nomDiff, false, Encoding.Default);
+            foreach (string lin in nous)
+                sw.WriteLine(lin);
+            sw.Close();
+            CreaFitxerCwl(nomDiff, nomAwl, Encoding.Default, false, 1);
+            File.Delete(nomDiff);
+            infoAspell.Add("");
+            infoAspell.Add("dict:");
+            infoAspell.Add(AplicaMacros("  name %as_lang%", canvis));
+            infoAspell.Add("  add " + baseAspell);
+            infoAspell.Add(AplicaMacros("  add %as_lang%-mes", canvis));
+            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis);
+            string nomDat = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lng%.dat"), canvis);
+            EscriuLinies(nomDat, dat, Encoding.Default, "\n");
         }
 
-        private static char[] illegalsAspell = "0123456789.".ToCharArray();
+        public static void FinalAspell(string dirResultats, string llengua, string versio)
+        {
+            File.WriteAllLines(dirResultats + @"aspell\info", infoAspell.ToArray());
+            File.Copy(dirResultats + @"..\aspell\proc\proc", dirResultats + @"\aspell\proc");
+            string bin = @"\cygwin\bin";
+            ExecuteCommandSync(string.Format("cd {0}\\aspell & path={1};%path% & perl.exe proc", dirResultats, bin));
+            ExecuteCommandSync(string.Format("cd {0}\\aspell & path={1};%path% & bash.exe configure", dirResultats, bin));
+            ExecuteCommandSync(string.Format("cd {0}\\aspell & path={1};%path% & make dist", dirResultats, bin));
+            NetejaDirAspell(dirResultats, false);
+        }
 
-        private static void CreaFitxerCwl(string dic, string cwl, Encoding encoding)
+        //public static void GeneraAspell(string dirResultats, string nomMyspell, string nomAspell, CanviaString canvis)
+        //{
+        //    Encoding encoding = Encoding.Default;
+        //    string path = Path.GetFullPath(string.Format(@"{0}\aspell\{1}.aspell.zip", dirResultats, nomAspell));
+        //    File.Delete(path);
+        //    using (ZipFile zip = new ZipFile(path))
+        //    {
+        //        Queue<string> perEsborrar = new Queue<string>();
+        //        foreach (string fitxer in Directory.GetFiles(dirResultats + @"..\aspell", "*.*", SearchOption.TopDirectoryOnly))
+        //        {
+        //            if (fitxer.EndsWith("_affix.dat"))
+        //            {
+        //                string[] linies = File.ReadAllLines(dirResultats + @"myspell\" + nomMyspell + ".myspell.aff", Encoding.Default);
+        //                string nomAff = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+        //                EscriuLinies(nomAff, linies, encoding, "\n");
+        //                zip.AddFile(nomAff, "aspell");
+        //                perEsborrar.Enqueue(nomAff);
+        //            }
+        //            else if (fitxer.EndsWith(".cwl"))
+        //            {
+        //                string nomCwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+        //                CreaFitxerCwl(Path.GetFullPath(dirResultats + @"myspell\" + nomMyspell + ".myspell.dic"), nomCwl, encoding, true, 1);
+        //                zip.AddFile(nomCwl, "aspell");
+        //                perEsborrar.Enqueue(nomCwl);
+        //            }
+        //            else
+        //            {
+        //                string[] linies = AdaptaFitxer(fitxer, canvis);
+        //                string nom = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\" + Path.GetFileName(fitxer)), canvis);
+        //                EscriuLinies(nom, linies, encoding, "\n");
+        //                zip.AddFile(nom, "aspell");
+        //                perEsborrar.Enqueue(nom);
+        //            }
+        //        }
+        //        zip.Save();
+        //        while (perEsborrar.Count > 0)
+        //            File.Delete(perEsborrar.Dequeue());
+        //    }
+        //}
+
+        ///// <summary>
+        ///// Crea un tar amb els fitxers d'aspell
+        ///// </summary>
+        ///// <param name="dirResultats">El directori de resultats</param>
+        //public static void GeneraTarAspell(string dirResultats, string versio)
+        //{
+        //    string tar = Path.GetFullPath(dirResultats + "\\aspell\\aspell-ca-" + versio + ".tar");
+        //    StringBuilder cmd = new StringBuilder();
+        //    cmd.Append("\\\"Archivos de programa\\7-zip\\7z\" a -ttar " + tar);
+        //    foreach (string fitxer in Directory.GetFiles(dirResultats + @"\aspell", "*.zip", SearchOption.TopDirectoryOnly))
+        //        cmd.Append(" " + Path.GetFullPath(fitxer));
+        //    foreach (string fitxer in Directory.GetFiles(dirResultats + @"..\aspell\readme_tar", "*.*", SearchOption.TopDirectoryOnly))
+        //        cmd.Append(" " + Path.GetFullPath(fitxer));
+        //    ExecuteCommandSync(cmd.ToString());
+        //}
+
+        private static char[] illegalsAspell = "0123456789".ToCharArray();
+        //private static char[] illegalsAspell = "0123456789.".ToCharArray();
+
+        private static void CreaFitxerCwl(string dic, string cwl, Encoding encoding, bool prezip, int unDeCada)
         {
             string exp = cwl + ".exp";
             using (StreamReader ent = new StreamReader(dic, Encoding.Default))
@@ -348,11 +547,15 @@ namespace xspell
                 {
                     sort.NewLine = "\n";
                     ent.ReadLine();
+                    int numLinia = 0;
                     while (!ent.EndOfStream)
                     {
                         string linia = ent.ReadLine();
-                        if (linia.EndsWith("."))
-                            linia = linia.TrimEnd('.');
+                        ++numLinia;
+                        if ((numLinia % unDeCada) != 0)
+                            continue;
+                        //if (linia.EndsWith("."))
+                        //    linia = linia.TrimEnd('.');
                         int barra = linia.IndexOf('/');
                         if ((barra >= 0 && linia.IndexOfAny(illegalsAspell, 0, barra) != -1) || (barra < 0 && linia.IndexOfAny(illegalsAspell) != -1))
                             continue;
@@ -364,7 +567,8 @@ namespace xspell
             StringBuilder cmd = new StringBuilder();
             cmd.Append(bin + "cat.exe " + exp);
             cmd.Append(" | " + bin + "sort.exe");
-            cmd.Append(" | " + bin + "prezip-bin.exe -z");
+            if (prezip)
+                cmd.Append(" | " + bin + "prezip-bin.exe -z");
             cmd.Append(" > " + cwl);
             ExecuteCommandSync(cmd.ToString());
             File.Delete(exp);

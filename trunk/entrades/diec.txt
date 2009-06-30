@@ -850,7 +850,7 @@ ent=acriloïl^cat1=m.
 ent=acrilonitril^cat1=m.
 ent=acrimònia^cat1=f.
 ent=acrimoniós -osa^cat1=adj.
-ent=acritarcs^cat1=m. pl.
+ent=acritarc^cat1=m.
 ent=acrític -a^cat1=adj.
 ent=acritud^cat1=f.
 ent=acro-^com1=o acr-
@@ -1521,7 +1521,7 @@ ent=afillament^cat1=m.
 ent=afillar^cat1=v. tr.^cat2=pron.
 ent=afillat afillada^cat1=m. i f.
 ent=afil·le -a^cat1=adj.
-ent=afil·loforats^cat1=m. pl.
+ent=afil·loforat^cat1=m.
 ent=afillolar^cat1=v. tr.
 ent=afinable^cat1=adj.
 ent=afinació^cat1=f.
@@ -2165,7 +2165,7 @@ ent=alabastrita^cat1=f.
 ent=alabatre^cat1=v. intr.
 ent=alabès -esa^cat1=adj. i m. i f.^cat2=adj.
 ent=alablanc -a^cat1=adj.
-ent=alablau -blava^cat1=adj.
+ent=alablau -ava^cat1=adj.
 ent=alabrent^cat1=m. i f.
 ent=alacaigut -uda^cat1=adj.
 ent=alacantí -ina^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
@@ -2224,7 +2224,7 @@ ent=albacar^cat1=m.
 ent=albada1^cat1=f.
 ent=albada2^cat1=f.
 ent=albadar^cat1=m.
-ent=albader^cat1=m.
+ent=albader -a^cat1=m. i f.
 ent=albadina^cat1=f.
 ent=albaïna^cat1=f.
 ent=albanell^cat1=m.
@@ -2363,8 +2363,8 @@ ent=alcea^cat1=f.
 ent=alcedínids^cat1=m. pl.^cat2=sing.
 ent=àlcids^cat1=m. pl.^cat2=sing.
 ent=alció^cat1=m.
-ent=alcionaris^cat1=m. pl.^cat2=sing.
-ent=alciònids^cat1=m. pl.
+ent=alcionari^cat1=m.
+ent=alciònid^cat1=m.
 ent=alcista^cat1=m. i f.
 ent=alcofoll^cat1=m.
 ent=alcofollar^cat1=v. tr.
@@ -2482,10 +2482,10 @@ ent=alferes^cat1=m. i f.
 ent=alficòs^cat1=m.
 ent=alfil^cat1=m.
 ent=alfòndec^cat1=m.
-ent=alfondeguer^cat1=m.
+ent=alfondeguer alfondeguera^cat1=m. i f.
 ent=alfonsí1^cat1=m.
 ent=alfonsí2 -ina^cat1=adj.^cat2=adj. i m. i f.
-ent=alforger^cat1=m.
+ent=alforger alforgera^cat1=m. i f.
 ent=alforja^cat1=f.
 ent=alforrador -a^cat1=adj.
 ent=alforrament^cat1=m.
@@ -2598,7 +2598,7 @@ ent=alineador alineadora^cat1=m. i f.^cat2=m.
 ent=alineament^cat1=m.
 ent=alinear^cat1=v. tr.
 ent=alineat -ada^cat1=adj.
-ent=alípede^cat1=adj.
+ent=alípede -a^cat1=adj.
 ent=aliquanta^cat1=adj.
 ent=alíquota^cat1=adj.
 ent=aliret^cat1=m.
@@ -2761,7 +2761,7 @@ ent=al·lotípia^cat1=f.
 ent=al·lotípic -a^cat1=adj.
 ent=allotjament^cat1=m.
 ent=allotjar^cat1=v. tr.^cat2=pron.
-ent=al·lotriomorf^cat1=adj.
+ent=al·lotriomorf -a^cat1=adj.
 ent=al·lòtrop^cat1=m.
 ent=al·lotropia^cat1=f.
 ent=al·lotròpic -a^cat1=adj.
@@ -2945,7 +2945,7 @@ ent=altura^cat1=f.^cat2=pl.
 ent=alturó^cat1=m.
 ent=aluata^cat1=m.
 ent=aluda^cat1=f.
-ent=aluder^cat1=m.
+ent=aluder aludera^cat1=m. i f.
 ent=alullar^cat1=v. tr.
 ent=alum^cat1=m.
 ent=alumag^cat1=m.
@@ -3196,7 +3196,7 @@ ent=ametllenca^cat1=f.
 ent=ametller^cat1=m.^com1=o A. communis
 ent=ametllerar^cat1=m.
 ent=ametlló^cat1=m.
-ent=ametrop^cat1=adj. i m. i f.
+ent=ametrop -a^cat1=adj. i m. i f.
 ent=ametropia^cat1=f.
 ent=ametròpic -a^cat1=adj.
 ent=amfetamina^cat1=f.
@@ -3357,7 +3357,7 @@ ent=amonestador -a^cat1=adj. i m. i f.
 ent=amonestament^cat1=m.
 ent=amonestar^cat1=v. tr.
 ent=amoni^cat1=m.
-ent=amoníac^cat1=m.^cat2=adj.^com1=fem. -a
+ent=amoníac -íaca^cat1=m.^cat2=adj.^com1=fem. -a
 ent=amoniacal^cat1=adj.
 ent=amònic -a^cat1=adj.
 ent=amonièmia^cat1=f.
@@ -4632,7 +4632,7 @@ ent=apetonar^cat1=v. tr.
 ent=apetxinat -ada^cat1=adj.
 ent=àpex^cat1=m.
 ent=api^cat1=m.
-ent=apiàcies^cat1=f. pl.
+ent=apiàcia^cat1=f.
 ent=apiadar-se^cat1=v. pron.
 ent=apiari^cat1=m.
 ent=apical^cat1=adj.
@@ -5132,7 +5132,7 @@ ent=arçó^cat1=m.
 ent=arcont^cat1=m.
 ent=arcosa^cat1=f.
 ent=arçosa^cat1=f.
-ent=arcosaures^cat1=m. pl.^cat2=m.
+ent=arcosaure^cat1=m.
 ent=arcosoli^cat1=m.
 ent=arçot^cat1=m.
 ent=arcuació^cat1=f.
@@ -5436,7 +5436,7 @@ ent=arquella^cat1=f.
 ent=arquènteron^cat1=m.
 ent=arqueo-
 ent=arqueobacteri^cat1=m.
-ent=arqueociats^cat1=m. pl.
+ent=arqueociat^cat1=m.
 ent=arqueòfit^cat1=m.
 ent=arqueòleg arqueòloga^cat1=m. i f.
 ent=arqueologia^cat1=f.
@@ -5800,7 +5800,7 @@ ent=artro-^com1=o artr-
 ent=artrobrànquia^cat1=f.
 ent=artròdesi^cat1=f.
 ent=artròdia^cat1=f.
-ent=artròfits^cat1=m. pl.
+ent=artròfit^cat1=m.
 ent=artròlit^cat1=m.
 ent=artròmer^cat1=m.
 ent=artropatia^cat1=f.
@@ -6214,7 +6214,7 @@ ent=astenopia^cat1=f.
 ent=astenosfera^cat1=f.
 ent=aster^cat1=m.
 ent=àster^cat1=m.
-ent=asteràcies^cat1=f. pl.
+ent=asteràcia^cat1=f.
 ent=astereognòsia^cat1=f.
 ent=astèria^cat1=f.
 ent=asterisc^cat1=m.
@@ -6399,7 +6399,7 @@ ent=àtic -a^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
 ent=àticament^cat1=adv.
 ent=aticisme^cat1=m.
 ent=aticista^cat1=adj. i m. i f.
-ent=atifells^cat1=m. pl.
+ent=atifell^cat1=m.
 ent=atipador -a^cat1=adj.
 ent=atipament^cat1=m.
 ent=atipar^cat1=v. tr.^cat2=pron.
@@ -13445,7 +13445,7 @@ ent=cimall^cat1=m.
 ent=cimallejar^cat1=v. intr.
 ent=cimar^cat1=v. tr.
 ent=cimbaler cimbalera^cat1=m. i f.
-ent=címbals^cat1=m. pl.
+ent=címbal^cat1=m.
 ent=cimbell^cat1=m.
 ent=cimbiforme^cat1=adj.
 ent=cimbori^cat1=m.
@@ -15114,7 +15114,7 @@ ent=concassar^cat1=v. tr.
 ent=concatenació^cat1=f.
 ent=concatenar^cat1=v. tr.
 ent=concatenat -ada^cat1=adj.
-ent=còncau -ava^cat1=adj.
+ent=còncau còncava^cat1=adj.
 ent=concausa^cat1=f.
 ent=concavat -ada^cat1=adj.
 ent=concavitat^cat1=f.
@@ -24096,7 +24096,7 @@ ent=endemisme^cat1=m.
 ent=endengat -ada^cat1=adj.
 ent=endentar^cat1=v. tr.^cat2=pron.
 ent=endenyar^cat1=v. tr.^cat2=pron.
-ent=endergues^cat1=f. pl.
+ent=enderga^cat1=f.
 ent=enderiar-se^cat1=v. pron.
 ent=enderroc^cat1=m.^cat2=pl.
 ent=enderrocador -a^cat1=adj. i m. i f.^cat2=m.
@@ -28732,7 +28732,7 @@ ent=eternitat^cat1=f.
 ent=eternitzar^cat1=v. tr.^cat2=pron.
 ent=eteròman -a^cat1=adj. i m. i f.
 ent=eteromania^cat1=f.
-ent=etesi^cat1=adj.
+ent=etesi -èsia^cat1=adj.
 ent=etí^cat1=m.
 ent=ètic1 -a^cat1=adj.^cat2=f.
 ent=ètic2 -a^cat1=adj.
@@ -28869,7 +28869,7 @@ ent=eustigmatofícies^cat1=f. pl.^cat2=sing.
 ent=eutanàsia^cat1=f.
 ent=eutèctic -a^cat1=adj.^cat2=m.
 ent=eutectoide^cat1=m.
-ent=euteris^cat1=m. pl.
+ent=euteri^cat1=m.
 ent=eutèxia^cat1=f.
 ent=eutòcia^cat1=f.
 ent=eutrapèlia^cat1=f.
@@ -32916,10 +32916,10 @@ ent=gastament^cat1=m.
 ent=gastar^cat1=v. tr.^cat2=pron.
 ent=gastero-
 ent=gasteromicets^cat1=m. pl.^cat2=sing.
-ent=gasteròpodes^cat1=m. pl.
+ent=gasteròpode^cat1=m.
 ent=gasterosteids^cat1=m. pl.^cat2=sing.
 ent=gasterosteïformes^cat1=m. pl.^cat2=sing.
-ent=gasteròtrics^cat1=m. pl.
+ent=gasteròtric^cat1=m.
 ent=gastràlgia^cat1=f.
 ent=gastrectomia^cat1=f.
 ent=gàstric -a^cat1=adj.
@@ -33427,7 +33427,7 @@ ent=ginjolenc ginjolenca^cat1=m. i f.
 ent=ginjoler^cat1=m.
 ent=ginkgo^cat1=m.
 ent=ginkgoàcies^cat1=f. pl.^cat2=sing.
-ent=ginkgoates^cat1=f. pl.
+ent=ginkgoata^cat1=f.
 ent=ginkgòpsids^cat1=m. pl.^cat2=sing.
 ent=gino-^com1=o gin-
 ent=ginodioècia^cat1=f.
@@ -33605,7 +33605,7 @@ ent=glicocol·la^cat1=f.
 ent=glicocorticoide^cat1=m.
 ent=glicogen -ògena^cat1=adj.^cat2=m.
 ent=glicol^cat1=m.
-ent=glicòlic^cat1=adj.
+ent=glicòlic -òlica^cat1=adj.
 ent=glicolípid^cat1=m.
 ent=glicòlisi^cat1=f.
 ent=gliconeogènesi^cat1=f.
@@ -34664,7 +34664,7 @@ ent=gustós -osa^cat1=adj.
 ent=gustosament^cat1=adv.
 ent=gutació^cat1=f.
 ent=gutaperxa^cat1=f.
-ent=gutíferes^cat1=f. pl.
+ent=gutífera^cat1=f.
 ent=gutural^cat1=adj.
 ent=guturo-
 ent=gutxets^cat1=m. pl.
@@ -34728,7 +34728,7 @@ ent=halòfil -a^cat1=adj.
 ent=halòfit^cat1=m.
 ent=halòfob -a^cat1=adj.
 ent=haloform^cat1=m.
-ent=halogen^cat1=m.^cat2=pl.^cat3=adj.
+ent=halogen -ògena^cat1=m.^cat2=pl.^cat3=adj.
 ent=halogenació^cat1=f.
 ent=halogenant^cat1=adj. i m. i f.
 ent=halogenat -ada^cat1=adj.
@@ -34917,7 +34917,7 @@ ent=hemiacetal^cat1=m.
 ent=hemicel·lulosa^cat1=f.
 ent=hemicicle^cat1=m.
 ent=hemicíclic -a^cat1=adj.
-ent=hemicordats^cat1=m. pl.
+ent=hemicordat^cat1=m.
 ent=hemicrània^cat1=f.
 ent=hemicriptòfit^cat1=m.
 ent=hemiedre^cat1=m.^com1=o hemíedre
@@ -35015,7 +35015,7 @@ ent=heptè^cat1=m.
 ent=hepthemímera^cat1=adj.
 ent=heptil^cat1=m.
 ent=heptilè^cat1=m.
-ent=heptílic^cat1=adj.
+ent=heptílic -ílica^cat1=adj.
 ent=hèptode^cat1=m.
 ent=herald^cat1=m.
 ent=heràldic -a^cat1=adj.^cat2=f.
@@ -35112,7 +35112,7 @@ ent=hessià -ana^cat1=adj.
 ent=hetera^cat1=f.
 ent=hetero-^com1=o heter-
 ent=heteroàtom^cat1=m.
-ent=heteroatòmic^cat1=adj.
+ent=heteroatòmic -òmica^cat1=adj.
 ent=heterocarp -a^cat1=adj.
 ent=heterocàrpic -a^cat1=adj.
 ent=heterocíclic -a^cat1=adj.
@@ -38640,7 +38640,7 @@ ent=iodo-
 ent=iodoform^cat1=m.
 ent=iodometria^cat1=f.
 ent=iodomètric -a^cat1=adj.
-ent=iodós^cat1=adj.
+ent=iodós -osa^cat1=adj.
 ent=iodoteràpia^cat1=f.
 ent=iodur^cat1=m.
 ent=ioduració^cat1=f.
@@ -40819,7 +40819,7 @@ ent=llobató^cat1=m.
 ent=llobera^cat1=f.
 ent=llobí^cat1=m.
 ent=llobina^cat1=f.
-ent=llòbrec -ega^cat1=adj.
+ent=llòbrec -òbrega^cat1=adj.
 ent=lloc^cat1=m.
 ent=lloca^cat1=f.^cat2=adj.
 ent=llocada^cat1=f.
@@ -45175,7 +45175,7 @@ ent=mustela^cat1=f.
 ent=mustèlids^cat1=m. pl.^cat2=sing.
 ent=musti mústia^cat1=adj.
 ent=mustiar^cat1=v. tr.
-ent=mústic -iga^cat1=adj.
+ent=mústic -ústiga^cat1=adj.
 ent=mustiesa^cat1=f.
 ent=mústigament^cat1=adv.
 ent=mustigar^cat1=v. tr.
@@ -52126,7 +52126,7 @@ ent=pouaire^cat1=m. i f.
 ent=pouar^cat1=v. tr.
 ent=pouataire^cat1=m. i f.
 ent=pouater pouatera^cat1=m. i f.
-ent=pràcrit^cat1=adj.^cat2=m.
+ent=pràcrit -a^cat1=adj.^cat2=m.
 ent=pràctic -a^cat1=adj.^cat2=m. i f.
 ent=pràctica^cat1=f.
 ent=practicable^cat1=adj.
@@ -62085,7 +62085,7 @@ ent=teleobjectiu^cat1=m.
 ent=teleologia^cat1=f.
 ent=teleològic -a^cat1=adj.
 ent=teleosaure^cat1=m.
-ent=teleosti^cat1=adj.^cat2=m. pl.^cat3=sing.
+ent=teleosti -òstia^cat1=adj.^cat2=m. pl.^cat3=sing.
 ent=telepatia^cat1=f.
 ent=telepàtic -a^cat1=adj.
 ent=telepàticament^cat1=adv.
@@ -65849,7 +65849,7 @@ ent=ventresca^cat1=f.
 ent=ventri-
 ent=ventricle^cat1=m.
 ent=ventricular^cat1=adj.
-ent=ventríloc -oqua^cat1=adj. i m. i f.
+ent=ventríloc -íloqua^cat1=adj. i m. i f.
 ent=ventrilòquia^cat1=f.
 ent=ventro-^com1=o ventri-
 ent=ventrut -uda^cat1=adj.

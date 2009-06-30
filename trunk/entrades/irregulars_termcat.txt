@@ -1,3 +1,4 @@
 // Irregulars de termcat.txt
 
 crudité: PLU=crudités
+tiramisú: PLU=tiramisús

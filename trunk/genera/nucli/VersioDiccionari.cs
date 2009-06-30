@@ -60,6 +60,15 @@ namespace Genera
         }
 
         /// <summary>
+        /// Notes sobre totes les versions, en format text
+        /// </summary>
+        /// <param name="cat">Notes en català (true) o anglès (false)</param>
+        public string NotesVersionsRaw(bool cat)
+        {
+            return string.Join("\n", InfoNumeroVersio.NotesRaw(cat).ToArray());
+        }
+
+        /// <summary>
         /// El nom del fitxer.
         /// No inclou els eventuals prefixos i sufixos ni les extensions.
         /// </summary>
@@ -107,22 +116,23 @@ namespace Genera
         static public List<VersioDiccionari> Versions()
         {
             List<VersioDiccionari> llista = new List<VersioDiccionari>();
-            Marques avl = new Marques(false, "201");    // particularitats de l'AVL sense acceptació general
+            Marques nomesAvl = new Marques(false, "201", "202");    // particularitats de l'AVL sense acceptació general
 
             // Cream la versió general
-            VersioDiccionari versio = new VersioDiccionari("catalan", "Versió general", "general", new Marques(true).Menys(avl));
-            versio.Extra("%AS_LANG%", "ca");
+            VersioDiccionari versio = new VersioDiccionari("catalan", "Versió general", "general", new Marques(true).Menys(nomesAvl));
+            versio.Extra("%AS_LNG%", "ca");
+            versio.Extra("%AS_LANG%", "ca-general");
             versio.Extra("%AS_LANGUAGE%", "Catalan");
             versio.Extra("%AS_LANGUAGE_CA%", "Català");
             llista.Add(versio);
 
             // Cream la versió AVL
             versio = new VersioDiccionari("avl", "Versió AVL", "avl", Marques.totes);
-            versio.Extra("%AS_LANG%", "ca_valencia");
+            versio.Extra("%AS_LNG%", "ca-valencia");
+            versio.Extra("%AS_LANG%", "ca-valencia");
             versio.Extra("%AS_LANGUAGE%", "Catalan_valencia");
             versio.Extra("%AS_LANGUAGE_CA%", "Català_valencià");
             llista.Add(versio);
-
 
             return llista;
         }
@@ -187,6 +197,27 @@ namespace Genera
                 return notes;
             }
 
+            /// <summary>
+            /// Notes de totes les versions en format text
+            /// </summary>
+            /// <param name="cat">Si és true, torna les notes en català.
+            /// Si és false, torna les notes en anglès.</param>
+            /// <returns>La llista de totes les versions, de més moderna a més antiga, en format text.</returns>
+            public static List<String> NotesRaw(bool cat)
+            {
+                if (llista == null)
+                    llista = CreaLlista();
+                List<string> notes = new List<string>();
+                foreach (InfoNumeroVersio inv in llista)
+                {
+                    notes.Add(inv.CapRaw(cat));
+                    foreach (NotaVersio nota in inv.notes)
+                        notes.Add(string.Format("    {0}", cat ? nota.Cat : nota.Eng));
+                    notes.Add("");
+                }
+                return notes;
+            }
+
             private string CapHtml(bool cat)
             {
                 if (cat)
@@ -195,6 +226,13 @@ namespace Genera
                     return string.Format("<b>Version {0}</b> ({1})", Numero, data.ToShortDateString());
             }
 
+            private string CapRaw(bool cat)
+            {
+                if (cat)
+                    return string.Format("Versió {0} ({1})", Numero, data.ToShortDateString());
+                else
+                    return string.Format("Version {0} ({1})", Numero, data.ToShortDateString());
+            }
             private InfoNumeroVersio(int n1, int n2, int n3, DateTime data, params NotaVersio[] notes)
             {
                 this.n1 = n1; this.n2 = n2; this.n3 = n3;
@@ -207,6 +245,11 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 1, 5,
+                    new DateTime(2009, 06, 27),
+                    new NotaVersio("Algunes correccions a les regles", "Some corrections in the rules"),
+                    new NotaVersio("Generació d'un fitxer \"oficial\" d'aspell", "Generate an \"official\" dictionary file for aspell")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 1, 4,
                     new DateTime(2009, 03, 11),
                     new NotaVersio("Algunes correccions i addicions", "Some corrections and additions"),

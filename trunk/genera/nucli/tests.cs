@@ -144,7 +144,7 @@ namespace Genera
                     }
                 }
             });
-            grup.NouTest("Més comparacions", delegate(RTest resultat)
+            grup.NouTest("Més comparacions I", delegate(RTest resultat)
             {
                 string[] mots = "a1 a2 a3 a10 a30".Split(" ".ToCharArray());
                 for (int i = 0; i < mots.Length; i++)
@@ -159,6 +159,12 @@ namespace Genera
                         resultat.Assert((cmp1 < 0) && (cmp1 + cmp2 == 0), "{0} < {1} ({2}, {3})", m1, m2, cmp1, cmp2);
                     }
                 }
+            });
+            grup.NouTest("Més comparacions II", delegate(RTest resultat)
+            {
+                string str1 = "abstinguin/C";
+                string str2 = "abstinguin/Z";
+                resultat.Assert(Cat.Cmp(str1, str2) < 0, "{0} < {1}", str1, str2);
             });
             grup.NouTest("Conversió a minúscules", delegate(RTest resultat)
             {
@@ -651,9 +657,9 @@ namespace Genera
                 ee.Add(id.IdentificaEntrada("ent=adduir^cat1=v. tr."));
                 ee.Add(id.IdentificaEntrada("ent=abatre^cat1=v. tr.^cat2=pron."));
                 ee.Add(id.IdentificaEntrada("ent=anglès -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m."));
-                ee.Add(id.IdentificaEntrada("ent=anglés -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.^mrc1=201"));
+                //ee.Add(id.IdentificaEntrada("ent=anglés -esa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.^mrc1=201"));
                 regles.GeneraAffDicHunspell(DirResultats("prova"), ee, new Marques(true, marca201), Cat.Cmp);
-                List<String> llistaSense201 = regles.GeneraFormes(DirResultats("prova.dic"), Marques.totes, false);
+                List<String> llistaSense201 = regles.GeneraFormes(DirResultats("prova.dic"), new Marques(true, marca201), false);
                 regles.GeneraAffDicHunspell(DirResultats("prova"), ee, Marques.totes, Cat.Cmp);
                 List<String> llistaAmb201 = regles.GeneraFormes(DirResultats("prova.dic"), Marques.totes, false);
                 string dif = Compara(llistaSense201, llistaAmb201, 100);

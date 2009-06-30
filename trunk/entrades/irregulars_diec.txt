@@ -79,6 +79,8 @@ agràs: PLU=-assos
 agutí: PLU=-ís
 agà: PLU=agàs
 aiguavés: PLU=-essos
+alficòs: PLU=-ossos
+anfós: PLU=-ossos
 ambigú: PLU=-ús
 amfiox: PLU=amfioxs
 amàs: PLU=-assos
@@ -231,6 +233,7 @@ fa: PLU=fas
 fas: PLU=fassos
 fe2: PLU=fes
 fenàs: PLU=-assos
+fes1: PLU=-essos
 fracàs: PLU=-assos
 framiré: PLU=-és
 fregadís: PLU=-issos
@@ -317,6 +320,7 @@ món: PLU=mons
 nabí: PLU=-ís
 nadís: PLU=-issos
 nansú: PLU=-ús
+napís: PLU=-issos
 nas: PLU=nassos
 negligé: PLU=-és
 nevàs: PLU=-assos
@@ -376,6 +380,7 @@ prejuí: PLU=-ís
 procés: PLU=-essos
 progrés: PLU=-essos
 proís: PLU=-ïssos
+psi: PLU=psis
 puré: PLU=-és
 qualsevol: PLU=qualssevol
 quinqué: PLU=-és
@@ -446,6 +451,7 @@ te1: PLU=tes
 te2: PLU=tes
 tejú: PLU=-ús
 teleesquí: PLU=-ís
+teleprocés: PLU=-essos
 templàs: PLU=-assos
 terròs: PLU=-ossos
 teulís: PLU=-issos
@@ -500,15 +506,15 @@ abdomen: PLU=abdòmens
 aborigen: PLU=aborígens
 aglutinogen: PLU=aglutinògens
 albumen: PLU=albúmens
+al·lergen -èrgena: PRECALC=al·lergen/VY al·lèrgens/Y al·lèrgena/VY al·lèrgenes/Y
 amfigen: PLU=amfígens
 antigen: PLU=antígens
 ascoliquen: PLU=ascolíquens
-autoantigen: PLU=autoantigens
+autoantigen: PLU=autoantígens
 basidioliquen: PLU=basidiolíquens
 calcogen: PLU=calcògens
 caliptrogen: PLU=caliptrògens
 carragahen: PLU=carragàhens
-catecumen catecúmena: PRECALC=catecumen catecúmens catecúmena catecúmenes
 certamen: PLU=certàmens
 cerumen: PLU=cerúmens
 cianogen: PLU=cianògens
@@ -517,18 +523,21 @@ creixen: PLU=créixens
 cromogen: PLU=cromògens
 dermatogen: PLU=dermatògens
 dictamen: PLU=dictàmens
-dolmen: PLU=dólmens
+dolmen: PLU=dòlmens
 duramen: PLU=duràmens
 eben: PLU=ébens
 enclinomen: PLU=enclinòmens
 epifenomen: PLU=epifenòmens
+estiomen -òmena: PRECALC=estiomen/VY estiòmens/Y estiòmena/VY estiòmenes/Y
 estrogen: PLU=estrògens
 examen: PLU=exàmens
+faisandé: PLU=faisandés
 fel·logen: PLU=fel·lògens
 fenomen: PLU=fenòmens
 flamen: PLU=flàmens
-fosgen: PLU=fósgens
+fosgen: PLU=fòsgens
 gasogen: PLU=gasògens
+gemin gèmina: PRECALC=gemin gèmins gèmina gèmines
 germen: PLU=gèrmens
 gluten: PLU=glútens
 gravamen: PLU=gravàmens
@@ -538,12 +547,19 @@ himen: PLU=hímens
 impetigen: PLU=impetígens
 interhalogen: PLU=interhalògens
 intertrigen: PLU=intertrígens
-kelvin: PLU=kélvins
+isoquimen -ímena: PRECALC=isoquimen/VY isoquímens/Y isoquímena/Y isoquímenes/Y
+kelvin: PLU=kèlvins
+khi: PLU=khis
 kremlin: PLU=krémlins
+ksi: PLU=ksis
 lanugen: PLU=lanúgens
 lentigen: PLU=lentígens
 liquen: PLU=líquens
+lleig lletja: PRECALC=lleig lletja lletjos lleigs lletges
 lumen: PLU=lúmens
+lumpen: PLU=lúmpens
+malvapeix: PLU=malvapeixos
+ni1: PLU=nis
 nitrogen: PLU=nitrògens
 noümen: PLU=noúmens
 numen: PLU=númens
@@ -553,7 +569,8 @@ ortohidrogen: PLU=ortohidrògens
 oxigen: PLU=oxígens
 parahidrogen: PLU=parahidrògens
 pepsinogen: PLU=pepsinògens
-pol·len: PLU=pól·lens
+pol·len: PLU=pòl·lens
+pro: PLU=pros
 prolegomen: PLU=prolegòmens
 prurigen: PLU=prurígens
 pseudohalogen: PLU=pseudohalògens
@@ -561,6 +578,9 @@ querogen: PLU=querògens
 roentgen: PLU=roéntgens
 rumen: PLU=rúmens
 semen: PLU=sémens
+sí: PLU=sís
+son2 sa: PRECALC=son sa sos ses
+trigemin -èmina: PRECALC=trigemin trigèmins trigèmina trigèmines
 tripsinogen: PLU=tripsinògens
 urobilinogen: PLU=urobilinògens
 vertigen: PLU=vertígens
@@ -2502,12 +2522,16 @@ macrúrids: NOVACAT=m. & ALT=macrúrid
 macrurs: NOVACAT=m. & ALT=macrur
 madreporaris: NOVACAT=m. & ALT=madreporari
 magnoliàcies: NOVACAT=f. & ALT=magnoliàcia
+magnoliates: NOVACAT=f. & ALT=magnoliata
 magnoliofitins: NOVACAT=m. & ALT=magnoliofití
 malacostracis: NOVACAT=m. & ALT=malacostraci
 mal·lòfags: NOVACAT=m. & ALT=mal·lòfag
 malvàcies: NOVACAT=f. & ALT=malvàcia
+mandibulats: NOVACAT=m. & ALT=mandibulat
 marantàcies: NOVACAT=f. & ALT=marantàcia
 marcancials: NOVACAT=f. & ALT=marcancial
+marcanciates: NOVACAT=f. & ALT=marcanciata
+marcanciòpsids: NOVACAT=m. & ALT=marcanciòpsid
 marsileals: NOVACAT=f. & ALT=marsileal
 mecòpters: NOVACAT=m. & ALT=mecòpter
 melanconials: NOVACAT=f. & ALT=melanconial
@@ -2517,7 +2541,9 @@ meniantàcies: NOVACAT=f. & ALT=meniantàcia
 mènids: NOVACAT=m. & ALT=mènid
 menispermàcies: NOVACAT=f. & ALT=menispermàcia
 meròpids: NOVACAT=m. & ALT=meròpid
+messes: NOVACAT=f. & ALT=messa
 mesozous: NOVACAT=m. & ALT=mesozou
+metateris: NOVACAT=m. & ALT=metateri
 metazous: NOVACAT=m. & ALT=metazou
 metzgerials: NOVACAT=f. & ALT=metzgerial
 microcorifis: NOVACAT=m. & ALT=microcorifi
@@ -2538,7 +2564,7 @@ mobúlids: NOVACAT=m. & ALT=mobúlid
 mòlids: NOVACAT=m. & ALT=mòlid
 mol·luscs: NOVACAT=m. & ALT=mol·lusc
 momòtids: NOVACAT=m. & ALT=momòtid
-monotremes: NOVACAT=m. & ALT=monotreme
+monotremes: NOVACAT=m. & ALT=monotrema
 moràcies: NOVACAT=f. & ALT=moràcia
 mòrids: NOVACAT=m. & ALT=mòrid
 motacíl·lids: NOVACAT=m. & ALT=motacíl·lid
@@ -2588,11 +2614,12 @@ oleàcies: NOVACAT=f. & ALT=oleàcia
 oligoquets: NOVACAT=m. & ALT=oligoquet
 onicòfors: NOVACAT=m. & ALT=onicòfor
 oomicets: NOVACAT=m. & ALT=oomicet
-opilions: NOVACAT=m. & ALT=opilion
+opilions: NOVACAT=m. & ALT=opilió
 opistobranquis: NOVACAT=m. & ALT=opistobranqui
 opistocòmids: NOVACAT=m. & ALT=opistocòmid
 oriòlids: NOVACAT=m. & ALT=oriòlid
 ornitisquis: NOVACAT=m. & ALT=ornitisqui
+ornitodelfs: NOVACAT=m. & ALT=ornitodelf
 ornitòpodes: NOVACAT=m. & ALT=ornitòpode
 ornitorínquids: NOVACAT=m. & ALT=ornitorínquid
 orobancàcies: NOVACAT=f. & ALT=orobancàcia
@@ -2611,6 +2638,7 @@ otídids: NOVACAT=m. & ALT=otídid
 ovins: NOVACAT=m. & ALT=oví
 oxalidàcies: NOVACAT=f. & ALT=oxalidàcia
 paleoteris: NOVACAT=m. & ALT=paleoteri
+palmàcies: NOVACAT=f. & ALT=palmàcia
 palpígrads: NOVACAT=m. & ALT=palpígrad
 pandanàcies: NOVACAT=f. & ALT=pandanàcia
 pandiònids: NOVACAT=m. & ALT=pandiònid
@@ -2656,6 +2684,7 @@ plesiosaures: NOVACAT=m. & ALT=plesiosaure
 pleuronectiformes: NOVACAT=m. & ALT=pleuronectiforme
 pleurotremats: NOVACAT=m. & ALT=pleurotremat
 plumbaginàcies: NOVACAT=f. & ALT=plumbaginàcia
+poàcies: NOVACAT=f. & ALT=poàcia
 podicipèdids: NOVACAT=m. & ALT=podicipèdid
 podicipediformes: NOVACAT=m. & ALT=podicipediforme
 podocarpàcies: NOVACAT=f. & ALT=podocarpàcia
@@ -2665,6 +2694,7 @@ poligalàcies: NOVACAT=f. & ALT=poligalàcia
 poligonàcies: NOVACAT=f. & ALT=poligonàcia
 poliplacòfors: NOVACAT=m. & ALT=poliplacòfor
 polipodiàcies: NOVACAT=f. & ALT=polipodiàcia
+polipodials: NOVACAT=m. & ALT=polipodial
 poliporàcies: NOVACAT=f. & ALT=poliporàcia
 poliquets: NOVACAT=m. & ALT=poliquet
 politricals: NOVACAT=f. & ALT=politrical
@@ -2687,6 +2717,7 @@ prociònids: NOVACAT=m. & ALT=prociònid
 procloròfits: NOVACAT=m. & ALT=procloròfit
 procordats: NOVACAT=m. & ALT=procordat
 progimnospermes: NOVACAT=f. & ALT=progimnosperma
+protopteridíides: NOVACAT=f. & ALT=protopteridíida
 prosimis: NOVACAT=m. & ALT=prosimi
 proteàcies: NOVACAT=f. & ALT=proteàcia
 protists: NOVACAT=m. & ALT=protist
@@ -2729,6 +2760,7 @@ ramfàstids: NOVACAT=m. & ALT=ramfàstid
 ramnàcies: NOVACAT=f. & ALT=ramnàcia
 rànids: NOVACAT=m. & ALT=rànid
 ranunculàcies: NOVACAT=f. & ALT=ranunculàcia
+rebaixadures: NOVACAT=f. & ALT=rebaixadura
 recurviròstrids: NOVACAT=m. & ALT=recurviròstrid
 reids: NOVACAT=m. & ALT=reid
 remízids: NOVACAT=m. & ALT=remízid
@@ -2755,17 +2787,22 @@ salicàcies: NOVACAT=f. & ALT=salicàcia
 salmònids: NOVACAT=m. & ALT=salmònid
 salmoniformes: NOVACAT=m. & ALT=salmoniforme
 salviniàcies: NOVACAT=f. & ALT=salviniàcia
+salviníides: NOVACAT=f. & ALT=salviníida
 santalàcies: NOVACAT=f. & ALT=santalàcia
 sapindàcies: NOVACAT=f. & ALT=sapindàcia
+sapotàcies: NOVACAT=f. & ALT=sapotàcia
 saprolegnials: NOVACAT=f. & ALT=saprolegnial
 sarcopterigis: NOVACAT=m. & ALT=sarcopterigi
 sarcosporidis: NOVACAT=m. & ALT=sarcosporidi
 sarraceniàcies: NOVACAT=f. & ALT=sarraceniàcia
+sarronets: NOVACAT=m. & ALT=sarronet
+saturnals: NOVACAT=adj. i f. & ALT=saturnal
 saures: NOVACAT=m. & ALT=saure
 saurisquis: NOVACAT=m. & ALT=saurisqui
 sauròpodes: NOVACAT=m. & ALT=sauròpode
 sauropterigis: NOVACAT=m. & ALT=sauropterigi
 saxifragàcies: NOVACAT=f. & ALT=saxifragàcia
+selaginel·lals: NOVACAT=f. & ALT=selaginel·lal
 serrànids: NOVACAT=m. & ALT=serrànid
 sifonàpters: NOVACAT=m. & ALT=sifonàpter
 silicoflagel·lats: NOVACAT=m. & ALT=silicoflagel·lat
@@ -2780,6 +2817,7 @@ sinodòntids: NOVACAT=m. & ALT=sinodòntid
 sirènids: NOVACAT=m. & ALT=sirènid
 sirenis: NOVACAT=m. & ALT=sireni
 sítids: NOVACAT=m. & ALT=sítid
+sobrances: NOVACAT=f. & ALT=sobrança
 solanàcies: NOVACAT=f. & ALT=solanàcia
 soleids: NOVACAT=m. & ALT=soleid
 solífugs: NOVACAT=m. & ALT=solífug
@@ -2790,6 +2828,7 @@ suïformes: NOVACAT=m. & ALT=suïforme
 súlids: NOVACAT=m. & ALT=súlid
 taiasuids: NOVACAT=m. & ALT=taiasuid
 taliacis: NOVACAT=m. & ALT=taliaci
+talladures: NOVACAT=f. & ALT=talladura
 tàlpids: NOVACAT=m. & ALT=tàlpid
 tamaricàcies: NOVACAT=f. & ALT=tamaricàcia
 tanàgrids: NOVACAT=m. & ALT=tanàgrid
@@ -2806,6 +2845,7 @@ teràpsids: NOVACAT=m. & ALT=teràpsid
 teris: NOVACAT=m. & ALT=teri
 teròpodes: NOVACAT=m. & ALT=teròpode
 testudínids: NOVACAT=m. & ALT=testudínid
+tetracoral·laris: NOVACAT=m. & ALT=tetracoral·lari
 tetraodontiformes: NOVACAT=m. & ALT=tetraodontiforme
 tetraònids: NOVACAT=m. & ALT=tetraònid
 ticodromàtids: NOVACAT=m. & ALT=ticodromàtid
@@ -2823,11 +2863,13 @@ torpediniformes: NOVACAT=m. & ALT=torpediniforme
 trapàcies: NOVACAT=f. & ALT=trapàcia
 traquilins: NOVACAT=m. & ALT=traquilí
 traquiptèrids: NOVACAT=m. & ALT=traquiptèrid
+tràupids: NOVACAT=m. & ALT=tràupid
 trematodes: NOVACAT=m. & ALT=trematode
 tremel·lals: NOVACAT=f. & ALT=tremel·lal
 trepostomats: NOVACAT=m. & ALT=trepostomat
 tresquiornítids: NOVACAT=m. & ALT=tresquiornítid
 tribonematals: NOVACAT=f. & ALT=tribonematal
+tribofícies: NOVACAT=f. & ALT=tribofícia
 tricolomatàcies: NOVACAT=f. & ALT=tricolomatàcia
 tricomicets: NOVACAT=m. & ALT=tricomicet
 tricòpters: NOVACAT=m. & ALT=tricòpter
@@ -2858,6 +2900,7 @@ ustilaginals: NOVACAT=f. & ALT=ustilaginal
 valerianàcies: NOVACAT=f. & ALT=valerianàcia
 varànids: NOVACAT=m. & ALT=varànid
 vauquerials: NOVACAT=f. & ALT=vauquerial
+velacions: NOVACAT=f. & ALT=velació
 verbenàcies: NOVACAT=f. & ALT=verbenàcia
 verrucarials: NOVACAT=f. & ALT=verrucarial
 vespertiliònids: NOVACAT=m. & ALT=vespertiliònid
@@ -2872,7 +2915,7 @@ xifosurs: NOVACAT=m. & ALT=xifosur
 xinxíl·lids: NOVACAT=m. & ALT=xinxíl·lid
 zeids: NOVACAT=m. & ALT=zeid
 zeïformes: NOVACAT=m. & ALT=zeïforme
-zigentomes: NOVACAT=m. & ALT=zigentome
+zigentomes: NOVACAT=m. & ALT=zigentoma
 zignematofícies: NOVACAT=f. & ALT=zignematofícia
 zigofícies: NOVACAT=f. & ALT=zigofícia
 zigofil·làcies: NOVACAT=f. & ALT=zigofil·làcia

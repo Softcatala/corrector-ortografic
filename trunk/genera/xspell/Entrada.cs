@@ -101,6 +101,14 @@ namespace xspell
                     llistaCompactada.Add(id);
                 }
             }
+            llistaCompactada.Sort(delegate(ItemDic item1, ItemDic item2)
+            {
+                int cmp = comparador(item1.Arrel, item2.Arrel);
+                if (cmp != 0)
+                    return cmp;
+                else
+                    return String.Compare(item1.FlagsComLletres, item2.FlagsComLletres);
+            });
             string[] linies = new string[llistaCompactada.Count];
             for (int i = 0; i < llistaCompactada.Count; i++)
                 linies[i] = llistaCompactada[i].ToString();
