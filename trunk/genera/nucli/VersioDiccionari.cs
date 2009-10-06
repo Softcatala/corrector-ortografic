@@ -245,6 +245,10 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 1, 6,
+                    new DateTime(2009, 10, 6),
+                    new NotaVersio("Moltes paraules invariables (sg=pl) eren tractades com si fossin variables (detectat per Joan Montané)", "Several invariable words (sg=pl) were treated as variable (reported by Joan Montané)")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 1, 5,
                     new DateTime(2009, 06, 27),
                     new NotaVersio("Algunes correccions a les regles", "Some corrections in the rules"),

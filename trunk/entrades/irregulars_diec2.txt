@@ -178,6 +178,7 @@ plagiòstoms: ALT=plagiòstom & NOVACAT=m.
 pleuronèctids: ALT=pleuronèctid & NOVACAT=m.
 pomacèntrids: ALT=pomacèntrid & NOVACAT=m.
 pomatòmids: ALT=pomatòmid & NOVACAT=m.
+primofílices: ALT=primofílice & NOVACAT=f.
 traquínids: ALT=traquínid & NOVACAT=m.
 triàquids: ALT=triàquid & NOVACAT=m.
 tripterígids: ALT=tripterígid & NOVACAT=m.
@@ -258,3 +259,12 @@ tixrí: PLU=-ís
 txa-txa-txa: PLU=txa-txa-txas
 benhaja: PRECALC=benhaja benhages benhagen
 malhaja: PRECALC=malhaja malhages malhagen
+lumpen: PLU=lúmpens
+
+// més mots invariables
+ofegabous: PLU=ofegabous
+ratapeus: PLU=ratapeus
+reposacaps: PLU=reposacaps
+cercatalents: PLU=cercatalents
+passavins: PLU=passavins
+antiavalots: PLU=antiavalots

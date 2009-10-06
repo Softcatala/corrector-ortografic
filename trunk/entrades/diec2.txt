@@ -2450,3 +2450,16 @@ ent=malhaja^cat1=???
 ent=heus ací^cat1=???
 ent=vet ací^cat1=???
 ent=vet aquí^cat1=???
+
+// algunes entrades que faltaven
+
+ent=ciques^cat1=f.
+ent=coreopsis^cat1=f.
+ent=environs^cat1=m. pl.
+ent=fotims^cat1=m. pl.
+ent=frontenis^cat1=m.
+ent=lies^cat1=m.
+ent=paterfamilias^cat1=m.
+ent=primofílices^cat1=f. pl.
+ent=tenis^cat1=m.
+
