@@ -3,5 +3,5 @@ charset iso8859-1
 affix %as_lng%_affix
 affix-compress true
 special ' -*- - -*- · -*- . -**
-rem-sug-split-char -
+sug-split-char -
 store-as lower

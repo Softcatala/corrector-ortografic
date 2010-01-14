@@ -263,8 +263,10 @@ REGLA D SFX+ Pronoms personals enclítics darrere vocal
 
 REGLA E SFX+ Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
 000     0      s           [^ans]           # homes  <PLU>
-000     0      s           [^í]n			# cànon
+000     0      s           [^íéè]n			# cànon
 000     ín     ins         ín			    # isospín
+000     èn     ens         èn			    # aerotrèn
+000     én     ens         én			    # aerotrén
 000     0      os          [sx][ct]         # boscos, rostos, textos
 000     ig     jos         [aeo]ig          # rajos, baladrejos, rojos 
 000     a      es          [^cçgju]a        # dones
@@ -327,8 +329,10 @@ REGLA F SFX+ Quatre formes afegint a/s/es (sense o, però també foscos)
 000     0      es          [^aeocçgsux]     # verdes <FPL>
 000     a      es          a                # poetes
 000     0      s           e                # pobres
-000     o      es          [^j]o            # fondes
+000     o      es          [^jgc]o          # fondes
 000     jo     ges         jo 		        # flonges
+000     go     gues        go 		        # cegues
+000     co     ques        co 		        # anarques
 000     c      ques        c                # poques
 000     ç      ces         ç                # felices
 000     g      gues        g                # antropòfagues

@@ -1,0 +1,208 @@
+// Paraules noves procedents, entre altres, de:
+// - Llibre sobre fra Catany
+// - Llibre de Fra Lluís Jaume
+// - XX del col·legi Es Pont
+// - Miscel·lània Josep Estelrich
+
+allotjador -a			ADJ
+al·lotell					M
+al·lotet					M
+amplíssim -a			ADJ
+antiesclavista			ADJ
+antifrancès -esa		ADJ
+antiinstitucional		ADJ
+antipsiquiatria			F
+aset						M
+atrezzista				ADJ
+autocomplaent		ADJ
+baixmedieval			ADJ
+baixíssim -a				ADJ
+bellíssim -a				ADJ
+berberisc -a			ADJ
+berén						=
+bloquet					M
+borbó						M
+botiflerisme				M
+bunyolada				ADJ
+calentet -a				ADJ
+calop						M
+caríssim -a				ADJ
+catalanoaragonès -esa	ADJ
+catrastrofisme			M
+cintell					M
+claríssim -a				ADJ
+comissariar				V
+conegudíssim -a		ADJ
+contacontes			M+F
+conventualisme		M
+corresponsable		ADJ
+cosenyor -a			ADJ
+cossiolet				M
+cranioscòpia			F
+curatorial				ADJ
+cànyom					M
+desafiant				ADJ
+descoordinació		F
+desdenyable			ADJ
+desestacionalitzador -a		ADJ
+desestacionalitzar	V
+desmemòria				F
+destacadíssim -a		ADJ
+dialectalment			ADV
+digníssim -a			ADJ
+discretori				M
+discretíssim -a			ADJ
+discriminatòriament	ADV
+diversificador -a		ADJ
+dobleret					M
+dolentíssim -a			ADJ
+edafogènesi			F
+educativament		ADV
+electrònicament		ADV
+elevadíssim -a			ADJ
+embulladíssim -a		ADJ
+emocionadament		ADV
+encimentar				V
+enforcament			ADV
+enrevoltar				V
+esbucament			ADV
+escanyadura			F
+escoleta					F
+escriví					?
+esperpènticament	ADV
+estamental				ADJ
+estampeta				F
+estilisme					M
+estoneta				F
+estudiadíssim -a		ADJ
+etnobotànic -a		ADJ
+exhaustivament		ADV
+exigentíssim -a		ADJ
+externalització			F
+externalitzar			V
+facilitador -a			ADJ
+factibilitat				F
+falsíssim -a				ADJ
+famosíssim -a			ADJ
+fefaentment			ADV
+feixet						M
+ferotgement			ADV
+ficadís -issa			ADJ
+formigonament			ADV
+francoespanyol -a	ADJ
+furibundament			ADV
+fílmicament				ADV
+genealògicament		ADV
+generacionalment		ADV
+genèticament			ADV
+geodèsicament		ADV
+guarnicioneria			F
+guitarrístic -a			ADJ
+hispanofília				F
+historicista				ADJ
+historicoartístic -a	ADJ
+homotèrmia				F
+hortet					M
+identificatiu -iva		ADJ
+illeta						F
+immediació				F
+immòtic -a				ADJ
+importantíssim -a		ADJ
+inercialment			ADV
+infantó					M
+infografista				ADJ
+infrahabitatge			M
+inicialment				ADV
+inquietantment		ADV
+inqüestionat -ada		ADJ
+intercultural			ADJ
+intermediació			F
+irosament				ADV
+jovenet					M
+laboralment				ADV
+laurisilva					F
+lingüísticament		ADV
+liornès -esa				ADJ
+llarguíssim -a			ADJ
+llimb						M
+llunyanament			ADV
+lul·lístic -a				ADJ
+l’abans					?
+l’aleshores				?
+l’avui						?
+lúdicament				ADV
+macroesdeveniment	ADV
+macroexposició		F
+mediàticament			ADV
+meteòricament		ADV
+microclimàtic -a		ADJ
+microcàmera			F
+minicomputadora		F
+missionar				V
+mocadoret				M
+modestíssim -a		ADJ
+moltíssim -a			ADJ
+multiculturalitat		F
+muntanyer -a			ADJ
+musculoesquelètic -a	ADJ
+naixeren					?
+naturalístic -a			ADJ
+ornamentalment		ADV
+pastanagó				M
+paternofilial				ADJ
+perillossíssim -a		ADJ
+perimetral				ADJ
+pesadíssim -a			ADJ
+pitiús -üsa				ADJ
+planetàriament		ADV
+politicocultural			ADJ
+politicomilitar			ADJ
+politicosocial			ADJ
+popularíssim -a		ADJ
+posader					M
+potet						M
+predemocràtic -a		ADJ
+presumptament		ADV
+pretesament			ADV
+previsorament			ADV
+primeríssim -a			ADJ
+principatí -ina			ADJ
+prioritàriament			ADV
+profrancès -esa		ADJ	
+prosopogràfic -a		ADJ
+pseudodespatx		M
+pseudofilosòfic -a		ADJ
+pseudofilosòfic -a		ADJ
+pseudoradicalisme	M
+psicoanalíticament	ADV
+psíquicament			ADV
+quadret					M
+rarenc -a				ADJ
+redefinició				F
+reemprar				V
+reim						?
+reinstaurar				V
+reintroduir				V
+reinventar				V
+repressivament		ADV
+ressenyable			ADJ
+revalorització			F
+riquíssim -a				ADJ
+ritualment				ADV
+secretíssim -a			ADJ
+sectorialment			ADV
+severíssim -a			ADJ
+subtitulació				F
+sus						ADV
+tecnològicament		ADV
+temàticament			ADV
+territorialment			ADV
+tudadissa				F
+tumbet					M
+turísticament			ADV
+valorable				ADJ
+vastíssim -a			ADJ
+veneradíssim -a		ADJ
+videoprojector			M
+vitalíciament			ADV
+zoològicament			ADV

@@ -1,0 +1,6 @@
+// Paraules per a la versió valenciana agafades d'AVL
+// (Excepcions)
+
+acometre: PAR=acomés
+canyamís: PLU=canyamissos
+supondre: GER=suponent & PAR=supost & SIM=supongués

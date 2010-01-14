@@ -385,6 +385,48 @@ namespace catala
         private static MorfoGram mgFemPl = new MorfoGram(MorfoGram.eCat.NOM, MorfoGram.eGen.F, MorfoGram.eNbre.PL);
     }
 
+    /// <summary>
+    /// Una paraula que només té singular.
+    /// Pot ser masculina o femenina.
+    /// </summary>
+    class PC_singular : ParadigmaCat
+    {
+        public PC_singular(bool masc)
+            : base(String.Format("Nom {0} singular", masc ? "masculí" : "femení"))
+        {
+            this.masc = masc;
+        }
+
+        public override void Genera(Dictionary<string, string> dades, Dictionary<string, string> excepcions, Marques filtre, List<ItemDic> items)
+        {
+            string arrel = dades["arrel"];
+            if (masc)
+            {
+                if (Paraula.TeVocalInicial(arrel))
+                    AfegeixItem(items, arrel, mgMascSg, mgMascSg, "V", "Y");
+                else
+                    AfegeixItem(items, arrel, mgMascSg, mgMascSg);
+            }
+            else // (femení)
+            {
+                Paraula pArrel = new Paraula(arrel);
+                if (pArrel.VocalInicial)
+                {
+                    if (pArrel.PotApostrofar(true))
+                        AfegeixItem(items, arrel, mgFemSg, mgFemSg, "V", "Y");
+                    else
+                        AfegeixItem(items, arrel, mgFemSg, mgFemSg, "Y");
+                }
+                else
+                    AfegeixItem(items, arrel, mgFemSg, mgFemSg);
+            }
+        }
+
+        private bool masc;
+        private static MorfoGram mgMascSg = new MorfoGram(MorfoGram.eCat.NOM, MorfoGram.eGen.M, MorfoGram.eNbre.SG);
+        private static MorfoGram mgFemSg = new MorfoGram(MorfoGram.eCat.NOM, MorfoGram.eGen.F, MorfoGram.eNbre.SG);
+    }
+
     class PC_verb : ParadigmaCat
     {
         public PC_verb(string desc)

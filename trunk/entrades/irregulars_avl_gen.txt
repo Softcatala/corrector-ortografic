@@ -1,0 +1,105 @@
+// Paraules per a la versió general agafades d'AVL
+// (Excepcions)
+
+acumen: PLU=acúmens
+albaràs: PLU=albarassos
+alcatràs: PLU=alcatrassos
+al·lopol·len: PLU=al·lopòl·lens
+antiarna: PLU=antiarna
+antiblocatge: PLU=antiblocatge
+anticarro: PLU=anticarro
+anticaspa: PLU=anticaspa
+anticorrupció: PLU=anticorrupció
+antiestrès: <<201 <<EXT ALT=antiestrés EXT>> 201>>
+antiguerrilla: PLU=antiguerrilla
+antimàfia: PLU=antimàfia
+antisida: PLU=antisida
+antisistema: PLU=antisistema
+antivaga: PLU=antivaga
+aparer: ALT=aparer
+autoexamen: PLU=autoexàmens
+autoexcloure: GER=autoexcloent & IIM=autoexcloïa & PAR=autoexclos & SIM=autoexclogués
+avantjuí: PLU=avantjuís
+avantmatx: PLU=avantmatxs
+barbàs: PLU=barbassos
+barrabàs: PLU=barrabassos
+bou-salvat: PLU=bou-salvat
+calderís: PLU=calderissos
+caminàs: PLU=caminassos
+camis: PLU=camisos
+capó: PLU=capós
+carbogen: PLU=carbògens
+carrasquís: PLU=carrasquissos
+ciència-ficció: PLU=ciència-ficcions
+cloc-i-piu: PLU=cloc-i-piu
+csi: PLU=csis
+dadà: PLU=dadàs
+deprendre: GER=deprenent & PAR=deprès & SIM=deprengués & IPR3=deprèn
+desimboldre: GER=desimbolent & PAR=mòlt & SIM=desimbolgués
+desomplir-se: IPR3=desompl & -=(IPR[23]|IMP[2]<<!101|PAR!101>>) & +=desomplert<PAR0>/F desomples<IPR2> desomple<IPR3> desomple<IMP2>
+desorde: PLU=desordes desórdens
+eixobrir: IPR3=eixobr & -=(IPR[23]|IMP2) & PAR=obert & +=eixobres<IPR2> eixobre<IPR3> eixobre<IMP2> <<201 eixòbriga<SPR1> eixòbrigues<SPR2> eixòbriga<SPR3> eixòbriguen<SPR6> eixòbriga<IMP3> eixòbriguen<IMP6> 201>>
+entreoir: +=entreous<IPR2> entreou<IPR3> entreou<IMP2> entreouen<IPR6>
+espinàs: PLU=espinassos
+// esser: inclòs a ésser (DIEC)
+fabarràs: PLU=fabarrassos
+faenafuig: PLU=faenafuig
+ferrabràs: PLU=ferrabrassos
+ferrús: PLU=ferrussos
+fideïcometre: fideïcometre: PAR=fideïcomès
+flendi: PLU=flendi
+fotocompondre: GER=fotocomponent & PAR=fotocompost & SIM=fotocompongués
+golden: PLU=góldens
+golfàs: PLU=golfassos
+heliesquí: PLU=heliesquís
+homenàs: PLU=homenassos
+kolkhoz: PLU=kolkhozos
+liqüefer: PAR=liqüefet & IIM=liqüefeia & FUT=liqüefaré & SIM=liqüefés & -=(SPR[1236]|IPR[1236]|IPE[13]|IMP[2346]) & +=liqüefacés/P/(SPR|IMP[346]) liqüefaig<IPR1> liqüefàs<IPR2> liqüefà<IPR3> liqüefan<IPR6> liqüefiu<IPE1> liqüeféu<IPE3> liqüefés<IMP2>
+lulú: PLU=lulús
+malafí: PLU=malafí
+maldormir: IPR3=maldorm
+matagós: PLU=matagossos
+matamón: PLU=matamons
+més-enllà: PLU=més-enllà
+motoesquí: PLU=motoesquís
+multigrau: PLU=multigrau
+multiús: PRECALC=multiús multiusos
+multivisió: PLU=multivisió
+neorococó: PLU=neorococós
+nuvolàs: PLU=nuvolassos
+oix: PLU=oix
+ortoimatge: PLU=ortoimatges ortoimàtgens
+panavisió: PLU=panavisió
+paraesquí: PLU=paraesquís
+paralipomen: PLU=paralipòmens
+paspartú: PLU=paspartús
+pissiganya: PLU=pissiganya
+pissi-pissiganya: PLU=pissi-pissiganya
+politburó: PLU=politburós
+// preconcebre: regular!
+premamà: PLU=premamà
+progestagen: PLU=progestàgens
+quintigemin quintigèmina: PRECALC=quintigemin quintigèmins quintigèmina quintigèmines
+radiodifondre: GER=radiodifonent & PAR=radiodifós & SIM=radiodifongués
+raigràs: PLU=raigrassos
+ravenís: PLU=ravenissos
+resseure: GER=resseient & PAR=ressegut & SIM=ressegués
+revoldre: GER=revolent & SIM=revolgués & PAR=revolt
+roín: PRECALC=roín roïna roïns roïnes
+// sobatre: regular!
+sobrepuig: PLU=sobrepujos sobrepuigs
+sopluig: PLU=soplujos sopluigs
+sovkhoz: PLU=sovkhozos
+subjaure: PAR=subjagut & GER=subjaient & IIM=subjeia & SIM=subjagués & FUT=subjauré & +=subjaure<INF0> subjec<IPR1> subjaus<IPR2> subjau<IPR3> subjau<IMP2> subjauen<IPR6> subjegués/Q/(SPR[1236]|IMP[36]) <<102 subjeim<IPR4> subjeis<IPR5> subjeis<IMP5> 102>>
+submón: PLU=submons
+suborde: PLU=subordes subórdens
+superorde: PLU=superordes superórdens
+surfesquí: PLU=surfesquís
+tallaarròs: PLU=tallaarrossos
+tantra: PLU=tantra
+tapús: PLU=tapussos
+tereré: PLU=tererés
+traspondre: GER=trasponent & PAR=traspost & SIM=traspongués
+ventpluig: PLU=ventplujos ventpluigs
+ves: PLU=vessos
+vimen: PLU=vímens

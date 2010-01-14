@@ -2462,4 +2462,4 @@ ent=lies^cat1=m.
 ent=paterfamilias^cat1=m.
 ent=primofílices^cat1=f. pl.
 ent=tenis^cat1=m.
-
+ent=miliard^cat1=m.

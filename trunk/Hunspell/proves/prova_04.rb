@@ -22,13 +22,13 @@ mots += %w{
 	espényer espés estrényer *iréixer-se malmés manumés meréixer omés paréixer permés promés readmés reaparéixer
 	reconéixer remés restrényer retransmés *revéncer revén sotmés tramés transmés véncer imprés reimprés
 
-	*ele *eme *ene *esse
+	ele eme ene esse
 
 	*deportiste *optimiste *pessimiste *dentiste *electriciste
 
-	*hòmens *imàtgens *térmens *vèrgens *màrgens *jóvens *òrfens *ràvens
+	hòmens imàtgens térmens vèrgens màrgens jóvens òrfens ràvens
 
-	*rapidea *naturalea *durea *tendrea *vellea *bellea *grandea *riquea
+	rapidea naturalea durea tendrea vellea bellea grandea riquea
 
 	*huitava *septuagèsim *octagèsim cinqué sisé seté huité vuité nové desé onzé dotzé vinté centé
 
@@ -38,7 +38,7 @@ mots += %w{
 
 	*mentres *aïna *ahí
 
-	*deprendre *supondre *vore *regallar *escabussar *encanar-se *desnugar *gemecar
+	*deprendre *supondre vore *regallar *escabussar *encanar-se *desnugar *gemecar
 	*engrunsar *arrednir *pantaixar
 
 	aparéixer conéixer paréixer convéncer véncer atényer estrényer meréixer

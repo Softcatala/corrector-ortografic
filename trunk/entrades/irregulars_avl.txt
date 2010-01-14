@@ -49,3 +49,5 @@ retrovendre: MODEL=revendre/rev/retrov
 revendre: GER=revenent & PAR=revenut & IPR3=revén & SIM=revengués & +=revengut<PAR0>/B
 restrényer: PAR=restret
 
+tave: PLU=taves tàvens
+verme: PLU=vermes vérmens

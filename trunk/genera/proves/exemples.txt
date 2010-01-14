@@ -45,6 +45,7 @@
 [DIEC]  ent=donar^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=ind. pr. 2 dónes, 3 dóna
 [DIEC]  ent=dur2^cat1=v. tr.^com1=ger. duent; p. p. dut; ind. pr. duc, duus (o dus), duu (o du), etc.; imperf. duia, etc.; subj. pr. dugui, etc.; imperf. dugués, etc.
 [DIEC2] ent=eixe -a^cat1=adj. i pron.
+[DIEC]  ent=eixir^cat1=v. intr.^com1=ind. pr. ixo, ixes, ix, eixim, eixiu, ixen; subj. pr. ixi, ixis, ixi, eixim, eixiu, ixin
 [DIEC]  ent=ell2 ella^cat1=pron.
 [DIEC]  ent=embeure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com beure
 [DIEC]  ent=enaltir^cat1=v. tr.
@@ -65,12 +66,15 @@
 [DIEC]  ent=imprimir^cat1=v. tr.^com1=p. p. imprès
 [DIEC]  ent=induir^cat1=v. tr.
 [DIEC]  ent=llegir^cat1=v. tr.^cat2=tr. pron.
+[DIEC]  ent=néixer^cat1=v. intr.
+[DIEC]  ent=obrir^cat1=v. tr.^cat2=intr.^cat3=pron.^com1=p. p. obert; ind. pr. 2 obres, 3 obre^com2=o obrir l'ull^com3=o obrir les orelles^com4=o una escola, o  un hospital
 [DIEC]  ent=obtenir^cat1=v. tr.^com1=quant a la flexió, com mantenir
 [DIEC]  ent=omplir^cat1=v. tr.^cat2=pron.^com1=p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
 [DIEC]  ent=partir^cat1=v. tr.^cat2=pron.^cat3=intr.
 [DIEC]  ent=patir^cat1=v. tr.^cat2=intr.
 [DIEC]  ent=plànyer^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=pobre -a^cat1=adj.^cat2=m. i f.
+[DIEC]  ent=reeixir^cat1=v. intr.^com1=ind. pr. reïxo, reïxes, reïx, reeixim, reeixiu, reïxen
 [DIEC]  ent=reomplir^cat1=v. tr.^com1=quant a la flexió, com omplir
 [DIEC]  ent=seure^cat1=v. intr.^com1=ger. seient; p. p. segut; ind. pr. sec, seus, seu, seiem, seieu, seuen; ind. imperf. seia, etc.; subj. pr. segui, etc.; subj. imperf. segués, etc.
 [DIEC]  ent=sobresortir^cat1=v. intr.^com1=quant a la flexió, com sortir

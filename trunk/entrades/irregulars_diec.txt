@@ -2,6 +2,8 @@
 // Entenem com "entrada irregular", aquella que no es pot deduir de "ent" i "cat".
 // Són "irregulars" per al programa que genera els diccionaris.
 
+// Aquest fitxer inclou "irregularitats" agafades d'altres fonts. Per exemple, "vore".
+
 // paraules clau per afegir informació a les entrades
 
 // ALT: s'ha de fer servir una informació alternativa a la del diccionari
@@ -954,13 +956,13 @@ escometre: PAR=escomès
 escórrer: MODEL=córrer/c/esc
 
 // escriure: ger. escrivint; p. p. escrit; ind. pr. 1 escric; subj. pr. escrigui, etc.; subj. imperf. escrivís (o escrigués), etc.
-escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués & +=escriviré/M/SIM
+escriure: NOVACAT=v. tr. i intr. & PAR=escrit/F & GER=escrivint & SIM=escrigués & +=escriviré/M/(SIM|IPE)
 
 // espènyer: p. p. espès
 espènyer: PAR=espès
 
 // ésser1: ger. essent; p. p. estat (també sigut i, en algunes contrades, set); ind. pr. sóc (o só), ets, és, som, sou, són; ind. imperf. era, eres, etc.; ind. perf. fui, fores, fou, fórem, etc.; ind. fut. seré, etc.; cond. seria, etc., o fóra, fores, etc.; subj. pr. sigui, etc.; subj. imperf. fos, fossis, etc. (o sigués, etc.); imper. sigues, sigui, siguem, sigueu, siguin
-ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> som<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> <<009 siga<SPR1> siga<SPR3> siga<IMP3> siguen<IMP6> 009>> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B fóra<CON1> fóres<CON2> fóra<CON3> fórem<CON4> fóreu<CON5> fóren<CON6>
+ésser1: GER=essent & PAR=estat & IIM=era & FUT=seré & -=(IPR|IIM|IPE|SPR|SIM|IMP) & +=sóc<IPR1> só<IPR1> som<IPR1> ets<IPR2> és<IPR3> som<IPR4> sou<IPR5> són<IPR6> era<IIM1> eres<IIM2> era<IIM3> érem<IIM4> éreu<IIM5> eren<IIM6> fui<IPE1> fores<IPE2> fou<IPE3> fórem<IPE4> fóreu<IPE5> foren<IPE6> sigues<IMP2> sigui<IMP3> siguem<IMP4> sigueu<IMP5> siguin<IMP6> <<009 siga<SPR1> siga<SPR3> siga<IMP3> siguen<IMP6> 009>> fos<SIM1> fossis<SIM2> fos<SIM3> fóssim<SIM4> fóssiu<SIM5> fossin<SIM6> sigués/P/(SIM|SPR) sigut<PAR0>/B fóra<CON1> fóres<CON2> fóra<CON3> fórem<CON4> fóreu<CON5> fóren<CON6> esser<INF0>
 
 // estendre: quant a la flexió, com atendre
 estendre: MODEL=atendre/at/est
@@ -1071,7 +1073,7 @@ moure: GER=movent & PAR=mogut & SIM=mogués
 nàixer: IGNORA=1
 
 // néixer: inf. néixer o nàixer; ger. naixent; p. p. nascut; ind. pr. neixo o naixo, neixes o naixes, neix o naix, naixem, naixeu, neixen o naixen; ind. imperf. naixia, etc.; ind. fut. naixeré, etc.; subj. pr. neixi o naixi, neixis o naixis, neixi o naixi, naixem o nasquem, naixeu o nasqueu, neixin o naixin; subj. imperf. naixés o nasqués, etc.
-néixer: GER=naixent & PAR=nascut & IIM=naixia & FUT=naixeré & SIM=nasqués & -=(IPR1|SPR[1236]) & +=neixo<IPR1> naixo<IPR1> neixes<IPR2> neix<IPR3> neixen<IPR6> nesqués/Q/(SPR[1236]|IMP[346]) nasqués/Q/SPR[1236] neixés/Q/SPR[1236] nàixer<INF0>
+néixer: GER=naixent & PAR=nascut & IIM=naixia & FUT=naixeré & SIM=nasqués & -=(IPR1|SPR[1236]) & +=neixo<IPR1> naixo<IPR1> neixes<IPR2> neix<IPR3> neixen<IPR6> nesqués/Q/(SPR[1236]|IMP[346]) nasqués/Q/SPR[1236] neixés/Q/SPR[1236] nàixer<INF0> naixés/P/IPE
 
 // noure: quant a la flexió, com coure; p. p. nogut
 noure: PAR=nogut & GER=noent & IIM=noïa & SIM=nogués
@@ -1255,7 +1257,7 @@ reveure: MODEL=veure/v/rev
 reviure: MODEL=viure1/vi/revi
 
 // riure1: ger. rient; p. p. rigut; ind. pr. ric, rius, riu, riem, rieu, riuen; ind. imperf. reia, etc.; subj. pr. rigui, etc.; subj. imperf. rigués, etc.
-riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués <<201 & += rist<PAR1> ristos<PAR2> rista<PAR3> ristes<PAR4> 201>>
+riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués <<201 & += rist<PAR1> ristos<PAR2> rista<PAR3> ristes<PAR4> 201>> <<102 reim<IPR4> reis<IPR5> reis<IMP5> 102>>
 
 // romandre: ger. romanent; p. p. romàs; ind. pr. 1 romanc, 2 romans, 3 roman; subj. pr. romangui, etc.; subj. imperf. romangués, etc.
 romandre: GER=romanent & PAR=romàs & SIM=romangués
@@ -1602,7 +1604,7 @@ desoir: MODEL=oir/o/deso
 dormir: IPR3=dorm
 
 // eixir: ind. pr. ixo, ixes, ix, eixim, eixiu, ixen; subj. pr. ixi, ixis, ixi, eixim, eixiu, ixin
-eixir: -=(IPR|SPR|IMP[236]) & +=ixo<IPR1> ixes<IPR2> ix<IPR3> ix<IMP2> eixim<IPR4> eixiu<IPR5> ixen<IPR6> ixi<SPR1> ixis<SPR2> ixi<SPR3> ixi<IMP3> eixim<SPR4> eixiu<SPR5> ixin<SPR6> ixin<IMP6>
+eixir: -=(IPR|SPR|IMP[236]) & +=ixo<IPR1> ixes<IPR2> ix<IPR3> ix<IMP2> eixim<IPR4> eixiu<IPR5> ixen<IPR6> ixi<SPR1> ixis<SPR2> ixi<SPR3> ixi<IMP3> eixim<SPR4> eixiu<SPR5> ixin<SPR6> ixin<IMP6> isqués/Q/(IPR1|IPE|SPR|SIM|IMP[346])
 
 // encobrir: p. p. encobert
 encobrir: PAR=encobert
@@ -1671,7 +1673,7 @@ morir: IPR3=mor & PAR=mort
 munyir: IPR3=muny
 
 // obrir: p. p. obert; ind. pr. 2 obres, 3 obre
-obrir: IPR3=obr & -=(IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2> <<201 òbriga<SPR1> òbrigues<SPR2> òbriga<SPR3> òbriguen<SPR6> òbriga<IMP3> òbriguen<IMP6> 201>>
+obrir: IPR3=obr & -=(IPR[23]|IMP2) & PAR=obert & +=obres<IPR2> obre<IPR3> obre<IMP2> <<201 òbric<IPR1> òbriga<SPR1> òbrigues<SPR2> òbriga<SPR3> òbriguen<SPR6> òbriga<IMP3> òbriguen<IMP6> 201>>
 
 // oferir: p. p. ofert
 oferir: <<!101 -=(PAR) & !101>> +=ofert<PAR0>/F
@@ -1680,7 +1682,7 @@ oferir: <<!101 -=(PAR) & !101>> +=ofert<PAR0>/F
 oir: +=ous<IPR2> ou<IPR3> ou<IMP2> ouen<IPR6>
 
 // omplir: p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
-omplir: IPR3=ompl & -=(IPR[23]|IMP[2]<<!101|PAR!101>>) & +=omplert<PAR0>/F omples<IPR2> omple<IPR3> omple<IMP2>
+omplir: IPR3=ompl & -=(IPR[23]|IMP[2]<<!101|PAR!101>>) & +=omplert<PAR0>/F omples<IPR2> omple<IPR3> omple<IMP2> <<201 òmplic<IPR1> òmpliga<SPR1> òmpligues<SPR2> òmpliga<SPR3> òmpliguen<SPR6> òmpliga<IMP3> òmpliguen<IMP6> 201>>
 
 // pellobrir-se: quant a la flexió, com obrir
 pellobrir-se: MODEL=obrir/ob/pellob
@@ -1734,7 +1736,8 @@ recosir: MODEL=cosir/c/rec
 redescobrir: -=(PAR) & +=redescobert<PAR0>/F
 
 // reeixir: ind. pr. reïxo, reïxes, reïx, reeixim, reeixiu, reïxen
-reeixir: -=(IPR|IMP2) & +=reïxo<IPR1> reïxes<IPR2> reïx<IPR3> reïx<IMP2> reeixim<IPR4> reeixiu<IPR5> reïxen<IPR6>
+// reeixir: -=(IPR|IMP2|SPR) & +=reïxo<IPR1> reïxes<IPR2> reïx<IPR3> reïx<IMP2> reeixim<IPR4> reeixiu<IPR5> reïxen<IPR6> reïxés/P/(SPR)
+reeixir: -=(IPR|SPR|IMP[236]) & +=reïxo<IPR1> reïxes<IPR2> reïx<IPR3> reïx<IMP2> reeixim<IPR4> reeixiu<IPR5> reïxen<IPR6> reïxi<SPR1> reïxis<SPR2> reïxi<SPR3> reïxi<IMP3> reeixim<SPR4> reeixiu<SPR5> reïxin<SPR6> reïxin<IMP6> reïsqués/Q/(IPR1|IPE|SPR|SIM|IMP[346])
 
 // reimprimir: p. p. reimprès
 reimprimir: MODEL=imprimir/imp/reimp
@@ -2953,6 +2956,7 @@ anomenar: <<013 +=anomèn<IPR1> 013>>
 arenar: <<013 +=arèn<IPR1> 013>>
 asserenar: <<013 +=asserèn<IPR1> 013>>
 atermenar: <<013 +=atermén<IPR1> 013>>
+berenar2: <<013 +=berén<IPR1> 013>>
 cadenar: <<013 +=cadèn<IPR1> 013>>
 carenar: <<013 +=carèn<IPR1> 013>>
 carmenar: <<013 +=carmén<IPR1> 013>>
@@ -3282,3 +3286,29 @@ papadiners: PLU=papadiners
 dins: PLU=dins
 ventafocs: PLU=ventafocs
 moianes: PLU=moianes
+
+// Paraules planes que admeten el plural en -ns (home/hòmens)
+argue: PLU=argues àrguens
+ase: PLU=ases àsens
+bleda-rave: PLU=bleda-raves bleda-ràvens
+claviorgue: PLU=claviorgues claviòrguens
+cofre: PLU=cofres cófrens
+colrave: PLU=colraves colràvens
+cove: PLU=coves còvens
+contraorde: PLU=contraordes contraórdens
+freixe: PLU=freixes fréixens
+gentilhome: PLU=gentilhomes gentilhòmens
+guardatermes: PLU=guardatermes guardatérmens
+home: PLU=homes hòmens
+imatge: PLU=imatges imàtgens
+jove: PLU=joves jóvens
+lleme: PLU=llemes llémens
+marge: PLU=marges màrgens
+orde: PLU=ordes órdens
+orfe òrfena: PRECALC=orfe òrfena orfes òrfens òrfenes
+orgue: PLU=orgues òrguens
+rave: PLU=raves ràvens
+saltamarges: PRECALC= saltamarges saltamàrgens
+superhome: PLU=superhomes superhòmens
+terme: PLU=termes térmens
+verge: PLU=verges vèrgens

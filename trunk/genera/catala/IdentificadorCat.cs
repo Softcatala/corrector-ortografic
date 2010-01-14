@@ -47,6 +47,7 @@ namespace catala
                             nom = true;
                             masc = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "f.":
                         case "f. pop.":
@@ -54,6 +55,7 @@ namespace catala
                             nom = true;
                             fem = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "m. pl.":
                             nom = true;
@@ -70,31 +72,39 @@ namespace catala
                             plural = true;
                             break;
                         case "m. i f.":
+                        case "m. o f.":
                             masc = true;
                             fem = true;
                             nom = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "adj. i m.":
+                        case "m. i adj.":
                             adj = true;
                             masc = true;
                             nom = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "adj. i f.":
+                        case "f. i adj.":
                             adj = true;
                             fem = true;
                             nom = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "adj. i pron.":
                             adj = true;
                             pron = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "adj.":
                             adj = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "adj. i m. i f.":
                         case "adj. i m. i f. pop.":
@@ -103,6 +113,7 @@ namespace catala
                             masc = true;
                             fem = true;
                             sing = true;
+                            plural = true;
                             break;
                         case "prep.":
                             prep = true;
@@ -140,6 +151,7 @@ namespace catala
                             if (!verb)
                                 pron = true;
                             break;
+                        case "v.":
                         case "v. pron.":
                         case "v. tr.":
                         case "v. tr. ant.":
@@ -159,6 +171,16 @@ namespace catala
                             nocat = true;
                             break;
                         case "sing.":
+                            nom = true;
+                            sing = true;
+                            break;
+                        case "m. sing.":
+                            masc = true;
+                            nom = true;
+                            sing = true;
+                            break;
+                        case "f. sing.":
+                            fem = true;
                             nom = true;
                             sing = true;
                             break;
@@ -200,6 +222,8 @@ namespace catala
                     {
                         if (plural && !sing)
                             pars.Add(paradigmes[fem ? "NPF" : "NPM"]);
+                        else if (!plural && sing)
+                            pars.Add(paradigmes[fem ? "NSF" : "NSM"]);
                         else if (masc)
                             pars.Add(Id2(arrel, NM, dades, excepcions));
                         else if (fem)
@@ -574,6 +598,9 @@ namespace catala
             //
             llista["NPM"] = new PC_plural(true);
             llista["NPF"] = new PC_plural(false);
+            //
+            llista["NSM"] = new PC_singular(true);
+            llista["NSF"] = new PC_singular(false);
             //
             llista["???"] = new PC_trossos(new MorfoGram());
             llista["CONJ"] = new PC_trossos(new MorfoGram(MorfoGram.eCat.CONJ));

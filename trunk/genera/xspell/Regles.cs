@@ -268,17 +268,17 @@ namespace xspell
             return inici + resta;
         }
 
-        private static string[] AdaptaFitxer(String fitxer, CanviaString canvis)
+        private static string[] AdaptaFitxer(String fitxer, CanviaString canvis, Encoding encoding)
         {
-            String[] linies = File.ReadAllLines(fitxer, Encoding.Default);
+            String[] linies = File.ReadAllLines(fitxer, encoding);
             for (int i = 0; i < linies.Length; i++)
                 linies[i] = AplicaMacros(linies[i], canvis);
             return linies;
         }
 
-        private static String AdaptaFitxer(String fitxer, CanviaString canvis, string finalLinia)
+        private static String AdaptaFitxer(String fitxer, CanviaString canvis, string finalLinia, Encoding encoding)
         {
-            return String.Join(finalLinia, AdaptaFitxer(fitxer, canvis));
+            return String.Join(finalLinia, AdaptaFitxer(fitxer, canvis, encoding));
         }
 
         private static void EscriuLinies(string fitxer, string[] linies, Encoding encoding, string finalLinia)
@@ -303,8 +303,8 @@ namespace xspell
                 zip.AddFile(dirFitxer + nomFitxer + ".aff", "dictionaries");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LICENSES-en.txt","");
                 zip.AddFile(dirFitxer + @"..\..\OXT\" + "LLICENCIES-ca.txt", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvis, "\r\n"), "dictionaries.xcu", "");
-                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvis, "\r\n"), "description.xml", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "dictionaries.xcu", canvis, "\r\n", Encoding.UTF8), "dictionaries.xcu", "");
+                zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "description.xml", canvis, "\r\n", Encoding.UTF8), "description.xml", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_en.txt", canvia), "release-notes_en.txt", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_ca.txt", canvia), "release-notes_ca.txt", "");
                 zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
@@ -313,7 +313,7 @@ namespace xspell
             // genera update.xml, release-notes_en.txt i release-notes_ca.txt
             path = dirFitxer + nomFitxer + ".update.xml";
             using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8)) {
-                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvis, "\r\n"));
+                sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\update.xml", canvis, "\r\n", Encoding.UTF8));
             }
             string[] llengues = { "ca", "en" };
             foreach (string llengua in llengues)
@@ -321,7 +321,7 @@ namespace xspell
                 path = dirFitxer + "release-notes_" + llengua + ".html";
                 using (StreamWriter sw = new StreamWriter(path, false, Encoding.UTF8))
                 {
-                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvis, "\r\n"));
+                    sw.Write(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_" + llengua + ".html", canvis, "\r\n", Encoding.UTF8));
                 }
             }
         }
@@ -360,14 +360,14 @@ namespace xspell
             infoAspell.Add(AplicaMacros("  name %as_lang%", canvis));
             infoAspell.Add(AplicaMacros("  alias %as_lng%", canvis));
             infoAspell.Add(AplicaMacros("  add %as_lng%-common", canvis));
-            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis);
+            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis, Encoding.Default);
             //string nomDat = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lang%.dat"), canvis);
             string nomDat = Path.GetFullPath(AplicaMacros(dirResultats + @"aspell\%as_lng%.dat", canvis));
             EscriuLinies(nomDat, dat, Encoding.Default, "\n");
             //string[] readme = AdaptaFitxer(dirResultats + @"..\aspell\README", canvis);
             //EscriuLinies(dirResultats + @"aspell\README", readme, Encoding.Default, "\n");
             EscriuLinies(dirResultats + @"aspell\Copyright", copyright.ToArray(), Encoding.Default, "\n");
-            string[] changes = AdaptaFitxer(dirResultats + @"..\aspell\CHANGES", canvis);
+            string[] changes = AdaptaFitxer(dirResultats + @"..\aspell\CHANGES", canvis, Encoding.Default);
             string dirDoc = Path.GetFullPath(dirResultats + @"aspell\doc");
             if (!Directory.Exists(dirDoc))
                 Directory.CreateDirectory(dirDoc);
@@ -454,7 +454,8 @@ namespace xspell
             string nomAwl = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lang%-mes.wl"), canvis);
             StreamWriter sw = new StreamWriter(nomDiff, false, Encoding.Default);
             foreach (string lin in nous)
-                sw.WriteLine(lin);
+                if (lin.Length > 0)
+                    sw.WriteLine(lin);
             sw.Close();
             CreaFitxerCwl(nomDiff, nomAwl, Encoding.Default, false, 1);
             File.Delete(nomDiff);
@@ -463,7 +464,7 @@ namespace xspell
             infoAspell.Add(AplicaMacros("  name %as_lang%", canvis));
             infoAspell.Add("  add " + baseAspell);
             infoAspell.Add(AplicaMacros("  add %as_lang%-mes", canvis));
-            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis);
+            string[] dat = AdaptaFitxer(dirResultats + @"..\aspell\%as_lng%.dat", canvis, Encoding.UTF8);
             string nomDat = AplicaMacros(Path.GetFullPath(dirResultats + @"aspell\%as_lng%.dat"), canvis);
             EscriuLinies(nomDat, dat, Encoding.Default, "\n");
         }
@@ -551,6 +552,8 @@ namespace xspell
                     while (!ent.EndOfStream)
                     {
                         string linia = ent.ReadLine();
+                        if (linia.Length == 0)
+                            continue;
                         ++numLinia;
                         if ((numLinia % unDeCada) != 0)
                             continue;
@@ -566,7 +569,7 @@ namespace xspell
             string bin = @"\cygwin\bin\";
             StringBuilder cmd = new StringBuilder();
             cmd.Append(bin + "cat.exe " + exp);
-            cmd.Append(" | " + bin + "sort.exe");
+            cmd.Append(" | " + bin + "sort.exe -u");
             if (prezip)
                 cmd.Append(" | " + bin + "prezip-bin.exe -z");
             cmd.Append(" > " + cwl);

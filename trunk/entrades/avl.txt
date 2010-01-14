@@ -364,3 +364,7 @@ ent=eme^cat1=f.^mrc1=201
 ent=ene^cat1=f.^mrc1=201
 ent=er^cat1=f.^mrc1=201
 ent=esse^cat1=f.^mrc1=201
+
+// Paraules agafades del lexicó d'AVL (la majoria surten a altres reculls)
+ent=tave^cat1=m.^com1=DGLC
+ent=verme^cat1=m.

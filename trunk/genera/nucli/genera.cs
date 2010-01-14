@@ -75,6 +75,12 @@ namespace Genera
             identificador = new IdentificadorDIEC("AVL", regles, DirEntrades("irregulars_avl.txt"));
             AfegeixLiniaLog("Llegeix les entrades de l'AVL", horaInici, log);
             identificador.LlegeixEntrades(DirEntrades("avl.txt"), entrades, mod);
+            identificador = new IdentificadorDIEC("AVL_gen", regles, DirEntrades("irregulars_avl_gen.txt"));
+            AfegeixLiniaLog("Llegeix les entrades de l'AVL per a la versió general", horaInici, log);
+            identificador.LlegeixEntrades(DirEntrades("avl_gen.txt"), entrades, mod);
+            identificador = new IdentificadorDIEC("AVL_val", regles, DirEntrades("irregulars_avl_val.txt"));
+            AfegeixLiniaLog("Llegeix les entrades de l'AVL per a la versió valenciana", horaInici, log);
+            identificador.LlegeixEntrades(DirEntrades("avl_val.txt"), entrades, mod);
             List<VersioDiccionari> versions = VersioDiccionari.Versions();
             VersioDiccionari versio0 = versions[0];
             foreach (VersioDiccionari versio in versions)

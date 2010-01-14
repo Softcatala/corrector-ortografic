@@ -15,9 +15,11 @@ Alamània
 Albània
 Alemanya
 Alentejo
+Alexandria
 Algarve
 Alger
 Algèria
+Alps
 Alsàcia
 Alvèrnia
 Amèrica
@@ -129,6 +131,7 @@ Carib
 Carpetània
 Cartago
 Carèlia
+Castella
 Caucas
 Celtibèria
 Centreafricana
@@ -196,6 +199,7 @@ Escòcia
 Eslavònia
 Eslovàquia
 Eslovènia
+Esmirna
 Esparta
 Espanya
 Estònia
@@ -347,6 +351,7 @@ Líban
 Líbia
 Lícia
 Lídia
+Macaronèsia
 Macedònia
 Madagascar
 Madura
@@ -363,6 +368,7 @@ Mali
 Malta
 Malvines
 Malàisia
+Managua
 Manxúria
 Marroc
 Marsella
@@ -403,9 +409,11 @@ Mèdia
 Mègara
 Mèxic
 Mònaco
+Mosel·la
 Narbona
 Natzaret
 Nauru
+Navarra
 Nepal
 Nevers
 Nicaragua
@@ -443,12 +451,12 @@ Parma
 Partenopea
 París
 Patagònia
-Països
 Peiteu
 Peloponès
 Pennsilvània
 Pequín
 Perú
+Petersburg
 Picardia
 Piemont
 Pierre
@@ -502,6 +510,7 @@ Saudita
 Savoia
 Saxònia
 Senegal
+Sevilla
 Siam
 Sibèria
 Sicília
@@ -513,6 +522,7 @@ Socialistes
 Sodoma
 Sogdiana
 Somàlia
+Sorbona
 Soviètica
 Soviètiques
 Sri
@@ -531,10 +541,12 @@ Sàsser
 São
 Sèrbia
 Síria
+
 Tadjikistan
 Tahití
 Tailàndia
 Taiwan
+Tànger
 Tanzània
 Tartessos
 Tasmània
@@ -594,6 +606,7 @@ Varsòvia
 Vaud
 Veneçuela
 Venècia
+Veracruz
 Verona
 Viena
 Vietnam

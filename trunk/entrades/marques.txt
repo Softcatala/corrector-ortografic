@@ -29,3 +29,10 @@ myspell
 l'hunspell
 Debian
 l'Ubuntu
+
+UIB
+
+Microsoft
+Windows
+d'iPod
+d'Apple

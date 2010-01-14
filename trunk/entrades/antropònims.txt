@@ -760,7 +760,6 @@ Hilda
 Hildebert
 Hildebrand
 Hildegarda f
-
 Hildegunda f
 Hiltruda f
 Himeri
@@ -784,6 +783,7 @@ Ida
 Idoberga f
 Ifigènia f
 Ignasi
+Ignàsia
 Ildefons
 Ilduara f
 Il·luminat
@@ -820,6 +820,7 @@ Jerònia
 Joan
 Joaquim
 Joaquima
+Juníper
 
 Job
 Joel
@@ -1030,6 +1031,7 @@ Nicòstrat
 Nil
 Nimfa
 Nimfodora
+Nobel
 Non
 Norbert
 Norma
@@ -1048,6 +1050,7 @@ Oleguer
 Olga
 Oliba
 Olimpi
+Olímpia
 Oliba
 Oliver
 Oliveri
@@ -1103,6 +1106,7 @@ Pelagi
 Pelàgia
 Pelegrí
 Penèlope
+Pep
 Perceval
 Pere
 Perfecta
@@ -1126,7 +1130,6 @@ Polidor
 Polixena
 Pompeia
 Pompeu
-
 Pompili
 Pomponi
 Ponç

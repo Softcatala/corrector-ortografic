@@ -640,10 +640,12 @@ SFX D 0 -la-hi .
 SFX D 0 -les-hi .
 SFX D 0 -n'hi .
 
-SFX E Y 12
+SFX E Y 14
 SFX E 0 s [^ans]
-SFX E 0 s [^í]n
+SFX E 0 s [^íéè]n
 SFX E ín ins ín
+SFX E èn ens èn
+SFX E én ens én
 SFX E 0 os [sx][ct]
 SFX E ig jos [aeo]ig
 SFX E a es [^cçgju]a
@@ -654,7 +656,7 @@ SFX E ça ces ça
 SFX E ga gues ga
 SFX E ja ges ja
 
-SFX F Y 16
+SFX F Y 18
 SFX F 0 a [^eosxç]
 SFX F e a e
 SFX F o a o
@@ -664,8 +666,10 @@ SFX F 0 os [sx][ct]
 SFX F 0 es [^aeocçgsux]
 SFX F a es a
 SFX F 0 s e
-SFX F o es [^j]o
+SFX F o es [^jgc]o
 SFX F jo ges jo
+SFX F go gues go
+SFX F co ques co
 SFX F c ques c
 SFX F ç ces ç
 SFX F g gues g

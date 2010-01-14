@@ -1,0 +1,438 @@
+// Paraules per a la versió valenciana agafades d'AVL
+
+ent=ablaürat ablaürada^cat1=adj.^mrc1=201
+ent=abofegar^cat1=v. tr.^mrc1=201
+ent=abollar^cat1=v. intr.^mrc1=201
+ent=abonyar^cat1=v. tr.^mrc1=201
+ent=abotar^cat1=v. tr.^mrc1=201
+ent=abotonar^cat1=v. tr.^mrc1=201
+ent=abranor^cat1=f.^mrc1=201
+ent=abrusir^cat1=v. tr. i pron.^mrc1=201
+ent=acalinar^cat1=v. tr.^mrc1=201
+ent=acaminar^cat1=v. intr.^mrc1=201
+ent=acapolar^cat1=v. tr.^mrc1=201
+ent=acatxorrar^cat1=v. tr.^mrc1=201
+ent=acevar^cat1=v. tr.^mrc1=201
+ent=acevall^cat1=m.^mrc1=201
+ent=acevament^cat1=m.^mrc1=201
+ent=acomesa^cat1=f.^mrc1=201
+ent=acometre^cat1=v. tr.^mrc1=201
+ent=acompassar^cat1=v. tr.^mrc1=201
+ent=acorrufar-se^cat1=v. pron.^mrc1=201
+ent=acorruixar-se^cat1=v. pron.^mrc1=201
+ent=adí^cat1=m. sing.^mrc1=201
+ent=aerotrén^cat1=m.^mrc1=201
+ent=afincar-se^cat1=v. pron.^mrc1=201
+ent=afissament^cat1=m.^mrc1=201
+ent=afissat afissada^cat1=adj.^mrc1=201
+ent=afluixó^cat1=m.^mrc1=201
+ent=afondar^cat1=v. tr.^mrc1=201
+ent=afondiment^cat1=m.^mrc1=201
+ent=afondir^cat1=v. tr.^mrc1=201
+ent=agarbissonar^cat1=v. tr.^mrc1=201
+ent=agimponar-se^cat1=v. pron.^mrc1=201
+ent=agoniar^cat1=v. tr. i pron.^mrc1=201
+ent=agoniós agoniosa^cat1=adj.^mrc1=201
+ent=agosar-se^cat1=v. pron.^mrc1=201
+ent=agudea^cat1=f.^mrc1=201
+ent=ahí^cat1=adv.^mrc1=201
+ent=aiguar^cat1=v. tr.^mrc1=201
+ent=airegada^cat1=f.^mrc1=201
+ent=aixana^cat1=adv.^mrc1=201
+ent=aixara^cat1=f.^mrc1=201
+ent=aixona^cat1=f.^mrc1=201
+ent=alamar^cat1=m.^mrc1=201
+ent=alambic^cat1=m.^mrc1=201
+ent=alamon^cat1=adj.^cat2=adv.^mrc1=201
+ent=albardissa^cat1=f.^mrc1=201
+ent=albardissada^cat1=f.^mrc1=201
+ent=albardonar^cat1=v. tr.^mrc1=201
+ent=albardoner albardonera^cat1=m. i f.^mrc1=201
+ent=albarzeral^cat1=m.^mrc1=201
+ent=albarzeram^cat1=m.^mrc1=201
+ent=albarzerar^cat1=v. tr. i pron.^mrc1=201
+ent=albarzerar^cat1=m.^mrc1=201
+ent=albergina^cat1=f.^mrc1=201
+ent=alberginar^cat1=m.^mrc1=201
+ent=alberginera^cat1=f.^mrc1=201
+ent=alcançar^cat1=v. tr.^mrc1=201
+ent=alcavó^cat1=m.^mrc1=201
+ent=allobir^cat1=v. tr.^mrc1=201
+ent=alluentir^cat1=v. tr.^mrc1=201
+ent=allumenar^cat1=v. tr.^mrc1=201
+ent=allumenat^cat1=m.^mrc1=201
+ent=almànguena^cat1=f.^mrc1=201
+ent=almanguenada^cat1=f.^mrc1=201
+ent=almanguenar^cat1=v. tr.^mrc1=201
+ent=almoraduixí^cat1=m.^mrc1=201
+ent=almoraduix^cat1=m.^mrc1=201
+ent=almugatén^cat1=m.^mrc1=201
+ent=amagatontes^cat1=loc. adv.^mrc1=201
+ent=amanéixer^cat1=v. intr.^mrc1=201
+ent=amodorrar^cat1=v. tr. i pron.^mrc1=201
+ent=amorgonar^cat1=v. tr.^mrc1=201
+ent=amostrar^cat1=v. tr.^mrc1=201
+ent=anouera^cat1=f.^mrc1=201
+ent=anouerar^cat1=m.^mrc1=201
+ent=anoueta^cat1=f.^mrc1=201
+ent=aperear-se^cat1=v. pron.^mrc1=201
+ent=apitjament^cat1=m.^mrc1=201
+ent=apitjar^cat1=v. tr. i intr.^mrc1=201
+ent=apitjat apitjada^cat1=adj. i m.^mrc1=201
+ent=apitonar^cat1=v. intr. i pron.^mrc1=201
+ent=apreador apreadora^cat1=m. i f.^mrc1=201
+ent=apreament^cat1=m.^mrc1=201
+ent=aprear^cat1=v. tr.^mrc1=201
+ent=arrematar^cat1=v. tr.^mrc1=201
+ent=arremullar^cat1=v. tr.^mrc1=201
+ent=arremulló^cat1=m.^mrc1=201
+ent=arrevore^cat1=m.^mrc1=201
+ent=arroglar^cat1=v. tr. i pron.^mrc1=201
+ent=arropiment^cat1=m.^mrc1=201
+ent=arropir-se^cat1=v. pron.^mrc1=201
+ent=arrunsada^cat1=f.^mrc1=201
+ent=arrunsament^cat1=m.^mrc1=201
+ent=arrunsar^cat1=v. tr. i pron.^mrc1=201
+ent=arxipèleg^cat1=m.^mrc1=201
+ent=asseitó^cat1=m.^mrc1=201
+ent=assorrar^cat1=v. tr. i pron.^mrc1=201
+ent=atabollar^cat1=v. tr. i pron.^mrc1=201
+ent=atabollat atabollada^cat1=adj.^mrc1=201
+ent=atroncar-se^cat1=v. pron.^mrc1=201
+ent=atropoll^cat1=m.^mrc1=201
+ent=aveall^cat1=m.^mrc1=201
+ent=aveament^cat1=m.^mrc1=201
+ent=avear^cat1=v. tr. i pron.^mrc1=201
+ent=aveat aveada^cat1=adj.^mrc1=201
+ent=aventador aventadora^cat1=adj. i m. i f.^mrc1=201
+ent=aventamosques^cat1=m.^mrc1=201
+ent=aventar^cat1=v. intr. i pron.^mrc1=201
+ent=aventó^cat1=m.^mrc1=201
+ent=avolumar^cat1=v. tr.^mrc1=201
+ent=babota^cat1=f.^mrc1=201
+ent=bacallarer bacallarera^cat1=adj. i m. i f.^mrc1=201
+ent=bacallareria^cat1=f.^mrc1=201
+ent=bacinilla^cat1=f.^mrc1=201
+ent=baixea^cat1=f.^mrc1=201
+ent=baldavelló^cat1=m.^mrc1=201
+ent=baldòria^cat1=f.^mrc1=201
+ent=baldovell^cat1=m.^mrc1=201
+ent=baldovella^cat1=f.^mrc1=201
+ent=bàlsem^cat1=m.^mrc1=201
+ent=balsemer^cat1=m.^mrc1=201
+ent=balsemera^cat1=f.^mrc1=201
+ent=bambau bambaua^cat1=adj. i m. i f.^mrc1=201
+ent=bambeig^cat1=m.^mrc1=201
+ent=barallofa^cat1=f.^mrc1=201
+ent=baralluga^cat1=f.^mrc1=201
+ent=barallugar^cat1=v. intr.^mrc1=201
+ent=batecul^cat1=m.^mrc1=201
+ent=bellea^cat1=f.^mrc1=201
+ent=bífio bífia^cat1=adj.^mrc1=201
+ent=bollida^cat1=f.^mrc1=201
+ent=bollidor^cat1=m.^mrc1=201
+ent=bolliment^cat1=m.^mrc1=201
+ent=bollir^cat1=v. tr. i intr.^mrc1=201
+ent=bollit bollida^cat1=adj. i m. i f.^mrc1=201
+ent=bollitori^cat1=m.^mrc1=201
+ent=bolo^cat1=m.^mrc1=201
+ent=bonyigo^cat1=m.^mrc1=201
+ent=bonyítol^cat1=m.^mrc1=201
+ent=borrufalla^cat1=f.^mrc1=201
+ent=bovo bova^cat1=adj. i m. i f.^mrc1=201
+ent=brafada^cat1=f.^mrc1=201
+ent=brafejar^cat1=v. intr.^mrc1=201
+ent=brafor^cat1=f.^mrc1=201
+ent=brasilada^cat1=f.^mrc1=201
+ent=brasilam^cat1=m.^mrc1=201
+ent=brasilar^cat1=m.^mrc1=201
+ent=brullo^cat1=m.^mrc1=201
+ent=brusentor^cat1=f.^mrc1=201
+ent=brutea^cat1=f.^mrc1=201
+ent=buborota^cat1=f.^mrc1=201
+ent=bumberol^cat1=m.^mrc1=201
+ent=bumbot^cat1=m.^mrc1=201
+ent=caella^cat1=f.^mrc1=201
+ent=cagarri^cat1=m. i f.^mrc1=201
+ent=cagarrita^cat1=f.^mrc1=201
+ent=cagarrulla^cat1=f.^mrc1=201
+ent=cagarruta^cat1=f.^mrc1=201
+ent=cagarrutada^cat1=f.^mrc1=201
+ent=cagatxoles^cat1=f. pl.^mrc1=201
+ent=canaladura^cat1=f.^mrc1=201
+ent=canasta^cat1=f.^mrc1=201
+ent=canastell^cat1=m.^mrc1=201
+ent=canela^cat1=f.^mrc1=201
+ent=canelera^cat1=f.^mrc1=201
+ent=caneleta^cat1=f.^mrc1=201
+ent=canyamís^cat1=m.^mrc1=201
+ent=caporró^cat1=m.^mrc1=201
+ent=caporrutxa^cat1=f.^mrc1=201
+ent=caporrutxar^cat1=v. tr.^mrc1=201
+ent=caporrutxo^cat1=m.^mrc1=201
+ent=carbonxo^cat1=m.^mrc1=201
+ent=cartapell^cat1=m.^mrc1=201
+ent=cascarra^cat1=f.^mrc1=201
+ent=cascarrar^cat1=v. tr.^mrc1=201
+ent=cascarrejar^cat1=v. intr.^mrc1=201
+ent=cebollada^cat1=f.^mrc1=201
+ent=celestia^cat1=f.^mrc1=201
+ent=certea^cat1=f.^mrc1=201
+ent=citra^cat1=f.^mrc1=201
+ent=clim^cat1=m.^mrc1=201
+ent=consolta^cat1=f.^mrc1=201
+ent=cornial^cat1=m.^mrc1=201
+ent=corruco^cat1=m.^mrc1=201
+ent=cridó cridona^cat1=adj.^mrc1=201
+ent=curtea^cat1=f.^mrc1=201
+ent=deixadea^cat1=f.^mrc1=201
+ent=delicadea^cat1=f.^mrc1=201
+ent=desavear^cat1=v. tr. i pron.^mrc1=201
+ent=desbrafar-se^cat1=v. pron.^mrc1=201
+ent=desbromadora^cat1=f.^mrc1=201
+ent=desbromar^cat1=v. tr.^mrc1=201
+ent=descoscar^cat1=v. tr. i pron.^mrc1=201
+ent=desemmalear^cat1=v. tr.^mrc1=201
+ent=desempereir^cat1=v. tr. i pron.^mrc1=201
+ent=despear-se^cat1=v. pron.^mrc1=201
+ent=despeat despeada^cat1=adj.^mrc1=201
+ent=despereament^cat1=m.^mrc1=201
+ent=desperear-se^cat1=v. pron.^mrc1=201
+ent=despereó^cat1=m.^mrc1=201
+ent=destrea^cat1=f.^mrc1=201
+ent=dihuité dihuitena^cat1=adj. i m.^mrc1=201
+ent=doblegó^cat1=m.^mrc1=201
+ent=durea^cat1=f.^mrc1=201
+ent=edén^cat1=m.^mrc1=201
+ent=emmalear-se^cat1=v. pron.^mrc1=201
+ent=empedriment^cat1=m.^mrc1=201
+ent=empedrir^cat1=v. tr. i pron.^mrc1=201
+ent=empedrit empedrida^cat1=adj.^mrc1=201
+ent=empinent empinenta^cat1=adj.^mrc1=201
+ent=encalar^cat1=v. tr.^mrc1=201
+ent=encaramallar-se^cat1=v. pron.^mrc1=201
+ent=encaramitar-se^cat1=v. pron.^mrc1=201
+ent=enceguerar^cat1=v. tr.^mrc1=201
+ent=endergue^cat1=m.^mrc1=201
+ent=endoblegament^cat1=m.^mrc1=201
+ent=endoblegar^cat1=v. tr.^mrc1=201
+ent=endoblegó^cat1=m.^mrc1=201
+ent=engrunsada^cat1=f.^mrc1=201
+ent=engrunsadís engrunsadissa^cat1=adj.^mrc1=201
+ent=engrunsador engrunsadora^cat1=adj. i m.^mrc1=201
+ent=engrunsadora^cat1=f.^mrc1=201
+ent=engrunsament^cat1=m.^mrc1=201
+ent=engrunsar^cat1=v. tr. i pron.^mrc1=201
+ent=enrastrada^cat1=f.^mrc1=201
+ent=enrastrar^cat1=v. tr.^mrc1=201
+ent=ensec^cat1=loc. adv.^mrc1=201
+ent=entrecavó^cat1=m.^mrc1=201
+ent=entreforro^cat1=m.^mrc1=201
+ent=esblanquiment^cat1=m.^mrc1=201
+ent=esblanquir^cat1=v. tr. i pron.^mrc1=201
+ent=esblanquit esblanquida^cat1=adj.^mrc1=201
+ent=escalfiment^cat1=m.^mrc1=201
+ent=escalfir^cat1=v. tr. i pron.^mrc1=201
+ent=escalfit escalfida^cat1=adj.^mrc1=201
+ent=escampida^cat1=f.^mrc1=201
+ent=escampir^cat1=v. intr. i pron.^mrc1=201
+ent=escura-ximeneres^cat1=m. i f.^mrc1=201
+ent=esfambrat esfambrada^cat1=adj.^mrc1=201
+ent=esgarro^cat1=m.^mrc1=201
+ent=esgolidor^cat1=m.^mrc1=201
+ent=esgroguiment^cat1=m.^mrc1=201
+ent=esgroguir^cat1=v. tr. i pron.^mrc1=201
+ent=esgroguit esgroguida^cat1=adj.^mrc1=201
+ent=espavil^cat1=m.^mrc1=201
+ent=espear-se^cat1=v. pron.^mrc1=201
+ent=espeat espeada^cat1=adj.^mrc1=201
+ent=esperear-se^cat1=v. pron.^mrc1=201
+ent=espinella^cat1=f.^mrc1=201
+ent=espitralat espitralada^cat1=adj.^mrc1=201
+ent=espollegar^cat1=v. tr.^mrc1=201
+ent=espoltida^cat1=f.^mrc1=201
+ent=espoltir^cat1=v. tr.^mrc1=201
+ent=esquifinyat esquifinyada^cat1=adj.^mrc1=201
+ent=estómec^cat1=m.^mrc1=201
+ent=estorrufament^cat1=m.^mrc1=201
+ent=estorrufar^cat1=v. tr. i pron.^mrc1=201
+ent=estufarrada^cat1=f.^mrc1=201
+ent=estufarrar^cat1=v. intr. i pron.^mrc1=201
+ent=estufarrat estufarrada^cat1=adj.^mrc1=201
+ent=esventir-se^cat1=v. pron.^mrc1=201
+ent=esventolejar^cat1=v. tr. i pron.^mrc1=201
+ent=esvolatregar^cat1=v. intr.^mrc1=201
+ent=fallega^cat1=f.^mrc1=201
+ent=farol^cat1=m.^mrc1=201
+ent=farolet^cat1=m.^mrc1=201
+ent=febra^cat1=f.^mrc1=201
+ent=ficaci^cat1=m.^mrc1=201
+ent=flaquea^cat1=f.^mrc1=201
+ent=fluixea^cat1=f.^mrc1=201
+ent=foraca^cat1=f.^mrc1=201
+ent=fortalea^cat1=f.^mrc1=201
+ent=fotrassada^cat1=f.^mrc1=201
+ent=franquea^cat1=f.^mrc1=201
+ent=fussada^cat1=f.^mrc1=201
+ent=fussar^cat1=v. tr.^mrc1=201
+ent=gentilea^cat1=f.^mrc1=201
+ent=gordelló gordellona^cat1=adj.^mrc1=201
+ent=gorrita^cat1=f.^mrc1=201
+ent=gorritó^cat1=m.^mrc1=201
+ent=gorritós gorritosa^cat1=adj.^mrc1=201
+ent=gorró^cat1=m.^mrc1=201
+ent=gorronera^cat1=f.^mrc1=201
+ent=grandea^cat1=f.^mrc1=201
+ent=gruga^cat1=f.^mrc1=201
+ent=grugar-se^cat1=v. pron.^mrc1=201
+ent=grugat grugada^cat1=adj.^mrc1=201
+ent=guilindaina^cat1=f.^mrc1=201
+ent=gurronejar^cat1=v. intr.^mrc1=201
+ent=honradea^cat1=f.^mrc1=201
+ent=immadurea^cat1=f.^mrc1=201
+ent=impurea^cat1=f.^mrc1=201
+ent=inaveat inaveada^cat1=adj.^mrc1=201
+ent=incertea^cat1=f.^mrc1=201
+ent=indelicadea^cat1=f.^mrc1=201
+ent=judia^cat1=f.^mrc1=201
+ent=llacorella^cat1=f.^mrc1=201
+ent=lladronícia^cat1=f.^mrc1=201
+ent=lleparassa^cat1=f.^mrc1=201
+ent=lletgea^cat1=f.^mrc1=201
+ent=llicsó^cat1=m.^mrc1=201
+ent=llicsonar^cat1=m.^mrc1=201
+ent=llidó^cat1=m.^mrc1=201
+ent=llidoner^cat1=m.^mrc1=201
+ent=llonge^cat1=m.^mrc1=201
+ent=llongera^cat1=f.^mrc1=201
+ent=llosmo^cat1=m.^mrc1=201
+ent=llúcies^cat1=f. pl.^mrc1=201
+ent=madurea^cat1=f.^mrc1=201
+ent=malavear^cat1=v. tr. i pron.^mrc1=201
+ent=malea^cat1=f.^mrc1=201
+ent=mandoble^cat1=m.^mrc1=201
+ent=manó manona^cat1=adj. i m. i f.^mrc1=201
+ent=manyaco^cat1=m.^mrc1=201
+ent=marmolada^cat1=f.^mrc1=201
+ent=marmolar^cat1=v. intr.^mrc1=201
+ent=marmoló^cat1=m.^mrc1=201
+ent=màsquera^cat1=f.^mrc1=201
+ent=masquerada^cat1=f.^mrc1=201
+ent=masquereta^cat1=f.^mrc1=201
+ent=masquerot^cat1=m.^mrc1=201
+ent=mealla^cat1=f.^mrc1=201
+ent=menescal menescala^cat1=m. i f.^mrc1=201
+ent=menescalia^cat1=f.^mrc1=201
+ent=menesterós menesterosa^cat1=adj.^mrc1=201
+ent=meninfot^cat1=adj. i m. i f.^mrc1=201
+ent=meninfotisme^cat1=m.^mrc1=201
+ent=meninfotista^cat1=adj. i m. i f.^mrc1=201
+ent=menjuga^cat1=f.^mrc1=201
+ent=mentirós mentirosa^cat1=adj. i m. i f.^mrc1=201
+ent=mentirosament^cat1=adv.^mrc1=201
+ent=mentres^cat1=conj.^mrc1=201
+ent=merlo^cat1=adj. i m.^mrc1=201
+ent=momet^cat1=m.^mrc1=201
+ent=moquita^cat1=f.^mrc1=201
+ent=morgó^cat1=m.^mrc1=201
+ent=morgonar^cat1=v. tr.^mrc1=201
+ent=morradora^cat1=f.^mrc1=201
+ent=moteró^cat1=m.^mrc1=201
+ent=mumorota^cat1=f.^mrc1=201
+ent=nabar^cat1=m.^mrc1=201
+ent=naturalea^cat1=f.^mrc1=201
+ent=nàufreg nàufrega^cat1=adj. i m. i f.^mrc1=201
+ent=netejó^cat1=m.^mrc1=201
+ent=nialada^cat1=f.^mrc1=201
+ent=noblea^cat1=f.^mrc1=201
+ent=nomoblides^cat1=m.^mrc1=201
+ent=nuguet^cat1=m.^mrc1=201
+ent=nyas^cat1=interj.^mrc1=201
+ent=orai^cat1=m.^mrc1=201
+ent=pablo^cat1=m.^mrc1=201
+ent=paixarell^cat1=m.^mrc1=201
+ent=palota^cat1=f. sing.^mrc1=201
+ent=palpó palpona^cat1=adj.^mrc1=201
+ent=palpontes^cat1=loc. adv.^mrc1=201
+ent=papagall^cat1=m.^mrc1=201
+ent=parló parlona^cat1=adj.^mrc1=201
+ent=paró^cat1=m.^mrc1=201
+ent=parpalla^cat1=f.^mrc1=201
+ent=parpalleig^cat1=m.^mrc1=201
+ent=parpallejar^cat1=v. intr.^mrc1=201
+ent=patulea^cat1=f.^mrc1=201
+ent=peçó^cat1=m.^mrc1=201
+ent=peladilla^cat1=f.^mrc1=201
+ent=pelleranca^cat1=f.^mrc1=201
+ent=pellorfa^cat1=f.^mrc1=201
+ent=peluca^cat1=f.^mrc1=201
+ent=peluquer peluquera^cat1=m. i f.^mrc1=201
+ent=peluqueria^cat1=f.^mrc1=201
+ent=peluquí^cat1=m.^mrc1=201
+ent=perea^cat1=f.^mrc1=201
+ent=pereós pereosa^cat1=adj.^mrc1=201
+ent=pereosament^cat1=adv.^mrc1=201
+ent=pinotxa^cat1=f.^mrc1=201
+ent=pitjó^cat1=m.^mrc1=201
+ent=pixarrada^cat1=f.^mrc1=201
+ent=pixarró pixarrona^cat1=adj. i m. i f.^mrc1=201
+ent=pixó pixona^cat1=adj. i m. i f.^mrc1=201
+ent=pixorrada^cat1=f.^mrc1=201
+ent=pixorro^cat1=m.^mrc1=201
+ent=pobrea^cat1=f.^mrc1=201
+ent=poreguita^cat1=m. i f.^mrc1=201
+ent=porica^cat1=m. i f.^mrc1=201
+ent=povil povila^cat1=m. i f.^mrc1=201
+ent=purea^cat1=f.^mrc1=201
+ent=purneig^cat1=m.^mrc1=201
+ent=purnejant^cat1=adj.^mrc1=201
+ent=purnejar^cat1=v. intr.^mrc1=201
+ent=qüè^cat1=m.^mrc1=201
+ent=ràfel^cat1=m.^mrc1=201
+ent=ràfol^cat1=m.^mrc1=201
+ent=ranter^cat1=adv.^mrc1=201
+ent=ranteret^cat1=adv.^mrc1=201
+ent=rapidea^cat1=f.^mrc1=201
+ent=rarea^cat1=f.^mrc1=201
+ent=regalissiar^cat1=m.^mrc1=201
+ent=regalissier regalissiera^cat1=m. i f.^mrc1=201
+ent=reixiu^cat1=m.^mrc1=201
+ent=reixiuada^cat1=f.^mrc1=201
+ent=reixiuar^cat1=v. intr.^mrc1=201
+ent=replaça^cat1=f.^mrc1=201
+ent=replaceta^cat1=f.^mrc1=201
+ent=repret^cat1=m.^mrc1=201
+ent=repretar^cat1=v. tr.^mrc1=201
+ent=rinxo^cat1=loc. adv.^mrc1=201
+ent=riquea^cat1=f.^mrc1=201
+ent=ronquit^cat1=m.^mrc1=201
+ent=rossadora^cat1=f.^mrc1=201
+ent=rossar^cat1=v. tr.^mrc1=201
+ent=rubial^cat1=f.^mrc1=201
+ent=rugló^cat1=m.^mrc1=201
+ent=ruglonar^cat1=v. tr.^mrc1=201
+ent=rumiatge^cat1=m.^mrc1=201
+ent=sangarrina^cat1=f.^mrc1=201
+ent=senzillea^cat1=f.^mrc1=201
+ent=supondre^cat1=v. tr.^mrc1=201
+ent=teda^cat1=f.^mrc1=201
+ent=tendrea^cat1=f.^mrc1=201
+ent=tete teta^cat1=m. i f.^mrc1=201
+ent=timidea^cat1=f.^mrc1=201
+ent=tiramenga^cat1=f.^mrc1=201
+ent=tito tita^cat1=m. i f.^mrc1=201
+ent=tombolló^cat1=m.^mrc1=201
+ent=topetar^cat1=v. tr. i intr.^mrc1=201
+ent=topetó^cat1=m.^mrc1=201
+ent=tristea^cat1=f.^mrc1=201
+ent=uït^cat1=m.^mrc1=201
+ent=vellea^cat1=f.^mrc1=201
+ent=verdorina^cat1=f.^mrc1=201
+ent=vero^cat1=m. sing.^mrc1=201
+ent=voledor voledora^cat1=adj.^mrc1=201
+ent=voltó^cat1=m.^mrc1=201
+ent=voltonada^cat1=f.^mrc1=201
+ent=xilladissa^cat1=f.^mrc1=201
+ent=xillar^cat1=v. intr.^mrc1=201
+ent=ximenera^cat1=f.^mrc1=201
+ent=xoto xota^cat1=adj. i m. i f.^mrc1=201

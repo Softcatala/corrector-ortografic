@@ -773,7 +773,7 @@ if ($check_mode ne 'unsafe' && $word_list_compress_working) {
         last;
       } elsif ($prev eq $_) {
         print "'$prev' eq '$_'";
-        error_message ("The file $wl.cwl contains duplicates. "
+        error_message ("The file $wl.cwl contains duplicates ($prev). "
                        ."Sort with \"sort -u\" to remove them.");
         last;
       }

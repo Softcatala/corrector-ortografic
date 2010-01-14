@@ -301,6 +301,8 @@ Biar
 Bicorp
 Bigastre
 Bigues i Riells
+Biniamar
+Biniarroi
 Biosca
 Bissaürri
 la Bisbal d'Empordà
@@ -708,6 +710,7 @@ la Fuliola
 Fulleda
 Gaià
 Gaibiel
+Galatzó
 la Galera
 Gallifa
 Gandesa
@@ -784,6 +787,7 @@ Ibi
 Igualada
 Illa
 Inca
+Indioteria
 Isona
 Isòvol
 Ivars d'Urgell
@@ -950,6 +954,7 @@ Monistrol de Calders
 Monistrol de Montserrat
 Monòver
 Mont-roig de Tastavins
+Monti-sion
 Montserrat d'Alcalà
 Montlluís
 Montaverner
@@ -1686,6 +1691,7 @@ Ulldemolins
 Ultramort
 Ur
 Orbanyà
+Ullaró
 Urús
 les Useres
 Utiel
@@ -2029,7 +2035,7 @@ Irlanda
 Irun
 Islàndia
 Israel
-Istambul
+Istanbul
 Itàlia
 Iugoslàvia
 Jamaica

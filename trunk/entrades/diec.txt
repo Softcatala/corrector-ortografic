@@ -2087,7 +2087,7 @@ ent=aixafinament^cat1=m.
 ent=aixafinar^cat1=v. tr.^cat2=pron.
 ent=aixambergat -ada^cat1=adj.
 ent=aixamfranar^cat1=v. tr.
-ent=aixapeït -ida^cat1=adj.
+ent=aixapeït -ïda^cat1=adj.
 ent=aixaragallament^cat1=m.
 ent=aixaragallar^cat1=v. tr.
 ent=aixarop^cat1=m.

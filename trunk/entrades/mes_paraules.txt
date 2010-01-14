@@ -168,6 +168,7 @@ ent=sacrosantament^cat1=adv.
 ent=seglarment^cat1=adv.
 ent=semànticament^cat1=adv.
 ent=sigil·losament^cat1=adv.
+ent=simplificadament^cat1=adv.
 ent=sincrònicament^cat1=adv.
 ent=societàriament^cat1=adv.
 ent=sociològicament^cat1=adv.
@@ -189,3 +190,216 @@ ent=detectable^cat1=adj.
 // Paraules que falten
 ent=som-hi^cat1=interj.
 ent=torcaboca^cat1=m.
+
+// Afegit per JMo, derivat de nous_01.txt (10.gen.10)
+// Paraules noves procedents, entre altres, de:
+// - Llibre sobre fra Catany
+// - Llibre de Fra Lluís Jaume
+// - XX del col·legi Es Pont
+// - Miscel·lània Josep Estelrich
+
+ent=allotjador -a^cat1=adj.
+ent=al·lotell^cat1=m.
+ent=al·lotet^cat1=m.
+ent=amplíssim -a^cat1=adj.
+ent=antiesclavista^cat1=adj.
+ent=antifrancès -esa^cat1=adj.
+ent=antiinstitucional^cat1=adj.
+ent=antipsiquiatria^cat1=f.
+ent=aset^cat1=m.
+ent=atrezzista^cat1=adj.
+ent=autocomplaent^cat1=adj.
+ent=baixmedieval^cat1=adj.
+ent=baixíssim -a^cat1=adj.
+ent=bellíssim -a^cat1=adj.
+ent=berberisc -a^cat1=adj.
+// resolt berén
+ent=bloquet^cat1=m.
+ent=borbó^cat1=m.
+ent=botiflerisme^cat1=m.
+ent=bunyolada^cat1=adj.
+ent=calentet -a^cat1=adj.
+ent=calop^cat1=m.
+ent=caríssim -a^cat1=adj.
+ent=catalanoaragonès -esa^cat1=adj.
+ent=catrastrofisme^cat1=m.
+ent=cintell^cat1=m.
+ent=claríssim -a^cat1=adj.
+ent=comissariar^cat1=v.
+ent=conegudíssim -a^cat1=adj.
+ent=contacontes^cat1=m. i f.
+ent=conventualisme^cat1=m.
+ent=corresponsable^cat1=adj.
+ent=cosenyor -a^cat1=adj.
+ent=cossiolet^cat1=m.
+ent=cranioscòpia^cat1=f.
+ent=curatorial^cat1=adj.
+ent=cànyom^cat1=m.
+ent=desafiant^cat1=adj.
+ent=descoordinació^cat1=f.
+ent=desdenyable^cat1=adj.
+ent=desestacionalitzador -a^cat1=adj.
+ent=desestacionalitzar^cat1=v.
+ent=desmemòria^cat1=f.
+ent=destacadíssim -a^cat1=adj.
+ent=dialectalment^cat1=adv.
+ent=digníssim -a^cat1=adj.
+ent=discretori^cat1=m.
+ent=discretíssim -a^cat1=adj.
+ent=discriminatòriament^cat1=adv.
+ent=diversificador -a^cat1=adj.
+ent=dobleret^cat1=m.
+ent=dolentíssim -a^cat1=adj.
+ent=edafogènesi^cat1=f.
+ent=educativament^cat1=adv.
+ent=electrònicament^cat1=adv.
+ent=elevadíssim -a^cat1=adj.
+ent=embulladíssim -a^cat1=adj.
+ent=emocionadament^cat1=adv.
+ent=encimentar^cat1=v.
+ent=enforcament^cat1=adv.
+ent=enrevoltar^cat1=v.
+ent=esbucament^cat1=adv.
+ent=escanyadura^cat1=f.
+ent=escoleta^cat1=f.
+// revisar escriví **************************************************
+ent=esperpènticament^cat1=adv.
+ent=estamental^cat1=adj.
+ent=estampeta^cat1=f.
+ent=estilisme^cat1=m.
+ent=estoneta^cat1=f.
+ent=estudiadíssim -a^cat1=adj.
+ent=etnobotànic -a^cat1=adj.
+ent=exhaustivament^cat1=adv.
+ent=exigentíssim -a^cat1=adj.
+ent=externalització^cat1=f.
+ent=externalitzar^cat1=v.
+ent=facilitador -a^cat1=adj.
+ent=factibilitat^cat1=f.
+ent=falsíssim -a^cat1=adj.
+ent=famosíssim -a^cat1=adj.
+ent=fefaentment^cat1=adv.
+ent=feixet^cat1=m.
+ent=ferotgement^cat1=adv.
+ent=ficadís -issa^cat1=adj.
+ent=formigonament^cat1=adv.
+ent=francoespanyol -a^cat1=adj.
+ent=furibundament^cat1=adv.
+ent=fílmicament^cat1=adv.
+ent=genealògicament^cat1=adv.
+ent=generacionalment^cat1=adv.
+ent=genèticament^cat1=adv.
+ent=geodèsicament^cat1=adv.
+ent=guarnicioneria^cat1=f.
+ent=guitarrístic -a^cat1=adj.
+ent=hispanofília^cat1=f.
+ent=historicista^cat1=adj.
+ent=historicoartístic -a^cat1=adj.
+ent=homotèrmia^cat1=f.
+ent=hortet^cat1=m.
+ent=identificatiu -iva^cat1=adj.
+ent=illeta^cat1=f.
+ent=immediació^cat1=f.
+ent=immòtic -a^cat1=adj.
+ent=importantíssim -a^cat1=adj.
+ent=inercialment^cat1=adv.
+ent=infantó^cat1=m.
+ent=infografista^cat1=adj.
+ent=infrahabitatge^cat1=m.
+ent=inicialment^cat1=adv.
+ent=inquietantment^cat1=adv.
+ent=inqüestionat -ada^cat1=adj.
+ent=intercultural^cat1=adj.
+ent=intermediació^cat1=f.
+ent=irosament^cat1=adv.
+ent=jovenet^cat1=m.
+ent=laboralment^cat1=adv.
+ent=laurisilva^cat1=f.
+ent=lingüísticament^cat1=adv.
+ent=liornès -esa^cat1=adj.
+ent=llarguíssim -a^cat1=adj.
+ent=llimb^cat1=m.
+ent=llunyanament^cat1=adv.
+ent=lul·lístic -a^cat1=adj.
+// revisar l’abans **************************************************
+// revisar l’aleshores **************************************************
+// revisar l’avui **************************************************
+ent=lúdicament^cat1=adv.
+ent=macroesdeveniment^cat1=adv.
+ent=macroexposició^cat1=f.
+ent=mediàticament^cat1=adv.
+ent=meteòricament^cat1=adv.
+ent=microclimàtic -a^cat1=adj.
+ent=microcàmera^cat1=f.
+ent=minicomputadora^cat1=f.
+ent=missionar^cat1=v.
+ent=mocadoret^cat1=m.
+ent=modestíssim -a^cat1=adj.
+ent=moltíssim -a^cat1=adj.
+ent=multiculturalitat^cat1=f.
+ent=muntanyer -a^cat1=adj.
+ent=musculoesquelètic -a^cat1=adj.
+// revisar naixeren **************************************************
+ent=naturalístic -a^cat1=adj.
+ent=ornamentalment^cat1=adv.
+ent=pastanagó^cat1=m.
+ent=paternofilial^cat1=adj.
+ent=perillossíssim -a^cat1=adj.
+ent=perimetral^cat1=adj.
+ent=pesadíssim -a^cat1=adj.
+ent=pitiús -üsa^cat1=adj.
+ent=planetàriament^cat1=adv.
+ent=politicocultural^cat1=adj.
+ent=politicomilitar^cat1=adj.
+ent=politicosocial^cat1=adj.
+ent=popularíssim -a^cat1=adj.
+ent=posader^cat1=m.
+ent=potet^cat1=m.
+ent=predemocràtic -a^cat1=adj.
+ent=presumptament^cat1=adv.
+ent=pretesament^cat1=adv.
+ent=previsorament^cat1=adv.
+ent=primeríssim -a^cat1=adj.
+ent=principatí -ina^cat1=adj.
+ent=prioritàriament^cat1=adv.
+ent=profrancès -esa^cat1=adj.
+ent=prosopogràfic -a^cat1=adj.
+ent=pseudodespatx^cat1=m.
+ent=pseudofilosòfic -a^cat1=adj.
+ent=pseudofilosòfic -a^cat1=adj.
+ent=pseudoradicalisme^cat1=m.
+ent=psicoanalíticament^cat1=adv.
+ent=psíquicament^cat1=adv.
+ent=quadret^cat1=m.
+ent=rarenc -a^cat1=adj.
+ent=redefinició^cat1=f.
+ent=reemprar^cat1=v.
+// revisar reim **************************************************
+ent=reinstaurar^cat1=v.
+ent=reintroduir^cat1=v.
+ent=reinventar^cat1=v.
+ent=repressivament^cat1=adv.
+ent=ressenyable^cat1=adj.
+ent=revalorització^cat1=f.
+ent=riquíssim -a^cat1=adj.
+ent=ritualment^cat1=adv.
+ent=secretíssim -a^cat1=adj.
+ent=sectorialment^cat1=adv.
+ent=severíssim -a^cat1=adj.
+ent=subtitulació^cat1=f.
+ent=sus^cat1=adv.
+ent=tecnològicament^cat1=adv.
+ent=temàticament^cat1=adv.
+ent=territorialment^cat1=adv.
+ent=tudadissa^cat1=f.
+ent=tumbet^cat1=m.
+ent=turísticament^cat1=adv.
+ent=valorable^cat1=adj.
+ent=vastíssim -a^cat1=adj.
+ent=veneradíssim -a^cat1=adj.
+ent=videoprojector^cat1=m.
+ent=vitalíciament^cat1=adv.
+ent=zoològicament^cat1=adv.
+
+ent=discutidament^cat1=adv.
+ent=controladament^cat1=adv.
