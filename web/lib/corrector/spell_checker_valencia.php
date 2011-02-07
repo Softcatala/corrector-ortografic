@@ -178,7 +178,7 @@ function spellCheck($string, $varName)
 
 	//convert iso
 
-   	$string = remove_word_junk($string);
+	$string = utf8_encode(remove_word_junk(utf8_decode($string)));
 
    	//make all the returns in the text look the same
 	$string = preg_replace("/\r?\n/", "\n", $string);

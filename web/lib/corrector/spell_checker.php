@@ -182,7 +182,7 @@ function spellCheck($string, $varName)
 
 	//convert iso
 
-   	$string = remove_word_junk($string);
+   	$string = utf8_encode(remove_word_junk(utf8_decode($string)));
 
    	//make all the returns in the text look the same
 	$string = preg_replace("/\r?\n/", "\n", $string);
@@ -296,7 +296,7 @@ function spellCheck($string, $varName)
 	$string = preg_replace("/<!--<li( [^>]*)?>-->/i", "<li>", $string);
 	$string = preg_replace("/<!--<\/li>-->/i", "</li>", $string);
 	$string = preg_replace("/<!--<img (?:[^>]+ )?src=\"?([^\"]*)\"?[^>]*>-->/i", "<img src=\"\\1\" />", $string);
-		
+	
 	$cp->set_data($string);  //return value - string containing all the markup for the misspelled words.
 
 } // end spellCheck
