@@ -133,12 +133,12 @@ function showSuggestions($word, $id)
 		for($i=0; $i<$tmpNum; $i++)
 		{
 			//$suggestions[$i] = utf8_encode ($suggestions[$i]);
-			$retVal .= "<div class=\"suggestion\" onclick=\"replaceWord('" . addslashes_custom($id) . "', '" . addslashes($suggestions[$i]) . "'); return false;\">" . $suggestions[$i] . "</div>";
+			$retVal .= "<div class=\"suggestion\" onclick=\"replaceWord('" . addslashes($id) . "', '" . addslashes($suggestions[$i]) . "'); return false;\">" . $suggestions[$i] . "</div>";
 		}
 	
 		if($editablePersonalDict)
 		{
-			$retVal .= "<div class=\"addtoDictionary\" onclick=\"addWord('" . addslashes_custom($id) . "'); return false;\">Add To Dictionary</div>";
+			$retVal .= "<div class=\"addtoDictionary\" onclick=\"addWord('" . addslashes($id) . "'); return false;\">Add To Dictionary</div>";
 		}
 	}
 	else
@@ -178,7 +178,7 @@ function spellCheck($string, $varName)
 
 	//convert iso
 
-	$string = utf8_encode(remove_word_junk(utf8_decode($string)));
+	$string = remove_word_junk($string);
 
    	//make all the returns in the text look the same
 	$string = preg_replace("/\r?\n/", "\n", $string);
@@ -415,6 +415,7 @@ function addslashes_custom($string)
  *************************************************************/
 function remove_word_junk($t)
 {
+	$t = utf8_decode($t);
 	$a=array(
 	"\xe2\x80\x9c"=>'"',
 	"\xe2\x80\x9d"=>'"',
@@ -438,6 +439,7 @@ function remove_word_junk($t)
 	}
 	
 	$t=trim(str_replace($oa,$ra,$t));
+	$t = utf8_encode($t);
 	return $t;
 
 } // end remove_word_junk
