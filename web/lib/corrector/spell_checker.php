@@ -88,6 +88,7 @@ if($usePersonalDict)
 	pspell_config_personal($pspell_config, $path_to_personal_dictionary);
 }
 
+pspell_config_ignore($pspell_config, 0);
 $pspell_link = pspell_new_config($pspell_config);
 
 require_once("/var/www/softcatala.org/lib/corrector/cpaint/cpaint2.inc.php"); //AJAX library file
