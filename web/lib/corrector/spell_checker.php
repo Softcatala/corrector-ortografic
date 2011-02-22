@@ -420,24 +420,33 @@ function addslashes_custom($string)
  *************************************************************/
 function remove_word_junk($t)
 {
-	$t = utf8_decode($t);
+        $a=array();
+        $encdet = detect_encoding($t);
+        if ($encdet == 'utf-8') {
 
-	$a=array(
-	"\xe2\x80\x9c"=>'"',
-	"\xe2\x80\x9d"=>'"',
-	"\xe2\x80\x99"=>"'",
-	"\xe2\x80\xa6"=>"...",
-	"\xe2\x80\x98"=>"'",
-	"\xe2\x80\x94"=>"---",
-	"\xe2\x80\x93"=>"--",
-	"\x85"=>"...",
-	"\221"=>"'",
-	"\222"=>"'",
-	"\223"=>'"',
-	"\224"=>'"',
-	"\x97"=>"---",
-	"\x96"=>"--"
-	);
+                $a=array(
+                "\xe2\x80\x9c"=>'"',
+                "\xe2\x80\x9d"=>'"',
+                "\xe2\x80\x99"=>"'",
+                "\xe2\x80\xa6"=>"...",
+                "\xe2\x80\x98"=>"'",
+                "\xe2\x80\x94"=>"---",
+                "\xe2\x80\x93"=>"--"
+                );
+        }
+
+        elseif ($encdet == 'windows-1251') {
+
+                $a=array(
+                chr(133)=>"...",
+                chr(145)=>"'",
+                chr(146)=>"'",
+                chr(147)=>'"',
+                chr(148)=>'"',
+                chr(151)=>"---",
+                chr(150)=>"--"
+                );
+        }
 
 	foreach($a as $k=>$v){
 		$oa[]=$k;
@@ -446,11 +455,20 @@ function remove_word_junk($t)
 	
 	$t=trim(str_replace($oa,$ra,$t));
 
-	$t = utf8_encode($t);
 	return $t;
 
 } // end remove_word_junk
 
+function detect_encoding($string) { 
+  static $list = array('utf-8', 'windows-1251');
+ 
+  foreach ($list as $item) {
+    $sample = iconv($item, $item, $string);
+    if (md5($sample) == md5($string))
+      return $item;
+  }
+  return null;
+}
 
 /*************************************************************
  * switchText($string)
