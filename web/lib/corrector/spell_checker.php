@@ -69,7 +69,7 @@ if(!function_exists('pspell_suggest'))
 
 // Create and configure a link to the pspell module.
 
-if ($_REQUEST['variant'] == 'valencia' ) {
+if (isset($_REQUEST['variant']) && $_REQUEST['variant'] == 'valencia' ) {
         $pspell_config = pspell_config_create("ca", "valencia", "valencia", "utf-8");
 }
 
