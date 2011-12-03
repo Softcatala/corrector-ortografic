@@ -604,7 +604,7 @@
       $composites = count($this->composites);
 
       // create new node
-      $this->composites[$composites] =& new cpaint_node();
+      $this->composites[$composites] = new cpaint_node();
       $this->composites[$composites]->set_name($nodename);
       $this->composites[$composites]->set_attribute('id', $id);
       $this->composites[$composites]->set_encoding($this->input_encoding);
