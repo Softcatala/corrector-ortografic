@@ -14,8 +14,7 @@ namespace catala
         {
             this.regles = regles;
             ParadigmaCat.PosaRegles(regles);
-            excepcions = new Dictionary<string, LiniaMarques>();
-            excepcionsEmprades = new Dictionary<string, bool>();
+            excepcions = new Dictionary<string, InfoExcepcio>();
         }
 
         public override Paradigma IdentificaParadigma(Dictionary<string, string> dades,
@@ -30,7 +29,8 @@ namespace catala
             bool nocat = false;
             bool nom = false, pron = false, adj = false, masc = false, fem = false, sing = false, plural = false;
             bool verb = false;
-            bool art = false, conj = false, adv = false, prep = false, interj = false, loc = false;
+            bool art = false, conj = false, adv = false, prep = false, interj = false;
+            bool loc = false, locadj = false, locadv = false, locprep = false;
             #region Explora les categories
 		    int idxCat = 1;
             while (true)
@@ -119,11 +119,11 @@ namespace catala
                             prep = true;
                             break;
                         case "loc. prep.":
-                            prep = true;
+                            locprep = true;
                             loc = true;
                             break;
                         case "loc. adj.":
-                            adj = true;
+                            locadj = true;
                             loc = true;
                             break;
                         case "art.":
@@ -133,12 +133,12 @@ namespace catala
                             adv = true;
                             break;
                         case "loc. adv.":
-                            adv = true;
+                            locadv = true;
                             loc = true;
                             break;
                         case "loc. adj. i loc. adv.":
-                            adj = true;
-                            adv = true;
+                            locadj = true;
+                            locadv = true;
                             loc = true;
                             break;
                         case "interj.":
@@ -201,16 +201,16 @@ namespace catala
                 pars.Add(IdVerb(arrel, dades, excepcions));
             if (loc && !(nom || adj))
             {
-                if (prep)
+                if (locprep)
                     pars.Add(paradigmes["LOC PREP"]);
-                if (adj)
+                if (locadj)
                     pars.Add(paradigmes["LOC ADJ"]);
-                if (adv)
+                if (locadv)
                     pars.Add(paradigmes["LOC ADV"]);
             }
             else 
             {
-                // Si hi ha adjectius, tenim ha totes les formes generades
+                // Si hi ha adjectius, tenim ja totes les formes generades
                 if (adj)
                     pars.Add(Id4(arrel, ADJ, dades, excepcions));
                 //else if ((masc && fem) || plural)
@@ -417,7 +417,7 @@ namespace catala
             Debug.Assert(!paraula.Forma.Contains(" "), "No hi ha d'haver espais a l'arrel");
             if (exc != null)
             {
-                // suposam que el singular tenen el mateix valor de VocalInicial
+                // suposam que el singular i el plural tenen el mateix valor de VocalInicial
                 string plural = Dades(exc, "PLU");
                 if (plural != null)
                 {
@@ -499,18 +499,20 @@ namespace catala
             return pars;
         }
 
-        public override LiniaMarques Excepcio(string ent)
+        public override InfoExcepcio Excepcio(string ent)
         {
-            if (!excepcions.ContainsKey(ent)) return null;
-            excepcionsEmprades[ent] = true;
-            return excepcions[ent];
+            if (!excepcions.ContainsKey(ent))
+                return null;
+            InfoExcepcio excepcio = excepcions[ent];
+            excepcio.Emprada = true;
+            return excepcio;
         }
 
-        public override void NovaExcepcio(string ent, LiniaMarques contingut)
+        public override void NovaExcepcio(string ent, LiniaMarques contingut, FitxerFont fitxerFont, int liniaFitxerFont)
         {
-            if (excepcions.ContainsKey(ent)) throw new Exception("Excepció repetida: " + ent);
-            excepcions[ent] = contingut;
-            excepcionsEmprades[ent] = false;
+            if (excepcions.ContainsKey(ent))
+                throw new Exception("Excepció repetida: " + ent);
+            excepcions[ent] = new InfoExcepcio(contingut, fitxerFont, liniaFitxerFont);
         }
 
         public override Regles Regles { get { return regles; } }
@@ -518,8 +520,8 @@ namespace catala
         public override List<string> ExcepcionsSenseEmprar()
         {
             List<string> llista = new List<string>();
-            foreach (KeyValuePair<string, bool> kv in excepcionsEmprades)
-                if (!kv.Value)
+            foreach (KeyValuePair<string, InfoExcepcio> kv in excepcions)
+                if (!kv.Value.Emprada)
                     llista.Add(kv.Key);
             return llista;
         }
@@ -531,8 +533,7 @@ namespace catala
             return paradigmes[id];
         }
 
-        private Dictionary<string, LiniaMarques> excepcions;
-        private Dictionary<string, bool> excepcionsEmprades; 
+        private Dictionary<string, InfoExcepcio> excepcions;
 
         #region CreaParadigmes()
         private static Dictionary<string, ParadigmaCat> CreaParadigmes()

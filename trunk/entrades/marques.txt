@@ -1,5 +1,6 @@
 // Noms propis excepte topònims, llinatges i antropònims.
-// Els que comencen per vocal poden dur "d'"
+// Els que comencen per vocal poden dur "d'" o "l'"
+// "d'" vol dir que admeten "d'", "l'" vol dir que admeten "
 
 Barça
 l'Internet

@@ -245,6 +245,11 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 3, 0,
+                    new DateTime(2011, 12, 30),
+                    new NotaVersio("Afegides entrades recollides de fonts diverses", "Added entries from several sources"),
+                    new NotaVersio("Aplicades correccions i propostes del wiki de SC", "Applied some corrections and proposals from SoftCatala wiki")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 2, 0,
                     new DateTime(2010, 1, 13),
                     new NotaVersio("Afegides entrades recollides del Diccionari ortogràfic i de pronunciació del valencià (AVL)", "Added entries collected by Valencian Academy of Language (AVL)"),

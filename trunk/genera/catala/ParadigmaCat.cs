@@ -296,7 +296,7 @@ namespace catala
         /// <param name="admetD">Totes les formes admeten la preposició "de" apostrofada.</param>
         /// <param name="admetL">El singular admet l'article apostrofat.</param>
         public PC_plural_precalc(MorfoGram mgComuna, Paraula singular, string plural, bool admetD, bool admetL)
-            : base(mgComuna.ToString() + " " + singular + "/" + plural + (admetD ? ", d'" : "") + (admetL ? ", l'" : ""))
+            : base(mgComuna.ToString() + " " /*+ singular + "/" + plural*/ + (admetD ? ", d'" : "") + (admetL ? ", l'" : ""))
         {
             this.mgComuna = mgComuna;
             mgArrel = null;
@@ -749,7 +749,8 @@ namespace catala
             match = reInf.Match(dades["arrel"]);
             if (!match.Success)
                 throw new Exception(String.Format("S'esperava un verb en -er o -re ({0})", dades["arrel"]));
-            string arrel = Cat.NoAcc(match.Groups[1].Value);
+            // Hem de preservar 'ï'
+            string arrel = Cat.NoAcc(match.Groups[1].Value.Replace('ï','%')).Replace('%','ï');
             string term = match.Groups[2].Value;
             string fut1 = ExcDef(excepcions, "FUT", (term == "er") ? arrel + "eré" : arrel + "ré");
             string ger = ExcDef(excepcions, "GER", arrel + "ent");
@@ -882,7 +883,7 @@ namespace catala
     class PC_toponim : ParadigmaCat
     {
         public PC_toponim(string forma, bool admetD, bool admetL)
-            : base(String.Format(@"""{0}""{1}{2}", forma, admetD ? " + d'" : "", admetL ? " + l'" : ""))
+            : base(String.Format(/*@"""{0}""{1}{2}"*/"topònim", forma, admetD ? " + d'" : "", admetL ? " + l'" : ""))
         {
             this.forma = forma;
             this.admetD = admetD;
@@ -909,7 +910,7 @@ namespace catala
     class PC_precalc : ParadigmaCat
     {
         public PC_precalc(string forma, MorfoGram mg, params string[] flags)
-            : base(string.Format(@"""{0}"" x {{{1}}}", forma, String.Join(", ", flags)))
+            : base(string.Format("precalc"/*@"""{0}"" x {{{1}}}"*/, forma, String.Join(", ", flags)))
         {
             this.forma = forma;
             this.mg = mg;
@@ -1169,7 +1170,28 @@ namespace catala
         public override void Genera(Dictionary<string, string> dades, Dictionary<string, string> excepcions, Marques filtre, List<ItemDic> items)
         {
             foreach (ParadigmaCat par in paradigmes)
-                par.Genera(dades, excepcions, filtre, items);
+            {
+                List<ItemDic> nous = new List<ItemDic>();
+                par.Genera(dades, excepcions, filtre, nous);
+                foreach (ItemDic item in nous)
+                    item.Paradigma = par;
+                items.AddRange(nous);
+            }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = null;
+            foreach (Paradigma par in paradigmes)
+            {
+                if (sb == null)
+                    sb = new StringBuilder("[");
+                else
+                    sb.Append("; ");
+                sb.Append(par.ToString());
+            }
+            sb.Append("]");
+            return sb.ToString();
         }
 
         private List<ParadigmaCat> paradigmes;

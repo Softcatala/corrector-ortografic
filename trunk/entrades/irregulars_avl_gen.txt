@@ -46,7 +46,7 @@ fabarràs: PLU=fabarrassos
 faenafuig: PLU=faenafuig
 ferrabràs: PLU=ferrabrassos
 ferrús: PLU=ferrussos
-fideïcometre: fideïcometre: PAR=fideïcomès
+fideïcometre: PAR=fideïcomès
 flendi: PLU=flendi
 fotocompondre: GER=fotocomponent & PAR=fotocompost & SIM=fotocompongués
 golden: PLU=góldens

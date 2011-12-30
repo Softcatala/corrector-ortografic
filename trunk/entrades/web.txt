@@ -1,0 +1,544 @@
+// Entrades proposades al web
+// Creació: 30/12/11 18:49
+
+// Ja resolt: *den^proposta=494
+// Ja resolt: abstendré^proposta=7
+ent=acabussar^cat1=v.^proposta=521
+ent=acreditadíssim -a^cat1=adj.^proposta=8
+ent=acrobàticament^cat1=adv.^proposta=525
+ent=Addaia^cat1=topònim^proposta=490
+ent=addicionalment^cat1=adv.^proposta=9
+ent=adientment^cat1=adv.^proposta=10
+ent=agradabilíssim -a^cat1=adj.^proposta=11
+ent=airejador -a^cat1=adj.^proposta=12
+ent=aixanguer^cat1=m.^proposta=13
+ent=albardaner -a^cat1=m. i f.^proposta=14
+ent=alcoverià alcoveriana^cat1=adj.^proposta=15
+ent=altíssim -a^cat1=adj.^proposta=449
+ent=Al·là^cat1=antropònim m^proposta=17
+ent=amatentment^cat1=adv.^proposta=369
+ent=ambientalment^cat1=adv.^proposta=18
+ent=amorell^cat1=m.^proposta=422
+ent=d'Amèriques^cat1=topònim^proposta=499
+ent=antiabsolutista^cat1=adj.^proposta=19
+ent=anticatalanista^cat1=adj.^proposta=461
+ent=anticorrosió^cat1=adj.^com1=inv.^proposta=20
+ent=antieducatiu antieducativa^cat1=adj.^proposta=21
+ent=antifranquista^cat1=adj.^proposta=460
+ent=antiinundació^cat1=adj.^com1=inv.^proposta=22
+ent=antilul·lista^cat1=adj.^proposta=423
+ent=antipopular^cat1=adj.^proposta=420
+ent=antirepublicà antirepublicana^cat1=adj.^proposta=379
+ent=antiretorn^cat1=adj.^com1=inv.^proposta=23
+ent=antivandàlic -a^cat1=adj.^proposta=24
+ent=antropotopònim^cat1=m.^proposta=25
+ent=antòleg antòloga^cat1=m. i f.^proposta=447
+ent=aparatosament^cat1=adv.^proposta=26
+ent=aparcabicicletes^cat1=m. i f.^proposta=27
+ent=Aquisgrà^cat1=topònim^proposta=28
+ent=arbovirus^cat1=m.^proposta=529
+ent=aregador -a^cat1=adj.^proposta=29
+ent=arenavirus^cat1=m.^proposta=530
+ent=arqueria^cat1=f.^proposta=510
+ent=artesanalment^cat1=adv.^proposta=30
+ent=asexuadament^cat1=adv.^proposta=31
+ent=astrovirus^cat1=m.^proposta=531
+ent=atemporal^cat1=adj.^proposta=501
+ent=atermenament^cat1=m.^proposta=430
+ent=autoajuda^cat1=f.^proposta=32
+ent=autoanivellant^cat1=adj.^proposta=33
+ent=autoassignar^cat1=v.^proposta=34
+ent=autocitació^cat1=f.^proposta=462
+ent=autoextingible^cat1=adj.^proposta=35
+ent=autofacturar^cat1=v.^proposta=36
+ent=autojustificació^cat1=f.^proposta=453
+ent=autolimitar^cat1=v.^proposta=37
+ent=autoocupació^cat1=f.^proposta=38
+ent=autoportant^cat1=adj.^proposta=39
+ent=autotitular^cat1=adj.^proposta=40
+ent=autotraduir^cat1=v.^proposta=450
+ent=baixet -a^cat1=adj.^proposta=41
+ent=Balutxistan^cat1=topònim^proposta=484
+ent=bastant -a^cat1=adj.^proposta=528
+ent=batliu^cat1=m.^proposta=409
+ent=baudrier^cat1=m.^proposta=42
+ent=beguinisme^cat1=m.^proposta=515
+ent=Belgrad^cat1=topònim^proposta=374
+ent=bellveure^cat1=m.^proposta=475
+ent=Bennàssar^cat1=antropònim m^proposta=48
+ent=beníssim^cat1=adv.^proposta=47
+// Paraula dubtosa: Berberia^proposta=49
+ent=bestorre^cat1=f.^proposta=43
+ent=bilionari^cat1=m.^proposta=491
+ent=biodièsel^cat1=m.^proposta=44
+ent=biovigilància^cat1=f.^proposta=50
+ent=Biscaia^cat1=topònim^proposta=51
+ent=Blanquerna^cat1=antropònim m^proposta=52
+ent=boníssim -a^cat1=adj.^proposta=45
+ent=Boston^cat1=topònim^proposta=53
+ent=boveria^cat1=f.^proposta=46
+ent=brometa^cat1=f.^proposta=54
+ent=cabaneta^cat1=f.^proposta=55
+ent=cadenella^cat1=f.^proposta=56
+ent=calaportal^cat1=m.^proposta=57
+ent=Calatrava^cat1=topònim^proposta=58
+ent=calendaritzar^cat1=v.^proposta=59
+ent=calicivirus^cat1=m.^proposta=532
+ent=Calobra^cat1=topònim^proposta=60
+ent=Canberra^cat1=topònim^proposta=61
+ent=cançonística^cat1=f.^proposta=464
+ent=capavallada^cat1=f.^proposta=407
+ent=Carcassona^cat1=topònim^proposta=410
+ent=Carmel^cat1=topònim^proposta=421
+ent=Castellitx^cat1=topònim^proposta=62
+ent=cataclísmic -a^cat1=adj.^proposta=397
+ent=cataliner -a^cat1=m. i f.^proposta=63
+ent=cavaller -a^cat1=adj.^proposta=493
+ent=cavallista^cat1=adj.^proposta=64
+ent=Caïm^cat1=antropònim m^proposta=470
+ent=cel·lularitat^cat1=f.^proposta=65
+ent=Ceuta^cat1=topònim^proposta=523
+ent=cibersexe^cat1=m.^proposta=402
+ent=Ciprià^cat1=antropònim m^proposta=66
+// Fals positiu: Cister^proposta=418
+ent=Cleòpatra^cat1=antropònim f^proposta=67
+ent=climatitzador -a^cat1=adj.^proposta=68
+ent=climatològicament^cat1=adv.^proposta=69
+ent=clotellada^cat1=f.^proposta=70
+ent=cofundar^cat1=v.^proposta=359
+ent=coixiner -a^cat1=m. i f.^proposta=71
+ent=colcador -a^cat1=adj.^proposta=72
+ent=comensalitat^cat1=f.^proposta=517
+ent=complementàriament^cat1=adv.^proposta=73
+ent=completíssim -a^cat1=adj.^proposta=74
+ent=Compostel·la^cat1=topònim^proposta=75
+ent=comptablement^cat1=adv.^proposta=76
+ent=conceptualment^cat1=adv.^proposta=487
+ent=concessional^cat1=adj.^proposta=77
+ent=conductual^cat1=adj.^proposta=479
+ent=conopeu^cat1=m.^proposta=78
+ent=contrabaixista^cat1=m. i f.^proposta=79
+ent=coorganitzador coorganitzadora^cat1=m. i f.^proposta=457
+ent=coorganitzar^cat1=v.^proposta=80
+ent=Copenhaguen^cat1=topònim^proposta=81
+ent=copet^cat1=m.^proposta=82
+ent=cordino^cat1=m.^proposta=387
+ent=corretgí^cat1=m.^proposta=83
+ent=corroborador -a^cat1=adj.^proposta=361
+ent=corsarisme^cat1=m.^proposta=427
+ent=Cosconar^cat1=topònim^proposta=84
+ent=coseta^cat1=f.^proposta=85
+ent=cosser -a^cat1=adj.^proposta=467
+ent=cotitularitat^cat1=f.^proposta=86
+ent=coxsackievirus^cat1=m.^proposta=533
+ent=cra.^cat1=divers^proposta=87
+ent=creativament^cat1=adv.^proposta=88
+// Fals positiu: creuïn^proposta=89
+ent=cronístic -a^cat1=adj.^proposta=506
+ent=culturalment^cat1=adv.^proposta=91
+ent=cíclicament^cat1=adv.^proposta=382
+ent=cíclid^cat1=m.^proposta=527
+ent=Cúber^cat1=topònim^proposta=90
+ent=d'11^cat1=divers^proposta=6
+// Sense fer: d'aproximadament^proposta=550
+// Ja resolt: d'orfes^proposta=471
+// Fals positiu: de'n^proposta=95
+ent=deconstrucció^cat1=f.^proposta=92
+ent=delegable^cat1=adj.^proposta=93
+// Paraula dubtosa: demès^proposta=94
+ent=desafortunadament^cat1=adv.^proposta=96
+ent=descarregable^cat1=adj.^proposta=463
+ent=desconcertantment^cat1=adv.^proposta=434
+ent=descontextualització^cat1=f.^proposta=97
+ent=desencofrant^cat1=adj.^proposta=98
+ent=desencontre^cat1=m.^proposta=99
+ent=desestacionalització^cat1=f.^proposta=100
+ent=desestructuració^cat1=f.^proposta=101
+ent=desestructurar^cat1=v.^proposta=102
+ent=desgrimpar^cat1=v.^proposta=103
+ent=deshumidificació^cat1=f.^proposta=349
+ent=desobturar^cat1=v.^proposta=104
+ent=dessaladora^cat1=f.^proposta=105
+ent=desvalorització^cat1=f.^proposta=433
+ent=diocesanitat^cat1=f.^proposta=106
+// Paraula dubtosa: dissuasori^proposta=107
+ent=divertidíssim -a^cat1=adj.^proposta=459
+ent=dièdric -a^cat1=adj.^proposta=492
+// Paraula dubtosa: dotacional^proposta=108
+ent=dràsticament^cat1=adv.^proposta=109
+ent=duríssim -a^cat1=adj.^proposta=110
+ent=Dàmocles^cat1=antropònim m^proposta=391
+ent=echovirus^cat1=m.^proposta=534
+ent=ecològicament^cat1=adv.^proposta=489
+ent=educadament^cat1=adv.^proposta=364
+ent=elastomèric -a^cat1=adj.^proposta=111
+ent=el·lipticitat^cat1=f.^proposta=112
+// Paraula dubtosa: email^proposta=113
+ent=emocionalment ^cat1=adv.^proposta=114
+ent=emperò^cat1=m.^proposta=116
+ent=encastable^cat1=adj.^proposta=117
+ent=encertadíssim -a^cat1=adj.^proposta=458
+ent=encetadís encetadissa^cat1=adj.^proposta=118
+ent=endocrinològic -a^cat1=adj.^proposta=371
+ent=endoftalmitis^cat1=f.^proposta=119
+ent=energèticament^cat1=adv.^proposta=120
+ent=engominar^cat1=v.^proposta=121
+ent=engravació^cat1=f.^proposta=122
+ent=enrellar^cat1=v.^proposta=123
+ent=enriostament^cat1=m.^proposta=124
+ent=Pil·larí^cat1=topònim^proposta=240
+ent=esboldregament^cat1=m.^proposta=417
+// Paraula dubtosa: esbucament^proposta=405
+ent=escapisme^cat1=m.^proposta=126
+ent=escapista^cat1=m. i f.^proposta=127
+ent=Esclarmonda^cat1=antropònim f^proposta=431
+// Sense fer: esconelles^proposta=128
+// Fals positiu: espaterrant^proposta=129
+ent=esperable^cat1=adj.^proposta=130
+ent=establidor -a^cat1=m. i f.^proposta=509
+ent=estanyet^cat1=m.^proposta=131
+ent=estilísticament^cat1=adv.^proposta=411
+ent=estretíssim -a^cat1=adj.^proposta=345
+ent=estructuralment^cat1=adv.^proposta=132
+ent=etilometria^cat1=f.^proposta=133
+ent=etnomusicòleg etnomusicòloga^cat1=m. i f.^proposta=472
+ent=exdona^cat1=f.^proposta=134
+ent=exemplaríssim exemplaríssima^cat1=m. i f.^proposta=473
+ent=exempleat^cat1=m.^proposta=135
+ent=exgerent^cat1=m.^proposta=136
+ent=exocarst^cat1=m.^proposta=137
+ent=exorbitar^cat1=v.^proposta=474
+ent=expresident -a^cat1=m. i f.^proposta=346
+ent=extensíssim -a^cat1=adj.^proposta=406
+ent=extraartístic -a^cat1=adj.^proposta=138
+ent=extracorpori extracorpòria^cat1=adj.^proposta=139
+ent=extraprocessal^cat1=adj.^proposta=485
+ent=Extremadura^cat1=topònim^proposta=389
+ent=fanzine^cat1=m.^proposta=140
+ent=farmacovigilància^cat1=f.^proposta=141
+ent=Fernández^cat1=antropònim m^proposta=142
+ent=fesset^cat1=m.^proposta=143
+// Ja resolt: fideicometut*^proposta=437
+ent=figueraler figueralera^cat1=m. i f.^proposta=469
+ent=filicomís^cat1=m.^proposta=144
+ent=flexotracció^cat1=f.^proposta=145
+ent=folklòricament^cat1=adv.^proposta=401
+ent=fonoabsorbent^cat1=adj.^proposta=146
+ent=Formentor^cat1=topònim^proposta=147
+ent=fortíssim -a^cat1=adj.^proposta=403
+ent=fotoluminescent^cat1=adj.^proposta=350
+ent=fotorealisme^cat1=m.^proposta=148
+ent=Friburg^cat1=topònim^proposta=352
+ent=frit^cat1=m.^proposta=519
+ent=frontalment^cat1=adv.^proposta=149
+ent=funcionalment^cat1=adv.^proposta=150
+ent=funcionaritzar^cat1=v.^proposta=151
+ent=gamarra^cat1=f.^proposta=152
+ent=Gant^cat1=topònim^proposta=153
+ent=garantista^cat1=adj.^proposta=154
+ent=garbejador -a^cat1=adj.^proposta=155
+ent=gaudinià gaudiniana^cat1=adj.^proposta=156
+ent=Gaza^cat1=topònim^proposta=157
+ent=gelatada^cat1=f.^proposta=495
+ent=geniós -osa^cat1=adj.^proposta=504
+ent=gentilíssim -a^cat1=adj.^proposta=373
+ent=gonellista^cat1=adj.^proposta=347
+ent=governança^cat1=f.^proposta=547
+ent=grandet -a^cat1=adj.^proposta=158
+ent=grandíssim -a^cat1=adj.^proposta=438
+// Paraula dubtosa: grasset^proposta=159
+ent=gregàriament^cat1=adv.^proposta=520
+ent=grupal^cat1=adj.^proposta=160
+// Ja resolt: la Haia^proposta=372
+ent=hantavirus^cat1=m.^proposta=535
+ent=Harmagedon^cat1=m.^proposta=396
+ent=hemoderivat^cat1=m.^proposta=164
+ent=hiperactiu hiperactiva^cat1=adj.^proposta=500
+ent=hipnotitzant^cat1=adj.^proposta=166
+ent=hipnòticament^cat1=adv.^proposta=488
+ent=Hipòcrates^cat1=antropònim m^proposta=163
+ent=humanitzador -a^cat1=adj.^proposta=480
+ent=Hèlsinki^cat1=topònim^proposta=162
+ent=immissió^cat1=f.^proposta=168
+ent=impactant^cat1=adj.^proposta=4
+ent=impecablement^cat1=adv.^proposta=169
+// Sense fer: inadmetre^proposta=167
+ent=inassumible^cat1=adj.^proposta=170
+// Ja resolt: incomplert^proposta=171
+ent=industrialitzador -a^cat1=adj.^proposta=404
+ent=inespecífic -a^cat1=adj.^proposta=432
+ent=informalista^cat1=adj.^proposta=173
+ent=infradotació^cat1=f.^proposta=174
+ent=infumable^cat1=adj.^proposta=398
+ent=ingovernabilitat^cat1=f.^proposta=175
+ent=inlassable^cat1=adj.^proposta=376
+ent=Insbruck^cat1=topònim^proposta=353
+ent=intermediador -a^cat1=adj.^proposta=176
+ent=intermodal^cat1=adj.^proposta=177
+ent=intertextualització^cat1=f.^proposta=454
+ent=intertrimestral^cat1=adj.^proposta=390
+ent=jardinet^cat1=m.^proposta=179
+ent=joaquimita^cat1=adj.^proposta=513
+ent=joveníssim -a^cat1=adj.^proposta=180
+// Ja resolt: junyen^proposta=181
+// Sense fer: l'aleshores^proposta=16
+// Ja resolt: l'Ebre^proposta=497
+// Ja resolt: l'emperò^proposta=115
+// Paraula dubtosa: Empordà^proposta=375
+// Ja resolt: l'esbucament^proposta=125
+// Ja resolt: l'haguem^proposta=161
+// Ja resolt: l'Himàlaia^proposta=165
+// Ja resolt: l'impremta^proposta=377
+// Fals positiu: l'Itàlia^proposta=178
+ent=l'ONU^cat1=marca^proposta=224
+// Ja resolt: l'orfe l'òrfena d'orfes d'òrfenes^proposta=408
+// Fals positiu: l'Unió^proposta=332
+ent=laboriosíssim -a^cat1=adj.^proposta=182
+// Sense fer: lasur^proposta=183
+ent=led^cat1=m.^proposta=184
+ent=lentíssim -a^cat1=adj.^proposta=416
+ent=liguorí liguorina^cat1=adj.^proposta=185
+ent=Ljubljana^cat1=topònim^proposta=186
+ent=lleument^cat1=adv.^proposta=452
+ent=lligamorros^cat1=m.^proposta=187
+ent=Llorito^cat1=topònim^proposta=188
+ent=Lovaina^cat1=topònim^proposta=425
+ent=Lucerna^cat1=topònim^proposta=355
+ent=Lucreci^cat1=antropònim m^proposta=189
+ent=maduríssim -a^cat1=adj.^proposta=456
+ent=magnetotèrmic -a^cat1=m. i f.^proposta=190
+ent=maldament^cat1=adv.^proposta=191
+ent=mallorquinitat^cat1=f.^proposta=192
+ent=malposició^cat1=f.^proposta=193
+ent=maltractador maltractadora^cat1=m. i f.^proposta=522
+ent=maressenc -a^cat1=m. i f.^proposta=481
+ent=marès^cat1=m.^com1=pl. maressos^proposta=482
+ent=martinenc -a^cat1=adj.^proposta=468
+ent=matèric -a^cat1=adj.^proposta=194
+ent=maurista^cat1=adj.^proposta=195
+ent=mediambientalment^cat1=adv.^proposta=196
+ent=Melcion^cat1=antropònim m^proposta=197
+ent=menjamosques^cat1=m.^proposta=198
+ent=mercadet^cat1=m.^proposta=199
+ent=micoia^cat1=f.^proposta=200
+ent=microcel·lular -a^cat1=adj.^proposta=201
+ent=microcomunitat^cat1=f.^proposta=395
+ent=microinformàtic -a^cat1=adj.^proposta=202
+ent=minibús^cat1=m.^proposta=203
+ent=Minnesota^cat1=topònim^proposta=205
+ent=minyonet^cat1=m.^proposta=206
+ent=Miquela^cat1=antropònim f^proposta=524
+ent=mistralià mistraliana^cat1=adj.^proposta=451
+ent=modèlicament^cat1=adv.^proposta=207
+ent=Mondragó^cat1=topònim^proposta=455
+ent=monetaritzar^cat1=v.^proposta=208
+ent=monocanal^cat1=adj.^proposta=209
+ent=monocomponent^cat1=adj.^com1=inv.^proposta=210
+ent=Montse^cat1=antropònim f^proposta=211
+ent=Montsó^cat1=topònim^proposta=507
+ent=morenet -a^cat1=adj.^proposta=212
+ent=morfomètric -a^cat1=adj.^proposta=213
+ent=Mortitx^cat1=topònim^proposta=214
+ent=Moscari^cat1=topònim^proposta=215
+ent=mossó mossona^cat1=adj.^proposta=216
+ent=mostassafia^cat1=f.^proposta=511
+// Paraula dubtosa: munter^proposta=217
+ent=muret^cat1=m.^proposta=218
+ent=mínimament^cat1=adv.^proposta=204
+ent=nadaler^cat1=m.^proposta=502
+ent=nassot^cat1=m.^proposta=219
+ent=neoàrab^cat1=adj.^proposta=429
+ent=nobilíssim -a^cat1=adj.^proposta=220
+ent=nombrosíssim -a^cat1=adj.^proposta=221
+ent=normativament^cat1=adv.^proposta=222
+ent=novohispà novohispana^cat1=adj.^proposta=223
+ent=nuvii nuvia^cat1=m. i f.^proposta=3
+ent=organicitat^cat1=f.^proposta=226
+ent=ortofoto^cat1=f.^proposta=227
+ent=ortopoxvirus^cat1=m.^proposta=536
+ent=Orà^cat1=topònim^proposta=225
+ent=osteotendinós osteotendinosa^cat1=adj.^proposta=228
+ent=padronal^cat1=adj.^proposta=229
+ent=paduà paduana^cat1=adj.^proposta=414
+ent=paisatgísticament^cat1=adv.^proposta=230
+ent=paperet^cat1=m.^proposta=231
+ent=paperí^cat1=m.^proposta=232
+ent=papil·lomavirus^cat1=m.^proposta=537
+ent=parapoxvirus^cat1=m.^proposta=538
+ent=parasitològic -a^cat1=adj.^proposta=233
+ent=paredador -a^cat1=adj.^proposta=393
+ent=Pareis^cat1=topònim^proposta=234
+ent=parvovirus^cat1=m.^proposta=539
+ent=passafils^cat1=m.^proposta=235
+ent=pauperista^cat1=adj.^proposta=514
+ent=pecadriu^cat1=f.^proposta=512
+ent=pedalina^cat1=f.^proposta=385
+ent=peregrinatge^cat1=m.^proposta=236
+ent=perillosíssim -a^cat1=adj.^proposta=237
+ent=perimetralment^cat1=adv.^proposta=238
+ent=periodísticament^cat1=adv.^proposta=356
+ent=personalíssim -a^cat1=adj.^proposta=357
+ent=petitó petitona^cat1=adj.^proposta=239
+ent=pictòricament^cat1=adv.^proposta=363
+ent=pil·lariner -a^cat1=adj.^proposta=241
+ent=pinaret^cat1=m.^proposta=242
+ent=piset^cat1=m.^proposta=362
+ent=plastòmer^cat1=m.^proposta=243
+ent=plurilobulat plurilobulada^cat1=adj.^proposta=244
+ent=poblet^cat1=m.^proposta=245
+ent=poliesportiu poliesportiva^cat1=adj.^proposta=246
+ent=poliovirus^cat1=m.^proposta=540
+ent=polissonada^cat1=f.^proposta=247
+ent=Pontiró^cat1=topònim^proposta=248
+ent=poquet^cat1=m.^proposta=249
+ent=porexpan^cat1=m.^proposta=250
+ent=portalet^cat1=m.^proposta=412
+ent=portassa^cat1=f.^proposta=424
+ent=Portinatx^cat1=topònim^proposta=251
+ent=Portocolom^cat1=topònim^proposta=252
+ent=postapocalíptic -a^cat1=adj.^proposta=254
+ent=posteta^cat1=f.^proposta=255
+ent=postissada^cat1=f.^proposta=256
+ent=postsimbolista^cat1=adj.^proposta=368
+ent=posttesatge^cat1=m.^proposta=257
+ent=potenciament^cat1=m.^proposta=258
+ent=poxvirus^cat1=m.^proposta=541
+ent=preavisar^cat1=v.^proposta=486
+ent=prebenjamí prebenjamina^cat1=adj.^proposta=259
+ent=prediagnòstic^cat1=m.^proposta=260
+ent=pressupostàriament^cat1=adv.^proposta=261
+// Paraula dubtosa: pretensat^proposta=262
+ent=pretesatge^cat1=m.^proposta=263
+ent=preturístic -a^cat1=adj.^proposta=426
+ent=previsiblement^cat1=adv.^proposta=264
+ent=priorització^cat1=f.^proposta=265
+ent=procrastinació^cat1=f.^proposta=498
+ent=properament^cat1=adv.^proposta=266
+ent=pseudomunicipal^cat1=adj.^proposta=267
+ent=pseudonatural^cat1=adj.^proposta=268
+ent=punyidor -a^cat1=adj.^proposta=269
+ent=puríssim -a^cat1=adj.^proposta=436
+// Ja resolt: putzolànics^proposta=270
+ent=Pàdua^cat1=topònim^proposta=413
+ent=Pòrtol^cat1=topònim^proposta=253
+ent=pòstumament^cat1=adv.^proposta=378
+ent=quasierror^cat1=f.^proposta=271
+// Ja resolt: queim^proposta=272
+// Ja resolt: queis^proposta=273
+ent=queratocon^cat1=m.^proposta=274
+ent=queviure^cat1=m.^proposta=465
+ent=quinzenalment^cat1=adv.^proposta=394
+ent=racialment^cat1=adv.^proposta=275
+ent=raconet^cat1=m.^proposta=276
+ent=ramutxalla^cat1=f.^proposta=277
+ent=raríssim -a^cat1=adj.^proposta=278
+ent=reassignar^cat1=v.^proposta=279
+ent=recapitolejar^cat1=v.^proposta=503
+ent=reciclador -a^cat1=adj.^proposta=281
+ent=reclassificar^cat1=v.^proposta=282
+ent=recol·locar^cat1=v.^proposta=415
+ent=recàlcul^cat1=m.^proposta=5
+ent=recàrrega^cat1=f.^proposta=280
+ent=redecorar^cat1=v.^proposta=419
+ent=redimensionament^cat1=m.^proposta=283
+ent=reelaboració^cat1=f.^proposta=284
+ent=reenviar^cat1=v.^proposta=551
+ent=refermament^cat1=m.^proposta=466
+ent=reformulació^cat1=f.^proposta=285
+ent=reinseridor -a^cat1=adj.^proposta=286
+ent=religiosíssim -a^cat1=adj.^proposta=365
+ent=remolcable^cat1=adj.^proposta=476
+ent=renegociar^cat1=v.^proposta=287
+ent=reorientar^cat1=v.^proposta=2
+ent=resolutor resolutora^cat1=m. i f.^proposta=545
+// Ja resolt: restablit^proposta=288
+ent=retaulística^cat1=f.^proposta=289
+ent=reunificació^cat1=f.^proposta=290
+ent=reutilitzable^cat1=adj.^proposta=291
+ent=revaloritzar^cat1=v.^proposta=366
+ent=revellar^cat1=m.^proposta=496
+ent=reverteri^cat1=m.^proposta=518
+ent=rinovirus^cat1=m.^proposta=542
+// Ja resolt: rodamóns^proposta=292
+ent=rotlana^cat1=f.^proposta=293
+ent=rumorologia^cat1=f.^proposta=294
+ent=Arracó^cat1=topònim^proposta=384
+// Fals positiu: S'Indioteria^proposta=172
+ent=Salzburg^cat1=topònim^proposta=354
+ent=Santiago^cat1=topònim^proposta=383
+ent=Santueri^cat1=topònim^proposta=295
+ent=saqueta^cat1=f.^proposta=296
+ent=sarrieta^cat1=f.^proposta=297
+ent=seguríssim -a^cat1=adj.^proposta=298
+ent=selectivament^cat1=adv.^proposta=478
+ent=selletó^cat1=m.^proposta=299
+ent=semaforitzar^cat1=v.^proposta=300
+ent=semiacústic -a^cat1=adj.^proposta=301
+ent=semiclandestí semiclandestina^cat1=adj.^proposta=448
+ent=semidur -a^cat1=adj.^proposta=302
+ent=semipermanent^cat1=adj.^proposta=483
+ent=semiprivatització^cat1=f.^proposta=303
+// Sense fer: sen^proposta=304
+ent=sexomorfologia^cat1=f.^proposta=370
+ent=Sicílies^cat1=topònim^proposta=360
+// Fals positiu: Sidney^proposta=305
+ent=singularíssim -a^cat1=adj.^proposta=435
+ent=sirà^cat1=m.^proposta=526
+ent=sobreactuació^cat1=f.^proposta=400
+ent=sobrecost^cat1=m.^proposta=306
+ent=sobreocupació^cat1=f.^proposta=549
+ent=sociosanitari sociosanitària^cat1=adj.^proposta=307
+ent=soldadet^cat1=m.^proposta=308
+ent=solemníssim -a^cat1=adj.^proposta=309
+ent=sonadeta^cat1=f.^proposta=392
+ent=sonomètric -a^cat1=adj.^proposta=310
+ent=sostenibilitat^cat1=f.^proposta=311
+ent=subliminarment^cat1=adv.^proposta=477
+ent=substancialment^cat1=adv.^proposta=312
+ent=subtilíssim -a^cat1=adj.^proposta=313
+ent=subzona^cat1=f.^proposta=314
+// Paraula dubtosa: suggerent^proposta=315
+ent=supletòriament^cat1=adv.^proposta=316
+ent=supramunicipal^cat1=adj.^proposta=317
+ent=taconer -a^cat1=adj.^proposta=380
+ent=Talmud^cat1=marca^proposta=318
+ent=telemàticament^cat1=adv.^proposta=319
+ent=tesatge^cat1=m.^proposta=321
+ent=Tetuan^cat1=topònim^proposta=322
+ent=Teòcrit^cat1=antropònim m^proposta=381
+ent=tintinacle^cat1=m.^proposta=324
+ent=tipològicament^cat1=adv.^proposta=428
+ent=toponímicament^cat1=adv.^proposta=325
+ent=torovirus^cat1=m.^proposta=543
+ent=tovar^cat1=v.^proposta=505
+ent=transaccionar^cat1=v.^proposta=326
+ent=transubstanciació^cat1=f.^proposta=439
+ent=tremendament^cat1=adv.^proposta=327
+ent=trescalamena^cat1=f.^proposta=328
+ent=téntol^cat1=interj.^proposta=320
+ent=tímbric -a^cat1=adj.^proposta=323
+ent=tòpicament^cat1=adv.^proposta=358
+ent=tòs^cat1=m.^proposta=548
+ent=ullàs^cat1=m.^com1=pl. ullassos^proposta=329
+ent=ultraràpid -a^cat1=adj.^proposta=399
+ent=ultraviolent -a^cat1=adj.^proposta=330
+ent=d'UNICEF^cat1=marca^proposta=331
+ent=urbanísticament^cat1=adv.^proposta=333
+ent=Urà^cat1=topònim^proposta=516
+ent=valvuleria^cat1=f.^proposta=334
+ent=vampíric -a^cat1=adj.^proposta=335
+// Ja resolt: veiam^proposta=336
+ent=velleta^cat1=f.^proposta=337
+ent=verdíssim -a^cat1=adj.^proposta=338
+ent=versus^cat1=prep.^proposta=546
+ent=vialitat^cat1=f.^proposta=339
+ent=videoinstal·lació^cat1=f.^proposta=351
+ent=visceralment^cat1=adv.^proposta=348
+ent=visualment^cat1=adv.^proposta=340
+ent=voltador -a^cat1=adj.^proposta=341
+ent=Xesc^cat1=antropònim m^proposta=342
+ent=ximbomba^cat1=f.^proposta=343
+ent=ximbombada^cat1=f.^proposta=344
+ent=yatapoxvirus^cat1=m.^proposta=544
+ent=Zoroastre^cat1=antropònim m^proposta=440
+ent=Àgueda^cat1=antropònim f^proposta=508

@@ -543,7 +543,7 @@ gemin gèmina: PRECALC=gemin gèmins gèmina gèmines
 germen: PLU=gèrmens
 gluten: PLU=glútens
 gravamen: PLU=gravàmens
-halogen: PLU=halògens
+//halogen: PLU=halògens
 hidrogen: PLU=hidrògens
 himen: PLU=hímens
 impetigen: PLU=impetígens
@@ -559,9 +559,10 @@ lentigen: PLU=lentígens
 liquen: PLU=líquens
 lleig lletja: PRECALC=lleig lletja lletjos lleigs lletges
 lumen: PLU=lúmens
-lumpen: PLU=lúmpens
+//lumpen: PLU=lúmpens
 malvapeix: PLU=malvapeixos
 ni1: PLU=nis
+mon ma: PRECALC=mon ma mos mes
 nitrogen: PLU=nitrògens
 noümen: PLU=noúmens
 numen: PLU=númens
@@ -595,6 +596,8 @@ vitiligen: PLU=vitilígens
 anar: -=(IPR[1236]|FUT|CON|SPR[1236]|IMP[236]) & +=vaig<IPR1> vas<IPR2> va<IPR3> van<IPR6> aniré<FUT1>/T iré<FUT1>/T vagés/P/(SPR[1236]|IMP[36]) vés<IMP2>
 
 // dar: en desús, les persones 1, 2, 3 i 6 dels pres. d'ind., de subj. i d'imper.
+dar: -=(([IS]PR|IMP)[1236])|(IPE[13])|(SIM[13])|XXX & +=das<SIM1> des<SIM1> das<SIM3> des<SIM3> dara<SIM1> dara<SIM3>
+
 // donar: ind. pr. 2 dónes, 3 dóna
 donar: -=(dones|dona)\b & +=dónava/A/(dóna|dónes)\b
 
@@ -686,7 +689,7 @@ caldre: ALT=caler & MODEL=valer/val/cal
 carvendre: MODEL=revendre/rev/carv
 
 // caure: ger. caient; p. p. caigut; ind. pr. caic, caus, cau, caiem, caieu, cauen; ind. imperf. queia, etc.; subj. pr. caigui, etc.; subj. imperf. caigués, etc.
-caure: GER=caient & PAR=caigut & SIM=caigués & IIM=queia
+caure: GER=caient & PAR=caigut & SIM=caigués & IIM=queia & <<102 +=queim queis 102>>
 
 // cerndre: ger. cernent; p.p. cernut; ind. pr. cerno, etc.; ind. perf. cerní, etc.; ind. fut. cerndré, etc.; subj. pr. cerni, etc.; subj. imperf. cernés, etc.; imper. cern, cerni, etc.
 cerndre: GER=cernent & PAR=cernut & SIM=cernés
@@ -1003,7 +1006,7 @@ haure: PAR=hagut & -=. & +=haure<INF0>
 haver1: SIM=hagués & FUT=hauré & PAR=hagut & -=(IPR[1236]|SPR|IMP) & +=heure<INF0> he<IPR1> haig<IPR1> has<IPR2> ha<IPR3> hem<IPR4> heu<IPR5> han<IPR6> hagés/P/(SPR[1236]|IMP) hàgim<SPR4> hàgiu<SPR5> hàgem<SPR4> hàgeu<SPR5> hages<IMP2>
 
 // haver2: inf. haver, heure o haure; p. p. hagut; ind. pr. hec, heus, heu, havem, haveu, heuen; ind. fut. hauré, etc.; subj. pr. hegui, heguis, hegui, haguem, hagueu, heguin; subj. imperf. hagués, etc.; imper. heu, hegui, haguem, haveu, heguin
-haver2: -=. & +=hec heus heuen hegui heguis haguem hagueu heguin
+haver2: -=. & +=hec/Z heus/Z heuen/Z hegui/Z heguis/Z haguem/Z hagueu/Z heguin/Z
 
 // incloure: quant a la flexió, com cloure; p. p. inclòs
 incloure: MODEL=cloure/cl/incl & PAR=inclòs
@@ -1169,7 +1172,7 @@ rebeure: MODEL=beure1/be/rebe
 // rebre: ind. pr. 2 reps, 3 rep
 
 // recaure: quant a la flexió, com caure
-recaure: MODEL=caure/ca/reca
+recaure: GER=recaient & PAR=recaigut & SIM=recaigués & IIM=requeia & <<102 +=requeim requeis 102>>
 
 // recloure: quant a la flexió, com cloure; p. p. reclòs
 recloure: MODEL=cloure/cl/recl & PAR=reclòs
@@ -1379,7 +1382,7 @@ vèncer: ALT=vèncer
 vendre: GER=venent & PAR=venut & SIM=vengués & +=vengut<PAR0>/B
 
 // veure: p. p. vist; ind. pr. veig, veus, veu, veiem, veieu, veuen; ind. imperf. veia, etc.; ind. perf. viu, veres (o veieres), véu (o veié), vérem (o veiérem), etc.; subj. pr. vegi, etc.; subj. imperf. veiés, etc.; imper. veges (o ves), vegi, vegem, vegeu (o veieu), vegin
-veure: PAR=vist & IIM=veia & GER=veient & SIM=veiés & -=(IPR1|IPE|SPR|IMP) & +=veig<IPR1> viu<IPE1> veres<IPE2> veieres<IPE2> véu<IPE3> veié<IPE3> vérem<IPE4> veiérem<IPE4> véreu<IPE5> veiéreu<IPE5> veren<IPE6> veieren<IPE6> vegés/P/(SPR|IMP) veges<IMP2> ves<IMP2> <<102 veim<IPR4> veis<IPR5> veis<IMP5> 102>> <<201 vore<INF0> voré<FUT1>/T 201>>
+veure: PAR=vist & IIM=veia & GER=veient & SIM=veiés & -=(IPR1|IPE|SPR|IMP) & +=veig<IPR1> viu<IPE1> veres<IPE2> veieres<IPE2> véu<IPE3> veié<IPE3> vérem<IPE4> veiérem<IPE4> véreu<IPE5> veiéreu<IPE5> veren<IPE6> veieren<IPE6> vegés/P/(SPR|IMP) veges<IMP2> ves<IMP2> <<102 veim<IPR4> veis<IPR5> veis<IMP5> 102>> <<201 vore<INF0> voré<FUT1>/T 201>> veiam<IMP4> vejam<IMP4>
 
 // viure1: ger. vivint; p. p. viscut; ind. pr. visc, vius, viu, vivim, viviu, viuen; subj. pr. visqui, etc.; subj. imperf. visqués, etc.
 viure1: GER=vivint & PAR=viscut & SIM=visqués
@@ -1390,7 +1393,7 @@ voler2: FUT=voldré & SIM=volgués & PAR=volgut & -=(SPR|IPR1|IMP) & +=vull<IPR1> 
 //======== verbs irregulars terminats en -ir, peró del grup -re/-er ========
 
 // abstenir-se: p. p. abstingut; ind. pr. 1 abstinc, 3 absté; ind. fut. abstindré, etc.; subj. pr. abstingui, etc.; subj. imperf. abstingués, etc.; imperat. 2 abstén
-abstenir-se: ALT=abstindre & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(<<!104INF|!104>>IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2>
+abstenir-se: ALT=abstindre & GER=abstenint & PAR=abstingut & SIM=abstingués & -=(<<!104INF|!104>>IPR3) & +=abstenir<INF0> absté<IPR3> absté<IMP2> <<103 abstenc<IPR1> abstengués<IIM1>/Q abstengut<PAR0>/B abstendré<FUT1>/T 103>>
 
 adir: IGNORA=1
 
@@ -1652,10 +1655,13 @@ grunyir: IPR3=gruny
 // imprimir: p. p. imprès
 imprimir: PAR=imprès
 
+// ent=incomplir^cat1=v. tr.
+incomplir: +=incomplert<PAR0>/F
+
 júnyer: IGNORA=1
 
 // junyir: inf. junyir o júnyer
-junyir: +=júnyer<INF0>
+junyir: +=júnyer<INF0> <<EXT IPR3=juny EXT>>
 
 //ent=llegir^cat1=v. tr.^cat2=tr. pron.
 llegir: <<EXT IPR3=llig EXT>>
@@ -1694,7 +1700,7 @@ perbullir: IPR3=perbull
 percudir: <<EXT IPR3=percut EXT>>
 
 // preestablir: p. p. preestablert
-preestablir: -=(PAR) & +=preestablert<PAR0>/F
+preestablir: <<!101 -=(PAR) & !101>> +=preestablert<PAR0>/F
 
 // premorir: p. p. premort
 premorir: MODEL=morir/mor/premor
@@ -1760,7 +1766,7 @@ ressentir-se: IPR3=ressent
 ressortir: MODEL=sortir/s/ress
 
 // restablir: p. p. restablert
-restablir: -=(PAR) & +=restablert<PAR0>/F
+restablir: <<!101 -=(PAR) & !101>> & +=restablert<PAR0>/F
 
 // retrunyir: ind. pr. 3 retruny
 retrunyir: IPR3=retruny
@@ -2928,6 +2934,7 @@ zoantaris: NOVACAT=m. & ALT=zoantari
 
 //======== Casos diversos   ========
 aquest -a: NOART=1
+aquell -a: NOART=1
 as3: NOVACAT=???
 cabussar: NOVACAT=v. tr.
 can: NOVACAT=???
@@ -3289,7 +3296,7 @@ moianes: PLU=moianes
 
 // Paraules planes que admeten el plural en -ns (home/hòmens)
 argue: PLU=argues àrguens
-ase: PLU=ases àsens
+ase1: PLU=ases àsens
 bleda-rave: PLU=bleda-raves bleda-ràvens
 claviorgue: PLU=claviorgues claviòrguens
 cofre: PLU=cofres cófrens
@@ -3305,10 +3312,10 @@ jove: PLU=joves jóvens
 lleme: PLU=llemes llémens
 marge: PLU=marges màrgens
 orde: PLU=ordes órdens
-orfe òrfena: PRECALC=orfe òrfena orfes òrfens òrfenes
+orfe òrfena: PRECALC=orfe/VY òrfena/VY orfes/Y òrfens/Y òrfenes/Y
 orgue: PLU=orgues òrguens
 rave: PLU=raves ràvens
-saltamarges: PRECALC= saltamarges saltamàrgens
+saltamarges: PRECALC=saltamarges saltamàrgens
 superhome: PLU=superhomes superhòmens
 terme: PLU=termes térmens
 verge: PLU=verges vèrgens

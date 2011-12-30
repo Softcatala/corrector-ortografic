@@ -41,6 +41,7 @@
 [DIEC]  ent=contigu -a^cat1=adj.
 [DIEC]  ent=coure2^cat1=v. tr.^cat2=intr.^com1=ger. coent; p. p. cuit; ind. pr. coc, cous, cou, coem, coeu, couen; subj. pr. cogui, etc.; subj. imperf. cogués, etc.^com2=p. p. cogut
 [DIEC]  ent=cuinar^cat1=v. intr.^cat2=tr.
+[DIEC]  ent=dar^cat1=v. tr.^com1=en desús, les persones 1, 2, 3 i 6 dels pres. d'ind., de subj. i d'imper.
 [DIEC]  ent=dir1^cat1=v. tr.^com1=ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu^com2=o no trobar res a dir^com3=o tan aviat dit com fet^com4=o vol dir?, o voleu dir?^com5=o per dir-ho així, o com si diguéssim, o que diguéssim^com6=o dir-ne de tot color, o dir-ne de coents, o dir-ne de verdes i madures, o dir-ne per a salar, o dir de tot^com7=o dir de vós, o dir de vostè
 [DIEC]  ent=donar^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=ind. pr. 2 dónes, 3 dóna
 [DIEC]  ent=dur2^cat1=v. tr.^com1=ger. duent; p. p. dut; ind. pr. duc, duus (o dus), duu (o du), etc.; imperf. duia, etc.; subj. pr. dugui, etc.; imperf. dugués, etc.
@@ -59,12 +60,14 @@
 [DIEC]  ent=excloure^cat1=v. tr.^cat2=pron.^com1=quant a la flexió, com cloure; p. p. exclòs
 [DIEC]  ent=falç^cat1=f.
 [DIEC]  ent=fer1^cat1=v. tr.^cat2=pron.^cat3=tr.^cat4=tr. pron.^cat5=intr.^com1=p. p. fet; ind. pr. faig, fas, fa, fem, feu, fan; ind. imperf. feia, etc.; ind. perf. fiu, feres, féu, férem, etc.; ind. fut. faré, etc.; subj. pr. faci, facis, faci, fem (o facem), feu (o faceu), facin; subj. imperf. fes, fessis, etc.; imper. fes^com2=o fer per a algú (o per a alguna cosa)
+[AVL]   ent=fideïcometre^cat1=v. tr.
 [DIEC]  ent=haver1^cat1=v. tr.
 [DIEC]  ent=haver2^cat1=v. tr.
 [DIEC]  ent=hissar^cat1=v. tr.^cat2=pron.
 [DIEC]  ent=humitat^cat1=f.
 [DIEC]  ent=imprimir^cat1=v. tr.^com1=p. p. imprès
 [DIEC]  ent=induir^cat1=v. tr.
+[DIEC]  ent=junyir^cat1=v. tr.^cat2=pron.^cat3=intr.^com1=inf. junyir o júnyer
 [DIEC]  ent=llegir^cat1=v. tr.^cat2=tr. pron.
 [DIEC]  ent=néixer^cat1=v. intr.
 [DIEC]  ent=obrir^cat1=v. tr.^cat2=intr.^cat3=pron.^com1=p. p. obert; ind. pr. 2 obres, 3 obre^com2=o obrir l'ull^com3=o obrir les orelles^com4=o una escola, o  un hospital

@@ -418,10 +418,13 @@ namespace xspell
             return llista;
         }
 
+        public Paradigma Paradigma { set { paradigma = value; } get { return paradigma; } }
+
         private string arrel;
         private uint[] flags = new uint[256 / (8 * sizeof(uint))];
         private MorfoGram mgCom, mgArr;
         string flagsComLletres;
         private Entrada entrada;
+        private Paradigma paradigma;
     }
 }

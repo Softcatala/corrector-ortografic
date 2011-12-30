@@ -48,6 +48,7 @@
             this.botoCmpHunspellMyspell = new System.Windows.Forms.Button();
             this.botoComparaAntic = new System.Windows.Forms.Button();
             this.logQualitat = new System.Windows.Forms.RichTextBox();
+            this.cbExportaWeb = new System.Windows.Forms.CheckBox();
             this.pestanyes.SuspendLayout();
             this.tpProvaGeneral.SuspendLayout();
             this.tpExemples.SuspendLayout();
@@ -169,6 +170,7 @@
             // 
             // tpGenera
             // 
+            this.tpGenera.Controls.Add(this.cbExportaWeb);
             this.tpGenera.Controls.Add(this.botoGeneraMostra);
             this.tpGenera.Controls.Add(this.botoGenera);
             this.tpGenera.Controls.Add(this.barraProgres);
@@ -258,6 +260,16 @@
             this.logQualitat.TabIndex = 0;
             this.logQualitat.Text = "";
             // 
+            // cbExportaWeb
+            // 
+            this.cbExportaWeb.AutoSize = true;
+            this.cbExportaWeb.Location = new System.Drawing.Point(24, 83);
+            this.cbExportaWeb.Name = "cbExportaWeb";
+            this.cbExportaWeb.Size = new System.Drawing.Size(123, 17);
+            this.cbExportaWeb.TabIndex = 4;
+            this.cbExportaWeb.Text = "Exporta per a la web";
+            this.cbExportaWeb.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,6 +286,7 @@
             this.tpProvaGeneral.PerformLayout();
             this.tpExemples.ResumeLayout(false);
             this.tpGenera.ResumeLayout(false);
+            this.tpGenera.PerformLayout();
             this.tpControlQualitat.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -301,6 +314,7 @@
         private System.Windows.Forms.RichTextBox logQualitat;
         private System.Windows.Forms.Button botoCmpHunspellMyspell;
         private System.Windows.Forms.Button botoGeneraMostra;
+        private System.Windows.Forms.CheckBox cbExportaWeb;
     }
 }
 

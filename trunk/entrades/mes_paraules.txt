@@ -259,7 +259,7 @@ ent=emocionadament^cat1=adv.
 ent=encimentar^cat1=v.
 ent=enforcament^cat1=adv.
 ent=enrevoltar^cat1=v.
-ent=esbucament^cat1=adv.
+ent=esbucament^cat1=m.
 ent=escanyadura^cat1=f.
 ent=escoleta^cat1=f.
 // revisar escriví **************************************************

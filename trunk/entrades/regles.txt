@@ -1244,8 +1244,8 @@ REGLA U SFX+ Formes pures dels verbs en -ir, a partir d'IPR3 (p.e. sent)
 
 REGLA V PFX Article prefixat no combinable
 // no es pot combinar, per evitar "l'homes"
-000     0      l'          [aàeèéiíoòóhuú]  # l'home
-000     0      L'          [aàeèéiíoòóhuú]  # L'home
+000     0      l'          [1aàeèéiíoòóhuú]  # l'home
+000     0      L'          [1aàeèéiíoòóhuú]  # L'home
 000     0      l'          [AÀEÈÉIÍOÒÓHUÚ]  # l'Home
 000     0      L'          [AÀEÈÉIÍOÒÓHUÚ]  # L'Alcúdia
 000     0      s'          [aàeèéiíoòóhuú]  # s'home
@@ -1315,8 +1315,8 @@ REGLA W PFX Article personal
 
 REGLA Y PFX+ Preposició "de" apostrofada
 // es pot combinar per permetre "d'homes", "d'anar-se'n", etc.
-000     0      d'          [aàeèéiíoòóhuúAÀEÈÉIÍOÒÓHUÚ]  # d'algú, d'Algaida
-000     0      D'          [aàeèéiíoòóhuúAÀEÈÉIÍOÒÓHUÚ]  # d'Algú, D'Algaida
+000     0      d'          [1aàeèéiíoòóhuúAÀEÈÉIÍOÒÓHUÚ]  # d'algú, d'Algaida, d'11
+000     0      D'          [1aàeèéiíoòóhuúAÀEÈÉIÍOÒÓHUÚ]  # d'Algú, D'Algaida, D'11
 000     a      d'A         a                # d'Aire
 000     a      D'A         a                # D'Aire
 000     à      d'À         à                # d'Àguila

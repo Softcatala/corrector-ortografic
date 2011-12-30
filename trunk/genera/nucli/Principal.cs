@@ -20,8 +20,19 @@ namespace Genera
             //pestanyes.SelectedTab = tpExemples;
             pestanyes.SelectedTab = tpGenera;
             //pestanyes.SelectedTab = tpControlQualitat;
+            // Aquest camp és per a manteniment del servidor web
+            if (Directory.Exists(DadesWeb))
+            {
+                cbExportaWeb.Checked = true;
+                cbExportaWeb.Visible = true;
+            }
             MostraPestanya(pestanyes.SelectedTab);
         }
+
+        /// <summary>
+        /// El lloc on desarem les dades per al web de manteniment
+        /// </summary>
+        public static string DadesWeb { get { return @"Z:\dadescat"; } }
 
         private bool fetaProvaGeneral = false;
         private bool fetsExemples = false;

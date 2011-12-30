@@ -50,7 +50,7 @@ namespace xspell
 
         public override string ToString()
         {
-            return String.Format("Paradigma: {0}", descripcio);
+            return String.Format("{0}", descripcio.TrimEnd());
         }
 
         private string descripcio;

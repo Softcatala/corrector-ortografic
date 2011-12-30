@@ -2363,7 +2363,7 @@ ent=alcea^cat1=f.
 ent=alcedínids^cat1=m. pl.^cat2=sing.
 ent=àlcids^cat1=m. pl.^cat2=sing.
 ent=alció^cat1=m.
-ent=alcionari^cat1=m.
+ent=alcionaris^cat1=m. pl.^cat2=sing.
 ent=alciònid^cat1=m.
 ent=alcista^cat1=m. i f.
 ent=alcofoll^cat1=m.
@@ -54462,7 +54462,8 @@ ent=rampell^cat1=m.
 ent=rampellada^cat1=f.
 ent=rampellar-se^cat1=v. pron.
 ent=rampellut -uda^cat1=adj.
-ent=a rampeu^cat1=loc. adv.^cat2=m.
+ent=a rampeu^cat1=loc. adv.
+ent=rampeu^cat1=m.
 ent=rampí^cat1=m.
 ent=rampill^cat1=m.
 ent=rampillar^cat1=v. tr.

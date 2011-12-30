@@ -51,8 +51,8 @@ namespace xspell
         public abstract int LlegeixEntrades(string nomFitxer, List<Entrada> entrades, int mod);
 
         public abstract Regles Regles { get; }
-        public abstract LiniaMarques Excepcio(string ent);
-        public abstract void NovaExcepcio(string ent, LiniaMarques contingut);
+        public abstract InfoExcepcio Excepcio(string ent);
+        public abstract void NovaExcepcio(string ent, LiniaMarques contingut, FitxerFont fitxerFont, int liniaFitxerFont);
         public abstract List<string> ExcepcionsSenseEmprar();
 
         public override string ToString()

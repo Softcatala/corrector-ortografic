@@ -1876,7 +1876,7 @@ ent=puntcom^cat1=adj.
 ent=pupinització^cat1=f.
 ent=purinera^cat1=f.
 ent=puttanesca^cat1=???^com1=Espaguetis a la puttanesca
-ent=putzolànic^cat1=???^com1=ciment putzolànic
+ent=putzolànic -a^cat1=adj.^com1=ciment putzolànic
 ent=quad^cat1=m.
 ent=quadradet^cat1=m.
 ent=quadrantectomia^cat1=f.

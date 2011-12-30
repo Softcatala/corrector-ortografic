@@ -23,6 +23,7 @@ namespace Genera
             identificadors = new Dictionary<string,Identificador>();
             identificadors["DIEC"] = new IdentificadorDIEC("DIEC", regles, DirEntrades("irregulars_diec.txt"));
             identificadors["DIEC2"] = new IdentificadorDIEC("DIEC2", regles, DirEntrades("irregulars_diec2.txt"));
+            identificadors["AVL"] = new IdentificadorDIEC("AVL", regles, DirEntrades("irregulars_avl_gen.txt"));
             StreamReader sr = new StreamReader(nomFitxer, Encoding.Default);
             int nEntrades = 0;
             entrades.DisplayMember = "Ent";
@@ -35,6 +36,8 @@ namespace Genera
                 if (!match.Success) throw new Exception("Error de format: " + linia);
                 string ident = match.Groups[1].Value;
                 linia = match.Groups[2].Value;
+                if (linia.Contains("fideï"))
+                    linia = linia + "";
                 Entrada entrada = identificadors[ident].IdentificaEntrada(linia);
                 nEntrades += 1;
                 entrades.Items.Add(entrada);
@@ -119,7 +122,7 @@ namespace Genera
             if (entrada.Excepcions != null)
             {
                 dadesEntrada.AppendText("\n");
-                Dictionary<string, string> exc = entrada.Excepcions.Valors(new Marques(true));
+                Dictionary<string, string> exc = entrada.Excepcions.Contingut.Valors(new Marques(true));
                 claus = new string[exc.Count];
                 exc.Keys.CopyTo(claus, 0);
                 Array.Sort(claus);

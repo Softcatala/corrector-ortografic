@@ -24,17 +24,20 @@ namespace catala
         {
             if (fitxerExcepcions != null)
             {
+                int numLinia = 0;
+                FitxerFont fitxerFont = FitxerFont.Crea(fitxerExcepcions);
                 StreamReader fitxer = new StreamReader(fitxerExcepcions, Encoding.Default);
                 while (!fitxer.EndOfStream)
                 {
                     string linia = fitxer.ReadLine().Trim();
+                    ++numLinia;
                     Match match = liniaIrr.Match(linia);
                     if (!match.Success)
                         continue;
                     string ent = match.Groups[1].Value;
                     string cont = match.Groups[2].Value;
                     LiniaMarques lm = LlegeixLiniaExc(cont);
-                    NovaExcepcio(ent, lm);
+                    NovaExcepcio(ent, lm, fitxerFont, numLinia);
                 }
                 fitxer.Close();
             }
@@ -124,12 +127,15 @@ namespace catala
 
         override public int LlegeixEntrades(string nomFitxer, List<Entrada> entrades, int mod)
         {
+            FitxerFont fitxerDades = FitxerFont.Crea(nomFitxer);
             StreamReader sr = new StreamReader(nomFitxer, Encoding.Default);
             int numEntrada = 0;
             int llegides = 0;
+            int numLinia = 0;
             while (!sr.EndOfStream)
             {
                 string linia = sr.ReadLine();
+                ++numLinia;
                 if (linia.StartsWith("//") || linia.Length == 0)
                     continue;
                 if (numEntrada % mod == 0)
@@ -139,6 +145,8 @@ namespace catala
                     {
                         entrades.Add(ent);
                         ++llegides;
+                        ent.FitxerDades = fitxerDades;
+                        ent.LiniaFitxerDades = numLinia;
                     }
                 }
                 ++numEntrada;

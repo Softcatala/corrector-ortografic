@@ -249,6 +249,51 @@ namespace xspell
             CreaFitxerDic(nomFitxer, entrades, filtre, comparador);
         }
 
+        /// <summary>
+        /// Genera fitxers per al lloc web de manteniment.
+        /// El programa de gestió del lloc web de manteniment no forma part d'aquest projecte.
+        /// </summary>
+        /// <param name="dirDesti">El directori on aniran els fitxers generats.</param>
+        /// <param name="entrades">La llista d'entrades.</param>
+        /// <param name="identificadors">La llista d'identificadors.</param>
+        public void GeneraFitxersWeb(string dirDesti, List<Entrada> entrades, List<Identificador> identificadors,
+            Comparison<string> comparador)
+        {
+            foreach (string fitxer in Directory.GetFiles(dirDesti))
+                File.Delete(fitxer);
+            StreamWriter fonts = new StreamWriter(dirDesti + @"\fonts.txt", false, Encoding.Default);
+            foreach (FitxerFont ff in FitxerFont.Llista)
+            {
+                string nom = Path.GetFileName(ff.NomFitxer);
+                fonts.WriteLine("id={0}\tnom={1}", ff.Id, nom);
+                string dest = dirDesti + "\\" + nom;
+                File.Copy(ff.NomFitxer, dest);
+            }
+            fonts.Close();
+            Marques senseFiltre = new Marques(true);
+            StreamWriter dic = new StreamWriter(dirDesti + @"\resultats.txt", false, Encoding.Default);
+            foreach (Entrada ent in entrades)
+            {
+                List<ItemDic> items = Entrada.GeneraItemsDic(ent, senseFiltre, Entrada.Speller.WEB, comparador);
+                foreach (ItemDic item in items)
+                {
+                    List<string> camps = new List<string>();
+                    camps.Add(item.ToString());
+                    camps.Add("D=" + ent.FontDades);
+                    if (ent.Excepcions != null)
+                        camps.Add(string.Format("E={0}:{1}", ent.Excepcions.FitxerFont.Id, ent.Excepcions.LiniaFitxerFont));
+                    if (item.mgArrel != null)
+                        camps.Add("A=" + item.mgArrel.ToString());
+                    if (item.mgComuna != null)
+                        camps.Add("C=" + item.mgComuna.ToString());
+                    camps.Add("P=" + item.Paradigma.ToString());
+                    dic.WriteLine(string.Join("\t", camps.ToArray()));
+                }
+                //break;
+            }
+            dic.Close();
+        }
+
         public delegate String CanviaString(String que);
 
         private static Regex CercaMacro = new Regex("(.*?)(%[A-Za-z0-9_]+%)(.*)");

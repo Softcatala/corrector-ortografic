@@ -71,13 +71,13 @@ namespace xspell
             Speller speller, Comparison<string> comparador)
         {
             List<ItemDic> llista = Entrada.GeneraItemsDic(entrades, filtre, speller, comparador);
-            //Regles regles = null;
             Entrada entrada0 = null;
             foreach (Entrada ent in entrades)
             {
                 entrada0 = ent;
                 break;
             }
+            Regles regles = entrada0.Identificador.Regles;
             Dictionary<string, List<ItemDic>> dic = new Dictionary<string, List<ItemDic>>();
             List<ItemDic> llistaCompactada = new List<ItemDic>(llista.Count);
             foreach (ItemDic id in llista)
@@ -87,7 +87,7 @@ namespace xspell
                 {
                     crea = false;
                     foreach(ItemDic item in dic[id.Arrel])
-                        if (item.FlagsCompatibles(id, entrada0.Identificador.Regles))
+                        if (item.FlagsCompatibles(id, regles))
                         {
                             item.MesFlags(id);
                             afegeix = false;
@@ -125,12 +125,12 @@ namespace xspell
             {
                 if (!filtre.Conte(ent.Marques))
                     continue;
-                List<ItemDic> ids = null;
+                List<ItemDic> ids = new List<ItemDic>();
                 Paradigma par = null;
                 if (ent.Excepcions == null)
                 {
                     par = ent.Identificador.IdentificaParadigma(ent.Dades, null);
-                    ids = par.GeneraDic(ent.Dades, null, filtre, speller);
+                    ids.AddRange(par.GeneraDic(ent.Dades, null, filtre, speller));
                     llista.AddRange(ids);
                 }
                 else
@@ -138,22 +138,22 @@ namespace xspell
                     for (int g = 1; g <= 2; g++)
                     {
                         Marca grup = (g == 1) ? Marca.grup1 : Marca.grup2;
-                        if (!ent.Excepcions.Conte(grup))
+                        if (!ent.Excepcions.Contingut.Conte(grup))
                             continue;
                         filtreExc.Menys(Marca.grups12);
                         filtreExc.Mes(grup);
-                        Dictionary<string, string> excepcions = ent.Excepcions.Valors(filtreExc);
+                        Dictionary<string, string> excepcions = ent.Excepcions.Contingut.Valors(filtreExc);
                         dades = new Dictionary<string, string>(ent.Dades);
                         if (excepcions.ContainsKey("MODEL"))
                         {
                             string[] model = excepcions["MODEL"].Split('/');
                             if (excepcions.Count == 1)
-                                AplicaModel(dades, out excepcions, model, ent.Identificador.Excepcio(model[0]), filtreExc);
+                                AplicaModel(dades, out excepcions, model, ent.Identificador.Excepcio(model[0]).Contingut, filtreExc);
                             else
                             {
                                 // A part del model, hi ha més dades
                                 Dictionary<string, string> excepcionsOriginals = new Dictionary<string,string>(excepcions);
-                                AplicaModel(dades, out excepcions, model, ent.Identificador.Excepcio(model[0]), filtreExc);
+                                AplicaModel(dades, out excepcions, model, ent.Identificador.Excepcio(model[0]).Contingut, filtreExc);
                                 foreach (KeyValuePair<string, string> kv in excepcionsOriginals)
                                     excepcions[kv.Key] = kv.Value;
                             }
@@ -165,13 +165,16 @@ namespace xspell
                         if (excepcions.ContainsKey("NOVACAT"))
                             dades["cat1"] = excepcions["NOVACAT"];
                         par = ent.Identificador.IdentificaParadigma(dades, excepcions);
-                        ids = par.GeneraDic(dades, excepcions, filtre, speller);
-                        llista.AddRange(ids);
+                        ids.AddRange(par.GeneraDic(dades, excepcions, filtre, speller));
                     }
+                    llista.AddRange(ids);
                 }
-                if (ids != null)
-                    foreach (ItemDic id in ids)
-                        id.Entrada = ent;
+                foreach (ItemDic id in ids)
+                {
+                    id.Entrada = ent;
+                    if (id.Paradigma == null)
+                        id.Paradigma = par;
+                }
             }
             llista.Sort(delegate(ItemDic id1, ItemDic id2)
             {
@@ -242,7 +245,7 @@ namespace xspell
         /// <summary>
         /// Els correctors que tractarem.
         /// </summary>
-        public enum Speller { MYSPELL, HUNSPELL };
+        public enum Speller { MYSPELL, HUNSPELL, WEB };
 
         public string Arrel { get { return dades["arrel"]; } }
 
@@ -250,7 +253,7 @@ namespace xspell
 
         public Dictionary<string, string> Dades { get { return dades; } }
 
-        public LiniaMarques Excepcions { get { return excepcions; } set { excepcions = value; } }
+        public InfoExcepcio Excepcions { get { return excepcions; } set { excepcions = value; } }
 
         public Identificador Identificador { get { return identificador; } }
 
@@ -278,10 +281,29 @@ namespace xspell
             return String.Format("Entrada: \"{0}\"", Arrel);
         }
 
+        /// <summary>
+        /// Torna una cadena amb la informació sobre l'origen de les dades.
+        /// </summary>
+        public string FontDades { get { return string.Format("{0}:{1}", FitxerDades.Id, LiniaFitxerDades); } }
+
+        /// <summary>
+        /// Torna una cadena amb la informació sobre l'origen de les excepcions.
+        /// </summary>
+        public string FontExc { get { return string.Format("{0}:{1}", FitxerExc.Id, LiniaFitxerExc); } }
+
+        public FitxerFont FitxerDades { get { return fitxerDades; } set { fitxerDades = value; } }
+        public FitxerFont FitxerExc { get { return fitxerExc; } set { fitxerExc = value; } }
+        public int LiniaFitxerDades { get { return liniaFitxerDades; } set { liniaFitxerDades = value; } }
+        public int LiniaFitxerExc { get { return liniaFitxerExc; } set { liniaFitxerExc = value; } }
+
         private Dictionary<string, string> dades;
-        private LiniaMarques excepcions;
+        private InfoExcepcio excepcions;
         private Identificador identificador;
         private Marques marques;
+        private FitxerFont fitxerDades;
+        private int liniaFitxerDades;
+        private FitxerFont fitxerExc;
+        private int liniaFitxerExc;
 
         static private Marques marquesDefecte = new Marques(false, "000");
     }
