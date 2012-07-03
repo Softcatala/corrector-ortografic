@@ -358,7 +358,7 @@ ent=xilé xilena^cat1=adj. i m. i f.^mrc1=201
 ent=zairés zairesa^cat1=adj. i m. i f.^mrc1=201
 ent=zanzibarés zanzibaresa^cat1=adj. i m. i f.^mrc1=201
 ent=zelandés zelandesa^cat1=adj. i m. i f.^mrc1=201
-ent=zimbabwés zimbabwesa^cat1=adj. i m. i f.^mrc1=201
+ent=zimbabués zimbabuesa^cat1=adj. i m. i f.^mrc1=201
 
 // Noms de lletres
 ent=ef^cat1=f.^mrc1=201

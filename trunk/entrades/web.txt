@@ -1,5 +1,5 @@
 // Entrades proposades al web
-// Creació: 30/12/11 18:49
+// Creació: 17/06/12 21:27
 
 // Ja resolt: *den^proposta=494
 // Ja resolt: abstendré^proposta=7
@@ -77,7 +77,9 @@ ent=Blanquerna^cat1=antropònim m^proposta=52
 ent=boníssim -a^cat1=adj.^proposta=45
 ent=Boston^cat1=topònim^proposta=53
 ent=boveria^cat1=f.^proposta=46
+ent=Bratislava^cat1=topònim^proposta=555
 ent=brometa^cat1=f.^proposta=54
+ent=Bòsfor^cat1=topònim^proposta=564
 ent=cabaneta^cat1=f.^proposta=55
 ent=cadenella^cat1=f.^proposta=56
 ent=calaportal^cat1=m.^proposta=57
@@ -116,6 +118,7 @@ ent=comptablement^cat1=adv.^proposta=76
 ent=conceptualment^cat1=adv.^proposta=487
 ent=concessional^cat1=adj.^proposta=77
 ent=conductual^cat1=adj.^proposta=479
+ent=conjunturalment^cat1=adv.^proposta=554
 ent=conopeu^cat1=m.^proposta=78
 ent=contrabaixista^cat1=m. i f.^proposta=79
 ent=coorganitzador coorganitzadora^cat1=m. i f.^proposta=457
@@ -148,6 +151,7 @@ ent=delegable^cat1=adj.^proposta=93
 // Paraula dubtosa: demès^proposta=94
 ent=desafortunadament^cat1=adv.^proposta=96
 ent=descarregable^cat1=adj.^proposta=463
+ent=descloscar^cat1=v.^proposta=561
 ent=desconcertantment^cat1=adv.^proposta=434
 ent=descontextualització^cat1=f.^proposta=97
 ent=desencofrant^cat1=adj.^proposta=98
@@ -158,7 +162,9 @@ ent=desestructurar^cat1=v.^proposta=102
 ent=desgrimpar^cat1=v.^proposta=103
 ent=deshumidificació^cat1=f.^proposta=349
 ent=desobturar^cat1=v.^proposta=104
+ent=desprotecció^cat1=f.^proposta=559
 ent=dessaladora^cat1=f.^proposta=105
+ent=desubicar^cat1=v.^proposta=562
 ent=desvalorització^cat1=f.^proposta=433
 ent=diocesanitat^cat1=f.^proposta=106
 // Paraula dubtosa: dissuasori^proposta=107
@@ -233,6 +239,7 @@ ent=frit^cat1=m.^proposta=519
 ent=frontalment^cat1=adv.^proposta=149
 ent=funcionalment^cat1=adv.^proposta=150
 ent=funcionaritzar^cat1=v.^proposta=151
+ent=Gabriela^cat1=antropònim f^proposta=552
 ent=gamarra^cat1=f.^proposta=152
 ent=Gant^cat1=topònim^proposta=153
 ent=garantista^cat1=adj.^proposta=154
@@ -254,6 +261,7 @@ ent=hantavirus^cat1=m.^proposta=535
 ent=Harmagedon^cat1=m.^proposta=396
 ent=hemoderivat^cat1=m.^proposta=164
 ent=hiperactiu hiperactiva^cat1=adj.^proposta=500
+ent=hiperrealitat^cat1=f.^proposta=563
 ent=hipnotitzant^cat1=adj.^proposta=166
 ent=hipnòticament^cat1=adv.^proposta=488
 ent=Hipòcrates^cat1=antropònim m^proposta=163
@@ -326,6 +334,7 @@ ent=microcomunitat^cat1=f.^proposta=395
 ent=microinformàtic -a^cat1=adj.^proposta=202
 ent=minibús^cat1=m.^proposta=203
 ent=Minnesota^cat1=topònim^proposta=205
+ent=minusvàlua^cat1=f.^proposta=553
 ent=minyonet^cat1=m.^proposta=206
 ent=Miquela^cat1=antropònim f^proposta=524
 ent=mistralià mistraliana^cat1=adj.^proposta=451
@@ -443,6 +452,8 @@ ent=redecorar^cat1=v.^proposta=419
 ent=redimensionament^cat1=m.^proposta=283
 ent=reelaboració^cat1=f.^proposta=284
 ent=reenviar^cat1=v.^proposta=551
+ent=reexposar^cat1=v.^proposta=556
+// Sense fer: reexpòs^proposta=557
 ent=refermament^cat1=m.^proposta=466
 ent=reformulació^cat1=f.^proposta=285
 ent=reinseridor -a^cat1=adj.^proposta=286
@@ -502,6 +513,8 @@ ent=supletòriament^cat1=adv.^proposta=316
 ent=supramunicipal^cat1=adj.^proposta=317
 ent=taconer -a^cat1=adj.^proposta=380
 ent=Talmud^cat1=marca^proposta=318
+ent=tarongí^cat1=m.^proposta=558
+ent=Tebaida^cat1=topònim^proposta=560
 ent=telemàticament^cat1=adv.^proposta=319
 ent=tesatge^cat1=m.^proposta=321
 ent=Tetuan^cat1=topònim^proposta=322

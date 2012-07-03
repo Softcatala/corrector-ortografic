@@ -98,8 +98,8 @@ ent=pastoralisme^cat1=m.
 ent=patrilateral^cat1=adj.
 ent=patrilinealitat^cat1=f.
 ent=pidgin^cat1=m.
-ent=reificació^cat1=f.
-ent=reificar^cat1=v. tr.
+//ent=reificació^cat1=f.
+//ent=reificar^cat1=v. tr.
 ent=sami^cat1=adj. i m. i f.
 ent=san^cat1=adj. i m. i f.
 ent=sikh^cat1=adj.
@@ -743,7 +743,7 @@ ent=clavicipitals^cat1=f. pl.
 ent=col·líbia^cat1=f.
 ent=cortinarials^cat1=f. pl.
 ent=deuteroliquen^cat1=m.
-ent=discolíquens^cat1=m. pl.
+ent=discoliquen^cat1=m.
 ent=erisifals^cat1=f. pl.
 ent=escarlot^cat1=m.
 ent=esclatabutzes^cat1=m.
@@ -789,7 +789,7 @@ ent=pamperol^cat1=m.
 ent=pampinella^cat1=f.
 ent=peixigà^cat1=m.
 ent=penicil·li^cat1=m.
-ent=pirenolíquens^cat1=m. pl.
+ent=pirenoliquen^cat1=m.
 ent=plasmodioforomicets^cat1=m. pl.
 ent=pluteals^cat1=f. pl.
 ent=polípor^cat1=m.
@@ -2463,3 +2463,145 @@ ent=paterfamilias^cat1=m.
 ent=primofílices^cat1=f. pl.
 ent=tenis^cat1=m.
 ent=miliard^cat1=m.
+
+// Entrades més recents
+
+ent=barralleva^cat1=f.
+ent=armallader armalladera^cat1=m. i f.
+ent=ametllenc^cat1=m.
+ent=aücar^cat1=v. intr.^cat2=tr.
+ent=aüc^cat1=m.
+ent=àlter ego^cat1=m. i f.^com1=alter
+ent=cagarulla^cat1=f.
+ent=cambodjà -ana^cat1=adj. i m. i f.^cat2=adj.^cat3=adj. i m.
+ent=reïficació^cat1=f.^com1=reificació
+ent=reïficar^cat1=v. tr.^com1=reificar
+ent=paraigüet^cat1=m.^cat2=m. pl.
+ent=saballoner -a^cat1=adj.
+ent=percaluci^cat1=m.
+ent=mamilinció^cat1=f.
+ent=quadrejadura^cat1=f.
+ent=kirguís^cat1=m. i f.^cat2=adj.^cat3=m.
+ent=aïnada^cat1=f.
+ent=aïnar^cat1=v. intr.
+ent=ceratitis^cat1=f.
+ent=electró-volt^cat1=m.
+ent=espirea^cat1=f.^com1=espírea
+//ent=discolíquens^cat1=m.^com1=discoliquens
+ent=maridador -a^cat1=adj.
+ent=gencianeta^cat1=f.
+ent=góndol^cat1=m.^com1=gòndol
+ent=maître^cat1=m.^com1=maitre
+ent=estonada^cat1=f.
+ent=rigodon^cat1=m.
+ent=perhom^cat1=adv.
+ent=almón^cat1=adv.^com1=almon
+ent=pioixa^cat1=f.
+ent=hun huna^cat1=m. i f.
+ent=infanter -a^cat1=adj.
+ent=bigòs^cat1=m.^com1=bigós
+ent=terrandòs^cat1=m.
+ent=paltruc^cat1=m.
+ent=séquia^cat1=f.^com1=sèquia, sequia
+ent=terrassenc -a^cat1=adj.
+ent=pristí -ina^cat1=adj.^com1=pristi
+ent=deixia^cat1=f.
+ent=zimbabuès -esa^cat1=adj.
+ent=traginador -a^cat1=adj. i m. i f.^cat2=f.
+ent=anagnosta^cat1=m.
+ent=arguïble^cat1=adj.
+ent=arguïció^cat1=f.
+ent=arguïdor arguïdora^cat1=m. i f.^com1=argüidor
+ent=reveixinc^cat1=m.
+ent=armallada^cat1=f.
+ent=bisolcat -ada^cat1=adj.
+ent=librari -ària^cat1=adj.
+ent=cantabile^cat1=m.
+ent=catabalma^cat1=f.
+ent=catacumba^cat1=f.
+ent=anopistògraf^cat1=m.
+ent=amfístoma^cat1=m.^com1=amfistoma
+ent=bastnäsita^cat1=f.
+ent=àglif -a^cat1=m.^com1=aglif
+ent=desparterat -ada^cat1=adj.
+ent=dístoma^cat1=m.^com1=distoma
+ent=avanttrèn^cat1=m.
+ent=azeòtrop^cat1=m.^com1=azeotrop
+ent=escainar^cat1=v. intr.^com1=escaïnar
+ent=escolanalla^cat1=f.
+ent=fenar^cat1=m.
+ent=dificerc -a^cat1=adj.
+ent=gomfosi^cat1=f.^com1=gòmfosi
+ent=homener -a^cat1=adj.
+ent=indigenitat^cat1=f.
+ent=deisi^cat1=f.^com1=dèisi
+ent=èmesi^cat1=f.^com1=emesi
+ent=loxodromia^cat1=f.^com1=loxodròmia
+ent=mabritxol^cat1=m.
+ent=nul·lípar -a^cat1=adj.
+ent=olesà -ana^cat1=adj. i m. i f.^cat2=adj.
+ent=ordalia^cat1=f.
+ent=ortodromia^cat1=f.^com1=ortodròmia
+ent=cinabarí -ina^cat1=adj.
+ent=perístoma^cat1=m.^com1=peristoma
+ent=petròglif^cat1=m.^com1=petroglif
+ent=primípar -a^cat1=adj.
+ent=retalladura^cat1=f.
+ent=goma-2^cat1=f.
+ent=torçament^cat1=m.
+ent=tsarévitx tsarevna^cat1=m. i f.^com1=tsarevitx
+ent=zoisita^cat1=f.^com1=zoïsita
+ent=gastròstoma^cat1=m.^com1=gastrostoma
+ent=fòrint^cat1=m.^com1=forint
+ent=luddisme^cat1=m.
+ent=nietzscheà -ana^cat1=adj. i m. i f.
+ent=organoborà^cat1=m.
+ent=parkinsònia^cat1=f.
+ent=pirenolíquens^cat1=m.^com1=pirenoliquens
+ent=pentosan^cat1=m.
+ent=reempenyorament^cat1=m.
+ent=tentaculits^cat1=m. pl.^cat2=m.
+ent=homocerc -a^cat1=adj.
+ent=isògrada^cat1=f.^com1=isograda
+ent=misquito^cat1=adj.
+ent=exitància^cat1=f.
+ent=titolot^cat1=m.
+ent=morenella^cat1=adj.
+ent=peuets^cat1=m. pl.
+ent=lucioperca^cat1=m.
+ent=vehiculació^cat1=f.
+ent=transterminància^cat1=f.
+ent=arraià^cat1=m.
+ent=budleia^cat1=f.^com1=budlèia
+ent=jacaranda^cat1=f.
+ent=fumaterra^cat1=m.
+ent=aüixar^cat1=v. tr.
+ent=fructosan^cat1=m.
+ent=clopissa^cat1=f.
+ent=clopissó^cat1=m.
+ent=bordanya^cat1=f.
+ent=anàlit^cat1=m.^com1=analit
+ent=heortologia^cat1=f.
+ent=cinèsic -a^cat1=f.
+ent=tiracrín^cat1=m.^com1=tiracrin
+ent=ossó^cat1=m.
+ent=sil^cat1=m.
+ent=berthòl·lid -a^cat1=m.
+ent=uïssar^cat1=v. intr.^com1=uissar
+ent=beçosa^cat1=f.
+ent=bedosa^cat1=f.
+ent=botjosa^cat1=f.
+ent=galactan^cat1=m.
+ent=fumarolià -ana^cat1=adj.
+ent=enllà-ahir^cat1=adv.
+ent=cellablanc -a^cat1=adj.
+ent=cartra^cat1=f.
+ent=garoter^cat1=m.
+ent=belarús -ussa^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
+ent=bogomil^cat1=adj. i m. i f.
+ent=montà -ana^cat1=adj.
+ent=cargolina^cat1=f.
+ent=a gatamèus^cat1=loc. adv.
+ent=jungermanníida^cat1=f.
+ent=ligasa^cat1=f.
+

@@ -11,6 +11,7 @@ pelodítids: ALT=pelodítid & NOVACAT=m.
 pitònids: ALT=pitònid & NOVACAT=m.
 sioux: PLU=sioux
 tupí3: PLU=-ís
+kirguís: PLU=kirguís
 kitsch: PLU=kitsch
 cuixé: PLU=cuixé
 maixé: PLU=maixé
@@ -30,7 +31,7 @@ cantarel·lals: ALT=cantarel·lal & NOVACAT=f.
 celomicets: ALT=celomicet & NOVACAT=m.
 clavicipitals: ALT=clavicipital & NOVACAT=f.
 cortinarials: ALT=cortinarial & NOVACAT=f.
-discolíquens: ALT=discoliquen & NOVACAT=m.
+discoliquen: PLU=discolíquens
 erisifals: ALT=erisifal & NOVACAT=f.
 esclerodermatals: ALT=esclerodermatal & NOVACAT=f.
 estereals: ALT=estereal & NOVACAT=f.
@@ -49,7 +50,7 @@ mixomicots: ALT=mixomicot & NOVACAT=m.
 monilials: ALT=monilial & NOVACAT=f.
 nidularials: ALT=nidularial & NOVACAT=f.
 oomicots: ALT=oomicot & NOVACAT=m.
-pirenolíquens: ALT=pirenoliquen & NOVACAT=m.
+pirenoliquen: PLU=pirenolíquens
 plasmodioforomicets: ALT=plasmodioforomicet & NOVACAT=m.
 pluteals: ALT=pluteal & NOVACAT=f.
 poliporals: ALT=poliporal & NOVACAT=f.
@@ -60,6 +61,7 @@ sacaromicetals: ALT=sacaromicetal & NOVACAT=f.
 sacaromicets: ALT=sacaromicet & NOVACAT=m.
 tafrinals: ALT=tafrinal & NOVACAT=f.
 teleforals: ALT=teleforal & NOVACAT=f.
+tentaculits: ALT=tentaculit & NOVACAT=m.
 tricolomatals: ALT=tricolomatal & NOVACAT=f.
 tuberals: ALT=tuberal & NOVACAT=f.
 tulostomatals: ALT=tulostomatal & NOVACAT=f.
@@ -151,7 +153,7 @@ monoplacòfors: ALT=monoplacòfor & NOVACAT=m.
 notosaures: ALT=notosaure & NOVACAT=m.
 ostracoderms: ALT=ostracoderm & NOVACAT=m.
 placoderms: ALT=placoderm & NOVACAT=m.
-pteridospermes: ALT=pteridosperme & NOVACAT=f.
+pteridospermes: ALT=pteridosperm -a & NOVACAT=adj.
 quetètids: ALT=quetètid & NOVACAT=m.
 rinconèl·lids: ALT=rinconèl·lid & NOVACAT=m.
 rostroconquis: ALT=rostroconqui & NOVACAT=m.
@@ -188,7 +190,7 @@ asplenials: ALT=asplenial & NOVACAT=f.
 buxbaumials: ALT=buxbaumial & NOVACAT=f.
 calobrials: ALT=calobrial & NOVACAT=f.
 centrals: ALT=central & NOVACAT=f.
-cianoprocariotes: ALT=cianoprocariote & NOVACAT=m.
+cianoprocariotes: ALT=cianoprocariota & NOVACAT=m.
 cloromonadals: ALT=cloromonadal & NOVACAT=f.
 crisòfits: ALT=crisòfit & NOVACAT=m.
 cromistes: ALT=cromista & NOVACAT=f.
@@ -201,7 +203,7 @@ esferopleals: ALT=esferopleal & NOVACAT=f.
 eustigmatòfits: ALT=eustigmatòfit & NOVACAT=m.
 filicates: ALT=filicate & NOVACAT=f.
 filicofitins: ALT=filicofití & NOVACAT=m.
-fucofícies: ALT=fucofície & NOVACAT=f.
+fucofícies: ALT=fucofícia & NOVACAT=f.
 funarials: ALT=funarial & NOVACAT=f.
 gelidials: ALT=gelidial & NOVACAT=f.
 hepatòpsids: ALT=hepatòpsid & NOVACAT=m.
@@ -210,7 +212,7 @@ jungermanníides: ALT=jungermanníide & NOVACAT=f.
 klebshormidials: ALT=klebshormidial & NOVACAT=f.
 licofitins: ALT=licofití & NOVACAT=m.
 marattiòpsids: ALT=marattiòpsid & NOVACAT=m.
-marcancíides: ALT=marcancíide & NOVACAT=f.
+marcancíides: ALT=marcancíida & NOVACAT=f.
 ofioglossòpsids: ALT=ofioglossòpsid & NOVACAT=m.
 osmundals: ALT=osmundal & NOVACAT=f.
 pennals: ALT=pennal & NOVACAT=f.
@@ -222,8 +224,8 @@ rafidòfits: ALT=rafidòfit & NOVACAT=m.
 riniofitins: ALT=riniofití & NOVACAT=m.
 salvinials: ALT=salvinial & NOVACAT=f.
 silicoflagel·lades: ALT=silicoflagel·lada & NOVACAT=f.
-sinurofícies: ALT=sinurofície & NOVACAT=f.
-ulvofícies: ALT=ulvofície & NOVACAT=f.
+sinurofícies: ALT=sinurofícia & NOVACAT=f.
+ulvofícies: ALT=ulvofícia & NOVACAT=f.
 xantòfits: ALT=xantòfit & NOVACAT=m.
 zignematals: ALT=zignematal & NOVACAT=f.
 amentiflores: ALT=amentiflora & NOVACAT=f.

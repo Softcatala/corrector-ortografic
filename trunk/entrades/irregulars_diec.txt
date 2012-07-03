@@ -1595,7 +1595,7 @@ descobrir: PAR=descobert
 descosir: MODEL=cosir/c/desc & -=(cus<) & +=descús<IPR3> descús<IMP2>
 
 // deseixir-se: quant a la flexió, com eixir
-deseixir-se: MODEL=eixir/eix/desei/ix/desix
+deseixir-se: MODEL=eixir/eix/deseix/ix/desix/isc/desisc/isq/desisq
 
 // desmentir: ind. pr. 3 desmenteix (o desment)
 desmentir: <<EXT IPR3=desment EXT>>
@@ -2049,7 +2049,7 @@ amfípodes: NOVACAT=m. & ALT=amfípode
 amfisbènids: NOVACAT=m. & ALT=amfisbènid
 ammodítids: NOVACAT=m. & ALT=ammodítid
 ammonítids: NOVACAT=m. & ALT=ammonítid
-anacantins: NOVACAT=m. & ALT=anacantín
+anacantins: NOVACAT=m. & ALT=anacantí
 anacardiàcies: NOVACAT=f. & ALT=anacardiàcia
 anàpsids: NOVACAT=m. & ALT=anàpsid
 anàtids: NOVACAT=m. & ALT=anàtid
@@ -2105,6 +2105,7 @@ aulòpids: NOVACAT=m. & ALT=aulòpid
 aulopiformes: NOVACAT=m. & ALT=aulopiforme
 bacil·làcies: NOVACAT=f. & ALT=bacil·làcia
 bacil·lariofícies: NOVACAT=f. & ALT=bacil·lariofícia
+balanoforàcies: NOVACAT=f. & ALT=balanoforàcia
 balènids: NOVACAT=m. & ALT=balènid
 balenoptèrids: NOVACAT=m. & ALT=balenoptèrid
 balístids: NOVACAT=m. & ALT=balístid
@@ -2136,6 +2137,7 @@ branquiòpodes: NOVACAT=m. & ALT=branquiòpode
 branquiürs: NOVACAT=m. & ALT=branquiür
 braquiòpodes: NOVACAT=m. & ALT=braquiòpode
 braquiürs: NOVACAT=m. & ALT=braquiür
+brassicàcies: NOVACAT=f. & ALT=brassicàcia
 brials: NOVACAT=f. & ALT=brial
 bríides: NOVACAT=f. & ALT=bríida
 briòfits: NOVACAT=m. & ALT=briòfit
@@ -2258,7 +2260,7 @@ criptòfits: NOVACAT=m. & ALT=criptòfit
 criptonemials: NOVACAT=f. & ALT=criptonemial
 crisobalanàcies: NOVACAT=f. & ALT=crisobalanàcia
 crisofícies: NOVACAT=f. & ALT=crisofícia
-crocodilians: NOVACAT=m. & ALT=crocodilian
+crocodilians: NOVACAT=m. & ALT=crocodilià
 crotàlids: NOVACAT=m. & ALT=crotàlid
 crucíferes: NOVACAT=f. & ALT=crucífera
 ctenòfors: NOVACAT=m. & ALT=ctenòfor
@@ -2281,6 +2283,7 @@ dermòpters: NOVACAT=m. & ALT=dermòpter
 dermoquèlids: NOVACAT=m. & ALT=dermoquèlid
 deuteromicets: NOVACAT=m. & ALT=deuteromicet
 diàpsids: NOVACAT=m. & ALT=diàpsid
+diatomees: NOVACAT=f. & ALT=diatomea
 dicranals: NOVACAT=f. & ALT=dicranal
 dictiòpters: NOVACAT=m. & ALT=dictiòpter
 dictiotals: NOVACAT=f. & ALT=dictiotal
@@ -2392,6 +2395,7 @@ feldspats: NOVACAT=m. & ALT=feldspat
 fèlids: NOVACAT=m. & ALT=fèlid
 fenicoptèrids: NOVACAT=m. & ALT=fenicoptèrid
 fenicopteriformes: NOVACAT=m. & ALT=fenicopteriforme
+feofícies: NOVACAT=f. & ALT=feofícia
 feòfits: NOVACAT=m. & ALT=feòfit
 ficomicets: NOVACAT=m. & ALT=ficomicet
 filicals: NOVACAT=f. & ALT=filical
@@ -2500,6 +2504,7 @@ lacèrtids: NOVACAT=m. & ALT=lacèrtid
 lagomorfs: NOVACAT=m. & ALT=lagomorf
 lamel·libranquis: NOVACAT=m. & ALT=lamel·libranqui
 lamel·lirostres: NOVACAT=m. & ALT=lamel·lirostre
+lamiàcies: NOVACAT=f. & ALT=lamiàcia
 laminarials: NOVACAT=f. & ALT=laminarial
 làmnids: NOVACAT=m. & ALT=làmnid
 lampridiformes: NOVACAT=m. & ALT=lampridiforme
@@ -2533,6 +2538,7 @@ madreporaris: NOVACAT=m. & ALT=madreporari
 magnoliàcies: NOVACAT=f. & ALT=magnoliàcia
 magnoliates: NOVACAT=f. & ALT=magnoliata
 magnoliofitins: NOVACAT=m. & ALT=magnoliofití
+magnoliòpsids: NOVACAT=m. & ALT=magnoliòpsid
 malacostracis: NOVACAT=m. & ALT=malacostraci
 mal·lòfags: NOVACAT=m. & ALT=mal·lòfag
 malvàcies: NOVACAT=f. & ALT=malvàcia

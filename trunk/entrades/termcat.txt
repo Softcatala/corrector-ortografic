@@ -695,7 +695,7 @@ ent=electromètric -a^cat1=adj.^com1=amplificador electromètric
 ent=electromigració^cat1=f.
 ent=electroosmòtic -a^cat1=adj.^com1=adob electroosmòtic
 ent=electrosoldat -ada^cat1=adj.^com1=malla electrosoldada
-ent=electrovolt^cat1=m.
+//ent=electrovolt^cat1=m.
 ent=eleoplast^cat1=m.
 ent=eluat^cat1=m.
 ent=eluotròpic -a^cat1=adj.^com1=eluotròpic -a

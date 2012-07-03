@@ -45,8 +45,11 @@ namespace Genera
             List<Identificador> identificadors = new List<Identificador>();
             List<Entrada> entrades = LlegeixEntrades(mod, log, horaInici, regles, identificadors);
             if (cbExportaWeb.Checked)
+            {
                 // Genera fitxers per al programa de manteniment
+                AfegeixLiniaLog("Genera fitxers per al web de manteniment", horaInici, log);
                 regles.GeneraFitxersWeb(Principal.DadesWeb, entrades, identificadors, Cat.Cmp);
+            }
             List<VersioDiccionari> versions = VersioDiccionari.Versions();
             VersioDiccionari versio0 = versions[0];
             foreach (VersioDiccionari versio in versions)

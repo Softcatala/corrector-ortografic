@@ -403,3 +403,13 @@ ent=zoològicament^cat1=adv.
 
 ent=discutidament^cat1=adv.
 ent=controladament^cat1=adv.
+
+// Paraules diverses
+ent=huitmesó -ona^cat1=adj. i m. i f.
+ent=dehuit^cat1=adj.^cat2=m.
+ent=dehuitè -ena^cat1=adj.^cat2=m.
+ent=dehuité -ena^cat1=adj.^cat2=m.^mrc1=201
+ent=dihuit^cat1=adj.^cat2=m.
+ent=dihuitè -ena^cat1=adj.^cat2=m.
+ent=dihuité -ena^cat1=adj.^cat2=m.^mrc1=201
+

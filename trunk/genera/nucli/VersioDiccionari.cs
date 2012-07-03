@@ -245,6 +245,12 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
+                llista.Add(new InfoNumeroVersio(2, 4, 0,
+                    new DateTime(2012, 6, 17),
+                    new NotaVersio("Afegides entrades que mancaven del DIEC2 (http://dlc.iec.cat/)", "Added missing entries from DIEC2 (http://dlc.iec.cat/)"),
+                    new NotaVersio("Informació extra al fitxer .aff, per funcionar correctament en mode shell", 
+                        "Extra information in .aff file, to enable correct working in shell mode")
+                    ));
                 llista.Add(new InfoNumeroVersio(2, 3, 0,
                     new DateTime(2011, 12, 30),
                     new NotaVersio("Afegides entrades recollides de fonts diverses", "Added entries from several sources"),

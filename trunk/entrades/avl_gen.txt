@@ -2614,7 +2614,7 @@ ent=electromuntatge^cat1=m.
 ent=electronografia^cat1=f.
 ent=electronogràfic electronogràfica^cat1=adj.
 ent=electronuclear^cat1=adj.
-ent=electronvolt^cat1=m.
+//ent=electronvolt^cat1=m.
 ent=electropuntura^cat1=f.
 ent=electroradiologia^cat1=f.
 ent=electrosiderúrgia^cat1=f.

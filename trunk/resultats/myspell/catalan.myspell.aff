@@ -57,6 +57,8 @@
 
 SET ISO8859-1
 
+WORDCHARS 
+
 TRY easirtocnlumdpgvfbqjwxyzhàèéíïòóúüç·-'
 
 REP 48

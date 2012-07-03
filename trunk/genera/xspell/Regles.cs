@@ -64,7 +64,7 @@ namespace xspell
                 string linia = ent.ReadLine();
                 if (linia.Length == 0 || linia.StartsWith("#"))
                     continue;
-                if (linia.StartsWith("SET ") || linia.StartsWith("TRY "))
+                if (linia.StartsWith("SET ") || linia.StartsWith("TRY ") || linia.StartsWith("WORDCHARS "))
                 {
                     sort.WriteLine(linia);
                     sort.WriteLine();
@@ -161,6 +161,7 @@ namespace xspell
             marques = new Dictionary<string, Marca>();
             descripcio = new List<string>();
             caracters = null;
+            wordchars = null;
             rep = new List<string>();
             set = null;
             Regla regla = null; // la regla que estam llegint
@@ -188,6 +189,8 @@ namespace xspell
                         }
                         else if (linia.StartsWith("SET"))
                             set = ContingutLinia(linia);
+                        else if (linia.StartsWith("WORDCHARS"))
+                            wordchars = ContingutLinia(linia);
                         else if (linia.StartsWith("TRY"))
                             caracters = ContingutLinia(linia);
                         else if (linia.StartsWith("FIRST"))
@@ -650,6 +653,8 @@ namespace xspell
                 proc.Start();
                 // Get the output into a string
                 string result = proc.StandardOutput.ReadToEnd();
+                if (proc.ExitCode != 0)
+                    return "Error amb exit code " + proc.ExitCode;
                 return result;
             }
             catch (Exception objException)
@@ -689,6 +694,8 @@ namespace xspell
             }
             sw.WriteLine();
             sw.WriteLine("SET {0}", set);
+            sw.WriteLine();
+            sw.WriteLine("WORDCHARS {0}", wordchars);
             sw.WriteLine();
             sw.WriteLine("TRY {0}", caracters);
             if (rep.Count > 0)
@@ -924,6 +931,7 @@ namespace xspell
         private List<string> descripcio;
         private string set;
         private string caracters;
+        private string wordchars;
         private List<string> rep;
         private Regex PartsGrup = new Regex(@"^(\d{3})\s+(.*)");
     }

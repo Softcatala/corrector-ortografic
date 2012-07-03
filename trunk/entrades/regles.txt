@@ -68,6 +68,9 @@ GRUPS
 
 // els grups per als quals es generaran regles
 
+// caràcters que formen part de les paraules (per a hunspell en shell)
+WORDCHARS ·-'
+
 // els caràcters que es provaran
 TRY easirtocnlumdpgvfbqjwxyzhàèéíïòóúüç·-'
 

@@ -1,6 +1,7 @@
-108655
+108799
 11/Y
 a.
+-a
 a/VY
 1a
 2a
@@ -284,8 +285,8 @@ abissada/VY
 abissal/EVY
 abissava/A
 abissini/LVY
-abissínia/VY
 Abissínia/VY
+abissínia/VY
 abissopelàgic/FVY
 abissopelàgica/VY
 abissos/Y
@@ -3387,8 +3388,7 @@ aglevament/EVY
 aglevat/BVY
 aglevava/A
 Aglí/V
-aglif/FVY
-aglifa/VY
+àglif/VY
 aglomeració/GVY
 aglomerada/VY
 aglomerador/FVY
@@ -3938,6 +3938,8 @@ ain/EVY
 Aín/VY
 Aina/WY
 aïna/EVY
+aïnada/EVY
+aïnava/A
 aïnenc/FVY
 aïnenca/VY
 aïnes/Y
@@ -5639,7 +5641,7 @@ almoineria/EVY
 Almoines/VY
 almoixerif/EVY
 almoixerifat/EVY
-almon/Y
+almón/Y
 Almonacid
 Almonesir/Y
 Almor/WY
@@ -5805,8 +5807,8 @@ altejava/A
 altell/EVY
 Altell/WY
 Altelló/WY
-alter/EVY
 Alter/WY
+àlter/EVY
 altera/EVY
 alterabilitat/EVY
 alterable/EVY
@@ -6354,6 +6356,7 @@ ametlla/EVY
 Ametlla/VWY
 ametllada/VY
 ametllat/BVY
+ametllenc/EVY
 ametllenca/EVY
 ametller/EVY
 Ametller/WY
@@ -6419,7 +6422,7 @@ amfisbeni/EVY
 amfisbènid/EVY
 amfisci/EVY
 amfíscia/EVY
-amfistoma/EVY
+amfístoma/EVY
 amfistomàtic/FVY
 amfistomàtica/VY
 amfiteatre/EVY
@@ -6842,7 +6845,7 @@ anabòlit/EVY
 anabolitzant/EVY
 anacàmptic/FVY
 anacàmptica/VY
-anacantín/EVY
+anacantí/GVY
 anacard/EVY
 anacardí/HVY
 anacardiàcia/EVY
@@ -6910,6 +6913,7 @@ anaglíptic/FVY
 anaglíptica/VY
 anagnòrisi/EVY
 anagnost/EVY
+anagnosta/EVY
 anagogia/EVY
 anagògic/FVY
 anagògica/VY
@@ -6943,7 +6947,7 @@ analgèsica/VY
 anàlgia/EVY
 anàlisi/EVY
 analista/EVY
-analit/EVY
+anàlit/EVY
 analític/FVY
 analítica/VY
 analíticament
@@ -7711,6 +7715,7 @@ anònima/VY
 anònimament
 anonimat/EVY
 anoníquia/EVY
+anopistògraf/EVY
 anoplur/EVY
 anòpsia/EVY
 anorac/EVY
@@ -10034,11 +10039,11 @@ arguellava/A
 arguenell/EVY
 àrguens/Y
 argues/Y
-argüible/EVY
-argüició/GVY
+arguïble/EVY
+arguïció/GVY
 argüida/VY
-argüidor/FVY
-argüidora/VY
+arguïdor/FVY
+arguïdora/VY
 Arguimbau/WY
 argüiré/MN
 Argullol/WY
@@ -10160,6 +10165,9 @@ armadora/VY
 armadura/EVY
 Armajac/WY
 Armajacs/WY
+armallada/EVY
+armallader/FVY
+armalladera/VY
 armament/EVY
 armamentisme/EVY
 armamentista/EVY
@@ -10405,6 +10413,7 @@ arraconament/EVY
 arraconava/A
 arraconer/FVY
 arraconera/VY
+arraià/GVY
 arraïmada/VY
 arraïmament/EVY
 arraïmat/BVY
@@ -12368,7 +12377,10 @@ aualé/GVY
 aubepina/EVY
 Aubià/WY
 Aubiac/WY
+aüc/EVY
 auca/EVY
+aücada/VY
+aücava/A
 aucell/EVY
 Aucell/WY
 aucuba/EVY
@@ -12442,6 +12454,8 @@ augustament
 augustinià/HVY
 augustiniana/VY
 augustinisme/EVY
+aüixada/VY
+aüixava/A
 aula/EVY
 Aulans/WY
 aulari/EVY
@@ -13051,7 +13065,7 @@ avantposava/A
 avantprojecte/EVY
 avantsala/EVY
 avanttítol/EVY
-avant-tren/EVY
+avanttrèn/EVY
 avantvotació/GVY
 avar/FVY
 àvar/FVY
@@ -13378,7 +13392,7 @@ Ayora/VY
 azalea/EVY
 Azaries/WY
 Azcona/WY
-azeotrop/EVY
+azeòtrop/EVY
 azeotròpic/FVY
 azeotròpica/VY
 azepina/EVY
@@ -13700,8 +13714,8 @@ baixamar/E
 baixament/E
 baixant/E
 Baixaries
-Baixàs
 baixàs
+Baixàs
 baixava/A
 baixea/E
 baixejava/A
@@ -13778,7 +13792,6 @@ balanífer/F
 balanitis/E
 balanòfag/F
 balanoforàcia/E
-balanoforàcies
 balanoide/E
 Balansà
 Balansó
@@ -14387,8 +14400,8 @@ Barniol
 Barnoia
 Barnol
 Barnola
-barnús
 Barnús
+barnús
 barnussos
 Baró
 baró/G
@@ -14448,6 +14461,7 @@ barrala/E
 barraler/F
 barralet/E
 barralleba/E
+barralleva/E
 barraló/G
 barraloner/F
 barram/E
@@ -14743,6 +14757,7 @@ bastinal/E
 bastió/G
 bastiré/MN
 bastità/H
+bastnäsita/E
 bastnesita/E
 basto/E
 bastó/G
@@ -14994,6 +15009,7 @@ becgròs/B
 becllarg/F
 beco/F
 becosa/E
+beçosa/E
 becplaner/E
 becquerel/E
 bec-roig/E
@@ -15007,6 +15023,7 @@ bederrès/J
 bedoll/E
 bedollar/E
 bedora/E
+bedosa/E
 beduí/H
 Beethoven
 beetlemelamina/E
@@ -15051,6 +15068,7 @@ belaberquí/G
 Belabre
 belador/F
 belai/F
+belarús/B
 Belau
 belava/A
 Belda
@@ -15572,6 +15590,7 @@ Berta
 berta/E
 Bertet
 berthòlid/E
+berthòl·lid
 Bertí
 Bertila
 Bertina
@@ -15941,7 +15960,7 @@ Bigordà
 bigordà/H
 bigòrnia/E
 Bigorra
-bigós/I
+bigòs/I
 bigot/E
 bigota/E
 bigotera/E
@@ -16300,6 +16319,7 @@ bismutosi/E
 bismutur/E
 bisnaga/E
 bisó/G
+bisolcat/B
 Bisquerra
 Bissau
 Bissaürri
@@ -16672,6 +16692,7 @@ bogeria/E
 boget/E
 bogi/E
 bogo/E
+bogomil/E
 bogomilisme/E
 Bogotà
 Bogunyac
@@ -17064,6 +17085,7 @@ bordall/E
 bordalla/E
 Bordanou
 Bordanova
+bordanya/E
 bordanyes
 Bordàs
 bordatge/E
@@ -17178,8 +17200,8 @@ borrall/E
 borraller/E
 borralló/G
 borrallut/B
-borràs
 Borràs
+borràs
 borrasca/E
 borrascada/E
 borrascall/E
@@ -17284,6 +17306,7 @@ Boscmonar
 boscós/J
 Boscsacoma
 boscúria/E
+Bòsfor
 bosnià/H
 Bòsnia
 bosó/G
@@ -17410,6 +17433,7 @@ botit/B
 botja/E
 botjar/E
 botjora/E
+botjosa/E
 botó/G
 botonada/E
 botonador/E
@@ -17664,7 +17688,7 @@ brasmologia/E
 Brasó
 brasquer/E
 brassicàcia/E
-brassicàcies
+Bratislava
 bratwurst/E
 Brau
 brau/BE
@@ -18231,7 +18255,7 @@ buderonada/E
 búdic/F
 budisme/E
 budista/E
-budlèia/E
+budleia/E
 budleiàcia/E
 budo/E
 Budó
@@ -18611,9 +18635,9 @@ bypass
 byte
 bytes
 bytownita/E
-C.
 c.
 C
+C.
 ca/G
 ça
 caatinga/E
@@ -18832,8 +18856,8 @@ cabruna/E
 cabuda/E
 cabuderia/E
 cabudes
-Cabús
 cabús
+Cabús
 cabussador/F
 cabussament/E
 cabussava/A
@@ -19022,6 +19046,7 @@ cagarro/E
 cagarrulla/E
 cagarruta/E
 cagarrutada/E
+cagarulla/E
 cagarulles
 cagat/B
 cagatxoles
@@ -19452,8 +19477,8 @@ cal·ligràfic/F
 cal·ligrafització/G
 cal·ligrama/E
 cal·lionímid/E
-callís
 Callís
+callís
 callissos
 callista/E
 cal·litricàcia/E
@@ -19621,6 +19646,7 @@ Cambell
 càmbium/E
 Cambó
 Cambodja
+cambodjà/H
 Cambotja
 cambotjà/H
 Cambra
@@ -19834,8 +19860,8 @@ Camús
 camús/J
 camussa/E
 camut/B
-Can
 can
+Can
 cana/E
 Canaan
 canabassa/E
@@ -20064,6 +20090,7 @@ cansós/J
 cant.
 cant/E
 cantàbil/E
+cantabile/E
 cantable/E
 càntabre/F
 Cantàbria
@@ -21064,6 +21091,7 @@ cargolava/A
 cargolera/E
 cargolet/E
 cargolí/G
+cargolina/E
 cari/K
 Cària
 cària/E
@@ -21490,6 +21518,7 @@ cartoner/F
 cartonés
 cartonet/E
 cartoteca/E
+cartra/E
 cartre/E
 cartró/G
 cartulari/E
@@ -21728,8 +21757,8 @@ cassònigues/E
 cassos
 cassot/E
 cassussa/E
-cast.
 Cast
+cast.
 cast/F
 casta/E
 Castalla
@@ -21868,6 +21897,7 @@ casxolong/E
 cat.
 cat/E
 Catà
+catabalma/E
 catabàtic/F
 catabauma/E
 catabòlic/F
@@ -21880,6 +21910,7 @@ cataclísmic/F
 catacrac/E
 catacresi/E
 catacrèstic/F
+catacumba/E
 catacumbes
 catacústica/E
 Catadau
@@ -22346,6 +22377,7 @@ cell/E
 Cella
 cella/E
 cel·la/E
+cellablanc/F
 cellacanut/B
 cellajunt/F
 cellanegre/F
@@ -22568,6 +22600,7 @@ cerat/E
 ceratina/E
 ceratinització/G
 ceratit/E
+ceratitis/E
 ceratofil·làcia/E
 ceratoma/E
 ceratosaure/E
@@ -22694,8 +22727,8 @@ cerretà/H
 cerrioide/E
 cerro/E
 cerrut/B
-cert.
 Cert
+cert.
 cert/F
 certamen
 certàmens
@@ -22840,7 +22873,7 @@ cianòfit/E
 cianogen
 cianògens
 cianòmetre/E
-cianoprocariote/E
+cianoprocariota/E
 cianosi/E
 cianòtic/F
 cianur/E
@@ -23038,6 +23071,7 @@ cimòfana/E
 cimolsa/E
 cimós/J
 cin.
+cinabarí/H
 cinabàric/F
 cinabri/E
 cinamat/E
@@ -23093,6 +23127,7 @@ cinerita/E
 cinerític/F
 cinescopi/E
 cinesi/E
+cinèsic
 cinèsica/E
 cinestèsia/E
 cinètic/F
@@ -23835,7 +23870,9 @@ clònic/F
 Clonques
 clonus/E
 clop/E
+clopissa/E
 clopisses
+clopissó/G
 clopissons
 cloqué/G
 cloqueig/E
@@ -24741,8 +24778,8 @@ colze/E
 colzejava/A
 colzera/E
 colzet/E
-com
 com.
+com
 cóm/E
 Coma
 coma/E
@@ -25979,6 +26016,7 @@ conjuntivitat/E
 conjuntivitis/E
 conjuntura/E
 conjuntural/E
+conjunturalment
 conjunyiré/MN
 conjur/E
 conjura/E
@@ -28579,7 +28617,6 @@ croca/E
 crocant/E
 crocidolita/E
 crocodilià/G
-crocodilian/E
 croera/E
 croissant/E
 croissanteria/E
@@ -28681,8 +28718,8 @@ croquetó/G
 croquis/E
 croquís
 croquisava/A
-cros
 Cros
+cros
 Crosa
 Croselles
 Croses
@@ -28771,8 +28808,8 @@ cruzeiro/E
 csi/G
 CSIF
 csis
-ct.
 CT
+ct.
 cte.
 ctenidi/E
 ctenòfor/E
@@ -29452,8 +29489,8 @@ Darwin
 darwinià/H
 darwinisme/E
 darwinista/E
-das
 Das
+das
 Dasi
 dasia/E
 dasiàtid/E
@@ -30017,6 +30054,9 @@ degustava/A
 degut/B
 dehiscència/E
 dehiscent/E
+dehuit/E
+dehuitè/H
+dehuité/H
 deia
 Deià
 deianenc/F
@@ -30037,7 +30077,7 @@ Deig
 deim
 deípara/E
 deis
-dèisi/E
+deisi/E
 deisme/E
 deista/E
 deïtat/E
@@ -30055,6 +30095,7 @@ deixat/BE
 deixatava/A
 deixava/A
 deixeble/F
+deixia/E
 deixies
 deixondava/A
 deixondiment/E
@@ -31211,6 +31252,7 @@ desclogués/Q
 descloïa/O
 desclòs/J
 desclosa/E
+descloscava/A
 Desclot
 desclou/CS
 descloure/D
@@ -31761,8 +31803,6 @@ desé/H
 desedificació/G
 desedificant/E
 desedificava/A
-deseiim
-deseiiu
 deseixí
 deseixia
 deseixida/E
@@ -32813,6 +32853,31 @@ desinversió/G
 desinvitava/A
 desionització/G
 desionitzava/A
+desisc
+desisca/D
+desisqué
+desisquem/C
+desisquen/C
+desisquera
+desisquérem
+desisqueren
+desisqueres
+desisquéreu
+desisques
+desisqués
+desisquéssem
+desisquessen
+desisquesses
+desisquésseu
+desisquéssim
+desisquessin
+desisquessis
+desisquéssiu
+desisqueu
+desisqui/D
+desisquí
+desisquin/C
+desisquis
 desistiment/E
 desistiré/MN
 desitjable/E
@@ -33200,6 +33265,7 @@ despariava/A
 desparió/H
 desparionava/A
 desparterada/E
+desparterat/B
 despàs
 despassava/A
 despatx/I
@@ -33385,6 +33451,7 @@ desproporcionadament
 desproporcionat/B
 desproporcionava/A
 despropòsit/E
+desprotecció/G
 desprotegit/B
 desproveiré/MN
 desproveït/B
@@ -33625,6 +33692,7 @@ destructivitat/E
 destructor/F
 destruiré/MN
 destrumfava/A
+desubicava/A
 desuet/F
 desuetud/E
 desullava/A
@@ -33926,8 +33994,8 @@ dextrogir/F
 dextrorotatori/K
 dextrors/J
 dextrosa/E
-dg.
 DG
+dg.
 DGEC
 dia/E
 diabasa/E
@@ -34093,7 +34161,7 @@ diatermància/E
 diatèrmic/F
 diàtesi/E
 diatètic/F
-diatomees
+diatomea/E
 diatòmic/F
 diatomita/E
 diatonia/E
@@ -34242,6 +34310,7 @@ diferible/E
 diferiment/E
 diferiré/MN
 diferit/B
+dificerc/F
 dificerca/E
 difícil/E
 difícilment
@@ -34361,7 +34430,9 @@ dihèlia/E
 dihexagonal/E
 dihidrita/E
 dihidrogenfosfat/E
+dihuit/E
 díhuit/E
+dihuitè/H
 dihuité/H
 diiambe/E
 dijous
@@ -34652,7 +34723,8 @@ discogràfic/F
 discoïdal/E
 discoide/E
 díscol/F
-discoliquen/E
+discoliquen
+discolíquens
 discolor/E
 discomedusa/E
 discomicet/E
@@ -34995,7 +35067,7 @@ distintament
 distintiu/B
 distòcia/E
 distòcic/F
-distoma/E
+dístoma/E
 distomatós/J
 distomatosi/E
 distòpia/E
@@ -35080,8 +35152,8 @@ ditroqueu/E
 dits
 dittografia/E
 dittologia/E
-diu
 Diu
+diu
 Diuder
 diuen
 Diumenge
@@ -35167,9 +35239,9 @@ dixi/E
 dizigòtic/F
 dj.
 Djibouti
-dl.
 DL
 dl
+dl.
 dm
 DNI
 DO
@@ -35922,8 +35994,8 @@ duxelles
 duxs
 dv.
 DVD
-e.
 E.
+e.
 E
 e/VY
 5è
@@ -36845,7 +36917,6 @@ electronografia/EVY
 electronogràfic/FVY
 electronogràfica/VY
 electronuclear/EVY
-electronvolt/EVY
 electroòptic/FVY
 electroòptica/VY
 electroosmosi/EVY
@@ -36888,7 +36959,7 @@ electrovalència/EVY
 electrovalent/EVY
 electrovàlvula/EVY
 electroventilador/EVY
-electrovolt/EVY
+electró-volt/EVY
 electroxoc/EVY
 electuari/EVY
 elefant/EVY
@@ -37631,7 +37702,7 @@ emersió/GVY
 emès/JVY
 emés/VY
 emesa/VY
-emesi/EVY
+èmesi/EVY
 emet/C
 emet/SZ
 emetent/R
@@ -40165,6 +40236,7 @@ enganador/FVY
 enganadora/VY
 enganamarits/IVY
 enganapastors/IVY
+enganatall/EVY
 enganava/A
 engandallada/VY
 engandallava/A
@@ -40173,6 +40245,11 @@ engandulidor/FVY
 engandulidora/VY
 enganduliment/EVY
 enganduliré/MN
+enganívol/FVY
+enganívola/VY
+enganós/JVY
+enganosa/VY
+enganosament
 enganxacabells/VY
 enganxada/EVY
 enganxadones/EVY
@@ -40540,6 +40617,7 @@ enlairava/A
 enlaire/Y
 enlhora/Y
 enllà/Y
+enllà-ahir/Y
 enllaç/IVY
 enllacada/EVY
 enllaçada/VY
@@ -43356,8 +43434,9 @@ escaiguda/VY
 escaigués/Q
 escaigut/BVY
 escaïment/EVY
-escaïnada/VY
-escaïnava/A
+escaín/Z
+escainada/VY
+escainava/A
 Escaiol/WY
 escaiola/EVY
 Escaiola/WY
@@ -44082,6 +44161,7 @@ escoladora/VY
 escolalla/EVY
 escolament/EVY
 escolana/VY
+escolanalla/EVY
 escolanesc/FVY
 escolanesca/VY
 escolanet/FVY
@@ -45900,7 +45980,7 @@ espirànica/VY
 espirant/EVY
 espirantització/GVY
 espirava/A
-espírea/EVY
+espirea/EVY
 espireig/EVY
 espirejada/VY
 espirejava/A
@@ -47263,6 +47343,7 @@ estomiforme/EVY
 estomocordat/EVY
 estomodeu/EVY
 estona/EVY
+estonada/EVY
 estonades
 estoneta/EVY
 estonià/HVY
@@ -47987,8 +48068,8 @@ ets/Z
 etusa/EVY
 etzibada/EVY
 etzibava/A
-EU
 eu
+EU
 EUA/VY
 eubacteri/EVY
 eubacterial/EVY
@@ -48640,6 +48721,7 @@ existimativa/VY
 existimava/A
 existiré/MN
 èxit/EVY
+exitància/EVY
 èxitus/EVY
 ex-libris/EVY
 exlibrisme/EVY
@@ -48879,7 +48961,7 @@ expositiva/VY
 expositor/FVY
 expositora/VY
 exprés/BVY
-exprés/YZ
+exprés/Z
 expresident/FVY
 expresidenta/VY
 expressa/VY
@@ -49229,8 +49311,8 @@ exuviació/GVY
 exvot/EVY
 Ezequiel/WY
 Ezequies/WY
-F
 f.
+F
 fa
 fabàcia/E
 fabada/E
@@ -49838,8 +49920,8 @@ fartís/B
 fartó/H
 fartonada/E
 fartum/E
-fas
 FAS
+fas
 fàscia/E
 fasciat/B
 fascicle/E
@@ -50184,6 +50266,7 @@ fenalet/E
 fenantrè/G
 fenantrolina/E
 fenaquistoscopi/E
+fenar/E
 fenàs
 fenassar/E
 fenassos
@@ -50277,7 +50360,6 @@ fenyés/P
 fenyia/O
 fenyut/B
 feofícia/E
-feofícies
 feòfit/E
 fer/CF
 feraç/I
@@ -50468,8 +50550,8 @@ ferroveller/F
 ferrovial/E
 ferroviari/K
 ferruginós/J
-Ferrús
 ferrús
+Ferrús
 ferrussa/E
 Ferrussola
 ferrussos
@@ -51954,7 +52036,7 @@ forfollejava/A
 forfollons
 forigó/G
 forigol/E
-forint/E
+fòrint/E
 foriscapi/E
 forja/E
 forjable/E
@@ -52611,8 +52693,8 @@ fregunyava/A
 freijó/G
 Freixar
 freixar/E
-freixe
 Freixe
+freixe
 Freixeda
 freixeda/E
 Freixedes
@@ -52620,10 +52702,10 @@ Freixeneda
 freixeneda/E
 Freixenet
 freixenet/E
-fréixens
 Fréixens
-freixes
+fréixens
 Freixes
+freixes
 Freixinós
 Freixneda
 Freixó
@@ -52827,6 +52909,7 @@ fructificant/E
 fructificava/A
 fructofuranosa/E
 fructosa/E
+fructosan/E
 fructosana/E
 fructuari/K
 Frúctul
@@ -52885,7 +52968,7 @@ ftiriasi/E
 fua/E
 fucal/E
 fuchsita/E
-fucofície/E
+fucofícia/E
 fúcsia/E
 fucsina/E
 fucus/E
@@ -53045,11 +53128,13 @@ fumarel·la/E
 fumària/E
 fumàric/E
 fumarola/E
+fumarolià/H
 fumarrera/E
 fumarrina/E
 fumassa/E
 fumassola/E
 fumat/B
+fumaterra/E
 fumatge/E
 fumava/A
 fumdeterra/E
@@ -53281,8 +53366,8 @@ futuròloga/E
 futurologia/E
 futvòlei/E
 fynbo/G
-g.
 g
+g.
 Gabana
 Gabaon
 gabaonita/E
@@ -53310,6 +53395,7 @@ Gabon
 gabonès/J
 gabre/E
 Gabriel
+Gabriela
 gàbula/E
 gabulava/A
 gabulista/E
@@ -53385,6 +53471,7 @@ gala/E
 galà/H
 Galàcia
 galactagog/F
+galactan/E
 galactana/E
 galàctic/F
 galactita/E
@@ -53698,8 +53785,8 @@ Gamirans
 gamma/E
 gammacisme/E
 gammadió/G
-gamma-globulina/E
 gammaglobulina/E
+gamma-globulina/E
 gammagrafia/E
 gammat/B
 gamó/G
@@ -53924,6 +54011,7 @@ garolava/A
 garoler/F
 Garona
 garota/E
+garoter/E
 garotera/E
 garra/E
 Garrabella
@@ -54147,7 +54235,7 @@ gastrorràgia/E
 gastrorrea/E
 gastroscopi/E
 gastroscòpia/E
-gastrostoma/E
+gastròstoma/E
 gastrotomia/E
 gastròtric/E
 gastrovascular/E
@@ -54160,6 +54248,7 @@ Gata
 gata/E
 gatada/E
 gatamau
+gatamèus
 gatamoixeria/E
 gatassa/E
 gatejava/A
@@ -54436,6 +54525,7 @@ gençana/E
 Gencià
 genciana/E
 gencianàcia/E
+gencianeta/E
 gencianina/E
 gendarme/E
 gendarmeria/E
@@ -55437,7 +55527,7 @@ Gómez
 gomfal/E
 gomfidiàcia/E
 gomfolita/E
-gòmfosi/E
+gomfosi/E
 Gomí
 gòmia/E
 gomífer/F
@@ -55456,7 +55546,7 @@ gonàlgic/F
 Gonçaga
 Gonçal
 Gondaí
-gòndol/E
+góndol/E
 góndola/E
 Gondolbeu
 gondoler/F
@@ -56710,10 +56800,10 @@ guturalment
 gutxets
 gutxo/E
 Guyana
-H.
-h
 h.
+h
 H
+H.
 ha/Z
 Habacuc/WY
 hàbil/EVY
@@ -56964,8 +57054,8 @@ haussa/EVY
 haustori/EVY
 haüyna/EVY
 havà/HVY
-Havana/VY
 havana/VY
+Havana/VY
 havanera/EVY
 havarti
 havedor/FVY
@@ -57304,6 +57394,7 @@ henna/EVY
 henoteisme/EVY
 henoteista/EVY
 henry/EVY
+heortologia/EVY
 heparina/EVY
 hepàtic/FVY
 hepàtica/VY
@@ -58079,6 +58170,7 @@ hiperpnea/EY
 hiperpredador/FVY
 hiperrealisme/EVY
 hiperrealista/EVY
+hiperrealitat/EY
 hiperreflèxia/EY
 hipersensibilitat/EY
 hipersensibilització/GY
@@ -58421,6 +58513,7 @@ homenejada/VY
 homenejava/A
 homenenc/FVY
 homenenca/VY
+homener/FVY
 homenera/EVY
 homenet/EVY
 homenia/EVY
@@ -58452,6 +58545,7 @@ hominoide/EVY
 homocentre/EVY
 homocèntric/FVY
 homocèntrica/VY
+homocerc/FVY
 homocerca/EVY
 homocinètic/FVY
 homocinètica/VY
@@ -58789,6 +58883,7 @@ huit-cents/IVY
 huitè/HVY
 huité/HVY
 huitena/EY
+huitmesó/HVY
 Huix/WY
 hule/EVY
 hulla/EVY
@@ -58852,6 +58947,8 @@ humorísticament
 humorós/JVY
 humorositat/EY
 humus/EVY
+hun/FVY
+huna/VY
 huns/Y
 hunspell/VY
 huracà/GVY
@@ -58867,9 +58964,9 @@ husseinís/Y
 husseinita/EVY
 hussita/EVY
 hutu/EVY
+i.
 I.
 I
-i.
 i/VY
 iac/E
 iacetà/H
@@ -60495,6 +60592,7 @@ indigència/EY
 indigeneïtat/EY
 indigenisme/EVY
 indigenista/EVY
+indigenitat/EY
 indigent/EVY
 indigerible/EVY
 indigest/FVY
@@ -60827,6 +60925,7 @@ Infant/V
 infantament/EVY
 infantat/EVY
 infantava/A
+infanter/FVY
 infantera/EVY
 infanteria/EY
 infantesa/EY
@@ -62630,7 +62729,7 @@ isoglossa/EY
 isògon/FVY
 isogonal/EVY
 isogònic/FVY
-isograda/EVY
+isògrada/EY
 isografia/EY
 isograma/EVY
 isohalina/EY
@@ -62829,6 +62928,7 @@ Jaca
 jaca/E
 jaça/E
 jaçada/E
+jacaranda/E
 Jacarilla
 jacent/E
 jacera/E
@@ -63138,8 +63238,8 @@ jova/E
 jovada/E
 Joval
 joval/E
-jove
 Jove
+jove
 Jovell
 jovenal/E
 jovenalla/E
@@ -63270,6 +63370,7 @@ junció/G
 Juncosa
 Juneda
 jungermannial/E
+jungermanníida/E
 jungermanníide/E
 jungla/E
 júnior/E
@@ -63482,6 +63583,7 @@ kimbundu/E
 kinesiteràpia/E
 kinetoscopi/E
 kip/E
+kirguís
 Kirguizistan
 Kiribati
 kírie/E
@@ -63746,7 +63848,7 @@ lamentava/A
 lamentós/J
 lamés
 làmia/E
-lamiàcies
+lamiàcia/E
 Lamic
 lamín
 làmina/E
@@ -64241,6 +64343,7 @@ libocedre/E
 Libori
 libra/E
 libració/G
+librari/K
 librària/E
 liburna/E
 licantrop/F
@@ -64297,6 +64400,7 @@ lies/E
 liftava/A
 lífting/E
 liftratge/E
+ligasa/E
 light
 ligi/L
 ligne/E
@@ -66013,8 +66117,8 @@ lorica/E
 Loriguilla
 loriguillà/H
 lorísid/E
-los
 Los
+los
 Losa
 losange/E
 losanjat/B
@@ -66029,7 +66133,7 @@ loto/E
 lotus/E
 louro/E
 Lovaina
-loxodròmia/E
+loxodromia/E
 loxodròmic/F
 Lozano
 LRJPAC
@@ -66056,6 +66160,7 @@ luciditat/E
 lucífer/F
 lucífug/F
 Lucil
+lucioperca/E
 luciperca/E
 lucisme/E
 lucratiu/B
@@ -66067,6 +66172,7 @@ Lucrècia
 luctuós/J
 luctuosament
 luda/E
+luddisme/E
 luddita/E
 ludibri/E
 lúdic/F
@@ -66162,16 +66268,17 @@ luxuriant/E
 luxuriós/J
 luxuriosament
 lúzula/E
-M
-M.
-m.
 m
+m.
+M.
+M
 ma
 mà
 Maastricht
 mabe
 mabre/E
 mabritjol/E
+mabritxol/E
 Mac
 mac/E
 maç/I
@@ -66513,7 +66620,7 @@ magnoliata/E
 magnolier/E
 magnoliera/E
 magnoliofití/G
-magnoliòpsids
+magnoliòpsid/E
 màgnum/E
 Magnus
 magolament/E
@@ -66596,7 +66703,7 @@ maionesa/E
 Maiques
 Mairata
 maire/E
-maitre/E
+maître/E
 maixant/F
 maixard
 maixé
@@ -66934,8 +67041,8 @@ malginy/E
 malgirbat/B
 malgorès/J
 malgrà/G
-malgrat
 Malgrat
+malgrat
 malgratenc/F
 malguany/E
 malgustós/J
@@ -67263,6 +67370,7 @@ Mamés
 màmia/E
 mamífer/F
 mamiforme/E
+mamilinció/G
 mamil·la/E
 mamil·lar/E
 mamil·liforme/E
@@ -67814,7 +67922,7 @@ Marçal
 marçal/E
 marcancial/E
 marcanciata/E
-marcancíide/E
+marcancíida/E
 marcanciòpsid/E
 Marçans
 marcapassos/E
@@ -67949,8 +68057,8 @@ margenava/A
 Margeneda
 margener/F
 margenera/E
-màrgens
 Màrgens
+màrgens
 marger/F
 marges
 Marget
@@ -67987,6 +68095,7 @@ maribo/E
 Maric
 maricó/G
 maridable/E
+maridador/F
 maridadora/E
 maridatge/E
 maridava/A
@@ -69078,8 +69187,8 @@ memorista/E
 memorístic/F
 memorització/G
 memoritzava/A
-me'n
 men
+me'n
 mena/E
 mènada/E
 menador/F
@@ -70433,6 +70542,7 @@ minuet/E
 minúscul/F
 minusvàlid/F
 minusvalidesa/E
+minusvàlua/E
 minut/E
 minuta/E
 minutació/G
@@ -70632,6 +70742,7 @@ misoneisme/E
 misoneista/E
 misopèdia/E
 mispíquel/E
+misquito/E
 missa/E
 missacantant/E
 missadient/E
@@ -71429,6 +71540,7 @@ monstruosament
 monstruositat/E
 Mont
 mont/E
+montà/H
 Montagut
 Montalà
 Montalat
@@ -71546,8 +71658,8 @@ Montpou
 Montragull
 Mont-ral
 Mont-ras
-Mont-real
 Montreal
+Mont-real
 Mont-rodon
 Montroi
 montroià/H
@@ -71685,6 +71797,7 @@ moren/C
 morena/E
 morenc/F
 morenell/E
+morenella/E
 morenera/E
 morenet/F
 morènic/F
@@ -72840,8 +72953,8 @@ narriola/E
 Narro
 nàrtex/E
 narval/E
-Nas
 nas
+Nas
 nasal/E
 nasalitat/E
 nasalització/G
@@ -73010,8 +73123,8 @@ nazirea/E
 nazireu/E
 nazisme/E
 NB
-ne
 NE
+ne
 Neac
 Neandertal
 neandertal/E
@@ -73622,6 +73735,7 @@ nier/F
 niera/E
 nierada/E
 nieró/G
+nietzscheà/H
 nietzschià/H
 NIF
 nifablèpsia/E
@@ -73800,8 +73914,8 @@ nivositat/E
 NNE
 NNO
 NNW
-no
 NO
+no
 no-alineament/E
 Noalles
 Nobel
@@ -74293,6 +74407,7 @@ Nules
 nul·la/E
 nul·lament
 Nulles
+nul·lípar/F
 nul·lípara/E
 nul·liparitat/E
 nul·litat/E
@@ -74423,8 +74538,8 @@ nyoreta/E
 nyoreter/F
 nyu
 nyus
-o.
 O
+o.
 o/VY
 oasi/EVY
 obac/BVY
@@ -75440,6 +75555,7 @@ oleositat/EVY
 oleoteràpia/EVY
 Olèrdola/VY
 Olesa/VWY
+olesà/HVY
 olesana/EVY
 olestra/EVY
 Oleta/VY
@@ -75933,8 +76049,8 @@ oomicot/EVY
 oosfera/EVY
 oòspora/EVY
 ooteca/EVY
-OP
 op.
+OP
 opa/EVY
 opac/FVY
 opaca/VY
@@ -76200,6 +76316,7 @@ orceïna/EVY
 orcina/EVY
 orcinol/EVY
 Ordal/Y
+ordalia/EVY
 ordalies/Y
 orde/VY
 Ordeig/WY
@@ -76343,6 +76460,7 @@ organitzatiu/BVY
 organitzativa/VY
 organitzava/A
 organobor/EVY
+organoborà/GVY
 organoclorada/VY
 organoclorat/BVY
 organofosforada/VY
@@ -76649,7 +76767,7 @@ ortodox/JVY
 ortodoxa/VY
 ortodoxament
 ortodòxia/EVY
-ortodròmia/EVY
+ortodromia/EVY
 ortodròmic/FVY
 ortodròmica/VY
 ortoedre/EVY
@@ -76862,6 +76980,7 @@ ossificava/A
 ossífrag/EVY
 ossívor/FVY
 ossívora/VY
+ossó/GVY
 Ossó/VWY
 ossos/Y
 ossós/JVY
@@ -77699,6 +77818,7 @@ Paltré
 paltrigava/A
 paltrot/E
 paltrota/E
+paltruc/E
 palúdic/F
 paludina/E
 paludisme/E
@@ -78060,8 +78180,8 @@ paquiderm/E
 paquidèrmia/E
 paquidèrmic/F
 paquimeningitis/E
-par.
 Par
+par.
 par/E
 paraallaus
 paràbasi/E
@@ -78156,7 +78276,7 @@ paraigua/E
 paraiguada/E
 paraigüer/EF
 paraigüeria/E
-paraigüets
+paraigüet/E
 Paraire
 paraire/E
 parairia/E
@@ -78404,6 +78524,7 @@ paritori/E
 parkerització/G
 parkeritzava/A
 parkinsonià/H
+parkinsònia/E
 parkinsonisme/E
 parla/E
 parlada/E
@@ -78644,8 +78765,8 @@ passapunt/E
 passapuré
 passapurés
 passarel·la/E
-Passa-rius
 passa-rius
+Passa-rius
 passat/BE
 passatemps/I
 passatge/E
@@ -78975,8 +79096,8 @@ pax/I
 PC
 PD
 pda.
-p.e.
 pe
+p.e.
 peal/E
 peany/E
 peanya/E
@@ -79686,6 +79807,7 @@ péntol/E
 pentòmino/E
 pentosa/E
 pentosà/G
+pentosan/E
 pentotal/E
 penúltim/F
 penúria/E
@@ -79771,6 +79893,7 @@ percal/E
 percala/E
 percalina/E
 percalluç/I
+percaluci/E
 percebe/E
 perceben/Z
 percebent/R
@@ -80024,6 +80147,7 @@ pergaminer/F
 pergelisòl/E
 pergirava/A
 pèrgola/E
+perhom
 perianal/E
 periant/E
 periantal/E
@@ -80157,7 +80281,7 @@ perístasi/E
 peristèdid/E
 peristil/E
 perístole/E
-peristoma/E
+perístoma/E
 perit/F
 pèrit/F
 peritatge/E
@@ -80713,7 +80837,7 @@ petrificació/G
 petrificava/A
 petrodòlar/E
 petrogènesi/E
-petroglif/E
+petròglif/E
 petrografia/E
 petrogràfic/F
 petrolàtum/E
@@ -80747,6 +80871,7 @@ peuada/E
 peüc/E
 peucalcigava/A
 peucrist/E
+peuets
 peugròs/B
 peülla/E
 peüllava/A
@@ -81200,6 +81325,7 @@ piogen/K
 piogènesi/E
 piohèmia/E
 pioide/E
+pioixa/E
 piola/E
 piolet/E
 pioner/F
@@ -81279,7 +81405,8 @@ pirè/G
 piré/G
 pirenaic/F
 pirenoide/E
-pirenoliquen/E
+pirenoliquen
+pirenolíquens/E
 pirenomicet/E
 pirètic/F
 piretogen/K
@@ -82734,8 +82861,8 @@ polpa/E
 polper/F
 polpeta/E
 polpetó/G
-polpís
 Polpís
+polpís
 polpissos
 polpós/J
 polput/B
@@ -84483,6 +84610,7 @@ primicial/E
 primigeni/E
 primigènia/E
 primina/E
+primípar/F
 primípara/E
 Primitiu
 primitiu/B
@@ -84558,8 +84686,7 @@ priscoà/H
 prisma/E
 prismàtic/F
 prismatoide/E
-pristi/E
-prístina/E
+pristí/H
 pritanèon/E
 privació/G
 privacitat/E
@@ -84627,8 +84754,8 @@ procel·lós/J
 procel·losament
 pròcer/E
 procerat/E
-Procés
 procés
+Procés
 processador/F
 processal/E
 processament/E
@@ -84795,8 +84922,8 @@ programari/E
 programàtic/F
 programava/A
 progre/E
-progrés
 Progrés
+progrés
 progressava/A
 progressia/E
 progressió/G
@@ -85058,8 +85185,8 @@ prorrompia/O
 prorrompre/D
 prorrompré/T
 prorromput/B
-Pros
 pros
+Pros
 prosa/E
 prosador/F
 prosaic/F
@@ -85662,7 +85789,7 @@ pteridina/E
 pteridòfit/E
 pteridologia/E
 pteridòpsids
-pteridosperme/E
+pteridosperm/F
 pteridospermòpsid/E
 pterigi/E
 pterigoide/E
@@ -86301,6 +86428,7 @@ quadrava/A
 quadravi/E
 quadràvia/E
 quadre/E
+quadrejadura/E
 quadrejadures
 quadrejava/A
 quadrell/E
@@ -86740,8 +86868,8 @@ quinonimina/E
 quinquagenari/K
 quinquagèsim/F
 quinquagesimal/E
-quinqué
 Quinqué
+quinqué
 quinquefoli/E
 quinquefoliat/B
 quinquennal/E
@@ -86866,10 +86994,10 @@ quota/E
 quotidià/H
 quotidianament
 quotidianitat/E
+R.
+r
 R
 r.
-r
-R.
 1r
 3r
 rabada/E
@@ -88608,8 +88736,8 @@ reculatac/E
 reculava/A
 recules
 recull/CEU
-Reculons
 reculons
+Reculons
 recuperabilitat/E
 recuperable/E
 recuperació/G
@@ -88905,6 +89033,7 @@ reembossament/E
 reembossava/A
 reemissor/E
 reempenyament/E
+reempenyorament/E
 reemplaçable/E
 reemplaçament/E
 reemplaçant/E
@@ -88973,6 +89102,8 @@ reexpediré/MN
 reexportable/E
 reexportació/G
 reexportava/A
+reexpòs
+reexposava/A
 reexposició/G
 ref.
 refà
@@ -89455,8 +89586,8 @@ reientinc/E
 reiet/E
 Reietó
 reietó/G
-reificació/G
-reificava/A
+reïficació/G
+reïficava/A
 reïforme/E
 reig/E
 reim
@@ -90859,6 +90990,7 @@ retallable/E
 retallada/E
 retallador/E
 retalladora/E
+retalladura/E
 retalladures
 retallament/E
 retallava/A
@@ -91288,6 +91420,7 @@ reveixí/G
 reveixín
 reveixinament/E
 reveixinava/A
+reveixinc/E
 reveja/D
 revejam/C
 revelable/E
@@ -91697,6 +91830,7 @@ rigidesa/E
 rigiditat/E
 Rigo
 Rigobert
+rigodon/E
 rigodons
 Rigol
 Rigola
@@ -91788,8 +91922,8 @@ riquerava/A
 riquesa/E
 Riquilda
 riquíssim/F
-Ris
 ris
+Ris
 risc/E
 riscla/E
 riscle/E
@@ -92838,8 +92972,8 @@ ruvet/E
 Rwanda
 rwandès/J
 s
-S
 s.
+S
 SA
 sa/H
 Saarland
@@ -92853,6 +92987,7 @@ Sabadí
 Sabadia
 Sabal
 saballó/G
+saballoner/F
 saballonera/E
 sabana/E
 sabaner/F
@@ -94972,8 +95107,8 @@ senissos
 senixó/G
 senó/G
 Senorina
-sens
 se'ns
+sens
 sensació/G
 sensacional/E
 sensacionalisme/E
@@ -95141,7 +95276,6 @@ sequesa/E
 seqüestració/G
 sequi/E
 sequí/G
-sèquia/E
 séquia/E
 sequial/E
 sequiar/E
@@ -95777,6 +95911,7 @@ siguis
 sigut/B
 sikh/E
 sikhisme/E
+sil/E
 silà/G
 silanol/E
 Silas
@@ -96157,7 +96292,7 @@ sinuat/B
 sinuós/J
 sinuosament
 sinuositat/E
-sinurofície/E
+sinurofícia/E
 sinus/E
 sinusal/E
 sinusitis/E
@@ -96974,8 +97109,8 @@ socorreguessis
 socorreguéssiu
 socorregueu
 socorreguí
-Socorregut
 socorregut
+Socorregut
 socorreguts
 socorrem/C
 socorren/C
@@ -97613,8 +97748,8 @@ sortós/J
 sortosament
 Sorts
 sorus/E
-Sos
 sos
+Sos
 sosa/E
 soscaire/E
 soscavació/G
@@ -98542,8 +98677,8 @@ suggestiu/B
 suggestivament
 suggestivitat/E
 sugil·lació/G
-Sui
 sui
+Sui
 suïcida/E
 suïcidalitat/E
 suïcidava/A
@@ -98960,8 +99095,8 @@ SW
 Swazilàndia
 swing/E
 Sydney
-t
 t.
+t
 4t
 ta/G
 taaffeïta/E
@@ -99622,6 +99757,7 @@ tarongerar/E
 tarongereda/E
 Tarongers
 Tarongí
+tarongí/G
 tarongina/E
 taronja/E
 taronjada/E
@@ -99876,6 +100012,7 @@ teatre/E
 teatrí/G
 tebà/H
 tebaic/F
+Tebaida
 tebaïna/E
 tebeo/E
 Teberga
@@ -100410,6 +100547,7 @@ tentacle/E
 tentacular/E
 tentaculat/B
 tentaculiforme/E
+tentaculit/E
 tentaculites
 tentinejava/A
 tentines
@@ -100748,6 +100886,7 @@ terramaner/F
 terramicina/E
 terranc/E
 terrancós/J
+terrandòs/I
 Terranegra
 terranova/E
 terraplè/G
@@ -100765,6 +100904,7 @@ Terrassa
 terrassa/E
 terrassà/H
 Terrassenc
+terrassenc/F
 Terrassola
 Terrat
 terrat/E
@@ -101368,7 +101508,7 @@ tirabuixó/G
 tirabuquet/E
 tiracoll/E
 tiracordeta/E
-tiracrin/E
+tiracrín/E
 tirada/E
 tirador/F
 tiradora/E
@@ -101515,6 +101655,7 @@ Titó
 títol/E
 titola/E
 titolet/E
+titolot/E
 titònid/E
 titoràpia/E
 titot/E
@@ -101867,6 +102008,7 @@ torcador/E
 torçal/E
 torçalet/E
 torcamans
+torçament/E
 torcaparabrisa/E
 torca-raor/E
 torcava/A
@@ -102165,8 +102307,8 @@ tortó
 Tortonda
 tortor/E
 tórtora/E
-Tortós
 tortós
+Tortós
 Tortosa
 tortosí/H
 Tortra
@@ -102276,8 +102418,8 @@ tossudament
 tossuderia/E
 tossudesa/E
 tossut/B
-tost
 Tost
+tost
 tostemps
 tostorro/E
 tot/F
@@ -102464,6 +102606,7 @@ tragicòmic/F
 tragín
 tragina/E
 traginada/E
+traginador/F
 traginadora/E
 traginava/A
 Traginer
@@ -102558,8 +102701,8 @@ tramuntanejava/A
 tramuntanella/E
 tramuntanenc/F
 tramuntava/A
-Tramús
 tramús
+Tramús
 tramussar/E
 tramusser/EF
 tramusset/E
@@ -102852,6 +102995,7 @@ transsudació/G
 transsudava/A
 transsulfuració/G
 transsumpte/E
+transterminància/E
 transtermitància/E
 transubstanciació/G
 transurànic/F
@@ -104024,7 +104168,7 @@ truticultura/E
 trv.
 tsade/E
 tsar/E
-tsarevitx/I
+tsarévitx/E
 tsarevna/E
 tsarina/E
 tsarisme/E
@@ -104034,8 +104178,8 @@ tsavorita/E
 tse-tse/E
 tsuga/E
 tsunami/E
-TT
 tt.
+TT
 tu
 tuacte/E
 tuareg/E
@@ -104428,9 +104572,8 @@ Uguell/WY
 Uguella/WY
 ui
 UIB
-uis/Z
 uís/VY
-uissava/A
+uïssava/A
 uïssos/Y
 uït/EVY
 uix/IVY
@@ -104590,7 +104733,7 @@ ululació/GY
 ululava/A
 ulva/EVY
 ulval/EY
-ulvofície/EY
+ulvofícia/EY
 ulvöspinel·la/EY
 UM/Y
 umbel·la/EY
@@ -105547,6 +105690,7 @@ vehemència/E
 vehement/E
 vehementment
 vehicle/E
+vehiculació/G
 vehicular/E
 vehiculava/A
 vehiculització/G
@@ -105993,8 +106137,8 @@ vergassejador/F
 vergassejava/A
 vergassos
 vergat/BE
-Verge
 verge
+Verge
 vergella/E
 vergència/E
 vèrgens
@@ -108544,8 +108688,8 @@ zigzagat/B
 zigzagueig/E
 zigzaguejava/A
 zimasa/E
+zimbabuès/J
 Zimbabwe
-zimbabwès/J
 zimogen/K
 zimologia/E
 zim-zam/E
@@ -108580,7 +108724,7 @@ zodiacal/E
 Zoe
 Zoel
 Zoile
-zoïsita/E
+zoisita/E
 zoisme/E
 zombi/E
 zona/E

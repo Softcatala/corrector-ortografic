@@ -81,7 +81,7 @@ betlemita
 bhutanès bhutanesa
 biafrès biafresa
 biarnès biarnesa
-bielorús bielorussa
+//bielorús bielorussa
 bigordà bigordana
 birmà birmana
 bitini bitínia
@@ -589,6 +589,6 @@ zairès zairesa
 zambià zambiana
 zanzibarès zanzibaresa
 zelandès zelandesa
-zimbabwès zimbabwesa
+//zimbabwès zimbabwesa
 zulu
 
