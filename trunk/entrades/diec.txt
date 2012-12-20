@@ -63196,7 +63196,8 @@ ent=tomentós -osa^cat1=adj.
 ent=tomisme^cat1=m.
 ent=tomista^cat1=adj.^cat2=adj. i m. i f.
 ent=tomografia^cat1=f.
-ent=ton ta^cat1=adj.^com1=pl. tos tes^com2=no emprat sinó atributivament i anteposat al nom
+//ent=ton ta^cat1=adj.^com1=pl. tos tes^com2=no emprat sinó atributivament i anteposat al nom // genera per error: ta/G 
+ent=ton^cat1=adj.^com1=pl. tos^com2=no emprat sinó atributivament i anteposat al nom
 ent=tona^cat1=f.^com1=o tona equivalent de petroli
 ent=tonada^cat1=f.
 ent=tonaira^cat1=f.

@@ -257,7 +257,7 @@ Alió
 Alisandra
 Aliu
 Aller
-Alló
+//Alló
 Allosa
 Almacelles
 Almar
@@ -4809,7 +4809,7 @@ Peris
 Perles
 Permanyer
 Perna
-Peró
+//Peró
 Peroi
 Perolada
 Perona
