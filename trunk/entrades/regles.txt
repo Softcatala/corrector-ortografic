@@ -309,7 +309,7 @@ REGLA I SFX+ Plurals afegint o (eventualment amb canvi d'accent)
 /REGLA
 
 REGLA G SFX+ Plurals afegint ns
-201     è      é           è                # cinquanta-uné (AVL)
+201     è      é           è                # benzé (AVL)
 000     0      ns          a                # pans  <PLU>
 000     0      ns          e                # blens
 000     0      ns          i                # brins
@@ -401,6 +401,7 @@ REGLA B SFX+ Quatre formes amb canvi t > d, u > v, c > g, s > ss
 /REGLA
 
 REGLA H SFX+ Quatre formes afegint ns
+201     è      é           è                # cinquanta-uné (AVL)
 000     0      na          [aeiou]          # plana, plena, fina, bona, bruna   <FEM>
 000     à      ana         à                # forana
 000     è      ena         è                # amena

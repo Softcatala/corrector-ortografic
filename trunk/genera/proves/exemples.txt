@@ -1,3 +1,6 @@
+[DIEC]  ent=ton ta^cat1=adj.^com1=pl. tos tes^com2=no emprat sinó atributivament i anteposat al nom
+[DIEC]  ent=son2 sa^cat1=adj.^com1=pl. sos ses^com2=no emprat sinó atributivament i anteposat al nom
+[DIEC]  ent=vint-i-unè vint-i-unena^cat1=adj.
 [DIEC]  ent=abadia^cat1=f.
 [DIEC]  ent=àbac^cat1=m.
 [DIEC]  ent=abat1^cat1=m.

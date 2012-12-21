@@ -583,6 +583,7 @@ rumen: PLU=rúmens
 semen: PLU=sémens
 sí: PLU=sís
 son2 sa: PRECALC=son sa sos ses
+ton ta: PRECALC=ton ta tos tes
 trigemin -èmina: PRECALC=trigemin trigèmins trigèmina trigèmines
 tripsinogen: PLU=tripsinògens
 urobilinogen: PLU=urobilinògens
