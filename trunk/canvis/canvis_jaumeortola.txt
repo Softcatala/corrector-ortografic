@@ -1,0 +1,29 @@
+Canvis introduïts per Jaume Ortolà
+
+20-12-2012
+
+Paraules eliminades: 
+-tans (en diec.txt: //ent=ton ta^cat1=adj.^com1=pl. tos tes^com2=no emprat sinó atributivament i anteposat al nom // genera per error: ta/G )
+-Peró (de llinatges.txt)
+-Alló (de llinatges.txt)
+-rèmington (avl_gen.txt, és una marca d'armes, no sembla d'ús prou estès per a ser adaptada!)
+-sènia (substituïda per sénia en els diccionaris normatius, igual que sèquia/séquia)
+-Sènia (de llinatges.txt)
+
+Addicions:
+-Àustries (llinatges.txt)
+-inconcret (GD62LC mes_paraules.txt)
+-Nombres romans de l'1 al 100 (en abreviatures_duarte.txt). En minúscules, perquè s'usen de totes les maneres: versaletes, minúsucules i majúscules. És habitual afegir aquests numerals en els diccionaris d'altres llengües que hem consultat. ¿Provoca algun incovenient?
+- Ordinals des de vint-i-unè a noranta-novè (en mes_paraules.txt). Vint-i-uné (en avl.txt).
+- Formes valencianes dels pronoms: -li'l -li'ls -li-la -li-les (en regles.txt). No provocava cap error.
+- l'Empordà (amb article apostrofat en topònims.txt). Estava marcat com a paraula dubtosa en web.txt, no sé per quin motiu.
+
+Correccions:
+-Model de "plaure" i derivats: IIM=plaïa, faltaven les dièresis (plaïa, plaïes, plaïen, complaïa, etc.). 
+-Guifre->Guifré
+-LIeó->Lleó (confusió de ela (l) amb i majúscula (I))
+-Ignàsia (afegida marca de femení)
+-Faig que els noms de les lletres no es puguin apostrofar (incorrectes: l'e, l'efa). No funciona amb l'a, l'o, no sé per què. No es pot evitar l'apostrofació amb d'. Els resultats no són "homogenis".
+
+
+

@@ -174,6 +174,10 @@ REGLA C SFX+ Pronoms personals enclítics darrere consonant
 000     0      -la-hi      .                # posar-la-hi
 000     0      -les-hi     .                # posar-les-hi
 000     0      -n'hi       .                # posar-n'hi
+000     0      -li'l       .                # posar-li'l
+000     0      -li'ls      .                # posar-li'ls
+000     0      -li-la      .                # posar-li-la
+000     0      -li-les     .                # posar-li-les
 /REGLA
 
 REGLA D SFX+ Pronoms personals enclítics darrere vocal
@@ -258,6 +262,10 @@ REGLA D SFX+ Pronoms personals enclítics darrere vocal
 000     0      -la-hi      .                # posa-la-hi
 000     0      -les-hi     .                # posa-les-hi
 000     0      -n'hi       .                # posa-n'hi
+000     0      -li'l       .                # posa-li'l
+000     0      -li'ls      .                # posa-li'ls
+000     0      -li-la      .                # posa-li-la
+000     0      -li-les     .                # posa-li-les
 /REGLA
 
 // ==========================================================================
@@ -301,6 +309,7 @@ REGLA I SFX+ Plurals afegint o (eventualment amb canvi d'accent)
 /REGLA
 
 REGLA G SFX+ Plurals afegint ns
+201     è      é           è                # cinquanta-uné (AVL)
 000     0      ns          a                # pans  <PLU>
 000     0      ns          e                # blens
 000     0      ns          i                # brins
@@ -1064,20 +1073,20 @@ REGLA N SFX+ Verbs en -ir, formes incoatives
 /REGLA              
 
 REGLA O SFX+ Imperfet d'indicatiu de la segona conjugació
-000     a      a/Z         a                # 1. perdia, cloïa     <IIM>
-000     a      es/Z        a                # 2. perdies, cloïes
-000     a      a/Z         a                # 3. perdia, cloïa
+000     a      a/Z         a                # 1. perdia, cloïa, plaïa     <IIM>
+000     a      es/Z        a                # 2. perdies, cloïes, plaïes
+000     a      a/Z         a                # 3. perdia, cloïa, plaïa
 000     ia     íem/Z       [^eu]ia          # 4. perdíem
-000     ïa     íem/Z       ïa               #    cloíem
+000     ïa     íem/Z       ïa               #    cloíem, plaíem
 000     eia    èiem/Z      eia              #    dèiem
 201     eia    éiem/Z      eia              #    féiem (AVL)
 000     uia    úiem/Z      uia              #    dúiem
 000     ia     íeu/Z       [^eu]ia          # 5. perdíeu
-000     ïa     íeu/Z       ïa               #    cloíeu
+000     ïa     íeu/Z       ïa               #    cloíeu, plaíeu
 000     eia    èieu/Z      eia              #    dèieu
 201     eia    éieu/Z      eia              #    féieu (AVL)
 000     uia    úieu/Z      uia              #    dúieu
-000     a      en/Z        a                # 6. perdien, cloïen
+000     a      en/Z        a                # 6. perdien, cloïen, plaïen
 /REGLA
 
 REGLA P SFX+ Formes de la segona conjugació semblants a SIM1 sense -c/-gu (perdés)

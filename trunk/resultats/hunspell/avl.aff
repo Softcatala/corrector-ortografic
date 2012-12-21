@@ -512,7 +512,7 @@ SFX B ós osses ós
 SFX B ús usses [^aeoi]ús
 SFX B ús üsses [aeoi]ús
 
-SFX C Y 81
+SFX C Y 85
 SFX C 0 -ne .
 SFX C 0 -me .
 SFX C 0 -nos .
@@ -594,8 +594,12 @@ SFX C 0 -los-hi .
 SFX C 0 -la-hi .
 SFX C 0 -les-hi .
 SFX C 0 -n'hi .
+SFX C 0 -li'l .
+SFX C 0 -li'ls .
+SFX C 0 -li-la .
+SFX C 0 -li-les .
 
-SFX D Y 81
+SFX D Y 85
 SFX D 0 'n .
 SFX D 0 'm .
 SFX D 0 'ns .
@@ -677,6 +681,10 @@ SFX D 0 'ls-hi .
 SFX D 0 -la-hi .
 SFX D 0 -les-hi .
 SFX D 0 -n'hi .
+SFX D 0 -li'l .
+SFX D 0 -li'ls .
+SFX D 0 -li-la .
+SFX D 0 -li-les .
 
 SFX E Y 14
 SFX E 0 s [^ans]
@@ -714,7 +722,8 @@ SFX F g gues g
 SFX F 0 es [^gq]u
 SFX F u ües [gq]u
 
-SFX G Y 15
+SFX G Y 16
+SFX G è é è
 SFX G 0 ns a
 SFX G 0 ns e
 SFX G 0 ns i

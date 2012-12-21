@@ -207,7 +207,7 @@ domàs: PLU=-assos
 dublé: PLU=-és
 duralinox: PLU=duralinoxs
 dux: PLU=duxs
-e: PLU=es
+e: PLU=es & NOART=1
 elemí: PLU=-ís
 embaràs: PLU=-assos
 embós: PLU=-ossos
@@ -263,7 +263,7 @@ guardanàs: PLU=-assos
 haixix: PLU=haixixs
 hindú: PLU=-ús
 hurí: PLU=-ís
-i1: PLU=is
+i1: PLU=is & NOART=1
 iglú: PLU=-ús
 ingrés: PLU=-essos
 insuccés: PLU=-essos
@@ -1116,7 +1116,7 @@ perviure: MODEL=viure1/vi/pervi
 plànyer: <<201 <<EXT +=plangut<PAR0>/B EXT>> 201>>
 
 // plaure: ger. plaent; p. p. plagut; ind. pr. 1 plac; subj. pr. plagui, etc.; subj. imperf. plagués, etc.
-plaure: GER=plaent & PAR=plagut & SIM=plagués
+plaure: GER=plaent & IIM=plaïa & PAR=plagut & SIM=plagués
 
 // ploure: ger. plovent; p. p. plogut; subj. pr. 3 plogui; subj. imperf. 3 plogués
 ploure: GER=plovent & PAR=plogut & SIM=plogués
@@ -1974,7 +1974,7 @@ perit -a: <<EXT ALT=pèrit -a EXT>>
 poliedre: <<EXT ALT=políedre EXT>>
 rombododecaedre: <<EXT ALT=rombododecàedre EXT>>
 romboedre: <<EXT ALT=rombòedre EXT>>
-sènia: <<EXT ALT=sénia EXT>>
+//sènia: <<EXT ALT=sénia EXT>> //sénia és ara l'única forma normativa
 tetartoedre: <<EXT ALT=tetartòedre EXT>>
 tetraedre: <<EXT ALT=tetràedre EXT>>
 tetrahexaedre: <<EXT ALT=tetrahexàedre EXT>>
@@ -2957,6 +2957,20 @@ rai2: NOVACAT=???
 rubiginós -osa: NOVACAT=adj.
 verbigràcia: NOVACAT=???
 vet2: NOVACAT=???
+// els noms de les lletres no s'apostrofen
+//a: NOART=1 // ¿per què no funciona?
+//e: NOART=1
+//i: NOART=1
+//o: NOART=1 // ¿per què no funciona?
+//u: NOART=1 (no)
+efa: NOART=1 
+hac: NOART=1
+//ela: NOART=1 // ¿per què no funciona?
+ema: NOART=1
+ena: NOART=1
+//erra: NOART=1 // és verb
+essa: NOART=1
+ics: NOART=1
 
 // Primera persona del present d'indicatiu sense desinència dels verbs en -ar
 adotzenar: <<013 +=adotzèn<IPR1> 013>>

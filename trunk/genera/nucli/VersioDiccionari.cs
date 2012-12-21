@@ -34,7 +34,8 @@ namespace Genera
             get 
             { 
                 #if DEBUG
-                    return @"http://localhost/actualitzacions/OOo";
+                		return @"http://softcatala.org/diccionaris/actualitzacions/OOo";
+                    //return @"http://localhost/actualitzacions/OOo";
                 #else
                     return @"http://softcatala.org/diccionaris/actualitzacions/OOo";
                 #endif

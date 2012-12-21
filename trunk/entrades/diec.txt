@@ -58930,7 +58930,8 @@ ent=senescència^cat1=f.
 ent=senet^cat1=m.
 ent=senglar^cat1=m.^cat2=adj.
 ent=sengles^cat1=adj.
-ent=sènia^cat1=f.^com1=o sénia
+//ent=sènia^cat1=f.^com1=o sénia //Ha desaparegut dels diccionaris normatius
+ent=sénia^cat1=f.
 ent=senier seniera^cat1=m. i f.
 ent=senigrec^cat1=m.
 ent=senil^cat1=adj.

@@ -232,6 +232,7 @@ Auri
 Aurora
 Ausiàs
 Auspici
+Àustries
 Auxenci
 Auxiliadora
 Avel·lí
@@ -723,7 +724,7 @@ Gualbert
 Gúdula
 Guerau
 Guibert
-Guifre
+Guifré
 Guillem
 Guim
 Guiu
@@ -783,7 +784,7 @@ Ida
 Idoberga f
 Ifigènia f
 Ignasi
-Ignàsia
+Ignàsia f
 Ildefons
 Ilduara f
 Il·luminat
@@ -891,7 +892,7 @@ Lila
 Linus
 Llàtzer
 Lleïr
-LIeó
+Lleó
 Lleonard
 Lliberata
 Lliberat

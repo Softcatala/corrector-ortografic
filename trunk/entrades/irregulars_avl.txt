@@ -51,3 +51,13 @@ restrényer: PAR=restret
 
 tave: PLU=taves tàvens
 verme: PLU=vermes vérmens
+
+// els noms de lletres no s'apostrofen
+efe: NOART=1
+ef: NOART=1
+ele: NOART=1
+eme: NOART=1
+ene: NOART=1
+//erre: NOART=1 // és verb
+er: NOART=1
+esse: NOART=1

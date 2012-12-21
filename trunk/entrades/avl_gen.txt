@@ -6838,7 +6838,7 @@ ent=rememorable^cat1=adj.
 ent=remenjament^cat1=m.
 ent=remesclar^cat1=v. tr.
 ent=remesura^cat1=f.
-ent=rèmington^cat1=m.
+//ent=rèmington^cat1=m.
 ent=remissor remissora^cat1=adj.
 ent=remitjol^cat1=m.
 ent=remodelatge^cat1=m.
