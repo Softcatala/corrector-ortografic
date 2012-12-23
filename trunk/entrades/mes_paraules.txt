@@ -486,3 +486,27 @@ ent=noranta-setè noranta-setena^cat1=adj.
 ent=noranta-vuitè noranta-vuitena^cat1=adj.
 ent=noranta-huitè noranta-huitena^cat1=adj.
 ent=noranta-novè noranta-novena^cat1=adj.
+
+//Alguns superlatius més. Jaume Ortolà 23-12-2012
+ent=curiosíssim -a^cat1=adj.
+ent=curtíssim -a^cat1=adj.
+ent=determinadíssim -a^cat1=adj.
+ent=dificilíssim -a^cat1=adj.
+ent=escassíssim -a^cat1=adj.
+ent=estimadíssim -a^cat1=adj.
+ent=estranyíssim -a^cat1=adj.
+ent=intel·ligentíssim -a^cat1=adj.
+ent=pontentíssim -a^cat1=adj.
+ent=prudentíssim -a^cat1=adj.
+ent=rapidíssim -a^cat1=adj.
+ent=roïníssim -a^cat1=adj.
+ent=baratíssim -a^cat1=adj.
+ent=desagradabilíssim -a^cat1=adj.
+
+//més paraules
+ent=autoimposar-se^cat1=v. pron.
+ent=gradualisme^cat1=m.
+ent=sobiranisme^cat1=m.
+ent=xaronisme^cat1=m.
+
+

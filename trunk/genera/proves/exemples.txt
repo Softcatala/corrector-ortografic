@@ -1,3 +1,6 @@
+[DIEC]  ent=enaltir^cat1=v. tr.
+[DIEC]  ent=imposar^cat1=v. tr.
+[DIEC]  ent=autoimposar-se^cat1=v. pron.
 [DIEC]  ent=ton ta^cat1=adj.^com1=pl. tos tes^com2=no emprat sinó atributivament i anteposat al nom
 [DIEC]  ent=son2 sa^cat1=adj.^com1=pl. sos ses^com2=no emprat sinó atributivament i anteposat al nom
 [DIEC]  ent=vint-i-unè vint-i-unena^cat1=adj.

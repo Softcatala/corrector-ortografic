@@ -58,6 +58,8 @@ GRUPS
 011 Subjuntiu imperfet en -esses (cantesses)
 013 IPR1 dels verbs en -ar sense desinència (cant)
 014 IPR1 dels verbs en -ir sense desinència (sent)
+015 Subjuntiu imperfet en -asses -àssem -àsseu -assen (cantasses)
+016 Incoatius en -esca -esques -esquen (patesca) 
 101 "complit", etc.
 102 "duim", "feim", etc.
 103 "tenc" i "vénc"
@@ -742,6 +744,7 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    essis/Z     [^cçgju]ava      # 2. cantessis
 011     ava    esses/Z     [^cçgju]ava      #    cantesses
 002     ava    assis/Z     ava              #    cantassis
+015     ava    asses/Z     ava              #    cantasses
 004     ava    ares/Z      ava              #    cantares
 000     ava    essis/Z     [^gq]uava        #    suessis
 011     ava    esses/Z     [^gq]uava        #    suesses
@@ -770,6 +773,7 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    éssim/Z     [^cçgju]ava      # 4. cantéssim
 011     ava    éssem/Z     [^cçgju]ava      #    cantéssem
 002     ava    àssim/Z     ava              #    cantàssim
+015     ava    àssem/Z     ava              #    cantàssem
 004     ava    àrem/Z      ava              #    cantàrem
 000     ava    éssim/Z     [^gq]uava        #    suéssim
 011     ava    éssem/Z     [^gq]uava        #    suéssem
@@ -788,6 +792,7 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    éssiu/Z     [^cçgju]ava      # 5. cantéssiu
 011     ava    ésseu/Z     [^cçgju]ava      #    cantésseu
 002     ava    àssiu/Z     ava              #    cantàssiu
+015     ava    àsseu/Z     ava              #    cantàsseu
 004     ava    àreu/Z      ava              #    cantàreu
 000     ava    éssiu/Z     [^gq]uava        #    suéssiu
 011     ava    ésseu/Z     [^gq]uava        #    suésseu
@@ -806,6 +811,7 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    essin/Z     [^cçgju]ava      # 6. cantessin
 011     ava    essen/Z     [^cçgju]ava      #    cantessen
 002     ava    assin/Z     ava              #    cantassin
+015     ava    assen/Z     ava              #    cantassen
 004     ava    aren/Z      ava              #    cantaren
 000     ava    essin/Z     [^gq]uava        #    suessin
 011     ava    essen/Z     [^gq]uava        #    suessen
@@ -1032,24 +1038,28 @@ REGLA N SFX+ Verbs en -ir, formes incoatives
 006     iré    ïxen/Z      [aeio]iré        #    traïxen
 000     iré    eixi/Z      iré              # 1. pateixi <SPR>
 005     iré    esqui/Z     iré              #    patesqui
+016     iré    esca/Z      iré              #    patesca
 006     iré    isca/Z      [^aeiou]iré      #    patisca
 006     iré    isca/Z      [gq]uiré         #    seguisca
 006     iré    ïsca/Z      [^gq]uiré        #    induïsca
 006     iré    ïsca/Z      [aeio]iré        #    traïsca
 000     iré    eixis/Z     iré              # 2. pateixis
 005     iré    esquis/Z    iré              #    patesquis
+016     iré    esques/Z    iré              #    patesques
 006     iré    isques/Z    [^aeiou]iré      #    patisques
 006     iré    isques/Z    [gq]uiré         #    seguisques
 006     iré    ïsques/Z    [^gq]uiré        #    induïsques
 006     iré    ïsques/Z    [aeio]iré        #    traïsques
 000     iré    eixi/Z      iré              # 3. pateixi
 005     iré    esqui/Z     iré              #    patesqui
+016     iré    esca/Z      iré              #    patesca
 006     iré    isca/Z      [^aeiou]iré      #    patisca
 006     iré    isca/Z      [gq]uiré         #    seguisca
 006     iré    ïsca/Z      [^gq]uiré        #    induïsca
 006     iré    ïsca/Z      [aeio]iré        #    traïsca
 000     iré    eixin/Z     iré              # 6. pateixin  
-005     iré    esquin/Z    iré              #    patesquin 
+005     iré    esquin/Z    iré              #    patesquin
+016     iré    esquen/Z    iré              #    patesquen 
 006     iré    isquen/Z    [^aeiou]iré      #    patisquen
 006     iré    isquen/Z    [gq]uiré         #    seguisquen
 006     iré    ïsquen/Z    [^gq]uiré        #    induïsquen

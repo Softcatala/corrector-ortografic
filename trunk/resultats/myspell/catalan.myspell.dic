@@ -1,4 +1,4 @@
-209951
+210023
 11/Y
 a/VY
 -a
@@ -13466,6 +13466,10 @@ anartròpode/EVY
 anàs/Z
 anasarca/EVY
 anascot/EVY
+anàssem/Z
+anassen/Z
+anasses/Z
+anàsseu/Z
 anàssim/Z
 anassin/Z
 anassis/Z
@@ -24043,6 +24047,20 @@ autoimmunitari/KVY
 autoimmunitària/VY
 autoimmunitat/EVY
 autoimmunització/GVY
+autoimpòs/Z
+autoimposa/D
+autoimposada/VY
+autoimposant/C
+autoimposar/CY
+autoimposat/1VY
+autoimposau/C
+autoimposava/AZ
+autoimpose/D
+autoimposem/C
+autoimposen/C
+autoimposeu/C
+autoimposi/D
+autoimposin/C
 autoinculpació/GVY
 autoinducció/GVY
 autoinductància/EVY
@@ -26411,6 +26429,7 @@ barateu/C
 barati/D
 baratia/E
 baratin/C
+baratíssim/F
 barator/E
 bàratre/E
 baratura/E
@@ -37808,6 +37827,7 @@ Caritat
 caritater/E
 caritatiu/B
 caritativament
+Carla
 carlà/G
 carlania/E
 Carlemany
@@ -42263,6 +42283,9 @@ cobren/C
 cobrent/E
 cobreobjectes
 cobresc
+cobresca
+cobresquen
+cobresques
 cobresqui/D
 cobresquin/C
 cobresquis
@@ -51805,6 +51828,7 @@ curin/C
 curió/G
 curiós/J
 curiosament
+curiosíssim/F
 curiositat/E
 curlandès/J
 Curlàndia
@@ -51880,6 +51904,7 @@ curtejat/1
 curtejau/C
 curtejava/A
 curtesa/E
+curtíssim/F
 curtmetratge/E
 curtor/E
 curtosi/E
@@ -52277,6 +52302,7 @@ dàreu
 darga/E
 dargó/G
 daria
+Dària
 dàric/E
 daríem
 darien
@@ -52312,6 +52338,10 @@ dasipòdid/E
 dasocràcia/E
 dasonomia/E
 dasonòmic/F
+dàssem
+dassen
+dasses
+dàsseu
 dàssim
 dassin
 dassis
@@ -55401,6 +55431,7 @@ desagermaneu/C
 desagermani/D
 desagermanin/C
 desagrada/D
+desagradabilíssim/F
 desagradable/E
 desagradablement
 desagradant/C
@@ -58019,6 +58050,9 @@ descobreixin/C
 descobreixis
 descobreixo
 descobresc
+descobresca
+descobresquen
+descobresques
 descobresqui/D
 descobresquin/C
 descobresquis
@@ -70644,6 +70678,7 @@ determinabilitat/E
 determinable/E
 determinació/G
 determinadament
+determinadíssim/F
 determinant/CE
 determinar/C
 determinat/1B
@@ -71393,6 +71428,7 @@ diferix/C
 dificerc/F
 dificerca/E
 difícil/E
+dificilíssim/F
 difícilment
 dificulta/D
 dificultant/C
@@ -73703,6 +73739,10 @@ donaries
 donaríeu
 donàs
 donassa/E
+donàssem
+donassen
+donasses
+donàsseu
 donàssim
 donassin
 donassis
@@ -83808,6 +83848,9 @@ encobreixin/CZ
 encobreixis/Z
 encobreixo/Z
 encobresc/Z
+encobresca/Z
+encobresquen/Z
+encobresques/Z
 encobresqui/DZ
 encobresquin/CZ
 encobresquis/Z
@@ -98096,6 +98139,8 @@ escassigallen/C
 escassigalleu/C
 escassigalli/D
 escassigallin/C
+escassíssim/FVY
+escassíssima/VY
 escat/1EVY
 Escat/WY
 escata/DEVY
@@ -106032,6 +106077,8 @@ estima/DEVY
 estimable/EVY
 estimació/GVY
 estimada/VY
+estimadíssim/FVY
+estimadíssima/VY
 estimador/FVY
 estimadora/VY
 estimant/C
@@ -106794,6 +106841,8 @@ estranyesa/EVY
 estranyeu/C
 estranyi/D
 estranyin/C
+estranyíssim/FVY
+estranyíssima/VY
 estrapada/EVY
 estraperlada/EVY
 estraperlista/EVY
@@ -108185,6 +108234,7 @@ eventració/GVY
 eventual/EVY
 eventualitat/EVY
 eventualment
+Everest/VY
 eversió/GVY
 evicció/GVY
 evidencia/D
@@ -121157,6 +121207,7 @@ graduació/G
 graduadament
 graduador/F
 gradual/E
+gradualisme/E
 gradualment
 graduand/F
 graduant/C
@@ -124557,6 +124608,7 @@ hilobàtid/EVY
 hilozoisme/EVY
 Hiltruda/Y
 hílum/EVY
+Himalaia/VY
 himen/VY
 himeneu/EVY
 himeni/EVY
@@ -127135,6 +127187,9 @@ imprimeixin/CZ
 imprimeixis/Z
 imprimeixo/Z
 imprimesc/Z
+imprimesca/Z
+imprimesquen/Z
+imprimesques/Z
 imprimesqui/DZ
 imprimesquin/CZ
 imprimesquis/Z
@@ -130313,6 +130368,7 @@ intel·lectualitzin/C
 intel·lectualment
 intel·ligència/EY
 intel·ligent/EVY
+intel·ligentíssim/FVY
 intel·ligentment
 intel·ligibilitat/EY
 intel·ligible/EVY
@@ -163169,6 +163225,7 @@ pontederiàcia/E
 Pontellà
 pontem/C
 ponten/C
+pontentíssim/F
 ponter/E
 pontet/E
 ponteu/C
@@ -167601,6 +167658,7 @@ prudencial/E
 prudencialment
 Prudenciana
 prudent/E
+prudentíssim/F
 prudentment
 pruen/C
 pruenga/E
@@ -170714,6 +170772,7 @@ rapi/D
 ràpid/F
 ràpidament
 rapidesa/E
+rapidíssim/F
 rapiditat/E
 rapidor/F
 rapim/C
@@ -172386,6 +172445,7 @@ recaptament/E
 recaptant/C
 recaptar/C
 recaptat/1
+recaptatori/K
 recaptau/C
 recaptava/A
 recapte/DE
@@ -172744,6 +172804,9 @@ recobreixo
 recobrem/C
 recobren/C
 recobresc
+recobresca
+recobresquen
+recobresques
 recobresqui/D
 recobresquin/C
 recobresquis
@@ -173735,6 +173798,9 @@ redescobreixin/C
 redescobreixis
 redescobreixo
 redescobresc
+redescobresca
+redescobresquen
+redescobresques
 redescobresqui/D
 redescobresquin/C
 redescobresquis
@@ -175942,6 +176008,9 @@ reimprimeixin/C
 reimprimeixis
 reimprimeixo
 reimprimesc
+reimprimesca
+reimprimesquen
+reimprimesques
 reimprimesqui/D
 reimprimesquin/C
 reimprimesquis
@@ -182205,6 +182274,7 @@ roïnesa/E
 roineu/C
 roini/D
 roinin/C
+roïníssim/F
 roïns
 roís
 Roís
@@ -188684,6 +188754,7 @@ Sobiracs
 sobiranament
 sobirania/E
 Sobirànigues
+sobiranisme/E
 sobiranista/E
 sobra/DE
 sobralles
@@ -208557,6 +208628,7 @@ xarolen/C
 xaroleu/C
 xaroli/D
 xarolin/C
+xaronisme/E
 xarop/E
 xaropera/E
 xaropós/J

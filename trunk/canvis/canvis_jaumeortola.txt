@@ -1,3 +1,13 @@
+23-12-2012
+
+Addicions
+- Carla, Dària (antropònims)
+- Alguns superlatius més (mes_paraules.txt)
+- Formes verbals valencianes formals: 
+015 Subjuntiu imperfet en -asses -àssem -àsseu -assen (cantasses)
+016 Incoatius en -esca -esques -esquen (patesca) 
+- recaptatori (termcat.txt), autoimposar, gradualisme, xaronisme, sobiranisme, Himalaia, Everest
+
 20-12-2012 Canvis introduïts per Jaume Ortolà
 
 Paraules eliminades: 

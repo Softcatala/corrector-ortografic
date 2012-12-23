@@ -1934,6 +1934,7 @@ ent=readobat -ada^cat1=adj.^com1=cuir readobat
 ent=realimentació^cat1=f.
 ent=realimentat -ada^cat1=adj.^com1=equalització realimentada per decisions
 ent=reassemblatge^cat1=m.
+ent=recaptatori -òria^cat1=adj.
 ent=receptici -ícia^cat1=adj.^com1=declaració receptícia
 ent=recol·locació^cat1=f.
 ent=reconfigurable^cat1=adj.

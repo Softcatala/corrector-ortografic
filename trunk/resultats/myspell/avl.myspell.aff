@@ -136,7 +136,7 @@ SFX 3 it ides [gq]uit
 SFX 3 ït ïdes [^gq]uït
 SFX 3 ït ïdes [aeio]ït
 
-SFX A Y 291
+SFX A Y 295
 SFX A ava o ava
 SFX A ava e [^cçgju]ava
 SFX A ava e [^gq]uava
@@ -349,6 +349,7 @@ SFX A ava ara ava
 SFX A ava essis [^cçgju]ava
 SFX A ava esses [^cçgju]ava
 SFX A ava assis ava
+SFX A ava asses ava
 SFX A ava ares ava
 SFX A ava essis [^gq]uava
 SFX A ava esses [^gq]uava
@@ -377,6 +378,7 @@ SFX A ava ara ava
 SFX A ava éssim [^cçgju]ava
 SFX A ava éssem [^cçgju]ava
 SFX A ava àssim ava
+SFX A ava àssem ava
 SFX A ava àrem ava
 SFX A ava éssim [^gq]uava
 SFX A ava éssem [^gq]uava
@@ -395,6 +397,7 @@ SFX A java géssem java
 SFX A ava éssiu [^cçgju]ava
 SFX A ava ésseu [^cçgju]ava
 SFX A ava àssiu ava
+SFX A ava àsseu ava
 SFX A ava àreu ava
 SFX A ava éssiu [^gq]uava
 SFX A ava ésseu [^gq]uava
@@ -413,6 +416,7 @@ SFX A java gésseu java
 SFX A ava essin [^cçgju]ava
 SFX A ava essen [^cçgju]ava
 SFX A ava assin ava
+SFX A ava assen ava
 SFX A ava aren ava
 SFX A ava essin [^gq]uava
 SFX A ava essen [^gq]uava
@@ -925,7 +929,7 @@ SFX M iré iren [gq]uiré
 SFX M iré ïren [^gq]uiré
 SFX M iré ïren [aeio]iré
 
-SFX N Y 45
+SFX N Y 49
 SFX N iré eixo iré
 SFX N iré esc iré
 SFX N iré isc [^aeiou]iré
@@ -949,24 +953,28 @@ SFX N iré ïxen [^gq]uiré
 SFX N iré ïxen [aeio]iré
 SFX N iré eixi iré
 SFX N iré esqui iré
+SFX N iré esca iré
 SFX N iré isca [^aeiou]iré
 SFX N iré isca [gq]uiré
 SFX N iré ïsca [^gq]uiré
 SFX N iré ïsca [aeio]iré
 SFX N iré eixis iré
 SFX N iré esquis iré
+SFX N iré esques iré
 SFX N iré isques [^aeiou]iré
 SFX N iré isques [gq]uiré
 SFX N iré ïsques [^gq]uiré
 SFX N iré ïsques [aeio]iré
 SFX N iré eixi iré
 SFX N iré esqui iré
+SFX N iré esca iré
 SFX N iré isca [^aeiou]iré
 SFX N iré isca [gq]uiré
 SFX N iré ïsca [^gq]uiré
 SFX N iré ïsca [aeio]iré
 SFX N iré eixin iré
 SFX N iré esquin iré
+SFX N iré esquen iré
 SFX N iré isquen [^aeiou]iré
 SFX N iré isquen [gq]uiré
 SFX N iré ïsquen [^gq]uiré
