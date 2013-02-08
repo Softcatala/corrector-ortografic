@@ -2310,6 +2310,7 @@ ent=toxicodèrmia^cat1=f.
 ent=toxidèrmia^cat1=f.
 ent=traçabilitat^cat1=f.
 ent=tradir^cat1=v. tr.
+ent=trainera^cat1=f.
 ent=transadmitància^cat1=f.
 ent=transcriptasa^cat1=f.^com1=transcriptasa inversa
 ent=transfecció^cat1=f.

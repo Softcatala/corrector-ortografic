@@ -37,3 +37,10 @@ Microsoft
 Windows
 d'iPod
 d'Apple
+
+Catalanitzador
+LibreOffice
+Mozilla
+Firefox
+Thunderbird
+OpenOffice
