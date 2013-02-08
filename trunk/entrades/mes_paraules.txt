@@ -257,7 +257,7 @@ ent=elevadíssim -a^cat1=adj.
 ent=embulladíssim -a^cat1=adj.
 ent=emocionadament^cat1=adv.
 ent=encimentar^cat1=v.
-ent=enforcament^cat1=adv.
+ent=enforcament^cat1=m.
 ent=enrevoltar^cat1=v.
 ent=esbucament^cat1=m.
 ent=escanyadura^cat1=f.
@@ -282,7 +282,7 @@ ent=fefaentment^cat1=adv.
 ent=feixet^cat1=m.
 ent=ferotgement^cat1=adv.
 ent=ficadís -issa^cat1=adj.
-ent=formigonament^cat1=adv.
+ent=formigonament^cat1=m.
 ent=francoespanyol -a^cat1=adj.
 ent=furibundament^cat1=adv.
 ent=fílmicament^cat1=adv.
@@ -325,7 +325,7 @@ ent=lul·lístic -a^cat1=adj.
 // revisar l’aleshores **************************************************
 // revisar l’avui **************************************************
 ent=lúdicament^cat1=adv.
-ent=macroesdeveniment^cat1=adv.
+ent=macroesdeveniment^cat1=m.
 ent=macroexposició^cat1=f.
 ent=mediàticament^cat1=adv.
 ent=meteòricament^cat1=adv.
@@ -502,11 +502,75 @@ ent=rapidíssim -a^cat1=adj.
 ent=roïníssim -a^cat1=adj.
 ent=baratíssim -a^cat1=adj.
 ent=desagradabilíssim -a^cat1=adj.
+ent=catalaníssim -a^cat1=adj.
+ent=valencianíssim -a^cat1=adj.
 
-//més paraules
+//més paraules Jaume Ortolà 23-12-2012
 ent=autoimposar-se^cat1=v. pron.
 ent=gradualisme^cat1=m.
 ent=sobiranisme^cat1=m.
 ent=xaronisme^cat1=m.
+ent=punteta^cat1=f.
+ent=esparveradament^cat1=adv.
+ent=espellifadament^cat1=adv.
+ent=demogràficament^cat1=adv.
+ent=altimètricament^cat1=adv.
+ent=brogidosament^cat1=adv.
+ent=compulsivament^cat1=adv.
+
+//més paraules Jaume Ortolà 8-2-2013
+ent=subregistre^cat1=m.
+ent=dòping^cat1=m.
+ent=autoengany^cat1=m.
+ent=ecopacifisme^cat1=m.
+ent=ecosocialisme^cat1=m.
+ent=antiintel·lectualisme^cat1=m.
+ent=curtterminisme^cat1=m.
+ent=discurset^cat1=m.
+ent=pseudoproblema^cat1=m.
+ent=prejubilació^cat1=f.
+ent=pseudociència^cat1=f.
+ent=internet^cat1=f.
+ent=demoscòpia^cat1=f.
+ent=sostenibilitat^cat1=f.
+ent=insostenibilitat^cat1=f.
+ent=flexiseguretat^cat1=m.
+ent=saquet^cat1=m.
+ent=supranacional^cat1=adj.
+ent=ecosocialista^cat1=adj.
+ent=antiintel·lectualista^cat1=adj.
+ent=curtterminista^cat1=adj.
+ent=tendencial^cat1=adj.
+ent=intergeneracional^cat1=adj.
+ent=solet -a^cat1=adj.
+ent=pseudocientífic -a^cat1=adj.
+ent=utilíssim -a^cat1=adj.
+ent=facilíssim -a^cat1=adj.
+ent=finíssim -a^cat1=adj.
+ent=vivíssim -a^cat1=adj.
+ent=novíssim -a^cat1=adj.
+ent=profundíssim -a^cat1=adj.
+ent=complicadíssim -a^cat1=adj.
+ent=desengranar^cat1=v. tr.
+ent=demoscòpic -a^cat1=adj.
+ent=recurrentment^cat1=adv.
+ent=massivament^cat1=adv.
+ent=alarmantment^cat1=adv.
+ent=rapidíssimament^cat1=adv.
+ent=arrepenjar-se^cat1=v. pron.
+ent=autodeterminar-se^cat1=v. pron.
+ent=autoanomenar-se^cat1=v. pron.
+ent=autodenominar-se^cat1=v. pron.
+ent=fugar-se^cat1=v. pron.
+ent=desinstal·lar^cat1=v. tr.
+ent=menudet -a^cat1=adj.
+ent=sobradament^cat1=adv.
+ent=civilitzadament^cat1=adv.
+ent=prejubilar2^cat1=v. tr.^cat2=pron.^cat3=intr.
+ent=subalvi -àlvia^cat1=adj.
+ent=democristià -ana^cat1=adj.
+ent=serbobosnià -ana^cat1=adj. i m. i f.^cat2=adj.
+ent=càrmata^cat1=adj. i m. i f.^cat2=adj.
+
 
 

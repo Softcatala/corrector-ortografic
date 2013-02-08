@@ -19184,7 +19184,7 @@ ent=descanviar^cat1=v. tr.
 ent=descapitalitzar^cat1=v. tr.
 ent=descapotable^cat1=adj.^cat2=m.
 ent=descapotar^cat1=v. tr.
-ent=descaradament^cat1=m.
+ent=descaradament^cat1=adv.
 ent=descaradura^cat1=f.
 ent=descaragolador^cat1=m.
 ent=descaragolament^cat1=m.
@@ -43961,7 +43961,7 @@ ent=mistèric -a^cat1=adj.
 ent=misteriós -osa^cat1=adj.
 ent=misteriosament^cat1=adv.
 ent=místic -a^cat1=adj.^cat2=f.^cat3=m. i f.^cat4=adj. i m. i f.^cat5=m.
-ent=místicament^cat1=adj.
+ent=místicament^cat1=adv.
 ent=misticets^cat1=m. pl.^cat2=sing.
 ent=misticisme^cat1=m.
 ent=misticitat^cat1=f.
@@ -62184,7 +62184,7 @@ ent=tempestívol -a^cat1=adj.
 ent=tempestós -osa^cat1=adj.
 ent=tempestosament^cat1=adv.
 ent=tempestuós -osa^cat1=adj.
-ent=tempestuosament^cat1=adj.
+ent=tempestuosament^cat1=adv.
 ent=tempial^cat1=m.
 ent=tempir^cat1=m.
 ent=tempirada^cat1=f.
@@ -64837,7 +64837,7 @@ ent=turborotor^cat1=m.
 ent=turbot^cat1=m.
 ent=turbulència^cat1=f.
 ent=turbulent -a^cat1=adj.
-ent=turbulentament^cat1=adj.
+ent=turbulentament^cat1=adv.
 ent=turc -a^cat1=adj. i m. i f.^cat2=adj.^cat3=m.
 ent=turca^cat1=f.
 ent=turcople^cat1=m.
@@ -67676,3 +67676,7 @@ ent=superabundància^cat1=f.
 ent=superabundant^cat1=adj.
 ent=superabundantment^cat1=adv.
 ent=superabundar^cat1=v. intr.
+
+//GDLC posats ací perquè són irregulars (irregulars_diec.txt)
+ent=autodissoldre's^cat1=v. pron.
+ent=underground^cat1=adj.

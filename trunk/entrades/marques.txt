@@ -3,7 +3,7 @@
 // "d'" vol dir que admeten "d'", "l'" vol dir que admeten "
 
 Barça
-l'Internet
+//l'Internet
 
 d'ERC
 GOB

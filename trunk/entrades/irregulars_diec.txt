@@ -3340,3 +3340,8 @@ saltamarges: PRECALC=saltamarges saltamàrgens
 superhome: PLU=superhomes superhòmens
 terme: PLU=termes térmens
 verge: PLU=verges vèrgens
+
+// autodissoldre: quant a la flexió, com absoldre
+autodissoldre's: MODEL=absoldre/abs/autodiss
+
+underground: PLU=underground

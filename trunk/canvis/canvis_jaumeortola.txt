@@ -1,3 +1,7 @@
+8-2-2013
+
+Diverses addicions (mes_paraules.txt).
+
 23-12-2012
 
 Addicions
@@ -7,6 +11,12 @@ Addicions
 015 Subjuntiu imperfet en -asses -àssem -àsseu -assen (cantasses)
 016 Incoatius en -esca -esques -esquen (patesca) 
 - recaptatori (termcat.txt), autoimposar, gradualisme, xaronisme, sobiranisme, Himalaia, Everest
+- Adverbis en -ment: esparveradament, espellifadament, demogràficament, altimètricament, brogidosament
+
+Correccions
+- Enforcament, formigonament, macroesdeveniment (adv.->m.)
+- descaradament (m.->adv.)
+- turbulentament, tempestuosament, místicament (adj.->adv.)
 
 20-12-2012 Canvis introduïts per Jaume Ortolà
 
@@ -32,6 +42,7 @@ Correccions:
 -LIeó->Lleó (confusió de ela (l) amb i majúscula (I))
 -Ignàsia (afegida marca de femení)
 -Faig que els noms de les lletres no es puguin apostrofar (incorrectes: l'e, l'efa). No funciona amb l'a, l'o, l'ela, no sé per què. De moment, no es pot evitar l'apostrofació amb d'. Els resultats no són "homogenis".
+
 
 
 
