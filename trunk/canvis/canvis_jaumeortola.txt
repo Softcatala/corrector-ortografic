@@ -1,7 +1,8 @@
 8-2-2013
 
 Diverses addicions (mes_paraules.txt).
-Noms de programes promoguts per Softcatalà (marques.txt)
+Afegits noms de programes promoguts per Softcatalà (marques.txt)
+trainera (termcat.txt)
 
 23-12-2012
 
