@@ -108,7 +108,7 @@ REP ó Ó
 REP ú Ú
 REP ü Ü
 
-SFX A Y 359
+SFX A Y 361
 SFX A ava ar/CY ava
 SFX A ava ant/C ava
 SFX A ava at/vY ava
@@ -225,9 +225,9 @@ SFX A ava ï/Z [^aeiou][eio]ava
 SFX A iava ï/Z [aeiou]iava
 SFX A ava ï/Z [gq]uiava
 SFX A iava ï/Z [^gq]uiava
-SFX A guava güi/Z guava
-SFX A quava qüi/Z quava
-SFX A uava uï/Z [^gq]uava
+SFX A uava üi/Z [gq]uava
+SFX A ava i/Z [eo]uava
+SFX A uava uï/Z [^eogq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -245,9 +245,9 @@ SFX A ava ïs/Z [^aeiou][eio]ava
 SFX A iava ïs/Z [aeiou]iava
 SFX A ava ïs/Z [gq]uiava
 SFX A iava ïs/Z [^gq]uiava
-SFX A guava güis/Z guava
-SFX A quava qüis/Z quava
-SFX A uava uïs/Z [^gq]uava
+SFX A uava üis/Z [gq]uava
+SFX A ava is/Z [eo]uava
+SFX A uava uïs/Z [^eogq]uava
 SFX A cava quis/Z cava
 SFX A çava cis/Z çava
 SFX A gava guis/Z gava
@@ -263,9 +263,11 @@ SFX A java ges/Z java
 SFX A ava i/Z [^cçgjieou]ava
 SFX A ava ï/Z [^aeiou][eio]ava
 SFX A iava ï/Z [aeiou]iava
-SFX A guava güi/Z guava
-SFX A quava qüi/Z quava
-SFX A uava uï/Z [^gq]uava
+SFX A ava ï/Z [gq]uiava
+SFX A iava ï/Z [^gq]uiava
+SFX A uava üi/Z [gq]uava
+SFX A ava i/Z [eo]uava
+SFX A uava uï/Z [^eogq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -416,9 +418,9 @@ SFX A ava ï/D [^aeiou][eio]ava
 SFX A iava ï/D [aeiou]iava
 SFX A ava ï/D [gq]uiava
 SFX A iava ï/D [^gq]uiava
-SFX A guava güi/D guava
-SFX A quava qüi/D quava
-SFX A uava uï/D [^gq]uava
+SFX A uava üi/D [gq]uava
+SFX A ava i/D [eo]uava
+SFX A uava uï/D [^eogq]uava
 SFX A cava qui/D cava
 SFX A çava ci/D çava
 SFX A gava gui/D gava

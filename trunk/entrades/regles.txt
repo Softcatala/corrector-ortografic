@@ -642,9 +642,9 @@ REGLA A SFX+ Primera conjugació regular
 000     iava   ï/Z         [aeiou]iava      #    desmaï
 000     ava    ï/Z         [gq]uiava        #    esquiï
 000     iava   ï/Z         [^gq]uiava       #
-000     guava  güi/Z       guava            #    enaigüi
-000     quava  qüi/Z       quava            #    adeqüi
-000     uava   uï/Z        [^gq]uava        #    evacuï
+000     uava   üi/Z        [gq]uava         #    enaigüi, adeqüi
+000     ava    i/Z         [eo]uava         #    creui, poui
+000     uava   uï/Z        [^eogq]uava      #    evacuï
 000     cava   qui/Z       cava             #    cerqui
 000     çava   ci/Z        çava             #    caci
 000     gava   gui/Z       gava             #    porgui
@@ -662,9 +662,9 @@ REGLA A SFX+ Primera conjugació regular
 000     iava   ïs/Z        [aeiou]iava      #    desmaïs
 000     ava    ïs/Z        [gq]uiava        #    esquiïs
 000     iava   ïs/Z        [^gq]uiava       #
-000     guava  güis/Z      guava            #    enaigüis
-000     quava  qüis/Z      quava            #    adeqüis
-000     uava   uïs/Z       [^gq]uava        #    evacuïs
+000     uava   üis/Z       [gq]uava         #    enaigüis, adeqüis
+000     ava    is/Z        [eo]uava         #    creuis, pouis
+000     uava   uïs/Z       [^eogq]uava      #    evacuïs
 000     cava   quis/Z      cava             #    cerquis
 000     çava   cis/Z       çava             #    cacis
 000     gava   guis/Z      gava             #    porguis
@@ -680,9 +680,11 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    i/Z         [^cçgjieou]ava   # 3. canti
 000     ava    ï/Z         [^aeiou][eio]ava #    suï
 000     iava   ï/Z         [aeiou]iava      #    desmaï
-000     guava  güi/Z       guava            #    enaigüi
-000     quava  qüi/Z       quava            #    adeqüi
-000     uava   uï/Z        [^gq]uava        #    evacuï
+000     ava    ï/Z         [gq]uiava        #    esquiï
+000     iava   ï/Z         [^gq]uiava       #
+000     uava   üi/Z        [gq]uava         #    enaigüi, adeqüi
+000     ava    i/Z         [eo]uava         #    creui, poui
+000     uava   uï/Z        [^eogq]uava      #    evacuï
 000     cava   qui/Z       cava             #    cerqui
 000     çava   ci/Z        çava             #    caci
 000     gava   gui/Z       gava             #    porgui
@@ -833,9 +835,9 @@ REGLA A SFX+ Primera conjugació regular
 000     iava   ï/D         [aeiou]iava      #    desmaï
 000     ava    ï/D         [gq]uiava        #    esquiï
 000     iava   ï/D         [^gq]uiava       #
-000     guava  güi/D       guava            #    enaigüi
-000     quava  qüi/D       quava            #    adeqüi
-000     uava   uï/D        [^gq]uava        #    evacuï
+000     uava   üi/D        [gq]uava         #    enaigüi, adeqüi
+000     ava    i/D         [eo]uava         #    creui, poui
+000     uava   uï/D        [^eogq]uava      #    evacuï
 000     cava   qui/D       cava             #    cerqui
 000     çava   ci/D        çava             #    caci
 000     gava   gui/D       gava             #    porgui
