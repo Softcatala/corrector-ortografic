@@ -716,6 +716,10 @@ commoure: MODEL=moure/mo/commo & +=commòs<PAR0>/J
 // comparèixer: quant a la flexió, com aparèixer
 comparèixer: MODEL=aparèixer/apar/compar
 
+// complànyer
+//complànyer: <<201 <<EXT +=complangut<PAR0>/B EXT>> 201>> & SIM=complangués
+complànyer: <<EXT +=complangut<PAR0>/B EXT>> & SIM=complangués
+
 // complaure: quant a la flexió, com plaure
 complaure: MODEL=plaure/pl/compl
 
@@ -1108,13 +1112,15 @@ perfer: MODEL=desfer/desf/perf
 permetre: PAR=permès
 
 // pertànyer: p. p. pertangut
-pertànyer: PAR=pertangut
+//pertànyer: <<201 <<EXT +=pertangut<PAR0>/B EXT>> 201>> & SIM=pertangués
+pertànyer: <<EXT +=pertangut<PAR0>/B EXT>> & SIM=pertangués
 
 // perviure: quant a la flexió, com viure
 perviure: MODEL=viure1/vi/pervi
 
 //plànyer
-plànyer: <<201 <<EXT +=plangut<PAR0>/B EXT>> 201>>
+//plànyer: <<201 <<EXT +=plangut<PAR0>/B EXT>> 201>> & SIM=plangués
+plànyer: <<EXT +=plangut<PAR0>/B EXT>> & SIM=plangués
 
 // plaure: ger. plaent; p. p. plagut; ind. pr. 1 plac; subj. pr. plagui, etc.; subj. imperf. plagués, etc.
 plaure: GER=plaent & IIM=plaïa & PAR=plagut & SIM=plagués
