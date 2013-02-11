@@ -523,6 +523,9 @@ ent=subregistre^cat1=m.
 ent=dòping^cat1=m.
 ent=autoengany^cat1=m.
 ent=ecopacifisme^cat1=m.
+ent=jihad^cat1=f.
+ent=jihadisme^cat1=m.
+ent=jihadista^cat1=adj.
 ent=ecosocialisme^cat1=m.
 ent=antiintel·lectualisme^cat1=m.
 ent=curtterminisme^cat1=m.
@@ -551,6 +554,7 @@ ent=vivíssim -a^cat1=adj.
 ent=novíssim -a^cat1=adj.
 ent=profundíssim -a^cat1=adj.
 ent=complicadíssim -a^cat1=adj.
+ent=tantíssim -a^cat1=adj.
 ent=desengranar^cat1=v. tr.
 ent=demoscòpic -a^cat1=adj.
 ent=recurrentment^cat1=adv.
@@ -566,7 +570,7 @@ ent=desinstal·lar^cat1=v. tr.
 ent=menudet -a^cat1=adj.
 ent=sobradament^cat1=adv.
 ent=civilitzadament^cat1=adv.
-ent=prejubilar2^cat1=v. tr.^cat2=pron.^cat3=intr.
+ent=prejubilar^cat1=v. tr.^cat2=pron.^cat3=intr.
 ent=subalvi -àlvia^cat1=adj.
 ent=democristià -ana^cat1=adj.
 ent=serbobosnià -ana^cat1=adj. i m. i f.^cat2=adj.

@@ -1,3 +1,4 @@
+[DIEC]  ent=plànyer^cat1=v. intr.
 [DIEC]  ent=autodissoldre's^cat1=v. pron.
 [DIEC]  ent=pertànyer^cat1=v. intr.
 [DIEC]  ent=enaltir^cat1=v. tr.
