@@ -2070,7 +2070,7 @@ Llafranc
 Llenguadoc
 Llompart
 Llucmajor
-//Internet
+la Internet
 Lola
 Londres
 Lugo
