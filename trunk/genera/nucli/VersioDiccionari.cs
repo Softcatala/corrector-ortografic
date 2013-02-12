@@ -246,7 +246,7 @@ namespace Genera
                 List<InfoNumeroVersio> llista = new List<InfoNumeroVersio>();
                 // Aquí ha d'anar la informació sobre els números de versió
                 // PER_FER: agafar la informació d'un fitxer
-                // En el fitxer d'afixos es repeteix la informació del número de versió i la data
+                // En el fitxer regles.txt es repeteix la informació del número i la data de la versió
                 llista.Add(new InfoNumeroVersio(2, 5, 0,
                     new DateTime(2013, 2, 15),
                     new NotaVersio("Afegides i corregides entrades diverses", "Added and corrected several entries")
