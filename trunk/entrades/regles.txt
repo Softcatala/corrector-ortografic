@@ -615,6 +615,7 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    aven/Z      ava              # 6. cantaven
 000     ava    í/Z         [^cçgij]ava      # 1. cantí - indicatiu perfet <IPE>
 000     cava   quí/Z       cava             #    cerquí
+000     uava   üí/Z        [gq]uava         #    adeqüí, enaigüí, desaigüí
 000     çava   cí/Z        çava             #    cací
 000     gava   guí/Z       gava             #    porguí
 000     java   gí/Z        java             #    vengí
@@ -645,8 +646,8 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    ï/Z         [gq]uiava        #    esquiï
 000     iava   ï/Z         [^gq]uiava       #
 000     uava   üi/Z        [gq]uava         #    enaigüi, adeqüi
-000     ava    i/Z         [eo]uava         #    creui, poui
-000     uava   uï/Z        [^eogq]uava      #    evacuï
+000     ava    i/Z         [eoia]uava       #    creui, poui, estiui, desencaui
+000     uava   uï/Z        [^eoiagq]uava    #    evacuï
 000     cava   qui/Z       cava             #    cerqui
 000     çava   ci/Z        çava             #    caci
 000     gava   gui/Z       gava             #    porgui
@@ -665,8 +666,8 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    ïs/Z        [gq]uiava        #    esquiïs
 000     iava   ïs/Z        [^gq]uiava       #
 000     uava   üis/Z       [gq]uava         #    enaigüis, adeqüis
-000     ava    is/Z        [eo]uava         #    creuis, pouis
-000     uava   uïs/Z       [^eogq]uava      #    evacuïs
+000     ava    is/Z        [eoia]uava       #    creuis, pouis, estiuis, desencauis
+000     uava   uïs/Z       [^eoiagq]uava    #    evacuïs
 000     cava   quis/Z      cava             #    cerquis
 000     çava   cis/Z       çava             #    cacis
 000     gava   guis/Z      gava             #    porguis
@@ -685,8 +686,8 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    ï/Z         [gq]uiava        #    esquiï
 000     iava   ï/Z         [^gq]uiava       #
 000     uava   üi/Z        [gq]uava         #    enaigüi, adeqüi
-000     ava    i/Z         [eo]uava         #    creui, poui
-000     uava   uï/Z        [^eogq]uava      #    evacuï
+000     ava    i/Z         [eoia]uava       #    creui, poui, estiui, desencaui
+000     uava   uï/Z        [^eoiagq]uava    #    evacuï
 000     cava   qui/Z       cava             #    cerqui
 000     çava   ci/Z        çava             #    caci
 000     gava   gui/Z       gava             #    porgui
@@ -721,8 +722,8 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    ïn/Z        [gq]uiava        #    esquiïn
 000     iava   ïn/Z        [^gq]uiava       #
 000     uava   üin/Z       [gq]uava         #    enaigüin, adeqüin
-000     ava    in/Z        [eo]uava         #    creuin, pouin
-000     uava   uïn/Z       [^eogq]uava      #    evacuïn
+000     ava    in/Z        [eoia]uava       #    creuin, pouin, estiuin, desencauin
+000     uava   uïn/Z       [^eoiagq]uava    #    evacuïn
 000     cava   quin/Z      cava             #    cerquin
 000     çava   cin/Z       çava             #    cacin
 000     gava   guin/Z      gava             #    porguin
@@ -838,8 +839,8 @@ REGLA A SFX+ Primera conjugació regular
 000     ava    ï/D         [gq]uiava        #    esquiï
 000     iava   ï/D         [^gq]uiava       #
 000     uava   üi/D        [gq]uava         #    enaigüi, adeqüi
-000     ava    i/D         [eo]uava         #    creui, poui
-000     uava   uï/D        [^eogq]uava      #    evacuï
+000     ava    i/D         [eoia]uava       #    creui, poui, estiui, desencaui
+000     uava   uï/D        [^eoiagq]uava    #    evacuï
 000     cava   qui/D       cava             #    cerqui
 000     çava   ci/D        çava             #    caci
 000     gava   gui/D       gava             #    porgui
@@ -876,8 +877,8 @@ REGLA A SFX+ Primera conjugació regular
 000     iava   ïn/C        [^gq]uiava       #
 000     guava  güin/C      guava            #    enaigüin
 000     uava   üin/Z       [gq]uava         #    enaigüin, adeqüin
-000     ava    in/Z        [eo]uava         #    creuin, pouin
-000     uava   uïn/Z       [^eogq]uava      #    evacuïn
+000     ava    in/Z        [eoia]uava       #    creuin, pouin, estiuin, desencauin
+000     uava   uïn/Z       [^eoiagq]uava    #    evacuïn
 000     cava   quin/C      cava             #    cerquin
 000     çava   cin/C       çava             #    cacin
 000     gava   guin/C      gava             #    porguin

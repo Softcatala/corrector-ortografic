@@ -81,6 +81,7 @@ agràs: PLU=-assos
 agutí: PLU=-ís
 agà: PLU=agàs
 aiguavés: PLU=-essos
+aigua-ros: PLU=aigua-rosos
 alficòs: PLU=-ossos
 anfós: PLU=-ossos
 ambigú: PLU=-ús
@@ -233,6 +234,7 @@ excés: PLU=-essos
 extradós: PLU=-ossos
 fa: PLU=fas
 fas: PLU=fassos
+fax: PLU=faxs faxos
 fe2: PLU=fes
 fenàs: PLU=-assos
 fes1: PLU=-essos
@@ -827,7 +829,7 @@ desatendre: MODEL=atendre/at/desat
 descloure: MODEL=cloure/cl/descl & PAR=desclòs
 
 // descomplaure: quant a la flexió, com plaure
-descomplaure: MODEL=plaure/pl/despl
+descomplaure: MODEL=plaure/pl/descompl
 
 // descompondre: quant a la flexió, com respondre
 descompondre: MODEL=respondre/resp/descomp
@@ -988,6 +990,9 @@ excloure: MODEL=cloure/cl/excl & PAR=exclòs
 
 // expendre: quant a la flexió, com aprendre
 expendre: MODEL=aprendre/apr/exp
+
+// exsoldre: quant a la flexió, com absoldre
+exsoldre: MODEL=absoldre/ab/ex
 
 extraure: IGNORA=1
 
@@ -1446,7 +1451,7 @@ desdir: MODEL=dir1/d/desd
 detenir: MODEL=mantenir/mant/det
 
 // dir1: ger. dient; p. p. dit; ind. pr. dic, dius, diu, diem, dieu, diuen; ind. imperf. deia, etc.; subj. pr. digui, etc.; subj. imperf. digués, etc.; imperat. 2 digues, 5 digueu
-dir1: ALT=diure & GER=dient & IIM=deia & FUT=diré & SIM=digués & PAR=dit/F & -=(diure|IMP[25]) & +=dir<INF0> digues<IMP2> digueu<IMP5> <<102 deim<IPR4> deis<IPR5>  102>>
+dir1: ALT=diure & GER=dient & IIM=deia & FUT=diré & SIM=digués & PAR=dit/F & -=(diure|IMP[25]) & +=dir<INF0> digues<IMP2> digueu<IMP5> <<102 deim<IPR4> deis<IPR5> 102>>
 
 // entredir: quant a la flexió, com dir
 entredir: MODEL=dir1/d/entred
@@ -1695,6 +1700,7 @@ oir: +=ous<IPR2> ou<IPR3> ou<IMP2> ouen<IPR6>
 
 // omplir: p. p. omplert (i, en algunes contrades, omplit); ind. pr. 2 omples, 3 omple
 omplir: IPR3=ompl & -=(IPR[23]|IMP[2]<<!101|PAR!101>>) & +=omplert<PAR0>/F omples<IPR2> omple<IPR3> omple<IMP2> <<201 òmplic<IPR1> òmpliga<SPR1> òmpligues<SPR2> òmpliga<SPR3> òmpliguen<SPR6> òmpliga<IMP3> òmpliguen<IMP6> 201>>
+desomplir: MODEL=omplir/o/deso
 
 // pellobrir-se: quant a la flexió, com obrir
 pellobrir-se: MODEL=obrir/ob/pellob
@@ -3047,7 +3053,7 @@ terraplenar: <<013 +=terraplèn<IPR1> 013>>
 aburgesar: <<013 +=aburgès<IPR1> 013>>
 adossar: <<013 +=adós<IPR1> 013>>
 afrancesar: <<013 +=afrancès<IPR1> 013>>
-anquilosar: <<013 +=anquilós<IPR1> 013>>
+anquilosar: <<013 +=anquilòs<IPR1> 013>>
 apressar: <<013 +=aprés<IPR1> 013>>
 arrebossar: <<013 +=arrebós<IPR1> 013>>
 arrosar: <<013 +=arrós<IPR1> 013>>

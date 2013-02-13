@@ -30,10 +30,29 @@ comparéixer: PAR=comparegut & SIM=comparegués
 comprendre: MODEL=aprendre/apr/compr
 conéixer: PAR=conegut & SIM=conegués
 constrényer: PAR=constret
+
+// córrer: p. p. corregut; ind. pr. córrec, corres, corre, etc.; subj. pr. 1. córrega 2. córregues 3. córrega 4. correguem (o correm), 5 corregueu (o correu) 6. córreguen ; subj. imperf. corregués, etc.
+// córrer: PAR=corregut & SIM=corregués & -=(SPR[1236]|IMP[236]|IPR[123]) & +=corrés/P/(SPR|IMP) córrec<IPR1> corres<IPR2> corre<IPR3> corre<IMP2> & +=córrega córregues córreguen
+// acórrer: MODEL=córrer/c/ac
+// concórrer: MODEL=córrer/c/conc
+// decórrer: MODEL=córrer/c/dec
+// discórrer: MODEL=córrer/c/disc
+// incórrer: MODEL=córrer/c/inc
+// ocórrer: MODEL=córrer/c/oc
+// recórrer: MODEL=córrer/c/rec
+// transcórrer: MODEL=córrer/c/transc
+// descórrer: MODEL=córrer/c/desc
+// encórrer: MODEL=córrer/c/enc
+// escórrer: MODEL=córrer/c/esc
+// socórrer: MODEL=córrer/c/soc
+
 dependre: MODEL=ofendre/of/dep
 desaparéixer: PAR=desaparegut & SIM=desaparegués
+desaprendre: MODEL=aprendre/apr/desapr
 desconéixer: PAR=desconegut & SIM=desconegués
 desmeréixer: PAR=desmerescut & +=desmeresqués<SIM1>/Q
+despendre: MODEL=ofendre/of/desp
+desprendre: MODEL=aprendre/apr/despr
 destrényer: PAR=destret
 empényer: PAR=empés
 espényer: PAR=espés
@@ -42,6 +61,7 @@ fényer: +=fengut<PAR0>/B
 malvendre: MODEL=revendre/rev/malv
 meréixer: PAR=merescut & +=meresqués<SIM1>/Q
 ofendre: GER=ofenent & IPR3=ofén & PAR=ofés & SIM=ofengués
+defendre: GER=defenent & IPR3=defén & PAR=defés & SIM=defengués
 paréixer: PAR=paregut & SIM=paregués
 reaparéixer: PAR=reaparegut & SIM=reaparegués
 reconéixer: PAR=reconegut & SIM=reconegués

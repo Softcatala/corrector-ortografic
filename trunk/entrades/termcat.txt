@@ -60,7 +60,7 @@ ent=al·lofís -isa^cat1=adj.^com1=al·lofís -isa
 ent=al·lorítmia^cat1=f.
 ent=amatriciana^cat1=???^com1=Macarrons a l'amatriciana
 ent=amàtrix^cat1=m.
-ent=amazic^cat1=m.
+ent=amazic -iga^cat1=m. i f.
 ent=ambientalista^cat1=m. i f.
 ent=ametistacitrina^cat1=f.
 ent=ametrina^cat1=f.

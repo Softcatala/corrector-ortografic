@@ -406,10 +406,10 @@ ent=controladament^cat1=adv.
 
 // Paraules diverses
 ent=huitmesó -ona^cat1=adj. i m. i f.
-ent=dehuit^cat1=adj.^cat2=m.
-ent=dehuitè -ena^cat1=adj.^cat2=m.
-ent=dehuité -ena^cat1=adj.^cat2=m.^mrc1=201
-ent=dihuit^cat1=adj.^cat2=m.
+//ent=dehuit^cat1=adj.^cat2=m.
+//ent=dehuitè -ena^cat1=adj.^cat2=m.
+//ent=dehuité -ena^cat1=adj.^cat2=m.^mrc1=201
+//ent=dihuit^cat1=adj.^cat2=m.
 ent=dihuitè -ena^cat1=adj.^cat2=m.
 ent=dihuité -ena^cat1=adj.^cat2=m.^mrc1=201
 
@@ -476,6 +476,24 @@ ent=setanta-setè setanta-setena^cat1=adj.
 ent=setanta-vuitè setanta-vuitena^cat1=adj.
 ent=setanta-huitè setanta-huitena^cat1=adj.
 ent=setanta-novè setanta-novena^cat1=adj.
+ent=vuitanta-unè vuitanta-unena^cat1=adj.
+ent=vuitanta-dosè vuitanta-dosena^cat1=adj.
+ent=vuitanta-tresè vuitanta-tresena^cat1=adj.
+ent=vuitanta-quatrè vuitanta-quatrena^cat1=adj.
+ent=vuitanta-cinquè vuitanta-cinquena^cat1=adj.
+ent=vuitanta-sisè vuitanta-sisena^cat1=adj.
+ent=vuitanta-setè vuitanta-setena^cat1=adj.
+ent=vuitanta-vuitè vuitanta-vuitena^cat1=adj.
+ent=vuitanta-novè vuitanta-novena^cat1=adj.
+ent=huitanta-unè huitanta-unena^cat1=adj.
+ent=huitanta-dosè huitanta-dosena^cat1=adj.
+ent=huitanta-tresè huitanta-tresena^cat1=adj.
+ent=huitanta-quatrè huitanta-quatrena^cat1=adj.
+ent=huitanta-cinquè huitanta-cinquena^cat1=adj.
+ent=huitanta-sisè huitanta-sisena^cat1=adj.
+ent=huitanta-setè huitanta-setena^cat1=adj.
+ent=huitanta-huitè huitanta-huitena^cat1=adj.
+ent=huitanta-novè huitanta-novena^cat1=adj.
 ent=noranta-unè noranta-unena^cat1=adj.
 ent=noranta-dosè noranta-dosena^cat1=adj.
 ent=noranta-tresè noranta-tresena^cat1=adj.

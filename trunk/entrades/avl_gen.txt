@@ -2035,6 +2035,7 @@ ent=decàmetre^cat1=m.
 ent=decatiment^cat1=m.
 ent=decatleta^cat1=m. i f.
 ent=decepcionar^cat1=v. tr.
+ent=decepcionant^cat1=adj.
 ent=decigram^cat1=m.
 ent=decilitre^cat1=m.
 ent=decocte^cat1=m.
