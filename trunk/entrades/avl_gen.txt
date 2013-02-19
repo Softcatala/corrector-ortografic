@@ -5174,7 +5174,7 @@ ent=moscador moscadora^cat1=adj.
 ent=moscar^cat1=v. tr.^cat2=v. intr. i pron.
 ent=mosqueig^cat1=m.
 ent=mosseguello^cat1=m.
-ent=mossèn^cat1=m.
+//ent=mossèn^cat1=m.
 ent=mosset^cat1=m.
 ent=mossot^cat1=m.
 ent=mostatxó^cat1=m.

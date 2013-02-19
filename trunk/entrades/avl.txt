@@ -207,6 +207,7 @@ ent=meréixer^cat1=v. tr. i pron.^mrc1=201
 //ent=monopiré monopirena^cat1=adj.^mrc1=201/H
 //ent=moré morena^cat1=adj.^mrc1=201/H
 // morrofés = morrofès/J
+ent=mossén^cat1=m.
 ent=mossényer^cat1=m.^mrc1=201
 // muntanyés = muntanyès/J
 //ent=naftacé^cat1=m.^mrc1=201/G
