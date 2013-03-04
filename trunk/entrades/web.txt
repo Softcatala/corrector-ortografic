@@ -146,7 +146,7 @@ ent=d'11^cat1=divers^proposta=6
 // Sense fer: d'aproximadament^proposta=550
 // Ja resolt: d'orfes^proposta=471
 // Fals positiu: de'n^proposta=95
-ent=deconstrucció^cat1=f.^proposta=92
+//ent=deconstrucció^cat1=f.^proposta=92
 ent=delegable^cat1=adj.^proposta=93
 // Paraula dubtosa: demès^proposta=94
 ent=desafortunadament^cat1=adv.^proposta=96

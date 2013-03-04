@@ -235,6 +235,7 @@ extradós: PLU=-ossos
 fa: PLU=fas
 fas: PLU=fassos
 fax: PLU=faxs faxos
+telefax: PLU=telefaxs telefaxos
 fe2: PLU=fes
 fenàs: PLU=-assos
 fes1: PLU=-essos
@@ -368,6 +369,7 @@ pedrís: PLU=-issos
 pel: ALT=pel pels & NOVACAT=???
 pendís: PLU=-issos
 perjuí: PLU=-ís
+però: PLU=-òs
 peroné: PLU=-és
 perquè2: PLU=-ès
 pes2: PLU=pes & NOVACAT=???
@@ -387,6 +389,7 @@ proís: PLU=-ïssos
 psi: PLU=psis
 puré: PLU=-és
 qualsevol: PLU=qualssevol
+qualsevulla: PLU=qualssevulla
 quinqué: PLU=-és
 rajà: PLU=-às
 ramàs: PLU=-assos
@@ -419,6 +422,7 @@ sa2: PLU=ses & NOTA1=pot revestir la forma s'
 safareig: PLU=-eigs -etjos
 sagú: PLU=-ús
 salpàs: PLU=-assos
+salispàs: PLU=-assos
 salsifí: PLU=-ís
 sargàs: PLU=-assos
 sargé: PLU=-és
@@ -938,7 +942,7 @@ encórrer: MODEL=córrer/c/enc
 endur-se: ALT=endure & SIM=endugués & PAR=endut/F & -=(INF|du<|dus<) & +=endur<INF0> enduus<IPR2> enduu<IPR3> endú<IMP2> endú<IPR3> endús<IPR2> <<102 enduim<IPR4> enduis<IPR5> enduit<PAR0>/F 102>>
 
 // enfondre: p. p. enfús
-enfondre: PAR=enfús
+enfondre: GER=enfonent & PAR=enfús & SIM=enfongués
 
 // entendre: quant a la flexió, com atendre
 entendre: MODEL=atendre/at/ent
@@ -1096,8 +1100,8 @@ ocórrer: MODEL=córrer/c/oc
 // ofendre: ger. ofenent; p. p. ofès; ind. pr. 1 ofenc, 3 ofèn; subj. pr. ofengui, etc.; subj. imperf. ofengués, etc.
 ofendre: GER=ofenent & IPR3=ofèn & PAR=ofès & SIM=ofengués
 
-// oldre: quant a la flexió, com absoldre
-oldre: MODEL=absoldre/absol/ol
+// oldre: quant a la flexió, com valer
+oldre: MODEL=valer/val/ol
 
 // ometre: p. p. omès
 ometre: PAR=omès
@@ -1105,7 +1109,8 @@ ometre: PAR=omès
 // parèixer: quant a la flexió, com aparèixer
 parèixer: MODEL=aparèixer/apar/par
 
-// péixer: ind. pr. 2 peixes
+// péixer: ind. pr. 2 peixes (però sobra l'infinitiu pàixer, antic)
+péixer: MODEL=néixer/n/p
 
 // percebre: ind. pr. 2 perceps, 3 percep
 
@@ -1271,7 +1276,7 @@ reveure: MODEL=veure/v/rev
 reviure: MODEL=viure1/vi/revi
 
 // riure1: ger. rient; p. p. rigut; ind. pr. ric, rius, riu, riem, rieu, riuen; ind. imperf. reia, etc.; subj. pr. rigui, etc.; subj. imperf. rigués, etc.
-riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués <<201 & += rist<PAR1> ristos<PAR2> rista<PAR3> ristes<PAR4> 201>> <<102 reim<IPR4> reis<IPR5> reis<IMP5> 102>>
+riure1: GER=rient & PAR=rigut & IIM=reia & SIM=rigués <<201 & += rist<PAR1> rists<PAR2> rista<PAR3> ristes<PAR4> 201>> <<102 reim<IPR4> reis<IPR5> reis<IMP5> 102>>
 
 // romandre: ger. romanent; p. p. romàs; ind. pr. 1 romanc, 2 romans, 3 roman; subj. pr. romangui, etc.; subj. imperf. romangués, etc.
 romandre: GER=romanent & PAR=romàs & SIM=romangués
@@ -1788,6 +1793,9 @@ sentir: IPR3=sent
 
 // sobreeixir: quant a la flexió, com reeixir
 sobreeixir: MODEL=reeixir/r/sobr
+
+// sobreimprimir: p. p. sobreimprès
+sobreimprimir: PAR=sobreimprès
 
 // sobresortir: quant a la flexió, com sortir
 sobresortir: MODEL=sortir/sor/sobresor/sur/sobresur

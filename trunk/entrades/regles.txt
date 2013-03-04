@@ -279,9 +279,9 @@ REGLA D SFX+ Pronoms personals enclítics darrere vocal
 REGLA E SFX+ Plurals afegint una s (sense canvis de so) i plurals de [sx][ct]$ i [aeou]ig
 000     0      s           [^ans]           # homes  <PLU>
 000     0      s           [^íéè]n			    # cànon
-000     ín     ins         ín			          # isospín
-000     èn     ens         èn			          # aerotrèn
-000     én     ens         én			          # aerotrén
+000     ín     ins         ín               # isospín
+000     èn     ens         èn               # aerotrèn
+000     én     ens         én               # aerotrén
 000     0      os          [sx][ct]         # boscos, rostos, textos
 000     ig     jos         [aeo]ig          # rajos, baladrejos, rojos 
 000     a      es          [^cçgju]a        # dones

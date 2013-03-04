@@ -252,7 +252,7 @@ rafflesiàcies: ALT=rafflesiàcia & NOVACAT=f.
 senís: PLU=-issos
 teligonàcies: ALT=teligonàcia & NOVACAT=f.
 freelance: PLU=freelance
-superjò: PLU=-jos
+superjò: PLU=-òs
 caixer2: PLU=caixer2
 menorà: PLU=-às
 quibuts: PLU=quibuts
