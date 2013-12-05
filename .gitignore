@@ -1,0 +1,5 @@
+./trunk/genera/bin/
+./trunk/genera/bin/*
+*~
+*.rar
+*.bak
