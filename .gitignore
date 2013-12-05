@@ -1,5 +1,12 @@
-./trunk/genera/bin/
-./trunk/genera/bin/*
+trunk/genera/bin
+trunk/genera/catala/bin
+trunk/genera/catala/obj
+trunk/genera/nucli/obj
+trunk/genera/nucli/bin
+trunk/genera/Tests/bin
+trunk/genera/Tests/obj
+trunk/genera/xspell/bin
+trunk/genera/xspell/obj
 *~
 *.rar
 *.bak
