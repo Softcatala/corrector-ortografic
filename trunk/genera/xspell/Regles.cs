@@ -356,6 +356,8 @@ namespace xspell
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_en.txt", canvia), "release-notes_en.txt", "");
                 //zip.AddStringAsFile(AdaptaFitxer(dirFitxer + @"..\..\OXT\" + "release-notes_ca.txt", canvia), "release-notes_ca.txt", "");
                 zip.AddFile(dirFitxer + @"..\..\OXT\META-INF\" + "manifest.xml", "META-INF/");
+                zip.AddFile(dirFitxer + @"..\..\OXT\images\" + "SC-logo.png","images");
+                zip.AddFile(dirFitxer + @"..\..\OXT\dictionaries\" + "*.*","dictionaries");
                 zip.Save();
             }
             // genera update.xml, release-notes_en.txt i release-notes_ca.txt
