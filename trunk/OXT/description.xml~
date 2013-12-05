@@ -39,8 +39,8 @@
         entry for each language it implements and one default English entry.
         The default entry is the one listed first. -->
     <display-name>
-        <name lang="en">Catalan (%VARIANT%) spelling dictionary, hyphenation rules, and thesaurus</name>
-        <name lang="ca">Català (%VARIANT%): corrector ortogràfic, partició de mots i tesaurus (sinònims i termes relacionats)</name>
+        <name lang="en">Spelling dictionary for Catalan language (%VARIANT%)</name>
+        <name lang="ca">Diccionari ortogràfic per a la llengua catalana (%VARIANT%)</name>
     </display-name>
     
     <!-- Dictionaries should work with all platforms... -->
