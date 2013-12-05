@@ -110,7 +110,7 @@ REP ó Ó
 REP ú Ú
 REP ü Ü
 
-SFX A Y 361
+SFX A Y 363
 SFX A ava ar/CY ava
 SFX A ava ant/C ava
 SFX A ava at/vY ava
@@ -198,6 +198,7 @@ SFX A ava àveu/Z ava
 SFX A ava aven/Z ava
 SFX A ava í/Z [^cçgij]ava
 SFX A cava quí/Z cava
+SFX A uava üí/Z [gq]uava
 SFX A çava cí/Z çava
 SFX A gava guí/Z gava
 SFX A java gí/Z java
@@ -228,8 +229,8 @@ SFX A iava ï/Z [aeiou]iava
 SFX A ava ï/Z [gq]uiava
 SFX A iava ï/Z [^gq]uiava
 SFX A uava üi/Z [gq]uava
-SFX A ava i/Z [eo]uava
-SFX A uava uï/Z [^eogq]uava
+SFX A ava i/Z [eoia]uava
+SFX A uava uï/Z [^eoiagq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -248,8 +249,8 @@ SFX A iava ïs/Z [aeiou]iava
 SFX A ava ïs/Z [gq]uiava
 SFX A iava ïs/Z [^gq]uiava
 SFX A uava üis/Z [gq]uava
-SFX A ava is/Z [eo]uava
-SFX A uava uïs/Z [^eogq]uava
+SFX A ava is/Z [eoia]uava
+SFX A uava uïs/Z [^eoiagq]uava
 SFX A cava quis/Z cava
 SFX A çava cis/Z çava
 SFX A gava guis/Z gava
@@ -268,8 +269,8 @@ SFX A iava ï/Z [aeiou]iava
 SFX A ava ï/Z [gq]uiava
 SFX A iava ï/Z [^gq]uiava
 SFX A uava üi/Z [gq]uava
-SFX A ava i/Z [eo]uava
-SFX A uava uï/Z [^eogq]uava
+SFX A ava i/Z [eoia]uava
+SFX A uava uï/Z [^eoiagq]uava
 SFX A cava qui/Z cava
 SFX A çava ci/Z çava
 SFX A gava gui/Z gava
@@ -303,9 +304,9 @@ SFX A ava ïn/Z [^aeiou][eio]ava
 SFX A iava ïn/Z [aeiou]iava
 SFX A ava ïn/Z [gq]uiava
 SFX A iava ïn/Z [^gq]uiava
-SFX A guava güin/Z guava
-SFX A quava qüin/Z quava
-SFX A uava uïn/Z [^gq]uava
+SFX A uava üin/Z [gq]uava
+SFX A ava in/Z [eoia]uava
+SFX A uava uïn/Z [^eoiagq]uava
 SFX A cava quin/Z cava
 SFX A çava cin/Z çava
 SFX A gava guin/Z gava
@@ -421,8 +422,8 @@ SFX A iava ï/D [aeiou]iava
 SFX A ava ï/D [gq]uiava
 SFX A iava ï/D [^gq]uiava
 SFX A uava üi/D [gq]uava
-SFX A ava i/D [eo]uava
-SFX A uava uï/D [^eogq]uava
+SFX A ava i/D [eoia]uava
+SFX A uava uï/D [^eoiagq]uava
 SFX A cava qui/D cava
 SFX A çava ci/D çava
 SFX A gava gui/D gava
@@ -458,8 +459,9 @@ SFX A iava ïn/C [aeiou]iava
 SFX A ava ïn/C [gq]uiava
 SFX A iava ïn/C [^gq]uiava
 SFX A guava güin/C guava
-SFX A quava qüin/C quava
-SFX A uava uïn/C [^gq]uava
+SFX A uava üin/Z [gq]uava
+SFX A ava in/Z [eoia]uava
+SFX A uava uïn/Z [^eoiagq]uava
 SFX A cava quin/C cava
 SFX A çava cin/C çava
 SFX A gava guin/C gava

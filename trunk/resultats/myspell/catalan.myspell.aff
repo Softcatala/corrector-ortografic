@@ -138,7 +138,7 @@ SFX 3 it ides [gq]uit
 SFX 3 ït ïdes [^gq]uït
 SFX 3 ït ïdes [aeio]ït
 
-SFX A Y 297
+SFX A Y 301
 SFX A ava o ava
 SFX A ava e [^cçgju]ava
 SFX A ava e [^gq]uava
@@ -220,6 +220,7 @@ SFX A ava àveu ava
 SFX A ava aven ava
 SFX A ava í [^cçgij]ava
 SFX A cava quí cava
+SFX A uava üí [gq]uava
 SFX A çava cí çava
 SFX A gava guí gava
 SFX A java gí java
@@ -250,8 +251,8 @@ SFX A iava ï [aeiou]iava
 SFX A ava ï [gq]uiava
 SFX A iava ï [^gq]uiava
 SFX A uava üi [gq]uava
-SFX A ava i [eo]uava
-SFX A uava uï [^eogq]uava
+SFX A ava i [eoia]uava
+SFX A uava uï [^eoiagq]uava
 SFX A cava qui cava
 SFX A çava ci çava
 SFX A gava gui gava
@@ -270,8 +271,8 @@ SFX A iava ïs [aeiou]iava
 SFX A ava ïs [gq]uiava
 SFX A iava ïs [^gq]uiava
 SFX A uava üis [gq]uava
-SFX A ava is [eo]uava
-SFX A uava uïs [^eogq]uava
+SFX A ava is [eoia]uava
+SFX A uava uïs [^eoiagq]uava
 SFX A cava quis cava
 SFX A çava cis çava
 SFX A gava guis gava
@@ -290,8 +291,8 @@ SFX A iava ï [aeiou]iava
 SFX A ava ï [gq]uiava
 SFX A iava ï [^gq]uiava
 SFX A uava üi [gq]uava
-SFX A ava i [eo]uava
-SFX A uava uï [^eogq]uava
+SFX A ava i [eoia]uava
+SFX A uava uï [^eoiagq]uava
 SFX A cava qui cava
 SFX A çava ci çava
 SFX A gava gui gava
@@ -325,9 +326,9 @@ SFX A ava ïn [^aeiou][eio]ava
 SFX A iava ïn [aeiou]iava
 SFX A ava ïn [gq]uiava
 SFX A iava ïn [^gq]uiava
-SFX A guava güin guava
-SFX A quava qüin quava
-SFX A uava uïn [^gq]uava
+SFX A uava üin [gq]uava
+SFX A ava in [eoia]uava
+SFX A uava uïn [^eoiagq]uava
 SFX A cava quin cava
 SFX A çava cin çava
 SFX A gava guin gava
@@ -436,6 +437,9 @@ SFX A gava guessin gava
 SFX A gava guessen gava
 SFX A java gessin java
 SFX A java gessen java
+SFX A uava üin [gq]uava
+SFX A ava in [eoia]uava
+SFX A uava uïn [^eoiagq]uava
 
 SFX B Y 45
 SFX B t da t
