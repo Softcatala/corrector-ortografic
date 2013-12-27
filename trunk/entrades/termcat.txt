@@ -1721,7 +1721,7 @@ ent=plagièdric -a^cat1=adj.^com1=plagièdric -a
 ent=plasmòcit^cat1=m.
 ent=plastòmetre^cat1=m.
 ent=platillo^cat1=m.^com1=Bacallà confitat amb platillo de cigrons i picada medieval
-ent=playa^cat1=f.
+//ent=playa^cat1=f.
 ent=plegall^cat1=m.
 ent=plemòcoa^cat1=f.
 ent=plènum^cat1=m.
